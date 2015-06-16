@@ -1,0 +1,13 @@
+.chroot
+src/
+pkg/
+*.tgz
+*.tar.gz
+*.pkg.tar.xz
+*.zip
+*.log
+*.gem
+*.jar
+*.tar.xz
+*.tar.bz2
+*.pkg.tar.xz.sig
