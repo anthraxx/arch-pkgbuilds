@@ -1,0 +1,24 @@
+#!/bin/bash
+
+old_commit_msg="$(cat ${1})"
+echo -n "" > "${1}"
+
+# new PKGBUILDS
+for path in $(git diff --name-only --cached --diff-filter=A); do
+	if [[ "${path}" =~ .*/PKGBUILD$ ]]; then
+		source "${path}"
+		echo "addpkg: ${pkgname} ${pkgver}-${pkgrel}" >> "${1}"
+	fi
+done
+
+# updated PKGBUILDS
+for path in $(git diff --name-only --cached --diff-filter=M); do
+	if [[ "${path}" =~ .*/PKGBUILD$ ]]; then
+		source "${path}"
+		echo "upgpkg: ${pkgname} ${pkgver}-${pkgrel}" >> "${1}"
+		# If the pkgrel is "1", assume a new version
+		[[ "${pkgrel}" = "1" ]] && echo -e "\nupstream release" >> "${1}"
+	fi
+done
+
+echo "${old_commit_msg}" >> "${1}"
