@@ -1,0 +1,47 @@
+#!/bin/bash
+if [[ $# -eq 0 ]]; then
+	echo "ERROR: No arguments passed."
+	exit 1
+fi
+while [[ "${1}" != "" ]]; do
+	case ${1} in
+		-n|--new|new|-i|--init|init)
+			init=1
+			;;
+		-a|--adopt|adopt|-c|--clone|clone)
+			clone=1
+			;;
+		-u|--update|update|-p|--pull|pull)
+			pull=1
+			;;
+		-l|--list|list)
+			list=1
+			;;
+		*)
+			if [[ -d "${1}" || "${clone}" = "1" || "${list}" = "1" || "${init}" = "1" ]]; then
+				package="${1%/}"
+			else
+				echo "${0}: unrecognized package '${1}'"
+				exit 1
+			fi
+	esac
+	shift
+done
+
+TARGET=aur@aur4.archlinux.org:
+if [[ "${list}" = "1" ]]; then
+	ssh ${TARGET%:} list-repos
+	exit 0
+fi
+if [[ "${clone}" = "1" ]]; then
+	git subtree add -P "${package}" "${TARGET}/${package}" master
+	exit 0
+fi
+if [[ "${pull}" = "1" ]]; then
+	git subtree pull -P "${package}" "${TARGET}/${package}" master
+	exit 0
+fi
+if [[ "${init}" = "1" ]]; then
+	ssh ${TARGET%:} setup-repo "${package}"
+fi
+git subtree push -P "${package}" "${TARGET}/${package}" master
