@@ -1,4 +1,5 @@
 .chroot
+.repo
 src/
 pkg/
 *.tgz
