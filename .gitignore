@@ -1,5 +1,6 @@
-.chroot
-.repo
+.chroot/
+.repo/
+.cache/
 src/
 pkg/
 *.tgz
