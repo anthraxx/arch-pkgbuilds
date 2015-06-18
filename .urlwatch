@@ -1,0 +1,159 @@
+# airoscript
+http://code.google.com/feeds/p/airoscript/downloads/basic
+# cowfortune
+|git ls-remote --tags https://github.com/anthraxx/cowfortune
+# hexer
+http://devel.ringlet.net/editors/hexer/
+# ls++
+|git ls-remote https://github.com/trapd00r/ls--.git
+# lynis
+|git ls-remote --tags https://github.com/CISOfy/Lynis.git
+# p0f
+http://lcamtuf.coredump.cx/p0f3/releases/
+# perl-term-extendedcolor
+|git ls-remote https://github.com/trapd00r/Term-ExtendedColor.git
+# scapy
+|curl http://bb.secdev.org/scapy/downloads 2>/dev/null|grep -E 'v[0-9\.]+.tar.bz2'
+# shellnoob
+|git ls-remote --tags https://github.com/reyammer/shellnoob
+# slowhttptest
+http://code.google.com/feeds/p/slowhttptest/downloads/basic
+# smali
+|curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep tar.gz
+# sslstrip
+http://www.thoughtcrime.org/software/sslstrip/
+# tcpxtract
+http://tcpxtract.sourceforge.net/
+# vit
+|git ls-remote --tags https://git.tasktools.org/scm/ex/vit.git
+# r2-bindings
+|git ls-remote --tags https://github.com/radare/radare2-bindings.git
+# radare2
+|git ls-remote --tags https://github.com/radare/radare2.git
+# perl-term-extendedcolor
+|git ls-remote https://github.com/trapd00r/Term-ExtendedColor.git
+# valabind
+|git ls-remote --tags https://github.com/radare/valabind.git
+# ropgadget
+|git ls-remote --tags https://github.com/JonathanSalwan/ROPgadget.git
+# capstone
+|git ls-remote --tags https://github.com/aquynh/capstone.git
+# rp++
+|git ls-remote --tags https://github.com/0vercl0k/rp.git
+# xdot
+|git ls-remote --tags https://github.com/jrfonseca/xdot.py.git
+# Selene
+|git ls-remote --tags https://github.com/jeremyong/Selene.git
+# xortool
+|git ls-remote --tags https://github.com/hellman/xortool.git
+# dnsmap
+|curl https://code.google.com/p/dnsmap/downloads/list 2>/dev/null|grep dnsmap|grep -v "var CS_env"
+# wifite
+|git ls-remote https://github.com/derv82/wifite.git
+# python-hexdump
+https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags
+# volatility
+|git ls-remote --tags https://github.com/volatilityfoundation/volatility.git
+# hash-identifier
+|svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null
+# bokken
+https://inguma.eu/projects/bokken/repository/raw/.hgtags
+# urxvt-resize-font-git
+|git ls-remote https://github.com/simmel/urxvt-resize-font.git
+# rats
+|curl https://code.google.com/p/rough-auditing-tool-for-security/downloads/list 2>/dev/null|grep -v CS_env|grep -v -E '^ [0-9]{4}$'|grep 'detail?name='
+# wpscan
+|git ls-remote --tags https://github.com/wpscanteam/wpscan.git
+# dirbuster
+http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/|grep 'tr title='
+# qira
+|git ls-remote https://github.com/BinaryAnalysisPlatform/qira.git
+# python-flask-socketio
+|git ls-remote --tags https://github.com/miguelgrinberg/Flask-SocketIO.git
+# python-pyelftools
+|git ls-remote --tags https://github.com/eliben/pyelftools.git
+# ropper
+|git ls-remote --tags https://github.com/sashs/Ropper
+# kippo
+|git ls-remote --tags https://github.com/desaster/kippo
+# conky-manager
+http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/
+# xboxdrv
+|git ls-remote --tags https://github.com/Grumbel/xboxdrv.git
+# metasploit
+|git ls-remote --tags https://github.com/rapid7/metasploit-framework.git
+# binwalk
+|git ls-remote --tags https://github.com/devttys0/binwalk.git
+# tweepy
+|git ls-remote --tags https://github.com/tweepy/tweepy.git
+# pgpdump
+|git ls-remote --tags https://github.com/kazu-yamamoto/pgpdump.git
+# pyexiftool
+|git ls-remote https://github.com/smarnach/pyexiftool.git
+# python-trollius
+https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags
+# pyshark
+|git ls-remote https://github.com/KimiNewt/pyshark
+# pyrit
+|curl https://code.google.com/p/pyrit/downloads/list 2>/dev/null|grep tar.gz
+# nsoq
+|git ls-remote https://github.com/FelipeEcker/nsoq
+# cowpatty
+|curl 'http://www.willhackforsushi.com/?page_id=50' 2>/dev/null|grep tgz
+# irssi-otr
+|git ls-remote --tags https://github.com/cryptodotis/irssi-otr.git
+# python-olefile
+|curl https://bitbucket.org/decalage/olefileio_pl/downloads 2>/dev/null|grep .zip
+# pdb-clone
+|curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|grep pdb-clone
+# pyclewn
+|curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep tar.gz
+# libressl
+|git ls-remote --tags https://github.com/libressl-portable/portable.git
+# w3af
+|git ls-remote --tags https://github.com/andresriancho/w3af.git
+# python-tblib
+|curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep tar
+# python-stopit
+|git ls-remote --tags https://github.com/glenfant/stopit.git
+# python2-darts.util.lru
+|curl https://pypi.python.org/pypi/darts.util.lru 2>/dev/null|grep -i version
+# vundle
+|git ls-remote --tags https://github.com/gmarik/Vundle.vim.git
+# ncmpcpp
+|git ls-remote --tags git://repo.or.cz/ncmpcpp.git
+http://ncmpcpp.rybczak.net/stable/
+# scanmem
+|git ls-remote https://github.com/scanmem/scanmem.git
+# gist
+|git ls-remote --tags https://github.com/defunkt/gist.git
+# moonlight
+|git ls-remote --tags https://github.com/moonlight-stream/moonlight-pc.git
+|git ls-remote --tags https://github.com/irtimmer/moonlight-embedded.git
+# masscan
+|git ls-remote --tags https://github.com/robertdavidgraham/masscan.git
+# radamsa
+|git ls-remote --tags https://github.com/aoh/radamsa
+# synergy
+|git ls-remote --tags https://github.com/synergy/synergy
+# profanity
+|git ls-remote --tags https://github.com/boothj5/profanity
+# fish
+|git ls-remote --tags https://github.com/fish-shell/fish-shell
+# wavemon
+|git ls-remote --tags https://github.com/uoaerg/wavemon
+# afl
+http://lcamtuf.coredump.cx/afl/releases/?O=D
+# hydra
+https://www.thc.org/thc-hydra/
+# pngcrush
+http://pmt.sourceforge.net/pngcrush/changelog.html
+# medusa
+|curl 'http://foofus.net/goons/jmk/tools/?C=N;O=D' 2>/dev/null|grep medusa
+# zaproxy
+|git ls-remote --tags https://github.com/zaproxy/zaproxy.git
+# irssi-xmpp
+http://cybione.org/~irssi-xmpp/files/
+
+# jadx
+|git ls-remote --tags https://github.com/skylot/jadx.git
