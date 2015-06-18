@@ -124,7 +124,7 @@ https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags
 |git ls-remote --tags git://repo.or.cz/ncmpcpp.git
 http://ncmpcpp.rybczak.net/stable/
 # scanmem
-|git ls-remote https://github.com/scanmem/scanmem.git
+|git ls-remote --tags https://github.com/scanmem/scanmem.git
 # gist
 |git ls-remote --tags https://github.com/defunkt/gist.git
 # moonlight
