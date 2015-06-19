@@ -28,6 +28,11 @@ while [[ "${1}" != "" ]]; do
 	shift
 done
 
+if [[ -n "${package}" && -n "$(find .repo -name ${package})" ]]; then
+	echo "${package}: repository package"
+	exit 1
+fi
+
 TARGET=aur@aur4.archlinux.org:
 if [[ "${list}" = "1" ]]; then
 	ssh ${TARGET%:} list-repos
