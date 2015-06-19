@@ -1,0 +1,20 @@
+pkgbase = profanity
+	pkgdesc = Console based XMPP client
+	pkgver = 0.4.6
+	pkgrel = 1
+	epoch = 1
+	url = http://www.profanity.im
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	depends = curl
+	depends = expat
+	depends = glib2
+	depends = libotr
+	depends = libstrophe
+	depends = libnotify
+	source = http://www.profanity.im/profanity-0.4.6.tar.gz
+	md5sums = fda246e678f81f089126f92017774c00
+
+pkgname = profanity
+
