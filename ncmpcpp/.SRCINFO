@@ -1,0 +1,20 @@
+pkgbase = ncmpcpp
+	pkgdesc = Almost exact clone of ncmpc with some new features
+	pkgver = 0.6.4
+	pkgrel = 1
+	url = http://ncmpcpp.rybczak.net/
+	arch = i686
+	arch = x86_64
+	license = GPL
+	makedepends = boost
+	depends = curl
+	depends = libmpdclient
+	depends = taglib
+	depends = ncurses
+	depends = fftw
+	depends = boost-libs
+	source = http://ncmpcpp.rybczak.net/stable/ncmpcpp-0.6.4.tar.bz2
+	sha512sums = c60a6c2c89a9297d73360ec8819e8ae66ca53090c5ea5d3daf235e708467ee20006b1fff344c9312ccb0941c8307f3d84bcdc9cbf500955c74b10bd6a823c19f
+
+pkgname = ncmpcpp
+
