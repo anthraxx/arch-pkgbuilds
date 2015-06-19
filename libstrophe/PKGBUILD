@@ -1,0 +1,37 @@
+# $Id$
+# Maintainer: Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+
+pkgname=libstrophe
+pkgver=0.8.7
+pkgrel=1
+epoch=1
+pkgdesc='Simple, lightweight C library for writing XMPP clients'
+arch=('i686' 'x86_64')
+url='http://strophe.im/libstrophe/'
+license=('MIT' 'GPL3')
+depends=('openssl' 'expat')
+makedepends=('git')
+checkdepends=('check')
+source=($pkgname-$pkgver.tar.gz::https://github.com/strophe/libstrophe/archive/$pkgver.tar.gz)
+md5sums=('30be74c566028b31cfbc91d11a36dce8')
+
+prepare() {
+  cd $pkgname-$pkgver
+  ./bootstrap.sh
+}
+
+build() {
+  cd $pkgname-$pkgver
+  ./configure --prefix=/usr
+  make
+}
+
+check() {
+  make -C $pkgname-$pkgver check
+}
+
+package() {
+  cd $pkgname-$pkgver
+  make DESTDIR="$pkgdir" install
+  install -Dm644 MIT-LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE-MIT
+}

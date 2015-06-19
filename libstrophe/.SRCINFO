@@ -1,0 +1,19 @@
+pkgbase = libstrophe
+	pkgdesc = Simple, lightweight C library for writing XMPP clients
+	pkgver = 0.8.7
+	pkgrel = 1
+	epoch = 1
+	url = http://strophe.im/libstrophe/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	license = GPL3
+	checkdepends = check
+	makedepends = git
+	depends = openssl
+	depends = expat
+	source = libstrophe-0.8.7.tar.gz::https://github.com/strophe/libstrophe/archive/0.8.7.tar.gz
+	md5sums = 30be74c566028b31cfbc91d11a36dce8
+
+pkgname = libstrophe
+
