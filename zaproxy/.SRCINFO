@@ -1,0 +1,14 @@
+pkgbase = zaproxy
+	pkgdesc = Integrated penetration testing tool for finding vulnerabilities in web applications
+	pkgver = 2.4.0
+	pkgrel = 2
+	url = https://www.owasp.org/index.php/ZAP
+	arch = any
+	license = Apache
+	depends = java-runtime
+	depends = ttf-font
+	source = zaproxy-2.4.0.tar.gz::https://downloads.sourceforge.net/project/zaproxy/2.4.0/ZAP_2.4.0_Linux.tar.gz
+	sha512sums = 7b61ac7ebaf6bd98bfe647b4583da5e1d488b1eea093dd4174c45a0ad51268ce7d6f5ea10d3e3ac27aaa299bf94980e78cc6ccb538d186b96612764e1161fbb1
+
+pkgname = zaproxy
+
