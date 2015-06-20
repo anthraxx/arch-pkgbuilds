@@ -154,6 +154,10 @@ http://pmt.sourceforge.net/pngcrush/changelog.html
 |git ls-remote --tags https://github.com/zaproxy/zaproxy.git
 # irssi-xmpp
 http://cybione.org/~irssi-xmpp/files/
+# profanity
+|curl http://www.profanity.im/ 2>/dev/null |grep tar.gz
+# libstrophe
+|git ls-remote --tags https://github.com/strophe/libstrophe.git
 
 # jadx
 |git ls-remote --tags https://github.com/skylot/jadx.git
