@@ -158,6 +158,10 @@ http://cybione.org/~irssi-xmpp/files/
 |curl http://www.profanity.im/ 2>/dev/null |grep tar.gz
 # libstrophe
 |git ls-remote --tags https://github.com/strophe/libstrophe.git
+# tetrinet
+http://tetrinet.or.cz/download/
+# gtetrinet
+|curl http://gtetrinet.sourceforge.net/download.html 2>/dev/null|grep gtetrinet
 
 # jadx
 |git ls-remote --tags https://github.com/skylot/jadx.git
