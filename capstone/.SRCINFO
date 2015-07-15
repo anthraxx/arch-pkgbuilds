@@ -1,7 +1,7 @@
 pkgbase = capstone
 	pkgdesc = A lightweight multi-platform, multi-architecture disassembly framework
-	pkgver = 3.0.3
-	pkgrel = 2
+	pkgver = 3.0.4
+	pkgrel = 1
 	url = http://www.capstone-engine.org/index.html
 	arch = i686
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = capstone
 	makedepends = glibc
 	makedepends = python
 	makedepends = python2
-	source = capstone-3.0.3.tar.gz::https://github.com/aquynh/capstone/archive/3.0.3.tar.gz
-	sha512sums = 5847d89efe2d139d1dacff73547bfe682def6c23310da89dc8b84686e2a718dd361da242417a895bb0fc425401b9baf15348f1994da052a05c2f64a238659c54
+	source = capstone-3.0.4.tar.gz::https://github.com/aquynh/capstone/archive/3.0.4.tar.gz
+	sha512sums = a5c29e7c559b5391d6a4ec9a7f766699ea6d321aa2f1fc57fdcec893107fa3ef2f5f6323629971c1129f1ca087df4f3ad03d0a8234d2eae368c8ccfec04dbf4d
 
 pkgname = capstone
 	depends = glibc
