@@ -1,7 +1,7 @@
 pkgbase = tetrinet
 	pkgdesc = Multiplayer online Tetris game for up to six people
 	pkgver = 0.11
-	pkgrel = 3
+	pkgrel = 4
 	url = http://tetrinet.or.cz/
 	arch = i686
 	arch = x86_64
