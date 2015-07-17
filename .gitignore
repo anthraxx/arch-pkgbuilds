@@ -12,4 +12,5 @@ pkg/
 *.tar.xz
 *.bz2
 *.tar.xz.sig
+*.asc
 /*/*/
