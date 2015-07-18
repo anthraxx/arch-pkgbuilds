@@ -1,0 +1,21 @@
+pkgbase = cjdns
+	pkgdesc = A routing engine designed for security, scalability, speed and ease of use
+	pkgver = 16.1
+	pkgrel = 1
+	url = https://github.com/cjdelisle/cjdns
+	arch = i686
+	arch = x86_64
+	arch = arm
+	arch = armv6h
+	arch = armv7h
+	license = GPL3
+	makedepends = nodejs
+	makedepends = python2
+	depends = glibc
+	depends = sh
+	optdepends = cjdnsify: allows you to run some programs bound to your cjdns address
+	source = cjdns-16.1.tar.gz::https://github.com/cjdelisle/cjdns/archive/cjdns-v16.1.tar.gz
+	sha512sums = f9c2777c972dfc4fbed28c02434fbbb8ff5b740c5d5f7d9be353547c3a4e42f7b376e2ab0e68aa98d0234c4229b00b221ed0f6cdb7e3d33448fe1ea7e02d8af7
+
+pkgname = cjdns
+
