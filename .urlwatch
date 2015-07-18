@@ -155,13 +155,38 @@ http://pmt.sourceforge.net/pngcrush/changelog.html
 # irssi-xmpp
 http://cybione.org/~irssi-xmpp/files/
 # profanity
-|curl http://www.profanity.im/ 2>/dev/null |grep tar.gz
+|curl http://www.profanity.im/ 2>/dev/null|grep tar.gz
 # libstrophe
 |git ls-remote --tags https://github.com/strophe/libstrophe.git
 # tetrinet
 http://tetrinet.or.cz/download/
 # gtetrinet
 |curl http://gtetrinet.sourceforge.net/download.html 2>/dev/null|grep gtetrinet
-
 # jadx
 |git ls-remote --tags https://github.com/skylot/jadx.git
+# asciiquarium
+http://www.robobunny.com/projects/asciiquarium/
+# hashcat
+|curl https://hashcat.net/hashcat/ 2>/dev/null|grep .7z
+# oclhashcat cudahashcat
+|curl https://hashcat.net/oclhashcat/ 2>/dev/null|grep .7z
+# clamtk
+|curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz
+# dnsenum
+|git ls-remote --tags https://github.com/fwaeytens/dnsenum.git
+# cjdns
+|git ls-remote --tags https://github.com/cjdelisle/cjdns.git
+# ruby-paint
+|git ls-remote --tags https://github.com/janlelis/paint.git
+# firmware-mod-kit
+|curl https://code.google.com/p/firmware-mod-kit/downloads/list 2>/dev/null|grep .tar.gz
+# xprobe2
+|curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep xprobe2
+# xmonad-utils
+|curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|grep .tar.gz
+# peda
+|git ls-remote https://github.com/longld/peda.git
+# viper-framework
+|git ls-remote --tags https://github.com/viper-framework/viper.git
+# sqlmap
+|git ls-remote --tags https://github.com/sqlmapproject/sqlmap.git
