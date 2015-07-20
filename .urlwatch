@@ -181,7 +181,7 @@ http://www.robobunny.com/projects/asciiquarium/
 # firmware-mod-kit
 |curl https://code.google.com/p/firmware-mod-kit/downloads/list 2>/dev/null|grep .tar.gz
 # xprobe2
-|curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep xprobe2
+|curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz
 # xmonad-utils
 |curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|grep .tar.gz
 # peda
