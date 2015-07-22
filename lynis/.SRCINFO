@@ -1,7 +1,7 @@
 pkgbase = lynis
 	pkgdesc = Security and system auditing tool to harden Unix/Linux systems
-	pkgver = 2.1.0
-	pkgrel = 2
+	pkgver = 2.1.1
+	pkgrel = 1
 	url = https://cisofy.com/lynis/
 	arch = any
 	license = GPL3
@@ -9,8 +9,8 @@ pkgbase = lynis
 	optdepends = net-tools: networking tests
 	optdepends = bash-completion: completion for bash
 	backup = etc/lynis/default.prf
-	source = lynis-2.1.0.tar.gz::https://github.com/CISOfy/lynis/archive/2.1.0.tar.gz
-	sha512sums = 4ed7fc11b14896518457e5ac8ada35cb8afc798f9fbc6b1b4d9f971b64a93f76215c1c3b2506ac0c12a478f53248eab0fd93347bc262f5fb6c0fe4e663c2e346
+	source = lynis-2.1.1.tar.gz::https://github.com/CISOfy/lynis/archive/2.1.1.tar.gz
+	sha512sums = 99d07a420de943f884e41750f98cfb9248f9367958df55e06faa6d790205812681ebe7d72d9ed1f7086960d9330a3228b6a36c7c8c928341bddcf4aff8155440
 
 pkgname = lynis
 
