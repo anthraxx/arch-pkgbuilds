@@ -183,7 +183,7 @@ http://www.robobunny.com/projects/asciiquarium/
 # xprobe2
 |curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz
 # xmonad-utils
-|curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|grep .tar.gz
+|curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|tr ' ' '\n'|grep .tar.gz
 # peda
 |git ls-remote https://github.com/longld/peda.git
 # viper-framework
