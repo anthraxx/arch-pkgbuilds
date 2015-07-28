@@ -76,6 +76,8 @@ http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/|grep 'tr tit
 |git ls-remote --tags https://github.com/sashs/Ropper
 # kippo
 |git ls-remote --tags https://github.com/desaster/kippo
+# cowrie
+|git ls-remote https://github.com/micheloosterhof/cowrie.git
 # conky-manager
 http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/
 # xboxdrv
