@@ -192,3 +192,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/viper-framework/viper.git
 # sqlmap
 |git ls-remote --tags https://github.com/sqlmapproject/sqlmap.git
+# byacc
+|curl ftp://invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort
