@@ -1,7 +1,7 @@
 pkgbase = synergy
 	pkgdesc = Share a single mouse and keyboard between multiple computers
 	pkgver = 1.7.3
-	pkgrel = 2
+	pkgrel = 3
 	url = http://synergy-foss.org
 	arch = i686
 	arch = x86_64
@@ -22,10 +22,12 @@ pkgbase = synergy
 	source = synergys_at.socket
 	source = synergys_at.service
 	source = fix-incompetence.patch
-	sha1sums = 8b29b172ef6d025f3cdf8fb434eb0e23b6ed896f
-	sha1sums = 7ec33221725fc496b807e0f435c5e87b590beb5d
-	sha1sums = 65ab58cc3546d6374a05a6a260f15045632e43ce
-	sha1sums = 10a899901ef62828280f21979625495f4da159f5
+	source = wrapper
+	sha512sums = 334cad16b843f0a6c1337960d76b37724bdb2a5f9841cffab4dbcbe6393cb0c4323860b64a15cccba1158763ef8cbea820900a5c53d0abbb6a92cfbeff827287
+	sha512sums = f9c124533dfd0bbbb1b5036b7f4b06f7f86f69165e88b9146ff17798377119eb9f1a4666f3b2ee9840bc436558d715cdbfe2fdfd7624348fae64871f785a1a62
+	sha512sums = e85cc3452bb8ba8fcccb1857386c77eb1e4cabb149a1c492c56b38e1b121ac0e7d96c6fcbd3c9b522d3a4ae9d7a9974f4a89fc32b02a56f665be92af219e371c
+	sha512sums = 02eff8a165c33b22239a1e979532b56fbb791cd2a042237f3c3705a4168ec6b833d5dc58a0037375b223af1c34e6bdd8aa9e9c7672a709d7722656c846fe065c
+	sha512sums = a2e126ad3ac53fb855a331134982f86ef81ffc75b73e73b242e6f854fe7e2daec160fac2161acdc7020cd7f57ae0a8826ac7a249ad10b03db614ada0062b3e93
 
 pkgname = synergy
 
