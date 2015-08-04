@@ -1,8 +1,9 @@
 pkgbase = cjdns
 	pkgdesc = A routing engine designed for security, scalability, speed and ease of use
 	pkgver = 16.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/cjdelisle/cjdns
+	install = cjdns.install
 	arch = i686
 	arch = x86_64
 	license = GPL3
