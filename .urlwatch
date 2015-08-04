@@ -196,3 +196,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |curl ftp://invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort
 # zmap
 |git ls-remote --tags https://github.com/zmap/zmap.git
+# sslscan
+|git ls-remote --tags https://github.com/DinoTools/sslscan.git
