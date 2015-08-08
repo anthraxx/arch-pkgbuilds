@@ -36,7 +36,7 @@ if [[ "${force}" != "1" && ( -n "${package}" && -n "$(find .repo -name ${package
 	exit 1
 fi
 
-TARGET=aur@aur4.archlinux.org:
+TARGET=aur@aur.archlinux.org:
 if [[ "${list}" = "1" ]]; then
 	ssh ${TARGET%:} list-repos
 	exit 0
