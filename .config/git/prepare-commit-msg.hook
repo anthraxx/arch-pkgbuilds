@@ -21,4 +21,11 @@ for path in $(git diff --name-only --cached --diff-filter=M); do
 	fi
 done
 
+# deleted PKGBUILD
+for path in $(git diff --name-only --cached --diff-filter=D); do
+	if [[ "${path}" =~ .*/PKGBUILD$ ]]; then
+		echo "rmpkg: ${path%/PKGBUILD}" >> "${1}"
+	fi
+done
+
 echo "${old_commit_msg}" >> "${1}"
