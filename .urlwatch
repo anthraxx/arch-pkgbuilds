@@ -198,3 +198,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/zmap/zmap.git
 # sslscan
 |git ls-remote --tags https://github.com/DinoTools/sslscan.git
+# python-argcomplete
+|git ls-remote --tags https://github.com/kislyuk/argcomplete
