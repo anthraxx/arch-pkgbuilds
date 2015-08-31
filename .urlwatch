@@ -204,3 +204,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/rabbitmq/rabbitmq-server
 # gradle
 |curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort
+# binnavi
+|git ls-remote --tags https://github.com/google/binnavi
