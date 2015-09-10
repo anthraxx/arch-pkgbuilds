@@ -206,3 +206,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort
 # binnavi
 |git ls-remote --tags https://github.com/google/binnavi
+# websocketpp
+|git ls-remote --tags https://github.com/zaphoyd/websocketpp
