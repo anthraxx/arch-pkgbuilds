@@ -1,4 +1,3 @@
-#!/bin/bash
-
+#!/bin/sh
 cd /usr/share/nikto
-perl nikto.pl $@
+exec /usr/bin/perl nikto.pl "$@"
