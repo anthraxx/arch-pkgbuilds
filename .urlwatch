@@ -210,3 +210,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/zaphoyd/websocketpp
 # nikto
 |git ls-remote --tags https://github.com/sullo/nikto
+# ruby-diff-lcs
+|git ls-remote --tags https://github.com/halostatue/diff-lcs
