@@ -1,5 +1,5 @@
 pkgbase = ruby-rspec-support
-	pkgdesc = rspec-support-3.3.0
+	pkgdesc = Common code needed by the other RSpec gems. Not intended for direct use
 	pkgver = 3.3.0
 	pkgrel = 2
 	url = https://github.com/rspec/rspec-support
