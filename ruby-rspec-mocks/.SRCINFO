@@ -1,11 +1,10 @@
 pkgbase = ruby-rspec-mocks
-	pkgdesc = rspec-mocks-3.3.0
+	pkgdesc = RSpecs 'test double' framework, with support for stubbing and mocking
 	pkgver = 3.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://github.com/rspec/rspec-mocks
 	arch = any
 	license = MIT
-	depends = ruby
 	depends = ruby-rspec-support
 	depends = ruby-diff-lcs
 	noextract = rspec-mocks-3.3.0.gem
