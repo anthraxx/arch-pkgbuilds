@@ -1,15 +1,15 @@
 pkgbase = ruby-trollop
-	pkgdesc = Trollop is a commandline option parser for Ruby that just gets out of your way.
+	pkgdesc = Commandline option parser for Ruby that just gets out of your way
 	pkgver = 2.1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://manageiq.github.io/trollop/
 	arch = any
 	license = MIT
 	depends = ruby
-	noextract = trollop-2.1.2.gem
+	noextract = ruby-trollop-2.1.2.gem
 	options = !emptydirs
 	source = https://rubygems.org/downloads/trollop-2.1.2.gem
-	sha1sums = 87a11bff3e9d08702487108cb18e01299112df44
+	sha512sums = afebe220119476fe3b992f430c79c9de06a6b5398f3ccf957bc0e3b3a1bcebd47a350a94882b3c46aa4db93c70002f3d4adabfe95d0338f14149545c7a9e8dc3
 
 pkgname = ruby-trollop
 
