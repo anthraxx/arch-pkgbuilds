@@ -1,6 +1,6 @@
 pkgbase = zmap
 	pkgdesc = Fast network scanner designed for Internet-wide network surveys
-	pkgver = 2.1.0
+	pkgver = 2.1.1
 	pkgrel = 1
 	url = https://zmap.io/
 	arch = i686
@@ -15,8 +15,8 @@ pkgbase = zmap
 	depends = libpcap
 	backup = etc/zmap/blacklist.conf
 	backup = etc/zmap/zmap.conf
-	source = zmap-2.1.0.tar.gz::https://github.com/zmap/zmap/archive/v2.1.0.tar.gz
-	sha512sums = b6e446fd71dc8580e0d23bf76ec2e3b555489abbad9a823405637a64349613ee657a925049b63365d1c048f74ba3c4bebaadde28d0c2802492de7db735c86320
+	source = zmap-2.1.1.tar.gz::https://github.com/zmap/zmap/archive/v2.1.1.tar.gz
+	sha512sums = 9d62dceff77fa20ff5945516b0766340366175947130bb844f19c11dac7676e658bcdedd6be29ffc945706aa3cdc0e4ac207bd127b618592769a4d3e75892857
 
 pkgname = zmap
 
