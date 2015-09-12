@@ -1,7 +1,7 @@
 pkgbase = ruby-rspec-support
 	pkgdesc = rspec-support-3.3.0
 	pkgver = 3.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rspec/rspec-support
 	arch = any
 	license = MIT
