@@ -1,6 +1,6 @@
 pkgbase = afl
 	pkgdesc = Security-oriented fuzzer using compile-time instrumentation and genetic algorithms
-	pkgver = 1.93b
+	pkgver = 1.94b
 	pkgrel = 1
 	url = http://lcamtuf.coredump.cx/afl/
 	arch = i686
@@ -14,8 +14,8 @@ pkgbase = afl
 	replaces = american-fuzzy-lop
 	options = !emptydirs
 	options = !strip
-	source = afl-1.93b.tgz::http://lcamtuf.coredump.cx/afl/releases/afl-1.93b.tgz
-	sha512sums = 2fc402c78c183ab6988957054a40dfd4a48d99536a7f32d573655812eb39e118d9813acfeb6e27b643ef414a23746b7514233acecce6601e04a23feb6e82860a
+	source = afl-1.94b.tgz::http://lcamtuf.coredump.cx/afl/releases/afl-1.94b.tgz
+	sha512sums = 513c01348c7087f3f1f716440af273d342466089400822784d670739bec4ab6094b8d085933ffecc0fb69f966bdc99ed3bfad5966065036c2b8a5015a39683c4
 
 pkgname = afl
 
