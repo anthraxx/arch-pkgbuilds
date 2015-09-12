@@ -178,8 +178,6 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/fwaeytens/dnsenum.git
 # cjdns
 |git ls-remote --tags https://github.com/cjdelisle/cjdns.git
-# ruby-paint
-|git ls-remote --tags https://github.com/janlelis/paint.git
 # firmware-mod-kit
 |curl https://code.google.com/p/firmware-mod-kit/downloads/list 2>/dev/null|grep .tar.gz
 # xprobe2
@@ -210,5 +208,25 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/zaphoyd/websocketpp
 # nikto
 |git ls-remote --tags https://github.com/sullo/nikto
+# gdb-dashboard
+|git ls-remote --tags https://github.com/cyrus-and/gdb-dashboard
+# lolcat
+|git ls-remote --tags https://github.com/busyloop/lolcat
 # ruby-diff-lcs
 |git ls-remote --tags https://github.com/halostatue/diff-lcs
+# ruby-rainbow
+|git ls-remote --tags https://github.com/sickill/rainbow
+# ruby-trollop
+|git ls-remote --tags https://github.com/ManageIQ/trollop
+# ruby-paint
+|git ls-remote --tags https://github.com/janlelis/paint
+# ruby-rspec-support
+|git ls-remote --tags https://github.com/rspec/rspec-support
+# ruby-rspec-core
+|git ls-remote --tags https://github.com/rspec/rspec-core
+# ruby-rspec-mocks
+|git ls-remote --tags https://github.com/rspec/rspec-mocks
+# ruby-rspec-expectations
+|git ls-remote --tags https://github.com/rspec/rspec-expectations
+# ruby-rspec
+|git ls-remote --tags https://github.com/rspec/rspec
