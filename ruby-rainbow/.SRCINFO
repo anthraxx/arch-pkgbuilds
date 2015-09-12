@@ -6,6 +6,7 @@ pkgbase = ruby-rainbow
 	arch = any
 	license = GPL2
 	depends = ruby
+	noextract = rainbow-2.0.0.gem
 	options = !emptydirs
 	source = https://rubygems.org/downloads/rainbow-2.0.0.gem
 	sha512sums = be2c96af48b3e423fd036762f0b496e977727140174e469afd672af0f47c0047a93618b1f792960250b4597da679d31161e29aa412d4ef2f94d8e96102de08ef
