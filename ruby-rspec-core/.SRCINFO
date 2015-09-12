@@ -1,11 +1,10 @@
 pkgbase = ruby-rspec-core
-	pkgdesc = rspec-core-3.3.0
+	pkgdesc = RSpec runner and formatters
 	pkgver = 3.3.0
-	pkgrel = 1
-	url = http://github.com/rspec/rspec-core
+	pkgrel = 2
+	url = https://github.com/rspec/rspec-core
 	arch = any
 	license = MIT
-	depends = ruby
 	depends = ruby-rspec-support
 	noextract = rspec-core-3.3.0.gem
 	options = !emptydirs
