@@ -3,7 +3,7 @@ Description=Port-Knocking Daemon
 After=network.target
 
 [Service]
-ExecStart=/usr/sbin/knockd
+ExecStart=/usr/bin/knockd
 
 [Install]
 WantedBy=multi-user.target

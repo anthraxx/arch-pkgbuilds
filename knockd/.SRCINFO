@@ -1,23 +1,21 @@
 pkgbase = knockd
 	pkgdesc = A simple port-knocking daemon
 	pkgver = 0.7
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.zeroflux.org/projects/knock
 	arch = i686
 	arch = x86_64
-	license = GPL
+	license = GPL2
 	depends = libpcap>=1.0.0
 	backup = etc/knockd.conf
-	source = http://www.zeroflux.org/proj/knock/files/knock-0.7.tar.gz
-	source = knockd
+	source = knockd-0.7.tar.gz::http://www.zeroflux.org/proj/knock/files/knock-0.7.tar.gz
 	source = knockd.logrotate
 	source = knockd.service
 	source = limits.h.patch
-	md5sums = cb6373fd4ccb42eeca3ff406b7fdb8a7
-	md5sums = 72302d899887996694586c3d479de245
-	md5sums = 56a4113ec89ba2e96f79ab23c914d52a
-	md5sums = da806fb9fbdf638df4e0011070ff9ef1
-	md5sums = e56dc7359f36c3b07da6710c404d671e
+	sha512sums = eab5d855f7111d9411e84a56a15e8ea74f41c5bd9dee27ab49f0d8d509eeeb96a60c508928c92916dc0ec9b737c447ca8ca5ed4db6479b389549d60e76a85aa7
+	sha512sums = 3ea2ae9392d3d79bb5df6b75090f6c1a9548979e01dcd4a75471cfa46dbc70401a166496b5158f90fc61326a554acacc38f8605aab02b5b53b75d60a7d80648a
+	sha512sums = 6e5fec91e07fb74169798f320607bd413258af0af48bd2a9c006a02bc97ce4ea9a5293eb9e166b9870c086bf147fca1462b98b3d914d7a28708e9fa2cc9c85cb
+	sha512sums = 5776b8670aa439e77d5ac873b63dd5e4d4b5bfb8f1e8fbf49c7d0c3c8f97e47dca761ef1374b742182b0d9928dba4b719442c5f01ca29249a6aa6da6cbf283ed
 
 pkgname = knockd
 
