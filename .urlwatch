@@ -232,3 +232,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/rspec/rspec
 # yara
 |git ls-remote --tags https://github.com/plusvic/yara
+# yara-python
+|git ls-remote --tags https://github.com/plusvic/yara-python
