@@ -175,9 +175,9 @@ http://www.robobunny.com/projects/asciiquarium/
 # clamtk
 |curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz
 # dnsenum
-|git ls-remote --tags https://github.com/fwaeytens/dnsenum.git
+|git ls-remote --tags https://github.com/fwaeytens/dnsenum
 # cjdns
-|git ls-remote --tags https://github.com/cjdelisle/cjdns.git
+|git ls-remote --tags https://github.com/cjdelisle/cjdns
 # firmware-mod-kit
 |curl https://code.google.com/p/firmware-mod-kit/downloads/list 2>/dev/null|grep .tar.gz
 # xprobe2
