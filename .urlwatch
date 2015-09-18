@@ -20,6 +20,7 @@ http://lcamtuf.coredump.cx/p0f3/releases/
 http://code.google.com/feeds/p/slowhttptest/downloads/basic
 # smali
 |curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep tar.gz
+|git ls-remote --tags https://github.com/JesusFreke/smali
 # sslstrip
 http://www.thoughtcrime.org/software/sslstrip/
 # tcpxtract
