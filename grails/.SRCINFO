@@ -1,0 +1,27 @@
+pkgbase = grails
+	pkgdesc = Groovy on rails, web framework
+	pkgver = 3.0.7
+	pkgrel = 1
+	url = http://grails.org/
+	arch = any
+	license = APACHE
+	makedepends = apache-ant
+	makedepends = unzip
+	makedepends = setconf
+	optdepends = groovy: the groovy programming language
+	optdepends = grails-docs: documentation for grails
+	noextract = grails-docs-3.0.7.zip
+	options = !emptydirs
+	source = https://github.com/grails/grails-core/releases/download/v3.0.7/grails-3.0.7.zip
+	source = https://github.com/grails/grails-doc/releases/download/v3.0.7/grails-docs-3.0.7.zip
+	sha256sums = d99b11e4a8fb1f5a155f1784f482316df96e63d094d5d083a62bc37905380800
+	sha256sums = 328b0179e43fbf2723cf9f7b2d2208289d5c1a39d0eeee7ab0c55b85febce2b8
+
+pkgname = grails
+	depends = java-environment
+	depends = junit
+	depends = bash
+
+pkgname = grails-docs
+	pkgdesc = Documentation for Grails
+
