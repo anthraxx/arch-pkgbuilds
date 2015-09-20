@@ -239,3 +239,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/sivel/speedtest-cli
 # knockd
 |curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep tar.gz
+# grails
+|git ls-remote --tags https://github.com/grails/grails-core
