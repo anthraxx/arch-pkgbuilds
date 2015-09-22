@@ -241,3 +241,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep tar.gz
 # grails
 |git ls-remote --tags https://github.com/grails/grails-core
+# gef
+|git ls-remote https://github.com/hugsy/gef
