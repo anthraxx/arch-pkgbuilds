@@ -1,7 +1,7 @@
 pkgbase = medusa
 	pkgdesc = A speedy, massively parallel, modular, login brute-forcer for network
 	pkgver = 2.1.1
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.foofus.net/jmk/medusa/medusa.html
 	arch = i686
 	arch = x86_64
@@ -16,7 +16,7 @@ pkgbase = medusa
 	optdepends = postgresql-libs: PostgreSQL support
 	optdepends = afpfs-ng: AFP support
 	optdepends = subversion: Subversion support
-	source = http://www.foofus.net/jmk/tools/medusa-2.1.1.tar.gz
+	source = medusa-2.1.1.tar.gz::http://www.foofus.net/jmk/tools/medusa-2.1.1.tar.gz
 	sha512sums = e8ea4a532e1af6dff9c0bcbf761df94b4e9b6f30da50fe2dec7f3402d70a1fdf5297fad84d12b5125f3edbbf350ca439993f60dabecaa46630615d271275b8e9
 
 pkgname = medusa
