@@ -14,5 +14,3 @@ pkg/
 *.tar.xz.sig
 *.asc
 /*/*/
-smali/baksmali-*
-smali/smali-*
