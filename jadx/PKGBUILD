@@ -3,12 +3,12 @@
 
 pkgname=jadx
 pkgver=0.6.0
-pkgrel=3
+pkgrel=4
 pkgdesc='Command line and GUI tools to produce Java source code from Android Dex and APK files'
 url='https://github.com/skylot/jadx'
 arch=('any')
 license=('Apache')
-depends=('java-runtime' 'bash')
+depends=('java-runtime' 'bash' 'fontconfig' 'xorg-font-utils')
 makedepends=('java-environment' 'gradle')
 source=(${pkgname}-${pkgver}.tar.gz::https://github.com/skylot/${pkgname}/archive/v${pkgver}.tar.gz)
 sha512sums=('a1a4488aee4580ae5fbafed856b118bacd875383bf8ac46d9408ecf9de851363408604125a60e5c5c5e065ed6594ba3bdd88aee2890ffe484c4ef58abf7f9366')
@@ -16,6 +16,11 @@ sha512sums=('a1a4488aee4580ae5fbafed856b118bacd875383bf8ac46d9408ecf9de851363408
 build() {
   cd ${pkgname}-${pkgver}
   gradle --gradle-user-home=. dist
+}
+
+check() {
+  cd ${pkgname}-${pkgver}
+  gradle --gradle-user-home=. test
 }
 
 package() {
