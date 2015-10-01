@@ -1,6 +1,6 @@
 pkgbase = smali
 	pkgdesc = An assembler/disassembler for Android's dex format
-	pkgver = 2.0.8
+	pkgver = 2.1.0
 	pkgrel = 1
 	url = https://github.com/JesusFreke/smali
 	arch = any
@@ -9,8 +9,8 @@ pkgbase = smali
 	makedepends = gradle
 	depends = java-runtime
 	depends = bash
-	source = smali-2.0.8.tar.gz::https://github.com/JesusFreke/smali/archive/v2.0.8.tar.gz
-	sha512sums = e56c82b7d48ec0bad8a570cbcb4163755e338ba1e422335393e841fbc093b710539c9fadd07d99968eb8180c3357f731ced6ff7b02ba062f21e9cb29ffff8ad9
+	source = smali-2.1.0.tar.gz::https://github.com/JesusFreke/smali/archive/v2.1.0.tar.gz
+	sha512sums = f0b565b82f02dbb963286d0ff9bf7dfbd468143a49e9320715a5fbd79472e5e1b383876cec4abe8b2fe1ee2342ad055e304911ef5a7057742674438769295d17
 
 pkgname = smali
 
