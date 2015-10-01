@@ -1,5 +1,5 @@
 .chroot/
-.repo/
+.repo/*/
 .cache/
 src/
 pkg/
