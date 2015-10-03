@@ -243,3 +243,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote --tags https://github.com/grails/grails-core
 # gef
 |git ls-remote https://github.com/hugsy/gef
+# distorm
+|git ls-remote https://github.com/gdabah/distorm
