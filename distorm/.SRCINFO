@@ -1,14 +1,14 @@
 pkgbase = distorm
-	pkgdesc = The ultimate disassembler (for AMD64, X86-64)
+	pkgdesc = Powerful disassembler library for x86/AMD64
 	pkgver = 3.3.0
-	pkgrel = 1
-	url = http://code.google.com/p/distorm/
+	pkgrel = 2
+	url = https://github.com/gdabah/distorm
 	arch = i686
 	arch = x86_64
-	license = GPL
+	license = GPL3
 	depends = python2
-	source = http://distorm.googlecode.com/files/distorm3.zip
-	md5sums = 2cd594169fc96b4442056b7494c09153
+	source = distorm-3.3.0.tar.gz::https://github.com/gdabah/distorm/archive/v3.3.0.tar.gz
+	sha512sums = 5582d4f52eeb0eee5a3fa352af97c785281b0b4bd42b237d5ca9354114d1311b0976b34f6949c1b14848c9c7a1b972775b7c2644d557700b4878b6c154161cb8
 
 pkgname = distorm
 
