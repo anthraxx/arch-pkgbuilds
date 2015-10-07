@@ -245,3 +245,5 @@ http://www.robobunny.com/projects/asciiquarium/
 |git ls-remote https://github.com/hugsy/gef
 # distorm
 |git ls-remote https://github.com/gdabah/distorm
+# afl-utils
+|git ls-remote https://github.com/rc0r/afl-utils
