@@ -246,4 +246,7 @@ http://www.robobunny.com/projects/asciiquarium/
 # distorm
 |git ls-remote https://github.com/gdabah/distorm
 # afl-utils
-|git ls-remote https://github.com/rc0r/afl-utils
+|git ls-remote --tags https://github.com/rc0r/afl-utils
+# sslsplit
+https://mirror.roe.ch/rel/sslsplit/
+|git ls-remote --tags https://github.com/droe/sslsplit
