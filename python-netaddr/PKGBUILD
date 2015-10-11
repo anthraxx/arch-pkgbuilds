@@ -1,37 +1,61 @@
-# Maintainer: Sebastien LEDUC <sebastien@sleduc.fr>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Sebastien LEDUC <sebastien@sleduc.fr>
 # Contributor: Gilles CHAUVIN <gcnweb at gmail dot com>
 
+pkgbase=python-netaddr
 pkgname=('python-netaddr' 'python2-netaddr')
+_pyname=netaddr
 pkgver=0.7.18
-_realname=netaddr
-pkgrel=2
+pkgrel=3
 pkgdesc="A pure Python network address representation and manipulation library"
+url="https://github.com/drkjam/netaddr"
 arch=('any')
 license=('BSD')
-url="http://github.com/drkjam/netaddr/"
-makedepends=('python' 'python2')
-source=("https://pypi.python.org/packages/source/n/netaddr/netaddr-${pkgver}.tar.gz")
-md5sums=('c65bb34f8bedfbbca0b316c490cd13a0')
+makedepends=('python-sphinx' 'python2-sphinx')
+checkdepends=('python-pytest' 'python2-pytest')
+source=(${pkgbase}-${pkgver}.tar.gz::https://github.com/drkjam/${_pyname}/archive/${_pyname}-${pkgver}.tar.gz)
+sha512sums=('34da8f1b61925b4fb1997faff42aea047fad21c7bcda7a111dabe9b06773f6dfa501bee0fa1006c0e8bef02850bd16a68542330f0b793620ff068401f444d527')
 
 prepare() {
-  cp -a "${srcdir}/${_realname}-${pkgver}"{,-python2}
+  cd ${_pyname}-${_pyname}-${pkgver}
+  sed -r 's|#!/usr/bin/env python||g' -i netaddr/eui/ieee.py netaddr/ip/iana.py
+}
+
+build() {
+  cd ${_pyname}-${_pyname}-${pkgver}/docs
+  make man text
+}
+
+check() {
+  cd ${_pyname}-${_pyname}-${pkgver}
+  py.test
+  py.test2
 }
 
 package_python-netaddr() {
-  depends=("python")
-  optdepends=('ipython: used to work with the netaddr interractive command')
+  depends=('python')
+  optdepends=('ipython: netaddr interractive command support')
 
-  cd "$srcdir/$_realname-$pkgver"
-  python setup.py install --root="$pkgdir"/ --optimize=1
+  cd ${_pyname}-${_pyname}-${pkgver}
+  python setup.py install -O1 --root="${pkgdir}"
+  install -Dm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm 644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm 644 docs/build/text/* -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 docs/build/man/netaddr.1 "${pkgdir}/usr/share/man/man1/netaddr.1"
 }
 
 package_python2-netaddr() {
-  depends=("python2")
-  optdepends=('ipython2: used to work with the netaddr interractive command')
+  depends=('python2')
+  optdepends=('ipython2: netaddr interractive command supprt')
 
-  cd "$srcdir/$_realname-$pkgver-python2"
-  python2 setup.py install --root="$pkgdir"/ --optimize=1
-  mv ${pkgdir}/usr/bin/netaddr{,2}
+  cd ${_pyname}-${_pyname}-${pkgver}
+  python2 setup.py install -O1 --root="${pkgdir}"
+  mv "${pkgdir}"/usr/bin/netaddr{,2}
+  sed -r 's|(env python)|\12|g' -i "${pkgdir}/usr/bin/netaddr2"
+  install -Dm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm 644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm 644 docs/build/text/* -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 docs/build/man/netaddr.1 "${pkgdir}/usr/share/man/man1/netaddr2.1"
 }
-# vim:set ts=2 sw=2 et:
 
+# vim: ts=2 sw=2 et:

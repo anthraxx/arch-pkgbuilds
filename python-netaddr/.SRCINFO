@@ -1,20 +1,22 @@
 pkgbase = python-netaddr
 	pkgdesc = A pure Python network address representation and manipulation library
 	pkgver = 0.7.18
-	pkgrel = 2
-	url = http://github.com/drkjam/netaddr/
+	pkgrel = 3
+	url = https://github.com/drkjam/netaddr
 	arch = any
 	license = BSD
-	makedepends = python
-	makedepends = python2
-	source = https://pypi.python.org/packages/source/n/netaddr/netaddr-0.7.18.tar.gz
-	md5sums = c65bb34f8bedfbbca0b316c490cd13a0
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
+	makedepends = python-sphinx
+	makedepends = python2-sphinx
+	source = python-netaddr-0.7.18.tar.gz::https://github.com/drkjam/netaddr/archive/netaddr-0.7.18.tar.gz
+	sha512sums = 34da8f1b61925b4fb1997faff42aea047fad21c7bcda7a111dabe9b06773f6dfa501bee0fa1006c0e8bef02850bd16a68542330f0b793620ff068401f444d527
 
 pkgname = python-netaddr
 	depends = python
-	optdepends = ipython: used to work with the netaddr interractive command
+	optdepends = ipython: netaddr interractive command support
 
 pkgname = python2-netaddr
 	depends = python2
-	optdepends = ipython2: used to work with the netaddr interractive command
+	optdepends = ipython2: netaddr interractive command supprt
 
