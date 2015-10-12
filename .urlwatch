@@ -151,7 +151,7 @@ http://lcamtuf.coredump.cx/afl/releases/?O=D
 https://www.thc.org/thc-hydra/
 # pngcrush
 http://pmt.sourceforge.net/pngcrush/changelog.html
-|curl 'http://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href
+|curl 'http://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush
 # medusa
 |curl 'http://foofus.net/goons/jmk/tools/?C=N;O=D' 2>/dev/null|grep medusa
 # zaproxy
