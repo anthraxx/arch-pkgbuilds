@@ -1,10 +1,10 @@
-# Maintainer: Levente Polyak <levente[at]leventepolyak[dot]net>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Randy Heydon <randy.heydon at clockworklab dot net>
 
 pkgname=xdot
 _pkgname=${pkgname}.py
 pkgver=0.6
-pkgrel=3
+pkgrel=4
 pkgdesc="Interactive viewer for graphs written in Graphviz's dot language"
 url="https://github.com/jrfonseca/xdot.py"
 arch=('any')
