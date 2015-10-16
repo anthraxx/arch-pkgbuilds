@@ -251,3 +251,5 @@ http://www.robobunny.com/projects/asciiquarium/
 # sslsplit
 https://mirror.roe.ch/rel/sslsplit/
 |git ls-remote --tags https://github.com/droe/sslsplit
+# unicorn
+|git ls-remote --tags https://github.com/unicorn-engine/unicorn
