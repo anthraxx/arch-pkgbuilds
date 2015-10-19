@@ -1,7 +1,7 @@
 pkgbase = ncmpcpp
 	pkgdesc = Almost exact clone of ncmpc with some new features
 	pkgver = 0.6.7
-	pkgrel = 1
+	pkgrel = 2
 	url = http://ncmpcpp.rybczak.net/
 	arch = i686
 	arch = x86_64
