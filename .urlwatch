@@ -251,5 +251,9 @@ http://www.robobunny.com/projects/asciiquarium/
 # sslsplit
 https://mirror.roe.ch/rel/sslsplit/
 |git ls-remote --tags https://github.com/droe/sslsplit
+# python-netaddr
+|git ls-remote --tags https://github.com/drkjam/netaddr
+# mdk3
+|curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep tar
 # unicorn
 |git ls-remote --tags https://github.com/unicorn-engine/unicorn
