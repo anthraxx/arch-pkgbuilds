@@ -18,12 +18,14 @@ libstrophe
 lolcat
 lynis
 masscan
+mdk3
 medusa
 ncmpcpp
 nikto
 p0f
 pngcrush
 profanity
+python-netaddr
 rabbitmq
 radare2
 ruby-diff-lcs
@@ -35,6 +37,7 @@ ruby-rspec-expectations
 ruby-rspec-mocks
 ruby-rspec-support
 ruby-trollop
+scanmem
 scapy
 smali
 speedtest-cli
