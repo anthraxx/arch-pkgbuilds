@@ -1,24 +1,33 @@
-# Maintainer: Andrés Cordero <arch@andrew67.com>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Andrés Cordero <arch@andrew67.com>
 # Contributor: Jens Pranaitis <jens@chaox.net>
+
 pkgname=mdk3
 pkgver=v6
+pkgrel=6
 pkgdesc="WLAN penetration tool"
-pkgrel=5
-arch=("i686" "x86_64")
-license=('GPL')
 url="http://aspj.aircrack-ng.org/"
-makedepends=('sed')
-source=(http://aspj.aircrack-ng.org/$pkgname-$pkgver.tar.bz2)
-md5sums=('67705a814ded2a2e6f70522ca0dc6da9')
+arch=("i686" "x86_64")
+license=('GPL2')
+depends=('glibc')
+source=(${pkgname}-${pkgver}.tar.bz2::http://aspj.aircrack-ng.org/${pkgname}-${pkgver}.tar.bz2)
+sha512sums=('a5180fc231c2e041064467b9415d2d238ea680f19c88b2320983dd6dbe91a62af1a37da0fc548c1b0860ede046e1f9976dec729c919d8e6c0ab98231990dfec4')
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  sed "s|-g -O3|${CFLAGS}|g" -i Makefile
+  sed 's|sbin|bin|g' -i Makefile
+}
+
 build() {
-  cd "${srcdir}"/$pkgname-$pkgver
-  sed -i -e "s:/usr/local:/usr:" Makefile
-  sed -i "s|-g -O3|$CFLAGS|g" Makefile
-  make -C osdep || return 1
-  make || return 1
+  cd ${pkgname}-${pkgver}
+  make -C osdep
+  make
 }
 package() {
-  cd "${srcdir}"/$pkgname-$pkgver
-  make DESTDIR="${pkgdir}/" install || return 1
-  mv ${pkgdir}/usr/sbin ${pkgdir}/usr/bin || return 1
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" PREFIX="/usr" install
+  install -Dm 644 docs/*.html -t "${pkgdir}/usr/share/doc/${pkgname}"
 }
+
+# vim: ts=2 sw=2 et:

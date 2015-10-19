@@ -1,14 +1,14 @@
 pkgbase = mdk3
 	pkgdesc = WLAN penetration tool
 	pkgver = v6
-	pkgrel = 5
+	pkgrel = 6
 	url = http://aspj.aircrack-ng.org/
 	arch = i686
 	arch = x86_64
-	license = GPL
-	makedepends = sed
-	source = http://aspj.aircrack-ng.org/mdk3-v6.tar.bz2
-	md5sums = 67705a814ded2a2e6f70522ca0dc6da9
+	license = GPL2
+	depends = glibc
+	source = mdk3-v6.tar.bz2::http://aspj.aircrack-ng.org/mdk3-v6.tar.bz2
+	sha512sums = a5180fc231c2e041064467b9415d2d238ea680f19c88b2320983dd6dbe91a62af1a37da0fc548c1b0860ede046e1f9976dec729c919d8e6c0ab98231990dfec4
 
 pkgname = mdk3
 
