@@ -21,6 +21,7 @@ sha512sums=('87c55f3f43c0342cbcc46227a1e4cfe3f23e215adc68e376991b85344b00b56e7b5
 prepare() {
   cd "${pkgname}-${pkgver}"
   sed -r 's|(= -pipe)|+\1|g' -i Makefile
+  sed 's|-g3 -ggdb||g' -i Makefile
   patch -Np1 < "${srcdir}/cowpatty-4.6-fixup16.patch"
 }
 
