@@ -5,6 +5,7 @@ byacc
 capstone
 cjdns
 cowpatty
+conky-manager
 distorm
 fish
 gist
@@ -27,6 +28,7 @@ nikto
 p0f
 pngcrush
 profanity
+pyrit
 python-netaddr
 rabbitmq
 radare2
