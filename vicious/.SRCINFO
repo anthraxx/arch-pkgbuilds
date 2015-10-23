@@ -1,0 +1,17 @@
+pkgbase = vicious
+	pkgdesc = Widgets for the Awesome window manager
+	pkgver = 2.1.3
+	pkgrel = 2
+	url = http://git.sysphere.org/vicious/about/
+	arch = any
+	license = GPL2
+	depends = lua
+	optdepends = hddtemp: for the HDD Temp widget type
+	optdepends = alsa-utils: for the Volume widget type
+	optdepends = wireless_tools: for the Wireless widget type
+	optdepends = curl: for widget types accessing network resources
+	source = http://git.sysphere.org/vicious/snapshot/vicious-2.1.3.tar.xz
+	md5sums = 457c286dae9ec4870f3349bf7cbff0f7
+
+pkgname = vicious
+
