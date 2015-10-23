@@ -30,3 +30,7 @@ reverse-sync-repo:
 		echo "$(BOLD)$(GREEN)[+] $(RST)$(BOLD)syncing $${PKG}...$(RST)"; \
 		cp .repo/*/$${PKG}/trunk/PKGBUILD $${PKG}/PKGBUILD; \
 	done
+
+update-index-file:
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating community.pkgs index file...$(RST)"
+	ls .repo/svn-community|sort > .repo/community.pkgs	
