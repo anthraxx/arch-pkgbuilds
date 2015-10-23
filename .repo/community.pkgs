@@ -1,11 +1,12 @@
 afl
 afl-utils
 asciiquarium
+awesome
 byacc
 capstone
 cjdns
-cowpatty
 conky-manager
+cowpatty
 distorm
 fish
 gist
@@ -17,6 +18,7 @@ hexer
 hydra
 jadx
 knockd
+ldoc
 libstrophe
 lolcat
 lynis
@@ -25,7 +27,9 @@ mdk3
 medusa
 ncmpcpp
 nikto
+openntpd
 p0f
+penlight
 pngcrush
 profanity
 pyrit
@@ -51,6 +55,8 @@ sslstrip
 synergy
 tetrinet
 valabind
+vicious
+vsftpd
 wavemon
 xdot
 yara

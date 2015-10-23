@@ -257,3 +257,17 @@ https://mirror.roe.ch/rel/sslsplit/
 |curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep tar
 # unicorn
 |git ls-remote --tags https://github.com/unicorn-engine/unicorn
+# haskell-parsec
+|git ls-remote --tags https://github.com/aslatter/parsec
+# awesome
+|git ls-remote --tags https://github.com/awesomeWM/awesome
+# ldoc
+|git ls-remote --tags https://github.com/stevedonovan/LDoc
+# openntpd
+|git ls-remote --tags https://github.com/openntpd-portable/openntpd-portable
+# penlight
+|git ls-remote --tags https://github.com/stevedonovan/Penlight
+# vicious
+|git ls-remote --tags http://git.sysphere.org/vicious
+# vsftpd
+https://security.appspot.com/vsftpd/Changelog.txt
