@@ -1,0 +1,19 @@
+pkgbase = haskell-parsec
+	pkgdesc = Monadic parser combinators
+	pkgver = 3.1.9
+	pkgrel = 5
+	url = http://hackage.haskell.org/package/parsec
+	install = haskell-parsec.install
+	arch = i686
+	arch = x86_64
+	license = custom:BSD3
+	depends = ghc=7.10.2
+	depends = sh
+	depends = haskell-mtl
+	depends = haskell-text
+	options = staticlibs
+	source = http://hackage.haskell.org/packages/archive/parsec/3.1.9/parsec-3.1.9.tar.gz
+	md5sums = 6ec46302afa68518bac5f1117b6349f5
+
+pkgname = haskell-parsec
+
