@@ -1,0 +1,14 @@
+pkgbase = ldoc
+	pkgdesc = LuaDoc-compatible documentation generation system
+	pkgver = 1.4.3
+	pkgrel = 2
+	url = http://stevedonovan.github.com/ldoc/
+	arch = any
+	license = custom
+	depends = lua
+	depends = lua-penlight
+	source = ldoc-1.4.3.tar.gz::https://github.com/stevedonovan/ldoc/archive/1.4.3.tar.gz
+	md5sums = eda6879140dce9435f5a264ef970a205
+
+pkgname = ldoc
+
