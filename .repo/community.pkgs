@@ -30,6 +30,7 @@ nikto
 openntpd
 p0f
 penlight
+pgpdump
 pngcrush
 profanity
 pyrit
@@ -58,6 +59,7 @@ valabind
 vicious
 vsftpd
 wavemon
+websocketpp
 xdot
 yara
 zaproxy
