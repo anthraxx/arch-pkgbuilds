@@ -1,7 +1,7 @@
 pkgbase = websocketpp
 	pkgdesc = C++/Boost Asio based websocket client/server library
 	pkgver = 0.6.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.zaphoyd.com/websocketpp/
 	arch = any
 	license = BSD
