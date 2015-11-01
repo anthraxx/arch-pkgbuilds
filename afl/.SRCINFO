@@ -14,6 +14,7 @@ pkgbase = afl
 	optdepends = gcc: gcc instrumentation support
 	optdepends = clang: clang instrumentation support
 	optdepends = llvm: experimental clang-fast instrumentation support
+	optdepends = gnuplot: graph plotting support
 	provides = american-fuzzy-lop
 	replaces = american-fuzzy-lop
 	options = !emptydirs
