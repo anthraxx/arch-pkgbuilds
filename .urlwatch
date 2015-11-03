@@ -271,3 +271,6 @@ https://mirror.roe.ch/rel/sslsplit/
 |git ls-remote --tags http://git.sysphere.org/vicious
 # vsftpd
 https://security.appspot.com/vsftpd/Changelog.txt
+# python-ujson
+|curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.gz'
+|git ls-remote --tags http://github.com/esnme/ultrajson
