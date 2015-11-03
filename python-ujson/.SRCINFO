@@ -1,15 +1,21 @@
 pkgbase = python-ujson
-	pkgdesc = Ultra fast JSON encoder and decoder for Python.
+	pkgdesc = Ultra fast JSON encoder and decoder for Python
 	pkgver = 1.33
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/esnme/ultrajson
 	arch = i686
 	arch = x86_64
 	license = BSD
-	source = http://pypi.python.org/packages/source/u/ujson/ujson-1.33.zip
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = https://pypi.python.org/packages/source/u/ujson/ujson-1.33.zip
 	source = LICENSE.txt
-	sha256sums = 68cf825f227c82e1ac61e423cfcad923ff734c27b5bdd7174495d162c42c602b
-	sha256sums = 45b0247dc589415c76f5e2055bfa073f673870e9eb0b4177cc3c642efb434559
+	sha512sums = 0f1f66212fbf94c03e048ba64c3bd817c50443d1a29b87f6a3a38f697a050f38821be4ba36a3b17a96930c69ee92973ac31bdd41851dea071af14cd4bbaf8480
+	sha512sums = 74a87d69556e526768fe1d0d0b6ff888b8b34ab7e5c651a96b4e4c42599ce67825cd5a12222ad3a20745faf230eb778737b03afb5fe944057cd7dc705c4b5b6f
 
 pkgname = python-ujson
+	depends = python
+
+pkgname = python2-ujson
+	depends = python2
 
