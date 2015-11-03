@@ -1,6 +1,6 @@
 pkgbase = cjdns
 	pkgdesc = A routing engine designed for security, scalability, speed and ease of use
-	pkgver = 17
+	pkgver = 17.1
 	pkgrel = 1
 	url = https://github.com/cjdelisle/cjdns
 	install = cjdns.install
@@ -11,8 +11,8 @@ pkgbase = cjdns
 	makedepends = python2
 	depends = glibc
 	depends = sh
-	source = cjdns-17.tar.gz::https://github.com/cjdelisle/cjdns/archive/cjdns-v17.tar.gz
-	sha512sums = 1f5c2ecf2182c666fb6f62452e2cf70f03158987e9fdebcbb26b67836707eec7ef43849d25058ced159f701598bd506b63170ddfb545e4a3698ce87805d9630a
+	source = cjdns-17.1.tar.gz::https://github.com/cjdelisle/cjdns/archive/cjdns-v17.1.tar.gz
+	sha512sums = aac6fc6d18bfd35d81a1cb4d1a72e7d8ed3aca8546780abec4994daf913d520956f917b9dd7ee3b93fc37504830a6cebf56a80976f74a4f576b35ab4de0ad3b7
 
 pkgname = cjdns
 
