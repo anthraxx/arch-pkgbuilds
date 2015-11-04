@@ -3,34 +3,29 @@
 # Contributor: Wes Brown <wesbrown18@gmail.com>
 
 pkgname=volatility
-pkgver=2.4.1
-pkgrel=4
+pkgver=2.5
+pkgrel=1
 pkgdesc="Advanced memory forensics framework"
 url="https://github.com/volatilityfoundation/volatility/wiki"
 arch=('any')
 license=('GPL2')
-depends=('python2-crypto' 'distorm')
+depends=('distorm' 'python2-crypto' 'python2-ujson')
 optdepends=(
   'python2-yara: classify malware support'
   'python2-pillow: screenshots plugin support'
-  'python2-openpyxl: excel file support'
   'python2-pytz: timezone conversion support'
   'ipython2: enhanced volshell support'
   'libforensic1394: firewire live analysis support'
   'libraw1394: alternative firewire live analysis support'
+  'python2-openpyxl: Excel xlsx/xlsm files support'
 )
 makedepends=('python2-setuptools')
 source=(${pkgname}-${pkgver}.tar.gz::https://github.com/volatilityfoundation/${pkgname}/archive/${pkgver}.tar.gz)
-sha512sums=('cc2db2a17b071a21852bab967c9615df0fce369dac35ffbca8754bc789e218a86fc88bd2042203174308e620e281a24debc7b0a8bacd516a404a9170ea522596')
+sha512sums=('137a0727106beb2321f956c53f304ae4ff00397da935d490c595e7b657bdec348cd5ac4472ba9da8c7ce2a1a8559e33535df7b68efb815084217f131cb044632')
 
 prepare() {
   cd ${pkgname}-${pkgver}
   sed -e 's/env python$/env python2/g' -i tools/vtype_diff.py
-}
-
-build() {
-  cd ${pkgname}-${pkgver}
-  python2 setup.py build
 }
 
 package() {
