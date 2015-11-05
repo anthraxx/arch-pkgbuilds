@@ -276,3 +276,5 @@ https://security.appspot.com/vsftpd/Changelog.txt
 |git ls-remote --tags http://github.com/esnme/ultrajson
 # thc-ipv6
 |curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz
+# fwknop
+|git ls-remote --tags https://github.com/mrash/fwknop
