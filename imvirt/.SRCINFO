@@ -1,14 +1,19 @@
 pkgbase = imvirt
-	pkgdesc = Detect the virtualization technology of a machine, it is run in.
-	pkgver = 0.9.0
-	pkgrel = 2
+	pkgdesc = Detect the virtualization technology of a machine, it is run in
+	pkgver = 0.9.6
+	pkgrel = 1
 	url = http://micky.ibh.net/~liske/imvirt.html
 	arch = i686
 	arch = x86_64
-	license = GPL
+	license = GPL2
 	depends = perl
-	source = http://sourceforge.net/projects/imvirt/files/imvirt/0.9.0/imvirt-0.9.0.tar.gz/download
-	md5sums = 025e3e264593d149053b87ae5fae96ba
+	depends = dmidecode
+	depends = perl-module-find
+	depends = perl-file-slurp
+	depends = perl-data-dumper
+	options = !emptydirs
+	source = imvirt-0.9.6.tar.gz::https://github.com/DE-IBH/imvirt/archive/v0.9.6.tar.gz
+	sha512sums = a3e6d8d6ff48f8e97c448443c0a5bff4d50db4721704e083be74c3dba78b43422678a8fd93841d82a7f34e12a70cb578a2052f9898817efe5101e4a2d21d5f0b
 
 pkgname = imvirt
 
