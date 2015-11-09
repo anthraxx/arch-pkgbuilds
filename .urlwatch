@@ -278,3 +278,7 @@ https://security.appspot.com/vsftpd/Changelog.txt
 |curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz
 # fwknop
 |git ls-remote --tags https://github.com/mrash/fwknop
+# ttytter
+|curl http://www.floodgap.com/software/ttytter/dist2/ 2>/dev/null|grep href|grep -v 'nano_inetd_turbo/AIX'
+# imvirt
+|git ls-remote --tags https://github.com/DE-IBH/imvirt
