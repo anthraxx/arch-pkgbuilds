@@ -16,6 +16,7 @@ gtetrinet
 haskell-parsec
 hexer
 hydra
+imvirt
 jadx
 knockd
 ldoc
@@ -30,12 +31,17 @@ nikto
 openntpd
 p0f
 penlight
+perl-module-find
 perl-term-extendedcolor
 pgpdump
 pngcrush
+powerdns
+powerdns-recursor
 profanity
 pyrit
+python-hexdump
 python-netaddr
+python-ujson
 rabbitmq
 radare2
 ruby-diff-lcs
@@ -56,8 +62,10 @@ sslsplit
 sslstrip
 synergy
 tetrinet
+thc-ipv6
 valabind
 vicious
+volatility
 vsftpd
 wavemon
 websocketpp
