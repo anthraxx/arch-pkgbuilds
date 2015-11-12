@@ -44,6 +44,7 @@ python-netaddr
 python-ujson
 rabbitmq
 radare2
+ropper
 ruby-diff-lcs
 ruby-paint
 ruby-rainbow
