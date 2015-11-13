@@ -2,25 +2,26 @@
 
 pkgname=diffoscope
 pkgver=40
-pkgrel=1
+pkgrel=2
 pkgdesc='Tool for in-depth comparison of files, archives, and directories'
 url='https://diffoscope.org/'
-arch=('any')
+arch=('x86_64')
 license=('GPL3')
-depends=('python' 'python-magic' 'python-libarchive-c')
+depends=('python-magic' 'python-libarchive-c' 'python-setuptools')
 optdepends=(
   'acl: access control list utilities support'
   'binutils: binary utilities support'
   'bzip2: bzip2 utilities support'
   'cdrkit: ISO utilities support'
   'cpio: cpio archive support'
-  'java-runtime: java utilities support'
+  'e2fsprogs: Ext2/3/4 filesystem utilities support'
+  'fpc: Free Pascal utilities support'
+  'java-environment: java utilities support'
   'fontforge: bitmap font utilities support'
   'gettext: GNU internationalization utilities support'
   'ghc: haskell utilities support'
   'gnupg: GNU privacy guard support'
   'mono-tools: mono utilities support'
-  #'pdftk: PDF utilities support'
   'poppler: PDF utilities support'
   'sqlite: SQLite support'
   'squashfs-tools: squashfs filesystem support'
@@ -30,12 +31,16 @@ optdepends=(
   'vim: Vi IMproved (xxd) utilities support'
   'xz: XZ and LZMA utilities support'
 )
-makedepends=('python-setuptools')
 checkdepends=(
-  'python-pytest' 'acl' 'binutils' 'bzip2' 'cdrkit' 'cpio' 'java-runtime' 'fontforge' 'gettext' 'ghc' 'gnupg' 'mono-tools'
-  'poppler' 'sqlite' 'squashfs-tools' 'unzip' 'gzip' 'tar' 'vim' 'xz')
+  'python-pytest' 'acl' 'binutils' 'bzip2' 'cdrkit' 'cpio' 'e2fsprogs' 'fpc' 'java-environment' 'fontforge' 'gettext' 'ghc' 'gnupg'
+  'mono-tools' 'poppler' 'sqlite' 'squashfs-tools' 'unzip' 'gzip' 'tar' 'vim' 'xz')
 source=(${pkgname}-${pkgver}.tar.xz::https://anonscm.debian.org/cgit/reproducible/${pkgname}.git/snapshot/${pkgname}-${pkgver}.tar.xz)
 sha512sums=('b40e042769cc87056bdde5306c8630043995c16bd4f5b28a51eba3fd08c06f4975ff82b4b19c9fd7b203c5fa7d541ba69c734c787bdae09f0bf35facc376f533')
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  sed '/python-magic/d' -i setup.py
+}
 
 build() {
   cd ${pkgname}-${pkgver}
