@@ -289,3 +289,5 @@ https://security.appspot.com/vsftpd/Changelog.txt
 # powerdns
 |git ls-remote --tags https://github.com/PowerDNS/pdns
 |curl https://downloads.powerdns.com/releases/ 2>/dev/null|grep .tar.gz
+# python-libarchive-c
+|git ls-remote --tags https://github.com/Changaco/python-libarchive-c
