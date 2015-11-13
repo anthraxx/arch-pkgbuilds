@@ -289,5 +289,7 @@ https://security.appspot.com/vsftpd/Changelog.txt
 # powerdns
 |git ls-remote --tags https://github.com/PowerDNS/pdns
 |curl https://downloads.powerdns.com/releases/ 2>/dev/null|grep .tar.gz
+# diffoscope
+|git ls-remote --tags https://anonscm.debian.org/git/reproducible/diffoscope.git
 # python-libarchive-c
 |git ls-remote --tags https://github.com/Changaco/python-libarchive-c
