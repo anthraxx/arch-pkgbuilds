@@ -40,6 +40,7 @@ powerdns-recursor
 profanity
 pyrit
 python-hexdump
+python-libarchive-c
 python-netaddr
 python-ujson
 rabbitmq
