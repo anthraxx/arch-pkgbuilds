@@ -293,3 +293,5 @@ https://security.appspot.com/vsftpd/Changelog.txt
 |git ls-remote --tags https://anonscm.debian.org/git/reproducible/diffoscope.git
 # python-libarchive-c
 |git ls-remote --tags https://github.com/Changaco/python-libarchive-c
+# tlsh
+|git ls-remote --tags https://github.com/trendmicro/tlsh
