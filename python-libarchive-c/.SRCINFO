@@ -1,18 +1,17 @@
 pkgbase = python-libarchive-c
 	pkgdesc = Python interface to libarchive
-	pkgver = 2.1
+	pkgver = 2.2
 	pkgrel = 1
 	url = https://github.com/Changaco/python-libarchive-c
 	arch = any
 	license = LGPL2.1
 	checkdepends = python-pytest-cov
 	checkdepends = python2-pytest-cov
-	makedepends = git
 	makedepends = python-setuptools
 	makedepends = python2-setuptools
 	makedepends = libarchive
-	source = python-libarchive-c::git+https://github.com/Changaco/python-libarchive-c#tag=2.1
-	sha512sums = SKIP
+	source = python-libarchive-c-2.2.tar.gz::https://github.com/Changaco/python-libarchive-c/archive/2.2.tar.gz
+	sha512sums = c39057e893f3f3b48e823d4451298b101e1421944897d56a22d9c2f2d35cbd94ee8b6fc2fbd8542f83fb7cb62265b7d1afcc214e249d64938512295dd3cf0235
 
 pkgname = python-libarchive-c
 	depends = python
