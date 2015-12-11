@@ -298,3 +298,6 @@ https://security.appspot.com/vsftpd/Changelog.txt
 |git ls-remote --tags https://github.com/trendmicro/tlsh
 # haka
 |git ls-remote --tags https://github.com/haka-security/haka
+# keepassx
+|git ls-remote --tags https://github.com/keepassx/keepassx
+https://www.keepassx.org/releases/
