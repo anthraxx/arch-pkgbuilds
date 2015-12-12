@@ -173,8 +173,10 @@ http://tetrinet.or.cz/download/
 http://www.robobunny.com/projects/asciiquarium/
 # hashcat
 |curl https://hashcat.net/hashcat/ 2>/dev/null|grep .7z
+|git ls-remote --tags https://github.com/hashcat/hashcat
 # oclhashcat cudahashcat
 |curl https://hashcat.net/oclhashcat/ 2>/dev/null|grep .7z
+|git ls-remote --tags https://github.com/hashcat/oclHashcat
 # clamtk
 |curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz
 # dnsenum
