@@ -41,6 +41,7 @@ powerdns
 powerdns-recursor
 profanity
 pyrit
+python-eventlet
 python-hexdump
 python-libarchive-c
 python-netaddr

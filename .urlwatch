@@ -303,3 +303,5 @@ https://security.appspot.com/vsftpd/Changelog.txt
 # keepassx
 |git ls-remote --tags https://github.com/keepassx/keepassx
 https://www.keepassx.org/releases/
+# python-eventlet
+|git ls-remote --tags https://github.com/eventlet/eventlet
