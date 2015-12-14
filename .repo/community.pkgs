@@ -41,10 +41,13 @@ powerdns
 powerdns-recursor
 profanity
 pyrit
+python-engineio
 python-eventlet
+python-flask-socketio
 python-hexdump
 python-libarchive-c
 python-netaddr
+python-socketio
 python-ujson
 rabbitmq
 radare2
