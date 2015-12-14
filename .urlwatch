@@ -305,3 +305,7 @@ https://security.appspot.com/vsftpd/Changelog.txt
 https://www.keepassx.org/releases/
 # python-eventlet
 |git ls-remote --tags https://github.com/eventlet/eventlet
+# python-engineio
+|git ls-remote --tags https://github.com/miguelgrinberg/python-engineio
+# python-socketio
+|git ls-remote --tags https://github.com/miguelgrinberg/python-socketio
