@@ -1,22 +1,22 @@
-# Maintainer: Levente Polyak <levente[at]leventepolyak[dot]net>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgbase=python-tblib
 pkgname=('python-tblib' 'python2-tblib')
 _pyname=tblib
-pkgver=1.0.1
+pkgver=1.2.0
 pkgrel=1
 pkgdesc="Python traceback fiddling library"
 url="https://github.com/ionelmc/python-tblib"
 arch=('any')
 license=('BSD')
-makedepends=('python-setuptools' 'python2-setuptools')
-checkdepends=('python-tox' 'python-six' 'python2-six')
+makedepends=('python-setuptools' 'python2-setuptools' 'python-six' 'python2-six')
 source=(${pkgbase}-${pkgver}.tar.gz::https://pypi.python.org/packages/source/t/${_pyname}/${_pyname}-${pkgver}.tar.gz)
-sha512sums=('5a26e96c7d0a89b463766e8b83a2f949a468a717295ae89c53496e0abbf1129598da0d2054a5d2d85710fb152302c9bbc06b2819f419fb5a5748c5dc3bbfe1ee')
+sha512sums=('39120b506e8e06435a2d04478c8c9a9049d52710110dfc5501931b6547df024ca4087733706982ac01a195b5669458bc0d008abe42ca38b9eb3b171808b67ef8')
 
 check() {
   cd ${_pyname}-${pkgver}
-  tox -e py -e py3
+  python setup.py test
+  python2 setup.py test
 }
 
 package_python-tblib() {
