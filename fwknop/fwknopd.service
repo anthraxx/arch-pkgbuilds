@@ -1,6 +1,6 @@
 [Unit]
-Description=The FireWall KNock OPerator (fwknop)
-After=network.target iptables.service ip6tables.service
+Description=Firewall Knock Operator Daemon
+After=network.target network-online.target iptables.service ip6tables.service
 
 [Service]
 Type=forking
