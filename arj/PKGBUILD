@@ -1,11 +1,11 @@
-# Maintainer: Levente Polyak <levente[at]leventepolyak[dot]net>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Alexander F Rødseth <xyproto@archlinux.org>
 # Contributor: Travis Willard <travisw@wmpub.ca>
 # Contributor: Gergely Tamas <dice@mfa.kfki.hu>
 
 pkgname=arj
 pkgver=3.10.22
-pkgrel=10
+pkgrel=11
 pkgdesc='Free and portable clone of the ARJ archiver'
 url='http://arj.sourceforge.net/'
 arch=('x86_64' 'i686')
@@ -54,10 +54,10 @@ prepare() {
 }
 
 build() {
-  cd ${pkgname}-${pkgver}/gnu
-  ./configure --prefix=/usr
-
-  cd ..
+  cd ${pkgname}-${pkgver}
+  (cd gnu
+    ./configure --prefix=/usr
+  )
   make prepare
   make
 }
