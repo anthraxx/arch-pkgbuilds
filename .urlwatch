@@ -319,3 +319,5 @@ http://devel.kondorgulasch.de/pidgin-xmpp-receipts/files/
 |git ls-remote --tags https://github.com/google/enjarify
 # strip-nondeterminism
 |git ls-remote --tags https://anonscm.debian.org/git/reproducible/strip-nondeterminism.git
+# zzuf
+|git ls-remote --tags https://github.com/samhocevar/zzuf
