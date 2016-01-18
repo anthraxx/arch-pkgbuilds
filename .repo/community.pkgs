@@ -1,5 +1,6 @@
 afl
 afl-utils
+arj
 asciiquarium
 awesome
 binwalk
@@ -25,6 +26,7 @@ jadx
 keepassx2
 knockd
 ldoc
+lhasa
 libstrophe
 lolcat
 lynis
@@ -52,6 +54,7 @@ python-hexdump
 python-libarchive-c
 python-netaddr
 python-socketio
+python-tblib
 python-ujson
 rabbitmq
 radare2
@@ -67,11 +70,13 @@ ruby-rspec-support
 ruby-trollop
 scanmem
 scapy
+scapy3k
 smali
 speedtest-cli
 sslscan
 sslsplit
 sslstrip
+strip-nondeterminism
 synergy
 tetrinet
 thc-ipv6
