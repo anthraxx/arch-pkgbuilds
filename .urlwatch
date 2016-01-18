@@ -321,3 +321,6 @@ http://devel.kondorgulasch.de/pidgin-xmpp-receipts/files/
 |git ls-remote --tags https://anonscm.debian.org/git/reproducible/strip-nondeterminism.git
 # zzuf
 |git ls-remote --tags https://github.com/samhocevar/zzuf
+# libforensic1394
+|git ls-remote --tags https://github.com/FreddieWitherden/libforensic1394
+|curl https://freddie.witherden.org/tools/libforensic1394/ 2>/dev/null |grep libforensic1394-
