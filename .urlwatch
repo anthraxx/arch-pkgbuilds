@@ -312,6 +312,12 @@ https://www.keepassx.org/releases/
 |git ls-remote --tags https://github.com/miguelgrinberg/python-engineio
 # python-socketio
 |git ls-remote --tags https://github.com/miguelgrinberg/python-socketio
+# python-blist
+|git ls-remote --tags https://github.com/DanielStutzbach/blist
+|curl https://pypi.python.org/pypi/blist 2>/dev/null|grep blist|grep .tar
+# python2-unittest2
+|curl https://hg.python.org/unittest2/tags 2>/dev/null|grep /rev/
+|curl https://pypi.python.org/pypi/unittest2 2>/dev/null|grep unittest2|grep .tar
 # pidgin-xmpp-recepts
 |git ls-remote --tags https://github.com/noonien-d/pidgin-xmpp-receipts
 http://devel.kondorgulasch.de/pidgin-xmpp-receipts/files/
