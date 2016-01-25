@@ -1,37 +1,31 @@
-# Maintainer: Aaron DeVore <aaron.devore@gmail.com>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Carl George < arch at cgtx dot us >
 
 pkgname=python2-unittest2
-pkgver=0.5.1
+_pkgname=unittest2
+pkgver=1.1.0
 pkgrel=3
-pkgdesc="The new features in unittest for Python 2.7 backported to Python 2.3+."
-arch=('any')
+pkgdesc="New features in unittest for Python 2"
 url="http://www.voidspace.org.uk/python/articles/unittest2.shtml"
-license=("BSD")
-depends=("python2")
-makedepends=("python2-distribute")
-changelog=Changelog
-install="python2-unittest2.install"
-source=(http://pypi.python.org/packages/source/u/unittest2/unittest2-$pkgver.tar.gz
-        LICENSE
-        python2-unittest2.install)
-md5sums=('a0af5cac92bbbfa0c3b0e99571390e0f'
-         '0c162ecb7937c6a146e5b0457f0ccf1e'
-         '322c77e5e303e5d4a35a6f7e7297538f')
-sha256sums=('aa5de8cdf654d843379c97bd1ee240e86356d3355a97b147a6f3f4d149247a71'
-            'e0bfff5f29a59d078142b8b24b60b0105043057b9e238974d26ae778804ba9bc'
-            '653310fa1e9d8224ee819944584f5b8a90e0ba92e84f8dbd37537bb6814729ae')
+arch=('any')
+license=('BSD')
+depends=('python2-six' 'python2-traceback2')
+makedepends=('python2-distribute')
+source=(${pkgname}-${pkgver}.tar.gz::https://hg.python.org/unittest2/archive/${pkgver}.tar.gz
+        LICENSE)
+sha512sums=('ccd701194994623422d5c0bdd88d89b279cbbc67cd96b3cfee7f48e1c32f87c154a3378771e2909afa89d9c13692173ccbd692312b1ad7b9d05cf8c115fcc14b'
+            '85242ed21eb191fa0bab16f3e390957f1c8b7bc3b79aefbea2d925feaa8248f33d6e22afaa7d1c07c5fcb5e800910aa2a1cb52d892c104337bbdb57a380373a2')
 
 build() {
-  cd "$srcdir/unittest2-$pkgver"
+  cd ${_pkgname}-${pkgver}
   python2 setup.py build
 }
 
 package() {
-  cd "$srcdir/unittest2-$pkgver"
-  python2 setup.py install "--root=$pkgdir" --optimize=1
-  # Leave /usr/bin/unit2 for unittest2 for Python 3
-  # Switch to full removal when upstream adds /usr/bin/unit2-2[.py]
-  mv "$pkgdir/usr/bin/unit2" "$pkgdir/usr/bin/unit2-2"
-  mv "$pkgdir/usr/bin/unit2.py" "$pkgdir/usr/bin/unit2-2.py"
-  install -Dm644 "$srcdir/LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+  cd ${_pkgname}-${pkgver}
+  python2 setup.py install --skip-build -O1 --root="${pkgdir}"
+  install -Dm 644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm 644 README.txt "${pkgdir}/usr/share/doc/${pkgname}/README"
 }
+
+# vim: ts=2 sw=2 et:
