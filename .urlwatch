@@ -548,3 +548,5 @@ command: 'git ls-remote --tags https://github.com/carmaa/inception'
 #TODO impacket
 
 #TODO skipfish
+
+# vim: ft=yaml
