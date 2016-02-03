@@ -91,9 +91,11 @@ url: 'https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags'
 name: 'volatility'
 command: 'git ls-remote --tags https://github.com/volatilityfoundation/volatility'
 ---
-#TODO fix googlecode
-name: 'hash-identifier'
-command: 'svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null'
+name: 'hash-identifier (svn)'
+command: 'svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null||true'
+---
+name: 'hash-identifier (svn+http)'
+url: 'https://hash-identifier.googlecode.com/svn/trunk/'
 ---
 name: 'bokken'
 url: 'https://inguma.eu/projects/bokken/repository/raw/.hgtags'
@@ -101,16 +103,14 @@ url: 'https://inguma.eu/projects/bokken/repository/raw/.hgtags'
 name: 'urxvt-resize-font-git'
 command: 'git ls-remote https://github.com/simmel/urxvt-resize-font'
 ---
-#TODO: exit 1
 name: 'rats'
-command: "curl https://code.google.com/p/rough-auditing-tool-for-security/downloads/list 2>/dev/null|grep -v CS_env|grep -v -E '^ [0-9]{4}$'|grep 'detail?name='"
+command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Frough-auditing-tool-for-security%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null|tr "," "\n"|grep rats'
 ---
 name: 'wpscan'
 command: 'git ls-remote --tags https://github.com/wpscanteam/wpscan'
 ---
-#TODO: 404
 name: 'dirbuster'
-url: "http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/|grep 'tr title='"
+command: "curl 'http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/' 2>/dev/null|grep 'tr title='"
 ---
 name: 'qira'
 command: 'git ls-remote https://github.com/BinaryAnalysisPlatform/qira'
@@ -157,9 +157,11 @@ url: 'https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags'
 name: 'pyshark'
 command: 'git ls-remote https://github.com/KimiNewt/pyshark'
 ---
-#TODO: search real up-to-date upstream
-name: 'pyrit'
-command: 'curl https://code.google.com/p/pyrit/downloads/list 2>/dev/null|grep tar.gz'
+name: 'pyrit (googlecode)'
+command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fpyrit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null|tr "," "\n"|grep \\.tar'
+---
+name: 'pyrit (git)'
+command: 'git ls-remote --tags https://github.com/JPaulMora/Pyrit'
 ---
 name: 'nsoq'
 command: 'git ls-remote https://github.com/FelipeEcker/nsoq'
@@ -237,7 +239,7 @@ name: 'afl'
 url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
 ---
 name: 'hydra'
-url: 'https://www.thc.org/thc-hydra/'
+command: 'curl -k https://www.thc.org/thc-hydra/ 2>/dev/null|grep hydra- | grep tar'
 ---
 name: 'pngcrush (upstream)'
 url: 'http://pmt.sourceforge.net/pngcrush/changelog.html'
