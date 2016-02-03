@@ -1,334 +1,548 @@
-# airoscript
-http://code.google.com/feeds/p/airoscript/downloads/basic
-# cowfortune
-|git ls-remote --tags https://github.com/anthraxx/cowfortune
-# hexer
-http://devel.ringlet.net/editors/hexer/
-# ls++
-|git ls-remote https://github.com/trapd00r/ls--.git
-# lynis
-|git ls-remote --tags https://github.com/CISOfy/Lynis.git
-# p0f
-http://lcamtuf.coredump.cx/p0f3/releases/
-# perl-term-extendedcolor
-|git ls-remote https://github.com/trapd00r/Term-ExtendedColor.git
-# scapy
-|curl http://bb.secdev.org/scapy/downloads 2>/dev/null|grep -E 'v[0-9\.]+.tar.bz2'
-|git ls-remote --tags https://github.com/secdev/scapy
-# scapy3k
-|git ls-remote --tags https://github.com/phaethon/scapy
-# shellnoob
-|git ls-remote --tags https://github.com/reyammer/shellnoob
-# slowhttptest
-http://code.google.com/feeds/p/slowhttptest/downloads/basic
-# smali
-|curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep tar.gz
-|git ls-remote --tags https://github.com/JesusFreke/smali
-# sslstrip
-http://www.thoughtcrime.org/software/sslstrip/
-# tcpxtract
-http://tcpxtract.sourceforge.net/
-# vit
-|git ls-remote --tags https://git.tasktools.org/scm/ex/vit.git
-# r2-bindings
-|git ls-remote --tags https://github.com/radare/radare2-bindings.git
-# radare2
-|git ls-remote --tags https://github.com/radare/radare2.git
-# perl-term-extendedcolor
-|git ls-remote https://github.com/trapd00r/Term-ExtendedColor.git
-# valabind
-|git ls-remote --tags https://github.com/radare/valabind.git
-# ropgadget
-|git ls-remote --tags https://github.com/JonathanSalwan/ROPgadget.git
-# capstone
-|git ls-remote --tags https://github.com/aquynh/capstone.git
-# rp++
-|git ls-remote --tags https://github.com/0vercl0k/rp.git
-# xdot
-|git ls-remote --tags https://github.com/jrfonseca/xdot.py.git
-# Selene
-|git ls-remote --tags https://github.com/jeremyong/Selene.git
-# xortool
-|git ls-remote --tags https://github.com/hellman/xortool.git
-# dnsmap
-|curl https://code.google.com/p/dnsmap/downloads/list 2>/dev/null|grep dnsmap|grep -v "var CS_env"
-# wifite
-|git ls-remote https://github.com/derv82/wifite.git
-# python-hexdump
-https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags
-# volatility
-|git ls-remote --tags https://github.com/volatilityfoundation/volatility.git
-# hash-identifier
-|svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null
-# bokken
-https://inguma.eu/projects/bokken/repository/raw/.hgtags
-# urxvt-resize-font-git
-|git ls-remote https://github.com/simmel/urxvt-resize-font.git
-# rats
-|curl https://code.google.com/p/rough-auditing-tool-for-security/downloads/list 2>/dev/null|grep -v CS_env|grep -v -E '^ [0-9]{4}$'|grep 'detail?name='
-# wpscan
-|git ls-remote --tags https://github.com/wpscanteam/wpscan.git
-# dirbuster
-http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/|grep 'tr title='
-# qira
-|git ls-remote https://github.com/BinaryAnalysisPlatform/qira.git
-# python-flask-socketio
-|git ls-remote --tags https://github.com/miguelgrinberg/Flask-SocketIO.git
-# python-pyelftools
-|git ls-remote --tags https://github.com/eliben/pyelftools.git
-# ropper
-|git ls-remote --tags https://github.com/sashs/Ropper
-# kippo
-|git ls-remote --tags https://github.com/desaster/kippo
-# cowrie
-|git ls-remote https://github.com/micheloosterhof/cowrie.git
-# conky-manager
-http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/
-# xboxdrv
-|git ls-remote --tags https://github.com/Grumbel/xboxdrv.git
-# metasploit
-|git ls-remote --tags https://github.com/rapid7/metasploit-framework.git
-# binwalk
-|git ls-remote --tags https://github.com/devttys0/binwalk.git
-# tweepy
-|git ls-remote --tags https://github.com/tweepy/tweepy.git
-# pgpdump
-|git ls-remote --tags https://github.com/kazu-yamamoto/pgpdump.git
-# pyexiftool
-|git ls-remote https://github.com/smarnach/pyexiftool.git
-# python-trollius
-https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags
-# pyshark
-|git ls-remote https://github.com/KimiNewt/pyshark
-# pyrit
-|curl https://code.google.com/p/pyrit/downloads/list 2>/dev/null|grep tar.gz
-# nsoq
-|git ls-remote https://github.com/FelipeEcker/nsoq
-# cowpatty
-|curl 'http://www.willhackforsushi.com/?page_id=50' 2>/dev/null|grep tgz
-# irssi-otr
-|git ls-remote --tags https://github.com/cryptodotis/irssi-otr.git
-# python-olefile
-|curl https://bitbucket.org/decalage/olefileio_pl/downloads 2>/dev/null|grep .zip
-# pdb-clone
-|curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|grep pdb-clone
-# pyclewn
-|curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep tar.gz
-# libressl
-|git ls-remote --tags https://github.com/libressl-portable/portable.git
-# w3af
-|git ls-remote --tags https://github.com/andresriancho/w3af.git
-# python-tblib
-|curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep tar
-# python-stopit
-|git ls-remote --tags https://github.com/glenfant/stopit.git
-# python2-darts.util.lru
-|curl https://pypi.python.org/pypi/darts.util.lru 2>/dev/null|grep -i version
-# vundle
-|git ls-remote --tags https://github.com/gmarik/Vundle.vim.git
-# ncmpcpp
-|git ls-remote --tags git://repo.or.cz/ncmpcpp.git
-http://ncmpcpp.rybczak.net/stable/
-# scanmem
-|git ls-remote --tags https://github.com/scanmem/scanmem.git
-# gist
-|git ls-remote --tags https://github.com/defunkt/gist.git
-# moonlight
-|git ls-remote --tags https://github.com/moonlight-stream/moonlight-pc.git
-|git ls-remote --tags https://github.com/irtimmer/moonlight-embedded.git
-# masscan
-|git ls-remote --tags https://github.com/robertdavidgraham/masscan.git
-# radamsa
-|git ls-remote --tags https://github.com/aoh/radamsa
-# synergy
-|git ls-remote --tags https://github.com/synergy/synergy
-# profanity
-|git ls-remote --tags https://github.com/boothj5/profanity
-# fish
-|git ls-remote --tags https://github.com/fish-shell/fish-shell
-# wavemon
-|git ls-remote --tags https://github.com/uoaerg/wavemon
-# afl
-http://lcamtuf.coredump.cx/afl/releases/?O=D
-# hydra
-https://www.thc.org/thc-hydra/
-# pngcrush
-http://pmt.sourceforge.net/pngcrush/changelog.html
-|curl 'http://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush
-# medusa
-|curl 'http://foofus.net/goons/jmk/tools/?C=N;O=D' 2>/dev/null|grep medusa
-|git ls-remote --tags https://github.com/jmk-foofus/medusa
-# zaproxy
-|git ls-remote --tags https://github.com/zaproxy/zaproxy.git
-# irssi-xmpp
-http://cybione.org/~irssi-xmpp/files/
-# profanity
-|curl http://www.profanity.im/ 2>/dev/null|grep tar.gz
-# libstrophe
-|git ls-remote --tags https://github.com/strophe/libstrophe.git
-# tetrinet
-http://tetrinet.or.cz/download/
-# gtetrinet
-|curl http://gtetrinet.sourceforge.net/download.html 2>/dev/null|grep gtetrinet
-# jadx
-|git ls-remote --tags https://github.com/skylot/jadx.git
-# asciiquarium
-http://www.robobunny.com/projects/asciiquarium/
-# hashcat
-|curl https://hashcat.net/hashcat/ 2>/dev/null|grep .7z
-|git ls-remote --tags https://github.com/hashcat/hashcat
-# oclhashcat cudahashcat
-|curl https://hashcat.net/oclhashcat/ 2>/dev/null|grep .7z
-|git ls-remote --tags https://github.com/hashcat/oclHashcat
-# clamtk
-|curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz
-# dnsenum
-|git ls-remote --tags https://github.com/fwaeytens/dnsenum
-# cjdns
-|git ls-remote --tags https://github.com/cjdelisle/cjdns
-# firmware-mod-kit
-|curl https://code.google.com/p/firmware-mod-kit/downloads/list 2>/dev/null|grep .tar.gz
-# xprobe2
-|curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz
-# xmonad-utils
-|curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|tr ' ' '\n'|grep .tar.gz
-# peda
-|git ls-remote https://github.com/longld/peda.git
-# viper-framework
-|git ls-remote --tags https://github.com/viper-framework/viper.git
-# sqlmap
-|git ls-remote --tags https://github.com/sqlmapproject/sqlmap.git
-# byacc
-|curl ftp://invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort
-# zmap
-|git ls-remote --tags https://github.com/zmap/zmap.git
-# sslscan
-|git ls-remote --tags https://github.com/DinoTools/sslscan.git
-# python-argcomplete
-|git ls-remote --tags https://github.com/kislyuk/argcomplete
-# rabbitmq
-|git ls-remote --tags https://github.com/rabbitmq/rabbitmq-server
-# gradle
-|curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort
-# binnavi
-|git ls-remote --tags https://github.com/google/binnavi
-# websocketpp
-|git ls-remote --tags https://github.com/zaphoyd/websocketpp
-# nikto
-|git ls-remote --tags https://github.com/sullo/nikto
-# gdb-dashboard
-|git ls-remote --tags https://github.com/cyrus-and/gdb-dashboard
-# lolcat
-|git ls-remote --tags https://github.com/busyloop/lolcat
-# ruby-diff-lcs
-|git ls-remote --tags https://github.com/halostatue/diff-lcs
-# ruby-rainbow
-|git ls-remote --tags https://github.com/sickill/rainbow
-# ruby-trollop
-|git ls-remote --tags https://github.com/ManageIQ/trollop
-# ruby-paint
-|git ls-remote --tags https://github.com/janlelis/paint
-# ruby-rspec-support
-|git ls-remote --tags https://github.com/rspec/rspec-support
-# ruby-rspec-core
-|git ls-remote --tags https://github.com/rspec/rspec-core
-# ruby-rspec-mocks
-|git ls-remote --tags https://github.com/rspec/rspec-mocks
-# ruby-rspec-expectations
-|git ls-remote --tags https://github.com/rspec/rspec-expectations
-# ruby-rspec
-|git ls-remote --tags https://github.com/rspec/rspec
-# yara
-|git ls-remote --tags https://github.com/plusvic/yara
-# yara-python
-|git ls-remote --tags https://github.com/plusvic/yara-python
-# speedtest-cli
-|git ls-remote --tags https://github.com/sivel/speedtest-cli
-# knockd
-|curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep tar.gz
-# grails
-|git ls-remote --tags https://github.com/grails/grails-core
-# gef
-|git ls-remote https://github.com/hugsy/gef
-# distorm
-|git ls-remote https://github.com/gdabah/distorm
-# afl-utils
-|git ls-remote --tags https://github.com/rc0r/afl-utils
-# sslsplit
-https://mirror.roe.ch/rel/sslsplit/
-|git ls-remote --tags https://github.com/droe/sslsplit
-# python-netaddr
-|git ls-remote --tags https://github.com/drkjam/netaddr
-# mdk3
-|curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep tar
-# unicorn
-|git ls-remote --tags https://github.com/unicorn-engine/unicorn
-# haskell-parsec
-|git ls-remote --tags https://github.com/aslatter/parsec
-# awesome
-|git ls-remote --tags https://github.com/awesomeWM/awesome
-# ldoc
-|git ls-remote --tags https://github.com/stevedonovan/LDoc
-# openntpd
-|git ls-remote --tags https://github.com/openntpd-portable/openntpd-portable
-# penlight
-|git ls-remote --tags https://github.com/stevedonovan/Penlight
-# vicious
-|git ls-remote --tags http://git.sysphere.org/vicious
-# vsftpd
-https://security.appspot.com/vsftpd/Changelog.txt
-# python-ujson
-|curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.gz'
-|git ls-remote --tags http://github.com/esnme/ultrajson
-# thc-ipv6
-|curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz
-# fwknop
-|git ls-remote --tags https://github.com/mrash/fwknop
-# ttytter
-|curl http://www.floodgap.com/software/ttytter/dist2/ 2>/dev/null|grep href|grep -v 'nano_inetd_turbo/AIX'
-# imvirt
-|git ls-remote --tags https://github.com/DE-IBH/imvirt
-# perl-module-find
-|git ls-remote --tags https://github.com/crenz/Module-Find
-# xtrlock
-|curl http://ftp.debian.org/debian/pool/main/x/xtrlock/ 2>/dev/null|grep .tar.gz
-# powerdns
-|git ls-remote --tags https://github.com/PowerDNS/pdns
-|curl https://downloads.powerdns.com/releases/ 2>/dev/null|grep .tar.gz
-# diffoscope
-|git ls-remote --tags https://anonscm.debian.org/git/reproducible/diffoscope.git
-# python-libarchive-c
-|git ls-remote --tags https://github.com/Changaco/python-libarchive-c
-# tlsh
-|git ls-remote --tags https://github.com/trendmicro/tlsh
-# haka
-|git ls-remote --tags https://github.com/haka-security/haka
-# keepassx
-|git ls-remote --tags https://github.com/keepassx/keepassx
-https://www.keepassx.org/releases/
-# python-eventlet
-|git ls-remote --tags https://github.com/eventlet/eventlet
-# python-engineio
-|git ls-remote --tags https://github.com/miguelgrinberg/python-engineio
-# python-socketio
-|git ls-remote --tags https://github.com/miguelgrinberg/python-socketio
-# python-blist
-|git ls-remote --tags https://github.com/DanielStutzbach/blist
-|curl https://pypi.python.org/pypi/blist 2>/dev/null|grep blist|grep .tar
-# python2-unittest2
-|curl https://hg.python.org/unittest2/tags 2>/dev/null|grep /rev/
-|curl https://pypi.python.org/pypi/unittest2 2>/dev/null|grep unittest2|grep .tar
-# pidgin-xmpp-recepts
-|git ls-remote --tags https://github.com/noonien-d/pidgin-xmpp-receipts
-http://devel.kondorgulasch.de/pidgin-xmpp-receipts/files/
-# enjarify
-|git ls-remote --tags https://github.com/google/enjarify
-# strip-nondeterminism
-|git ls-remote --tags https://anonscm.debian.org/git/reproducible/strip-nondeterminism.git
-# zzuf
-|git ls-remote --tags https://github.com/samhocevar/zzuf
-# libforensic1394
-|git ls-remote --tags https://github.com/FreddieWitherden/libforensic1394
-|curl https://freddie.witherden.org/tools/libforensic1394/ 2>/dev/null |grep libforensic1394-
-# inception
-|git ls-remote --tags https://github.com/carmaa/inception
+name: 'airoscript'
+url: 'http://code.google.com/feeds/p/airoscript/downloads/basic'
+---
+name: 'cowfortune'
+command: 'git ls-remote --tags https://github.com/anthraxx/cowfortune'
+---
+name: 'hexer'
+url: 'http://devel.ringlet.net/editors/hexer/'
+---
+name: 'ls++'
+command: 'git ls-remote https://github.com/trapd00r/ls--'
+---
+name: 'lynis'
+command: 'git ls-remote --tags https://github.com/CISOfy/Lynis'
+---
+name: 'p0f'
+url: 'http://lcamtuf.coredump.cx/p0f3/releases/'
+---
+name: 'perl-term-extendedcolor (git)'
+command: 'git ls-remote https://github.com/trapd00r/Term-ExtendedColor'
+---
+name: 'perl-term-extendedcolor (cpan)'
+command: 'curl http://cpansearch.perl.org/src/WOLDRICH/ 2>/dev/null|grep Term-ExtendedColor-'
+---
+name: 'scapy (git)'
+command: 'git ls-remote --tags https://github.com/secdev/scapy'
+---
+name: 'scapy3k'
+command: 'git ls-remote --tags https://github.com/phaethon/scapy'
+---
+name: 'shellnoob'
+command: 'git ls-remote --tags https://github.com/reyammer/shellnoob'
+---
+name: 'slowhttptest'
+url: 'http://code.google.com/feeds/p/slowhttptest/downloads/basic'
+---
+name: 'smali (http)'
+command: 'curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep tar.gz'
+---
+name: 'smali (git)'
+command: 'git ls-remote --tags https://github.com/JesusFreke/smali'
+---
+name: 'sslstrip'
+url: 'http://www.thoughtcrime.org/software/sslstrip/'
+---
+name: 'tcpxtract'
+url: 'http://tcpxtract.sourceforge.net/'
+---
+name: 'vit'
+command: 'git ls-remote --tags https://git.tasktools.org/scm/ex/vit'
+---
+name: 'r2-bindings'
+command: 'git ls-remote --tags https://github.com/radare/radare2-bindings'
+---
+name: 'radare2'
+command: 'git ls-remote --tags https://github.com/radare/radare2'
+---
+name: 'perl-term-extendedcolor'
+command: 'git ls-remote https://github.com/trapd00r/Term-ExtendedColor'
+---
+name: 'valabind'
+command: 'git ls-remote --tags https://github.com/radare/valabind'
+---
+name: 'ropgadget'
+command: 'git ls-remote --tags https://github.com/JonathanSalwan/ROPgadget'
+---
+name: 'capstone'
+command: 'git ls-remote --tags https://github.com/aquynh/capstone'
+---
+name: 'rp++'
+command: 'git ls-remote --tags https://github.com/0vercl0k/rp'
+---
+name: 'xdot'
+command: 'git ls-remote --tags https://github.com/jrfonseca/xdot.py'
+---
+name: 'Selene'
+command: 'git ls-remote --tags https://github.com/jeremyong/Selene'
+---
+name: 'xortool'
+command: 'git ls-remote --tags https://github.com/hellman/xortool'
+---
+name: 'dnsmap'
+command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fdnsmap%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep dnsmap"
+---
+name: 'wifite'
+command: 'git ls-remote https://github.com/derv82/wifite'
+---
+name: 'python-hexdump'
+url: 'https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags'
+---
+name: 'volatility'
+command: 'git ls-remote --tags https://github.com/volatilityfoundation/volatility'
+---
+#TODO fix googlecode
+name: 'hash-identifier'
+command: 'svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null'
+---
+name: 'bokken'
+url: 'https://inguma.eu/projects/bokken/repository/raw/.hgtags'
+---
+name: 'urxvt-resize-font-git'
+command: 'git ls-remote https://github.com/simmel/urxvt-resize-font'
+---
+#TODO: exit 1
+name: 'rats'
+command: "curl https://code.google.com/p/rough-auditing-tool-for-security/downloads/list 2>/dev/null|grep -v CS_env|grep -v -E '^ [0-9]{4}$'|grep 'detail?name='"
+---
+name: 'wpscan'
+command: 'git ls-remote --tags https://github.com/wpscanteam/wpscan'
+---
+#TODO: 404
+name: 'dirbuster'
+url: "http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/|grep 'tr title='"
+---
+name: 'qira'
+command: 'git ls-remote https://github.com/BinaryAnalysisPlatform/qira'
+---
+name: 'python-flask-socketio'
+command: 'git ls-remote --tags https://github.com/miguelgrinberg/Flask-SocketIO'
+---
+name: 'python-pyelftools'
+command: 'git ls-remote --tags https://github.com/eliben/pyelftools'
+---
+name: 'ropper'
+command: 'git ls-remote --tags https://github.com/sashs/Ropper'
+---
+name: 'kippo'
+command: 'git ls-remote --tags https://github.com/desaster/kippo'
+---
+name: 'cowrie'
+command: 'git ls-remote https://github.com/micheloosterhof/cowrie'
+---
+name: 'conky-manager'
+url: 'http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/'
+---
+name: 'xboxdrv'
+command: 'git ls-remote --tags https://github.com/Grumbel/xboxdrv'
+---
+name: 'metasploit'
+command: 'git ls-remote --tags https://github.com/rapid7/metasploit-framework'
+---
+name: 'binwalk'
+command: 'git ls-remote --tags https://github.com/devttys0/binwalk'
+---
+name: 'tweepy'
+command: 'git ls-remote --tags https://github.com/tweepy/tweepy'
+---
+name: 'pgpdump'
+command: 'git ls-remote --tags https://github.com/kazu-yamamoto/pgpdump'
+---
+name: 'pyexiftool'
+command: 'git ls-remote https://github.com/smarnach/pyexiftool'
+---
+name: 'python-trollius'
+url: 'https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags'
+---
+name: 'pyshark'
+command: 'git ls-remote https://github.com/KimiNewt/pyshark'
+---
+#TODO: search real up-to-date upstream
+name: 'pyrit'
+command: 'curl https://code.google.com/p/pyrit/downloads/list 2>/dev/null|grep tar.gz'
+---
+name: 'nsoq'
+command: 'git ls-remote https://github.com/FelipeEcker/nsoq'
+---
+name: 'cowpatty'
+command: "curl 'http://www.willhackforsushi.com/?page_id=50' 2>/dev/null|grep tgz"
+---
+name: 'irssi-otr'
+command: 'git ls-remote --tags https://github.com/cryptodotis/irssi-otr'
+---
+name: 'python-olefile'
+command: 'curl https://bitbucket.org/decalage/olefileio_pl/downloads 2>/dev/null|grep .zip'
+---
+name: 'pdb-clone'
+command: 'curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|grep pdb-clone'
+---
+name: 'pyclewn'
+command: 'curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep tar.gz'
+---
+name: 'libressl'
+command: 'git ls-remote --tags https://github.com/libressl-portable/portable'
+---
+name: 'w3af'
+command: 'git ls-remote --tags https://github.com/andresriancho/w3af'
+---
+name: 'python-tblib'
+command: 'curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep tar'
+---
+name: 'python-stopit'
+command: 'git ls-remote --tags https://github.com/glenfant/stopit'
+---
+name: 'python2-darts.util.lru'
+command: 'curl https://pypi.python.org/pypi/darts.util.lru 2>/dev/null|grep -i version'
+---
+name: 'vundle'
+command: 'git ls-remote --tags https://github.com/gmarik/Vundle.vim'
+---
+name: 'ncmpcpp (git)'
+command: 'git ls-remote --tags git://repo.or.cz/ncmpcpp'
+---
+name: 'ncmpcpp (http)'
+url: 'http://ncmpcpp.rybczak.net/stable/'
+---
+name: 'scanmem'
+command: 'git ls-remote --tags https://github.com/scanmem/scanmem'
+---
+name: 'gist'
+command: 'git ls-remote --tags https://github.com/defunkt/gist'
+---
+name: 'moonlight (pc)'
+command: 'git ls-remote --tags https://github.com/moonlight-stream/moonlight-pc'
+---
+name: 'moonlight (embedded)'
+command: 'git ls-remote --tags https://github.com/irtimmer/moonlight-embedded'
+---
+name: 'masscan'
+command: 'git ls-remote --tags https://github.com/robertdavidgraham/masscan'
+---
+name: 'radamsa'
+command: 'git ls-remote --tags https://github.com/aoh/radamsa'
+---
+name: 'synergy'
+command: 'git ls-remote --tags https://github.com/symless/synergy'
+---
+name: 'profanity'
+command: 'git ls-remote --tags https://github.com/boothj5/profanity'
+---
+name: 'fish'
+command: 'git ls-remote --tags https://github.com/fish-shell/fish-shell'
+---
+name: 'wavemon'
+command: 'git ls-remote --tags https://github.com/uoaerg/wavemon'
+---
+name: 'afl'
+url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
+---
+name: 'hydra'
+url: 'https://www.thc.org/thc-hydra/'
+---
+name: 'pngcrush (upstream)'
+url: 'http://pmt.sourceforge.net/pngcrush/changelog.html'
+---
+name: 'pngcrush (sourceforge)'
+command: "curl 'http://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush"
+---
+name: 'medusa (http)'
+command: "curl 'http://foofus.net/goons/jmk/tools/?C=N;O=D' 2>/dev/null|grep medusa"
+---
+name: 'medusa (git)'
+command: 'git ls-remote --tags https://github.com/jmk-foofus/medusa'
+---
+name: 'zaproxy'
+command: 'git ls-remote --tags https://github.com/zaproxy/zaproxy'
+---
+name: 'irssi-xmpp'
+url: 'http://cybione.org/~irssi-xmpp/files/'
+---
+name: 'profanity'
+command: 'curl http://www.profanity.im/ 2>/dev/null|grep tar.gz'
+---
+name: 'libstrophe'
+command: 'git ls-remote --tags https://github.com/strophe/libstrophe'
+---
+name: 'tetrinet'
+url: 'http://tetrinet.or.cz/download/'
+---
+name: 'gtetrinet'
+command: 'curl http://gtetrinet.sourceforge.net/download.html 2>/dev/null|grep gtetrinet'
+---
+name: 'jadx'
+command: 'git ls-remote --tags https://github.com/skylot/jadx'
+---
+name: 'asciiquarium'
+url: 'http://www.robobunny.com/projects/asciiquarium/'
+---
+name: 'hashcat (http)'
+command: 'curl https://hashcat.net/hashcat/ 2>/dev/null|grep .7z'
+---
+name: 'hashcat (git)'
+command: 'git ls-remote --tags https://github.com/hashcat/hashcat'
+---
+name: 'oclhashcat cudahashcat (http)'
+command: 'curl https://hashcat.net/oclhashcat/ 2>/dev/null|grep .7z'
+---
+name: 'oclhashcat cudahashcat (git)'
+command: 'git ls-remote --tags https://github.com/hashcat/oclHashcat'
+---
+name: 'clamtk'
+command: 'curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz'
+---
+name: 'dnsenum'
+command: 'git ls-remote --tags https://github.com/fwaeytens/dnsenum'
+---
+name: 'cjdns'
+command: 'git ls-remote --tags https://github.com/cjdelisle/cjdns'
+---
+name: 'firmware-mod-kit'
+command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Ffirmware-mod-kit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep tar"
+---
+name: 'xprobe2'
+command: 'curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz'
+---
+name: 'xmonad-utils'
+command: "curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|tr ' ' '\n'|grep .tar.gz"
+---
+name: 'peda'
+command: 'git ls-remote https://github.com/longld/peda'
+---
+name: 'viper-framework'
+command: 'git ls-remote --tags https://github.com/viper-framework/viper'
+---
+name: 'sqlmap'
+command: 'git ls-remote --tags https://github.com/sqlmapproject/sqlmap'
+---
+name: 'byacc'
+command: "curl ftp://invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort"
+---
+name: 'zmap'
+command: 'git ls-remote --tags https://github.com/zmap/zmap'
+---
+name: 'sslscan'
+command: 'git ls-remote --tags https://github.com/DinoTools/sslscan'
+---
+name: 'python-argcomplete'
+command: 'git ls-remote --tags https://github.com/kislyuk/argcomplete'
+---
+name: 'rabbitmq'
+command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-server'
+---
+name: 'gradle'
+command: 'curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort'
+---
+name: 'binnavi'
+command: 'git ls-remote --tags https://github.com/google/binnavi'
+---
+name: 'websocketpp'
+command: 'git ls-remote --tags https://github.com/zaphoyd/websocketpp'
+---
+name: 'nikto'
+command: 'git ls-remote --tags https://github.com/sullo/nikto'
+---
+name: 'gdb-dashboard'
+command: 'git ls-remote --tags https://github.com/cyrus-and/gdb-dashboard'
+---
+name: 'lolcat'
+command: 'git ls-remote --tags https://github.com/busyloop/lolcat'
+---
+name: 'ruby-diff-lcs'
+command: 'git ls-remote --tags https://github.com/halostatue/diff-lcs'
+---
+name: 'ruby-rainbow'
+command: 'git ls-remote --tags https://github.com/sickill/rainbow'
+---
+name: 'ruby-trollop'
+command: 'git ls-remote --tags https://github.com/ManageIQ/trollop'
+---
+name: 'ruby-paint'
+command: 'git ls-remote --tags https://github.com/janlelis/paint'
+---
+name: 'ruby-rspec-support'
+command: 'git ls-remote --tags https://github.com/rspec/rspec-support'
+---
+name: 'ruby-rspec-core'
+command: 'git ls-remote --tags https://github.com/rspec/rspec-core'
+---
+name: 'ruby-rspec-mocks'
+command: 'git ls-remote --tags https://github.com/rspec/rspec-mocks'
+---
+name: 'ruby-rspec-expectations'
+command: 'git ls-remote --tags https://github.com/rspec/rspec-expectations'
+---
+name: 'ruby-rspec'
+command: 'git ls-remote --tags https://github.com/rspec/rspec'
+---
+name: 'yara'
+command: 'git ls-remote --tags https://github.com/plusvic/yara'
+---
+name: 'yara-python'
+command: 'git ls-remote --tags https://github.com/plusvic/yara-python'
+---
+name: 'speedtest-cli'
+command: 'git ls-remote --tags https://github.com/sivel/speedtest-cli'
+---
+name: 'knockd'
+command: 'curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep tar.gz'
+---
+name: 'grails'
+command: 'git ls-remote --tags https://github.com/grails/grails-core'
+---
+name: 'gef'
+command: 'git ls-remote https://github.com/hugsy/gef'
+---
+name: 'distorm'
+command: 'git ls-remote https://github.com/gdabah/distorm'
+---
+name: 'afl-utils'
+command: 'git ls-remote --tags https://github.com/rc0r/afl-utils'
+---
+name: 'sslsplit (http)'
+url: 'https://mirror.roe.ch/rel/sslsplit/'
+---
+name: 'sslsplit (git)'
+command: 'git ls-remote --tags https://github.com/droe/sslsplit'
+---
+name: 'python-netaddr'
+command: 'git ls-remote --tags https://github.com/drkjam/netaddr'
+---
+name: 'mdk3'
+command: "curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep tar"
+---
+name: 'unicorn'
+command: 'git ls-remote --tags https://github.com/unicorn-engine/unicorn'
+---
+name: 'haskell-parsec'
+command: 'git ls-remote --tags https://github.com/aslatter/parsec'
+---
+name: 'awesome'
+command: 'git ls-remote --tags https://github.com/awesomeWM/awesome'
+---
+name: 'ldoc'
+command: 'git ls-remote --tags https://github.com/stevedonovan/LDoc'
+---
+name: 'openntpd'
+command: 'git ls-remote --tags https://github.com/openntpd-portable/openntpd-portable'
+---
+name: 'penlight'
+command: 'git ls-remote --tags https://github.com/stevedonovan/Penlight'
+---
+name: 'vicious'
+command: 'git ls-remote --tags http://git.sysphere.org/vicious'
+---
+name: 'vsftpd'
+url: 'https://security.appspot.com/vsftpd/Changelog.txt'
+---
+name: 'python-ujson (http)'
+command: "curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.gz'"
+---
+name: 'python-ujson (git)'
+command: 'git ls-remote --tags http://github.com/esnme/ultrajson'
+---
+name: 'thc-ipv6'
+command: 'curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz'
+---
+name: 'fwknop'
+command: 'git ls-remote --tags https://github.com/mrash/fwknop'
+---
+name: 'ttytter'
+command: "curl http://www.floodgap.com/software/ttytter/dist2/ 2>/dev/null|grep href|grep -v 'nano_inetd_turbo/AIX'"
+---
+name: 'imvirt'
+command: 'git ls-remote --tags https://github.com/DE-IBH/imvirt'
+---
+name: 'perl-module-find'
+command: 'git ls-remote --tags https://github.com/crenz/Module-Find'
+---
+name: 'xtrlock'
+command: 'curl http://ftp.debian.org/debian/pool/main/x/xtrlock/ 2>/dev/null|grep .tar.gz'
+---
+name: 'python-argh'
+command: 'git ls-remote --tags https://github.com/neithere/argh'
+---
+name: 'autopsy'
+command: 'git ls-remote --tags https://github.com/sleuthkit/autopsy'
+---
+name: 'lhasa (git)'
+command: 'git ls-remote --tags https://github.com/fragglet/lhasa'
+---
+name: 'lhasa (http)'
+command: 'curl https://soulsphere.org/projects/lhasa/ 2>/dev/null|grep .tar.gz'
+---
+name: 'powerdns (git)'
+command: 'git ls-remote --tags https://github.com/PowerDNS/pdns'
+---
+name: 'powerdns (http)'
+command: 'curl https://downloads.powerdns.com/releases/ 2>/dev/null|grep .tar.gz'
+---
+name: 'diffoscope'
+command: 'git ls-remote --tags https://anonscm.debian.org/git/reproducible/diffoscope'
+---
+name: 'python-libarchive-c'
+command: 'git ls-remote --tags https://github.com/Changaco/python-libarchive-c'
+---
+name: 'tlsh'
+command: 'git ls-remote --tags https://github.com/trendmicro/tlsh'
+---
+name: 'haka'
+command: 'git ls-remote --tags https://github.com/haka-security/haka'
+---
+name: 'keepassx (git)'
+command: 'git ls-remote --tags https://github.com/keepassx/keepassx'
+---
+name: 'keepassx (http)'
+url: 'https://www.keepassx.org/releases/'
+---
+name: 'python-eventlet'
+command: 'git ls-remote --tags https://github.com/eventlet/eventlet'
+---
+name: 'python-engineio'
+command: 'git ls-remote --tags https://github.com/miguelgrinberg/python-engineio'
+---
+name: 'python-socketio'
+command: 'git ls-remote --tags https://github.com/miguelgrinberg/python-socketio'
+---
+name: 'python-blist (git)'
+command: 'git ls-remote --tags https://github.com/DanielStutzbach/blist'
+---
+name: 'python-blist (pypi)'
+command: 'curl https://pypi.python.org/pypi/blist 2>/dev/null|grep blist|grep .tar'
+---
+name: 'python-unittest2 (hg)'
+command: 'curl https://hg.python.org/unittest2/tags 2>/dev/null|grep /rev/'
+---
+name: 'python-unittest2 (pypi)'
+command: 'curl https://pypi.python.org/pypi/unittest2 2>/dev/null|grep unittest2|grep .tar'
+---
+name: 'pidgin-xmpp-recepts (git)'
+command: 'git ls-remote --tags https://github.com/noonien-d/pidgin-xmpp-receipts'
+---
+name: 'pidgin-xmpp-recepts (http)'
+url: 'http://devel.kondorgulasch.de/pidgin-xmpp-receipts/files/'
+---
+name: 'enjarify'
+command: 'git ls-remote --tags https://github.com/google/enjarify'
+---
+name: 'strip-nondeterminism'
+command: 'git ls-remote --tags https://anonscm.debian.org/git/reproducible/strip-nondeterminism'
+---
+name: 'zzuf'
+command: 'git ls-remote --tags https://github.com/samhocevar/zzuf'
+---
+name: 'libforensic1394 (git)'
+command: 'git ls-remote --tags https://github.com/FreddieWitherden/libforensic1394'
+---
+name: 'libforensic1394 (http)'
+command: 'curl https://freddie.witherden.org/tools/libforensic1394/ 2>/dev/null |grep libforensic1394-'
+---
+name: 'inception'
+command: 'git ls-remote --tags https://github.com/carmaa/inception'
+---
+#TODO bettercap
+
+#TODO ruby-network_interface
+
+#TODO impacket
+
+#TODO skipfish

@@ -14,8 +14,8 @@ git-hook:
 
 watch:
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)searching for upstream changes...$(RST)"
-	@mkdir -p .cache/urlwatch
-	@urlwatch --urls=./.urlwatch -c .cache/urlwatch
+	@mkdir -p .cache
+	@urlwatch --urls ./.urlwatch --cache .cache/urlwatch.db
 	@echo "$(BOLD)$(GREEN)[+] $(RST)$(BOLD)successfully finished upstream watches$(RST)"
 
 clean:
