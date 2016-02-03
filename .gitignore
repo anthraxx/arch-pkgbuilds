@@ -1,6 +1,7 @@
+/*/*/
 .chroot/
 .repo/*/
-.cache/
+!.cache/urlwatch.db
 src/
 pkg/
 *.tgz
@@ -14,4 +15,3 @@ pkg/
 *.tar.xz.sig
 *.asc
 *.sig
-/*/*/
