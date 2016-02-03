@@ -97,8 +97,11 @@ command: 'svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifie
 name: 'hash-identifier (svn+http)'
 url: 'https://hash-identifier.googlecode.com/svn/trunk/'
 ---
-name: 'bokken'
+name: 'bokken (upstream)'
 url: 'https://inguma.eu/projects/bokken/repository/raw/.hgtags'
+---
+name: 'bokken (bitbucket)'
+url: 'https://bitbucket.org/inguma/bokken/raw/default/.hgtags'
 ---
 name: 'urxvt-resize-font-git'
 command: 'git ls-remote https://github.com/simmel/urxvt-resize-font'
