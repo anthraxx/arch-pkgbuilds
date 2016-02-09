@@ -544,6 +544,9 @@ command: 'curl https://freddie.witherden.org/tools/libforensic1394/ 2>/dev/null 
 name: 'inception'
 command: 'git ls-remote --tags https://github.com/carmaa/inception'
 ---
+name: 'findnewest'
+command: 'git ls-remote --tags https://github.com/0-wiz-0/findnewest'
+---
 #TODO bettercap
 
 #TODO ruby-network_interface
