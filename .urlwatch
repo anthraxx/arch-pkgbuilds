@@ -113,7 +113,7 @@ name: 'wpscan'
 command: 'git ls-remote --tags https://github.com/wpscanteam/wpscan'
 ---
 name: 'dirbuster'
-command: "curl 'http://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/' 2>/dev/null|grep 'tr title='"
+command: "curl 'https://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/' 2>/dev/null|grep 'tr title='"
 ---
 name: 'qira'
 command: 'git ls-remote https://github.com/BinaryAnalysisPlatform/qira'
@@ -244,11 +244,8 @@ url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
 name: 'hydra'
 command: 'curl -k https://www.thc.org/thc-hydra/ 2>/dev/null|grep hydra- | grep tar'
 ---
-name: 'pngcrush (upstream)'
-url: 'http://pmt.sourceforge.net/pngcrush/changelog.html'
----
 name: 'pngcrush (sourceforge)'
-command: "curl 'http://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush"
+command: "curl 'https://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush"
 ---
 name: 'medusa (http)'
 command: "curl 'http://foofus.net/goons/jmk/tools/?C=N;O=D' 2>/dev/null|grep medusa"
@@ -305,7 +302,7 @@ name: 'firmware-mod-kit'
 command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Ffirmware-mod-kit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep tar"
 ---
 name: 'xprobe2'
-command: 'curl http://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz'
+command: 'curl https://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz'
 ---
 name: 'xmonad-utils'
 command: "curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|tr ' ' '\n'|grep .tar.gz"
