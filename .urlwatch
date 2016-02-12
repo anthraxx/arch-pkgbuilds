@@ -544,10 +544,12 @@ command: 'git ls-remote --tags https://github.com/carmaa/inception'
 name: 'findnewest'
 command: 'git ls-remote --tags https://github.com/0-wiz-0/findnewest'
 ---
-#TODO bettercap
-
-#TODO ruby-network_interface
-
+name: 'bettercap'
+command: 'git ls-remote --tags https://github.com/evilsocket/bettercap'
+---
+name: 'ruby-network_interface'
+command: 'git ls-remote --tags https://github.com/rapid7/network_interface'
+---
 #TODO impacket
 
 #TODO skipfish
