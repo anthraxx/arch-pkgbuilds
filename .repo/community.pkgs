@@ -12,6 +12,7 @@ cowpatty
 diffoscope
 distorm
 enjarify
+findnewest
 fish
 fwknop
 gist
@@ -24,6 +25,7 @@ hydra
 imvirt
 inception
 jadx
+john
 keepassx2
 knockd
 ldoc
@@ -49,6 +51,8 @@ powerdns
 powerdns-recursor
 profanity
 pyrit
+python2-unittest2
+python-blist
 python-engineio
 python-eventlet
 python-flask-socketio
