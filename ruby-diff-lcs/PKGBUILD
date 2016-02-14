@@ -15,7 +15,7 @@ license=('MIT' 'PerlArtistic' 'GPL2')
 depends=('ruby')
 options=('!emptydirs')
 source=(https://rubygems.org/downloads/${_gemname}-${pkgver}.gem)
-noextract=(${pkgname}-${pkgver}.gem)
+noextract=(${_gemname}-${pkgver}.gem)
 sha512sums=('ce15cb794a97f9af8585c46b7a2404e1ad6e24e4910b6aa6c5126ef5996d86700979a54a154bab1c0602f19021b287dc865db3eebdc901fb42056f1e2180d0fe')
 
 package() {
