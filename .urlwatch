@@ -559,6 +559,12 @@ command: 'git ls-remote --tags https://github.com/packetfu/packetfu'
 name: 'ruby-colorize'
 url: 'https://rubygems.org/gems/colorize/versions.atom'
 ---
+name: 'ruby-net-dns (rubygems)'
+url: 'https://rubygems.org/gems/net-dns/versions.atom'
+---
+name: 'ruby-net-dns (git)'
+command: 'git ls-remote --tags https://github.com/bluemonk/net-dns'
+---
 
 #TODO impacket
 
