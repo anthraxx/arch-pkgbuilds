@@ -550,6 +550,16 @@ command: 'git ls-remote --tags https://github.com/evilsocket/bettercap'
 name: 'ruby-network_interface'
 command: 'git ls-remote --tags https://github.com/rapid7/network_interface'
 ---
+name: 'ruby-pcaprub'
+command: 'git ls-remote --tags https://github.com/pcaprub/pcaprub'
+---
+name: 'ruby-packetfu'
+command: 'git ls-remote --tags https://github.com/packetfu/packetfu'
+---
+name: 'ruby-colorize'
+url: 'https://rubygems.org/gems/colorize/versions.atom'
+---
+
 #TODO impacket
 
 #TODO skipfish
