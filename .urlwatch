@@ -565,6 +565,15 @@ url: 'https://rubygems.org/gems/net-dns/versions.atom'
 name: 'ruby-net-dns (git)'
 command: 'git ls-remote --tags https://github.com/bluemonk/net-dns'
 ---
+name: 'vim-tabbar (git)'
+command: 'git ls-remote --tags https://github.com/majutsushi/tagbar'
+---
+name: 'vim-nerdcommenter (git)'
+command: 'git ls-remote --tags https://github.com/scrooloose/nerdcommenter'
+---
+name: 'vim-nerdcommenter (vim.org)'
+command: 'curl "http://www.vim.org/scripts/script.php?script_id=1218" 2>/dev/null|grep .zip -C1'
+---
 
 #TODO impacket
 
