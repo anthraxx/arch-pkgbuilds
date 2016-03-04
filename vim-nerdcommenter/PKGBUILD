@@ -1,31 +1,30 @@
-# Maintainer: eolianoe <eolianoe At GoogleMAIL DoT com>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: eolianoe <eolianoe At GoogleMAIL DoT com>
 # Contributor: TDY <tdy@archlinux.info>
 # Contributor: Kaiting Chen <kaitocracy@gmail.com>
 # Contributor: Laszlo Papp <djszapi @ gmail at com>
 
 pkgname=vim-nerdcommenter
 pkgver=2.3.0
-_script_id=1218
-_src_id=14455
-pkgrel=3
+pkgrel=4
 pkgdesc='A plugin that allows for easy commenting of code for many filetypes'
-url="http://www.vim.org/scripts/script.php?script_id=${_script_id}"
-_url="https://github.com/scrooloose/nerdcommenter"
+url='https://github.com/scrooloose/nerdcommenter'
 arch=('any')
-license=('custom')
-groups=('vim-plugins')
+license=('custom:vim')
 depends=('vim')
+groups=('vim-plugins')
 install=vimdoc.install
-source=("${pkgname}.zip::http://www.vim.org/scripts/download_script.php?src_id=${_src_id}")
-sha256sums=('c2a153a8538e340576208882b034e6c2de5c689d3bef1a67f7234917d0ded4dd')
+source=(${pkgname}-${pkgver}.tar.gz::https://github.com/scrooloose/nerdcommenter/archive/${pkgver}.tar.gz
+        LICENSE)
+sha512sums=('a2e4720aacf05ac7571adbd1222bfc119134c1f2a0c3c534d1372a020bf4f540741732e4992b53170f1c1d48ac2a11c57316ece5bd2a70d699f0d54caa51f29b'
+            '1b4064171fa88f41d05e3d1d1c14ceb8a5cb4cca9e6f08f7e267d7740b7d65e4765cb56f0ccf3765ee9c85654559d2d7726d71516b890b0174b68e6cc62ef421')
 
 package() {
-  cd "${srcdir}"
-
-  install -Dm644 plugin/NERD_commenter.vim \
-    "${pkgdir}/usr/share/vim/vimfiles/plugin/NERD_commenter.vim"
-  install -Dm644 doc/NERD_commenter.txt \
-    "${pkgdir}/usr/share/vim/vimfiles/doc/NERD_commenter.txt"
+  cd ${pkgname#vim-}-${pkgver}
+  _installpath="${pkgdir}/usr/share/vim/vimfiles"
+  install -Dm 644 doc/NERD_commenter.txt "${_installpath}/doc/NERD_commenter.txt"
+  install -Dm 644 plugin/NERD_commenter.vim "${_installpath}/plugin/NERD_commenter.vim"
+  install -Dm 644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
 
-# vim:set ts=2 sw=2 et:
+# vim: ts=2 sw=2 et:
