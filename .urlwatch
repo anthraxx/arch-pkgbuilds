@@ -577,8 +577,9 @@ command: 'curl "http://www.vim.org/scripts/script.php?script_id=1218" 2>/dev/nul
 name: 'python-pcapy'
 command: 'git ls-remote --tags https://github.com/CoreSecurity/pcapy'
 ---
-
-#TODO impacket
+name: 'impacket'
+command: 'git ls-remote --tags https://github.com/CoreSecurity/impacket'
+---
 
 #TODO skipfish
 
