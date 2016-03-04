@@ -79,6 +79,7 @@ scapy
 scapy3k
 smali
 speedtest-cli
+sqlmap
 sslscan
 sslsplit
 sslstrip
@@ -89,6 +90,8 @@ thc-ipv6
 tlsh
 valabind
 vicious
+vim-nercommenter
+vim-tagbar
 volatility
 vsftpd
 wavemon
