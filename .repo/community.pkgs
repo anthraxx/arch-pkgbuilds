@@ -59,6 +59,7 @@ python-flask-socketio
 python-hexdump
 python-libarchive-c
 python-netaddr
+python-pcapy
 python-socketio
 python-tblib
 python-ujson
