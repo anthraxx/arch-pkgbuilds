@@ -574,6 +574,9 @@ command: 'git ls-remote --tags https://github.com/scrooloose/nerdcommenter'
 name: 'vim-nerdcommenter (vim.org)'
 command: 'curl "http://www.vim.org/scripts/script.php?script_id=1218" 2>/dev/null|grep .zip -C1'
 ---
+name: 'python-pcapy'
+command: 'git ls-remote --tags https://github.com/CoreSecurity/pcapy'
+---
 
 #TODO impacket
 
