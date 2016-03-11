@@ -580,6 +580,13 @@ command: 'git ls-remote --tags https://github.com/CoreSecurity/pcapy'
 name: 'impacket'
 command: 'git ls-remote --tags https://github.com/CoreSecurity/impacket'
 ---
+name: 'ruby-em-proxy'
+command: 'git ls-remote --tags https://github.com/igrigorik/em-proxy'
+---
+name: 'ruby-eventmachine'
+command: 'git ls-remote --tags https://github.com/eventmachine/eventmachine'
+---
+
 
 #TODO skipfish
 
