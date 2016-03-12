@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 137410 2015-07-25 19:28:09Z jsteel $
+# $Id: PKGBUILD 164414 2016-03-03 09:38:35Z bpiotrowski $
 # Maintainer:  Jonathan Steel <jsteel at archlinux.org>
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Contributor: Andreas Radke <andyrtr@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=vsftpd
 pkgver=3.0.3
-pkgrel=1
+pkgrel=2
 pkgdesc="Very Secure FTP daemon"
 arch=('i686' 'x86_64')
 url="https://security.appspot.com/vsftpd.html"
