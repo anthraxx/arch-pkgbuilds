@@ -586,6 +586,9 @@ command: 'git ls-remote --tags https://github.com/igrigorik/em-proxy'
 name: 'ruby-eventmachine'
 command: 'git ls-remote --tags https://github.com/eventmachine/eventmachine'
 ---
+name: 'LinSSID'
+command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID"
+---
 
 
 #TODO skipfish
