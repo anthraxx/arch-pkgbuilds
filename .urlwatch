@@ -175,6 +175,9 @@ command: "curl 'http://www.willhackforsushi.com/?page_id=50' 2>/dev/null|grep tg
 name: 'irssi-otr'
 command: 'git ls-remote --tags https://github.com/cryptodotis/irssi-otr'
 ---
+name: 'irssi-otr (upstream http)'
+url: 'https://www.otr.im/dist/irssi-otr/'
+---
 name: 'python-olefile'
 command: 'curl https://bitbucket.org/decalage/olefileio_pl/downloads 2>/dev/null|grep .zip'
 ---
