@@ -595,6 +595,9 @@ command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2
 name: 'john'
 command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep tar"
 ---
+name: 'steam'
+url: 'http://repo.steampowered.com/steam/pool/steam/s/steam/'
+---
 
 
 #TODO skipfish
