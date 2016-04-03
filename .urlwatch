@@ -670,6 +670,9 @@ url: 'https://rubygems.org/gems/rubydns/versions.atom'
 name: 'ruby-rubydns (github)'
 command: 'git ls-remote https://github.com/ioquatix/rubydns'
 ---
+name: 'python-filebytes (github)'
+command: 'git ls-remote https://github.com/sashs/filebytes'
+---
 
 
 #TODO skipfish
