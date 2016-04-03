@@ -616,6 +616,60 @@ url: 'https://rubygems.org/gems/nio4r/versions.atom'
 name: 'ruby-nio4r (github)'
 command: 'git ls-remote https://github.com/celluloid/nio4r'
 ---
+name: 'ruby-celluloid-essentials (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-essentials/versions.atom'
+---
+name: 'ruby-celluloid-essentials (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-essentials'
+---
+name: 'ruby-celluloid-extras (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-extras/versions.atom'
+---
+name: 'ruby-celluloid-extras (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-extras'
+---
+name: 'ruby-celluloid-fsm (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-fsm/versions.atom'
+---
+name: 'ruby-celluloid-fsm (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-fsm'
+---
+name: 'ruby-celluloid-pool (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-pool/versions.atom'
+---
+name: 'ruby-celluloid-pool (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-pool'
+---
+name: 'ruby-celluloid-supervision (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-supervision/versions.atom'
+---
+name: 'ruby-celluloid-supervision (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-supervision'
+---
+name: 'ruby-celluloid (rubygems)'
+url: 'https://rubygems.org/gems/celluloid/versions.atom'
+---
+name: 'ruby-celluloid (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid'
+---
+name: 'ruby-celluloid-io (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-io/versions.atom'
+---
+name: 'ruby-celluloid-io (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-io'
+---
+name: 'ruby-celluloid-dns (rubygems)'
+url: 'https://rubygems.org/gems/celluloid-dns/versions.atom'
+---
+name: 'ruby-celluloid-dns (github)'
+command: 'git ls-remote https://github.com/celluloid/celluloid-dns'
+---
+name: 'ruby-rubydns (rubygems)'
+url: 'https://rubygems.org/gems/rubydns/versions.atom'
+---
+name: 'ruby-rubydns (github)'
+command: 'git ls-remote https://github.com/ioquatix/rubydns'
+---
 
 
 #TODO skipfish
