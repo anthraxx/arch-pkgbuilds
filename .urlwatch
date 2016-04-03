@@ -598,6 +598,24 @@ command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep tar"
 name: 'steam'
 url: 'http://repo.steampowered.com/steam/pool/steam/s/steam/'
 ---
+name: 'ruby-hitimes (rubygems)'
+url: 'https://rubygems.org/gems/hitimes/versions.atom'
+---
+name: 'ruby-hitimes (github)'
+command: 'git ls-remote https://github.com/copiousfreetime/hitimes'
+---
+name: 'ruby-timers (rubygems)'
+url: 'https://rubygems.org/gems/timers/versions.atom'
+---
+name: 'ruby-timers (github)'
+command: 'git ls-remote https://github.com/celluloid/timers'
+---
+name: 'ruby-nio4r (rubygems)'
+url: 'https://rubygems.org/gems/nio4r/versions.atom'
+---
+name: 'ruby-nio4r (github)'
+command: 'git ls-remote https://github.com/celluloid/nio4r'
+---
 
 
 #TODO skipfish
