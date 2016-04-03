@@ -57,6 +57,7 @@ python2-unittest2
 python-blist
 python-engineio
 python-eventlet
+python-filebytes
 python-flask-socketio
 python-hexdump
 python-libarchive-c
@@ -86,6 +87,7 @@ sqlmap
 sslscan
 sslsplit
 sslstrip
+steam
 strip-nondeterminism
 synergy
 tetrinet
