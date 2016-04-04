@@ -1,0 +1,21 @@
+--- params.h.orig	2014-12-18 15:14:33.000000000 +0000
++++ params.h	2015-01-03 13:49:57.994775328 +0000
+@@ -80,7 +80,7 @@
+  * notes above.
+  */
+ #ifndef JOHN_SYSTEMWIDE
+-#define JOHN_SYSTEMWIDE			0
++#define JOHN_SYSTEMWIDE			1
+ #endif
+	   
+ #if JOHN_SYSTEMWIDE
+ /*
+  * File names.
+  */
+-#define CFG_FULL_NAME			"$JOHN/john.conf"
+-#define CFG_ALT_NAME			"$JOHN/john.ini"
++#define CFG_FULL_NAME			"/etc/john/john.conf"
++#define CFG_ALT_NAME			"/etc/john/john.ini"
+ #if JOHN_SYSTEMWIDE
+ #define CFG_PRIVATE_FULL_NAME		JOHN_PRIVATE_HOME "/john.conf"
+ #define CFG_PRIVATE_ALT_NAME		JOHN_PRIVATE_HOME "/john.ini"
