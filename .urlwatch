@@ -430,6 +430,9 @@ command: 'git ls-remote --tags https://github.com/stevedonovan/LDoc'
 name: 'openntpd'
 command: 'git ls-remote --tags https://github.com/openntpd-portable/openntpd-portable'
 ---
+name: 'openntpd (http)'
+command: 'curl http://www.openntpd.org/ 2>/dev/null|grep release'
+---
 name: 'penlight'
 command: 'git ls-remote --tags https://github.com/stevedonovan/Penlight'
 ---
