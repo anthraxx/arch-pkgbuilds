@@ -24,8 +24,8 @@ optdepends=(
   'openssl: encryption support'
 )
 source=(synergy-${pkgver}.tar.gz::https://github.com/symless/synergy/archive/v${pkgver}-stable.tar.gz
-        synergys_at.socket
-        synergys_at.service
+        synergys.socket
+        synergys.service
         fix-incompetence.patch
         wrapper)
 sha512sums=('025305fc1aca425b27c1d4f16dd0c6ee7798c048e234c8a27272b81b03c0c1cb35fab6639707c1b55d58e7676fe2abf058b6f93e994ae5b256034c32c6fe806a'
@@ -94,8 +94,8 @@ package() {
   install -Dm 644 "doc/${pkgname}s.man" "${pkgdir}/usr/share/man/man1/${pkgname}s.1"
 
   # install systemd service and socket
-  install -Dm 644 "${srcdir}/synergys_at.service" "${pkgdir}/usr/lib/systemd/user/synergys@.service"
-  install -Dm 644 "${srcdir}/synergys_at.socket" "${pkgdir}/usr/lib/systemd/user/synergys@.socket"
+  install -Dm 644 "${srcdir}/synergys.service" "${pkgdir}/usr/lib/systemd/user/synergys.service"
+  install -Dm 644 "${srcdir}/synergys.socket" "${pkgdir}/usr/lib/systemd/user/synergys.socket"
 
   # install desktop/icon stuff
   install -Dm 644 "res/synergy.ico" "${pkgdir}/usr/share/icons/synergy.ico"
