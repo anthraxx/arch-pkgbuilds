@@ -98,7 +98,7 @@ name: 'hash-identifier (svn+http)'
 url: 'https://hash-identifier.googlecode.com/svn/trunk/'
 ---
 name: 'bokken (upstream)'
-url: 'https://inguma.eu/projects/bokken/repository/raw/.hgtags'
+command: 'curl -k https://inguma.eu/projects/bokken/repository/raw/.hgtags 2>/dev/null'
 ---
 name: 'bokken (bitbucket)'
 url: 'https://bitbucket.org/inguma/bokken/raw/default/.hgtags'
