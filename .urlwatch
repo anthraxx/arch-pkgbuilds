@@ -679,6 +679,9 @@ command: 'git ls-remote https://github.com/sashs/filebytes'
 name: 'umurmur (github)'
 command: 'git ls-remote https://github.com/umurmur/umurmur'
 ---
+name: 'xpdf (ftp)'
+command: 'curl ftp://ftp.foolabs.com/pub/xpdf 2>/dev/null'
+---
 
 
 #TODO skipfish
