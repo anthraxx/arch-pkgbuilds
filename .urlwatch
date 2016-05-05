@@ -676,6 +676,9 @@ command: 'git ls-remote https://github.com/ioquatix/rubydns'
 name: 'python-filebytes (github)'
 command: 'git ls-remote https://github.com/sashs/filebytes'
 ---
+name: 'umurmur (github)'
+command: 'git ls-remote https://github.com/umurmur/umurmur'
+---
 
 
 #TODO skipfish
