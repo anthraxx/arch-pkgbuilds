@@ -53,6 +53,7 @@ powerdns
 powerdns-recursor
 profanity
 pyrit
+python2-subprocess32
 python2-unittest2
 python-blist
 python-engineio
@@ -103,6 +104,7 @@ vsftpd
 wavemon
 websocketpp
 xdot
+xpdf
 xtrlock
 yara
 zaproxy
