@@ -91,11 +91,8 @@ url: 'https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags'
 name: 'volatility'
 command: 'git ls-remote --tags https://github.com/volatilityfoundation/volatility'
 ---
-name: 'hash-identifier (svn)'
-command: 'svn ls http://hash-identifier.googlecode.com/svn/trunk/ hash-identifier-read-only 2>/dev/null||true'
----
-name: 'hash-identifier (svn+http)'
-url: 'https://hash-identifier.googlecode.com/svn/trunk/'
+name: 'hash-identifier'
+command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fhash-identifier%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null| tr "," "\n"|grep -i hash'
 ---
 name: 'bokken (upstream)'
 command: 'curl -k https://inguma.eu/projects/bokken/repository/raw/.hgtags 2>/dev/null'
@@ -465,9 +462,6 @@ command: 'git ls-remote --tags https://github.com/crenz/Module-Find'
 ---
 name: 'xtrlock'
 command: 'curl http://ftp.debian.org/debian/pool/main/x/xtrlock/ 2>/dev/null|grep .tar.gz'
----
-name: 'python-argh'
-command: 'git ls-remote --tags https://github.com/neithere/argh'
 ---
 name: 'autopsy'
 command: 'git ls-remote --tags https://github.com/sleuthkit/autopsy'
