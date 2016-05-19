@@ -26,11 +26,17 @@ clean:
 
 reverse-sync-repo:
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)reverse sync all repo files...$(RST)"
-	@for PKG in `ls .repo/*`; do \
-		echo "$(BOLD)$(GREEN)[+] $(RST)$(BOLD)syncing $${PKG}...$(RST)"; \
-		cp .repo/*/$${PKG}/trunk/PKGBUILD $${PKG}/PKGBUILD; \
+	@for PKG in `ls .repo/community|grep -v .repo`; do \
+		echo "$(BOLD)$(GREEN)[+] $(RST)$(BOLD)syncing community/$${PKG}...$(RST)"; \
+		cp .repo/community/$${PKG}/trunk/PKGBUILD $${PKG}/PKGBUILD; \
+	done
+	@for PKG in `ls .repo/packages|grep -v .repo`; do \
+		echo "$(BOLD)$(GREEN)[+] $(RST)$(BOLD)syncing packages/$${PKG}...$(RST)"; \
+		cp .repo/packages/$${PKG}/trunk/PKGBUILD $${PKG}/PKGBUILD; \
 	done
 
 update-index-file:
-	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating community.pkgs index file...$(RST)"
-	ls .repo/svn-community|sort > .repo/community.pkgs	
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating community.list index file...$(RST)"
+	ls .repo/community|sort > .repo/community.list
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating packages.list index file...$(RST)"
+	ls .repo/packages|sort > .repo/packages.list
