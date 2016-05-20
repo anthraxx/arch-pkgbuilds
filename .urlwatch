@@ -679,6 +679,9 @@ command: 'curl "ftp://ftp.foolabs.com/pub/xpdf/" 2>/dev/null'
 name: 'python2-subprocess32 (github)'
 command: 'git ls-remote https://github.com/google/python-subprocess32'
 ---
+name: 'VeraCrypt (github)'
+command: 'git ls-remote https://github.com/veracrypt/VeraCrypt'
+---
 
 
 #TODO skipfish
