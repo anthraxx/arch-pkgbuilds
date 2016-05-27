@@ -43,6 +43,7 @@ ncmpcpp
 nikto
 openntpd
 p0f
+patchelf
 penlight
 perl-module-find
 perl-term-extendedcolor
