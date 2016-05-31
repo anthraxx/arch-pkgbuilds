@@ -557,10 +557,10 @@ name: 'ruby-packetfu'
 command: 'git ls-remote --tags https://github.com/packetfu/packetfu'
 ---
 name: 'ruby-colorize'
-url: 'https://rubygems.org/gems/colorize/versions.atom'
+command: 'curl https://rubygems.org/gems/colorize/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-net-dns (rubygems)'
-url: 'https://rubygems.org/gems/net-dns/versions.atom'
+command: 'curl https://rubygems.org/gems/net-dns/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-net-dns (git)'
 command: 'git ls-remote --tags https://github.com/bluemonk/net-dns'
@@ -596,73 +596,73 @@ name: 'steam'
 url: 'http://repo.steampowered.com/steam/pool/steam/s/steam/'
 ---
 name: 'ruby-hitimes (rubygems)'
-url: 'https://rubygems.org/gems/hitimes/versions.atom'
+command: 'curl https://rubygems.org/gems/hitimes/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-hitimes (github)'
 command: 'git ls-remote https://github.com/copiousfreetime/hitimes'
 ---
 name: 'ruby-timers (rubygems)'
-url: 'https://rubygems.org/gems/timers/versions.atom'
+command: 'curl https://rubygems.org/gems/timers/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-timers (github)'
 command: 'git ls-remote https://github.com/celluloid/timers'
 ---
 name: 'ruby-nio4r (rubygems)'
-url: 'https://rubygems.org/gems/nio4r/versions.atom'
+command: 'curl https://rubygems.org/gems/nio4r/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-nio4r (github)'
 command: 'git ls-remote https://github.com/celluloid/nio4r'
 ---
 name: 'ruby-celluloid-essentials (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-essentials/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-essentials/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-essentials (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-essentials'
 ---
 name: 'ruby-celluloid-extras (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-extras/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-extras/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-extras (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-extras'
 ---
 name: 'ruby-celluloid-fsm (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-fsm/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-fsm/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-fsm (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-fsm'
 ---
 name: 'ruby-celluloid-pool (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-pool/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-pool/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-pool (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-pool'
 ---
 name: 'ruby-celluloid-supervision (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-supervision/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-supervision/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-supervision (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-supervision'
 ---
 name: 'ruby-celluloid (rubygems)'
-url: 'https://rubygems.org/gems/celluloid/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid'
 ---
 name: 'ruby-celluloid-io (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-io/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-io/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-io (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-io'
 ---
 name: 'ruby-celluloid-dns (rubygems)'
-url: 'https://rubygems.org/gems/celluloid-dns/versions.atom'
+command: 'curl https://rubygems.org/gems/celluloid-dns/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-dns (github)'
 command: 'git ls-remote https://github.com/celluloid/celluloid-dns'
 ---
 name: 'ruby-rubydns (rubygems)'
-url: 'https://rubygems.org/gems/rubydns/versions.atom'
+command: 'curl https://rubygems.org/gems/rubydns/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-rubydns (github)'
 command: 'git ls-remote https://github.com/ioquatix/rubydns'
