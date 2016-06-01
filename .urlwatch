@@ -685,6 +685,9 @@ command: 'git ls-remote https://github.com/veracrypt/VeraCrypt'
 name: 'patchelf (github)'
 command: 'git ls-remote https://github.com/NixOS/patchelf'
 ---
+name: 'keystone (github)'
+command: 'git ls-remote https://github.com/keystone-engine/keystone'
+---
 
 
 #TODO skipfish
