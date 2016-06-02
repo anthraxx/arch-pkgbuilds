@@ -688,6 +688,9 @@ command: 'git ls-remote https://github.com/NixOS/patchelf'
 name: 'keystone (github)'
 command: 'git ls-remote https://github.com/keystone-engine/keystone'
 ---
+name: 'httping (github)'
+command: 'git ls-remote https://github.com/flok99/httping'
+---
 
 
 #TODO skipfish
