@@ -46,6 +46,7 @@ nikto
 openntpd
 p0f
 patchelf
+peda
 penlight
 perl-module-find
 perl-term-extendedcolor
