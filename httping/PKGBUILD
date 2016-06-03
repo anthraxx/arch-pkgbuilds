@@ -2,10 +2,11 @@
 # Contributor: brent s. <bts[at]square-r00t[dot]net>
 # Contributor: Joris Steyn <jorissteyn@gmail.com>
 # Contributor: Ondrej Kucera <ondrej.kucera@centrum.cz>
+# Contributor: Arch3y <arch3y[at]archstrike.org>
 
 pkgname=httping
 pkgver=2.4
-pkgrel=4
+pkgrel=5
 pkgdesc='A ping-like tool for http-requests'
 url='https://www.vanheusden.com/httping/'
 arch=('i686' 'x86_64')
@@ -16,7 +17,7 @@ sha512sums=('11d9e9e3b222548c9754cc0e7bf947f1a55ccc9f1a2401681f95d21b7b7a56c0766
 
 build() {
   cd ${pkgname}-${pkgver}
-  ./configure --with-tfo
+  ./configure --with-tfo --with-ncurses --with-openssl --with-fftw3
   make
 }
 
