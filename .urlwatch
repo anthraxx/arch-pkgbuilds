@@ -283,12 +283,6 @@ command: 'curl https://hashcat.net/hashcat/ 2>/dev/null|grep .7z'
 name: 'hashcat (git)'
 command: 'git ls-remote --tags https://github.com/hashcat/hashcat'
 ---
-name: 'oclhashcat cudahashcat (http)'
-command: 'curl https://hashcat.net/oclhashcat/ 2>/dev/null|grep .7z'
----
-name: 'oclhashcat cudahashcat (git)'
-command: 'git ls-remote --tags https://github.com/hashcat/oclHashcat'
----
 name: 'clamtk'
 command: 'curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz'
 ---
