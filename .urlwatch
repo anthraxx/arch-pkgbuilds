@@ -226,6 +226,9 @@ command: 'git ls-remote --tags https://github.com/robertdavidgraham/masscan'
 name: 'radamsa'
 command: 'git ls-remote --tags https://github.com/aoh/radamsa'
 ---
+name: 'owl-lisp'
+command: 'git ls-remote --tags https://github.com/aoh/owl-lisp'
+---
 name: 'synergy'
 command: 'git ls-remote --tags https://github.com/symless/synergy'
 ---
