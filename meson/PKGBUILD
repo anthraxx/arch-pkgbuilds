@@ -1,0 +1,26 @@
+# Maintainer: Anatol Pomozov <anatol dot pomozov at gmail>
+
+pkgname=meson
+pkgver=0.31.0
+pkgrel=1
+pkgdesc='SCons-like build system that use python as a front-end language and Ninja as a building backend'
+url='http://mesonbuild.com/'
+arch=(any)
+depends=(python ninja)
+optdepends=('python-pyqt5: GUI support')
+#checkdepends=(gcc-objc gnustep-make vala rust gcc-fortran mono boost qt5-base) #gtest or googletest
+license=(Apache)
+source=(https://pypi.python.org/packages/source/m/meson/meson-$pkgver.tar.gz)
+sha1sums=('dedfe5d729a492dfb9fdd0460feb222f9db4d744')
+
+check() {
+  cd meson-$pkgver
+#  tests require a lot of dependencies
+#  ./run_tests.py
+}
+
+package() {
+  cd meson-$pkgver
+  python setup.py install --root="$pkgdir" --optimize=1
+  install -D -m644 COPYING $pkgdir/usr/share/licenses/$pkgname/COPYING
+}
