@@ -700,6 +700,9 @@ command: 'curl ftp://download.nvidia.com/XFree86/nvidia-settings/ 2>/dev/null|gr
 name: 'nvidia-settings (github)'
 command: 'git ls-remote https://github.com/NVIDIA/nvidia-settings'
 ---
+name: 'meson (github)'
+command: 'git ls-remote https://github.com/mesonbuild/meson'
+---
 
 
 #TODO skipfish
