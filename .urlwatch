@@ -703,6 +703,12 @@ command: 'git ls-remote https://github.com/NVIDIA/nvidia-settings'
 name: 'meson (github)'
 command: 'git ls-remote https://github.com/mesonbuild/meson'
 ---
+name: 'gmock (github)'
+command: 'git ls-remote https://github.com/google/googlemock'
+---
+name: 'gtest (github)'
+command: 'git ls-remote https://github.com/google/googletest'
+---
 
 
 #TODO skipfish
