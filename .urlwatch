@@ -376,8 +376,14 @@ command: 'git ls-remote --tags https://github.com/rspec/rspec'
 name: 'yara'
 command: 'git ls-remote --tags https://github.com/plusvic/yara'
 ---
+name: 'yara (github)'
+command: 'git ls-remote --tags https://github.com/VirusTotal/yara'
+---
 name: 'yara-python'
 command: 'git ls-remote --tags https://github.com/plusvic/yara-python'
+---
+name: 'yara-python (github)'
+command: 'git ls-remote --tags https://github.com/VirusTotal/yara-python'
 ---
 name: 'speedtest-cli'
 command: 'git ls-remote --tags https://github.com/sivel/speedtest-cli'
