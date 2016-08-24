@@ -1,10 +1,9 @@
-# $Id: PKGBUILD 269455 2016-06-13 16:56:52Z svenstaro $
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgbase=nvidia-settings
 pkgname=('nvidia-settings' 'libxnvctrl')
-pkgver=367.35
+pkgver=370.23
 pkgrel=1
 pkgdesc="Tool for configuring the NVIDIA graphics driver"
 arch=('i686' 'x86_64')
