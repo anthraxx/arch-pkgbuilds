@@ -3,7 +3,9 @@
 for path in $(git diff --name-only --cached); do
 	if [[ "${path}" =~ .*/PKGBUILD$ && -f "${path}" ]]; then
 		echo -e "\033[1;32m==>\033[0m\033[1m Generating and adding .SRCINFO for ${path%/PKGBUILD}\033[0m"
-		(cd ${path%PKGBUILD} && mksrcinfo)
+		pushd ${path%PKGBUILD} >/dev/null
+		makepkg --printsrcinfo > .SRCINFO
+		popd >/dev/null
 		git add ${path%PKGBUILD}/.SRCINFO
 	fi
 done
