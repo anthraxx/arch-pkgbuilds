@@ -9,8 +9,8 @@ pkgver=4.0.1
 pkgrel=1
 pkgdesc='Authoritative DNS server'
 url='http://www.powerdns.com/'
-arch=('x86_64' 'i686')
-license=('GPL')
+arch=('i686' 'x86_64')
+license=('GPL2')
 depends=('boost-libs' 'libsodium' 'libsystemd' 'lua' 'openssl' 'protobuf' 'sqlite')
 makedepends=('boost' 'setconf' 'libmariadbclient' 'postgresql-libs' 'lua' 'libldap'
              'sqlite' 'geoip' 'yaml-cpp' 'pkg-config')
@@ -19,8 +19,10 @@ optdepends=('libmariadbclient: MariaDB/MySQL backend'
             'libldap: LDAP backend'
             'geoip: GeoIP backend'
             'yaml-cpp: GeoIP backend')
-install="${pkgname}.install"
+provides=('pdns')
+conflicts=('pdns')
 backup=('etc/powerdns/pdns.conf')
+install=powerdns.install
 source=(http://downloads.powerdns.com/releases/pdns-${pkgver}.tar.bz2{,.asc})
 sha512sums=('77fce9963a05198afeb569f92fbb0f6a1cb3426c28dd77b0921128189c80d9a72ebdbfc249dfc0b5b89cc7a65a83887a0388d6cc3461453b1e3096e563afdd1e'
             'SKIP')
@@ -32,16 +34,14 @@ prepare() {
   # Default settings
   for keyvalue in \
     allow-recursion=127.0.0.1 \
-    cache-ttl=6 \
     chroot=/var/empty \
-    config-dir=/etc \
-    daemon=yes \
+    config-dir=/etc/powerdns \
+    daemon=no \
     distributor-threads=3 \
-    guardian=yes \
+    guardian=no \
     local-port=53 \
     loglevel=3 \
     module-dir=/usr/lib/powerdns \
-    negquery-cache-ttl=60 \
     setgid=nobody \
     setuid=nobody \
     socket-dir=/var/run \
@@ -56,7 +56,6 @@ prepare() {
 
 build() {
   cd pdns-${pkgver}
-
   ./configure \
     --prefix=/usr \
     --sysconfdir=/etc/powerdns \
@@ -85,8 +84,11 @@ check() {
 package() {
   cd pdns-${pkgver}
   make DESTDIR="${pkgdir}" install
-  install -Dm 644 pdns.conf -t "${pkgdir}/etc/powerdns"
-  mv "${pkgdir}/usr/lib/pdns" "${pkgdir}/usr/lib/powerdns"
+  # apply defaults to generated pdns.conf
+  mv "${pkgdir}/etc/powerdns/pdns.conf"{-dist,}
+  cat pdns.conf >> "${pkgdir}/etc/powerdns/pdns.conf"
+  # adjust modules dir to match pkgname
+  mv "${pkgdir}/usr/lib/"{pdns,powerdns}
 }
 
 # vim: ts=2 sw=2 et:
