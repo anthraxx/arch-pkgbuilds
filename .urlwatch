@@ -206,7 +206,7 @@ name: 'ncmpcpp (git)'
 command: 'git ls-remote --tags git://repo.or.cz/ncmpcpp'
 ---
 name: 'ncmpcpp (http)'
-url: 'http://ncmpcpp.rybczak.net/stable/'
+url: 'http://rybczak.net/ncmpcpp/stable/'
 ---
 name: 'scanmem'
 command: 'git ls-remote --tags https://github.com/scanmem/scanmem'
