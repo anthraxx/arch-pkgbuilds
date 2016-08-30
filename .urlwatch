@@ -35,7 +35,7 @@ name: 'slowhttptest'
 url: 'http://code.google.com/feeds/p/slowhttptest/downloads/basic'
 ---
 name: 'smali (http)'
-command: 'curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep tar.gz'
+command: 'curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep -E "tar.gz|jar|zip"'
 ---
 name: 'smali (git)'
 command: 'git ls-remote --tags https://github.com/JesusFreke/smali'
