@@ -3,8 +3,7 @@ post_upgrade() {
   echo 'See http://doc.powerdns.com/md/authoritative/upgrading/ for'
   echo 'information about changes when upgrading.'
   echo
-  echo 'NOTE: pdns.service has been renamed to powerdns.service.'
-  echo '      See FS#44642 for more information.'
+  echo 'WARNING: powerdns.service has been renamed back to pdns.service.'
   echo
 }
 
