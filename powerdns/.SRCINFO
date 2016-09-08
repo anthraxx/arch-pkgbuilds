@@ -1,7 +1,7 @@
 pkgbase = powerdns
 	pkgdesc = Authoritative DNS server
 	pkgver = 4.0.1
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.powerdns.com/
 	install = powerdns.install
 	arch = i686
@@ -19,7 +19,7 @@ pkgbase = powerdns
 	makedepends = pkg-config
 	depends = boost-libs
 	depends = libsodium
-	depends = libsystemd
+	depends = systemd
 	depends = lua
 	depends = openssl
 	depends = protobuf
