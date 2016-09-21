@@ -715,6 +715,8 @@ command: 'git ls-remote https://github.com/google/googlemock'
 name: 'gtest (github)'
 command: 'git ls-remote https://github.com/google/googletest'
 ---
+name: 'hash-identifier (github)'
+command: 'git ls-remote https://github.com/Miserlou/Hash-Identifier'
 
 
 #TODO skipfish
