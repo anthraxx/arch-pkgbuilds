@@ -1,12 +1,13 @@
 pkgbase = lib32-libudev0-shim
 	pkgdesc = libudev.so.0 compatibility library for systems with newer udev versions (32 bit)
 	pkgver = 1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/archlinux/libudev0-shim
 	arch = x86_64
 	license = GPL
 	makedepends = systemd
 	depends = lib32-systemd
+	depends = libudev0-shim
 	provides = lib32-libudev0
 	conflicts = lib32-libudev0
 	source = libudev0-shim.tar.gz::https://github.com/archlinux/libudev0-shim/archive/v1.tar.gz
