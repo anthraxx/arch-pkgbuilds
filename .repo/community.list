@@ -18,7 +18,9 @@ fwknop
 gist
 gradle
 grails
+gtest
 gtetrinet
+hashcat
 haskell-parsec
 hexer
 httping
@@ -33,14 +35,18 @@ keystone
 knockd
 ldoc
 lhasa
+lib32-libudev0-shim
 libforensic1394
 libstrophe
+libudev0-shim
 linssid
 lolcat
 lynis
 masscan
 mdk3
 medusa
+meson
+metasploit
 ncmpcpp
 nikto
 openntpd
@@ -71,6 +77,7 @@ python-pcapy
 python-socketio
 python-tblib
 python-ujson
+python-yara
 rabbitmq
 radare2
 ropper
@@ -87,6 +94,7 @@ scanmem
 scapy
 scapy3k
 smali
+smplayer
 speedtest-cli
 sqlmap
 sslscan
