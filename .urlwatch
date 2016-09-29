@@ -694,6 +694,9 @@ command: 'git ls-remote https://github.com/keystone-engine/keystone'
 name: 'httping (github)'
 command: 'git ls-remote https://github.com/flok99/httping'
 ---
+name: 'httping (upstream)'
+command: 'curl https://www.vanheusden.com/httping/ 2>/dev/null|grep current'
+---
 name: 'mtr (github)'
 command: 'git ls-remote https://github.com/traviscross/mtr'
 ---
