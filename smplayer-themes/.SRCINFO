@@ -1,0 +1,15 @@
+pkgbase = smplayer-themes
+	pkgdesc = Themes for SMPlayer
+	pkgver = 16.6.0
+	pkgrel = 1
+	epoch = 1
+	url = http://smplayer.sourceforge.net/
+	arch = any
+	license = GPL
+	makedepends = optipng
+	depends = smplayer
+	source = http://downloads.sourceforge.net/smplayer/smplayer-themes-16.6.0.tar.bz2
+	md5sums = 7c2e475290e3edda69e52ec8682743dd
+
+pkgname = smplayer-themes
+
