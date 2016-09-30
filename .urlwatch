@@ -723,6 +723,9 @@ command: 'git ls-remote https://github.com/Miserlou/Hash-Identifier'
 ---
 name: 'smplayer (sourceforge)'
 command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/null|grep files/|grep -v google'
+---
+name: 'smplayer-themes (sourceforge)'
+command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|grep files/|grep -v google'
 
 
 #TODO skipfish
