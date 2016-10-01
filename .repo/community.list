@@ -39,6 +39,7 @@ lib32-libappindicator
 lib32-libdbusmenu
 lib32-libindicator
 lib32-libudev0-shim
+lib32-sdl2_ttf
 libappindicator
 libdbusmenu
 libforensic1394
