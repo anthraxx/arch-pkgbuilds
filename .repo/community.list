@@ -35,8 +35,14 @@ keystone
 knockd
 ldoc
 lhasa
+lib32-libappindicator
+lib32-libdbusmenu
+lib32-libindicator
 lib32-libudev0-shim
+libappindicator
+libdbusmenu
 libforensic1394
+libindicator
 libstrophe
 libudev0-shim
 linssid
@@ -102,6 +108,7 @@ sslscan
 sslsplit
 sslstrip
 steam
+steam-native-runtime
 strip-nondeterminism
 synergy
 tetrinet
