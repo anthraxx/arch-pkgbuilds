@@ -726,6 +726,18 @@ command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/
 ---
 name: 'smplayer-themes (sourceforge)'
 command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|grep files/|grep -v google'
+---
+name: 'libdbusmenu (launchpad)'
+command: 'curl https://launchpad.net/libdbusmenu/+download 2>/dev/null|grep tar.gz'
+---
+name: 'libindicator (launchpad)'
+command: 'curl https://launchpad.net/libindicator/+download 2>/dev/null|grep tar.gz'
+---
+name: 'libappindicator (launchpad)'
+command: 'curl https://launchpad.net/libappindicator/+download 2>/dev/null|grep tar.gz'
+---
+name: 'sdl2_ttf'
+command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep tar.gz'
 
 
 #TODO skipfish
