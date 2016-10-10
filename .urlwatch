@@ -738,6 +738,9 @@ command: 'curl https://launchpad.net/libappindicator/+download 2>/dev/null|grep 
 ---
 name: 'sdl2_ttf'
 command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep tar.gz'
+---
+name: 'jsoncpp (github)'
+command: 'git ls-remote https://github.com/open-source-parsers/jsoncpp'
 
 
 #TODO skipfish
