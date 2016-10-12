@@ -1,0 +1,26 @@
+pkgbase = libmesode
+	pkgdesc = Simple, lightweight C library for writing prifanity XMPP client
+	pkgver = 0.9.1
+	pkgrel = 1
+	url = https://github.com/boothj5/libmesode
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	license = MIT
+	checkdepends = check
+	makedepends = openssl
+	makedepends = expat
+	makedepends = doxygen
+	options = staticlibs
+	source = libmesode-0.9.1.tar.gz::https://github.com/boothj5/libmesode/archive/0.9.1.tar.gz
+	sha512sums = b549c17e61aa3e1d80a93783ac47d5a9e87767876173500c30613e9326d10ed413f284c7435b4f24c028a51f8a8d9be913cd7de9baaa5b358cac5951496d9076
+
+pkgname = libmesode
+	depends = openssl
+	depends = expat
+
+pkgname = libmesode-doc
+	pkgdesc = Simple, lightweight C library for writing prifanity XMPP client (documentation and samples)
+	optdepends = libmesode
+	options = !strip
+
