@@ -741,6 +741,9 @@ command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep tar.gz'
 ---
 name: 'jsoncpp (github)'
 command: 'git ls-remote https://github.com/open-source-parsers/jsoncpp'
+---
+name: 'libmesode (github)'
+command: 'git ls-remote https://github.com/boothj5/libmesode'
 
 
 #TODO skipfish
