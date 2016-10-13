@@ -750,7 +750,9 @@ command: 'git ls-remote https://github.com/wtforms/wtforms'
 ---
 name: 'python-flask-wtf (github)'
 command: 'git ls-remote https://github.com/lepture/flask-wtf'
-
+---
+name: 'python-flask-sqlalchemy (github)'
+command: 'git ls-remote https://github.com/mitsuhiko/flask-sqlalchemy'
 
 #TODO skipfish
 

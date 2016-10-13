@@ -78,6 +78,7 @@ python-engineio
 python-eventlet
 python-filebytes
 python-flask-socketio
+python-flask-sqlalchemy
 python-flask-wtf
 python-hexdump
 python-libarchive-c
