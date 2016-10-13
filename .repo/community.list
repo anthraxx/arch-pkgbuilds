@@ -78,6 +78,7 @@ python-engineio
 python-eventlet
 python-filebytes
 python-flask-socketio
+python-flask-wtf
 python-hexdump
 python-libarchive-c
 python-netaddr
@@ -85,6 +86,7 @@ python-pcapy
 python-socketio
 python-tblib
 python-ujson
+python-wtforms
 python-yara
 rabbitmq
 radare2

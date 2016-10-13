@@ -744,6 +744,12 @@ command: 'git ls-remote https://github.com/open-source-parsers/jsoncpp'
 ---
 name: 'libmesode (github)'
 command: 'git ls-remote https://github.com/boothj5/libmesode'
+---
+name: 'python-wtforms (github)'
+command: 'git ls-remote https://github.com/wtforms/wtforms'
+---
+name: 'python-flask-wtf (github)'
+command: 'git ls-remote https://github.com/lepture/flask-wtf'
 
 
 #TODO skipfish
