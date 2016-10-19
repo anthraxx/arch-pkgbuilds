@@ -1,16 +1,16 @@
 pkgbase = hexer
 	pkgdesc = A multi buffer editor for binary files with vi-like interface
-	pkgver = 1.0.2
+	pkgver = 1.0.3
 	pkgrel = 1
 	url = http://devel.ringlet.net/
 	arch = i686
 	arch = x86_64
 	license = custom
 	depends = ncurses
-	source = http://devel.ringlet.net/editors/hexer/hexer-1.0.2.tar.gz
-	source = http://devel.ringlet.net/editors/hexer/hexer-1.0.2.tar.gz.asc
+	source = http://devel.ringlet.net/files/editors/hexer/hexer-1.0.3.tar.gz
+	source = http://devel.ringlet.net/files/editors/hexer/hexer-1.0.3.tar.gz.asc
 	validpgpkeys = 2EE7A7A517FC124CF115C354651EEFB02527DF13
-	sha512sums = 8628ba864c00a6d28af719907fa82e0a28b16bb60b96dece38d7c3697f36f18f0af7f3f1fb2fe5dd42365935a356f82abad33e059c5ac390fddeb03c177dd7cc
+	sha512sums = 5c08374d0879ca61d7d7968bf374d6a136a514708790cc1ff502a6c0cab689397044b30924955eb63b3eae64fb7872a291e182a2a7fadaeec6e51b5c6a573c14
 	sha512sums = SKIP
 
 pkgname = hexer
