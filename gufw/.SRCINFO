@@ -1,0 +1,21 @@
+pkgbase = gufw
+	pkgdesc = Uncomplicated way to manage your Linux firewall
+	pkgver = 16.10.0
+	pkgrel = 1
+	url = https://gufw.org/
+	arch = any
+	license = GPL3
+	makedepends = intltool
+	makedepends = python-distutils-extra
+	depends = gtk3
+	depends = polkit
+	depends = python-gobject
+	depends = ufw
+	depends = webkit2gtk
+	depends = desktop-file-utils
+	depends = gtk-update-icon-cache
+	source = https://launchpad.net/gui-ufw/16.10/16.10/+download/gui-ufw-16.10.0.tar.gz
+	sha512sums = 7068d4308749af92c1c4d2e1787da70666399d67b6db81bfff039c649991ac077fdc8e5800165157c36b324869a35062b5c774aa32f80326f3793d2e56cb27ce
+
+pkgname = gufw
+

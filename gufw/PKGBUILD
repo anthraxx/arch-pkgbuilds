@@ -1,0 +1,23 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor : Martin Wimpress <code@flexion.org>
+
+pkgname=gufw
+_pkgver=16.10
+pkgver=16.10.0
+pkgrel=1
+pkgdesc='Uncomplicated way to manage your Linux firewall'
+url='https://gufw.org/'
+arch=('any')
+license=('GPL3')
+depends=('gtk3' 'polkit' 'python-gobject' 'ufw' 'webkit2gtk' 'desktop-file-utils' 'gtk-update-icon-cache')
+makedepends=('intltool' 'python-distutils-extra')
+source=(https://launchpad.net/gui-ufw/${_pkgver}/${_pkgver}/+download/gui-ufw-${pkgver}.tar.gz)
+sha512sums=('7068d4308749af92c1c4d2e1787da70666399d67b6db81bfff039c649991ac077fdc8e5800165157c36b324869a35062b5c774aa32f80326f3793d2e56cb27ce')
+
+package(){
+  cd gui-ufw-${pkgver}
+  export XDG_RUNTIME_DIR="/tmp/${pkgname}"
+  python setup.py install --root="${pkgdir}" -O1
+}
+
+# vim: ts=2 sw=2 et:
