@@ -1,7 +1,7 @@
 pkgbase = ncmpcpp
 	pkgdesc = Almost exact clone of ncmpc with some new features
-	pkgver = 0.7.5
-	pkgrel = 3
+	pkgver = 0.7.7
+	pkgrel = 1
 	url = http://ncmpcpp.rybczak.net/
 	arch = i686
 	arch = x86_64
@@ -13,8 +13,8 @@ pkgbase = ncmpcpp
 	depends = ncurses
 	depends = fftw
 	depends = boost-libs
-	source = ncmpcpp-0.7.5.tar.bz2::http://rybczak.net/ncmpcpp/stable/ncmpcpp-0.7.5.tar.bz2
-	sha512sums = 5f3b370a5a8fdc05e85a7b748debd960c0e76d5b9e43717efceaa985baa0c543d14d8b0fd7b09550111bff3aa66ec290d6cd2c0ec21de7a0caa10df1c68c99c8
+	source = ncmpcpp-0.7.7.tar.bz2::https://rybczak.net/ncmpcpp/stable/ncmpcpp-0.7.7.tar.bz2
+	sha512sums = a0bbe85f154c40513d41e85810de86ed21109b72fb0f2bdb0b78dcbddb3770aff5422b5bb7fbac2b76634c5b9aaf843bed5fc16fc672fcd71bbae911f65c0034
 
 pkgname = ncmpcpp
 
