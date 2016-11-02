@@ -1,17 +1,17 @@
 pkgbase = pngcrush
 	pkgdesc = Tool for optimizing the compression of PNG files
-	pkgver = 1.8.9
+	pkgver = 1.8.10
 	pkgrel = 1
 	url = http://pmt.sourceforge.net/pngcrush
 	arch = i686
 	arch = x86_64
 	license = custom
 	depends = libpng
-	source = http://downloads.sourceforge.net/pmt/pngcrush-1.8.9-nolib.tar.xz
-	source = http://downloads.sourceforge.net/pmt/pngcrush-1.8.9-nolib.tar.xz.asc
+	source = http://downloads.sourceforge.net/pmt/pngcrush-1.8.10-nolib.tar.xz
+	source = http://downloads.sourceforge.net/pmt/pngcrush-1.8.10-nolib.tar.xz.asc
 	source = LICENSE
 	validpgpkeys = 8048643BA2C840F4F92A195FF54984BFA16C640F
-	sha512sums = 2b61615da6878fd9b5ce044929c88f6fdf167b1a8fb8f7fa5509bc1f5beedcf3e162a463637ae08c996b2b256e02c79329fe76a4103977f5acaa4c4697fa7848
+	sha512sums = 34d06b13ebbea77bb8f0e7d69ad8ddde5e36c8970adadc074bdf3715f5fe275e475680ea3e1b89349844b2aaeddcb00b35683c8dfc4ce2d78b59c20c626eca69
 	sha512sums = SKIP
 	sha512sums = f18613b9da9b4f31a317411e726def5122246087ff57887fba6b46f0a7a7fae7109388ecb2ce049bbe992cc6ef0a3fbbe0f5c5bc816705efd7583836cbd4e69d
 
