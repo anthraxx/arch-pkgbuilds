@@ -7,6 +7,9 @@ command: 'git ls-remote --tags https://github.com/anthraxx/cowfortune'
 name: 'hexer'
 url: 'http://devel.ringlet.net/editors/hexer/'
 ---
+name: 'hexer (gitlab)'
+command: 'git ls-remote --tags https://gitlab.com/hexer/hexer'
+---
 name: 'ls++'
 command: 'git ls-remote https://github.com/trapd00r/ls--'
 ---
