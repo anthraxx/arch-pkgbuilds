@@ -1,6 +1,6 @@
 pkgbase = python-flask-socketio
 	pkgdesc = Socket.IO integration for Flask applications
-	pkgver = 2.7.1
+	pkgver = 2.7.2
 	pkgrel = 1
 	url = https://flask-socketio.readthedocs.org/
 	arch = any
@@ -20,8 +20,8 @@ pkgbase = python-flask-socketio
 	makedepends = python2-eventlet
 	makedepends = python2-socketio
 	options = !makeflags
-	source = python-flask-socketio-2.7.1.tar.gz::https://github.com/miguelgrinberg/Flask-SocketIO/archive/v2.7.1.tar.gz
-	sha512sums = e8082bcef3e82046513b18fa7a0d8edbe7713a2aa5fe9f42bf98e26ff6c4a8abf94864bceb20afa726580c30d128ead459fec316828856606629561ec6594a10
+	source = python-flask-socketio-2.7.2.tar.gz::https://github.com/miguelgrinberg/Flask-SocketIO/archive/v2.7.2.tar.gz
+	sha512sums = 73941bff883fc952ab55ae230be66b8ba1b1a99db510368ec861ada5a7bc581ff81aa7fbb4850f66331f1c6a148c77694423ae5766aca31f545a4171d1858c01
 
 pkgname = python-flask-socketio
 	depends = python-flask
