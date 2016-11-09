@@ -1,0 +1,41 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Eric Bélanger <eric@archlinux.org>
+
+pkgname=jasper
+pkgver=1.900.22
+pkgrel=1
+pkgdesc='Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard'
+url='http://www.ece.uvic.ca/~mdadams/jasper/'
+arch=('i686' 'x86_64')
+license=('custom:JasPer2.0')
+depends=('libjpeg')
+makedepends=('freeglut' 'libxmu' 'glu')
+optdepends=('freeglut: jiv support'
+            'glu: jiv support')
+options=('staticlibs')
+source=(${pkgname}-${pkgver}.tar.gz::https://github.com/mdadams/jasper/archive/version-${pkgver}.tar.gz
+        jasper-1.900.1-fix-filename-buffer-overflow.patch
+        jasper-1.900.1-CVE-2016-2089.patch)
+sha512sums=('1588011684f1a87732cd4210e4049b674d05144cfd330475e36e06ada84e439fe092e30a39e70a583475fc4a74579e3450b13dea6ac4ab732a1700ce3248f08b'
+            '741a2200b12e7ba4a06a312c44d08c35e05f312bed0b652c044bad3e080fde9865dbebbe76e4bf2436f1e27d3e4c1784240f530db7a7012a8da6fc89bf8e6978'
+            '7bd685985905fdab843a67a95ef19e75b0cd8fb86121fa9b16fdfd8c2f9da4643a9f08d51d1d43b8d791afbcf3989a34d2cfbf6f3c456ab36b13523f689bbd1b')
+
+prepare() {
+  cd ${pkgname}-${pkgver}
+  patch -p1 < "${srcdir}/jasper-1.900.1-fix-filename-buffer-overflow.patch"
+  patch -p1 < "${srcdir}/jasper-1.900.1-CVE-2016-2089.patch"
+}
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr --mandir=/usr/share/man --enable-shared
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  make DESTDIR="${pkgdir}" install
+  install -Dm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}
+
+# vim: ts=2 sw=2 et:
