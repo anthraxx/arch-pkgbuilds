@@ -1,6 +1,6 @@
 pkgbase = jasper
 	pkgdesc = Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
-	pkgver = 1.900.22
+	pkgver = 1.900.24
 	pkgrel = 1
 	url = http://www.ece.uvic.ca/~mdadams/jasper/
 	arch = i686
@@ -13,12 +13,10 @@ pkgbase = jasper
 	optdepends = freeglut: jiv support
 	optdepends = glu: jiv support
 	options = staticlibs
-	source = jasper-1.900.22.tar.gz::https://github.com/mdadams/jasper/archive/version-1.900.22.tar.gz
+	source = jasper-1.900.24.tar.gz::https://github.com/mdadams/jasper/archive/version-1.900.24.tar.gz
 	source = jasper-1.900.1-fix-filename-buffer-overflow.patch
-	source = jasper-1.900.1-CVE-2016-2089.patch
-	sha512sums = 1588011684f1a87732cd4210e4049b674d05144cfd330475e36e06ada84e439fe092e30a39e70a583475fc4a74579e3450b13dea6ac4ab732a1700ce3248f08b
+	sha512sums = 8d9871a651d75290b7ee1172a295a5af9fe1772367ed67412cfbf47834f1628718100b4201b574c4fdd14ae74134e05756cae55b52ccb8590b96c6735c6e2426
 	sha512sums = 741a2200b12e7ba4a06a312c44d08c35e05f312bed0b652c044bad3e080fde9865dbebbe76e4bf2436f1e27d3e4c1784240f530db7a7012a8da6fc89bf8e6978
-	sha512sums = 7bd685985905fdab843a67a95ef19e75b0cd8fb86121fa9b16fdfd8c2f9da4643a9f08d51d1d43b8d791afbcf3989a34d2cfbf6f3c456ab36b13523f689bbd1b
 
 pkgname = jasper
 
