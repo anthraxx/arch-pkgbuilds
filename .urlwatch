@@ -765,6 +765,12 @@ command: 'curl https://sourceforge.net/projects/avidemux/files/avidemux/ 2>/dev/
 ---
 name: 'jasper (github)'
 command: 'git ls-remote https://github.com/mdadams/jasper'
+---
+name: 'tftpy (github)'
+command: 'git ls-remote https://github.com/msoulier/tftpy'
+---
+name: 'tftpy (sourceforge)'
+command: 'curl https://sourceforge.net/projects/tftpy/files/ 2>/dev/null|grep released'
 
 #TODO skipfish
 
