@@ -605,103 +605,103 @@ name: 'ruby-hitimes (rubygems)'
 command: 'curl https://rubygems.org/gems/hitimes/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-hitimes (github)'
-command: 'git ls-remote https://github.com/copiousfreetime/hitimes'
+command: 'git ls-remote --tags https://github.com/copiousfreetime/hitimes'
 ---
 name: 'ruby-timers (rubygems)'
 command: 'curl https://rubygems.org/gems/timers/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-timers (github)'
-command: 'git ls-remote https://github.com/celluloid/timers'
+command: 'git ls-remote --tags https://github.com/celluloid/timers'
 ---
 name: 'ruby-nio4r (rubygems)'
 command: 'curl https://rubygems.org/gems/nio4r/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-nio4r (github)'
-command: 'git ls-remote https://github.com/celluloid/nio4r'
+command: 'git ls-remote --tags https://github.com/celluloid/nio4r'
 ---
 name: 'ruby-celluloid-essentials (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-essentials/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-essentials (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-essentials'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-essentials'
 ---
 name: 'ruby-celluloid-extras (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-extras/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-extras (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-extras'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-extras'
 ---
 name: 'ruby-celluloid-fsm (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-fsm/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-fsm (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-fsm'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-fsm'
 ---
 name: 'ruby-celluloid-pool (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-pool/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-pool (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-pool'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-pool'
 ---
 name: 'ruby-celluloid-supervision (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-supervision/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-supervision (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-supervision'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-supervision'
 ---
 name: 'ruby-celluloid (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid'
 ---
 name: 'ruby-celluloid-io (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-io/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-io (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-io'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-io'
 ---
 name: 'ruby-celluloid-dns (rubygems)'
 command: 'curl https://rubygems.org/gems/celluloid-dns/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-celluloid-dns (github)'
-command: 'git ls-remote https://github.com/celluloid/celluloid-dns'
+command: 'git ls-remote --tags https://github.com/celluloid/celluloid-dns'
 ---
 name: 'ruby-rubydns (rubygems)'
 command: 'curl https://rubygems.org/gems/rubydns/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
 ---
 name: 'ruby-rubydns (github)'
-command: 'git ls-remote https://github.com/ioquatix/rubydns'
+command: 'git ls-remote --tags https://github.com/ioquatix/rubydns'
 ---
 name: 'python-filebytes (github)'
-command: 'git ls-remote https://github.com/sashs/filebytes'
+command: 'git ls-remote --tags https://github.com/sashs/filebytes'
 ---
 name: 'umurmur (github)'
-command: 'git ls-remote https://github.com/umurmur/umurmur'
+command: 'git ls-remote --tags https://github.com/umurmur/umurmur'
 ---
 name: 'xpdf (ftp)'
 command: 'curl "ftp://ftp.foolabs.com/pub/xpdf/" 2>/dev/null'
 ---
 name: 'python2-subprocess32 (github)'
-command: 'git ls-remote https://github.com/google/python-subprocess32'
+command: 'git ls-remote --tags https://github.com/google/python-subprocess32'
 ---
 name: 'VeraCrypt (github)'
-command: 'git ls-remote https://github.com/veracrypt/VeraCrypt'
+command: 'git ls-remote --tags https://github.com/veracrypt/VeraCrypt'
 ---
 name: 'patchelf (github)'
-command: 'git ls-remote https://github.com/NixOS/patchelf'
+command: 'git ls-remote --tags https://github.com/NixOS/patchelf'
 ---
 name: 'keystone (github)'
-command: 'git ls-remote https://github.com/keystone-engine/keystone'
+command: 'git ls-remote --tags https://github.com/keystone-engine/keystone'
 ---
 name: 'httping (github)'
-command: 'git ls-remote https://github.com/flok99/httping'
+command: 'git ls-remote --tags https://github.com/flok99/httping'
 ---
 name: 'httping (upstream)'
 command: 'curl https://www.vanheusden.com/httping/ 2>/dev/null|grep current'
 ---
 name: 'mtr (github)'
-command: 'git ls-remote https://github.com/traviscross/mtr'
+command: 'git ls-remote --tags https://github.com/traviscross/mtr'
 ---
 name: 'mtr (upstream)'
 command: 'curl ftp://ftp.bitwizard.nl/mtr/ 2>/dev/null'
@@ -710,16 +710,16 @@ name: 'nvidia-settings (upstream)'
 command: 'curl ftp://download.nvidia.com/XFree86/nvidia-settings/ 2>/dev/null|grep nvidia-settings'
 ---
 name: 'nvidia-settings (github)'
-command: 'git ls-remote https://github.com/NVIDIA/nvidia-settings'
+command: 'git ls-remote --tags https://github.com/NVIDIA/nvidia-settings'
 ---
 name: 'meson (github)'
-command: 'git ls-remote https://github.com/mesonbuild/meson'
+command: 'git ls-remote --tags https://github.com/mesonbuild/meson'
 ---
 name: 'gmock (github)'
-command: 'git ls-remote https://github.com/google/googlemock'
+command: 'git ls-remote --tags https://github.com/google/googlemock'
 ---
 name: 'gtest (github)'
-command: 'git ls-remote https://github.com/google/googletest'
+command: 'git ls-remote --tags https://github.com/google/googletest'
 ---
 name: 'hash-identifier (github)'
 command: 'git ls-remote https://github.com/Miserlou/Hash-Identifier'
@@ -743,19 +743,19 @@ name: 'sdl2_ttf'
 command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep tar.gz'
 ---
 name: 'jsoncpp (github)'
-command: 'git ls-remote https://github.com/open-source-parsers/jsoncpp'
+command: 'git ls-remote --tags https://github.com/open-source-parsers/jsoncpp'
 ---
 name: 'libmesode (github)'
-command: 'git ls-remote https://github.com/boothj5/libmesode'
+command: 'git ls-remote --tags https://github.com/boothj5/libmesode'
 ---
 name: 'python-wtforms (github)'
-command: 'git ls-remote https://github.com/wtforms/wtforms'
+command: 'git ls-remote --tags https://github.com/wtforms/wtforms'
 ---
 name: 'python-flask-wtf (github)'
-command: 'git ls-remote https://github.com/lepture/flask-wtf'
+command: 'git ls-remote --tags https://github.com/lepture/flask-wtf'
 ---
 name: 'python-flask-sqlalchemy (github)'
-command: 'git ls-remote https://github.com/mitsuhiko/flask-sqlalchemy'
+command: 'git ls-remote --tags https://github.com/mitsuhiko/flask-sqlalchemy'
 ---
 name: 'gufw (launchpad)'
 command: 'curl https://launchpad.net/gui-ufw 2>/dev/null|grep Version -A1'
@@ -764,7 +764,7 @@ name: 'avidemux (sourceforge)'
 command: 'curl https://sourceforge.net/projects/avidemux/files/avidemux/ 2>/dev/null|grep released'
 ---
 name: 'jasper (github)'
-command: 'git ls-remote https://github.com/mdadams/jasper'
+command: 'git ls-remote --tags https://github.com/mdadams/jasper'
 ---
 name: 'tftpy (github)'
 command: 'git ls-remote https://github.com/msoulier/tftpy'
