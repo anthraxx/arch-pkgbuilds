@@ -16,6 +16,7 @@ sha512sums=('a3e6d8d6ff48f8e97c448443c0a5bff4d50db4721704e083be74c3dba78b4342267
 prepare() {
   cd ${pkgname}-${pkgver}
   sed 's|/usr/sbin|/usr/bin|g' -i perl/lib/ImVirt/Utils/dmidecode/pipe.pm
+  autoreconf -fiv
 }
 
 build() {
