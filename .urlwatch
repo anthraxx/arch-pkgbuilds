@@ -47,7 +47,7 @@ name: 'sslstrip'
 url: 'http://www.thoughtcrime.org/software/sslstrip/'
 ---
 name: 'tcpxtract'
-url: 'http://tcpxtract.sourceforge.net/'
+command: 'curl http://tcpxtract.sourceforge.net/ 2>/dev/null|grep tar.gz'
 ---
 name: 'vit'
 command: 'git ls-remote --tags https://git.tasktools.org/scm/ex/vit'
@@ -593,7 +593,7 @@ name: 'ruby-eventmachine'
 command: 'git ls-remote --tags https://github.com/eventmachine/eventmachine'
 ---
 name: 'LinSSID'
-command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png"
+command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files"
 ---
 name: 'john'
 command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep tar"
@@ -725,10 +725,10 @@ name: 'hash-identifier (github)'
 command: 'git ls-remote https://github.com/Miserlou/Hash-Identifier'
 ---
 name: 'smplayer (sourceforge)'
-command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/null|grep files/|grep -v google'
+command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/null|grep files/|grep -v google|grep -v net.sf.files'
 ---
 name: 'smplayer-themes (sourceforge)'
-command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|grep files/|grep -v google'
+command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|grep files/|grep -v google|grep -v net.sf.files'
 ---
 name: 'libdbusmenu (launchpad)'
 command: 'curl https://launchpad.net/libdbusmenu/+download 2>/dev/null|grep tar.gz'
@@ -758,7 +758,7 @@ name: 'python-flask-sqlalchemy (github)'
 command: 'git ls-remote https://github.com/mitsuhiko/flask-sqlalchemy'
 ---
 name: 'gufw (launchpad)'
-command: 'curl https://launchpad.net/gui-ufw 2>/dev/null|grep .tar.gz'
+command: 'curl https://launchpad.net/gui-ufw 2>/dev/null|grep Version -A1'
 ---
 name: 'avidemux (sourceforge)'
 command: 'curl https://sourceforge.net/projects/avidemux/files/avidemux/ 2>/dev/null|grep released'
