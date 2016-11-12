@@ -97,8 +97,8 @@ command: 'git ls-remote --tags https://github.com/volatilityfoundation/volatilit
 name: 'hash-identifier'
 command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fhash-identifier%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null| tr "," "\n"|grep -i hash'
 ---
-name: 'bokken (upstream)'
-command: 'curl -k https://inguma.eu/projects/bokken/repository/raw/.hgtags 2>/dev/null'
+name: 'bokken (github)'
+command: 'git ls-remote --tags https://github.com/inguma/bokken'
 ---
 name: 'bokken (bitbucket)'
 url: 'https://bitbucket.org/inguma/bokken/raw/default/.hgtags'
