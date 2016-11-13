@@ -1,9 +1,8 @@
 pkgbase = cowfortune
-	pkgdesc = A configurable fortune cookie proclaiming cow (and a few other creatures)
+	pkgdesc = Configurable fortune cookie proclaiming cow (and a few other creatures)
 	pkgver = 0.1.2
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/anthraxx/cowfortune
-	install = cowfortune.install
 	arch = any
 	license = MIT
 	depends = cowsay
