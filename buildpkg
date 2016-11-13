@@ -142,19 +142,25 @@ while [[ ${#} -gt 0 ]]; do
 		-c|--recreate|--clean)
 			BUILD_OPTIONS="${BUILD_OPTIONS} -c"
 		;;
+		--bump)
+			BUMP_PKGREL=1
+		;;
 		--rebuild)
+			BUMP_PKGREL=1
 			REBUILD=1
 			STAGING_i686=1
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build staging-x86_64-build"
 		;;
 		--rebuild-community)
+			BUMP_PKGREL=1
 			REBUILD_COMMUNITY=1
 			STAGING_i686=1
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build staging-x86_64-build"
 		;;
 		--rebuild-multilib)
+			BUMP_PKGREL=1
 			REBUILD_MULTILIB=1
 			REBUILD_COMMUNITY=1
 			MULTILIB_STAGING=1
@@ -184,12 +190,12 @@ for PACKAGE in ${PACKAGES}; do
 	msg "Building ${PACKAGE}..."
 	pushd "${PACKAGE}" >/dev/null
 	
-	msg "Cleaning old files..."
+	msg2 "Cleaning old files..."
 	rm -f *.log
 
 	# update pkgsums
 	if [ -n "${UPDATE_PKG_SUMS}" ]; then
-		msg "Updating package checksums..."
+		msg2 "Updating package checksums..."
 		updpkgsums
 	fi
 
@@ -197,6 +203,12 @@ for PACKAGE in ${PACKAGES}; do
 	mksrcinfo
 	archs=$(grep 'arch =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr '\n' ' ')
 	validpgpkeys=$(grep 'validpgpkeys =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr '\n' ' ')
+	pkgrel=$(grep 'pkgrel =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr -d '\n')
+    if [[ -n "${BUMP_PKGREL}" ]]; then
+        let "pkgrel++"
+        msg2 "Bumping pkgrel to ${pkgrel}"
+        sed -r "s|(pkgrel=).+|\1${pkgrel}|g" -i PKGBUILD
+    fi
 
 	# import all needed gpg keys
 	for validpgpkey in ${validpgpkeys}; do
@@ -214,7 +226,7 @@ for PACKAGE in ${PACKAGES}; do
                     ! " ${archs[@]} " =~ " $(echo ${BUILD_MODE}|sed -r 's|.+-(.+)-.+|\1|') " ]]; then
                 continue
             fi
-            msg "Calling ${BUILD_MODE} ${BUILD_OPTIONS}..."
+            msg "Building via ${BUILD_MODE} ${BUILD_OPTIONS}..."
             ${BUILD_MODE} ${BUILD_OPTIONS}
         done
     fi
