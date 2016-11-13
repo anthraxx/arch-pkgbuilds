@@ -1,0 +1,13 @@
+post_install() {
+  getent passwd tlsdate > /dev/null || useradd -U -r -M -d /var/cache/tlsdated -s /bin/false tlsdate
+  mkdir -p /var/cache/tlsdated
+  chown -R tlsdate:tlsdate /var/cache/tlsdated
+}
+
+post_upgrade() {
+  post_install $1
+}
+
+pre_remove() {
+  userdel tlsdate
+}
