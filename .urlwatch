@@ -760,6 +760,9 @@ command: 'git ls-remote --tags https://github.com/mitsuhiko/flask-sqlalchemy'
 name: 'gufw (launchpad)'
 command: 'curl https://launchpad.net/gui-ufw 2>/dev/null|grep Version -A1'
 ---
+name: 'gufw (launchpad downloads)'
+command: 'curl https://launchpad.net/gui-ufw/+download 2>/dev/null|grep tar.gz'
+---
 name: 'avidemux (sourceforge)'
 command: 'curl https://sourceforge.net/projects/avidemux/files/avidemux/ 2>/dev/null|grep released'
 ---
