@@ -777,6 +777,12 @@ command: 'curl https://sourceforge.net/projects/tftpy/files/ 2>/dev/null|grep re
 ---
 name: 'tlsdate (github)'
 command: 'git ls-remote --tags https://github.com/ioerror/tlsdate'
+---
+name: 'libpsl (github)'
+command: 'git ls-remote --tags https://github.com/rockdaboot/libpsl'
+---
+name: 'publicsuffix-list (github)'
+command: 'git ls-remote https://github.com/publicsuffix/list'
 
 #TODO skipfish
 
