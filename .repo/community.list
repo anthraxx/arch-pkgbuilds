@@ -61,6 +61,7 @@ metasploit
 ncmpcpp
 nikto
 openntpd
+owl-lisp
 p0f
 patchelf
 peda
@@ -93,6 +94,7 @@ python-ujson
 python-wtforms
 python-yara
 rabbitmq
+radamsa
 radare2
 ropper
 ruby-diff-lcs
