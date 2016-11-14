@@ -312,7 +312,7 @@ for PACKAGE in ${PACKAGES}; do
             msg2 "Cleaning target..."
             rm -f "./${destdir}/"*
             msg2 "Extracting sources..."
-            tar --strip-components=1 -xvf "${tarballsrc}" -C "./${destdir}" &>/dev/null
+            tar --force-local --strip-components=1 -xvf "${tarballsrc}" -C "./${destdir}" &>/dev/null
             rm "./${destdir}/.SRCINFO"
             msg2 "Creating symlinks..."
             for pkg in ${pkgname}; do
