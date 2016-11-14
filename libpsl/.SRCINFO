@@ -1,17 +1,17 @@
 pkgbase = libpsl
 	pkgdesc = Publix Suffic List library
-	pkgver = 0.14.0
+	pkgver = 0.15.0
 	pkgrel = 2
 	url = https://github.com/rockdaboot/libpsl
 	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = libxslt
-	makedepends = python2
+	makedepends = python
 	makedepends = publicsuffix-list
 	depends = icu>=55.1-1
-	source = https://github.com/rockdaboot/libpsl/releases/download/libpsl-0.14.0/libpsl-0.14.0.tar.gz
-	sha512sums = 221b913706cb556836a6deb6271daea69f94e18437dc6f603f5c3c10738cf2bd07b47b5192b710e70c0e371db1372e582298eb17d6a907606743e58af2ff8b98
+	source = https://github.com/rockdaboot/libpsl/releases/download/libpsl-0.15.0/libpsl-0.15.0.tar.gz
+	sha512sums = 8024ee938d313cdb8f085c9419038d19e1b434093051c752bcd7dff7b63dfd9eadf9990b8e4e48e1abf40460f3354665d0904e2157c8a0a5f85feb8ebb16c307
 
 pkgname = libpsl
 
