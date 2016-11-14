@@ -1,7 +1,7 @@
 pkgbase = owl-lisp
 	pkgdesc = Simple purely functional lisp
 	pkgver = 0.1.13
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/aoh/owl-lisp
 	arch = i686
 	arch = x86_64
