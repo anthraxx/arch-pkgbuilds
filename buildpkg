@@ -292,8 +292,8 @@ for PACKAGE in ${PACKAGES}; do
 			tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
 			run_namcap "${tarballpkg}"
 		done
-		run_namcap PKGBUILD
 	done
+    run_namcap PKGBUILD
 
     # distribute into repo checkout
 	if [[ -d "../.repo/packages/${pkgbase}/trunk" ]]; then
