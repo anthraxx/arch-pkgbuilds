@@ -136,6 +136,12 @@ while [[ ${#} -gt 0 ]]; do
 		--nodist|--skipdist)
 			SKIP_DIST=1
 		;;
+		--nolist|--skiplist)
+			SKIP_LIST=1
+		;;
+		--nocheck|--skipcheck)
+			SKIP_CHECK=1
+		;;
 		-u|--updpkgsums)
 			UPDATE_PKG_SUMS=1
 		;;
@@ -275,25 +281,29 @@ for PACKAGE in ${PACKAGES}; do
 		done
 	fi
 
-	msg "Listing package contents..."
-	for pkg in ${pkgname}; do
-		for arch in ${archs}; do
-			tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-			msg2 "Listing ${tarballpkg}..."
-			for file in `tar --force-local -tf "${tarballpkg}"|sort`; do
-				printf "${BOLD}${BLUE}     ${file}${ALL_OFF}\n" >&2
-			done
-		done
-	done
+    if [ -z "${SKIP_LIST}" ]; then
+        msg "Listing package contents..."
+        for pkg in ${pkgname}; do
+            for arch in ${archs}; do
+                tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
+                msg2 "Listing ${tarballpkg}..."
+                for file in `tar --force-local -tf "${tarballpkg}"|sort`; do
+                    printf "${BOLD}${BLUE}     ${file}${ALL_OFF}\n" >&2
+                done
+            done
+        done
+    fi
 
-	msg "Running namcap..."
-	for pkg in ${pkgname}; do
-		for arch in ${archs}; do
-			tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-			run_namcap "${tarballpkg}"
-		done
-	done
-    run_namcap PKGBUILD
+    if [ -z "${SKIP_CHECK}" ]; then
+        msg "Running namcap..."
+        for pkg in ${pkgname}; do
+            for arch in ${archs}; do
+                tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
+                run_namcap "${tarballpkg}"
+            done
+        done
+        run_namcap PKGBUILD
+    fi
 
     # distribute into repo checkout
 	if [[ -d "../.repo/packages/${pkgbase}/trunk" ]]; then
