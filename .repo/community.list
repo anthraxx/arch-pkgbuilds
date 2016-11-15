@@ -88,6 +88,7 @@ python-hexdump
 python-libarchive-c
 python-netaddr
 python-pcapy
+python-qrencode
 python-socketio
 python-tblib
 python-ujson
