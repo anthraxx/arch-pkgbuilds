@@ -1,7 +1,7 @@
 pkgbase = libappindicator
 	pkgdesc = Allow applications to extend a menu via Ayatana indicators in Unity, KDE or Systray
 	pkgver = 12.10.0
-	pkgrel = 11
+	pkgrel = 12
 	url = https://launchpad.net/libappindicator
 	arch = i686
 	arch = x86_64
@@ -18,7 +18,7 @@ pkgbase = libappindicator
 	makedepends = perl-xml-libxml
 	makedepends = pygtk
 	makedepends = vala
-	makedepends = pkg-config
+	makedepends = python2
 	options = !emptydirs
 	source = http://launchpad.net/libappindicator/12.10/12.10.0/+download/libappindicator-12.10.0.tar.gz
 	source = http://launchpad.net/libappindicator/12.10/12.10.0/+download/libappindicator-12.10.0.tar.gz.asc
@@ -47,4 +47,8 @@ pkgname = libappindicator-gtk3
 pkgname = libappindicator-sharp
 	depends = libappindicator-gtk2
 	depends = gtk-sharp-2
+
+pkgname = python2-libappindicator
+	depends = libappindicator-gtk2
+	depends = python2
 
