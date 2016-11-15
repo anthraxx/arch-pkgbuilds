@@ -1,0 +1,27 @@
+pkgbase = python-qrencode
+	pkgdesc = A simple wrapper for the C qrencode library
+	pkgver = 1.01
+	pkgrel = 9
+	url = http://pypi.python.org/pypi/qrencode
+	arch = i686
+	arch = x86_64
+	license = Apache
+	makedepends = gcc
+	makedepends = python
+	makedepends = python2
+	makedepends = python-pillow
+	makedepends = python2-pillow
+	makedepends = qrencode
+	source = http://pypi.python.org/packages/source/q/qrencode/qrencode-1.01.tar.gz
+	sha256sums = fd8cdabd743e2db7a1ad332d4f0fe037e5a7807cb2f1d32da3e39439088bb610
+
+pkgname = python-qrencode
+	depends = python
+	depends = python-pillow
+	depends = qrencode
+
+pkgname = python2-qrencode
+	depends = python2
+	depends = python2-pillow
+	depends = qrencode
+
