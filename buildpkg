@@ -334,6 +334,6 @@ for PACKAGE in ${PACKAGES}; do
         fi
     fi
 
-	msg "Finished building ${PACKAGE}"
+	msg "Finished building ${PACKAGE} ${pkgverfull}"
 	popd >/dev/null
 done
