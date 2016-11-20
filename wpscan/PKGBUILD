@@ -2,8 +2,8 @@
 # Contributor: alexiobash < me (at) alexiobash (dot) com >
 
 pkgname=wpscan
-pkgver=2.9.1
-pkgrel=3
+pkgver=2.9.2
+pkgrel=1
 epoch=1
 pkgdesc='Black box WordPress vulnerability scanner'
 url='http://wpscan.org'
@@ -14,7 +14,7 @@ makedepends=('unzip')
 options=('!strip' '!emptydirs')
 install=wpscan.install
 source=(${pkgname}-${pkgver}.tar.gz::https://github.com/wpscanteam/wpscan/archive/${pkgver}.tar.gz)
-sha512sums=('46fee5851b8fb7e0b8f9e010dfbb426855b85cbc9cb117df03630f16886d08c47d08009fa576378177ba608f4281f284f9644bdc09dfa0ac09ff9c66c08fdbaf')
+sha512sums=('cc8ff69b4b4b7ad26a32b9627d44d9d8e647310763cf768d91eb400d86fcbbb98f7a5cd695f9f7b2df9e85d5b3c49f2336a8bcf9a14e2458ffe06e3d2be145d6')
 
 prepare() {
   cd ${pkgname}-${pkgver}
