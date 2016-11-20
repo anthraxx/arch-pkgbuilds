@@ -331,6 +331,9 @@ command: 'git ls-remote --tags https://github.com/kislyuk/argcomplete'
 name: 'rabbitmq'
 command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-server'
 ---
+name: 'rabbitmqadmin'
+command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-management'
+---
 name: 'gradle'
 command: 'curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort'
 ---

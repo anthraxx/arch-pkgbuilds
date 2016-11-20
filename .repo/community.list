@@ -96,6 +96,7 @@ python-ujson
 python-wtforms
 python-yara
 rabbitmq
+rabbitmqadmin
 radamsa
 radare2
 ropper
