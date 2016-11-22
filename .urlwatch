@@ -792,6 +792,9 @@ command: 'curl https://pypi.python.org/pypi/qrencode 2>/dev/null|grep tar.gz'
 ---
 name: 'python-qrencode (github)'
 command: 'git ls-remote --tags https://github.com/Arachnid/pyqrencode'
+---
+name: 'libtiff (upstream)'
+url: 'http://download.osgeo.org/libtiff/'
 
 
 #TODO skipfish
