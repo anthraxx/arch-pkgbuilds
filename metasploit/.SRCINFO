@@ -1,6 +1,6 @@
 pkgbase = metasploit
 	pkgdesc = Advanced open-source platform for developing, testing, and using exploit code
-	pkgver = 4.13.0
+	pkgver = 4.13.1
 	pkgrel = 1
 	url = https://www.metasploit.com/
 	arch = i686
@@ -16,8 +16,8 @@ pkgbase = metasploit
 	optdepends = ruby-pg: database support
 	options = !strip
 	options = !emptydirs
-	source = metasploit-4.13.0.tar.gz::https://github.com/rapid7/metasploit-framework/archive/4.13.0.tar.gz
-	sha512sums = f53b353e2af956805ae315c4180b493d46559518c929067a9bc6e11eb7bfceaa10c6d740609f7c6226c2bb27749661da864ba0cdcaf1182a366ad3c444de1c84
+	source = metasploit-4.13.1.tar.gz::https://github.com/rapid7/metasploit-framework/archive/4.13.1.tar.gz
+	sha512sums = 787de0f3c1cbca13c3caf5638aebe6897b95d1d2cc284872ee36ba8a297e35f9d0e17cc30a576bca2a47481cca9d2ffbb0fdc284f489cd6d3f3e10c3a18e9dd6
 
 pkgname = metasploit
 
