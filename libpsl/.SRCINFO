@@ -1,5 +1,5 @@
 pkgbase = libpsl
-	pkgdesc = Publix Suffic List library
+	pkgdesc = Public Suffix List library
 	pkgver = 0.15.0
 	pkgrel = 6
 	url = https://github.com/rockdaboot/libpsl
