@@ -1,0 +1,38 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Guillermo Ramos <0xwille at gmail dot com>
+
+pkgname=radare2-git
+pkgver=1.0.2+207+g7edd787
+pkgrel=1
+pkgdesc='Open-source tools to disasm, debug, analyze and manipulate binary files'
+url='http://radare.org'
+arch=('i686' 'x86_64')
+license=('GPL3' 'LGPL3')
+depends=('sh' 'capstone' 'openssl' 'libzip')
+makedepends=('git')
+options=('!emptydirs')
+provides=('radare2')
+conflicts=('radare2')
+source=(${pkgname}::git+https://github.com/radare/radare2)
+sha512sums=('SKIP')
+
+pkgver() {
+  cd ${pkgname}
+  git describe --tags | sed 's/-/+/g'
+}
+
+build() {
+  cd ${pkgname}
+  ./configure --prefix=/usr \
+    --with-syscapstone \
+    --with-syszip \
+    --with-openssl
+  make
+}
+
+package() {
+  cd ${pkgname}
+  make DESTDIR="${pkgdir}" install
+}
+
+# vim: ts=2 sw=2 et:
