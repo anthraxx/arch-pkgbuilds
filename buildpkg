@@ -112,6 +112,21 @@ while [[ ${#} -gt 0 ]]; do
 			EXTRA_x86_64=1
 			BUILD_MODES="${BUILD_MODES} extra-x86_64-build"
 		;;
+		--multilib-mixed)
+			MULTILIB=1
+			EXTRA_i686=1
+			BUILD_MODES="${BUILD_MODES} multilib-build extra-i686-build"
+		;;
+		--multilib-mixed-staging)
+			MULTILIB_STAGING=1
+			STAGING_i686=1
+			BUILD_MODES="${BUILD_MODES} multilib-staging-build staging-i686-build"
+		;;
+		--multilib-mixed-testing)
+			MULTILIB_TESTING=1
+			TESTING_i686=1
+			BUILD_MODES="${BUILD_MODES} multilib-testing-build testing-i686-build"
+		;;
 		--multilib)
 			MULTILIB=1
 			BUILD_MODES="${BUILD_MODES} multilib-build"
@@ -195,7 +210,7 @@ fi
 for PACKAGE in ${PACKAGES}; do
 	msg "Building ${PACKAGE}..."
 	pushd "${PACKAGE}" >/dev/null
-	
+
 	msg2 "Cleaning old files..."
 	rm -f *.log
 
