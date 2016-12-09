@@ -2,12 +2,13 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgname=steam-native-runtime
-pkgver=1.0.0.52
-pkgrel=10
+pkgver=1.0.0.54
+pkgrel=1
 pkgdesc='Native replacement for the Steam runtime'
 arch=('i686' 'x86_64')
 url='https://wiki.archlinux.org/index.php/Steam/Troubleshooting#Native_runtime'
 license=('None')
+replaces=('steam-libs')
 depends=('alsa-lib' 'alsa-plugins' 'atk' 'cairo' 'curl' 'dbus-glib'
          'fontconfig' 'freetype2' 'freeglut' 'gconf' 'gdk-pixbuf2' 'glew1.10'
          'glib2' 'glu' 'gtk2' 'libappindicator-gtk2' 'libcaca' 'libcanberra'
@@ -18,7 +19,7 @@ depends=('alsa-lib' 'alsa-plugins' 'atk' 'cairo' 'curl' 'dbus-glib'
          'libxft' 'libxi' 'libxinerama' 'libxmu' 'libxrandr' 'libxrender'
          'libxtst' 'libxxf86vm' 'nspr' 'nss' 'openal' 'pango' 'sdl' 'sdl2'
          'sdl2_image' 'sdl2_mixer' 'sdl2_ttf' 'sdl_image' 'sdl_mixer'
-         'sdl_ttf' 'librsvg')
+         'sdl_ttf' 'librsvg' 'vulkan-icd-loader')
 depends_x86_64=('lib32-alsa-lib' 'lib32-alsa-plugins' 'lib32-atk' 'lib32-cairo'
                 'lib32-curl' 'lib32-dbus-glib' 'lib32-fontconfig'
                 'lib32-freetype2' 'lib32-freeglut' 'lib32-gconf'
@@ -38,8 +39,19 @@ depends_x86_64=('lib32-alsa-lib' 'lib32-alsa-plugins' 'lib32-atk' 'lib32-cairo'
                 'lib32-pango' 'lib32-sdl' 'lib32-sdl2' 'lib32-sdl2_image'
                 'lib32-sdl2_mixer' 'lib32-sdl2_ttf' 'lib32-sdl_image'
                 'lib32-sdl_mixer' 'lib32-sdl_ttf')
-optdepends=('vulkan-icd-loader: vulkan support')
 
-replaces=('steam-libs')
+package() {
+  install -d "${pkgdir}/usr/lib/steam"
+  ln -sf /usr/lib/libcurl.so.3 "${pkgdir}/usr/lib/steam/libcurl.so.3"
+  ln -sf /usr/lib/libcurl.so.4.2.0 "${pkgdir}/usr/lib/steam/libcurl.so.4"
+  ln -sf /usr/lib/libcurl.so.4.2.0 "${pkgdir}/usr/lib/steam/libcurl.so.4.2.0"
+  if [ "${CARCH}" == "x86_64" ]; then
+    install -d "${pkgdir}/usr/lib32/steam"
+    ln -sf /usr/lib32/libcurl.so.3 "${pkgdir}/usr/lib32/steam/libcurl.so.3"
+    ln -sf /usr/lib32/libcurl.so.4.2.0 "${pkgdir}/usr/lib32/steam/libcurl.so.4"
+    ln -sf /usr/lib32/libcurl.so.4.2.0 "${pkgdir}/usr/lib32/steam/libcurl.so.4.2.0"
+  fi
+}
 
 # vim: ts=2 sw=2 et:
+
