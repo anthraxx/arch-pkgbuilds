@@ -9,7 +9,7 @@ pkgbase = veracrypt
 	makedepends = nasm
 	makedepends = pkg-config
 	makedepends = unzip
-	depends = fuse>=2.8.0
+	depends = fuse2>=2.8.0
 	depends = wxgtk>=3.0
 	depends = libsm
 	depends = device-mapper
