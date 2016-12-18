@@ -1,12 +1,12 @@
 pkgbase = publicsuffix-list
 	pkgdesc = Cross-vendor public domain suffix database
-	pkgver = 20161129.545.b48ff55
+	pkgver = 20161219.553.ffb052a
 	pkgrel = 1
 	url = https://github.com/publicsuffix/list
 	arch = any
 	license = custom:MPL2
 	makedepends = git
-	source = publicsuffix-list::git+https://github.com/publicsuffix/list#commit=b48ff55eab9b82ebc88762eed45277448d1f4f79
+	source = publicsuffix-list::git+https://github.com/publicsuffix/list#commit=ffb052a26672745790ec8a3f78c50c03e4dc935d
 	sha512sums = SKIP
 
 pkgname = publicsuffix-list
