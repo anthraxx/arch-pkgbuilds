@@ -31,6 +31,7 @@ hydra
 impacket
 imvirt
 inception
+irssi-otr
 jadx
 john
 keepassx2
@@ -38,6 +39,7 @@ keystone
 knockd
 ldoc
 lhasa
+lib32-freeglut
 lib32-libappindicator
 lib32-libdbusmenu
 lib32-libindicator
