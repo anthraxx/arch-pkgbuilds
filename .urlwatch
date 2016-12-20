@@ -795,6 +795,9 @@ command: 'git ls-remote --tags https://github.com/Arachnid/pyqrencode'
 ---
 name: 'libtiff (upstream)'
 url: 'http://download.osgeo.org/libtiff/'
+---
+name: 'checksec (github)'
+command: 'git ls-remote --tags https://github.com/slimm609/checksec.sh'
 
 
 #TODO skipfish
