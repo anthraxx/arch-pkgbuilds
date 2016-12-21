@@ -1,7 +1,7 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
-	pkgver = 0.37.0
-	pkgrel = 2
+	pkgver = 0.37.1
+	pkgrel = 1
 	url = http://mesonbuild.com/
 	arch = any
 	license = Apache
@@ -27,10 +27,10 @@ pkgbase = meson
 	makedepends = python-setuptools
 	depends = python
 	depends = ninja
-	source = https://github.com/mesonbuild/meson/releases/download/0.37.0/meson-0.37.0.tar.gz
-	source = https://github.com/mesonbuild/meson/releases/download/0.37.0/meson-0.37.0.tar.gz.asc
+	source = https://github.com/mesonbuild/meson/releases/download/0.37.1/meson-0.37.1.tar.gz
+	source = https://github.com/mesonbuild/meson/releases/download/0.37.1/meson-0.37.1.tar.gz.asc
 	validpgpkeys = 95181F4EED14FDF4E41B518D3BF4693BFEEB9428
-	sha512sums = 329300d665d5f877fdc63bab80e7f09816b77f7892a76455b729e4bc5760cef00ad5c6de5e6cf7b9af85860ac9fc33d55030918a85dc2312a863a776979dfde7
+	sha512sums = 21f2f2eb24ee844b0541f74d787f2fb317d9a9903a1a0226045373efa7cbee841b2d6a9bf1681dfb570e78b41449a2a9920737dec9566608ce0a09ed5c8e0e85
 	sha512sums = SKIP
 
 pkgname = meson
