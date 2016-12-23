@@ -303,7 +303,7 @@ for PACKAGE in ${PACKAGES}; do
                 tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
                 msg2 "Listing ${tarballpkg}..."
                 for file in `tar --force-local -tf "${tarballpkg}"|sort`; do
-                    printf "${BOLD}${BLUE}     ${file}${ALL_OFF}\n" >&2
+                    printf "${BOLD}${BLUE}     %s${ALL_OFF}\n" "${file}" >&2
                 done
             done
         done
