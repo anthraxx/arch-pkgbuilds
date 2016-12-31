@@ -798,6 +798,12 @@ url: 'http://download.osgeo.org/libtiff/'
 ---
 name: 'checksec (github)'
 command: 'git ls-remote --tags https://github.com/slimm609/checksec.sh'
+---
+name: 'ruby-pg (rubygems)'
+command: 'curl https://rubygems.org/gems/pg/versions.atom 2>/dev/null|grep "<title>"|sort -V -r'
+---
+name: 'ruby-pg'
+url: 'https://bitbucket.org/ged/ruby-pg/raw/default/.hgtags'
 
 
 #TODO skipfish
