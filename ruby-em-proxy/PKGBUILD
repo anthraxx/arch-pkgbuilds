@@ -3,7 +3,7 @@
 _gemname=em-proxy
 pkgname=ruby-${_gemname}
 pkgver=0.1.9
-pkgrel=1
+pkgrel=2
 pkgdesc='EventMachine Proxy DSL for writing high-performance transparent / intercepting proxies'
 url='https://github.com/igrigorik/em-proxy'
 arch=('any')
@@ -15,19 +15,20 @@ sha512sums=('722b5010c8de9a809016b330e2123dc3bfb61e0c497844babb3af283e166271c00d
 
 prepare() {
   cd ${_gemname}-${pkgver}
-  sed 's|git ls-files|find|' -i *.gemspec
+  sed 's|git ls-files|find|' -i ${_gemname}.gemspec
 }
 
 build() {
   cd ${_gemname}-${pkgver}
-  gem build em-proxy.gemspec
+  gem build ${_gemname}.gemspec
 }
 
 package() {
   cd ${_gemname}-${pkgver}
   local _gemdir="$(gem env gemdir)"
-  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" em-proxy*.gem
-  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" ${_gemname}-${pkgver}.gem
+  install -Dm 644 README.md CHANGELOG.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
   cp -r examples "${pkgdir}/usr/share/doc/${pkgname}"
   rm "${pkgdir}/${_gemdir}/cache/${_gemname}-${pkgver}.gem"
 }
