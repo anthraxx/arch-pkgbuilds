@@ -4,7 +4,7 @@
 _gemname=hitimes
 pkgname=ruby-${_gemname}
 pkgver=1.2.4
-pkgrel=1
+pkgrel=2
 pkgdesc='Fast, high resolution timer library for recording performance metrics'
 url='https://github.com/copiousfreetime/hitimes'
 arch=('i686' 'x86_64')
@@ -16,13 +16,13 @@ sha512sums=('8d4c6ab8a56d8fee5e3968d07a344ec9407dcca2bf18847740f6a53a665980b387d
 
 build() {
   cd ${_gemname}-${pkgver}
-  gem build hitimes.gemspec
+  gem build ${_gemname}.gemspec
 }
 
 package() {
   cd ${_gemname}-${pkgver}
   local _gemdir="$(gem env gemdir)"
-  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" hitimes*.gem
+  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" ${_gemname}-${pkgver}.gem
   install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
   install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
   cp -r examples "${pkgdir}/usr/share/doc/${pkgname}"
