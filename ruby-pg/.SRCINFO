@@ -1,17 +1,18 @@
 pkgbase = ruby-pg
 	pkgdesc = Pg is the Ruby interface to the Postgresql RDBMS
-	pkgver = 0.18.4
+	pkgver = 0.19.0
 	pkgrel = 1
 	url = https://bitbucket.org/ged/ruby-pg
-	arch = any
+	arch = i686
+	arch = x86_64
 	license = GPL
-	makedepends = rubygems
-	makedepends = postgresql-libs
 	depends = ruby
-	noextract = pg-0.18.4.gem
+	depends = ruby-rspec-core
+	depends = postgresql-libs
+	noextract = pg-0.19.0.gem
 	options = !emptydirs
-	source = http://rubygems.org/downloads/pg-0.18.4.gem
-	md5sums = ac35f7c82ca7ca7b8dfd8533a238a83d
+	source = https://rubygems.org/downloads/pg-0.19.0.gem
+	sha512sums = e72843d9056cad3998959a37a2abf460a047be734e64e6101a5c9067b7a284b94e25ef410e55444e1a60f88184f26982be851fc25a851b3144a8ed041248d9d4
 
 pkgname = ruby-pg
 
