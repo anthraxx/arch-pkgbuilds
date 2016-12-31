@@ -1,7 +1,7 @@
 pkgbase = lolcat
 	pkgdesc = Okay, no unicorns. But rainbows!!
-	pkgver = 42.1.44
-	pkgrel = 2
+	pkgver = 42.24.0
+	pkgrel = 1
 	url = https://github.com/busyloop/lolcat
 	arch = any
 	license = custom
@@ -9,8 +9,8 @@ pkgbase = lolcat
 	depends = ruby-paint
 	depends = ruby-trollop
 	options = !emptydirs
-	source = lolcat-42.1.44.tar.gz::https://github.com/busyloop/lolcat/archive/v42.1.44.tar.gz
-	sha512sums = 6bda0ffcc55e3be12163617f3edcd85b3e27b82dfec71044c5918fdeed5670c6df8cedd25e7c77659bd05f59fcecef88efd251545f718a2784425618a1a2f58e
+	source = lolcat-42.24.0.tar.gz::https://github.com/busyloop/lolcat/archive/v42.24.0.tar.gz
+	sha512sums = ad610dac62717da0b1d0b8ccfc77ac1d0cd6bd448df52fa616af70b6e3cec679e489394304ecaf3b50995ad9ded5412c387c8cdb7687876b2586a9706e45a604
 
 pkgname = lolcat
 
