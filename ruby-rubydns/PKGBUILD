@@ -5,7 +5,7 @@ pkgname=ruby-${_gemname}
 _pkgver=1.0.3
 pkgver=1.0.3.af7984c
 _gitcommit=af7984cd39a23445e6b2a19e2e12444c8d2f7d27
-pkgrel=2
+pkgrel=3
 pkgdesc='High-performance asynchronous DNS server and resolver for Ruby'
 url='https://github.com/ioquatix/rubydns'
 arch=('any')
@@ -17,19 +17,20 @@ sha512sums=('3795bd482916db229d4c399f82bd2646c72b828727ff0267f9f3073b4403b816935
 
 prepare() {
   cd ${_gemname}-${_gitcommit}
-  sed 's|git ls-files|find|' -i *.gemspec
-  sed -r 's|2.0.0|1.0.3|' -i lib/rubydns/version.rb
+  sed 's|git ls-files|find|' -i ${_gemname}.gemspec
+  sed 's|~>|>=|g' -i ${_gemname}.gemspec
+  sed 's|2.0.0|1.0.3|' -i lib/rubydns/version.rb
 }
 
 build() {
   cd ${_gemname}-${_gitcommit}
-  gem build rubydns.gemspec
+  gem build ${_gemname}.gemspec
 }
 
 package() {
   cd ${_gemname}-${_gitcommit}
   local _gemdir="$(gem env gemdir)"
-  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" rubydns*.gem
+  gem install --ignore-dependencies --no-user-install -i "${pkgdir}/${_gemdir}" -n "${pkgdir}/usr/bin" ${_gemname}-${_pkgver}.gem
   install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
   cp -r examples "${pkgdir}/usr/share/doc/${pkgname}"
   rm "${pkgdir}"/${_gemdir}/cache/${_gemname}-*.gem
