@@ -1,6 +1,6 @@
 pkgbase = awesome
 	pkgdesc = Highly configurable framework window manager
-	pkgver = 3.5.9
+	pkgver = 4.0
 	pkgrel = 1
 	url = https://awesomewm.org/
 	arch = i686
@@ -17,6 +17,7 @@ pkgbase = awesome
 	depends = dbus
 	depends = gdk-pixbuf2
 	depends = imlib2
+	depends = libxkbcommon-x11
 	depends = libxdg-basedir
 	depends = lua
 	depends = lua-lgi
@@ -25,14 +26,15 @@ pkgbase = awesome
 	depends = xcb-util-cursor
 	depends = xcb-util-keysyms
 	depends = xcb-util-wm
+	depends = xcb-util-xrm
 	depends = xorg-xmessage
 	optdepends = rlwrap: readline support for awesome-client
 	optdepends = dex: autostart your desktop files
 	optdepends = vicious: widgets for the Awesome window manager
 	provides = notification-daemon
 	backup = etc/xdg/awesome/rc.lua
-	source = https://github.com/awesomeWM/awesome-releases/raw/master/awesome-3.5.9.tar.xz
-	sha512sums = 6a4c679b293e8cd85d1f7e13f6dea704cbb267e42b9260496a54b657a66d6148aae51521d802d61baaeb23df0d4a8ad0b28d9dc922ea5da2a347b4251cce5e25
+	source = https://github.com/awesomeWM/awesome/releases/download/v4.0/awesome-4.0.tar.xz
+	sha512sums = 80bdfe5f9166f5e9b0266cd630b48607d17605330d0f172666dbfa3f239ef04aeafafebe8949c3bf1c31a7bd372b60252d56c815048a24e015858585c3d0432b
 
 pkgname = awesome
 
