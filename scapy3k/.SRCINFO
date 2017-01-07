@@ -1,7 +1,7 @@
 pkgbase = scapy3k
 	pkgdesc = Powerful interactive packet manipulation program written in Python 3
 	pkgver = 0.19
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/phaethon/scapy
 	arch = any
 	license = GPL2
