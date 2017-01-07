@@ -1,7 +1,7 @@
 pkgbase = afl-utils
 	pkgdesc = Utilities for automated crash sample processing/analysis, easy afl-fuzz job management and corpus optimization
 	pkgver = 1.32a
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/rc0r/afl-utils
 	arch = any
 	license = Apache
