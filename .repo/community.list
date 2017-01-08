@@ -26,6 +26,8 @@ gtest
 gtetrinet
 gufw
 hashcat
+hashid
+hash-identifier
 haskell-parsec
 hexer
 httping
@@ -93,6 +95,7 @@ python-flask-wtf
 python-hexdump
 python-libarchive-c
 python-netaddr
+python-olefile
 python-pcapy
 python-qrencode
 python-socketio
