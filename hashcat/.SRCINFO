@@ -1,7 +1,7 @@
 pkgbase = hashcat
 	pkgdesc = Multithreaded advanced password recovery utility
-	pkgver = 3.20
-	pkgrel = 2
+	pkgver = 3.30
+	pkgrel = 1
 	url = https://hashcat.net/hashcat
 	arch = i686
 	arch = x86_64
@@ -10,13 +10,11 @@ pkgbase = hashcat
 	depends = gmp
 	depends = opencl-icd-loader
 	optdepends = libxnvctrl: NVIDIA X driver configuration support
-	source = https://hashcat.net/files/hashcat-3.20.tar.gz
-	source = https://hashcat.net/files/hashcat-3.20.tar.gz.asc
-	source = fix-make-flags.patch
+	source = https://hashcat.net/files/hashcat-3.30.tar.gz
+	source = https://hashcat.net/files/hashcat-3.30.tar.gz.asc
 	validpgpkeys = A70833229D040B4199CC00523C17DA8B8A16544F
-	sha512sums = 2d227b6d73eeb06461dba995368cad2e1b0df9ab5c60a6aec101a30cca213ff50424576b1e6674d362e258bb8fd2158ca6c19925d781f9fefcaa8024217460af
+	sha512sums = 9c87978c72a595babec964e0c9ee506fdc24c870966dabf3854996808c910af369329e95932e1833a917a316441a83d6ba5cfff0f54bb5d8f9af6981243746cb
 	sha512sums = SKIP
-	sha512sums = 04d86c0480c221f3e781534b0a9a50950a376a8c798ebee8042446f5d2e11f78677f7c670deb5f132fcf38c962ea13c64ac522e2a18712efbad559a5077dc211
 
 pkgname = hashcat
 
