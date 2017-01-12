@@ -1,7 +1,7 @@
 pkgbase = powerdns
 	pkgdesc = Authoritative DNS server
 	pkgver = 4.0.1
-	pkgrel = 6
+	pkgrel = 7
 	url = http://www.powerdns.com/
 	install = powerdns.install
 	arch = i686
