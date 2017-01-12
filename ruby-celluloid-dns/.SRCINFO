@@ -1,7 +1,7 @@
 pkgbase = ruby-celluloid-dns
 	pkgdesc = Simple finite state machines with integrated Celluloid timeout support
 	pkgver = 0.17.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/celluloid/celluloid-dns
 	arch = any
 	license = MIT
