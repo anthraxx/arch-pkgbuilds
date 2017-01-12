@@ -1,7 +1,7 @@
 pkgbase = ruby-em-proxy
 	pkgdesc = EventMachine Proxy DSL for writing high-performance transparent / intercepting proxies
 	pkgver = 0.1.9
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/igrigorik/em-proxy
 	arch = any
 	license = MIT
