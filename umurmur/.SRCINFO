@@ -1,7 +1,7 @@
 pkgbase = umurmur
 	pkgdesc = Minimalistic Mumble server
 	pkgver = 0.2.16_a
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/umurmur/umurmur
 	install = umurmur.install
 	arch = i686
