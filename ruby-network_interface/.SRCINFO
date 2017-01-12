@@ -1,7 +1,7 @@
 pkgbase = ruby-network_interface
 	pkgdesc = Library to get network interface information
 	pkgver = 0.0.1
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/rapid7/network_interface
 	arch = i686
 	arch = x86_64
