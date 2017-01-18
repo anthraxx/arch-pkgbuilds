@@ -1,6 +1,7 @@
 pkgbase = mplayer
-	pkgver = 37857
-	pkgrel = 2
+	pkgdesc = Media player for Linux
+	pkgver = 37916
+	pkgrel = 1
 	url = http://www.mplayerhq.hu/
 	arch = i686
 	arch = x86_64
@@ -40,14 +41,14 @@ pkgbase = mplayer
 	makedepends = ffmpeg
 	options = !buildflags
 	options = !emptydirs
-	source = mplayer-37857::svn://svn.mplayerhq.hu/mplayer/trunk#revision=37857
+	source = mplayer-37916::svn://svn.mplayerhq.hu/mplayer/trunk#revision=37916
 	source = mplayer.desktop
 	source = include-samba-4.0.patch
 	source = revert-icl-fixes.patch
-	md5sums = SKIP
-	md5sums = 62f44a58f072b2b1a3c3d3e4976d64b3
-	md5sums = 868a92bdef148df7f38bfa992b26ce9d
-	md5sums = 3579402002b7302fdf2d146639333efd
+	sha512sums = SKIP
+	sha512sums = d3c5cbf0035279c6f307e4e225473d7b77f9b56566537a26aa694e68446b9e3240333296da627ad5af83b04cc8f476d1a3f8c05e4cf81cd6e77153feb4ed74bc
+	sha512sums = 9debb8c58b996f6c716c22c86c720bf9dc49b4ee9b76c57519f791667ae1de2cc6f5add878fbf4ac02c6b6fd1865e1bcfa6105e75de4bf7ec596c338ed0cae99
+	sha512sums = 0cae0b26d3d97fd4c962962c43a481de20335369cbca406cadfc9bda1a0608b32f5374e76c477cb9a85bda83a568a1ed17126df224ae61579d0a402c1824aea8
 
 pkgname = mplayer
 	pkgdesc = Media player for Linux
