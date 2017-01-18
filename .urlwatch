@@ -804,6 +804,9 @@ command: 'curl https://rubygems.org/gems/pg/versions.atom 2>/dev/null|grep "<tit
 ---
 name: 'ruby-pg'
 url: 'https://bitbucket.org/ged/ruby-pg/raw/default/.hgtags'
+---
+name: 'mplayer (website)'
+command: "curl 'http://www.mplayerhq.hu/design7/dload.html'|grep -i mplayer-|grep .tar."
 
 
 #TODO skipfish
