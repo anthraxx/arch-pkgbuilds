@@ -7,11 +7,20 @@ pkgbase = jsoncpp
 	arch = x86_64
 	license = MIT
 	license = custom:Public_Domain
+	checkdepends = python
+	makedepends = gcc-libs
 	makedepends = cmake
-	depends = gcc-libs
+	makedepends = doxygen
+	makedepends = graphviz
 	options = staticlibs
 	source = jsoncpp-1.8.0.tar.gz::https://github.com/open-source-parsers/jsoncpp/archive/1.8.0.tar.gz
 	sha512sums = bd0aa56827932e5b50231216c9f501da12053bf9eed6e83210b5c52afb9aff610e71995446a7e2f5f4580ff37762956a307867d3eaa1aebd6ca31e574c9e4d4c
 
 pkgname = jsoncpp
+	depends = gcc-libs
+	optdepends = jsoncpp-doc: documentation
+
+pkgname = jsoncpp-doc
+	pkgdesc = C++ library for interacting with JSON (documentation)
+	optdepends = jsoncpp
 

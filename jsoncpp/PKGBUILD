@@ -3,26 +3,30 @@
 # Contributor: Jonahtan Schaeffer <joschaeffer@gmail.com>
 # COntributor: Drake Arconis <lightdrake@gmail.com>
 
-pkgname=jsoncpp
+pkgbase=jsoncpp
+pkgname=('jsoncpp' 'jsoncpp-doc')
 pkgver=1.8.0
 pkgrel=1
 pkgdesc='C++ library for interacting with JSON'
 url='https://github.com/open-source-parsers/jsoncpp'
 arch=('i686' 'x86_64')
 license=('MIT' 'custom:Public_Domain')
-depends=('gcc-libs')
-makedepends=('cmake')
+makedepends=('gcc-libs' 'cmake' 'doxygen' 'graphviz')
+checkdepends=('python')
 options=('staticlibs')
-source=(${pkgname}-${pkgver}.tar.gz::https://github.com/open-source-parsers/${pkgname}/archive/${pkgver}.tar.gz)
+source=(${pkgbase}-${pkgver}.tar.gz::https://github.com/open-source-parsers/${pkgbase}/archive/${pkgver}.tar.gz)
 sha512sums=('bd0aa56827932e5b50231216c9f501da12053bf9eed6e83210b5c52afb9aff610e71995446a7e2f5f4580ff37762956a307867d3eaa1aebd6ca31e574c9e4d4c')
 
 prepare() {
-  cd ${pkgname}-${pkgver}
+  cd ${pkgbase}-${pkgver}
   mkdir -p build
 }
 
 build() {
-  cd ${pkgname}-${pkgver}/build
+  cd ${pkgbase}-${pkgver}
+  python doxybuild.py --with-dot
+
+  cd build
   cmake \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=lib \
@@ -35,14 +39,28 @@ build() {
 }
 
 check() {
-  cd ${pkgname}-${pkgver}/build
-  make test
+  cd ${pkgbase}-${pkgver}/build
+  make test jsoncpp_test jsoncpp_readerwriter_tests
 }
 
-package() {
-  cd  ${pkgname}-${pkgver}
+package_jsoncpp() {
+  depends=('gcc-libs')
+  optdepends=('jsoncpp-doc: documentation')
+
+  cd ${pkgbase}-${pkgver}
   make -C build DESTDIR="${pkgdir}" install
-  install -Dm 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+}
+
+package_jsoncpp-doc() {
+  pkgdesc+=' (documentation)'
+  optdepends=('jsoncpp')
+
+  cd ${pkgbase}-${pkgver}
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+  install -dm 755 "${pkgdir}/usr/share/doc/${pkgbase}"
+  cp -a dist/doxygen/jsoncpp-api-html-${pkgver} "${pkgdir}/usr/share/doc/${pkgbase}/html"
 }
 
 # vim: ts=2 sw=2 et:
