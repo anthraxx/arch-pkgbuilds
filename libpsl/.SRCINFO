@@ -1,6 +1,6 @@
 pkgbase = libpsl
 	pkgdesc = Public Suffix List library
-	pkgver = 0.16.1
+	pkgver = 0.17.0
 	pkgrel = 1
 	url = https://github.com/rockdaboot/libpsl
 	arch = i686
@@ -10,8 +10,8 @@ pkgbase = libpsl
 	makedepends = python
 	makedepends = publicsuffix-list
 	depends = icu>=55.1-1
-	source = https://github.com/rockdaboot/libpsl/releases/download/libpsl-0.16.1/libpsl-0.16.1.tar.gz
-	sha512sums = 409c06dd3661ef07cfcea4402454d55609c7448032d074cf10795809745b0130e7954f29c9fea5a3964a749f3ec4bcf20cf10cfd86d332fb8ddc72302fe4ba80
+	source = https://github.com/rockdaboot/libpsl/releases/download/libpsl-0.17.0/libpsl-0.17.0.tar.gz
+	sha512sums = 10632d462a749c24a1de67daf33e28fad8e9f63531f5b43d399db09a2dbfb7c843162290f0279d80459018ab3465d4d128689e1740cd3334b1276c3d112fdff6
 
 pkgname = libpsl
 
