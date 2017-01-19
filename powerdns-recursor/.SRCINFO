@@ -1,7 +1,7 @@
 pkgbase = powerdns-recursor
 	pkgdesc = Resolving DNS server
-	pkgver = 4.0.3
-	pkgrel = 7
+	pkgver = 4.0.4
+	pkgrel = 1
 	url = https://www.powerdns.com/
 	arch = i686
 	arch = x86_64
@@ -19,13 +19,11 @@ pkgbase = powerdns-recursor
 	provides = pdns-recursor
 	conflicts = pdns-recursor
 	backup = etc/powerdns/recursor.conf
-	source = https://downloads.powerdns.com/releases/pdns-recursor-4.0.3.tar.bz2
-	source = https://downloads.powerdns.com/releases/pdns-recursor-4.0.3.tar.bz2.asc
-	source = pdns-recursor-4.0.3-boost-context.patch
+	source = https://downloads.powerdns.com/releases/pdns-recursor-4.0.4.tar.bz2
+	source = https://downloads.powerdns.com/releases/pdns-recursor-4.0.4.tar.bz2.asc
 	validpgpkeys = B76CD4671C0968BAA87DE61C5E50715BF2FFE1A7
-	sha512sums = 03c77cff58851f9802eba434fb674d9cbd19b849620996df84b8dccc97539607895e06c1beb662b1ce08146bbc2b51a72bde2d6d90ef88c929ab645d9b5a33c4
+	sha512sums = 9473dfe9abc509b2bb953139dd7892de2027ee1508902fa0c2cd30dd9a88878fcf44370b8372d573cbab12de32bb8c604005d3b39ea34db2ef86786e689d36ab
 	sha512sums = SKIP
-	sha512sums = e28dab595e216416c484bfbf4c597ccb0e327777e5867d05c9f2291d58bbc2835bd5dfdb47cfa7ecc46acc88dbc900bf6257c191703471354e504f4690cf62f1
 
 pkgname = powerdns-recursor
 
