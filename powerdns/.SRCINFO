@@ -1,9 +1,8 @@
 pkgbase = powerdns
 	pkgdesc = Authoritative DNS server
-	pkgver = 4.0.1
-	pkgrel = 7
+	pkgver = 4.0.3
+	pkgrel = 1
 	url = http://www.powerdns.com/
-	install = powerdns.install
 	arch = i686
 	arch = x86_64
 	license = GPL2
@@ -32,11 +31,13 @@ pkgbase = powerdns
 	provides = pdns
 	conflicts = pdns
 	backup = etc/powerdns/pdns.conf
-	source = https://downloads.powerdns.com/releases/pdns-4.0.1.tar.bz2
-	source = https://downloads.powerdns.com/releases/pdns-4.0.1.tar.bz2.asc
+	source = https://downloads.powerdns.com/releases/pdns-4.0.3.tar.bz2
+	source = https://downloads.powerdns.com/releases/pdns-4.0.3.tar.bz2.asc
+	source = fix-4.0.3-tests.patch
 	validpgpkeys = B76CD4671C0968BAA87DE61C5E50715BF2FFE1A7
-	sha512sums = 77fce9963a05198afeb569f92fbb0f6a1cb3426c28dd77b0921128189c80d9a72ebdbfc249dfc0b5b89cc7a65a83887a0388d6cc3461453b1e3096e563afdd1e
+	sha512sums = 58d33ac6cf457a916bae6abd8d2dc17f76fbcd1bd9e649948584dd669f5596b43e3e4d91841700ea1ea2cd1ac102749e503cd9075273540f33a2321e20d8bfc2
 	sha512sums = SKIP
+	sha512sums = 9f6b3d794495c21280f1077b644dd6ecc10112823806c9a4db9b0819445e6450eb1a874c95199e918b7a1ad09e83192cc09d3ecf02d11b7da7488e6e03c3810a
 
 pkgname = powerdns
 
