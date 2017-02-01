@@ -1,7 +1,7 @@
 pkgbase = thc-ipv6
 	pkgdesc = Complete tool set to attack the inherent protocol weaknesses of IPv6 and ICMP6
-	pkgver = 3.0
-	pkgrel = 3
+	pkgver = 3.2
+	pkgrel = 1
 	url = https://thc.org/thc-ipv6/
 	arch = i686
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = thc-ipv6
 	depends = libpcap
 	depends = openssl
 	depends = libnetfilter_queue
-	source = thc-ipv6-3.0.tar.gz::https://www.thc.org/releases/thc-ipv6-3.0.tar.gz
-	sha512sums = 969ebbf4da4514cb83e3abcff637f7ba301c4f072f1f983b3cd3cfd3b0643b55af6eacca3c76e39e11ea9ef6e465be03dfa7ce1d6c988cabbd42cdd95d1e2552
+	source = thc-ipv6-3.2.tar.gz::https://www.thc.org/releases/thc-ipv6-3.2.tar.gz
+	sha512sums = 222d38285d110301ba4a54b0760dc840ede2d43121236079499553ab11dab42fdb361b0ec03a1b4c7290b02ce52d81d06ccfd9242fddb6de9f55b596fdda228c
 
 pkgname = thc-ipv6
 
