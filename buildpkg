@@ -157,6 +157,9 @@ while [[ ${#} -gt 0 ]]; do
 		--nocheck|--skipcheck)
 			SKIP_CHECK=1
 		;;
+		--keepcheck)
+			KEEP_CHECK_FILES=1
+		;;
 		-u|--updpkgsums)
 			UPDATE_PKG_SUMS=1
 		;;
@@ -320,6 +323,9 @@ for PACKAGE in ${PACKAGES}; do
         run_namcap PKGBUILD
 		msg "Running checkpkg..."
 		checkpkg
+		if [ -z "${KEEP_CHECK_FILES}" ]; then
+			rm -r /tmp/checkpkg-script.*
+		fi
     fi
 
     # distribute into repo checkout
