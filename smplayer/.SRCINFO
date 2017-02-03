@@ -1,6 +1,6 @@
 pkgbase = smplayer
 	pkgdesc = Media player with built-in codecs that can play virtually all video and audio formats
-	pkgver = 17.1.0
+	pkgver = 17.2.0
 	pkgrel = 1
 	url = http://smplayer.sourceforge.net/
 	arch = i686
@@ -15,8 +15,8 @@ pkgbase = smplayer
 	optdepends = smtube: browse and play youtube videos
 	optdepends = youtube-dl: youtube videos and streaming
 	optdepends = mplayer: alternative multimedia engine
-	source = https://downloads.sourceforge.net/smplayer/smplayer-17.1.0.tar.bz2
-	sha512sums = f8d24227978ef88de89524d0eb72efbb0fd3f8618f6741aa9d9f947c0ae5eb8dc3c743ee5f49032ba5fb9884810d68e75ba63cd59f6b86175c0bc40f94c93d95
+	source = https://downloads.sourceforge.net/smplayer/smplayer-17.2.0.tar.bz2
+	sha512sums = dbe22c5bf7da4d4635b0d47837d3e03c12cea40ec4fbca58009567995547c4a065d35feb149d7ff3f799604f3107527ce4e1f564d860161ada84b499cb42d9c8
 
 pkgname = smplayer
 
