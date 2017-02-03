@@ -276,6 +276,7 @@ for PACKAGE in ${PACKAGES}; do
     fi
 
 	# signing tarballs
+	# TODO: if not sign all, check if i686 built
     tarballsrc="${pkgbase}-${pkgverfull}.src.tar.gz"
 	if [ -z "${SKIP_SIG}" ]; then
 		msg "Signing tarballs..."
@@ -322,9 +323,9 @@ for PACKAGE in ${PACKAGES}; do
         done
         run_namcap PKGBUILD
 		msg "Running checkpkg..."
-		checkpkg
+		checkpkg || true
 		if [ -z "${KEEP_CHECK_FILES}" ]; then
-			rm -r /tmp/checkpkg-script.*
+			rm -rf /tmp/checkpkg-script.*
 		fi
     fi
 
