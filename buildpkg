@@ -318,6 +318,8 @@ for PACKAGE in ${PACKAGES}; do
             done
         done
         run_namcap PKGBUILD
+		msg "Running checkpkg..."
+		checkpkg
     fi
 
     # distribute into repo checkout
