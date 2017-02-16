@@ -305,7 +305,7 @@ name: 'xprobe2'
 command: 'curl https://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz'
 ---
 name: 'xmonad-utils'
-command: "curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|tr ' ' '\n'|grep .tar.gz"
+command: "curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|grep .tar.gz"
 ---
 name: 'peda'
 command: 'git ls-remote https://github.com/longld/peda'
