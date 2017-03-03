@@ -1,7 +1,7 @@
 pkgbase = thc-ipv6
 	pkgdesc = Complete tool set to attack the inherent protocol weaknesses of IPv6 and ICMP6
 	pkgver = 3.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://thc.org/thc-ipv6/
 	arch = i686
 	arch = x86_64
