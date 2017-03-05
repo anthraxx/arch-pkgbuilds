@@ -1,7 +1,7 @@
 pkgbase = yara
 	pkgdesc = Tool aimed at helping malware researchers to identify and classify malware samples
 	pkgver = 3.5.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/VirusTotal/yara
 	arch = i686
 	arch = x86_64
