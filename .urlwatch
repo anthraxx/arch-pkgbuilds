@@ -807,6 +807,9 @@ url: 'https://bitbucket.org/ged/ruby-pg/raw/default/.hgtags'
 ---
 name: 'mplayer (website)'
 command: "curl 'http://www.mplayerhq.hu/design7/dload.html'|grep -i mplayer-|grep .tar."
+---
+name: 'fasm (website)'
+command: "curl 'https://flatassembler.net/download.php'|grep -i fasm-|grep gz"
 
 
 #TODO skipfish
