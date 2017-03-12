@@ -1,0 +1,20 @@
+pkgbase = nim
+	pkgdesc = Imperative, multi-paradigm, compiled programming language
+	pkgver = 0.16.0
+	pkgrel = 1
+	url = https://nim-lang.org/
+	arch = x86_64
+	arch = i686
+	license = MIT
+	depends = python
+	depends = bash
+	options = !emptydirs
+	source = nim-0.16.0.tar.gz::https://github.com/nim-lang/Nim/archive/v0.16.0.tar.gz
+	source = csources-0.16.0.tar.gz::https://github.com/nim-lang/csources/archive/v0.16.0.tar.gz
+	sha256sums = 63b35b35d5976fec9d88e3307adb78d2e3988538e5855d13b7f6e6f89c593f7c
+	sha256sums = e909cea51c2d1f6b04af955db219877ab9f9666741ccc750334597eded80844e
+	sha512sums = c1cf13d5003d14f3ea0f332ea0ee7355923d17d3020fd35e9106d36e8225f0fde1a49e5c76bb6a48bc6fefbfa3f9205efdd234ad0da9aec2c136d0a067f92a2a
+	sha512sums = 26e303140ea8740a191a3d1b6e9cfff1e9f29bf9fc323709636e0ddce7ecc06eabf37e9c11785c214bb6c0adf908b07a4514b4fbee221d560cc8aabf278438c6
+
+pkgname = nim
+
