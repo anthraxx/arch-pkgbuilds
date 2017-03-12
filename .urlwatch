@@ -810,6 +810,12 @@ command: "curl 'http://www.mplayerhq.hu/design7/dload.html'|grep -i mplayer-|gre
 ---
 name: 'fasm (website)'
 command: "curl 'https://flatassembler.net/download.php'|grep -i fasm-|grep gz"
+---
+name: 'nim (github)'
+command: 'git ls-remote --tags https://github.com/nim-lang/Nim'
+---
+name: 'nimble (github)'
+command: 'git ls-remote --tags https://github.com/nim-lang/nimble'
 
 
 #TODO skipfish
