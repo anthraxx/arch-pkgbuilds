@@ -1,7 +1,7 @@
 pkgbase = nim
 	pkgdesc = Imperative, multi-paradigm, compiled programming language
 	pkgver = 0.16.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://nim-lang.org/
 	arch = x86_64
 	arch = i686
