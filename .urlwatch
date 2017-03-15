@@ -819,6 +819,9 @@ command: 'git ls-remote --tags https://github.com/nim-lang/nimble'
 ---
 name: 'mediaelch'
 command: 'git ls-remote --tags https://github.com/Komet/MediaElch'
+---
+name: 'irssi (github)'
+command: 'git ls-remote --tags https://github.com/irssi/irssi'
 
 
 #TODO skipfish
