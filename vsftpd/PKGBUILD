@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 164414 2016-03-03 09:38:35Z bpiotrowski $
+# $Id: PKGBUILD 215362 2017-03-09 07:40:53Z arojas $
 # Maintainer:  Jonathan Steel <jsteel at archlinux.org>
 # Contributor: Bartłomiej Piotrowski <nospam@bpiotrowski.pl>
 # Contributor: Andreas Radke <andyrtr@archlinux.org>
@@ -6,7 +6,7 @@
 
 pkgname=vsftpd
 pkgver=3.0.3
-pkgrel=2
+pkgrel=3
 pkgdesc="Very Secure FTP daemon"
 arch=('i686' 'x86_64')
 url="https://security.appspot.com/vsftpd.html"
@@ -30,6 +30,9 @@ build() {
   sed \
     -e 's|^#undef VSF_BUILD_SSL$|#define VSF_BUILD_SSL|' \
     -i builddefs.h
+
+  # fix linking to openssl 1.1
+  sed -e 's|SSL_library_init|SSL_CTX_new|' -i vsf_findlibs.sh
 
   CFLAGS+=' -fPIE' LINK='' LDFLAGS="-fPIE -pie ${LDFLAGS} -Wl,-z,now" make
 }
