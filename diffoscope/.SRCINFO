@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 79
+	pkgver = 80
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = i686
@@ -15,6 +15,7 @@ pkgbase = diffoscope
 	checkdepends = diffutils
 	checkdepends = e2fsprogs
 	checkdepends = enjarify
+	checkdepends = imagemagick
 	checkdepends = java-environment>=8
 	checkdepends = fontforge
 	checkdepends = gettext
@@ -48,7 +49,9 @@ pkgbase = diffoscope
 	optdepends = e2fsprogs: Ext2/3/4 filesystem utilities support
 	optdepends = enjarify: Android dex file support
 	optdepends = fpc: Free Pascal utilities support
+	optdepends = imagemagick: ImageMagick identify support
 	optdepends = java-environment: java utilities support
+	optdepends = libcaca: image compare support
 	optdepends = llvm: LLVM bitcode files support
 	optdepends = fontforge: bitmap font utilities support
 	optdepends = gettext: GNU internationalization utilities support
@@ -65,8 +68,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = vim: Vi IMproved (xxd) utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-79.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-79.tar.xz
-	sha512sums = ae57835d13047db2a73fb6895e5459447b84c54e1c0bb0e030940b733097e2dcc17cc9864e84386eca871339833d18cf78c3ffa28240c7438709aa10a62c41f5
+	source = diffoscope-80.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-80.tar.xz
+	sha512sums = 0e1f18e0a7cfcad7477cb0b013a460a3182417124c1611271f4d4d8727e5976716a8ee484d1563874739cc0268ab2a2108aae212399c734134f1dd66937c888d
 
 pkgname = diffoscope
 
