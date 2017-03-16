@@ -1,7 +1,7 @@
 pkgbase = ruby-eventmachine
 	pkgdesc = EventMachine: fast, simple event-processing library
 	pkgver = 1.2.3
-	pkgrel = 1
+	pkgrel = 2
 	url = http://rubyeventmachine.com
 	arch = i686
 	arch = x86_64
