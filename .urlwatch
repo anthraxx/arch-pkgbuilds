@@ -822,6 +822,9 @@ command: 'git ls-remote --tags https://github.com/Komet/MediaElch'
 ---
 name: 'irssi (github)'
 command: 'git ls-remote --tags https://github.com/irssi/irssi'
+---
+name: 'xsetwallpaper'
+command: 'git ls-remote --tags https://github.com/stoeckmann/xsetwallpaper'
 
 
 #TODO skipfish
