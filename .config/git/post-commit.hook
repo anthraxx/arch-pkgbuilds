@@ -1,7 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 # fixup .SRCINFO stage
 for path in $(git diff --name-only HEAD~1 HEAD); do
-	if [[ "${path}" =~ .*/PKGBUILD$ && -f "${path}" ]]; then
-		git add ${path%PKGBUILD}.SRCINFO
+	if [[ "${path}" =~ ^(.*/|)PKGBUILD$ && -f "${path}" ]]; then
+		[[ -z "${path%PKGBUILD}" ]] && tmp='.' || tmp="${path%PKGBUILD}"
+		git add "${tmp}.SRCINFO"
 	fi
 done

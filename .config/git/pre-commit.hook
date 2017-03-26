@@ -1,11 +1,12 @@
-#!/bin/sh
+#!/bin/bash
 # update .SRCINFO
 for path in $(git diff --name-only --cached); do
-	if [[ "${path}" =~ .*/PKGBUILD$ && -f "${path}" ]]; then
-		echo -e "\033[1;32m==>\033[0m\033[1m Generating and adding .SRCINFO for ${path%/PKGBUILD}\033[0m"
-		pushd ${path%PKGBUILD} >/dev/null
+	if [[ "${path}" =~ ^(.*/|)PKGBUILD$ && -f "${path}" ]]; then
+		[[ -z "${path%PKGBUILD}" ]] && tmp='.' || tmp="${path%PKGBUILD}"
+		printf "\033[1;32m%s\033[0m\033[1m%s\033[0m" "==>" " Generating and adding .SRCINFO for $tmp"
+		pushd "$tmp" >/dev/null
 		makepkg --printsrcinfo > .SRCINFO
 		popd >/dev/null
-		git add ${path%PKGBUILD}/.SRCINFO
+		git add "$tmp"/.SRCINFO
 	fi
 done
