@@ -1,6 +1,6 @@
 pkgbase = smplayer-themes
 	pkgdesc = Themes for SMPlayer
-	pkgver = 17.2.0
+	pkgver = 17.3.0
 	pkgrel = 1
 	epoch = 1
 	url = http://smplayer.sourceforge.net/
@@ -8,8 +8,8 @@ pkgbase = smplayer-themes
 	license = GPL2
 	makedepends = optipng
 	depends = smplayer
-	source = https://downloads.sourceforge.net/smplayer/smplayer-themes-17.2.0.tar.bz2
-	sha512sums = c2ca64aed6feda30de2be62f1ced99122cc92506c086dbb2a8f9b8a5a6b0f9d6bb3c85dfa43be0dea848f8e2d094115de1acf75da3c23ecf8d46d3685d22e4ba
+	source = https://downloads.sourceforge.net/smplayer/smplayer-themes-17.3.0.tar.bz2
+	sha512sums = 99f320fdd6934b377da7f39486489e8c5f6f2c76168b06a58ef4b019689da87fe7474ba59d0653e1ec8f2e2e075c1e9af06c09b6a3bc7a416f8c328a47e495fe
 
 pkgname = smplayer-themes
 
