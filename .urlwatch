@@ -827,7 +827,13 @@ name: 'xsetwallpaper'
 command: 'git ls-remote --tags https://github.com/stoeckmann/xsetwallpaper'
 ---
 name: 'cmocka'
-url: 'https://cmocka.org/files'
+url: 'https://cmocka.org/files/'
+---
+name: 'cmocka 1.1'
+url: 'https://cmocka.org/files/1.1/'
+---
+name: 'cmocka (git)'
+command: 'git ls-remote --tags https://git.cryptomilk.org/projects/cmocka.git'
 
 
 #TODO skipfish
