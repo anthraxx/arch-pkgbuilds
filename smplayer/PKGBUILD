@@ -5,7 +5,7 @@
 # Contributor: shamrok <szamrok@gmail.com>
 
 pkgname=smplayer
-pkgver=17.4.0
+pkgver=17.5.0
 pkgrel=1
 pkgdesc='Media player with built-in codecs that can play virtually all video and audio formats'
 url='http://smplayer.sourceforge.net/'
@@ -19,7 +19,7 @@ optdepends=('smplayer-themes: icon themes collection'
             'youtube-dl: youtube videos and streaming'
             'mplayer: alternative multimedia engine')
 source=(https://downloads.sourceforge.net/${pkgname}/${pkgname}-${pkgver}.tar.bz2)
-sha512sums=('92f5d4e80b189910305f1178efe8939a32b1b0993d41878a2edf042a909e60652a120339aaffa7e244cacffe0ca8506b99f5c9e14a75d6832f94d69338aa77a0')
+sha512sums=('d85fed176e24a78d7e714828d2203540e84ba7662f826571cbe91eb3b9ba31053d6294c6cb2f6717ff08f65e1416edc603f325f0302487ccc6038ec280ec496f')
 
 build() {
   cd ${pkgname}-${pkgver}
