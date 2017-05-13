@@ -13,6 +13,7 @@ clamtk
 conky-manager
 cowfortune
 cowpatty
+cmocka
 diffoscope
 distorm
 enjarify
@@ -63,7 +64,6 @@ lynis
 masscan
 mdk3
 medusa
-meson
 metasploit
 ncmpcpp
 nikto

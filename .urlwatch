@@ -825,6 +825,9 @@ command: 'git ls-remote --tags https://github.com/irssi/irssi'
 ---
 name: 'xsetwallpaper'
 command: 'git ls-remote --tags https://github.com/stoeckmann/xsetwallpaper'
+---
+name: 'cmocka'
+url: 'https://cmocka.org/files'
 
 
 #TODO skipfish
