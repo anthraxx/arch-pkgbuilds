@@ -1,6 +1,6 @@
 pkgbase = avidemux
 	pkgdesc = Graphical tool to edit video (filter/re-encode/split)
-	pkgver = 2.6.19
+	pkgver = 2.6.20
 	pkgrel = 1
 	url = http://fixounet.free.fr/avidemux/
 	arch = i686
@@ -38,8 +38,8 @@ pkgbase = avidemux
 	makedepends = qt5-tools
 	makedepends = pkg-config
 	options = !emptydirs
-	source = https://downloads.sourceforge.net/avidemux/avidemux_2.6.19.tar.gz
-	sha512sums = 883a7ca1e195b64ff20835d1f0d904910dcf9b5950c634c535e261c9bfd4eb625720bec64688d6ba60235ad83f5e959b2eb4094877fa7c0e196e09f23c0b44a7
+	source = https://downloads.sourceforge.net/avidemux/avidemux_2.6.20.tar.gz
+	sha512sums = d01d0fc24a3004770bd3923c2debc4fa2752eb71df08cfe423746b9c44a2562ca01d82965ed2563b99572a4bed8034b79487199ce330208b51a3b7f87ccf7103
 
 pkgname = avidemux-cli
 	depends = libxml2
@@ -64,7 +64,7 @@ pkgname = avidemux-cli
 
 pkgname = avidemux-qt
 	pkgdesc = Graphical tool to edit video (filter/re-encode/split) - Qt GUI
-	depends = avidemux-cli=2.6.19
+	depends = avidemux-cli=2.6.20
 	depends = qt5-base
 	depends = x264
 	depends = x265
