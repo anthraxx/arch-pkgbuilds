@@ -834,6 +834,9 @@ url: 'https://cmocka.org/files/1.1/'
 ---
 name: 'cmocka (git)'
 command: 'git ls-remote --tags https://git.cryptomilk.org/projects/cmocka.git'
+---
+name: 'vlc'
+url: 'https://download.videolan.org/vlc/'
 
 
 #TODO skipfish
