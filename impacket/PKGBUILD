@@ -1,6 +1,7 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Sirat18 <aur@sirat18.de>
 # Contributor: Paolo Giangrandi <peoro.noob@gmail.com>
+# Contributor: ArchStrike <team[at]archstrike[dot]org>
 
 pkgname=impacket
 pkgver=0.9.15
