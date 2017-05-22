@@ -843,6 +843,9 @@ url: 'https://ftp.postgresql.org/pub/source/'
 ---
 name: 'qwt (sourceforge)'
 command: 'curl https://sourceforge.net/projects/qwt/files/qwt/ 2>/dev/null|tr " " "\n"|grep download|grep "files/"|sort'
+---
+name: 'hashcat-utils (github)'
+command: 'git ls-remote --tags https://github.com/hashcat/hashcat-utils'
 
 
 #TODO skipfish
