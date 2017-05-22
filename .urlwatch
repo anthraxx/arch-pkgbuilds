@@ -709,9 +709,6 @@ command: 'git ls-remote --tags https://github.com/traviscross/mtr'
 name: 'mtr (upstream)'
 command: 'curl ftp://ftp.bitwizard.nl/mtr/ 2>/dev/null'
 ---
-name: 'nvidia-settings (upstream)'
-command: 'curl ftp://download.nvidia.com/XFree86/nvidia-settings/ 2>/dev/null|grep nvidia-settings'
----
 name: 'nvidia-settings (github)'
 command: 'git ls-remote --tags https://github.com/NVIDIA/nvidia-settings'
 ---
