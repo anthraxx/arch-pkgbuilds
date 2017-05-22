@@ -837,6 +837,9 @@ command: 'git ls-remote --tags https://git.cryptomilk.org/projects/cmocka.git'
 ---
 name: 'vlc'
 url: 'https://download.videolan.org/vlc/'
+---
+name: 'krb5'
+command: 'curl https://web.mit.edu/kerberos/ 2>/dev/null|grep release'
 
 
 #TODO skipfish
