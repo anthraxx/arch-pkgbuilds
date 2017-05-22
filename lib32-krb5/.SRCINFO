@@ -1,24 +1,24 @@
 pkgbase = lib32-krb5
 	pkgdesc = The Kerberos network authentication system (32-bit)
-	pkgver = 1.15
+	pkgver = 1.15.1
 	pkgrel = 1
 	url = https://web.mit.edu/kerberos/
 	arch = x86_64
 	license = custom
 	makedepends = perl
-	makedepends = gcc-multilib
 	depends = lib32-e2fsprogs
 	depends = lib32-libldap
 	depends = lib32-keyutils
 	depends = krb5
 	options = !emptydirs
-	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz
-	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz.asc
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.1.tar.gz
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.1.tar.gz.asc
 	source = krb5-config_LDFLAGS.patch
 	validpgpkeys = 2C732B1C0DBEF678AB3AF606A32F17FD0055C305
-	sha1sums = 07fb763082c21e9e597b39aac6413302e3aa7c97
-	sha1sums = SKIP
-	sha1sums = f125824ed37f31e6fd2fdb6a437be8ff1c3700ab
+	validpgpkeys = C4493CB739F4A89F9852CBC20CBA08575F8372DF
+	sha512sums = 068b4c012722d8c232049d2a617f7ee28ceeaba6be94a78439e69e37b66cfdc49085641e42cfb03b2fbb72d21517b537e437061ec4dd2bf864f31e55e05fe918
+	sha512sums = SKIP
+	sha512sums = 5a3782ff17b383f8cd0415fd13538ab56afd788130d6ad640e9f2682b7deaae7f25713ce358058ed771091040dccf62a3bc87e6fd473d505ec189a95debcc801
 
 pkgname = lib32-krb5
 
