@@ -53,8 +53,6 @@ optdepends=('avahi: for service discovery using bonjour protocol'
             'qt4: for the GUI')
 conflicts=('vlc-plugin')
 replaces=('vlc-plugin')
-backup=('usr/share/vlc/lua/http/.hosts'
-        'usr/share/vlc/lua/http/dialogs/.hosts')
 options=('!emptydirs')
 source=(https://download.videolan.org/${pkgname}/${pkgver}/${pkgname}-${pkgver}.tar.xz{,.asc}
         update-vlc-plugin-cache.hook
@@ -75,8 +73,14 @@ prepare() {
 build() {
   cd ${pkgname}-${pkgver}
 
-  PKG_CONFIG_PATH="/usr/lib/ffmpeg2.8/pkgconfig" \
-  CFLAGS+=" -I/usr/include/samba-4.0" CPPFLAGS+=" -I/usr/include/samba-4.0" CXXFLAGS+=" -std=gnu++98" \
+  export PKG_CONFIG_PATH="/usr/lib/ffmpeg2.8/pkgconfig"
+  export CFLAGS+=" -I/usr/include/samba-4.0"
+  export CPPFLAGS+=" -I/usr/include/samba-4.0"
+  export CXXFLAGS+=" -std=gnu++98"
+  export LUAC=/usr/bin/luac
+  export LUA_LIBS="`pkg-config --libs lua`"
+  export RCC=/usr/bin/rcc-qt4
+
   ./configure --prefix=/usr \
               --sysconfdir=/etc \
               --disable-rpath \
@@ -89,10 +93,7 @@ build() {
               --enable-vcdx \
               --enable-upnp \
               --enable-opus \
-              --enable-sftp \
-              LUAC=/usr/bin/luac  LUA_LIBS="`pkg-config --libs lua`" \
-              RCC=/usr/bin/rcc-qt4
-
+              --enable-sftp
   make
 }
 
@@ -102,7 +103,7 @@ package() {
   make DESTDIR="${pkgdir}" install
 
   for res in 16 32 48 128; do
-    install -D -m644 "${srcdir}/vlc-${pkgver}/share/icons/${res}x${res}/vlc.png" \
+    install -Dm 644 "${srcdir}/vlc-${pkgver}/share/icons/${res}x${res}/vlc.png" \
                      "${pkgdir}/usr/share/icons/hicolor/${res}x${res}/apps/vlc.png"
   done
   install -Dm 644 "${srcdir}/update-vlc-plugin-cache.hook" -t "${pkgdir}/usr/share/libalpm/hooks"
