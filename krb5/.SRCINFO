@@ -1,0 +1,35 @@
+pkgbase = krb5
+	pkgdesc = The Kerberos network authentication system
+	pkgver = 1.15
+	pkgrel = 1
+	url = https://web.mit.edu/kerberos/
+	arch = i686
+	arch = x86_64
+	license = custom
+	makedepends = perl
+	depends = e2fsprogs
+	depends = libldap
+	depends = keyutils
+	options = !emptydirs
+	backup = etc/krb5.conf
+	backup = var/lib/krb5kdc/kdc.conf
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz.asc
+	source = krb5-config_LDFLAGS.patch
+	source = krb5-kadmind.service
+	source = krb5-kdc.service
+	source = krb5-kpropd.service
+	source = krb5-kpropd@.service
+	source = krb5-kpropd.socket
+	validpgpkeys = 2C732B1C0DBEF678AB3AF606A32F17FD0055C305
+	sha1sums = 07fb763082c21e9e597b39aac6413302e3aa7c97
+	sha1sums = SKIP
+	sha1sums = f125824ed37f31e6fd2fdb6a437be8ff1c3700ab
+	sha1sums = 59bbc7e686cbb4bcefddf0f134d928d7bd5e7722
+	sha1sums = 2ef2476a8673b3b702e829d8f451c839c2273b02
+	sha1sums = 74d66aefd291f22dd80799f0437cc03d83083ed5
+	sha1sums = 6787c6ce2783b3f980c423e2dd4abf5236af670b
+	sha1sums = f3677d30dbbd7106c581379c2c6ebb1bf7738912
+
+pkgname = krb5
+
