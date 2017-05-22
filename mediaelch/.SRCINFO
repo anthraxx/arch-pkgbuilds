@@ -1,17 +1,18 @@
 pkgbase = mediaelch
-	pkgdesc = a Media Manager for handling Movies, TV Shows and Concerts/Music Videos in XBMC.
+	pkgdesc = Media Manager for handling Movies, TV Shows and Concerts/Music Videos for Kodi
 	pkgver = 2.4.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.mediaelch.de/
 	arch = x86_64
 	arch = i686
-	license = GPL
+	license = LGPL3
 	depends = libmediainfo
 	depends = qt5-declarative
 	depends = qt5-multimedia
 	depends = qt5-script
-	source = http://www.kvibes.de/releases/mediaelch/2.4.2/mediaelch-2.4.2.tar.gz
+	source = mediaelch-2.4.2.tar.gz::http://www.kvibes.de/releases/mediaelch/2.4.2/mediaelch-2.4.2.tar.gz
 	sha256sums = c00afd8328258c280e9a8f22cae76b95a6d26824c67de6cf4db91639d4695e49
+	sha512sums = 1d1d6501128081c7ccef24ec5cb82d0c43e2b58ff8190266e8187bb7d291d5c53b1e4353a0cb130e81d9267feaee053481505ca35ca6f51b126c2a4adb2359a9
 
 pkgname = mediaelch
 
