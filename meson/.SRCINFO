@@ -1,6 +1,6 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
-	pkgver = 0.39.0
+	pkgver = 0.40.1
 	pkgrel = 1
 	url = http://mesonbuild.com/
 	arch = any
@@ -24,13 +24,14 @@ pkgbase = meson
 	checkdepends = gobject-introspection
 	checkdepends = itstool
 	checkdepends = gtk3
+	checkdepends = valgrind
 	makedepends = python-setuptools
 	depends = python
 	depends = ninja
-	source = https://github.com/mesonbuild/meson/releases/download/0.39.0/meson-0.39.0.tar.gz
-	source = https://github.com/mesonbuild/meson/releases/download/0.39.0/meson-0.39.0.tar.gz.asc
+	source = https://github.com/mesonbuild/meson/releases/download/0.40.1/meson-0.40.1.tar.gz
+	source = https://github.com/mesonbuild/meson/releases/download/0.40.1/meson-0.40.1.tar.gz.asc
 	validpgpkeys = 95181F4EED14FDF4E41B518D3BF4693BFEEB9428
-	sha512sums = d6282e3d6d8824dce58589dc0da7c957dfd0ea23c81cce7108f3d23b796f62fb9f976fd0963ec34bdaf645a906a10626e27e93bc6d732c60ab8a306a4e8337c0
+	sha512sums = 288b373a1f89206e90ebe1039788a03cb7168c7886c49af45408df1aab419ebdb997690c313ceb4f3be7763b392bba74e13fb2e20808c2fd1fe2a2a75a27a38f
 	sha512sums = SKIP
 
 pkgname = meson
