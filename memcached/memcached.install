@@ -1,0 +1,12 @@
+post_install() {
+  if ! getent group memcached >/dev/null; then
+    groupadd --system memcached
+  fi
+  if ! getent passwd memcached >/dev/null; then
+    useradd --system -c 'memcached user' -g memcached -d / -s /bin/bash memcached
+  fi
+}
+
+post_upgrade() {
+  post_install $1
+}

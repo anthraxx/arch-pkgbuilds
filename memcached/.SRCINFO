@@ -1,0 +1,18 @@
+pkgbase = memcached
+	pkgdesc = A distributed memory object caching system
+	pkgver = 1.4.32
+	pkgrel = 1
+	url = http://memcached.org/
+	install = memcached.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = libevent
+	optdepends = perl: for memcached-tool usage
+	source = http://www.memcached.org/files/memcached-1.4.32.tar.gz
+	source = memcached.service
+	sha256sums = 54bb9acd5fbbb73cd1fbfa67cbc6b301009a2835a26c8a4c3dba634a0c3d875d
+	sha256sums = fd60fde92b959dc4160facc0d165f04319d2ece4d2c59b68d8ae24824abea7dd
+
+pkgname = memcached
+
