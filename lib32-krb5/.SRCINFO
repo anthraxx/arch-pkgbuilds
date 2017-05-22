@@ -1,0 +1,24 @@
+pkgbase = lib32-krb5
+	pkgdesc = The Kerberos network authentication system (32-bit)
+	pkgver = 1.15
+	pkgrel = 1
+	url = https://web.mit.edu/kerberos/
+	arch = x86_64
+	license = custom
+	makedepends = perl
+	makedepends = gcc-multilib
+	depends = lib32-e2fsprogs
+	depends = lib32-libldap
+	depends = lib32-keyutils
+	depends = krb5
+	options = !emptydirs
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz
+	source = https://web.mit.edu/kerberos/dist/krb5/1.15/krb5-1.15.tar.gz.asc
+	source = krb5-config_LDFLAGS.patch
+	validpgpkeys = 2C732B1C0DBEF678AB3AF606A32F17FD0055C305
+	sha1sums = 07fb763082c21e9e597b39aac6413302e3aa7c97
+	sha1sums = SKIP
+	sha1sums = f125824ed37f31e6fd2fdb6a437be8ff1c3700ab
+
+pkgname = lib32-krb5
+
