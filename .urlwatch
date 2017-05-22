@@ -846,6 +846,9 @@ command: 'curl https://sourceforge.net/projects/qwt/files/qwt/ 2>/dev/null|tr " 
 ---
 name: 'hashcat-utils (github)'
 command: 'git ls-remote --tags https://github.com/hashcat/hashcat-utils'
+---
+name: 'memcached (upstream)'
+command: 'curl http://www.memcached.org/files/ 2>/dev/null|grep gz'
 
 
 #TODO skipfish
