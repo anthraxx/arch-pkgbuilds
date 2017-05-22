@@ -1,6 +1,6 @@
 pkgbase = unicorn
 	pkgdesc = Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU
-	pkgver = 1.0
+	pkgver = 1.0.1
 	pkgrel = 1
 	url = http://www.unicorn-engine.org
 	arch = i686
@@ -14,8 +14,8 @@ pkgbase = unicorn
 	makedepends = ruby
 	options = staticlibs
 	options = !emptydirs
-	source = unicorn-1.0.tar.gz::https://github.com/unicorn-engine/unicorn/archive/1.0.tar.gz
-	sha512sums = 2b00254520826a0bd882bee25a100718c5faf1c842328f7e5d985ae6ddb134ab78c702e023e56b9abb85f911d617f2dcd1caf63614a4960fe6b6cf4993ad129c
+	source = unicorn-1.0.1.tar.gz::https://github.com/unicorn-engine/unicorn/archive/1.0.1.tar.gz
+	sha512sums = edfe1f7bfbc1d20f5b62232057e194a937bc09db686ef2efadb33a54605029a53426432cdb2a29511385aacdb9343b3b3091af50a1909098d7cf6db3429eb966
 
 pkgname = unicorn
 	depends = glibc
