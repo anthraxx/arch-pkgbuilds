@@ -1,7 +1,7 @@
 pkgbase = python-filebytes
 	pkgdesc = Library to read and edit executable binary files
-	pkgver = 0.9.12
-	pkgrel = 2
+	pkgver = 0.9.13
+	pkgrel = 1
 	url = https://github.com/sashs/filebytes
 	arch = any
 	license = GPL2
@@ -9,8 +9,8 @@ pkgbase = python-filebytes
 	makedepends = python2
 	makedepends = python-setuptools
 	makedepends = python2-setuptools
-	source = python-filebytes-0.9.12.tar.gz::https://github.com/sashs/filebytes/archive/v0.9.12.tar.gz
-	sha512sums = b5c38a993a5f6d25d9d28c88185a4aae348f91738dad4ef3bb45370d73dc84e514f03d3bd3b99706f5bfacc90d1b5e0506479f00c9ff29bab9161936f4f50ab6
+	source = python-filebytes-0.9.13.tar.gz::https://github.com/sashs/filebytes/archive/v0.9.13.tar.gz
+	sha512sums = e6c8fe3647fc7a600ffc26883bc90724b5cfe18c8c5603d7a184e73e5fee3ae27ab01e793ef1ddbd8a69fe294bbc33cb5b3314d815d8f498f57876f83566de16
 
 pkgname = python-filebytes
 	depends = python
