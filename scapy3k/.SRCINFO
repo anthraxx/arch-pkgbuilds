@@ -1,7 +1,7 @@
 pkgbase = scapy3k
 	pkgdesc = Powerful interactive packet manipulation program written in Python 3
-	pkgver = 0.19
-	pkgrel = 2
+	pkgver = 0.21
+	pkgrel = 1
 	url = https://github.com/phaethon/scapy
 	arch = any
 	license = GPL2
@@ -19,8 +19,9 @@ pkgbase = scapy3k
 	optdepends = python-netifaces: network interface information support
 	optdepends = graphviz: conversations() method support
 	optdepends = sox: for VOIP support
-	source = scapy3k-0.19.tar.gz::https://github.com/phaethon/scapy/archive/0.19.tar.gz
-	sha512sums = 94b7d4356858ddf36eb065a31e69e4c29170e212c3a77ca064511fbb111e412a70a3b31a229a4430c79b9de13f98c676ab3176efb1b8935da20ed599fdce3c64
+	source = scapy3k-0.21.tar.gz::https://github.com/phaethon/scapy/archive/v0.21.tar.gz
+	sha256sums = 23468d89024ba3179bbf9ab9f58ca192a21a8803ee8d9131f6baecbae2556f56
+	sha512sums = 24d091db701eeabf55f5f4c3c7314be414c4d221f7e8d20c781fe015765dca4b22b20022fa4059053eed44d5e1a3a34c98f418324a7a3a5a74f0f869a3016be1
 
 pkgname = scapy3k
 
