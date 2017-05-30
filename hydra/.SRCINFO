@@ -1,7 +1,7 @@
 pkgbase = hydra
 	pkgdesc = Very fast network logon cracker which support many different services
 	pkgver = 8.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.thc.org/thc-hydra/
 	arch = i686
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = hydra
 	depends = postgresql-libs
 	depends = subversion
 	depends = libssh
-	depends = libmariadbclient
+	depends = libmariadb
 	depends = libidn
 	depends = libfbclient
 	depends = afpfs-ng
