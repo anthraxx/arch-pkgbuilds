@@ -1,7 +1,7 @@
 pkgbase = libmesode
 	pkgdesc = Simple, lightweight C library for writing prifanity XMPP client
 	pkgver = 0.9.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/boothj5/libmesode
 	arch = i686
 	arch = x86_64
