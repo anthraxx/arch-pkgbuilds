@@ -10,13 +10,14 @@ capstone
 checksec
 cjdns
 clamtk
+cmocka
 conky-manager
 cowfortune
 cowpatty
-cmocka
 diffoscope
 distorm
 enjarify
+fasm
 findnewest
 fish
 fwknop
@@ -26,6 +27,7 @@ grails
 gtest
 gufw
 hashcat
+hashcat-utils
 hashid
 hash-identifier
 haskell-parsec
@@ -44,6 +46,7 @@ knockd
 ldoc
 lhasa
 lib32-freeglut
+lib32-krb5
 lib32-libappindicator
 lib32-libdbusmenu
 lib32-libindicator
@@ -63,10 +66,13 @@ ls++
 lynis
 masscan
 mdk3
+mediaelch
 medusa
 metasploit
 ncmpcpp
 nikto
+nim
+nimble
 openntpd
 owl-lisp
 p0f
@@ -139,6 +145,7 @@ ruby-trollop
 scanmem
 scapy
 scapy3k
+scrot
 smali
 smplayer
 smplayer-themes
@@ -155,6 +162,7 @@ tetrinet
 thc-ipv6
 tlsh
 umurmur
+unicorn
 valabind
 veracrypt
 vicious
