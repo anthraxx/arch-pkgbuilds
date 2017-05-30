@@ -1,0 +1,16 @@
+pkgbase = scrot
+	pkgdesc = A simple command-line screenshot utility for X
+	pkgver = 0.8.13
+	pkgrel = 1
+	url = http://scrot.sourcearchive.com/
+	arch = i686
+	arch = x86_64
+	license = MIT
+	depends = giblib
+	source = http://scrot.sourcearchive.com/downloads/0.8-13/scrot_0.8.orig.tar.gz
+	source = http://scrot.sourcearchive.com/downloads/0.8-13/scrot_0.8-13.debian.tar.gz
+	md5sums = ccae904d225609571bdd3b03445c1e88
+	md5sums = 8b725c26660abc1ffd613903f2d7b0c2
+
+pkgname = scrot
+
