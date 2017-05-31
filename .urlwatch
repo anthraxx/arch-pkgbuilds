@@ -852,6 +852,9 @@ command: 'curl http://www.memcached.org/files/ 2>/dev/null|grep gz'
 ---
 name: 'scrot (upstream)'
 command: 'curl http://scrot.sourcearchive.com/ 2>/dev/null|tr \" "\n"|grep download'
+---
+name: 'pwndbg (github)'
+command: 'git ls-remote --tags https://github.com/pwndbg/pwndbg'
 
 
 #TODO skipfish
