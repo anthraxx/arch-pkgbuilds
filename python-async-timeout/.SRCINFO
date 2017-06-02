@@ -1,14 +1,15 @@
 pkgbase = python-async-timeout
-	pkgdesc = asyncio-compatible timeout class
+	pkgdesc = Asyncio-compatible timeout class
 	pkgver = 1.2.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/aio-libs/async-timeout
 	arch = any
 	license = Apache
 	makedepends = python-setuptools
 	depends = python
-	source = https://files.pythonhosted.org/packages/source/a/async-timeout/async-timeout-1.2.1.tar.gz
-	sha256sums = 380e9bfd4c009a14931ffe487499b0906b00b3378bb743542cfd9fbb6d8e4657
+	source = python-async-timeout-1.2.1.tar.gz::https://github.com/aio-libs/async-timeout/archive/v1.2.1.tar.gz
+	sha256sums = 840ca2fb8237faa2251ecccdd8b5180d6f9f2d92df6068e77ea823642fcc75d4
+	sha512sums = f7109447ad7565f0caf0b0d561c934e0a79db471aeb78e5030e2e959af67749044e08bfb29ab32d10e8a9ca7dabb3194ac12cee18d3b1b4d7c3663221bade052
 
 pkgname = python-async-timeout
 
