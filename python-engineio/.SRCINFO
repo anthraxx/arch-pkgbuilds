@@ -1,6 +1,6 @@
 pkgbase = python-engineio
 	pkgdesc = Python implementation of the Engine.IO realtime server
-	pkgver = 1.1.1
+	pkgver = 1.5.4
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/python-engineio
 	arch = any
@@ -8,6 +8,7 @@ pkgbase = python-engineio
 	checkdepends = python-mock
 	checkdepends = python-eventlet
 	checkdepends = python-pytest
+	checkdepends = python-aiohttp
 	checkdepends = python2-mock
 	checkdepends = python2-eventlet
 	checkdepends = python2-pytest
@@ -18,12 +19,15 @@ pkgbase = python-engineio
 	makedepends = python2-sphinx
 	makedepends = python2-six
 	options = !makeflags
-	source = python-engineio-1.1.1.tar.gz::https://github.com/miguelgrinberg/python-engineio/archive/v1.1.1.tar.gz
-	sha512sums = 5377a70263c13f79e53c61298411ceb63fe28240b4c27774481383ba808183a981a16dcd3908285dd72a946b06c3a2b0d9dae984e9b09c8e18d67fce2b0761f7
+	source = python-engineio-1.5.4.tar.gz::https://github.com/miguelgrinberg/python-engineio/archive/v1.5.4.tar.gz
+	sha512sums = 9a7a075a18349edf9d9f39e5fd956580d81a01ce5daee26cf6a5099665e429115fe922fda9cacf4266ebfc14e403db16aec3b7476ea20ec4bdd395782686340c
 
 pkgname = python-engineio
 	depends = python-six
+	optdepends = python-eventlet: eventlet support
+	optdepends = python-aiohttp: aiohttp support
 
 pkgname = python2-engineio
 	depends = python2-six
+	optdepends = python2-eventlet: eventlet support
 
