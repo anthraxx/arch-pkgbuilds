@@ -855,6 +855,12 @@ command: 'curl http://scrot.sourcearchive.com/ 2>/dev/null|tr \" "\n"|grep downl
 ---
 name: 'pwndbg (github)'
 command: 'git ls-remote --tags https://github.com/pwndbg/pwndbg'
+---
+name: 'python-multidict (github)'
+command: 'git ls-remote --tags https://github.com/aio-libs/multidict'
+---
+name: 'python-yarl (github)'
+command: 'git ls-remote --tags https://github.com/aio-libs/yarl'
 
 
 #TODO skipfish
