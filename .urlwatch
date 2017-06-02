@@ -861,6 +861,9 @@ command: 'git ls-remote --tags https://github.com/aio-libs/multidict'
 ---
 name: 'python-yarl (github)'
 command: 'git ls-remote --tags https://github.com/aio-libs/yarl'
+---
+name: 'python-async-timeout (github)'
+command: 'git ls-remote --tags https://github.com/aio-libs/async-timeout'
 
 
 #TODO skipfish
