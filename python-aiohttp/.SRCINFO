@@ -1,0 +1,23 @@
+pkgbase = python-aiohttp
+	pkgdesc = HTTP client/server for asyncio
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://aiohttp.readthedocs.io
+	arch = i686
+	arch = x86_64
+	license = Apache
+	checkdepends = python-pytest
+	checkdepends = python-pytest-mock
+	makedepends = cython
+	makedepends = python-setuptools
+	depends = python>=3.4.2
+	depends = python-chardet
+	depends = python-multidict
+	depends = python-async-timeout
+	depends = python-yarl
+	source = python-aiohttp-2.1.0.tar.gz::https://github.com/aio-libs/aiohttp/archive/v2.1.0.tar.gz
+	sha256sums = 54f616090688169928b25068168e69b74dcee47b93d2400fa38f97b8d5a1402b
+	sha512sums = cb4a56431380a182a4c34319deb7dd6be2f85836da80994f4cb9538ab111836bbdbf5f1e9ad560b88cb9ee4c26cd01f2b0668906c181ff78d1be32a92a0ba7ea
+
+pkgname = python-aiohttp
+
