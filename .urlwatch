@@ -864,6 +864,9 @@ command: 'git ls-remote --tags https://github.com/aio-libs/yarl'
 ---
 name: 'python-async-timeout (github)'
 command: 'git ls-remote --tags https://github.com/aio-libs/async-timeout'
+---
+name: 'python-aiohttp (github)'
+command: 'git ls-remote --tags https://github.com/aio-libs/aiohttp'
 
 
 #TODO skipfish
