@@ -1,0 +1,19 @@
+pkgbase = python-yarl
+	pkgdesc = Yet another URL library
+	pkgver = 0.10.2
+	pkgrel = 2
+	url = https://github.com/aio-libs/yarl/
+	arch = i686
+	arch = x86_64
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = cython
+	makedepends = python-setuptools
+	depends = python
+	depends = python-multidict
+	source = python-yarl-0.10.2.tar.gz::https://github.com/aio-libs/yarl/archive/v0.10.2.tar.gz
+	sha256sums = 3ff138278de5a82fa434748c52d3c6871ca981821b6831013747b5368b431295
+	sha512sums = 8180d5b927a3fd29ca5990fd954719e02e7825cd3c0b6a16016f170992e9e0adde09a2847894a6bd3914e3ec67a5cbbf5533ffee706370c9b748ccb4dc1dbd01
+
+pkgname = python-yarl
+
