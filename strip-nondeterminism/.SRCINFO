@@ -1,7 +1,7 @@
 pkgbase = strip-nondeterminism
 	pkgdesc = Tool for stripping bits of non-deterministic information from files
 	pkgver = 0.034
-	pkgrel = 1
+	pkgrel = 2
 	url = https://anonscm.debian.org/git/reproducible/strip-nondeterminism.git
 	arch = any
 	license = GPL3
