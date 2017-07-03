@@ -1,7 +1,7 @@
 pkgbase = john
 	pkgdesc = John the Ripper password cracker
 	pkgver = 1.8.0.jumbo1
-	pkgrel = 7
+	pkgrel = 8
 	url = http://www.openwall.com/john
 	install = john.install
 	arch = i686
