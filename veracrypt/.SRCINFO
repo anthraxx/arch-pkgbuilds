@@ -1,20 +1,18 @@
 pkgbase = veracrypt
 	pkgdesc = Disk encryption with strong security based on TrueCrypt
 	pkgver = 1.19
-	pkgrel = 1
+	pkgrel = 3
 	url = http://veracrypt.codeplex.com/
 	arch = i686
 	arch = x86_64
 	license = custom:TrueCrypt
 	makedepends = nasm
-	makedepends = pkg-config
 	makedepends = unzip
 	depends = fuse2>=2.8.0
-	depends = wxgtk>=3.0
+	depends = wxgtk3>=3.0
 	depends = libsm
 	depends = device-mapper
 	optdepends = sudo: mounting encrypted volumes as nonroot users
-	optdepends = desktop-file-utils: update desktop database
 	source = veracrypt_1.19_Source.zip::https://sourceforge.net/projects/veracrypt/files/VeraCrypt 1.19/VeraCrypt_1.19_Source.zip/download
 	source = veracrypt_1.19_Source.zip.sig::https://sourceforge.net/projects/veracrypt/files/VeraCrypt 1.19/VeraCrypt_1.19_Source.zip.sig/download
 	source = no-makeself.patch
