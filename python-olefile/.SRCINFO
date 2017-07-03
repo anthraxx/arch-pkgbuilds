@@ -1,14 +1,14 @@
 pkgbase = python-olefile
 	pkgdesc = Python library to parse, read and write Microsoft OLE2 files (formerly OleFileIO_PL)
-	pkgver = 0.43
-	pkgrel = 2
+	pkgver = 0.44
+	pkgrel = 1
 	url = http://www.decalage.info/olefile
 	arch = any
 	license = BSD
 	makedepends = python
 	makedepends = python2
-	source = https://bitbucket.org/decalage/olefileio_pl/downloads/olefile-0.43.zip
-	sha512sums = 7642d559ab71525fe70b06a106608a82c4b25b3f389fdf1805ee6795ac5b3d2c0957e126d60b2d791008a6431d9f9e599df13767802c37800e275292b980de8e
+	source = https://github.com/decalage2/olefile/releases/download/v0.44/olefile-0.44.tar.gz
+	sha512sums = 92b6ad1bced5b2c8e5332a01e5a2e59527ec2303046d0babd665b0f02fe56966574eff56619de168c50f1ea40df2e61ce589ee61b634222146d049b129514c65
 
 pkgname = python-olefile
 	depends = python
