@@ -1,7 +1,7 @@
 pkgbase = perl-term-extendedcolor
 	pkgdesc = Like Term::ANSIColor, but for the extended colorset
 	pkgver = 0.224
-	pkgrel = 3
+	pkgrel = 4
 	url = http://search.cpan.org/dist/Term-ExtendedColor
 	arch = any
 	license = PerlArtistic
