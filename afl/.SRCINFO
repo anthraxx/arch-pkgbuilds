@@ -1,7 +1,7 @@
 pkgbase = afl
 	pkgdesc = Security-oriented fuzzer using compile-time instrumentation and genetic algorithms
 	pkgver = 2.44b
-	pkgrel = 1
+	pkgrel = 2
 	url = http://lcamtuf.coredump.cx/afl/
 	arch = i686
 	arch = x86_64
