@@ -1,7 +1,7 @@
 pkgbase = nvidia-settings
 	pkgdesc = Tool for configuring the NVIDIA graphics driver
 	pkgver = 381.22
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/NVIDIA/nvidia-settings
 	arch = i686
 	arch = x86_64
