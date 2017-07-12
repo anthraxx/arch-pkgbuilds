@@ -1,7 +1,7 @@
 pkgbase = gradle
 	pkgdesc = Powerful build system for the JVM
 	pkgver = 3.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gradle.org/
 	arch = any
 	license = Apache
