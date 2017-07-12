@@ -1,7 +1,7 @@
 pkgbase = keystone
 	pkgdesc = Lightweight multi-platform, multi-architecture assembler framework
 	pkgver = 0.9.1
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.keystone-engine.org/
 	arch = i686
 	arch = x86_64
