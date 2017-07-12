@@ -1,7 +1,7 @@
 pkgbase = libstrophe
 	pkgdesc = Simple, lightweight C library for writing XMPP clients
 	pkgver = 0.9.1
-	pkgrel = 2
+	pkgrel = 3
 	epoch = 1
 	url = http://strophe.im/libstrophe/
 	arch = i686
