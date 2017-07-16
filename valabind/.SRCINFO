@@ -1,7 +1,7 @@
 pkgbase = valabind
 	pkgdesc = Tool to parse vala or vapi files to transform them into swig interface files, C++, NodeJS-ffi or GIR
 	pkgver = 0.10.0
-	pkgrel = 3
+	pkgrel = 4
 	url = http://radare.org
 	arch = i686
 	arch = x86_64
@@ -10,7 +10,11 @@ pkgbase = valabind
 	depends = swig
 	depends = sh
 	source = valabind-0.10.0.tar.gz::https://github.com/radare/valabind/archive/0.10.0.tar.gz
+	source = fix-vala-0.36.patch
+	sha256sums = dbc792b7f7c93cbc1c0187c456f793437ccce980b24484ade95b507e2ca30f25
+	sha256sums = 5349bf19843a25a765242e9bcbdfd34d419708565070785ccb02a6b6aa7451ed
 	sha512sums = 8a1cb5d9c0960df0832d7c72a5204a24ec56f7ced9defe80636670502d6807db63af31fb3d0b0970bb35e27c907455270aa1b898ab1a8818373a271849fb388d
+	sha512sums = faaf6a235336aa79f3d697618d71d5625f09613bdfc9e016b449ff4e0007746f4107a7825386ea075906b705d944213faa50b705595c249d2e61fcd516e1f4a3
 
 pkgname = valabind
 
