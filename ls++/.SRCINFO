@@ -2,6 +2,7 @@ pkgbase = ls++
 	pkgdesc = Colorized LS on steroids
 	pkgver = 0.36
 	pkgrel = 1
+	epoch = 1
 	url = https://github.com/trapd00r/ls--/
 	arch = any
 	license = GPL2
