@@ -1,0 +1,15 @@
+pkgbase = iptraf-ng
+	pkgdesc = A console-based network monitoring utility (a fork of original iptraf)
+	pkgver = 1.1.4
+	pkgrel = 2
+	url = https://fedorahosted.org/iptraf-ng/
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	depends = ncurses
+	replaces = iptraf
+	source = https://fedorahosted.org/releases/i/p/iptraf-ng/iptraf-ng-1.1.4.tar.gz
+	md5sums = de27cfeeede96e2acfb0edc8439b034a
+
+pkgname = iptraf-ng
+
