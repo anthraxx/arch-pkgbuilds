@@ -867,6 +867,9 @@ command: 'git ls-remote --tags https://github.com/aio-libs/async-timeout'
 ---
 name: 'python-aiohttp (github)'
 command: 'git ls-remote --tags https://github.com/aio-libs/aiohttp'
+---
+name: 'iptraf-ng (upstream)'
+command: 'curl https://infrastructure.fedoraproject.org/infra/hosted-content/iptraf-ng/iptraf-ng/ 2>/dev/null|tr "\"" "\n"|grep gz'
 
 
 #TODO skipfish

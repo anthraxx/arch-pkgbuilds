@@ -1,4 +1,5 @@
 avidemux
+iptraf-ng
 irssi
 jasper
 jsoncpp
@@ -9,6 +10,7 @@ meson
 mplayer
 mtr
 nvidia-settings
+pgbouncer
 postgresql
 postgresql-old-upgrade
 publicsuffix-list
