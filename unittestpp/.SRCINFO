@@ -1,18 +1,17 @@
 pkgbase = unittestpp
-	pkgdesc = A lightweight unit testing framework for C++
-	pkgver = 1.6.1
-	pkgrel = 2
-	url = http://unittest-cpp.sourceforge.net/
+	pkgdesc = Lightweight unit testing framework for C++
+	pkgver = 2.0.0
+	pkgrel = 1
+	url = https://github.com/unittest-cpp/unittest-cpp/
 	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = cmake
 	depends = gcc-libs
 	options = staticlibs
-	source = https://github.com/unittest-cpp/unittest-cpp/archive/v1.6.1.tar.gz
-	source = unittest++.pc
-	md5sums = 986bfb4e9bc66138557f4eb208bd2d8c
-	md5sums = fa35c8a0274264dcb75e5106c5b3deb7
+	source = unittestpp-2.0.0.tar.gz::https://github.com/unittest-cpp/unittest-cpp/archive/v2.0.0.tar.gz
+	sha256sums = 74852198877dc2fdebdc4e5e9bd074018bf8ee03a13de139bfe41f4585b2f5b9
+	sha512sums = 39318f4ed31534c116679a3257bf1438a6c4b3bef1894dfd40aea934950c6c8197af6a7f61539b8e9ddc67327c9388d7e8a6f8a3e0e966ad26c07554e2429cab
 
 pkgname = unittestpp
 
