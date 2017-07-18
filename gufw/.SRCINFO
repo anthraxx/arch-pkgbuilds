@@ -1,7 +1,7 @@
 pkgbase = gufw
 	pkgdesc = Uncomplicated way to manage your Linux firewall
-	pkgver = 17.04.1
-	pkgrel = 3
+	pkgver = 17.10.0
+	pkgrel = 1
 	url = https://gufw.org/
 	arch = any
 	license = GPL3
@@ -12,11 +12,11 @@ pkgbase = gufw
 	depends = python-gobject
 	depends = ufw
 	depends = webkit2gtk
-	depends = net-tools
 	depends = desktop-file-utils
 	depends = gtk-update-icon-cache
-	source = https://launchpad.net/gui-ufw/17.04/17.04/+download/gui-ufw-17.04.1.tar.gz
-	sha512sums = f8168652d6bfc0b50de3a74e1db08539642347b652af1d18310bc1fcaa774da5c72fef57778562f042bf19eb329fd0d576c15ce6200ee87ce48700fa02a7104c
+	source = https://launchpad.net/gui-ufw/trunk/17.10/+download/gui-ufw-17.10.0.tar.gz
+	sha256sums = 8632e763a07e8057f312786b8f7c4970d44c26e73f8b184be1d2fc314e9c3dac
+	sha512sums = 7a2e2ff72b3f87e463027c9d8a0266ebbf43289c59684987454215bfd9f40b127b06222a36a3e13fe4325b49e14b1f0182b33fcc495ce7a2e70071aa4b03d2c9
 
 pkgname = gufw
 
