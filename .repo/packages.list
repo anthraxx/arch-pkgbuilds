@@ -4,6 +4,7 @@ irssi
 jasper
 jsoncpp
 krb5
+libpqxx
 libpsl
 memcached
 meson

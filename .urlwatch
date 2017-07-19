@@ -873,6 +873,9 @@ command: 'curl https://infrastructure.fedoraproject.org/infra/hosted-content/ipt
 ---
 name: 'unittest-cpp (github)'
 command: 'git ls-remote --tags https://github.com/unittest-cpp/unittest-cpp'
+---
+name: 'kibana (github)'
+command: 'git ls-remote --tags https://github.com/elastic/kibana'
 
 
 #TODO skipfish
