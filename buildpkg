@@ -60,7 +60,7 @@ run_namcap() {
 sign() {
 	local file=$1; shift
 	msg2 "Signing ${file}..."
-	gpg --yes --detach-sign "${file}"
+	gpg --pinentry-mode loopback --yes --detach-sign "${file}"
 }
 
 mksrcinfo() {
