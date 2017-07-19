@@ -3,10 +3,10 @@ Description=Kibana - dashboard for Elasticsearch
 After=elasticsearch.service
 
 [Service]
-User=nobody
-Group=elasticsearch
+User=kibana
+Group=kibana
 Environment="NODE_ENV=production"
-ExecStart=/usr/bin/node --max-old-space-size=512 /usr/share/kibana/src/cli --quiet --config=/etc/elasticsearch/kibana/kibana.yml
+ExecStart=/usr/bin/node --max-old-space-size=512 /usr/share/kibana/src/cli --quiet --config=/etc/kibana/kibana.yml
 
 [Install]
 WantedBy=multi-user.target

@@ -1,46 +1,37 @@
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Spider.007 <archlinux AT spider007 DOT net>
-pkgbase=kibana
-pkgname=(kibana kibana-bin)
+
+pkgname=kibana
 pkgver=5.5.0
-pkgrel=1
-pkgdesc="browser based analytics and search dashboard for Elasticsearch"
+pkgrel=2
+pkgdesc='Browser based analytics and search dashboard for Elasticsearch'
+url='https://www.elastic.co/products/kibana'
 arch=('any')
-url="https://www.elastic.co/products/kibana"
-license=('apache')
+license=('Apache')
+depends=('nodejs')
 optdepends=('elasticsearch>=2.4')
-backup=('etc/elasticsearch/kibana/kibana.yml')
-options=('!strip')
-source=(
-	"https://artifacts.elastic.co/downloads/$pkgname/$pkgname-$pkgver-linux-x86_64.tar.gz"
-	kibana.service)
+backup=('etc/kibana/kibana.yml')
+options=('!strip' 'emptydirs')
+install=kibana.install
+source=(https://artifacts.elastic.co/downloads/${pkgname}/${pkgname}-${pkgver}-linux-x86_64.tar.gz
+        kibana.service)
 sha256sums=('8aa30bf3a4a453bdbcfad4e96fabf518b4bff7532a67b8001d3e293fcd625cd2'
-            '610c50d38ff0d4cff308b2ff2f38ce3012bf70e396aa25a9b85b821ad3675e3b')
+            '85d62ab2d8e2667746303f98b055fcc6eae6bde8d378563c1b56057998eb3c98')
+sha512sums=('c4c9ad706050b3224b05b155b0c25f1c04fc3c53800f9b29e7162016599e6429ff0d08f07660ef865dc79dbba39f2cc16d0ed31b4cdc0d1eac920951411e4131'
+            '573942289964f554541222d2e8cd7851f5a94cabf3d1a26b734fb5f3efbbe5214f0c110eef2eeadd6185ba8765f6e5ab53fc8f40dea7fad5f51fee70cf20a787')
 
-_package() {
-	cd "$pkgdir"
+package() {
+  cd ${pkgbase}-${pkgver}-linux-x86_64
 
-	install -dm755 usr/share/kibana
-	install -Dm644 "$srcdir/kibana.service" usr/lib/systemd/system/kibana.service
-	install -Dm644 "$srcdir"/$pkgbase-$pkgver-linux-x86_64/config/kibana.yml etc/elasticsearch/kibana/kibana.yml
+  install -dm 755 "${pkgdir}/usr/share/kibana"
+  cp -a * "${pkgdir}/usr/share/kibana"
 
-	cp -Rp "$srcdir"/$pkgbase-$pkgver-linux-x86_64/* usr/share/kibana
-
-	chmod -R g+w,o+w usr/share/kibana/{optimize,data}/
+  install -dm 750 "${pkgdir}/etc/kibana"
+  install -Dm 640 config/kibana.yml -t "${pkgdir}/etc/kibana"
+  install -Dm 644 "${srcdir}/kibana.service" -t "${pkgdir}/usr/lib/systemd/system"
+  
+  chown -R 206:206 "${pkgdir}"/usr/share/kibana/{optimize,data} "${pkgdir}/etc/kibana"
+  rm -r "${pkgdir}/usr/share/kibana/node"
 }
 
-package_kibana() {
-	_package
-
-	pkgdesc="$pkgdesc. Please note; this package replaces the distributed precompiled binary 'node'"
-	depends=('nodejs<7')
-
-	rm -R "$pkgdir"/usr/share/kibana/node/
-}
-
-package_kibana-bin() {
-	_package
-
-	pkgdesc="$pkgdesc. This package uses the precompiled binary 'node'"
-
-	sed -i 's~ExecStart=.*~ExecStart=/usr/share/kibana/bin/kibana --config=/etc/elasticsearch/kibana/kibana.yml~' "$pkgdir"/usr/lib/systemd/system/kibana.service
-}
+# vim: ts=2 sw=2 et:
