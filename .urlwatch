@@ -876,6 +876,12 @@ command: 'git ls-remote --tags https://github.com/unittest-cpp/unittest-cpp'
 ---
 name: 'kibana (github)'
 command: 'git ls-remote --tags https://github.com/elastic/kibana'
+---
+name: 'logstash (github)'
+command: 'git ls-remote --tags https://github.com/elastic/logstash'
+---
+name: 'elasticsearch (github)'
+command: 'git ls-remote --tags https://github.com/elastic/elasticsearch'
 
 
 #TODO skipfish
