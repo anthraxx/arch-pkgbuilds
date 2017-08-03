@@ -1,7 +1,7 @@
 pkgbase = afl-utils
 	pkgdesc = Utilities for automated crash sample processing/analysis, easy afl-fuzz job management and corpus optimization
-	pkgver = 1.32a
-	pkgrel = 3
+	pkgver = 1.33a
+	pkgrel = 1
 	url = https://github.com/rc0r/afl-utils
 	arch = any
 	license = Apache
@@ -13,8 +13,9 @@ pkgbase = afl-utils
 	optdepends = sqlite: database support
 	optdepends = screen: interactive/screen mode support
 	optdepends = gdb: gdb script execution support
-	source = afl-utils-1.32a.tar.gz::https://github.com/rc0r/afl-utils/archive/v1.32a.tar.gz
-	sha512sums = 8077a88489a2b9970d41aa2f330ad4c7855c42c8d47529818b7360a90d3eece2e985b7c7524ab6354d36367c9c679951850f4b870874a0e8c3f66abbfda2b222
+	source = afl-utils-1.33a.tar.gz::https://github.com/rc0r/afl-utils/archive/v1.33a.tar.gz
+	sha256sums = e15bcaf7ed114696c09243b3e145eb24c89802abfc8430131c4d9888b824b0b3
+	sha512sums = d2524d6e34d296c7b73dcc4999d74dcbb7057a2de60f557c8af78a5fc3fca715afa13564358b3b388c43efede15c4e05fa18ba6d852eca1909bae0f4d099f620
 
 pkgname = afl-utils
 
