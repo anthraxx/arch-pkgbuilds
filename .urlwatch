@@ -882,6 +882,9 @@ command: 'git ls-remote --tags https://github.com/elastic/logstash'
 ---
 name: 'elasticsearch (github)'
 command: 'git ls-remote --tags https://github.com/elastic/elasticsearch'
+---
+name: 'vim (github)'
+command: 'git ls-remote --tags https://github.com/vim/vim'
 
 
 #TODO skipfish
