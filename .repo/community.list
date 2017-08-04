@@ -97,6 +97,7 @@ python-aiohttp
 python-async-timeout
 python-blist
 python-distro
+python-editor
 python-engineio
 python-eventlet
 python-filebytes
