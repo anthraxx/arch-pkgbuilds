@@ -1,7 +1,7 @@
 pkgbase = postgresql
 	pkgdesc = Sophisticated object-relational DBMS
 	pkgver = 9.6.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.postgresql.org/
 	arch = i686
 	arch = x86_64
