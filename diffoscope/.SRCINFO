@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 82
+	pkgver = 85
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = i686
@@ -46,6 +46,9 @@ pkgbase = diffoscope
 	depends = python-magic
 	depends = python-libarchive-c
 	depends = python-setuptools
+	depends = python-distro
+	depends = python-progressbar
+	depends = python-defusedxml
 	optdepends = acl: access control list utilities support
 	optdepends = binutils: binary utilities support
 	optdepends = bzip2: bzip2 utilities support
@@ -82,8 +85,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = vim: Vi IMproved (xxd) utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-82.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-82.tar.xz
-	sha512sums = a6479db5f64c91be31f59f1eebf858a0e0c90cecd3366352e5be7937898fce0649b957f5aa9669210b76ff21e085a2b0350ba09fce287e2adf96c3b0de634d5c
+	source = diffoscope-85.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-85.tar.xz
+	sha512sums = 07604fafaca2288b8dfb40a92af55a195f90b798c0ba3c50ac28cddb3677ec90c19485fb3f894892c85cc54a9b78a2f2e896b3371b25520c7505be5c01b75b39
 
 pkgname = diffoscope
 
