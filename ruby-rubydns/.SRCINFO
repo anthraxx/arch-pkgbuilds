@@ -1,15 +1,16 @@
 pkgbase = ruby-rubydns
 	pkgdesc = High-performance asynchronous DNS server and resolver for Ruby
-	pkgver = 1.0.3.af7984c
-	pkgrel = 4
+	pkgver = 2.0.1
+	pkgrel = 1
 	url = https://github.com/ioquatix/rubydns
 	arch = any
 	license = MIT
 	depends = ruby
 	depends = ruby-celluloid-dns
 	options = !emptydirs
-	source = ruby-rubydns-1.0.3.af7984c.tar.gz::https://github.com/ioquatix/rubydns/archive/af7984cd39a23445e6b2a19e2e12444c8d2f7d27.tar.gz
-	sha512sums = 3795bd482916db229d4c399f82bd2646c72b828727ff0267f9f3073b4403b8169356f7df7bbce7d6890e715099b9c61008a3685b054dcdb3ac191059f297d33b
+	source = ruby-rubydns-2.0.1.tar.gz::https://github.com/ioquatix/rubydns/archive/v2.0.1.tar.gz
+	sha256sums = 2190a5b769b9396e739ebf6d43878294662e25c863d845a32ec7f68129b60bf2
+	sha512sums = 2a0e674a1cc58c9f9a80500882af34306e73a177f26ce745e9501db996cd5e9697442a3c5f7b04b5c5fccd8f972795e629b8d130ecebd38d3dfa9c058c26fb56
 
 pkgname = ruby-rubydns
 
