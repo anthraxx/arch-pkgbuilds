@@ -894,6 +894,9 @@ command: 'curl https://metacpan.org/release/Archive-Cpio 2>/dev/null|grep tar.gz
 ---
 name: 'python-editor'
 command: 'git ls-remote --tags https://github.com/fmoo/python-editor'
+---
+name: 'python-alembic (pypi)'
+command: 'curl https://pypi.python.org/pypi/alembic 2>/dev/null|grep tar.gz'
 
 
 #TODO skipfish
