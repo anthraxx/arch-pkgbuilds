@@ -95,6 +95,7 @@ python2-unittest2
 python-aiohttp
 python-async-timeout
 python-blist
+python-distro
 python-engineio
 python-eventlet
 python-filebytes
