@@ -1,7 +1,7 @@
 pkgbase = masscan
 	pkgdesc = TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes
 	pkgver = 1.0.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/robertdavidgraham/masscan
 	arch = i686
 	arch = x86_64
