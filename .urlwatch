@@ -888,6 +888,9 @@ command: 'git ls-remote --tags https://github.com/vim/vim'
 ---
 name: 'python-distro (github)'
 command: 'git ls-remote --tags https://github.com/nir0s/distro'
+---
+name: 'perl-archive-cpio'
+command: 'curl https://metacpan.org/release/Archive-Cpio 2>/dev/null|grep tar.gz'
 
 
 #TODO skipfish

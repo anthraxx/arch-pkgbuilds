@@ -81,6 +81,7 @@ p0f
 patchelf
 peda
 penlight
+perl-archive-cpio
 perl-module-find
 perl-term-extendedcolor
 pgpdump
