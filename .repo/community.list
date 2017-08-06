@@ -113,6 +113,7 @@ python-netaddr
 python-olefile
 python-pcapy
 python-qrencode
+python-recommonmark
 python-socketio
 python-tblib
 python-ujson
