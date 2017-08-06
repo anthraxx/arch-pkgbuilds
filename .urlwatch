@@ -903,6 +903,9 @@ command: 'git ls-remote --tags https://github.com/rtfd/CommonMark-py'
 ---
 name: 'python-recommonmark (github)'
 command: 'git ls-remote --tags https://github.com/rtfd/recommonmark'
+---
+name: 'python-recommonmark (pypi)'
+command: 'curl https://pypi.python.org/pypi/recommonmark 2>/dev/null|grep tar.gz'
 
 
 #TODO skipfish
