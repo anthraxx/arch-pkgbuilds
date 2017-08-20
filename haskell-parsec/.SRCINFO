@@ -1,12 +1,13 @@
 pkgbase = haskell-parsec
 	pkgdesc = Monadic parser combinators
 	pkgver = 3.1.11
-	pkgrel = 4
+	pkgrel = 5
 	url = https://hackage.haskell.org/package/parsec
 	arch = i686
 	arch = x86_64
 	license = custom:BSD3
-	depends = ghc
+	makedepends = ghc
+	depends = ghc-libs
 	depends = sh
 	depends = haskell-mtl
 	depends = haskell-text
