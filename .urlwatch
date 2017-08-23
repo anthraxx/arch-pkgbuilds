@@ -317,7 +317,7 @@ name: 'sqlmap'
 command: 'git ls-remote --tags https://github.com/sqlmapproject/sqlmap'
 ---
 name: 'byacc'
-command: "curl ftp://invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort"
+command: "curl ftp://ftp.invisible-island.net/byacc/ 2>/dev/null|tr ' ' '\n'|grep byacc|grep tgz|sort"
 ---
 name: 'zmap'
 command: 'git ls-remote --tags https://github.com/zmap/zmap'
