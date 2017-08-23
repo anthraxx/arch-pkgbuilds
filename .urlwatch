@@ -50,7 +50,7 @@ name: 'tcpxtract'
 command: 'curl http://tcpxtract.sourceforge.net/ 2>/dev/null|grep tar.gz'
 ---
 name: 'vit'
-command: 'git ls-remote --tags https://git.tasktools.org/scm/ex/vit'
+command: 'git ls-remote --tags https://git.tasktools.org/EX/vit.git'
 ---
 name: 'r2-bindings'
 command: 'git ls-remote --tags https://github.com/radare/radare2-bindings'
