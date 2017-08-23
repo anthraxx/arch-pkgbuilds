@@ -683,7 +683,7 @@ name: 'umurmur (github)'
 command: 'git ls-remote --tags https://github.com/umurmur/umurmur'
 ---
 name: 'xpdf (ftp)'
-command: 'curl "ftp://ftp.foolabs.com/pub/xpdf/" 2>/dev/null'
+command: 'curl http://www.xpdfreader.com/download.html 2>/dev/null | grep tar'
 ---
 name: 'python2-subprocess32 (github)'
 command: 'git ls-remote --tags https://github.com/google/python-subprocess32'
