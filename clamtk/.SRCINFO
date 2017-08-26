@@ -1,7 +1,7 @@
 pkgbase = clamtk
 	pkgdesc = Easy to use, light-weight, on-demand virus scanner for Linux systems
 	pkgver = 5.24
-	pkgrel = 1
+	pkgrel = 4
 	url = https://dave-theunsub.github.io/clamtk/
 	arch = any
 	license = GPL
