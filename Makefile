@@ -1,3 +1,6 @@
+REPO_CMD=svn checkout -N
+REPO_URL=svn+ssh://svn-community@repos.archlinux.org/srv/repos
+
 RED?=$(shell tput setaf 1)
 GREEN?=$(shell tput setaf 2)
 YELLOW?=$(shell tput setaf 3)
@@ -40,3 +43,7 @@ update-index-file:
 	ls .repo/community|sort > .repo/community.list
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating packages.list index file...$(RST)"
 	ls .repo/packages|sort > .repo/packages.list
+
+repo:
+	${REPO_CMD} ${REPO_URL}/svn-packages/svn .repo/packages
+	${REPO_CMD} ${REPO_URL}/svn-community/svn .repo/community
