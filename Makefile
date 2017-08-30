@@ -1,4 +1,4 @@
-REPO_CMD=svn checkout -N
+REPO_CMD=svn checkout --depth=files
 REPO_URL=svn+ssh://svn-community@repos.archlinux.org/srv/repos
 
 RED?=$(shell tput setaf 1)
@@ -44,6 +44,28 @@ update-index-file:
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)updating packages.list index file...$(RST)"
 	ls .repo/packages|sort > .repo/packages.list
 
-repo:
-	${REPO_CMD} ${REPO_URL}/svn-packages/svn .repo/packages
+repo-checkout:
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Initialize community repo...$(RST)"
 	${REPO_CMD} ${REPO_URL}/svn-community/svn .repo/community
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Initialize packages repo...$(RST)"
+	${REPO_CMD} ${REPO_URL}/svn-packages/svn .repo/packages
+
+repo: repo-checkout
+	@cd .repo/community; \
+		for PKG in `cat ../community.list`; do \
+			echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Checkout community/$${PKG}...$(RST)"; \
+			svn update $${PKG} >/dev/null; \
+		done
+	@cd .repo/packages; \
+		for PKG in `cat ../packages.list`; do \
+			echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Checkout packages/$${PKG}...$(RST)"; \
+			svn update $${PKG} >/dev/null; \
+		done
+
+repo-update:
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Update community...$(RST)"
+	@cd .repo/community; \
+		svn update
+	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Update packages...$(RST)"
+	@cd .repo/packages; \
+		svn update
