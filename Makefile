@@ -1,5 +1,6 @@
 REPO_CMD=svn checkout --depth=files
-REPO_URL=svn+ssh://svn-community@repos.archlinux.org/srv/repos
+REPO_URL_COMMUNITY=svn+ssh://svn-community@repos.archlinux.org/srv/repos
+REPO_URL_PACKAGES=svn+ssh://svn-packages@repos.archlinux.org/srv/repos
 
 RED?=$(shell tput setaf 1)
 GREEN?=$(shell tput setaf 2)
@@ -46,9 +47,9 @@ update-index-file:
 
 repo-checkout:
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Initialize community repo...$(RST)"
-	${REPO_CMD} ${REPO_URL}/svn-community/svn .repo/community
+	${REPO_CMD} ${REPO_URL_COMMUNITY}/svn-community/svn .repo/community
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Initialize packages repo...$(RST)"
-	${REPO_CMD} ${REPO_URL}/svn-packages/svn .repo/packages
+	${REPO_CMD} ${REPO_URL_PACKAGES}/svn-packages/svn .repo/packages
 
 repo: repo-checkout
 	@cd .repo/community; \
