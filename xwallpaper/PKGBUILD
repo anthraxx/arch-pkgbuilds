@@ -2,7 +2,7 @@
 
 pkgname=xwallpaper
 pkgver=0.2.0
-pkgrel=2
+pkgrel=3
 pkgdesc='Wallpaper setting utility for X'
 url='https://github.com/stoeckmann/xwallpaper'
 arch=('i686' 'x86_64')
