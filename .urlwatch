@@ -909,6 +909,9 @@ command: 'curl https://pypi.python.org/pypi/recommonmark 2>/dev/null|grep tar.gz
 ---
 name: 'rxvt-unicode (upstream)'
 command: 'curl http://dist.schmorp.de/rxvt-unicode/ 2>/dev/null|grep tar'
+---
+name: 'ruby-async (github)'
+command: 'git ls-remote --tags https://github.com/socketry/async'
 
 
 #TODO skipfish
