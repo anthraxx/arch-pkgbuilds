@@ -226,10 +226,10 @@ while [[ ${#} -gt 0 ]]; do
 			PUBLISH_PACKAGES="multilibpkg"
 			PUBLISH_COMMUNITY="${PUBLISH_PACKAGES}"
 		;;
-		--publish)
+		-p|--publish)
 			PUBLISH=1
 		;;
-		--edit)
+		-e|--edit)
 			EDIT=1
 		;;
 		*)
