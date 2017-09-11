@@ -1,0 +1,16 @@
+pkgbase = ruby-async-io
+	pkgdesc = Provides support for asynchonous TCP, UDP, UNIX and SSL sockets
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/socketry/async-io
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-async
+	options = !emptydirs
+	source = ruby-async-io-1.0.0.tar.gz::https://github.com/socketry/async-io/archive/v1.0.0.tar.gz
+	sha256sums = a261535e8a9b22b3c8f62c59794b5012eadb7382220c0ab957a079a978d194cf
+	sha512sums = 54b45de9a37438a5db6264aab0d31dfed521b3086a8cd52ddc97b7bbf3742307399da829ee7892ecc6742f2c1111c0903d91f2ea168fff06c6f6319424382e4f
+
+pkgname = ruby-async-io
+
