@@ -915,6 +915,9 @@ command: 'git ls-remote --tags https://github.com/socketry/async'
 ---
 name: 'ruby-async-io (github)'
 command: 'git ls-remote --tags https://github.com/socketry/async-io'
+---
+name: 'ruby-async-dns (github)'
+command: 'git ls-remote --tags https://github.com/socketry/async-dns'
 
 
 #TODO skipfish
