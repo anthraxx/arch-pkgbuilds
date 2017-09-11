@@ -1,7 +1,7 @@
 pkgbase = linssid
 	pkgdesc = Graphical wireless scanner for Linux
 	pkgver = 2.9
-	pkgrel = 1
+	pkgrel = 2
 	url = https://sourceforge.net/projects/linssid/
 	arch = i686
 	arch = x86_64
