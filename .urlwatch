@@ -912,6 +912,9 @@ command: 'curl http://dist.schmorp.de/rxvt-unicode/ 2>/dev/null|grep tar'
 ---
 name: 'ruby-async (github)'
 command: 'git ls-remote --tags https://github.com/socketry/async'
+---
+name: 'ruby-async-io (github)'
+command: 'git ls-remote --tags https://github.com/socketry/async-io'
 
 
 #TODO skipfish
