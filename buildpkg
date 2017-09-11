@@ -17,7 +17,7 @@ readonly ALL_OFF BOLD BLUE GREEN RED YELLOW
 
 plain() {
 	local mesg=$1; shift
-	printf "${BOLD}    ${mesg}${ALL_OFF}\n" "$@" >&2
+	printf "${BOLD}	${mesg}${ALL_OFF}\n" "$@" >&2
 }
 
 msg() {
@@ -269,11 +269,11 @@ for PACKAGE in ${PACKAGES}; do
 	archs=$(grep 'arch =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr '\n' ' ')
 	validpgpkeys=$(grep 'validpgpkeys =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr '\n' ' ')
 	pkgrel=$(grep 'pkgrel =' .SRCINFO|cut -d= -f2|cut -d' ' -f2|tr -d '\n')
-    if [[ -n "${BUMP_PKGREL}" ]]; then
-        let "pkgrel++"
-        msg2 "Bumping pkgrel to ${pkgrel}"
-        sed -r "s|(pkgrel=).+|\1${pkgrel}|g" -i PKGBUILD
-    fi
+	if [[ -n "${BUMP_PKGREL}" ]]; then
+		let "pkgrel++"
+		msg2 "Bumping pkgrel to ${pkgrel}"
+		sed -r "s|(pkgrel=).+|\1${pkgrel}|g" -i PKGBUILD
+	fi
 
 	# import all needed gpg keys
 	for validpgpkey in ${validpgpkeys}; do
@@ -282,19 +282,19 @@ for PACKAGE in ${PACKAGES}; do
 	done
 
 	# build selected modes
-    if [[ -z "${SKIP_BUILD}" ]]; then
-        for BUILD_MODE in ${BUILD_MODES}; do
-            # skip mode if not valid
-            arch=$(echo ${BUILD_MODE}|sed -r 's|.+-(.+)-.+|\1|')
-            if [[ ! "${BUILD_MODE}" == *"multilib"* && \
-                    ! " ${archs[@]} " =~ ' any ' && \
-                    ! " ${archs[@]} " =~ " $(echo ${BUILD_MODE}|sed -r 's|.+-(.+)-.+|\1|') " ]]; then
-                continue
-            fi
-            msg "Building via ${BUILD_MODE} ${BUILD_OPTIONS}..."
-            ${BUILD_MODE} ${BUILD_OPTIONS}
-        done
-    fi
+	if [[ -z "${SKIP_BUILD}" ]]; then
+		for BUILD_MODE in ${BUILD_MODES}; do
+			# skip mode if not valid
+			arch=$(echo ${BUILD_MODE}|sed -r 's|.+-(.+)-.+|\1|')
+			if [[ ! "${BUILD_MODE}" == *"multilib"* && \
+					! " ${archs[@]} " =~ ' any ' && \
+					! " ${archs[@]} " =~ " $(echo ${BUILD_MODE}|sed -r 's|.+-(.+)-.+|\1|') " ]]; then
+				continue
+			fi
+			msg "Building via ${BUILD_MODE} ${BUILD_OPTIONS}..."
+			${BUILD_MODE} ${BUILD_OPTIONS}
+		done
+	fi
 
 	# post build .SRCINFO for updated pkgver
 	mksrcinfo
@@ -309,21 +309,21 @@ for PACKAGE in ${PACKAGES}; do
 	pkgverfull="${epoch}${pkgver}-${pkgrel}"
 
 	# create source tarball
-    if [[ -z "${SKIP_SRC}" ]]; then
-        stat_busy "Creating source tarball"
-        extra-x86_64-build -- -- -S -d -f &>/dev/null
-        rm -f '*-namcap.log'
-        stat_done
-    fi
+	if [[ -z "${SKIP_SRC}" ]]; then
+		stat_busy "Creating source tarball"
+		extra-x86_64-build -- -- -S -d -f &>/dev/null
+		rm -f '*-namcap.log'
+		stat_done
+	fi
 
 	# signing tarballs
 	# TODO: if not sign all, check if i686 built
-    tarballsrc="${pkgbase}-${pkgverfull}.src.tar.gz"
+	tarballsrc="${pkgbase}-${pkgverfull}.src.tar.gz"
 	if [ -z "${SKIP_SIG}" ]; then
 		msg "Signing tarballs..."
-        if [[ -f "${tarballsrc}" ]]; then
-            sign "${tarballsrc}"
-        fi
+		if [[ -f "${tarballsrc}" ]]; then
+			sign "${tarballsrc}"
+		fi
 		for pkg in ${pkgname}; do
 			for arch in ${archs}; do
 				tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
@@ -341,62 +341,62 @@ for PACKAGE in ${PACKAGES}; do
 		done
 	fi
 
-    if [ -z "${SKIP_LIST}" ]; then
-        msg "Listing package contents..."
-        for pkg in ${pkgname}; do
-            for arch in ${archs}; do
-                tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-                msg2 "Listing ${tarballpkg}..."
+	if [ -z "${SKIP_LIST}" ]; then
+		msg "Listing package contents..."
+		for pkg in ${pkgname}; do
+			for arch in ${archs}; do
+				tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
+				msg2 "Listing ${tarballpkg}..."
 				for file in $(tar --force-local -tf "${tarballpkg}"|sort); do
-                    printf "${BOLD}${BLUE}     %s${ALL_OFF}\n" "${file}" >&2
-                done
-            done
-        done
-    fi
+					printf "${BOLD}${BLUE}	 %s${ALL_OFF}\n" "${file}" >&2
+				done
+			done
+		done
+	fi
 
-    if [ -z "${SKIP_CHECK}" ]; then
-        msg "Running namcap..."
-        for pkg in ${pkgname}; do
-            for arch in ${archs}; do
-                tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-                run_namcap "${tarballpkg}"
-            done
-        done
-        run_namcap PKGBUILD
+	if [ -z "${SKIP_CHECK}" ]; then
+		msg "Running namcap..."
+		for pkg in ${pkgname}; do
+			for arch in ${archs}; do
+				tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
+				run_namcap "${tarballpkg}"
+			done
+		done
+		run_namcap PKGBUILD
 		msg "Running checkpkg..."
 		checkpkg || true
 		if [ -z "${KEEP_CHECK_FILES}" ]; then
 			rm -rf /tmp/checkpkg-script.*
 		fi
-    fi
+	fi
 	msg "Finished building ${PACKAGE} ${pkgverfull}"
 
-    # distribute into repo checkout
+	# distribute into repo checkout
 	if [[ -d "../.repo/packages/${pkgbase}/trunk" ]]; then
-        repo='packages'
-    else
-        if [[ -d "../.repo/community/${pkgbase}/trunk" ]]; then
-            repo='community'
-        fi
+		repo='packages'
+	else
+		if [[ -d "../.repo/community/${pkgbase}/trunk" ]]; then
+			repo='community'
+		fi
 	fi
-    if [[ -z "${SKIP_DIST}" && -n "${repo}" ]]; then
+	if [[ -z "${SKIP_DIST}" && -n "${repo}" ]]; then
 		destdir="../.repo/${repo}/${pkgbase}/trunk"
-        if [[ ! -f "${tarballsrc}" ]]; then
-            warning "Skipping distribution: missing ${tarballsrc}"
-        else
-            msg "Distributing ${PACKAGE} ${pkgverfull} into ${repo}..."
-            msg2 "Cleaning target..."
-            rm -f "./${destdir}/"*
-            msg2 "Extracting sources..."
-            tar --force-local --strip-components=1 -xvf "${tarballsrc}" -C "./${destdir}" &>/dev/null
-            rm "./${destdir}/.SRCINFO"
-            msg2 "Creating symlinks..."
-            for pkg in ${pkgname}; do
-                for arch in ${archs}; do
-                    tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-                    ln -rs "${tarballpkg}"{,.sig} "${destdir}"
-                done
-            done
+		if [[ ! -f "${tarballsrc}" ]]; then
+			warning "Skipping distribution: missing ${tarballsrc}"
+		else
+			msg "Distributing ${PACKAGE} ${pkgverfull} into ${repo}..."
+			msg2 "Cleaning target..."
+			rm -f "./${destdir}/"*
+			msg2 "Extracting sources..."
+			tar --force-local --strip-components=1 -xvf "${tarballsrc}" -C "./${destdir}" &>/dev/null
+			rm "./${destdir}/.SRCINFO"
+			msg2 "Creating symlinks..."
+			for pkg in ${pkgname}; do
+				for arch in ${archs}; do
+					tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
+					ln -rs "${tarballpkg}"{,.sig} "${destdir}"
+				done
+			done
 
 			# publish release
 			if [[ "${PUBLISH}" -eq 1 ]]; then
@@ -412,7 +412,7 @@ for PACKAGE in ${PACKAGES}; do
 				popd >/dev/null
 			fi
 		fi
-    fi
+	fi
 
 	popd >/dev/null
 done
