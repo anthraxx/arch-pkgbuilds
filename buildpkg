@@ -229,6 +229,9 @@ while [[ ${#} -gt 0 ]]; do
 		--publish)
 			PUBLISH=1
 		;;
+		--edit)
+			EDIT=1
+		;;
 		*)
 			# TODO: accept non local package arguments when rebuilding
 			if [ ! -f "${key}/PKGBUILD" ]; then
@@ -257,6 +260,12 @@ for PACKAGE in ${PACKAGES}; do
 
 	msg2 "Cleaning old files..."
 	rm -f *.log
+
+	# edit PKGBUILD
+	if [ -n "${EDIT}" ]; then
+		msg2 "Editing PKGBUILD..."
+		${EDITOR} PKGBUILD
+	fi
 
 	# update pkgsums
 	if [ -n "${UPDATE_PKG_SUMS}" ]; then
