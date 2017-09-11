@@ -1,7 +1,7 @@
 pkgbase = python-recommonmark
 	pkgdesc = Markdown parser for docutils
 	pkgver = 0.4.0.133.c410abb
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/rtfd/recommonmark
 	arch = any
 	license = MIT
@@ -18,8 +18,10 @@ pkgbase = python-recommonmark
 	makedepends = python2-sphinx
 	source = python-recommonmark::git+https://github.com/rtfd/recommonmark#commit=c410abb565a3c4ad4de0ce204ab2fa2db8031cf1
 	source = recommonmark-sphinx-refdomain-fix.patch
+	source = recommonmark-fix-mdnode-parent.patch
 	sha512sums = SKIP
 	sha512sums = df2440e7ce927ca6adc31e07f9e375fa4643bbe1c33a34821d3d3e5d9d4b2ae8bbdf7412a8f2c64d343c9004f54a4a650fc59e461b3b1eb1ab11c1dec02422fd
+	sha512sums = 89745108ad78349ace30582cb28f8693edc109c97e94182a37afe5219bec8988bb785d77594e34306facf0eaa4e640c0bdf4e53249d6154094222e58df9498e9
 
 pkgname = python-recommonmark
 	depends = python-docutils
