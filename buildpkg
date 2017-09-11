@@ -77,67 +77,97 @@ while [[ ${#} -gt 0 ]]; do
 			TESTING_i686=1
 			TESTING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} testing-i686-build testing-x86_64-build"
+			PUBLISH_PACKAGES="testingpkg"
+			PUBLISH_COMMUNITY="community-testingpkg"
 		;;
 		--testing-i686)
 			TESTING_i686=1
 			BUILD_MODES="${BUILD_MODES} testing-i686-build"
+			PUBLISH_PACKAGES="testingpkg -a i686"
+			PUBLISH_COMMUNITY="community-testingpkg -a i686"
 		;;
 		--testing-x86_64)
 			TESTING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} testing-x86_64-build"
+			PUBLISH_PACKAGES="testingpkg -a x86_64"
+			PUBLISH_COMMUNITY="community-testingpkg -a x86_64"
 		;;
 		--staging)
 			STAGING_i686=1
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build staging-x86_64-build"
+			PUBLISH_PACKAGES="stagingpkg"
+			PUBLISH_COMMUNITY="community-stagingpkg"
 		;;
 		--staging-i686)
 			STAGING_i686=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build"
+			PUBLISH_PACKAGES="stagingpkg -a i686"
+			PUBLISH_COMMUNITY="community-stagingpkg -a i686"
 		;;
 		--staging-x86_64)
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-x86_64-build"
+			PUBLISH_PACKAGES="stagingpkg -a x86_64"
+			PUBLISH_COMMUNITY="community-stagingpkg -a x86_64"
 		;;
 		--extra)
 			EXTRA_i686=1
 			EXTRA_x86_64=1
 			BUILD_MODES="${BUILD_MODES} extra-i686-build extra-x86_64-build"
+			PUBLISH_PACKAGES="extrapkg"
+			PUBLISH_COMMUNITY="communitypkg"
 		;;
 		--extra-i686)
 			EXTRA_i686=1
 			BUILD_MODES="${BUILD_MODES} extra-i686-build"
+			PUBLISH_PACKAGES="extrapkg -a i686"
+			PUBLISH_COMMUNITY="communitypkg -a i686"
 		;;
 		--extra-x86_64)
 			EXTRA_x86_64=1
 			BUILD_MODES="${BUILD_MODES} extra-x86_64-build"
+			PUBLISH_PACKAGES="extrapkg -a x86_64"
+			PUBLISH_COMMUNITY="communitypkg -a x86_64"
 		;;
 		--multilib-mixed)
 			MULTILIB=1
 			EXTRA_i686=1
 			BUILD_MODES="${BUILD_MODES} multilib-build extra-i686-build"
+			PUBLISH_PACKAGES="extrapkg -a i686 && multilibpkg -a x86_64"
+			PUBLISH_COMMUNITY="communitypkg -a i686 && multilibpkg -a x86_64"
 		;;
 		--multilib-mixed-staging)
 			MULTILIB_STAGING=1
 			STAGING_i686=1
 			BUILD_MODES="${BUILD_MODES} multilib-staging-build staging-i686-build"
+			PUBLISH_PACKAGES="stagingpkg -a i686 && multilib-stagingpkg -a x86_64"
+			PUBLISH_COMMUNITY="community-stagingpkg -a i686 && multilib-stagingpkg -a x86_64"
 		;;
 		--multilib-mixed-testing)
 			MULTILIB_TESTING=1
 			TESTING_i686=1
 			BUILD_MODES="${BUILD_MODES} multilib-testing-build testing-i686-build"
+			PUBLISH_PACKAGES="testingpkg -a i686 && multilib-testingpkg -a x86_64"
+			PUBLISH_COMMUNITY="community-testingpkg -a i686 && multilib-testingpkg -a x86_64"
 		;;
 		--multilib)
 			MULTILIB=1
 			BUILD_MODES="${BUILD_MODES} multilib-build"
+			PUBLISH_PACKAGES="multilibpkg"
+			PUBLISH_COMMUNITY="${PUBLISH_PACKAGES}"
 		;;
 		--multilib-staging)
 			MULTILIB_STAGING=1
 			BUILD_MODES="${BUILD_MODES} multilib-staging-build"
+			PUBLISH_PACKAGES="multilib-stagingpkg"
+			PUBLISH_COMMUNITY="${PUBLISH_PACKAGES}"
 		;;
 		--multilib-testing)
 			MULTILIB_TESTING=1
 			BUILD_MODES="${BUILD_MODES} multilib-testing-build"
+			PUBLISH_PACKAGES="multilib-testingpkg"
+			PUBLISH_COMMUNITY="${PUBLISH_PACKAGES}"
 		;;
 		-s|--nosig|--skipsig)
 			SKIP_SIG=1
@@ -175,6 +205,8 @@ while [[ ${#} -gt 0 ]]; do
 			STAGING_i686=1
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build staging-x86_64-build"
+			PUBLISH_PACKAGES="stagingpkg"
+			PUBLISH_COMMUNITY="community-stagingpkg"
 		;;
 		--rebuild-community)
 			BUMP_PKGREL=1
@@ -182,6 +214,8 @@ while [[ ${#} -gt 0 ]]; do
 			STAGING_i686=1
 			STAGING_x86_64=1
 			BUILD_MODES="${BUILD_MODES} staging-i686-build staging-x86_64-build"
+			PUBLISH_PACKAGES="stagingpkg"
+			PUBLISH_COMMUNITY="community-stagingpkg"
 		;;
 		--rebuild-multilib)
 			BUMP_PKGREL=1
@@ -189,6 +223,11 @@ while [[ ${#} -gt 0 ]]; do
 			REBUILD_COMMUNITY=1
 			MULTILIB_STAGING=1
 			BUILD_MODES="${BUILD_MODES} multilib-staging-build"
+			PUBLISH_PACKAGES="multilibpkg"
+			PUBLISH_COMMUNITY="${PUBLISH_PACKAGES}"
+		;;
+		--publish)
+			PUBLISH=1
 		;;
 		*)
 			# TODO: accept non local package arguments when rebuilding
@@ -207,6 +246,8 @@ if [ -z "${BUILD_MODES}" ]; then
 	EXTRA_i686=1
 	EXTRA_x86_64=1
 	BUILD_MODES="extra-i686-build extra-x86_64-build"
+	PUBLISH_PACKAGES="extrapkg"
+	PUBLISH_COMMUNITY="communitypkg"
 fi
 
 # build packages
@@ -306,7 +347,7 @@ for PACKAGE in ${PACKAGES}; do
             for arch in ${archs}; do
                 tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
                 msg2 "Listing ${tarballpkg}..."
-                for file in `tar --force-local -tf "${tarballpkg}"|sort`; do
+				for file in $(tar --force-local -tf "${tarballpkg}"|sort); do
                     printf "${BOLD}${BLUE}     %s${ALL_OFF}\n" "${file}" >&2
                 done
             done
@@ -328,6 +369,7 @@ for PACKAGE in ${PACKAGES}; do
 			rm -rf /tmp/checkpkg-script.*
 		fi
     fi
+	msg "Finished building ${PACKAGE} ${pkgverfull}"
 
     # distribute into repo checkout
 	if [[ -d "../.repo/packages/${pkgbase}/trunk" ]]; then
@@ -338,11 +380,11 @@ for PACKAGE in ${PACKAGES}; do
         fi
 	fi
     if [[ -z "${SKIP_DIST}" && -n "${repo}" ]]; then
+		destdir="../.repo/${repo}/${pkgbase}/trunk"
         if [[ ! -f "${tarballsrc}" ]]; then
             warning "Skipping distribution: missing ${tarballsrc}"
         else
-            destdir="../.repo/${repo}/${pkgbase}/trunk"
-            msg "Distributing into ${repo}..."
+            msg "Distributing ${PACKAGE} ${pkgverfull} into ${repo}..."
             msg2 "Cleaning target..."
             rm -f "./${destdir}/"*
             msg2 "Extracting sources..."
@@ -352,12 +394,24 @@ for PACKAGE in ${PACKAGES}; do
             for pkg in ${pkgname}; do
                 for arch in ${archs}; do
                     tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
-                    ln -rs ${tarballpkg}{,.sig} "${destdir}"
+                    ln -rs "${tarballpkg}"{,.sig} "${destdir}"
                 done
             done
-        fi
+
+			# publish release
+			if [[ "${PUBLISH}" -eq 1 ]]; then
+				stat_busy "Confirm ${PACKAGE} ${pkgverfull} to publish"
+				read
+				pushd "${destdir}" >/dev/null
+				if [[ 'packages' = "${repo}" ]]; then
+					${PUBLISH_PACKAGES}
+				elif [[ 'community' = "${repo}" ]]; then
+					${PUBLISH_COMMUNITY}
+				fi
+				popd >/dev/null
+			fi
+		fi
     fi
 
-	msg "Finished building ${PACKAGE} ${pkgverfull}"
 	popd >/dev/null
 done
