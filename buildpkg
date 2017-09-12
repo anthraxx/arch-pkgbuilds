@@ -357,7 +357,7 @@ for PACKAGE in ${PACKAGES}; do
 			for arch in ${archs}; do
 				tarballpkg="${pkg}-${pkgverfull}-${arch}.pkg.tar.xz"
 				msg2 "Listing ${tarballpkg}..."
-				for file in $(tar --force-local -tf "${tarballpkg}"|sort); do
+				for file in $(tar --force-local -tf "${tarballpkg}" 2>&1|grep -v 'SCHILY.fflags'|sort); do
 					printf "${BOLD}${BLUE}	 %s${ALL_OFF}\n" "${file}" >&2
 				done
 			done
