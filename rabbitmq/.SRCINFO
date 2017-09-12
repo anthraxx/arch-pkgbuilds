@@ -1,23 +1,27 @@
 pkgbase = rabbitmq
 	pkgdesc = Highly reliable and performant enterprise messaging implementation of AMQP written in Erlang/OTP
-	pkgver = 3.6.11
+	pkgver = 3.6.12
 	pkgrel = 1
 	url = https://rabbitmq.com
 	install = rabbitmq.install
 	arch = any
 	license = MPL
+	depends = util-linux
+	depends = inetutils
 	depends = erlang-nox
 	optdepends = rabbitmqadmin: CLI management tool
 	backup = etc/rabbitmq/rabbitmq-env.conf
-	source = https://www.rabbitmq.com/releases/rabbitmq-server/v3.6.11/rabbitmq-server-generic-unix-3.6.11.tar.xz
-	source = https://www.rabbitmq.com/releases/rabbitmq-server/v3.6.11/rabbitmq-server-generic-unix-3.6.11.tar.xz.asc
+	source = https://www.rabbitmq.com/releases/rabbitmq-server/v3.6.12/rabbitmq-server-generic-unix-3.6.12.tar.xz
+	source = https://www.rabbitmq.com/releases/rabbitmq-server/v3.6.12/rabbitmq-server-generic-unix-3.6.12.tar.xz.asc
 	source = rabbitmq-env.conf
 	source = rabbitmq.service
+	source = rabbitmq-script-wrapper
 	validpgpkeys = 0A9AF2115F4687BD29803A206B73A36E6026DFCA
-	sha512sums = 56c5bb4bed9886b53454da400e111d7f24bb51b7172a6e2311b0ee13a28782e81718721c0d1fe02194bcb817ef9c2d7ecb8ba6d3181d3ef3baf6cb7bf395819f
+	sha512sums = 6c2551a01c6210cd9e353ae19f69098478349a7ba59bc83844a682fc73d9e920cbc21c753edaf40cc9119f8befcd3d1647bf20d47741fb5ac1e969844cb5fb1d
 	sha512sums = SKIP
 	sha512sums = 4872ff514c9f841fe4c93bc442ec4e3177d1bfa3834e8d8a26fc77a63aff1cdc14944827673a59556e26210b2b4c0091f93c8e93a334710e5bc3336a64e77140
 	sha512sums = d51b43f948febb23cdd5b0c7736f966d8433b05ccd95778e90d280d45ccfd9a714e888762f458337a784fff4b86430151adb0f81d779d6b99c9154fcd7e0e319
+	sha512sums = 3f271d546836eccc3bcf61105c013d3b590c3e2535106d07e5605a63174fd62ef204207367c2cd39be54e0246d0bbd9aecebe8b5cefe9018a766ceb8af70bc81
 
 pkgname = rabbitmq
 
