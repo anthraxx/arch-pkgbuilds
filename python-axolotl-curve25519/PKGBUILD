@@ -1,41 +1,47 @@
-# Maintainer: Alexandre Bouvier <contact AT amb DOT tf>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Alexandre Bouvier <contact AT amb DOT tf>
 # Contributor: Ivan Shapovalov <intelfx@intelfx.name>
 # Contributor: Tommaso Sardelli <lacapannadelloziotom AT gmail DOT com>
 # Contributor: Philipp Joram <phijor AT t-online DOT de>
-pkgname=('python-axolotl-curve25519' 'python2-axolotl-curve25519')
+
 pkgbase=python-axolotl-curve25519
+pkgname=('python-axolotl-curve25519' 'python2-axolotl-curve25519')
 pkgver=0.1
-pkgrel=1
-pkgdesc="Python wrapper for curve25519 library"
-arch=('i686' 'x86_64' 'armv7h')
-url="https://github.com/tgalal/python-axolotl-curve25519"
+pkgrel=2
+pkgdesc='Python wrapper for curve25519 library with ed25519 signatures'
+url='https://github.com/tgalal/python-axolotl-curve25519'
+arch=('i686' 'x86_64')
 license=('GPL3')
-makedepends=('python-setuptools' 'python2-setuptools')
-source=("https://files.pythonhosted.org/packages/source/${pkgbase::1}/$pkgbase/$pkgbase-$pkgver.tar.gz")
-md5sums=('f28d902df9044f0bf86a35a4bd2ec092')
+makedepends=('zlib' 'glibc' 'python-setuptools' 'python2-setuptools')
+source=(https://pypi.org/packages/source/p/python-axolotl-curve25519/python-axolotl-curve25519-${pkgver}.tar.gz)
+sha256sums=('c559f6a5bf51e869325b36bd83c14cccd7dec1c6e7599e797f9ba27a72d339c0')
+sha512sums=('e8dc93e6830502706966eb7b9adc7daf67fc95bd246661eed58aedef5b964f92abe20362bc56b7ad9d97ab322a4c97b056174a9b63fddd0ecd4eaeaf7b2473bd')
 
 prepare() {
-	cp -a "$pkgbase-$pkgver"{,-python2}
+  cp -a ${pkgbase}-${pkgver}{,-py2}
 }
 
 build() {
-	cd "$srcdir/$pkgbase-$pkgver"
-	python setup.py build
-
-	cd "$srcdir/$pkgbase-$pkgver-python2"
-	python2 setup.py build
+  (cd ${pkgbase}-${pkgver}
+    python setup.py build
+  )
+  (cd ${pkgbase}-${pkgver}-py2
+    python2 setup.py build
+  )
 }
 
 package_python-axolotl-curve25519() {
-	depends=('python')
+  depends=('python' 'zlib' 'glibc')
 
-	cd "$pkgbase-$pkgver"
-	python setup.py install --root="$pkgdir" --optimize=1 --skip-build
+  cd ${pkgbase}-${pkgver}
+  python setup.py install --root="${pkgdir}" -O1 --skip-build
 }
 
 package_python2-axolotl-curve25519() {
-	depends=('python2')
+  depends=('python2' 'zlib' 'glibc')
 
-	cd "$pkgbase-$pkgver-python2"
-	python2 setup.py install --root="$pkgdir" --optimize=1 --skip-build
+  cd ${pkgbase}-${pkgver}-py2
+  python2 setup.py install --root="${pkgdir}" -O1 --skip-build
 }
+
+# vim: ts=2 sw=2 et:
