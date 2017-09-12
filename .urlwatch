@@ -921,6 +921,9 @@ command: 'git ls-remote --tags https://github.com/socketry/async-dns'
 ---
 name: 'python-axolotl-curve25519 (github)'
 command: 'git ls-remote https://github.com/tgalal/python-axolotl-curve25519'
+---
+name: 'python-axolotl (github)'
+command: 'git ls-remote --tags https://github.com/tgalal/python-axolotl'
 
 
 #TODO skipfish
