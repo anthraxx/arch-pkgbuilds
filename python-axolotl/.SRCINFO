@@ -1,0 +1,22 @@
+pkgbase = python-axolotl
+	pkgdesc = Python port of libaxolotl
+	pkgver = 0.1.39
+	pkgrel = 1
+	url = https://github.com/tgalal/python-axolotl
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python2-setuptools
+	source = python-axolotl-0.1.39.tar.gz::https://github.com/tgalal/python-axolotl/archive/0.1.39.tar.gz
+	md5sums = 89ae2ace340f02f1377a71063265ffc6
+
+pkgname = python-axolotl
+	depends = python-protobuf
+	depends = python-crypto
+	depends = python-axolotl-curve25519
+
+pkgname = python2-axolotl
+	depends = python2-protobuf
+	depends = python2-crypto
+	depends = python2-axolotl-curve25519
+
