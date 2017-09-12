@@ -96,6 +96,8 @@ python2-unittest2
 python-aiohttp
 python-alembic
 python-async-timeout
+python-axolotl
+python-axolotl-curve25519
 python-blist
 python-commonmark
 python-distro
@@ -190,6 +192,7 @@ vsftpd
 wavemon
 websocketpp
 wifite
+wireshark
 wpscan
 xdot
 xpdf

@@ -8,7 +8,7 @@ name: 'hexer'
 url: 'http://devel.ringlet.net/editors/hexer/'
 ---
 name: 'hexer (gitlab)'
-command: 'git ls-remote --tags https://gitlab.com/hexer/hexer'
+command: 'git ls-remote --tags https://gitlab.com/hexer/hexer.git'
 ---
 name: 'ls++'
 command: 'git ls-remote https://github.com/trapd00r/ls--'
@@ -23,7 +23,7 @@ name: 'perl-term-extendedcolor (git)'
 command: 'git ls-remote https://github.com/trapd00r/Term-ExtendedColor'
 ---
 name: 'perl-term-extendedcolor (cpan)'
-command: 'curl http://cpansearch.perl.org/src/WOLDRICH/ 2>/dev/null|grep Term-ExtendedColor-'
+command: "curl http://cpansearch.perl.org/src/WOLDRICH/ 2>/dev/null|grep Term-ExtendedColor-|sed -r 's|.*>(.*)<.*|\\1|g'"
 ---
 name: 'scapy (git)'
 command: 'git ls-remote --tags https://github.com/secdev/scapy'
@@ -335,7 +335,7 @@ name: 'rabbitmqadmin'
 command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-management'
 ---
 name: 'gradle'
-command: 'curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sort'
+command: "curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sed -r 's|.+>(.+)<.+|\\1|g'|sort"
 ---
 name: 'binnavi'
 command: 'git ls-remote --tags https://github.com/google/binnavi'
@@ -443,7 +443,7 @@ name: 'penlight'
 command: 'git ls-remote --tags https://github.com/stevedonovan/Penlight'
 ---
 name: 'vicious'
-command: 'git ls-remote --tags http://git.sysphere.org/vicious'
+command: 'git ls-remote --tags https://github.com/Mic92/vicious.git'
 ---
 name: 'vsftpd'
 url: 'https://security.appspot.com/vsftpd/Changelog.txt'
@@ -452,7 +452,7 @@ name: 'python-ujson (http)'
 command: "curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.gz'"
 ---
 name: 'python-ujson (git)'
-command: 'git ls-remote --tags http://github.com/esnme/ultrajson'
+command: 'git ls-remote --tags https://github.com/esnme/ultrajson'
 ---
 name: 'thc-ipv6'
 command: 'curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz'
@@ -581,7 +581,7 @@ name: 'vim-nerdcommenter (git)'
 command: 'git ls-remote --tags https://github.com/scrooloose/nerdcommenter'
 ---
 name: 'vim-nerdcommenter (vim.org)'
-command: 'curl "http://www.vim.org/scripts/script.php?script_id=1218" 2>/dev/null|grep .zip -C1'
+command: 'curl "https://vim.sourceforge.io/scripts/script.php?script_id=1218" 2>/dev/null|grep .zip -C1'
 ---
 name: 'python-pcapy'
 command: 'git ls-remote --tags https://github.com/CoreSecurity/pcapy'
@@ -803,10 +803,10 @@ name: 'ruby-pg'
 url: 'https://bitbucket.org/ged/ruby-pg/raw/default/.hgtags'
 ---
 name: 'mplayer (website)'
-command: "curl 'http://www.mplayerhq.hu/design7/dload.html'|grep -i mplayer-|grep .tar."
+command: "curl 'http://www.mplayerhq.hu/design7/dload.html' 2>/dev/null|grep -i mplayer-|grep .tar."
 ---
 name: 'fasm (website)'
-command: "curl 'https://flatassembler.net/download.php'|grep -i fasm-|grep gz"
+command: "curl 'https://flatassembler.net/download.php' 2>/dev/null|grep -i fasm-|grep gz"
 ---
 name: 'nim (github)'
 command: 'git ls-remote --tags https://github.com/nim-lang/Nim'
@@ -924,6 +924,9 @@ command: 'git ls-remote https://github.com/tgalal/python-axolotl-curve25519'
 ---
 name: 'python-axolotl (github)'
 command: 'git ls-remote --tags https://github.com/tgalal/python-axolotl'
+---
+name: 'wireshark (upstream git)'
+command: 'git ls-remote --tags https://code.wireshark.org/review/p/wireshark.git'
 
 
 #TODO skipfish
