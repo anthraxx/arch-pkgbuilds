@@ -11,6 +11,7 @@ meson
 mplayer
 mtr
 nvidia-settings
+openmpi
 pgbouncer
 postgresql
 postgresql-old-upgrade

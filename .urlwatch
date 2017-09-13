@@ -930,7 +930,9 @@ command: 'git ls-remote --tags https://code.wireshark.org/review/p/wireshark.git
 ---
 name: 'vimiv (github)'
 command: 'git ls-remote --tags https://github.com/karlch/vimiv'
-
+---
+name: 'openmpi (upstream website)'
+command: 'curl http://www.open-mpi.de/|grep released|sed -r "s|.*>(.*)released<.*|\\1|g"|sort'
 
 #TODO skipfish
 
