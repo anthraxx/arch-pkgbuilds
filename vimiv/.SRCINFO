@@ -1,1 +1,22 @@
+pkgbase = vimiv
+	pkgdesc = Image viewer with vim-like keybindings
+	pkgver = 0.8
+	pkgrel = 2
+	url = https://github.com/karlch/vimiv
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python-setuptools
+	depends = python3
+	depends = python-gobject
+	depends = gtk3
+	depends = python-pillow
+	optdepends = jhead: autorotation and EXIF support
+	backup = etc/vimiv/vimivrc
+	backup = etc/vimiv/keys.conf
+	source = vimiv-0.8.tar.gz::https://github.com/karlch/vimiv/archive/v0.8.tar.gz
+	sha256sums = 7e4b66eefc202db55b45449d1eb48fc18e1e220de9f2dea45a25df1b07b41603
+	sha512sums = 462b3f8805ad7235853d992baceaedbc0d09805767b4fd38e6383a02199afdd72fcd4d652063a9f8ec0f05804ec24a0644ddc99b480022e17f78cd2a481d59ef
+
+pkgname = vimiv
 
