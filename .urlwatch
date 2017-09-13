@@ -927,6 +927,9 @@ command: 'git ls-remote --tags https://github.com/tgalal/python-axolotl'
 ---
 name: 'wireshark (upstream git)'
 command: 'git ls-remote --tags https://code.wireshark.org/review/p/wireshark.git'
+---
+name: 'vimiv (github)'
+command: 'git ls-remote --tags https://github.com/karlch/vimiv'
 
 
 #TODO skipfish
