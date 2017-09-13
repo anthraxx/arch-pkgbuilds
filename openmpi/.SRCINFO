@@ -1,20 +1,22 @@
 pkgbase = openmpi
 	pkgdesc = High performance message passing library (MPI)
 	pkgver = 2.1.1
-	pkgrel = 1
-	url = http://www.open-mpi.org
+	pkgrel = 2
+	url = https://www.open-mpi.org
 	arch = i686
 	arch = x86_64
-	license = custom
+	license = custom:OpenMPI
 	makedepends = inetutils
 	makedepends = valgrind
 	makedepends = gcc-fortran
 	depends = libltdl
 	depends = hwloc
+	depends = openssh
 	optdepends = gcc-fortran: fortran support
 	options = staticlibs
-	source = http://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.1.tar.bz2
-	sha1sums = 3aaee35c17b6ef02f4cee274f2670d5b7b2c968a
+	source = https://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.1.tar.bz2
+	sha256sums = bd7badd4ff3afa448c0d7f3ca0ee6ce003b957e9954aa87d8e4435759b5e4d16
+	sha512sums = c11bba6ec815f9c8d32fce3578f8995f6cd694e02fb850d7e6cd3975989bb38fdbef348064264a1de418d0a21411c70ca74347ecff4f27eb5a2f6835019d6bca
 
 pkgname = openmpi
 
