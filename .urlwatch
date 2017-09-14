@@ -933,6 +933,9 @@ command: 'git ls-remote --tags https://github.com/karlch/vimiv'
 ---
 name: 'openmpi (upstream website)'
 command: 'curl http://www.open-mpi.de/|grep released|sed -r "s|.*>(.*)released<.*|\\1|g"|sort'
+---
+name: 'python-flask-script (github)'
+command: 'git ls-remote --tags https://github.com/smurfix/flask-script'
 
 #TODO skipfish
 

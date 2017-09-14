@@ -105,6 +105,7 @@ python-editor
 python-engineio
 python-eventlet
 python-filebytes
+python-flask-script
 python-flask-socketio
 python-flask-sqlalchemy
 python-flask-wtf
