@@ -936,6 +936,9 @@ command: 'curl http://www.open-mpi.de/|grep released|sed -r "s|.*>(.*)released<.
 ---
 name: 'python-flask-script (github)'
 command: 'git ls-remote --tags https://github.com/smurfix/flask-script'
+---
+name: 'python-flask-migrate (github)'
+command: 'git ls-remote --tags https://github.com/miguelgrinberg/Flask-Migrate'
 
 #TODO skipfish
 
