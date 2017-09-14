@@ -233,7 +233,7 @@ name: 'owl-lisp'
 command: 'git ls-remote --tags https://github.com/aoh/owl-lisp'
 ---
 name: 'synergy'
-command: 'git ls-remote --tags https://github.com/symless/synergy'
+command: 'git ls-remote --tags https://github.com/symless/synergy-core'
 ---
 name: 'profanity'
 command: 'git ls-remote --tags https://github.com/boothj5/profanity'
@@ -932,7 +932,7 @@ name: 'vimiv (github)'
 command: 'git ls-remote --tags https://github.com/karlch/vimiv'
 ---
 name: 'openmpi (upstream website)'
-command: 'curl http://www.open-mpi.de/|grep released|sed -r "s|.*>(.*)released<.*|\\1|g"|sort'
+command: 'curl http://www.open-mpi.de/ 2>/dev/null|grep released|sed -r "s|.*>(.*)released<.*|\\1|g"|sort'
 ---
 name: 'python-flask-script (github)'
 command: 'git ls-remote --tags https://github.com/smurfix/flask-script'
