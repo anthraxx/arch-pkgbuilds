@@ -1,0 +1,37 @@
+pkgbase = python-flask-migrate
+	pkgdesc = SQLAlchemy database migrations for Flask applications using Alembic..
+	pkgver = 2.1.1
+	pkgrel = 2
+	url = https://github.com/miguelgrinberg/Flask-Migrate/
+	arch = any
+	license = MIT
+	makedepends = python-alembic
+	makedepends = python-flask
+	makedepends = python-flask-script
+	makedepends = python-flask-sqlalchemy
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python2-alembic
+	makedepends = python2-flask
+	makedepends = python2-flask-script
+	makedepends = python2-flask-sqlalchemy
+	makedepends = python2-setuptools
+	makedepends = python2-sphinx
+	source = python-flask-migrate-2.1.1.tar.gz::https://github.com/miguelgrinberg/Flask-Migrate/archive/v2.1.1.tar.gz
+	sha256sums = 883854c9c811746c1d989f4e707e3815d7d3e43316d6cee832e53897737a90e5
+	sha512sums = b7f81f0b256ac975d287d591e6bc9c2adb50579872d7546512b081d687c1b74002491705ce8ff09ad2ef038f8b120af546f331b5315cd876a4446acd9d2d65ba
+
+pkgname = python-flask-migrate
+	depends = python-alembic
+	depends = python-flask
+	depends = python-flask-script
+	depends = python-flask-sqlalchemy
+	depends = python-setuptools
+
+pkgname = python2-flask-migrate
+	depends = python2-alembic
+	depends = python2-flask
+	depends = python2-flask-script
+	depends = python2-flask-sqlalchemy
+	depends = python2-setuptools
+
