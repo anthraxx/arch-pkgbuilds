@@ -1,5 +1,5 @@
 name: 'airoscript'
-url: 'http://code.google.com/feeds/p/airoscript/downloads/basic'
+command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fairoscript%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null|tr \" "\n"|grep airoscript|sort'
 ---
 name: 'cowfortune'
 command: 'git ls-remote --tags https://github.com/anthraxx/cowfortune'
@@ -35,10 +35,10 @@ name: 'shellnoob'
 command: 'git ls-remote --tags https://github.com/reyammer/shellnoob'
 ---
 name: 'slowhttptest'
-url: 'http://code.google.com/feeds/p/slowhttptest/downloads/basic'
+command: 'git ls-remote --tags https://github.com/shekyan/slowhttptest'
 ---
-name: 'smali (http)'
-command: 'curl https://bitbucket.org/JesusFreke/smali/downloads\#available-downloads 2>/dev/null|grep -E "tar.gz|jar|zip"'
+name: 'smali (bitbucket)'
+command: 'curl https://bitbucket.org/JesusFreke/smali/downloads/ 2>/dev/null|tr "<>" "\n"|grep -v href|grep -E "tar.gz|jar|zip"|sort'
 ---
 name: 'smali (git)'
 command: 'git ls-remote --tags https://github.com/JesusFreke/smali'
@@ -134,7 +134,7 @@ name: 'cowrie'
 command: 'git ls-remote https://github.com/micheloosterhof/cowrie'
 ---
 name: 'conky-manager'
-url: 'http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/'
+command: 'curl http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/ 2>/dev/null|tr \"\<\> "\n"|grep conky-manager'
 ---
 name: 'xboxdrv'
 command: 'git ls-remote --tags https://github.com/Grumbel/xboxdrv'
@@ -155,7 +155,7 @@ name: 'pyexiftool'
 command: 'git ls-remote https://github.com/smarnach/pyexiftool'
 ---
 name: 'python-trollius'
-url: 'https://bitbucket.org/enovance/trollius/raw/trollius/.hgtags'
+command: 'git ls-remote --tags https://github.com/haypo/trollius'
 ---
 name: 'pyshark'
 command: 'git ls-remote https://github.com/KimiNewt/pyshark'
@@ -178,8 +178,11 @@ command: 'git ls-remote --tags https://github.com/cryptodotis/irssi-otr'
 name: 'irssi-otr (upstream http)'
 url: 'https://www.otr.im/dist/irssi-otr/'
 ---
-name: 'python-olefile'
-command: 'curl https://bitbucket.org/decalage/olefileio_pl/downloads 2>/dev/null|grep .zip'
+name: 'python-olefile (bitbucket)'
+command: 'curl https://bitbucket.org/decalage/olefileio_pl/downloads/ 2>/dev/null|tr "<>" "\n"|grep -v href|grep .zip|sort'
+---
+name: 'pyton-olefile (gitub)'
+command: 'git ls-remote --tags https://github.com/decalage2/olefile'
 ---
 name: 'pdb-clone'
 command: 'curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|grep pdb-clone'
@@ -290,7 +293,7 @@ name: 'hashcat (git)'
 command: 'git ls-remote --tags https://github.com/hashcat/hashcat'
 ---
 name: 'clamtk'
-command: 'curl https://bitbucket.org/dave_theunsub/clamtk/downloads 2>/dev/null|grep .tar.gz'
+command: 'curl https://bitbucket.org/davem_/clamtk/downloads/ 2>/dev/null|tr "<>" "\n"|grep clamtk|grep -v "{"|grep tar|grep -v href|sort'
 ---
 name: 'dnsenum'
 command: 'git ls-remote --tags https://github.com/fwaeytens/dnsenum'
@@ -725,10 +728,10 @@ name: 'hash-identifier (github)'
 command: 'git ls-remote https://github.com/Miserlou/Hash-Identifier'
 ---
 name: 'smplayer (sourceforge)'
-command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/null|grep files/|grep -v google|grep -v net.sf.files'
+command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer/ 2>/dev/null|tr \"\<\> "\n"|grep files/|grep -v google|grep -v net.sf.files'
 ---
 name: 'smplayer-themes (sourceforge)'
-command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|grep files/|grep -v google|grep -v net.sf.files'
+command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|tr \"\<\> "\n"|grep files/|grep -v google|grep -v net.sf.file'
 ---
 name: 'libdbusmenu (launchpad)'
 command: 'curl https://launchpad.net/libdbusmenu/+download 2>/dev/null|grep tar.gz'
