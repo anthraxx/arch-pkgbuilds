@@ -1,6 +1,6 @@
 pkgbase = ruby-packetfu
 	pkgdesc = Library for reading and writing packets to an interface or to a libpcap-formatted file
-	pkgver = 1.1.12
+	pkgver = 1.1.13
 	pkgrel = 1
 	url = https://github.com/packetfu/packetfu
 	arch = any
@@ -9,8 +9,9 @@ pkgbase = ruby-packetfu
 	depends = ruby-network_interface
 	depends = ruby-pcaprub
 	options = !emptydirs
-	source = ruby-packetfu-1.1.12.tar.gz::https://github.com/packetfu/packetfu/archive/version-1.1.12.tar.gz
-	sha512sums = c50c12274a476eeb19588dc5e545487319946edc75e808105a511f6de1b91c9c2713348617ffe859c579e43ffb00e6d6b498df93e43f3cf921fc1412977dc394
+	source = ruby-packetfu-1.1.13.tar.gz::https://github.com/packetfu/packetfu/archive/version-1.1.13.tar.gz
+	sha256sums = 323add3c94b869c48c9f20ecacc0d176c9a0d1a47f606ebaa15105f5c9a9d828
+	sha512sums = 2e8f2e05b15cf5e9007384ff55dfa6dad9a8f9d32f86b8d05dd4df930f72bd9fa80a84a5f465c936fca5615f87cd6129a0edad0863ef4eca15c5d970390d62a0
 
 pkgname = ruby-packetfu
 
