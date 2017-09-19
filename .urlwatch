@@ -942,6 +942,9 @@ command: 'git ls-remote --tags https://github.com/smurfix/flask-script'
 ---
 name: 'python-flask-migrate (github)'
 command: 'git ls-remote --tags https://github.com/miguelgrinberg/Flask-Migrate'
+---
+name: 'python-ptrace (github)'
+command: 'git ls-remote --tags https://github.com/haypo/python-ptrace'
 
 #TODO skipfish
 

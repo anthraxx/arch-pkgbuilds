@@ -116,6 +116,7 @@ python-multidict
 python-netaddr
 python-olefile
 python-pcapy
+python-ptrace
 python-qrencode
 python-recommonmark
 python-socketio
