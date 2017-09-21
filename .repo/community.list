@@ -16,6 +16,7 @@ cowfortune
 cowpatty
 diffoscope
 distorm
+elasticsearch
 enjarify
 fasm
 findnewest
@@ -118,7 +119,9 @@ python-olefile
 python-pcapy
 python-ptrace
 python-qrencode
+python-rangehttpserver
 python-recommonmark
+python-resumable-urlretrieve
 python-socketio
 python-tblib
 python-ujson

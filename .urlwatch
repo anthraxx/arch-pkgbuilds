@@ -945,6 +945,12 @@ command: 'git ls-remote --tags https://github.com/miguelgrinberg/Flask-Migrate'
 ---
 name: 'python-ptrace (github)'
 command: 'git ls-remote --tags https://github.com/haypo/python-ptrace'
+---
+name: 'python-rangehttpserver (github)'
+command: 'git ls-remote --tags https://github.com/danvk/RangeHTTPServer'
+---
+name: 'python-resumable-urlretrieve (github)'
+command: 'git ls-remote --tags https://github.com/berdario/resumable-urlretrieve'
 
 #TODO skipfish
 
