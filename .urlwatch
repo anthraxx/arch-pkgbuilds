@@ -951,6 +951,12 @@ command: 'git ls-remote --tags https://github.com/danvk/RangeHTTPServer'
 ---
 name: 'python-resumable-urlretrieve (github)'
 command: 'git ls-remote --tags https://github.com/berdario/resumable-urlretrieve'
+---
+name: 'xmonad (github)'
+command: 'git ls-remote --tags https://github.com/xmonad/xmonad'
+---
+name: 'xmonad-contrib (github)'
+command: 'git ls-remote --tags https://github.com/xmonad/xmonad-contrib'
 
 #TODO skipfish
 
