@@ -338,7 +338,7 @@ name: 'rabbitmqadmin'
 command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-management'
 ---
 name: 'gradle'
-command: "curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sed -r 's|.+>(.+)<.+|\\1|g'|sort"
+command: "curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sed -r 's|.+>(.+)<.+|\\1|g'|grep -v image|sort"
 ---
 name: 'binnavi'
 command: 'git ls-remote --tags https://github.com/google/binnavi'
