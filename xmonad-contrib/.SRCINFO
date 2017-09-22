@@ -1,0 +1,22 @@
+pkgbase = xmonad-contrib
+	pkgdesc = Add-ons for xmonad
+	pkgver = 0.13
+	pkgrel = 5
+	url = http://xmonad.org/
+	arch = i686
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	depends = ghc-libs
+	depends = xmonad
+	depends = sh
+	depends = haskell-x11
+	depends = haskell-x11-xft
+	depends = haskell-utf8-string
+	depends = haskell-random
+	depends = haskell-old-time
+	source = xmonad-contrib-0.13.tar.gz::https://github.com/xmonad/xmonad-contrib/archive/v0.13.tar.gz
+	md5sums = ccda8bbc3dd0c23ec98a1c6668716f59
+
+pkgname = xmonad-contrib
+
