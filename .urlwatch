@@ -957,6 +957,9 @@ command: 'git ls-remote --tags https://github.com/xmonad/xmonad'
 ---
 name: 'xmonad-contrib (github)'
 command: 'git ls-remote --tags https://github.com/xmonad/xmonad-contrib'
+---
+name: 'xmobar (github)'
+command: 'git ls-remote --tags https://github.com/jaor/xmobar'
 
 #TODO skipfish
 
