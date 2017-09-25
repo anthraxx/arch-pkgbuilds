@@ -1,7 +1,7 @@
 pkgbase = pdfcrack
 	pkgdesc = Password recovery tool for PDF-files
 	pkgver = 0.16
-	pkgrel = 1
+	pkgrel = 2
 	url = http://pdfcrack.sourceforge.net/
 	arch = i686
 	arch = x86_64
