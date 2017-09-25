@@ -212,7 +212,7 @@ name: 'ncmpcpp (git)'
 command: 'git ls-remote --tags git://repo.or.cz/ncmpcpp'
 ---
 name: 'ncmpcpp (http)'
-url: 'http://rybczak.net/ncmpcpp/stable/'
+command: 'curl http://rybczak.net/ncmpcpp/stable/ 2>/dev/null|tr \" "\n"|grep tar|grep -v "</a>"|sort'
 ---
 name: 'scanmem'
 command: 'git ls-remote --tags https://github.com/scanmem/scanmem'
@@ -966,6 +966,9 @@ command: 'git ls-remote --tags https://github.com/wiire/pixiewps'
 ---
 name: 'reaver (github)'
 command: 'git ls-remote --tags https://github.com/t6x/reaver-wps-fork-t6x'
+---
+name: 'bully (github)'
+command: 'git ls-remote --tags https://github.com/aanarchyy/bully'
 
 #TODO skipfish
 
