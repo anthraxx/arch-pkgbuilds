@@ -5,10 +5,15 @@ pkgbase = pdfcrack
 	url = http://pdfcrack.sourceforge.net/
 	arch = i686
 	arch = x86_64
-	license = GPL
+	license = GPL2
 	depends = glibc
-	source = http://downloads.sourceforge.net/pdfcrack/pdfcrack-0.16.tar.gz
-	md5sums = 1f7d74146a100c3679462d19feb1e931
+	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.16.tar.gz
+	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.16.tar.gz.asc
+	validpgpkeys = 987AEFC56E70D68440C0D45149241DE2BA57F699
+	sha256sums = 7865b203074ccfd5c612c8ce00c46ffcb4fabaa26154ce9304dfc668c7cb73ef
+	sha256sums = SKIP
+	sha512sums = 460113f28249d1ea1cefc6dac8ff22b33849ccff50f61830144e41eeec47c4b9113845bb955d26757adb0552d8c0dfa43b3f5666c1419afe4063037a1e1c933d
+	sha512sums = SKIP
 
 pkgname = pdfcrack
 
