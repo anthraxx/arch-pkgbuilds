@@ -1,0 +1,17 @@
+pkgbase = bully
+	pkgdesc = Retrieve WPA/WPA2 passphrase from a WPS enabled access point.
+	pkgver = 1.1
+	pkgrel = 1
+	url = https://github.com/aanarchyy/bully
+	arch = i686
+	arch = x86_64
+	license = GPL3
+	makedepends = make
+	depends = libpcap
+	depends = openssl-1.0
+	optdepends = pixiewps
+	source = https://github.com/aanarchyy/bully/archive/1.1.tar.gz
+	sha256sums = aa379d7e73cdf2dc722d05aa8301754207e5a29bb11bab588c393194df17de48
+
+pkgname = bully
+
