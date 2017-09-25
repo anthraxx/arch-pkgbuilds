@@ -963,6 +963,9 @@ command: 'git ls-remote --tags https://github.com/jaor/xmobar'
 ---
 name: 'pixiewps (github)'
 command: 'git ls-remote --tags https://github.com/wiire/pixiewps'
+---
+name: 'reaver (github)'
+command: 'git ls-remote --tags https://github.com/t6x/reaver-wps-fork-t6x'
 
 #TODO skipfish
 
