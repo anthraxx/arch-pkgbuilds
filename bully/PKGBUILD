@@ -1,26 +1,33 @@
-# Maintainer: Ľubomír 'The_K' Kučera <lubomir-dot-kucera-dot-jr-at-gmail-dot-com>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Ľubomír 'The_K' Kučera <lubomir-dot-kucera-dot-jr-at-gmail-dot-com>
 
 pkgname=bully
-pkgver=1.1
+pkgver=1.1.12.g04185d7
 pkgrel=1
-pkgdesc="Retrieve WPA/WPA2 passphrase from a WPS enabled access point."
+_gitcommit=04185d7b1d1a7909f47f23fbd85691401c7fabd7
+pkgdesc='Retrieve WPA/WPA2 passphrase from a WPS enabled access point'
+url='https://github.com/aanarchyy/bully'
 arch=('i686' 'x86_64')
-url="https://github.com/aanarchyy/bully"
 license=('GPL3')
-depends=('libpcap' 'openssl-1.0')
-optdepends=('pixiewps')
-makedepends=('make')
-source=("${url}/archive/${pkgver}.tar.gz")
-sha256sums=('aa379d7e73cdf2dc722d05aa8301754207e5a29bb11bab588c393194df17de48')
+depends=('glibc' 'libpcap' 'aircrack-ng')
+optdepends=('pixiewps: pixiewps support')
+makedepends=('git')
+source=(${pkgname}::"git+https://github.com/aanarchyy/bully#commit=${_gitcommit}")
+sha512sums=('SKIP')
+
+pkgver() {
+  cd ${pkgname}
+  git describe --tags --always|sed 's/^v//;s/-/./g'
+}
 
 build() {
-    cd "${srcdir}/${pkgname}-${pkgver}/src"
-
-    CFLAGS=-I/usr/include/openssl-1.0 LDFLAGS="-l:libssl.so.1.0.0 -l:libcrypto.so.1.0.0" make
+  cd ${pkgname}
+  make -C src
 }
 
 package() {
-    cd "${srcdir}/${pkgname}-${pkgver}/src"
-
-    make install DESTDIR="${pkgdir}" prefix=/usr
+  cd ${pkgname}
+  make -C src install DESTDIR="${pkgdir}" prefix=/usr
 }
+
+# vim: ts=2 sw=2 et:
