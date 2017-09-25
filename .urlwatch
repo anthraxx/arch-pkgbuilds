@@ -969,6 +969,9 @@ command: 'git ls-remote --tags https://github.com/t6x/reaver-wps-fork-t6x'
 ---
 name: 'bully (github)'
 command: 'git ls-remote --tags https://github.com/aanarchyy/bully'
+---
+name: 'pdfcrack (sourceforge)'
+command: "curl 'https://sourceforge.net/projects/pdfcrack/files/pdfcrack/' 2>&1|grep files/pdfcrack|grep href|tr ' ' '\n'|grep pdfcrack|grep -v timeline"
 
 #TODO skipfish
 
