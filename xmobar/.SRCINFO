@@ -1,7 +1,7 @@
 pkgbase = xmobar
-	pkgdesc = A Minimalistic Text Based Status Bar
+	pkgdesc = Minimalistic Text Based Status Bar
 	pkgver = 0.24.5
-	pkgrel = 5
+	pkgrel = 6
 	url = https://hackage.haskell.org/package/xmobar
 	arch = i686
 	arch = x86_64
@@ -12,7 +12,7 @@ pkgbase = xmobar
 	depends = wireless_tools
 	depends = libxrandr
 	depends = libxpm
-	depends = ghc
+	depends = ghc-libs
 	depends = haskell-x11
 	depends = haskell-x11-xft
 	depends = haskell-utf8-string
@@ -24,8 +24,10 @@ pkgbase = xmobar
 	depends = haskell-regex-base
 	depends = haskell-regex-compat
 	depends = haskell-http
+	depends = haskell-dbus
+	depends = haskell-libmpd
 	source = https://hackage.haskell.org/packages/archive/xmobar/0.24.5/xmobar-0.24.5.tar.gz
-	md5sums = 9befdb157b5adedd7150e4e07f0efbde
+	sha512sums = b7f4c8b206640d7d0fc60e326fffdc31f4c00df0ffac86102d40035bc632c808cfa19485073059a9c9a01c45b7a9e0aa2bba8dfa27ce9df79d1247a3a13073d4
 
 pkgname = xmobar
 
