@@ -1,1 +1,27 @@
+pkgbase = haskell-libmpd
+	pkgdesc = Client library for MPD, the Music Player Daemon
+	pkgver = 0.9.0.7
+	pkgrel = 1
+	url = https://hackage.haskell.org/package/libmpd
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = ghc
+	depends = ghc-libs
+	depends = gmp
+	depends = haskell-attoparsec
+	depends = haskell-bytestring
+	depends = haskell-containers
+	depends = haskell-data-default
+	depends = haskell-filepath
+	depends = haskell-mtl
+	depends = haskell-network
+	depends = haskell-text
+	depends = haskell-time
+	depends = haskell-utf8-string
+	depends = haskell-primitive
+	source = https://hackage.haskell.org/packages/archive/libmpd/0.9.0.7/libmpd-0.9.0.7.tar.gz
+	sha512sums = bdac04905cefd9035769c66c5726cc375697afd5e29a8c59e5bfe7b2e3d4ba4bd44f65962f879377f6dd9587771d505da5f47f8e6a36f389ebbcdf5188b3de33
+
+pkgname = haskell-libmpd
 
