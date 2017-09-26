@@ -20,7 +20,7 @@ sha512sums=('b7f4c8b206640d7d0fc60e326fffdc31f4c00df0ffac86102d40035bc632c808cfa
 
 build() {
   cd xmobar-${pkgver}
-  runhaskell Setup configure -O\
+  runhaskell Setup configure -O \
     --enable-shared \
     --prefix=/usr \
     --enable-executable-dynamic \
