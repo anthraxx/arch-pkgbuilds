@@ -1,14 +1,15 @@
 pkgbase = reaver
 	pkgdesc = Brute force attack against Wifi Protected Setup
-	pkgver = 1.6.1
+	pkgver = 1.6.2
 	pkgrel = 1
 	url = https://github.com/t6x/reaver-wps-fork-t6x
 	arch = i686
 	arch = x86_64
 	license = GPL2
+	depends = glibc
 	depends = libpcap
-	source = reaver-1.6.1.tar.gz::https://github.com/t6x/reaver-wps-fork-t6x/archive/v1.6.1.tar.gz
-	sha512sums = 08f2d37f4375896d28eddc0deca2cf3487bd6c0a75c3d647a9adf3828f530d16b2d87a33f2ca4f56049044f7def5de73759b57bf7492d5ccc45548cd0fecf188
+	source = reaver-1.6.2.tar.gz::https://github.com/t6x/reaver-wps-fork-t6x/archive/v1.6.2.tar.gz
+	sha512sums = f7befb46d12b2d5884fae2fe6a504df7b4e87d64a25549513830b2ec20241227d249d22fd163b3fba1315a414756cd310b43eb7ce503ef2cc1ebee37ef298887
 
 pkgname = reaver
 
