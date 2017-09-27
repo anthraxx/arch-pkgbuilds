@@ -978,6 +978,9 @@ command: "curl 'https://sourceforge.net/projects/pdfcrack/files/pdfcrack/' 2>&1|
 ---
 name: 'python-terminaltables (github)'
 command: 'git ls-remote --tags https://github.com/Robpol86/terminaltables'
+---
+name: 'python-colorclass (github)'
+command: 'git ls-remote --tags https://github.com/Robpol86/colorclass'
 
 #TODO skipfish
 
