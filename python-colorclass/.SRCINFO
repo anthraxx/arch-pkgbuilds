@@ -1,0 +1,24 @@
+pkgbase = python-colorclass
+	pkgdesc = Yet another ANSI color text library for colorful worry-free console applications
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = https://github.com/Robpol86/colorclass
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-docopt
+	checkdepends = python2-pytest
+	checkdepends = python2-docopt
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python2
+	makedepends = python2-setuptools
+	source = python-colorclass-2.2.0.tar.gz::https://github.com/Robpol86/colorclass/archive/v2.2.0.tar.gz
+	sha512sums = c627cdf6abdb5a60e9ecc1fb3b669898edc027fdc3f8cde31be2e10402ee308c2067fcd50d1228759e93fc58c521b7fc12e6b259233a17cf99f55cda26279fed
+
+pkgname = python-colorclass
+	depends = python
+
+pkgname = python2-colorclass
+	depends = python2
+
