@@ -981,6 +981,9 @@ command: 'git ls-remote --tags https://github.com/Robpol86/terminaltables'
 ---
 name: 'python-colorclass (github)'
 command: 'git ls-remote --tags https://github.com/Robpol86/colorclass'
+---
+name: 'python-bluepy (github)'
+command: 'git ls-remote --tags https://github.com/IanHarvey/bluepy'
 
 #TODO skipfish
 

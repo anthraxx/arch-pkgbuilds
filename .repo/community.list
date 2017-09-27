@@ -105,6 +105,7 @@ python-async-timeout
 python-axolotl
 python-axolotl-curve25519
 python-blist
+python-bluepy
 python-colorclass
 python-commonmark
 python-distro
