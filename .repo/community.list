@@ -129,6 +129,7 @@ python-recommonmark
 python-resumable-urlretrieve
 python-socketio
 python-tblib
+python-terminaltables
 python-ujson
 python-wtforms
 python-yara
