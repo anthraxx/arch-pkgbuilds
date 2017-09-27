@@ -1,0 +1,32 @@
+pkgbase = python-bluepy
+	pkgdesc = Python module for interfacing with Bluetooth LE devices through Bluez
+	pkgver = 1.1.2
+	pkgrel = 1
+	url = https://github.com/IanHarvey/bluepy
+	arch = i686
+	arch = x86_64
+	license = GPL2
+	makedepends = bluez
+	makedepends = glib2
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python2
+	makedepends = python2-setuptools
+	makedepends = python2-sphinx
+	options = !makeflags
+	source = python-bluepy-1.1.2.tar.gz::https://github.com/IanHarvey/bluepy/archive/v/1.1.2.tar.gz
+	sha512sums = 71fb5683e6d49582497ea87cf5dca586115662398465ab496ed7952968317435dbf2fc1d17b43577c6fba0de6e2ef47b618cab98b7076a97a45cba81a8894226
+
+pkgname = python-bluepy
+	depends = python
+	depends = python-setuptools
+	depends = bluez
+	depends = glib2
+
+pkgname = python2-bluepy
+	depends = python2
+	depends = python2-setuptools
+	depends = bluez
+	depends = glib2
+
