@@ -134,6 +134,7 @@ python-tblib
 python-terminaltables
 python-ujson
 python-wtforms
+python-yaml
 python-yara
 python-yarl
 rabbitmq
