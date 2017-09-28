@@ -1,0 +1,23 @@
+pkgbase = python-yaml
+	pkgdesc = Python bindings for YAML, using fast libYAML library
+	pkgver = 3.12
+	pkgrel = 2
+	url = http://pyyaml.org
+	install = python-yaml.install
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = python
+	makedepends = python2
+	makedepends = libyaml
+	source = http://pyyaml.org/download/pyyaml/PyYAML-3.12.tar.gz
+	md5sums = 4c129761b661d181ebf7ff4eb2d79950
+
+pkgname = python2-yaml
+	depends = python2
+	depends = libyaml
+
+pkgname = python-yaml
+	depends = python
+	depends = libyaml
+
