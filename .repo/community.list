@@ -159,6 +159,7 @@ ruby-diff-lcs
 ruby-em-proxy
 ruby-eventmachine
 ruby-hitimes
+ruby-mini_portile2
 ruby-net-dns
 ruby-network_interface
 ruby-nio4r

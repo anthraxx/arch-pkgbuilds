@@ -987,6 +987,9 @@ command: 'git ls-remote --tags https://github.com/IanHarvey/bluepy'
 ---
 name: 'python-yaml (github)'
 command: 'git ls-remote --tags https://github.com/yaml/pyyaml'
+---
+name: 'ruby-mini_portile2 (github)'
+command: 'git ls-remote --tags https://github.com/flavorjones/mini_portile'
 
 #TODO skipfish
 
