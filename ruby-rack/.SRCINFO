@@ -1,0 +1,15 @@
+pkgbase = ruby-rack
+	pkgdesc = Minimal, modular, and adaptable interface for developing web applications
+	pkgver = 2.0.3
+	pkgrel = 1
+	url = https://rack.github.io/
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-rack-2.0.3.tar.gz::https://github.com/rack/rack/archive/2.0.3.tar.gz
+	sha256sums = 7d9262217c7201e1d3095534009d909ca1c9310ee361c9b586a90ff258c67689
+	sha512sums = ff8020860c9e3af82a960fc5e718bee74b39036e1a5df6fcc3f15d1a5d77119938b228208db465b0744aedb2c5f004c69ccd5765233d4697b5466191b9381b91
+
+pkgname = ruby-rack
+
