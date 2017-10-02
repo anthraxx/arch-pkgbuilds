@@ -170,6 +170,7 @@ ruby-packetfu
 ruby-paint
 ruby-pcaprub
 ruby-pg
+ruby-rack
 ruby-rainbow
 ruby-rspec
 ruby-rspec-core

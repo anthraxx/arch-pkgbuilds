@@ -999,6 +999,9 @@ command: 'git ls-remote --tags https://github.com/jkraemer/mail-gpg'
 ---
 name: 'ruby-thor (github)'
 command: 'git ls-remote --tags https://github.com/erikhuda/thor'
+---
+name: 'ruby-rack (github)'
+command: 'git ls-remote --tags https://github.com/rack/rack'
 
 #TODO skipfish
 
