@@ -1,15 +1,15 @@
-pkgbase = ruby-mercenary
-	pkgdesc = Easier way to build your command-line scripts
-	pkgver = 0.3.6
+pkgbase = ruby-titlecase
+	pkgdesc = Ruby version of John Gruber's TitleCase.pl
+	pkgver = 0.1.1+13+1d6b4f7
 	pkgrel = 1
-	url = https://github.com/jekyll/mercenary
+	url = https://github.com/samsouder/titlecase
 	arch = any
 	license = MIT
+	makedepends = git
 	depends = ruby
 	options = !emptydirs
-	source = ruby-mercenary-0.3.6.tar.gz::https://github.com/jekyll/mercenary/archive/v0.3.6.tar.gz
-	sha256sums = 61c10e3a54c526b9a6f41af27ec6ca540d37d34a5ad413d615d3342dcaaa518c
-	sha512sums = d8759a8f27611b6bc54202e51f06a557fe7b289a262bf692076a3b3d347d45cd65e2a6a9d080e331714ef8df50b200f56b3caab5d4bc32804e8cb5bbe43ebc2e
+	source = ruby-titlecase::git+https://github.com/samsouder/titlecase#commit=1d6b4f760ae753440db4e7ccf0e0ddba621bf25f
+	sha512sums = SKIP
 
-pkgname = ruby-mercenary
+pkgname = ruby-titlecase
 
