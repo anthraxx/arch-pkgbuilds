@@ -1008,6 +1008,9 @@ command: 'git ls-remote --tags https://github.com/jekyll/mercenary'
 ---
 name: 'ruby-titlecase (github)'
 command: 'git ls-remote https://github.com/samsouder/titlecase'
+---
+name: 'ruby-safe_yaml (github)'
+command: 'git ls-remote --tags https://github.com/dtao/safe_yaml'
 
 #TODO skipfish
 

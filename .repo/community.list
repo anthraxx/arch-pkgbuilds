@@ -179,6 +179,7 @@ ruby-rspec-expectations
 ruby-rspec-mocks
 ruby-rspec-support
 ruby-rubydns
+ruby-safe_yaml
 ruby-thor
 ruby-timers
 ruby-titlecase
