@@ -1002,6 +1002,9 @@ command: 'git ls-remote --tags https://github.com/erikhuda/thor'
 ---
 name: 'ruby-rack (github)'
 command: 'git ls-remote --tags https://github.com/rack/rack'
+---
+name: 'ruby-mercenary (github)'
+command: 'git ls-remote --tags https://github.com/jekyll/mercenary'
 
 #TODO skipfish
 
