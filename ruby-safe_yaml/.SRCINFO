@@ -1,0 +1,15 @@
+pkgbase = ruby-safe_yaml
+	pkgdesc = Parse YAML safely
+	pkgver = 1.0.4
+	pkgrel = 2
+	url = https://github.com/dtao/safe_yaml
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-safe_yaml-1.0.4.tar.gz::https://github.com/dtao/safe_yaml/archive/1.0.4.tar.gz
+	sha256sums = fb6939f6780680716a7c1eeb4ddf843d03a5951539fcdccce5901c3eb0a525c9
+	sha512sums = 88f498443e556117090cae219a5c1c853b4ab3fb1248e3f7e9d7d3df7d016a894add50b7d713d44e62a86bdce3c98190b6930a22bba85b32d5519dafec5cdb1f
+
+pkgname = ruby-safe_yaml
+
