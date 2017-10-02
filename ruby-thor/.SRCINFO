@@ -1,0 +1,15 @@
+pkgbase = ruby-thor
+	pkgdesc = Toolkit for building powerful command-line interfaces
+	pkgver = 0.20.0
+	pkgrel = 1
+	url = https://github.com/erikhuda/thor
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-thor-0.20.0.tar.gz::https://github.com/erikhuda/thor/archive/v0.20.0.tar.gz
+	sha256sums = 5fb1c7b6184be26bcfa2dbafa5ae6624fb5e3970fa8210a208c7f4d803c681f3
+	sha512sums = aa5344c94cad7c33dd0582409dbcf9bd109bf97b37131357a4cc8a66317acf8781460e8fe5532b301a74521010be59bb34ac1c68bc01ad3140bfe73fedc2a451
+
+pkgname = ruby-thor
+
