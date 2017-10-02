@@ -599,7 +599,7 @@ name: 'ruby-eventmachine'
 command: 'git ls-remote --tags https://github.com/eventmachine/eventmachine'
 ---
 name: 'LinSSID'
-command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files"
+command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files|grep -v stats"
 ---
 name: 'john'
 command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep tar"
