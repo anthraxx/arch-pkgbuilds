@@ -177,6 +177,7 @@ ruby-rspec-expectations
 ruby-rspec-mocks
 ruby-rspec-support
 ruby-rubydns
+ruby-thor
 ruby-timers
 ruby-trollop
 rxvt-unicode
