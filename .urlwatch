@@ -993,6 +993,9 @@ command: 'git ls-remote --tags https://github.com/flavorjones/mini_portile'
 ---
 name: 'ruby-gpgme (github)'
 command: 'git ls-remote --tags https://github.com/ueno/ruby-gpgme'
+---
+name: 'ruby-mail-gpg (github)'
+command: 'git ls-remote --tags https://github.com/jkraemer/mail-gpg'
 
 #TODO skipfish
 

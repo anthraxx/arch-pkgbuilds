@@ -161,6 +161,7 @@ ruby-em-proxy
 ruby-eventmachine
 ruby-gpgme
 ruby-hitimes
+ruby-mail-gpg
 ruby-mini_portile2
 ruby-net-dns
 ruby-network_interface
