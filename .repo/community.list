@@ -181,6 +181,7 @@ ruby-rspec-support
 ruby-rubydns
 ruby-thor
 ruby-timers
+ruby-titlecase
 ruby-trollop
 rxvt-unicode
 scanmem
