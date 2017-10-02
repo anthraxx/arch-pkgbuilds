@@ -1,0 +1,19 @@
+pkgbase = ruby-mail-gpg
+	pkgdesc = GPG/MIME extension for the Ruby Mail Library
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/jkraemer/mail-gpg
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-gpgme
+	depends = ruby-mail
+	options = !emptydirs
+	source = ruby-mail-gpg-0.3.1.tar.gz::https://github.com/jkraemer/mail-gpg/archive/v0.3.1.tar.gz
+	source = ruby-mail-gpg-0.3.1.tar.gz.asc::https://github.com/jkraemer/mail-gpg/releases/download/v0.3.1/mail-gpg-0.3.1.tar.gz.asc
+	validpgpkeys = C3880ACE6187419B177C472E08625A14CE3CDDAA
+	sha512sums = 0b849ff6f4280150a122b9676f596c85d88c276949c505ecce4b6d346eebeb0d6ef3a71c19bbe0054f0df36ed32d7a28802bea961007ebb6ce78cd1c78bfd91f
+	sha512sums = SKIP
+
+pkgname = ruby-mail-gpg
+
