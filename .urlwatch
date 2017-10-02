@@ -1011,6 +1011,9 @@ command: 'git ls-remote https://github.com/samsouder/titlecase'
 ---
 name: 'ruby-safe_yaml (github)'
 command: 'git ls-remote --tags https://github.com/dtao/safe_yaml'
+---
+name: 'ruby-colorator (github)'
+command: 'git ls-remote --tags https://github.com/octopress/colorator'
 
 #TODO skipfish
 
