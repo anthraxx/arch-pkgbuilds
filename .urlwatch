@@ -1014,6 +1014,9 @@ command: 'git ls-remote --tags https://github.com/dtao/safe_yaml'
 ---
 name: 'ruby-colorator (github)'
 command: 'git ls-remote --tags https://github.com/octopress/colorator'
+---
+name: 'signify (github)'
+command: 'git ls-remote --tags https://github.com/aperezdc/signify'
 
 #TODO skipfish
 
