@@ -161,6 +161,7 @@ ruby-colorize
 ruby-diff-lcs
 ruby-em-proxy
 ruby-eventmachine
+ruby-forwardable-extended
 ruby-gpgme
 ruby-hitimes
 ruby-kramdown
