@@ -1026,6 +1026,12 @@ command: 'git ls-remote --tags https://github.com/jneen/rouge'
 ---
 name: 'ruby-tilt (github)'
 command: 'git ls-remote --tags https://github.com/rtomayko/tilt'
+---
+name: 'ruby-public_suffix (github)'
+command: 'git ls-remote --tags https://github.com/weppos/publicsuffix-ruby'
+---
+name: 'ruby-addressable (github)'
+command: 'git ls-remote --tags https://github.com/sporkmonger/addressable'
 
 #TODO skipfish
 
