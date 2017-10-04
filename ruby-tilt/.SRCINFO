@@ -1,0 +1,16 @@
+pkgbase = ruby-tilt
+	pkgdesc = Generic interface to multiple Ruby template engines
+	pkgver = 2.0.8
+	pkgrel = 1
+	url = https://github.com/rtomayko/tilt
+	arch = any
+	license = MIT
+	makedepends = ruby-ronn
+	depends = ruby
+	options = !emptydirs
+	source = ruby-tilt-2.0.8.tar.gz::https://github.com/rtomayko/tilt/archive/v2.0.8.tar.gz
+	sha256sums = 025b32ea25c5650bf4bcfb89d1e075b11c28793ff812819467762834d1970e4c
+	sha512sums = 451d734226cdb06b6f5c3a0a41e5e0d7f5bcb390eeed0bf4b60e5419cfa663a067b57ee241027f88bd99a6b3582340d64a9bb7a795775edf41941f95e463608b
+
+pkgname = ruby-tilt
+
