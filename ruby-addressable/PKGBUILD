@@ -1,0 +1,24 @@
+# $Id: PKGBUILD 253341 2017-08-25 07:19:56Z felixonmars $
+# Maintainer: Felix Yan <felixonmars@archlinux.org>
+# Contributor: Mario Finelli <mario at finel dot li>
+# Contributor: Artem Vorotnikov <artem at vorotnikov dot me>
+
+pkgname=ruby-addressable
+pkgver=2.5.2
+pkgrel=1
+pkgdesc='URI Implementation'
+arch=('any')
+url='https://github.com/sporkmonger/addressable'
+license=('Apache')
+depends=('ruby' 'ruby-public_suffix')
+options=('!emptydirs')
+source=("https://rubygems.org/downloads/addressable-$pkgver.gem")
+noextract=("addressable-$pkgver.gem")
+sha512sums=('ddd5aeb4b241efa897a636fd85bd227bd5c6a8ae56129b6bbbdfaad85cdbb74e3d0db4bb6693f7df148b66f68ca1f557ac17a1fb0ea7698d25d883ab0b690bc4')
+
+package() {
+  local _gemdir="$(ruby -e'puts Gem.default_dir')"
+  gem install --ignore-dependencies --no-user-install -i "$pkgdir/$_gemdir" -n "$pkgdir"/usr/bin addressable-$pkgver.gem
+  rm "$pkgdir/$_gemdir"/cache/addressable-$pkgver.gem
+  install -D -m644 "$pkgdir/$_gemdir"/gems/addressable-$pkgver/LICENSE.txt "$pkgdir"/usr/share/licenses/$pkgname/LICENSE.txt
+}
