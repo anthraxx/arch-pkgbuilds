@@ -1,0 +1,15 @@
+pkgbase = ruby-kramdown
+	pkgdesc = Fast, pure Ruby Markdown superset converter, using a strict syntax definition
+	pkgver = 1.15.0
+	pkgrel = 1
+	url = https://kramdown.gettalong.org/
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-kramdown-1.15.0.tar.gz::https://github.com/gettalong/kramdown/archive/REL_1_15_0.tar.gz
+	sha256sums = e08042f0dc924cd099ab13b257b107d5b0641702d1564fd3269f98d249924ad6
+	sha512sums = 3913163a967444ebc54298ac439d6473b9704f6a1b98a2f48401402a6122ef4641cd5fc89cbfea1eea450685da10589d8864e8642d498cf076c9a2fa100abeff
+
+pkgname = ruby-kramdown
+
