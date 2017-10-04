@@ -175,6 +175,7 @@ ruby-pcaprub
 ruby-pg
 ruby-rack
 ruby-rainbow
+ruby-rouge
 ruby-rspec
 ruby-rspec-core
 ruby-rspec-expectations
