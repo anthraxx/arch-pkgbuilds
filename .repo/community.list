@@ -162,6 +162,7 @@ ruby-em-proxy
 ruby-eventmachine
 ruby-gpgme
 ruby-hitimes
+ruby-kramdown
 ruby-mail-gpg
 ruby-mercenary
 ruby-mini_portile2

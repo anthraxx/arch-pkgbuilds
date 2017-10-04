@@ -1017,6 +1017,9 @@ command: 'git ls-remote --tags https://github.com/octopress/colorator'
 ---
 name: 'signify (github)'
 command: 'git ls-remote --tags https://github.com/aperezdc/signify'
+---
+name: 'ruby-kramdown (github)'
+command: 'git ls-remote --tags https://github.com/gettalong/kramdown'
 
 #TODO skipfish
 
