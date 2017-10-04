@@ -1023,6 +1023,9 @@ command: 'git ls-remote --tags https://github.com/gettalong/kramdown'
 ---
 name: 'ruby-rouge (github)'
 command: 'git ls-remote --tags https://github.com/jneen/rouge'
+---
+name: 'ruby-tilt (github)'
+command: 'git ls-remote --tags https://github.com/rtomayko/tilt'
 
 #TODO skipfish
 

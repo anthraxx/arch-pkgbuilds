@@ -184,6 +184,7 @@ ruby-rspec-support
 ruby-rubydns
 ruby-safe_yaml
 ruby-thor
+ruby-tilt
 ruby-timers
 ruby-titlecase
 ruby-trollop
