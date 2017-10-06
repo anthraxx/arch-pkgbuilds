@@ -6,6 +6,7 @@ jsoncpp
 krb5
 libpqxx
 libpsl
+licenses
 memcached
 meson
 mplayer
