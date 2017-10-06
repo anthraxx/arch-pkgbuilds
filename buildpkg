@@ -112,6 +112,13 @@ while [[ ${#} -gt 0 ]]; do
 			PUBLISH_PACKAGES="stagingpkg -a x86_64"
 			PUBLISH_COMMUNITY="community-stagingpkg -a x86_64"
 		;;
+		--core)
+			EXTRA_i686=1
+			EXTRA_x86_64=1
+			BUILD_MODES="${BUILD_MODES} extra-i686-build extra-x86_64-build"
+			PUBLISH_PACKAGES="corepkg"
+			PUBLISH_COMMUNITY="communitypkg"
+		;;
 		--extra)
 			EXTRA_i686=1
 			EXTRA_x86_64=1
