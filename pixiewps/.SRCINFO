@@ -1,17 +1,16 @@
 pkgbase = pixiewps
 	pkgdesc = Offline bruteforce of the WPS pin exploiting the low or non-existing entropy of some APs
-	pkgver = 1.2.2.19.gf723d50
+	pkgver = 1.3
 	pkgrel = 1
 	url = https://github.com/wiire/pixiewps
 	arch = i686
 	arch = x86_64
 	license = GPL3
-	makedepends = git
 	depends = glibc
 	optdepends = reaver: authentication session key support
 	optdepends = bully: authentication session key support
-	source = pixiewps::git+https://github.com/wiire/pixiewps#commit=f723d5017f304b727981560396044d7d11ec1080
-	sha512sums = SKIP
+	source = pixiewps-1.3.tar.gz::https://github.com/wiire-a/pixiewps/archive/v1.3.tar.gz
+	sha512sums = 535e1b5de0e6db8c23062fd867236e710778a5d3f4bfcf20eb24476cd51b20e1024f889558db65e200611970d5f20d53d334cfb6d0b552d5b4ae0270dfc2bbf8
 
 pkgname = pixiewps
 
