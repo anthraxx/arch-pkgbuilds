@@ -1035,6 +1035,9 @@ command: 'git ls-remote --tags https://github.com/sporkmonger/addressable'
 ---
 name: 'ruby-forwardable-extended (github)'
 command: 'git ls-remote --tags https://github.com/envygeeks/forwardable-extended'
+---
+name: 'yrd (github)'
+command: 'git ls-remote --tags https://github.com/kpcyrd/yrd'
 
 #TODO skipfish
 
