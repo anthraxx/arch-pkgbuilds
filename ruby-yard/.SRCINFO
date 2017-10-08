@@ -1,8 +1,8 @@
 pkgbase = ruby-yard
 	pkgdesc = YARD is a Ruby Documentation tool. The Y stands for "Yay!"
 	pkgver = 0.9.9
-	pkgrel = 2
-	url = https://github.com/lsegal/yard
+	pkgrel = 3
+	url = https://yardoc.org/
 	arch = any
 	license = MIT
 	depends = ruby
