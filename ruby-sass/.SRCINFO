@@ -1,0 +1,18 @@
+pkgbase = ruby-sass
+	pkgdesc = Sass makes CSS fun again
+	pkgver = 3.5.2
+	pkgrel = 1
+	url = http://sass-lang.com/
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-sass-listen
+	depends = ruby-yard
+	depends = ruby-maruku
+	options = !emptydirs
+	source = ruby-sass-3.5.2.tar.gz::https://github.com/sass/sass/archive/3.5.2.tar.gz
+	sha256sums = 0a4032fa16b1ce617149c07e4cab3717c7bd13915c94717ebd912cc626e7174e
+	sha512sums = 98d8dbb2ac7f1ab9a09c130ceb091c1a3853da618cb4eac68fbb7420f2710ddd4754306c8430a89fed044ce52c99f1632ed181c77abfa4e589fc0f6e5205be56
+
+pkgname = ruby-sass
+
