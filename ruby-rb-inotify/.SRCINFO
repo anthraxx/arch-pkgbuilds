@@ -1,0 +1,16 @@
+pkgbase = ruby-rb-inotify
+	pkgdesc = Thorough inotify wrapper for Ruby using FFI
+	pkgver = 0.9.10
+	pkgrel = 1
+	url = https://github.com/guard/rb-inotify
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-ffi
+	options = !emptydirs
+	source = ruby-rb-inotify-0.9.10.tar.gz::https://github.com/guard/rb-inotify/archive/v0.9.10.tar.gz
+	sha256sums = b7de45be4b976515848bd67282445dfb10437c2bd8ef9abd2e5ac1b312c2ce32
+	sha512sums = 9c935f89dc088b0f72834bf86c42378d8acc401a5e485e0f7823523be4110e4b23aa19986aed18262bb3233e8e6971b4f532a29ea7a039d797fe93dd52968eab
+
+pkgname = ruby-rb-inotify
+
