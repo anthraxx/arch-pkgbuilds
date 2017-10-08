@@ -173,6 +173,7 @@ ruby-network_interface
 ruby-nio4r
 ruby-packetfu
 ruby-paint
+ruby-pathutil
 ruby-pcaprub
 ruby-pg
 ruby-public_suffix

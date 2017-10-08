@@ -1038,6 +1038,9 @@ command: 'git ls-remote --tags https://github.com/envygeeks/forwardable-extended
 ---
 name: 'yrd (github)'
 command: 'git ls-remote --tags https://github.com/kpcyrd/yrd'
+---
+name: 'ruby-pathutil (github)'
+command: 'git ls-remote --tags https://github.com/envygeeks/pathutil'
 
 #TODO skipfish
 
