@@ -166,6 +166,7 @@ ruby-gpgme
 ruby-hitimes
 ruby-kramdown
 ruby-mail-gpg
+ruby-maruku
 ruby-mercenary
 ruby-mini_portile2
 ruby-net-dns

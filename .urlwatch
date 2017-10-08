@@ -1041,6 +1041,9 @@ command: 'git ls-remote --tags https://github.com/kpcyrd/yrd'
 ---
 name: 'ruby-pathutil (github)'
 command: 'git ls-remote --tags https://github.com/envygeeks/pathutil'
+---
+name: 'ruby-maruku (github)'
+command: 'git ls-remote --tags https://github.com/bhollis/maruku'
 
 #TODO skipfish
 
