@@ -1,0 +1,15 @@
+pkgbase = ruby-yard
+	pkgdesc = YARD is a Ruby Documentation tool. The Y stands for "Yay!"
+	pkgver = 0.9.9
+	pkgrel = 2
+	url = https://github.com/lsegal/yard
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-yard-0.9.9.tar.gz::https://github.com/lsegal/yard/archive/v0.9.9.tar.gz
+	sha256sums = e75485e980cfe3ae1de00541357c7b69851e1a3730b2b96462e433cd7358cd2c
+	sha512sums = 1ca970c9a1207fd12855659b98f3fc233bad76cc6afb8a7524d98c67b9190d0469173ab911cf813b6e7817e6c95da518fe4e285b72a48e09fd8ab12db84dfc98
+
+pkgname = ruby-yard
+
