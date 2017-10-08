@@ -1047,6 +1047,9 @@ command: 'git ls-remote --tags https://github.com/bhollis/maruku'
 ---
 name: 'ruby-yard (github)'
 command: 'git ls-remote --tags https://github.com/lsegal/yard'
+---
+name: 'ruby-sass (github)'
+command: 'git ls-remote --tags https://github.com/sass/sass'
 
 #TODO skipfish
 
