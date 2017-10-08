@@ -1,11 +1,12 @@
 pkgbase = ruby-sass-listen
 	pkgdesc = Listens to file modifications and notifies you about the changes
 	pkgver = 4.0.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/sass/listen
 	arch = any
 	license = MIT
 	depends = ruby
+	depends = ruby-rb-inotify
 	options = !emptydirs
 	source = ruby-sass-listen-4.0.0.tar.gz::https://github.com/sass/listen/archive/v4.0.0.tar.gz
 	sha256sums = 5b09daf811df4ae3d8657cf919976b9795d275a3792ab08bdf3b1cccaecd3f4b
