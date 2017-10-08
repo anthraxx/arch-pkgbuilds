@@ -190,6 +190,7 @@ ruby-rspec-support
 ruby-rubydns
 ruby-safe_yaml
 ruby-sass
+ruby-sass-listen
 ruby-thor
 ruby-tilt
 ruby-timers
