@@ -180,6 +180,7 @@ ruby-pg
 ruby-public_suffix
 ruby-rack
 ruby-rainbow
+ruby-rb-inotify
 ruby-rouge
 ruby-rspec
 ruby-rspec-core

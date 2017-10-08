@@ -1050,6 +1050,9 @@ command: 'git ls-remote --tags https://github.com/lsegal/yard'
 ---
 name: 'ruby-sass (github)'
 command: 'git ls-remote --tags https://github.com/sass/sass'
+---
+name: 'ruby-rb-inotify (github)'
+command: 'git ls-remote --tags https://github.com/nex3/rb-inotify'
 
 #TODO skipfish
 
