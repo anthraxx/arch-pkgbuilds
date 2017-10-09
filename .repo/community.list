@@ -193,6 +193,7 @@ ruby-rubydns
 ruby-safe_yaml
 ruby-sass
 ruby-sass-listen
+ruby-thin
 ruby-thor
 ruby-tilt
 ruby-timers

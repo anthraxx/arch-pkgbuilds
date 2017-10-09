@@ -1062,6 +1062,9 @@ command: 'git ls-remote --tags https://github.com/aio-libs/pytest-aiohttp'
 ---
 name: 'ruby-daemons (github)'
 command: 'git ls-remote --tags https://github.com/thuehlinger/daemons'
+---
+name: 'ruby-thin (github)'
+command: 'git ls-remote --tags https://github.com/macournoyer/thin'
 
 #TODO skipfish
 
