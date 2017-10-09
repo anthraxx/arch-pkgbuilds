@@ -1,0 +1,20 @@
+pkgbase = ruby-thin
+	pkgdesc = Thin and fast Ruby web server
+	pkgver = 1.7.2
+	pkgrel = 1
+	url = http://code.macournoyer.com/thin/
+	arch = i686
+	arch = x86_64
+	license = RUBY
+	depends = glibc
+	depends = ruby
+	depends = ruby-rack
+	depends = ruby-eventmachine
+	depends = ruby-daemons
+	options = !emptydirs
+	source = ruby-thin-1.7.2.tar.gz::https://github.com/macournoyer/thin/archive/v1.7.2.tar.gz
+	sha256sums = 667a78697331b917ad0f14974537c000c6e06d67a0d9b2a6592791adfed2c48f
+	sha512sums = 2c3c831eed4444d42fc88fc2c46e557284748b6b6bf331d6fd827073918cc3a869e5a60bf7db19ba82add28e07c8a8c92dac609a56cda82b41b37ddfb247e7bf
+
+pkgname = ruby-thin
+
