@@ -1,0 +1,15 @@
+pkgbase = ruby-daemons
+	pkgdesc = Easy way to wrap existing ruby scripts to be run as a daemon
+	pkgver = 1.2.4
+	pkgrel = 1
+	url = https://github.com/thuehlinger/daemons
+	arch = any
+	license = MIT
+	depends = ruby
+	options = !emptydirs
+	source = ruby-daemons-1.2.4.tar.gz::https://github.com/thuehlinger/daemons/archive/v1.2.4.tar.gz
+	sha256sums = 34e28ad4f5b8fa402f7f2783949024da09575dcde6b8110242ca2048ad932608
+	sha512sums = 9b6f0202ad87704b441f150ae5c3f5086861ba220069b6e7219714b62c36711889fdd094cfc1de907e9fb4528e5f6bb42b5421b9bcc4ec286648349e78da280f
+
+pkgname = ruby-daemons
+
