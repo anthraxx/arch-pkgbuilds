@@ -166,6 +166,7 @@ ruby-eventmachine
 ruby-forwardable-extended
 ruby-gpgme
 ruby-hitimes
+ruby-jekyll-sass-converter
 ruby-kramdown
 ruby-mail-gpg
 ruby-maruku
