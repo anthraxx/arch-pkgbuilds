@@ -1,7 +1,7 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
-	pkgver = 0.42.1
-	pkgrel = 2
+	pkgver = 0.43.0
+	pkgrel = 1
 	url = http://mesonbuild.com/
 	arch = any
 	license = Apache
@@ -25,8 +25,7 @@ pkgbase = meson
 	checkdepends = gobject-introspection
 	checkdepends = itstool
 	checkdepends = gtk3
-	checkdepends = valgrind
-	checkdepends = java-environment>=8
+	checkdepends = java-environment=8
 	checkdepends = gtk-doc
 	checkdepends = llvm
 	checkdepends = clang
@@ -36,16 +35,19 @@ pkgbase = meson
 	checkdepends = openmpi
 	checkdepends = openssh
 	checkdepends = mercurial
+	checkdepends = gtk-sharp-2
 	makedepends = python-setuptools
 	depends = python
 	depends = ninja
-	source = https://github.com/mesonbuild/meson/releases/download/0.42.1/meson-0.42.1.tar.gz
-	source = https://github.com/mesonbuild/meson/releases/download/0.42.1/meson-0.42.1.tar.gz.asc
+	source = https://github.com/mesonbuild/meson/releases/download/0.43.0/meson-0.43.0.tar.gz
+	source = https://github.com/mesonbuild/meson/releases/download/0.43.0/meson-0.43.0.tar.gz.asc
+	source = fix-tests.diff
 	source = arch-meson
 	validpgpkeys = 95181F4EED14FDF4E41B518D3BF4693BFEEB9428
-	sha512sums = f9982a19160c51c53741a65a48432896799be90c2d99941a45a14c3fcc14df3469808b75d905e1ac81221b057400913e7ae0f7d24e6865d8f1e664e1686aecb4
+	sha512sums = e149758fa6ad4b2d3643bcda176577633f2e50e58f38074c1a17f1712d554bac0fbabf26fe7eef15954dc51630b1f923b15cfe9040a025cf61b5666098197d16
 	sha512sums = SKIP
-	sha512sums = 0445d5d913a3962db94c63bdc7ed2afad064aa0184f73382887300f77c9c0fb39fcd7a26c3108cbf7a6988e3ed064fd2295c0d7e6e90aae420a80773ce6399ec
+	sha512sums = 7ea1f02adf79e4fde5d002956852d9b976b36386be8d78a3845292e8195a36d462db20a9c708e332e0d3b261a7abf9d05f5d034aab96ede58229639f3620ec91
+	sha512sums = 82557891b9424b1597f1200bfacfae2f357e94bf81d53fc3fe9b2b641098566513dce6eeaa8882e9892c7cdec796650e5298ed25af61f35f9d02d9b4b9ca39c8
 
 pkgname = meson
 
