@@ -126,6 +126,7 @@ python-netaddr
 python-olefile
 python-pcapy
 python-ptrace
+python-pytest-aiohttp
 python-qrencode
 python-rangehttpserver
 python-recommonmark
@@ -158,6 +159,7 @@ ruby-celluloid-pool
 ruby-celluloid-supervision
 ruby-colorator
 ruby-colorize
+ruby-daemons
 ruby-diff-lcs
 ruby-em-proxy
 ruby-eventmachine
