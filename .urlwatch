@@ -1068,6 +1068,9 @@ command: 'git ls-remote --tags https://github.com/macournoyer/thin'
 ---
 name: 'ruby-jekyll-sass-converter (github)'
 command: 'git ls-remote --tags https://github.com/jekyll/jekyll-sass-converter'
+---
+name: 'ruby-sinatra ruby-rack-protection (github)'
+command: 'git ls-remote --tags https://github.com/sinatra/sinatra'
 
 #TODO skipfish
 

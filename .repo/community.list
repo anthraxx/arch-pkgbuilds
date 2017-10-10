@@ -182,6 +182,7 @@ ruby-pcaprub
 ruby-pg
 ruby-public_suffix
 ruby-rack
+ruby-rack-protection
 ruby-rainbow
 ruby-rb-inotify
 ruby-rouge
