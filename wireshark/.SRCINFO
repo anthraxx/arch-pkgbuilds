@@ -1,6 +1,6 @@
 pkgbase = wireshark
-	pkgver = 2.4.1
-	pkgrel = 2
+	pkgver = 2.4.2
+	pkgrel = 1
 	url = https://www.wireshark.org/
 	arch = i686
 	arch = x86_64
@@ -21,9 +21,9 @@ pkgbase = wireshark
 	makedepends = desktop-file-utils
 	makedepends = hicolor-icon-theme
 	options = !emptydirs
-	source = https://www.wireshark.org/download/src/wireshark-2.4.1.tar.xz
+	source = https://www.wireshark.org/download/src/wireshark-2.4.2.tar.xz
 	source = do_not_use_svn_version.patch
-	sha256sums = 02ddbcf9b10f9dfa1e36eec00fe00cb5b5ce8e07203843baf056ac7909911fcd
+	sha256sums = d1acb24735fd35e18e9b7a0555ec58277c2b87da45a19ebeb8087c3dda55f47d
 	sha256sums = 3981bb46f592e319f9c679c5e215ae0af828044a3b64d49d2cf0305ecacf4691
 
 pkgname = wireshark-cli
