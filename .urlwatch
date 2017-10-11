@@ -883,7 +883,7 @@ command: 'git ls-remote --tags https://github.com/elastic/kibana'
 name: 'logstash (github)'
 command: 'git ls-remote --tags https://github.com/elastic/logstash'
 ---
-name: 'elasticsearch (github)'
+name: 'elasticsearch (git)'
 command: 'git ls-remote --tags https://github.com/elastic/elasticsearch'
 ---
 name: 'vim (github)'
