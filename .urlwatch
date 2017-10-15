@@ -1074,6 +1074,9 @@ command: 'git ls-remote --tags https://github.com/jekyll/jekyll-sass-converter'
 ---
 name: 'ruby-sinatra ruby-rack-protection (github)'
 command: 'git ls-remote --tags https://github.com/sinatra/sinatra'
+---
+name: 'lua-lgi (github)'
+command: 'git ls-remote --tags https://github.com/pavouk/lgi'
 
 #TODO skipfish
 
