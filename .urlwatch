@@ -1077,6 +1077,9 @@ command: 'git ls-remote --tags https://github.com/sinatra/sinatra'
 ---
 name: 'lua-lgi (github)'
 command: 'git ls-remote --tags https://github.com/pavouk/lgi'
+---
+name: 'iperf (github)'
+command: 'git ls-remote --tags https://github.com/esnet/iperf'
 
 #TODO skipfish
 
