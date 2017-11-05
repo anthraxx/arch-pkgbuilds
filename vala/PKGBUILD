@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 307156 2017-10-08 19:20:19Z heftig $
+# $Id: PKGBUILD 308830 2017-11-01 20:47:00Z heftig $
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Timm Preetz <timm@preetz.us>
@@ -10,7 +10,7 @@ pkgdesc="Compiler for the GObject type system"
 url="https://wiki.gnome.org/Projects/Vala"
 arch=(i686 x86_64)
 license=(LGPL)
-depends=(glib2 gtk-doc graphviz libgee ttf-dejavu pkg-config gcc)
+depends=(glib2 gtk-doc graphviz ttf-dejavu pkg-config gcc)
 makedepends=(libxslt vala git help2man)
 checkdepends=(dbus libx11 gobject-introspection)
 provides=(valadoc)

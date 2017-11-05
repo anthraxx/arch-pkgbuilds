@@ -16,7 +16,6 @@ pkgbase = vala
 	depends = glib2
 	depends = gtk-doc
 	depends = graphviz
-	depends = libgee
 	depends = ttf-dejavu
 	depends = pkg-config
 	depends = gcc
