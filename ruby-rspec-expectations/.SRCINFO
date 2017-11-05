@@ -1,16 +1,16 @@
 pkgbase = ruby-rspec-expectations
 	pkgdesc = Provides a readable API to express expected outcomes of a code example
-	pkgver = 3.6.0
+	pkgver = 3.7.0
 	pkgrel = 1
 	url = https://github.com/rspec/rspec-expectations
 	arch = any
 	license = MIT
 	depends = ruby-rspec-support
 	depends = ruby-diff-lcs
-	noextract = rspec-expectations-3.6.0.gem
+	noextract = rspec-expectations-3.7.0.gem
 	options = !emptydirs
-	source = https://rubygems.org/downloads/rspec-expectations-3.6.0.gem
-	sha512sums = 8a339d482bbed73aad29a5e3640392ed57ad0cce44852d88f4806f7f6ef81898478321e6d41da3cd22929a80aa72c3339d1f7b793a60c12f57f33020f71c8fc6
+	source = https://rubygems.org/downloads/rspec-expectations-3.7.0.gem
+	sha512sums = 011575f87fb26ea3dd04ebff30f94c6686f07508c3adfd5b1fe6cde12758bd05773b685e45d4596ccccf860b85de74da14ea80072ac09932aa0ab30e06304a24
 
 pkgname = ruby-rspec-expectations
 
