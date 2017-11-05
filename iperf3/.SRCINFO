@@ -1,0 +1,14 @@
+pkgbase = iperf3
+	pkgdesc = Internet Protocol bandwidth measuring tool
+	pkgver = 3.2
+	pkgrel = 1
+	url = https://github.com/esnet/iperf
+	arch = i686
+	arch = x86_64
+	license = BSD
+	depends = openssl
+	source = http://downloads.es.net/pub/iperf/iperf-3.2.tar.gz
+	sha256sums = f207b36f861485845dbdf09f909c62f3d2222a3cf3d2682095aede8213cd9c1d
+
+pkgname = iperf3
+
