@@ -126,6 +126,7 @@ python-libarchive-c
 python-multidict
 python-netaddr
 python-olefile
+python-pbkdf2
 python-pcapy
 python-ptrace
 python-pytest-aiohttp

@@ -1080,6 +1080,9 @@ command: 'git ls-remote --tags https://github.com/pavouk/lgi'
 ---
 name: 'iperf (github)'
 command: 'git ls-remote --tags https://github.com/esnet/iperf'
+---
+name: 'python-pbkdf2 (github)'
+command: 'git ls-remote --tags https://github.com/dlitz/python-pbkdf2'
 
 #TODO skipfish
 
