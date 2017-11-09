@@ -55,8 +55,7 @@ sha256sums=('SKIP'
             'SKIP'
             'SKIP'
             'SKIP'
-            '9a657fc153ef4ce23bf5fc369a26bf4a124e9304bde3744d04c583c54ca47425'
-            '9028f9c84bc035fb452712e92dbc62195fae1e8c5985c5ce45e75bc5e046f642')
+            '9a657fc153ef4ce23bf5fc369a26bf4a124e9304bde3744d04c583c54ca47425')
 
 pkgver() {
   cd ${pkgname}
