@@ -1,18 +1,25 @@
 pkgbase = testssl.sh
 	pkgdesc = Testing TLS/SSL encryption
 	pkgver = 2.9.5.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/drwetter/testssl.sh
 	arch = any
-	license = GPL
+	license = GPL2
+	makedepends = perl
+	makedepends = perl-data-dump
+	makedepends = perl-json
+	makedepends = perl-test-base
 	depends = bash
 	depends = coreutils
 	depends = util-linux
 	depends = openssl
-	source = https://github.com/drwetter/testssl.sh/archive/v2.9.5-1.tar.gz
+	depends = inetutils
+	depends = bind-tools
+	depends = procps-ng
+	source = testssl.sh-2.9.5.1.tar.gz::https://github.com/drwetter/testssl.sh/archive/v2.9.5-1.tar.gz
 	source = set-install-dir.patch
-	sha256sums = 505ba9400e1a49759ba84d0cf6ae79f3787f111c64a319094de69635b786c72a
-	sha256sums = 896d9867cd816b706ca6170fea07285e6daee5ff7bfc246a8ee9a7f682dcbdeb
+	sha512sums = 1ed07090aa78a774009150c709891e04474fdc49321975d0d07feae831740b0f0b1857914c9e58300c6258036fa35643b531df36eac90cb80707825271ed342b
+	sha512sums = 61423f2b40e5b30c65efc976f7f68d1e5580e668f6aa8bada0eb39fa1b51d791acc1e20852f02323fa3b0535bcedf08b97f9415c371e9dd89544197abf823089
 
 pkgname = testssl.sh
 
