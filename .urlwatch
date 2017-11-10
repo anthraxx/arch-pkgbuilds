@@ -1083,6 +1083,12 @@ command: 'git ls-remote --tags https://github.com/esnet/iperf'
 ---
 name: 'python-pbkdf2 (github)'
 command: 'git ls-remote --tags https://github.com/dlitz/python-pbkdf2'
+---
+name: 'mono (github)'
+command: 'git ls-remote --tags https://github.com/mono/mono'
+---
+name: 'testssl.sh (github)'
+command: 'git ls-remote --tags https://github.com/drwetter/testssl.sh'
 
 #TODO skipfish
 

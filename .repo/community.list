@@ -42,6 +42,7 @@ impacket
 imvirt
 inception
 iperf
+iperf3
 irssi-otr
 irssi-xmpp
 jadx
@@ -224,6 +225,7 @@ steam
 steam-native-runtime
 strip-nondeterminism
 synergy
+testssl.sh
 tetrinet
 thc-ipv6
 tlsh
