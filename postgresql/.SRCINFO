@@ -1,9 +1,8 @@
 pkgbase = postgresql
 	pkgdesc = Sophisticated object-relational DBMS
-	pkgver = 10.0
+	pkgver = 10.1
 	pkgrel = 1
 	url = https://www.postgresql.org/
-	arch = i686
 	arch = x86_64
 	license = custom:PostgreSQL
 	makedepends = krb5
@@ -13,19 +12,20 @@ pkgbase = postgresql
 	makedepends = tcl>=8.6.0
 	makedepends = openssl>=1.0.0
 	makedepends = pam
-	source = https://ftp.postgresql.org/pub/source/v10.0/postgresql-10.0.tar.bz2
+	makedepends = zlib
+	source = https://ftp.postgresql.org/pub/source/v10.1/postgresql-10.1.tar.bz2
 	source = postgresql-run-socket.patch
 	source = postgresql.pam
 	source = postgresql.logrotate
 	source = postgresql.service
 	source = postgresql-check-db-dir
-	sha256sums = 712f5592e27b81c5b454df96b258c14d94b6b03836831e015c65d6deeae57fd1
+	sha256sums = 3ccb4e25fe7a7ea6308dea103cac202963e6b746697366d72ec2900449a5e713
 	sha256sums = 8538619cb8bea51078b605ad64fe22abd6050373c7ae3ad6595178da52f6a7d9
 	sha256sums = 57dfd072fd7ef0018c6b0a798367aac1abb5979060ff3f9df22d1048bb71c0d5
 	sha256sums = 6abb842764bbed74ea4a269d24f1e73d1c0b1d8ecd6e2e6fb5fb10590298605e
 	sha256sums = b48fe97f8e43ed0d2041d519119a4dafb70fcae72870951bf4fb7350fe169ac8
 	sha256sums = 888a1d44f03fccfa4bf344ee45824fefb846ae3c1c0c40113ad6020b4be3b0cf
-	sha512sums = 88295af13db77a85a604c925aa627d383fdac62c1185119bba87753ce4167a13aed0f055a7a1329b3051f8757c6ba7529baed00a564ef0cfbee685720f282678
+	sha512sums = 06050d353aa43f32e0de0199d833d8a4652aff893b718b1c40ed31837838f73fe4d977ac0f2164ab97b3eeff4aae3409f440601740898a893877d96bc0ed1882
 	sha512sums = 031efe12d18ce386989062327cdbbe611c5ef1f94e4e1bead502304cb3e2d410af533d3c7f1109d24f9da9708214fe32f9a10ba373a3ca8d507bdb521fbb75f7
 	sha512sums = 1e6183ab0eb812b3ef687ac2c26ce78f7cb30540f606d20023669ac00ba04075487fb72e4dc89cc05dab0269ff6aca98fc1167cc75669c225b88b592482fbf67
 	sha512sums = 9ab4da01337ffbab8faec0e220aaa2a642dbfeccf7232ef2645bdc2177a953f17ee3cc14a4d8f8ebd064e1dae8b3dba6029adbffb8afaabea383963213941ba8
@@ -37,6 +37,7 @@ pkgname = postgresql-libs
 	depends = krb5
 	depends = openssl>=1.0.0
 	depends = readline>=6.0
+	depends = zlib
 	provides = postgresql-client
 	conflicts = postgresql-client
 
@@ -47,7 +48,7 @@ pkgname = postgresql-docs
 pkgname = postgresql
 	pkgdesc = Sophisticated object-relational DBMS
 	install = postgresql.install
-	depends = postgresql-libs>=10.0
+	depends = postgresql-libs>=10.1
 	depends = krb5
 	depends = libxml2
 	depends = readline>=6.0
