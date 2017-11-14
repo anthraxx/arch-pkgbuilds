@@ -1,6 +1,6 @@
 pkgbase = python-socketio
 	pkgdesc = Python implementation of the Socket.IO realtime server
-	pkgver = 1.8.1
+	pkgver = 1.8.3
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/python-socketio
 	arch = any
@@ -18,15 +18,17 @@ pkgbase = python-socketio
 	makedepends = python2-six
 	makedepends = python2-engineio
 	options = !makeflags
-	source = python-socketio-1.8.1.tar.gz::https://github.com/miguelgrinberg/python-socketio/archive/v1.8.1.tar.gz
-	sha256sums = de1bdd8f83b610c13156e0d1ca9b86d84bb33cb5ec403a7f3a2de096803d3b70
-	sha512sums = 071c52d7783d8d42ce2c168b925dc14aa4c89be00180fa0d963943c9c6d97f827092033d4cad5ebf9f803911cad7e217260548373e8b654fcb0aa29eebc20d5a
+	source = python-socketio-1.8.3.tar.gz::https://github.com/miguelgrinberg/python-socketio/archive/v1.8.3.tar.gz
+	sha256sums = c8a6e0576e50e9cc3db3d8cc0901d3f1f587e67643775c40b9d4a3c30f6a7448
+	sha512sums = e6b3c64c42c25490f9f5e45c32fad44cb5acb3c1ef09705d7539cf1ad828c3ab4cb75fbc4578ae85a4a98f6134827dbbfac02316c2afbb0508c0774aead35704
 
 pkgname = python-socketio
+	depends = python
 	depends = python-six
 	depends = python-engineio
 
 pkgname = python2-socketio
+	depends = python2
 	depends = python2-six
 	depends = python2-engineio
 
