@@ -3,7 +3,6 @@ pkgbase = pngcrush
 	pkgver = 1.8.13
 	pkgrel = 1
 	url = http://pmt.sourceforge.net/pngcrush
-	arch = i686
 	arch = x86_64
 	license = custom
 	depends = libpng
