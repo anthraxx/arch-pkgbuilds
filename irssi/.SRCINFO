@@ -3,7 +3,6 @@ pkgbase = irssi
 	pkgver = 1.0.5
 	pkgrel = 1
 	url = https://irssi.org/
-	arch = i686
 	arch = x86_64
 	license = GPL
 	depends = glib2
