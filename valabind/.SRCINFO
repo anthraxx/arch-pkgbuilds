@@ -3,7 +3,6 @@ pkgbase = valabind
 	pkgver = 1.4.0
 	pkgrel = 1
 	url = http://radare.org
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	depends = vala
