@@ -3,7 +3,6 @@ pkgbase = knockd
 	pkgver = 0.7
 	pkgrel = 2
 	url = http://www.zeroflux.org/projects/knock
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = libpcap>=1.0.0
