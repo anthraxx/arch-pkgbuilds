@@ -3,7 +3,6 @@ pkgbase = vala
 	pkgver = 0.38.3
 	pkgrel = 1
 	url = https://wiki.gnome.org/Projects/Vala
-	arch = i686
 	arch = x86_64
 	license = LGPL
 	checkdepends = dbus
