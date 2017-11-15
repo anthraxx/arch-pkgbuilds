@@ -3,7 +3,6 @@ pkgbase = xmobar
 	pkgver = 0.24.5
 	pkgrel = 6
 	url = https://hackage.haskell.org/package/xmobar
-	arch = i686
 	arch = x86_64
 	license = custom:BSD3
 	makedepends = ghc
