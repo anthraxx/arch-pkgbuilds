@@ -3,7 +3,6 @@ pkgbase = avidemux
 	pkgver = 2.7.0
 	pkgrel = 2
 	url = http://fixounet.free.fr/avidemux/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = cmake
