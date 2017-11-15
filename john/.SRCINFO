@@ -4,7 +4,6 @@ pkgbase = john
 	pkgrel = 9
 	url = http://www.openwall.com/john
 	install = john.install
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	license = custom
