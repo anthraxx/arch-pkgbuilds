@@ -3,7 +3,6 @@ pkgbase = hydra
 	pkgver = 8.6
 	pkgrel = 1
 	url = https://www.thc.org/thc-hydra/
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = gtk2
