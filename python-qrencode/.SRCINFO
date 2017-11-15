@@ -3,7 +3,6 @@ pkgbase = python-qrencode
 	pkgver = 1.2
 	pkgrel = 3
 	url = https://pypi.python.org/pypi/qrencode/
-	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = python
