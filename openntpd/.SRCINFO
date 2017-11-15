@@ -4,7 +4,6 @@ pkgbase = openntpd
 	pkgrel = 1
 	url = http://www.openntpd.org/
 	install = openntpd.install
-	arch = i686
 	arch = x86_64
 	license = BSD
 	depends = openssl
