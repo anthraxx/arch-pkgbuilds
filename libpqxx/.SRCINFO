@@ -3,7 +3,6 @@ pkgbase = libpqxx
 	pkgver = 5.1.0
 	pkgrel = 1
 	url = http://pqxx.org/development/libpqxx/
-	arch = i686
 	arch = x86_64
 	license = custom
 	makedepends = python2
