@@ -4,7 +4,6 @@ pkgbase = truecrypt
 	pkgrel = 5
 	epoch = 1
 	url = http://www.truecrypt.org/
-	arch = i686
 	arch = x86_64
 	license = custom:TrueCrypt
 	makedepends = nasm
