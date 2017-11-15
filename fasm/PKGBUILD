@@ -12,7 +12,6 @@ pkgdesc='Fast and efficient self-assembling x86 assembler for DOS, Windows and L
 url='https://flatassembler.net/'
 arch=('x86_64')
 license=('custom')
-depends_i686=('glibc')
 depends_x86_64=('lib32-glibc')
 source=(${pkgname}-${pkgver}.tgz::https://flatassembler.net/${pkgname}-${pkgver}.tgz)
 sha256sums=('31d40019be410a5127734c23751b0b1e8ad0c279938351175a4d0fd9a58662a8')
@@ -24,9 +23,6 @@ build() {
   if [ "${CARCH}" == "x86_64" ]; then
     SRCDIR=Linux/x64
     ./fasm.x64 source/${SRCDIR}/fasm.asm
-  elif [ "${CARCH}" == "i686" ]; then
-    SRCDIR=Linux
-    ./fasm source/${SRCDIR}/fasm.asm
   fi
   mv source/${SRCDIR}/fasm ./fasm
 
