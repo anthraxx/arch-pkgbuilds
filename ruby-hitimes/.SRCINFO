@@ -3,7 +3,6 @@ pkgbase = ruby-hitimes
 	pkgver = 1.2.6
 	pkgrel = 1
 	url = https://github.com/copiousfreetime/hitimes
-	arch = i686
 	arch = x86_64
 	license = ISC
 	depends = ruby
