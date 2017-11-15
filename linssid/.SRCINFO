@@ -3,7 +3,6 @@ pkgbase = linssid
 	pkgver = 2.9
 	pkgrel = 2
 	url = https://sourceforge.net/projects/linssid/
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = boost
