@@ -3,7 +3,6 @@ pkgbase = hexer
 	pkgver = 1.0.3
 	pkgrel = 2
 	url = https://devel.ringlet.net/editors/hexer/
-	arch = i686
 	arch = x86_64
 	license = custom
 	depends = ncurses
