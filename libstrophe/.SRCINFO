@@ -4,7 +4,6 @@ pkgbase = libstrophe
 	pkgrel = 3
 	epoch = 1
 	url = http://strophe.im/libstrophe/
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	license = MIT
