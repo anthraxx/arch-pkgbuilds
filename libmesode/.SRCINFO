@@ -3,7 +3,6 @@ pkgbase = libmesode
 	pkgver = 0.9.1
 	pkgrel = 3
 	url = https://github.com/boothj5/libmesode
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	license = MIT
