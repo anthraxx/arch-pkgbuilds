@@ -3,7 +3,6 @@ pkgbase = vsftpd
 	pkgver = 3.0.3
 	pkgrel = 3
 	url = https://security.appspot.com/vsftpd.html
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = libcap
