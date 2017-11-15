@@ -3,7 +3,6 @@ pkgbase = mdk3
 	pkgver = v6
 	pkgrel = 6
 	url = http://aspj.aircrack-ng.org/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = glibc
