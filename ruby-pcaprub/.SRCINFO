@@ -3,7 +3,6 @@ pkgbase = ruby-pcaprub
 	pkgver = 0.12.4
 	pkgrel = 3
 	url = https://github.com/pcaprub/pcaprub
-	arch = i686
 	arch = x86_64
 	license = LGPL2.1
 	depends = ruby
