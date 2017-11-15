@@ -3,7 +3,6 @@ pkgbase = unicorn
 	pkgver = 1.0.1
 	pkgrel = 2
 	url = http://www.unicorn-engine.org
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	checkdepends = cmocka
