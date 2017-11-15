@@ -3,7 +3,6 @@ pkgbase = lgi
 	pkgver = 0.9.2
 	pkgrel = 1
 	url = https://github.com/pavouk/lgi
-	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = gobject-introspection
