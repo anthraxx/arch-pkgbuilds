@@ -3,7 +3,6 @@ pkgbase = ruby-nio4r
 	pkgver = 2.1.0
 	pkgrel = 1
 	url = https://github.com/celluloid/nio4r
-	arch = i686
 	arch = x86_64
 	license = MIT
 	depends = ruby
