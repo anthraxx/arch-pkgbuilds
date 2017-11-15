@@ -3,7 +3,6 @@ pkgbase = xmonad
 	pkgver = 0.13
 	pkgrel = 9
 	url = http://xmonad.org/
-	arch = i686
 	arch = x86_64
 	license = BSD
 	makedepends = gendesk
