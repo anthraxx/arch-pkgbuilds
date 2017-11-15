@@ -3,7 +3,6 @@ pkgbase = python-aiohttp
 	pkgver = 2.3.2
 	pkgrel = 1
 	url = https://aiohttp.readthedocs.io
-	arch = i686
 	arch = x86_64
 	license = Apache
 	checkdepends = python-pytest
