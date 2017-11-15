@@ -3,7 +3,6 @@ pkgbase = signify
 	pkgver = 22
 	pkgrel = 2
 	url = https://github.com/aperezdc/signify
-	arch = i686
 	arch = x86_64
 	license = BSD
 	depends = glibc
