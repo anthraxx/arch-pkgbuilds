@@ -3,7 +3,6 @@ pkgbase = xpdf
 	pkgver = 4.00
 	pkgrel = 1
 	url = https://www.xpdfreader.com/
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = cmake
