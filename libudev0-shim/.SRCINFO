@@ -3,7 +3,6 @@ pkgbase = libudev0-shim
 	pkgver = 1
 	pkgrel = 2
 	url = https://github.com/archlinux/libudev0-shim
-	arch = i686
 	arch = x86_64
 	license = GPL
 	depends = libsystemd
