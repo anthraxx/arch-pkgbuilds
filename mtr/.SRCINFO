@@ -4,7 +4,6 @@ pkgbase = mtr
 	pkgrel = 1
 	url = http://www.bitwizard.nl/mtr/
 	install = mtr.install
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = ncurses
