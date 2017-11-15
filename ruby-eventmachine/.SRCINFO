@@ -3,7 +3,6 @@ pkgbase = ruby-eventmachine
 	pkgver = 1.2.5
 	pkgrel = 1
 	url = http://rubyeventmachine.com
-	arch = i686
 	arch = x86_64
 	license = Ruby
 	license = GPL2
