@@ -3,7 +3,6 @@ pkgbase = gtest
 	pkgver = 1.8.0
 	pkgrel = 1
 	url = https://github.com/google/googletest/
-	arch = i686
 	arch = x86_64
 	license = BSD
 	makedepends = python2
