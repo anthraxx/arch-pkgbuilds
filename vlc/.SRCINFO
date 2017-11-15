@@ -3,7 +3,6 @@ pkgbase = vlc
 	pkgver = 2.2.6
 	pkgrel = 5
 	url = https://www.videolan.org/vlc/
-	arch = i686
 	arch = x86_64
 	license = LGPL2.1
 	license = GPL2
