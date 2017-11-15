@@ -3,7 +3,6 @@ pkgbase = afl
 	pkgver = 2.52b
 	pkgrel = 1
 	url = http://lcamtuf.coredump.cx/afl/
-	arch = i686
 	arch = x86_64
 	license = Apache
 	makedepends = clang
