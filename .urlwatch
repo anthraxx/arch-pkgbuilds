@@ -842,7 +842,7 @@ name: 'krb5'
 command: 'curl https://web.mit.edu/kerberos/ 2>/dev/null|grep release'
 ---
 name: 'postgresql (upstream)'
-url: 'https://ftp.postgresql.org/pub/source/'
+command: 'curl https://ftp.postgresql.org/pub/source/ 2>/dev/null|tr \" "\n"|grep "^v"'
 ---
 name: 'qwt (sourceforge)'
 command: 'curl https://sourceforge.net/projects/qwt/files/qwt/ 2>/dev/null|tr " " "\n"|grep download|grep "files/"|sort'
@@ -984,6 +984,12 @@ command: 'git ls-remote --tags https://github.com/Robpol86/terminaltables'
 ---
 name: 'python-colorclass (github)'
 command: 'git ls-remote --tags https://github.com/Robpol86/colorclass'
+---
+name: 'arping (github)'
+command: 'git ls-remote --tags https://github.com/ThomasHabets/arping'
+---
+name: 'anchore (github)'
+command: 'git ls-remote --tags https://github.com/anchore/anchore'
 ---
 name: 'python-bluepy (github)'
 command: 'git ls-remote --tags https://github.com/IanHarvey/bluepy'
