@@ -3,7 +3,6 @@ pkgbase = openmpi
 	pkgver = 2.1.1
 	pkgrel = 2
 	url = https://www.open-mpi.org
-	arch = i686
 	arch = x86_64
 	license = custom:OpenMPI
 	makedepends = inetutils
