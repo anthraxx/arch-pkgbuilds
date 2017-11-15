@@ -3,7 +3,6 @@ pkgbase = libdbusmenu
 	pkgver = 16.04.0
 	pkgrel = 2
 	url = https://launchpad.net/libdbusmenu
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	license = LGPL2.1
