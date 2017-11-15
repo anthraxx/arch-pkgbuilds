@@ -4,7 +4,6 @@ pkgbase = nim
 	pkgrel = 1
 	url = https://nim-lang.org/
 	arch = x86_64
-	arch = i686
 	license = MIT
 	depends = python
 	depends = bash
