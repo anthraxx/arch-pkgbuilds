@@ -3,7 +3,6 @@ pkgbase = krb5
 	pkgver = 1.15.2
 	pkgrel = 1
 	url = https://web.mit.edu/kerberos/
-	arch = i686
 	arch = x86_64
 	license = custom
 	makedepends = perl
