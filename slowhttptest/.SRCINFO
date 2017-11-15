@@ -4,7 +4,6 @@ pkgbase = slowhttptest
 	pkgrel = 1
 	url = https://github.com/shekyan/slowhttptest
 	arch = x86_64
-	arch = i686
 	license = Apache
 	depends = openssl
 	depends = gcc-libs
