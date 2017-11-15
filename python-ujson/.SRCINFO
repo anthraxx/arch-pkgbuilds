@@ -3,7 +3,6 @@ pkgbase = python-ujson
 	pkgver = 1.35
 	pkgrel = 3
 	url = https://github.com/esnme/ultrajson
-	arch = i686
 	arch = x86_64
 	license = BSD
 	checkdepends = python-six
