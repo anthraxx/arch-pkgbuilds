@@ -3,7 +3,6 @@ pkgbase = python-axolotl-curve25519
 	pkgver = 0.1
 	pkgrel = 2
 	url = https://github.com/tgalal/python-axolotl-curve25519
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = zlib
