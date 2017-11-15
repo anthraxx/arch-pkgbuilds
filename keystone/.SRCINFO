@@ -3,7 +3,6 @@ pkgbase = keystone
 	pkgver = 0.9.1
 	pkgrel = 3
 	url = http://www.keystone-engine.org/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = cmake
