@@ -3,7 +3,6 @@ pkgbase = tetrinet
 	pkgver = 0.11
 	pkgrel = 7
 	url = http://tetrinet.or.cz/
-	arch = i686
 	arch = x86_64
 	license = Public domain
 	makedepends = pkgconfig
