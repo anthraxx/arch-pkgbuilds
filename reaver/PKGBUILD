@@ -1,4 +1,4 @@
-# $Id: PKGBUILD 249766 2017-08-10 18:42:01Z felixonmars $
+# $Id: PKGBUILD 266875 2017-11-15 14:29:11Z foutrelis $
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Bartosz Feński <fenio@debian.org>
@@ -8,7 +8,7 @@ pkgver=1.6.3
 pkgrel=1
 pkgdesc='Brute force attack against Wifi Protected Setup'
 url='https://github.com/t6x/reaver-wps-fork-t6x'
-arch=('i686' 'x86_64')
+arch=('x86_64')
 license=('GPL2')
 depends=('glibc' 'libpcap')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/t6x/reaver-wps-fork-t6x/archive/v$pkgver.tar.gz")
