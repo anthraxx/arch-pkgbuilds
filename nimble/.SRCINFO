@@ -5,7 +5,6 @@ pkgbase = nimble
 	epoch = 1
 	url = https://github.com/nim-lang/nimble
 	arch = x86_64
-	arch = i686
 	license = BSD
 	makedepends = nim
 	depends = glibc
