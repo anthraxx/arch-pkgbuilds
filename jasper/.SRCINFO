@@ -3,7 +3,6 @@ pkgbase = jasper
 	pkgver = 2.0.14
 	pkgrel = 1
 	url = http://www.ece.uvic.ca/~mdadams/jasper/
-	arch = i686
 	arch = x86_64
 	license = custom:JasPer2.0
 	makedepends = libjpeg
