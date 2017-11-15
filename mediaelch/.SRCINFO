@@ -4,7 +4,6 @@ pkgbase = mediaelch
 	pkgrel = 2
 	url = http://www.mediaelch.de/
 	arch = x86_64
-	arch = i686
 	license = LGPL3
 	depends = libmediainfo
 	depends = qt5-declarative
