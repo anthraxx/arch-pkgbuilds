@@ -3,7 +3,6 @@ pkgbase = radare2
 	pkgver = 2.0.1
 	pkgrel = 1
 	url = https://radare.org
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	license = LGPL3
