@@ -1,9 +1,8 @@
 pkgbase = powerdns
 	pkgdesc = Authoritative DNS server
 	pkgver = 4.0.4
-	pkgrel = 3
+	pkgrel = 4
 	url = http://www.powerdns.com/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = boost
