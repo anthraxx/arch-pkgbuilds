@@ -3,7 +3,6 @@ pkgbase = pidgin-xmpp-receipts
 	pkgver = 0.8
 	pkgrel = 1
 	url = http://devel.kondorgulasch.de/pidgin-xmpp-receipts/
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	depends = pidgin
