@@ -3,7 +3,6 @@ pkgbase = ruby-thin
 	pkgver = 1.7.2
 	pkgrel = 1
 	url = http://code.macournoyer.com/thin/
-	arch = i686
 	arch = x86_64
 	license = RUBY
 	depends = glibc
