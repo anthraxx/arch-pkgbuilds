@@ -1,9 +1,8 @@
 pkgbase = imvirt
 	pkgdesc = Detect the virtualization technology of a machine, it is run in
 	pkgver = 0.9.6
-	pkgrel = 2
+	pkgrel = 3
 	url = http://micky.ibh.net/~liske/imvirt.html
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = perl
