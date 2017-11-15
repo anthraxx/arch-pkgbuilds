@@ -3,13 +3,11 @@ pkgbase = fasm
 	pkgver = 1.72
 	pkgrel = 1
 	url = https://flatassembler.net/
-	arch = i686
 	arch = x86_64
 	license = custom
 	source = fasm-1.72.tgz::https://flatassembler.net/fasm-1.72.tgz
 	sha256sums = 31d40019be410a5127734c23751b0b1e8ad0c279938351175a4d0fd9a58662a8
 	sha512sums = 0569955ededc75c94fb669ec76e201f150453f7e5212a0c7bb181c7ac37cf42347ef4c841c832885d7a4e529254afd2d8c5484f56d0b48a7f2ba3b810960ccf2
-	depends_i686 = glibc
 	depends_x86_64 = lib32-glibc
 
 pkgname = fasm
