@@ -3,7 +3,6 @@ pkgbase = libindicator
 	pkgver = 12.10.1
 	pkgrel = 7
 	url = https://launchpad.net/libindicator
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = gtk2
