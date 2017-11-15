@@ -3,7 +3,6 @@ pkgbase = pgpdump
 	pkgver = 0.32
 	pkgrel = 1
 	url = http://www.mew.org/~kazu/proj/pgpdump
-	arch = i686
 	arch = x86_64
 	license = BSD
 	depends = zlib
