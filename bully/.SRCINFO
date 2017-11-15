@@ -3,7 +3,6 @@ pkgbase = bully
 	pkgver = 1.1.12.g04185d7
 	pkgrel = 1
 	url = https://github.com/aanarchyy/bully
-	arch = i686
 	arch = x86_64
 	license = GPL3
 	makedepends = git
