@@ -3,7 +3,6 @@ pkgbase = steam
 	pkgver = 1.0.0.54
 	pkgrel = 1
 	url = http://steampowered.com/
-	arch = i686
 	arch = x86_64
 	license = custom
 	depends = bash
