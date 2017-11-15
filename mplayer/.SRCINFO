@@ -3,7 +3,6 @@ pkgbase = mplayer
 	pkgver = 37998
 	pkgrel = 1
 	url = http://www.mplayerhq.hu/
-	arch = i686
 	arch = x86_64
 	license = GPL
 	makedepends = libxxf86dga
