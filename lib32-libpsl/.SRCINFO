@@ -1,7 +1,7 @@
 pkgbase = lib32-libpsl
 	pkgdesc = Public Suffix List library
 	pkgver = 0.18.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rockdaboot/libpsl
 	arch = x86_64
 	license = MIT
