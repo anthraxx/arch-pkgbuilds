@@ -3,7 +3,6 @@ pkgbase = iptraf-ng
 	pkgver = 1.1.4
 	pkgrel = 3
 	url = https://sourceforge.net/projects/iptraf-ng/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = ncurses
