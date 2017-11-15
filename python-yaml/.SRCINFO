@@ -3,7 +3,6 @@ pkgbase = python-yaml
 	pkgver = 3.12
 	pkgrel = 3
 	url = http://pyyaml.org/wiki/PyYAML
-	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = python
