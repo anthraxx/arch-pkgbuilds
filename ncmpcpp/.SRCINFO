@@ -3,7 +3,6 @@ pkgbase = ncmpcpp
 	pkgver = 0.8.1
 	pkgrel = 2
 	url = http://ncmpcpp.rybczak.net/
-	arch = i686
 	arch = x86_64
 	license = GPL
 	makedepends = boost
