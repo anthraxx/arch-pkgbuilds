@@ -3,7 +3,6 @@ pkgbase = hashcat-utils
 	pkgver = 1.8
 	pkgrel = 2
 	url = https://github.com/hashcat/hashcat-utils
-	arch = i686
 	arch = x86_64
 	license = MIT
 	depends = perl
