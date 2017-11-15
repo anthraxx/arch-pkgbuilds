@@ -3,7 +3,6 @@ pkgbase = synergy
 	pkgver = 1.8.8
 	pkgrel = 3
 	url = https://symless.com/synergy/
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = libxt
