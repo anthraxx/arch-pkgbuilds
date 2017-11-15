@@ -4,7 +4,6 @@ pkgbase = fish
 	pkgrel = 1
 	url = http://fishshell.com/
 	install = fish.install
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	makedepends = doxygen
