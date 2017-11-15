@@ -3,7 +3,6 @@ pkgbase = irssi-xmpp
 	pkgver = 0.54
 	pkgrel = 1
 	url = http://cybione.org/~irssi-xmpp
-	arch = i686
 	arch = x86_64
 	license = GPL2
 	depends = glib2
