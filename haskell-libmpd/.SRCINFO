@@ -3,7 +3,6 @@ pkgbase = haskell-libmpd
 	pkgver = 0.9.0.7
 	pkgrel = 1
 	url = https://hackage.haskell.org/package/libmpd
-	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = ghc
