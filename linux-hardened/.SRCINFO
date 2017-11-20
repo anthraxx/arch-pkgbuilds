@@ -1,0 +1,52 @@
+pkgbase = linux-hardened
+	pkgver = 4.13.13.a
+	pkgrel = 1
+	url = https://github.com/copperhead/linux-hardened
+	arch = x86_64
+	license = GPL2
+	makedepends = xmlto
+	makedepends = docbook-xsl
+	makedepends = kmod
+	makedepends = inetutils
+	makedepends = bc
+	makedepends = libelf
+	replaces = linux-grsec
+	options = !strip
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.xz
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/linux-4.13.tar.sign
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/patch-4.13.13.xz
+	source = https://www.kernel.org/pub/linux/kernel/v4.x/patch-4.13.13.sign
+	source = https://github.com/thestinger/linux-hardened/releases/download/4.13.13.a/linux-hardened-4.13.13.a.patch
+	source = https://github.com/thestinger/linux-hardened/releases/download/4.13.13.a/linux-hardened-4.13.13.a.patch.sig
+	source = config.x86_64
+	source = 90-linux.hook
+	source = linux.preset
+	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
+	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
+	validpgpkeys = 65EEFE022108E2B708CBFCF7F9E712E59AF5F22A
+	sha256sums = 2db3d6066c3ad93eb25b973a3d2951e022a7e975ee2fa7cbe5bddf84d9a49a2c
+	sha256sums = SKIP
+	sha256sums = 7414baa3aa0037ee370aaad4998f88f583cf5badb3be9b17016a529eee8e2a24
+	sha256sums = SKIP
+	sha256sums = 87b33f084ee1b44c2b6d8af1fc0f1244d7de743805b0e299ff034f602276cb82
+	sha256sums = SKIP
+	sha256sums = c58d6004ef2b7e4a8a3f8e5cbdd2e837351142f855b8fdd6ec9979d8fb93cd6d
+	sha256sums = 834bd254b56ab71d73f59b3221f056c72f559553c04718e350ab2a3e2991afe0
+	sha256sums = ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65
+
+pkgname = linux-hardened
+	pkgdesc = The Linux-hardened kernel and modules
+	install = linux.install
+	depends = coreutils
+	depends = linux-firmware
+	depends = kmod
+	depends = mkinitcpio>=0.7
+	optdepends = crda: to set the correct wireless channels of your country
+	backup = etc/mkinitcpio.d/linux-hardened.preset
+
+pkgname = linux-hardened-headers
+	pkgdesc = Header files and scripts for building modules for Linux-hardened kernel
+
+pkgname = linux-hardened-docs
+	pkgdesc = Kernel hackers manual - HTML documentation that comes with the Linux-hardened kernel
+
