@@ -1096,6 +1096,9 @@ command: 'git ls-remote --tags https://github.com/mono/mono'
 name: 'testssl.sh (github)'
 command: 'git ls-remote --tags https://github.com/drwetter/testssl.sh'
 ---
+name: 'trayer-srg (github)'
+command: 'git ls-remote --tags https://github.com/sargon/trayer-srg'
+---
 name: 'linux-hardened (github)'
 command: 'git ls-remote --tags https://github.com/copperhead/linux-hardened'
 
