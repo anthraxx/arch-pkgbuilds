@@ -69,6 +69,7 @@ libmesode
 libstrophe
 libudev0-shim
 linssid
+linux-hardened
 logstash
 lolcat
 ls++

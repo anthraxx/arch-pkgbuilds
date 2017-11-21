@@ -1095,6 +1095,9 @@ command: 'git ls-remote --tags https://github.com/mono/mono'
 ---
 name: 'testssl.sh (github)'
 command: 'git ls-remote --tags https://github.com/drwetter/testssl.sh'
+---
+name: 'linux-hardened (github)'
+command: 'git ls-remote --tags https://github.com/copperhead/linux-hardened'
 
 #TODO skipfish
 
