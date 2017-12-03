@@ -372,7 +372,7 @@ for PACKAGE in ${PACKAGES}; do
 			if [[ "${PUBLISH}" -eq 1 ]]; then
 				stat_busy "Confirm ${PACKAGE} ${pkgverfull} to publish"
 				read
-				git commit .
+				git commit -v .
 				pushd "${destdir}" >/dev/null
 				if [[ 'packages' = "${repo}" ]]; then
 					${PUBLISH_PACKAGES}
