@@ -1102,7 +1102,10 @@ command: 'git ls-remote --tags https://github.com/sargon/trayer-srg'
 name: 'linux-hardened (github)'
 command: 'git ls-remote --tags https://github.com/copperhead/linux-hardened'
 ---
-name: 'vital.vim (github)'
-command: 'git ls-remote --tags https://github.com/vim-jp/vital.vim'
+name: 'vim-vital (github)'
+command: 'git ls-remote https://github.com/vim-jp/vital.vim'
+---
+name: 'vim-easymotion (github)'
+command: 'git ls-remote --tags https://github.com/easymotion/vim-easymotion'
 
 # vim: ft=yaml
