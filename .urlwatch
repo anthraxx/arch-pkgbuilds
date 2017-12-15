@@ -1101,7 +1101,8 @@ command: 'git ls-remote --tags https://github.com/sargon/trayer-srg'
 ---
 name: 'linux-hardened (github)'
 command: 'git ls-remote --tags https://github.com/copperhead/linux-hardened'
-
-#TODO skipfish
+---
+name: 'vital.vim (github)'
+command: 'git ls-remote --tags https://github.com/vim-jp/vital.vim'
 
 # vim: ft=yaml
