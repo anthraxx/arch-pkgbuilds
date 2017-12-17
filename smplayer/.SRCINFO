@@ -1,7 +1,7 @@
 pkgbase = smplayer
 	pkgdesc = Media player with built-in codecs that can play virtually all video and audio formats
 	pkgver = 17.11.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.smplayer.info/
 	arch = x86_64
 	license = GPL
