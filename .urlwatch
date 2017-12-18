@@ -1118,6 +1118,6 @@ name: 'dmenu (git)'
 command: 'git ls-remote --tags https://git.suckless.org/dmenu'
 ---
 name: 'dmenu (upstream)'
-command: 'curl https://tools.suckless.org/dmenu/ >/dev/null 2>&1|grep tar.gz'
+command: 'curl https://tools.suckless.org/dmenu/ 2>/dev/null|grep tar.gz'
 
 # vim: ft=yaml
