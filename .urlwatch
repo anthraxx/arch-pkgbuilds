@@ -1113,5 +1113,11 @@ command: 'git ls-remote https://github.com/robm/dzen'
 ---
 name: 'vim-gitgutter (github)'
 command: 'git ls-remote https://github.com/airblade/vim-gitgutter'
+---
+name: 'dmenu (git)'
+command: 'git ls-remote --tags https://git.suckless.org/dmenu'
+---
+name: 'dmenu (upstream)'
+command: 'curl https://tools.suckless.org/dmenu/ >/dev/null 2>&1|grep tar.gz'
 
 # vim: ft=yaml
