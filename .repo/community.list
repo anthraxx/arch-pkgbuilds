@@ -18,6 +18,7 @@ cowfortune
 cowpatty
 diffoscope
 distorm
+dmenu
 dzen2
 elasticsearch
 enjarify
@@ -107,6 +108,7 @@ python2-subprocess32
 python2-unittest2
 python-aiohttp
 python-alembic
+python-argcomplete
 python-async-timeout
 python-axolotl
 python-axolotl-curve25519
