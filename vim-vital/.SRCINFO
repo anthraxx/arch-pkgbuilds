@@ -1,7 +1,7 @@
 pkgbase = vim-vital
 	pkgdesc = Comprehensive Vim utility functions for Vim plugins
 	pkgver = 3113.982e0bf3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/vim-jp/vital.vim
 	arch = any
 	groups = vim-plugins
