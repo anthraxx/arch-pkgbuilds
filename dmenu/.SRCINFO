@@ -1,0 +1,16 @@
+pkgbase = dmenu
+	pkgdesc = Generic menu for X
+	pkgver = 4.7
+	pkgrel = 2
+	url = https://tools.suckless.org/dmenu/
+	arch = x86_64
+	license = MIT
+	depends = sh
+	depends = libxinerama
+	depends = libxft
+	depends = freetype2
+	source = https://dl.suckless.org/tools/dmenu-4.7.tar.gz
+	sha512sums = 67a184f3ddb018e7b372e049052662955403e3367639b9c2284939d6f105ae74c995fe38f126d8ff75886831c8add8b50e338a1bfb0d8620b7fb1457cf88a00c
+
+pkgname = dmenu
+
