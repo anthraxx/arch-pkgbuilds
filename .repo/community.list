@@ -238,6 +238,7 @@ valabind
 veracrypt
 vicious
 vim-easymotion
+vim-gitgutter
 vimiv
 vim-nerdcommenter
 vim-tagbar

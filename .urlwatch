@@ -1110,5 +1110,8 @@ command: 'git ls-remote --tags https://github.com/easymotion/vim-easymotion'
 ---
 name: 'dzen2 (github)'
 command: 'git ls-remote https://github.com/robm/dzen'
+---
+name: 'vim-gitgutter (github)'
+command: 'git ls-remote https://github.com/airblade/vim-gitgutter'
 
 # vim: ft=yaml
