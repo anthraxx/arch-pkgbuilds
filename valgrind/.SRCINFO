@@ -1,0 +1,24 @@
+pkgbase = valgrind
+	pkgdesc = A tool to help find memory-management problems in programs
+	pkgver = 3.13.0
+	pkgrel = 4
+	url = http://valgrind.org/
+	arch = x86_64
+	license = GPL
+	makedepends = gdb
+	makedepends = openmpi
+	makedepends = lib32-glibc
+	depends = glibc=2.26
+	depends = lib32-glibc=2.26
+	depends = perl
+	optdepends = openmpi: MPI support
+	optdepends = lib32-glibc: 32-bit ABI support
+	provides = valgrind-multilib
+	replaces = valgrind-multilib
+	options = !emptydirs
+	source = https://ftp.gwdg.de/pub/linux/sources.redhat.com/valgrind/valgrind-3.13.0.tar.bz2
+	md5sums = 817dd08f1e8a66336b9ff206400a5369
+	sha512sums = 34e1013cd3815d30a459b86220e871bb0a6209cc9e87af968f347083693779f022e986f211bdf1a5184ad7370cde12ff2cfca8099967ff94732970bd04a97009
+
+pkgname = valgrind
+
