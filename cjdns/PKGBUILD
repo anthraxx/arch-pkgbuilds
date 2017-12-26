@@ -6,7 +6,7 @@
 
 pkgname=cjdns
 pkgver=20
-pkgrel=2
+pkgrel=3
 pkgdesc='Routing engine designed for security, scalability, speed and ease of use'
 url='https://github.com/cjdelisle/cjdns'
 arch=('x86_64')
@@ -49,6 +49,7 @@ package() {
     doc/shorewall_and_vpn_gateway_howto.md \
     doc/tunnel.md
   cp -a tools "${pkgdir}/usr/lib/${pkgname}"
+  cp -a node_modules "${pkgdir}/usr/lib/${pkgname}/node_modules"
 }
 
 # vim: ts=2 sw=2 et:
