@@ -1,7 +1,7 @@
 pkgbase = ruby-colorator
 	pkgdesc = Colorize your text in the terminal
 	pkgver = 1.1.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/octopress/colorator
 	arch = any
 	license = MIT
