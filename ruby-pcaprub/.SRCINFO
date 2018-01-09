@@ -1,7 +1,7 @@
 pkgbase = ruby-pcaprub
 	pkgdesc = Consistent interface to libpcap packet capture library
 	pkgver = 0.12.4
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/pcaprub/pcaprub
 	arch = x86_64
 	license = LGPL2.1
