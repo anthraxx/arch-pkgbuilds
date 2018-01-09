@@ -1,7 +1,7 @@
 pkgbase = ruby-thor
 	pkgdesc = Toolkit for building powerful command-line interfaces
 	pkgver = 0.20.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/erikhuda/thor
 	arch = any
 	license = MIT
