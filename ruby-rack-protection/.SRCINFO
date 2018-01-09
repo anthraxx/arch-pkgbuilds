@@ -1,7 +1,7 @@
 pkgbase = ruby-rack-protection
 	pkgdesc = Protect against typical web attacks, works with all Rack apps, including Rails
 	pkgver = 2.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sinatra/sinatra/blob/master/rack-protection
 	arch = any
 	license = MIT
