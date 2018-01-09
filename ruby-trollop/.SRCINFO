@@ -1,7 +1,7 @@
 pkgbase = ruby-trollop
 	pkgdesc = Commandline option parser for Ruby that just gets out of your way
 	pkgver = 2.1.2
-	pkgrel = 4
+	pkgrel = 5
 	url = http://manageiq.github.io/trollop/
 	arch = any
 	license = MIT
