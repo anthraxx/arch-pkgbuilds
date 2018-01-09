@@ -1,7 +1,7 @@
 pkgbase = ruby-async-dns
 	pkgdesc = Asynchronous DNS resolver and server
 	pkgver = 1.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/socketry/async-dns
 	arch = any
 	license = MIT
