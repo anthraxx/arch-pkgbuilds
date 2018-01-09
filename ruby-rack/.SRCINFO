@@ -1,7 +1,7 @@
 pkgbase = ruby-rack
 	pkgdesc = Minimal, modular, and adaptable interface for developing web applications
 	pkgver = 2.0.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://rack.github.io/
 	arch = any
 	license = MIT
