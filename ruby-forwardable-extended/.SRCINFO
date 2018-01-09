@@ -1,7 +1,7 @@
 pkgbase = ruby-forwardable-extended
 	pkgdesc = Extends forwardable with delegation to hashes and instance variables
 	pkgver = 2.6.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/envygeeks/forwardable-extended
 	arch = any
 	license = MIT
