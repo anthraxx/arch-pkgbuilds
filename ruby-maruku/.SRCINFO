@@ -1,7 +1,7 @@
 pkgbase = ruby-maruku
 	pkgdesc = Pure-Ruby Markdown-superset interpreter
 	pkgver = 0.7.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/bhollis/maruku
 	arch = any
 	license = MIT
