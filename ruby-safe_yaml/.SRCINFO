@@ -1,7 +1,7 @@
 pkgbase = ruby-safe_yaml
 	pkgdesc = Parse YAML safely
 	pkgver = 1.0.4
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/dtao/safe_yaml
 	arch = any
 	license = MIT
