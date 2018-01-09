@@ -1,7 +1,7 @@
 pkgbase = ruby-mail-gpg
 	pkgdesc = GPG/MIME extension for the Ruby Mail Library
 	pkgver = 0.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jkraemer/mail-gpg
 	arch = any
 	license = MIT
