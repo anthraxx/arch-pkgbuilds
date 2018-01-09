@@ -1122,5 +1122,8 @@ command: 'curl https://tools.suckless.org/dmenu/ 2>/dev/null|grep tar.gz'
 ---
 name: 'valgrind (upstream)'
 command: "curl https://sourceware.org/pub/valgrind/ 2>/dev/null|tr '<>' '\n'|grep tar|grep -v href"
+---
+name: 'libgdiplus (github)'
+command: 'git ls-remote --tags https://github.com/mono/libgdiplus'
 
 # vim: ft=yaml
