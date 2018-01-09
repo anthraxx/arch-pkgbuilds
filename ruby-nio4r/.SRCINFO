@@ -1,7 +1,7 @@
 pkgbase = ruby-nio4r
 	pkgdesc = Abstract, cross-platform stateful I/O selector API for Ruby
 	pkgver = 2.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/celluloid/nio4r
 	arch = x86_64
 	license = MIT
