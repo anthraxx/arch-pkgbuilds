@@ -1,0 +1,23 @@
+pkgbase = libgdiplus
+	pkgdesc = Open Source Implementation of the GDI+ API
+	pkgver = 5.6
+	pkgrel = 1
+	url = http://www.mono-project.com/docs/gui/libgdiplus/
+	arch = x86_64
+	license = MPL
+	license = LGPL
+	depends = libtiff
+	depends = libjpeg
+	depends = libpng
+	depends = cairo
+	depends = giflib
+	depends = glib2
+	depends = libexif
+	depends = zlib
+	depends = freetype2
+	source = libgdiplus-5.6.tar.gz::https://github.com/mono/libgdiplus/archive/5.6.tar.gz
+	sha256sums = 6a75e4a476695cd6a1475fd6b989423ecf73978fd757673669771d8a6e13f756
+	sha512sums = 15487b170e3dcca63573da2360788c5d235fc214bfbfa38b041fd3f075354589d5dcf93ee1cc9f242515f3430af43324f39aa1b51827d3f004b526fc524507df
+
+pkgname = libgdiplus
+
