@@ -1,7 +1,7 @@
 pkgbase = ruby-tilt
 	pkgdesc = Generic interface to multiple Ruby template engines
 	pkgver = 2.0.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rtomayko/tilt
 	arch = any
 	license = MIT
