@@ -1,7 +1,7 @@
 pkgbase = ruby-jekyll-sass-converter
 	pkgdesc = Sass converter for Jekyll
 	pkgver = 1.5.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jekyll/jekyll-sass-converter
 	arch = any
 	license = MIT
