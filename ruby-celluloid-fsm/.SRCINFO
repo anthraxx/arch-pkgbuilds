@@ -1,7 +1,7 @@
 pkgbase = ruby-celluloid-fsm
 	pkgdesc = Simple finite state machines with integrated Celluloid timeout support
 	pkgver = 0.20.5
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/celluloid/celluloid-fsm
 	arch = any
 	license = MIT
