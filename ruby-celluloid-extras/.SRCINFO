@@ -1,7 +1,7 @@
 pkgbase = ruby-celluloid-extras
 	pkgdesc = Classes to support examples, benchmarks, or add special functionality
 	pkgver = 0.20.5
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/celluloid/celluloid-extras
 	arch = any
 	license = MIT
