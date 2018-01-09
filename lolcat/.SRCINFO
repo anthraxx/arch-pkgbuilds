@@ -1,7 +1,7 @@
 pkgbase = lolcat
 	pkgdesc = Okay, no unicorns. But rainbows!!
 	pkgver = 90.8.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/busyloop/lolcat
 	arch = any
 	license = custom
