@@ -1,7 +1,7 @@
 pkgbase = ruby-celluloid-io
 	pkgdesc = Evented IO for Celluloid actors
 	pkgver = 0.17.3
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/celluloid/celluloid-io
 	arch = any
 	license = MIT
