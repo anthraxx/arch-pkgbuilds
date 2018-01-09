@@ -1,7 +1,7 @@
 pkgbase = ruby-kramdown
 	pkgdesc = Fast, pure Ruby Markdown superset converter, using a strict syntax definition
 	pkgver = 1.16.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://kramdown.gettalong.org/
 	arch = any
 	license = MIT
