@@ -1,7 +1,7 @@
 pkgbase = ruby-sass
 	pkgdesc = Sass makes CSS fun again
 	pkgver = 3.5.4
-	pkgrel = 1
+	pkgrel = 2
 	url = http://sass-lang.com/
 	arch = any
 	license = MIT
