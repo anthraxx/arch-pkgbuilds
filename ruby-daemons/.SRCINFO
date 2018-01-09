@@ -1,7 +1,7 @@
 pkgbase = ruby-daemons
 	pkgdesc = Easy way to wrap existing ruby scripts to be run as a daemon
 	pkgver = 1.2.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/thuehlinger/daemons
 	arch = any
 	license = MIT
