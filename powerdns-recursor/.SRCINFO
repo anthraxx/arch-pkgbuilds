@@ -1,7 +1,7 @@
 pkgbase = powerdns-recursor
 	pkgdesc = Resolving DNS server
 	pkgver = 4.0.7
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.powerdns.com/
 	arch = x86_64
 	license = GPL2
