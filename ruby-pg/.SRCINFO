@@ -1,7 +1,7 @@
 pkgbase = ruby-pg
 	pkgdesc = Pg is the Ruby interface to the Postgresql RDBMS
 	pkgver = 0.21.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://bitbucket.org/ged/ruby-pg
 	arch = x86_64
 	license = GPL
