@@ -1,7 +1,7 @@
 pkgbase = mplayer
 	pkgdesc = Media player for Linux
 	pkgver = 37998
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.mplayerhq.hu/
 	arch = x86_64
 	license = GPL
