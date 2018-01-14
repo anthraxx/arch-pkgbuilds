@@ -1,9 +1,8 @@
 pkgbase = openntpd
 	pkgdesc = Free, easy to use implementation of the Network Time Protocol
 	pkgver = 6.2p3
-	pkgrel = 1
+	pkgrel = 3
 	url = http://www.openntpd.org/
-	install = openntpd.install
 	arch = x86_64
 	license = BSD
 	depends = openssl
@@ -11,10 +10,12 @@ pkgbase = openntpd
 	backup = etc/ntpd.conf
 	source = https://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/openntpd-6.2p3.tar.gz
 	source = https://ftp.openbsd.org/pub/OpenBSD/OpenNTPD/openntpd-6.2p3.tar.gz.asc
+	source = openntpd.sysusers
 	source = openntpd.service
 	validpgpkeys = A1EB079B8D3EB92B4EBD3139663AF51BD5E4D8D5
 	sha512sums = 56a04bfd8b161b365607673ac80086ff53ae943938fa49bf52edbc541432eca30730a46a4af581fe26ce3bbceb144cb25982a38959b7a3f9304c727fe60f9f50
 	sha512sums = SKIP
+	sha512sums = b6bb4f39eb435ce6c3314ea4a31430a1f8b70898d17d1fe07fa487bec0e79c022b004d3c11366f0f994546f454e5418caf5b3d7e6e1a205598d2bc8140417f7a
 	sha512sums = c58d48de67cd1ce0df7ea60def26db38b9d7409b64d097639a4cde3f4774a4bcc1159f993f37c5c61781cab1e2d1b8a35005030b28b0c9f0f6e0f81053586dfa
 
 pkgname = openntpd
