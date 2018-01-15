@@ -1,7 +1,7 @@
 pkgbase = python-distro
 	pkgdesc = Linux OS platform information API
 	pkgver = 1.2.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/nir0s/distro
 	arch = any
 	license = Apache
@@ -9,10 +9,8 @@ pkgbase = python-distro
 	checkdepends = python2-pytest
 	makedepends = python-setuptools
 	makedepends = python-sphinx
-	makedepends = python-idna
 	makedepends = python2-setuptools
 	makedepends = python2-sphinx
-	makedepends = python2-idna
 	options = !makeflags
 	source = python-distro-1.2.0.tar.gz::https://github.com/nir0s/distro/archive/v1.2.0.tar.gz
 	sha256sums = eabd93bf9f6f14ff0ce676c384b5faf09e7a3692a765e048aed782aea17182fe
@@ -21,10 +19,8 @@ pkgbase = python-distro
 pkgname = python-distro
 	depends = python
 	depends = python-setuptools
-	depends = python-idna
 
 pkgname = python2-distro
 	depends = python2
 	depends = python2-setuptools
-	depends = python2-idna
 
