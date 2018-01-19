@@ -1,25 +1,29 @@
 pkgbase = python-perf
-	pkgdesc = Python module to generate and modify perf
-	pkgver = 1.4
-	pkgrel = 2
+	pkgdesc = Toolkit to run Python benchmarks
+	pkgver = 1.5.1
+	pkgrel = 1
 	url = https://github.com/haypo/perf
 	arch = any
 	license = MIT
+	makedepends = python
 	makedepends = python-setuptools
+	makedepends = python-six
+	makedepends = python2
 	makedepends = python2-setuptools
-	depends = python
-	depends = python2
-	depends = python-six
-	depends = python2-six
-	depends = python2-statistics
-	depends = irqbalance
-	source = https://pypi.python.org/packages/de/c1/7f8ef204eec8dd31ad4c1e618a820d8b5dd4a89426b1a2e705901bab79ef/perf-1.4.tar.gz
-	md5sums = fcf55a43d601522e1d5d8603af9af6f0
+	makedepends = python2-six
+	makedepends = python2-statistics
+	source = python-perf-1.5.1.tar.gz::https://github.com/vstinner/perf/archive/1.5.1.tar.gz
+	sha256sums = 0b20382c819114bcbb7b6ff27b1259d44a4b68e5b791324ef9a12e0afaa2e294
+	sha512sums = 6a0592a2d5456c0d3bd4f6b09cc9baf74e640eea77fad109c94e9d209f9449d68f3afbdfeb6bd99fafce8d6e9cd6d7bd6e850fb35c0c72d234244c2a5ca35906
 
 pkgname = python-perf
+	depends = python
+	depends = python-setuptools
 	depends = python-six
 
 pkgname = python2-perf
+	depends = python2
+	depends = python2-setuptools
 	depends = python2-six
 	depends = python2-statistics
 
