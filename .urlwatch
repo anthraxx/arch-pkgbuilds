@@ -1125,5 +1125,8 @@ command: "curl https://sourceware.org/pub/valgrind/ 2>/dev/null|tr '<>' '\n'|gre
 ---
 name: 'libgdiplus (github)'
 command: 'git ls-remote --tags https://github.com/mono/libgdiplus'
+---
+name: 'python-perf (github)'
+command: 'git ls-remote --tags https://github.com/haypo/perf'
 
 # vim: ft=yaml

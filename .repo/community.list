@@ -133,6 +133,7 @@ python-netaddr
 python-olefile
 python-pbkdf2
 python-pcapy
+python-perf
 python-ptrace
 python-pytest-aiohttp
 python-qrencode
