@@ -1,30 +1,30 @@
 pkgbase = pgbouncer
-	pkgdesc = A lightweight connection pooler for PostgreSQL
-	pkgver = 1.7.2
-	pkgrel = 3
-	url = https://wiki.postgresql.org/wiki/PgBouncer
+	pkgdesc = Lightweight connection pooler for PostgreSQL
+	pkgver = 1.8.1
+	pkgrel = 1
+	url = https://pgbouncer.github.io/
 	install = pgbouncer.install
 	arch = x86_64
 	license = BSD
+	checkdepends = postgresql-libs
 	makedepends = asciidoc
 	makedepends = xmlto
 	depends = libevent>=2.0
 	depends = c-ares
 	depends = systemd
+	depends = pam
 	backup = etc/pgbouncer/pgbouncer.ini
 	backup = etc/logrotate.d/pgbouncer
-	source = https://pgbouncer.github.io/downloads/files/1.7.2/pgbouncer-1.7.2.tar.gz
+	source = https://pgbouncer.github.io/downloads/files/1.8.1/pgbouncer-1.8.1.tar.gz
 	source = pgbouncer.ini
 	source = pgbouncer.logrotate
 	source = pgbouncer.service
 	source = pgbouncer.tmpfiles.conf
-	source = usual-openssl.patch
-	sha256sums = de36b318fe4a2f20a5f60d1c5ea62c1ca331f6813d2c484866ecb59265a160ba
+	sha256sums = fa8bde2a2d2c8c80d53a859f8e48bc6713cf127e31c77d8f787bbc1d673e8dc8
 	sha256sums = 4f30e4a3eb76acdd233ebc7dd099dff6976299ba958e40a8429b74112e804b05
 	sha256sums = 8da38746d9c9dfc2433a8cfe22fdaf517e14492672d09e3c48cd4745fc03e9bd
 	sha256sums = 274a3d447c151323f2d297aae881ec69be1477f16e30b0bba469afe68c2d122a
 	sha256sums = 476ea0400ba063e932a58f1f49ae401d65b22add521894872c09ec6985e0960d
-	sha256sums = 46d2d1c421ccd9893af4f6fde28d796b7910d2385efd3e27cca118d8e484ca7b
 
 pkgname = pgbouncer
 
