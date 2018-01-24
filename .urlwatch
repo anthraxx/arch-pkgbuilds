@@ -1128,5 +1128,8 @@ command: 'git ls-remote --tags https://github.com/mono/libgdiplus'
 ---
 name: 'python-perf (github)'
 command: 'git ls-remote --tags https://github.com/haypo/perf'
+---
+name: 'pgbouncer (github)'
+command: 'git ls-remote --tags https://github.com/pgbouncer/pgbouncer'
 
 # vim: ft=yaml
