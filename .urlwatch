@@ -1131,5 +1131,8 @@ command: 'git ls-remote --tags https://github.com/haypo/perf'
 ---
 name: 'pgbouncer (github)'
 command: 'git ls-remote --tags https://github.com/pgbouncer/pgbouncer'
+---
+name: 'wget (upstream)'
+command: 'curl https://ftp.gnu.org/gnu/wget/ 2>/dev/null|tr "<>" "\n"|grep "^wget"'
 
 # vim: ft=yaml
