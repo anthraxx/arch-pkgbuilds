@@ -17,4 +17,5 @@ pkg/
 *.sig
 *.7z
 *.xz
+*.lz
 *.sign
