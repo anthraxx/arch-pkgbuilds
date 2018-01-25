@@ -1,14 +1,14 @@
 pkgbase = yara
 	pkgdesc = Tool aimed at helping malware researchers to identify and classify malware samples
-	pkgver = 3.7.0
+	pkgver = 3.7.1
 	pkgrel = 1
 	url = https://github.com/VirusTotal/yara
 	arch = x86_64
 	license = BSD
 	depends = openssl
 	depends = file
-	source = yara-3.7.0.tar.gz::https://github.com/VirusTotal/yara/archive/v3.7.0.tar.gz
-	sha512sums = cd0214d39c6d1c5bc8410a1ec67e42ec8a672be382fb11e0a0f98cb03af1ef5db92e74216a9b98a6bdedf9721d4470639e340edbd39ca0184233652839742a33
+	source = yara-3.7.1.tar.gz::https://github.com/VirusTotal/yara/archive/v3.7.1.tar.gz
+	sha512sums = cfb03a36a490e87544b1d315979991a6b6f4d2dbfe5c712ae321a1835a5378a86ed3ae2a65059741cf02cad2495761d90b26c56d67628a334f50f3bf4041b784
 
 pkgname = yara
 
