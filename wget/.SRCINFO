@@ -1,0 +1,26 @@
+pkgbase = wget
+	pkgdesc = Network utility to retrieve files from the Web
+	pkgver = 1.19.2
+	pkgrel = 1
+	url = https://www.gnu.org/software/wget/wget.html
+	arch = x86_64
+	license = GPL3
+	checkdepends = perl-http-daemon
+	checkdepends = perl-io-socket-ssl
+	checkdepends = python
+	depends = gnutls
+	depends = libidn
+	depends = libutil-linux
+	depends = libpsl
+	depends = pcre
+	optdepends = ca-certificates: HTTPS downloads
+	backup = etc/wgetrc
+	source = https://ftp.gnu.org/gnu/wget/wget-1.19.2.tar.gz
+	source = https://ftp.gnu.org/gnu/wget/wget-1.19.2.tar.gz.sig
+	validpgpkeys = AC404C1C0BF735C63FF4D562263D6DF2E163E1EA
+	validpgpkeys = 1CB27DBC98614B2D5841646D08302DB6A2670428
+	sha256sums = 4f4a673b6d466efa50fbfba796bd84a46ae24e370fa562ede5b21ab53c11a920
+	sha256sums = SKIP
+
+pkgname = wget
+
