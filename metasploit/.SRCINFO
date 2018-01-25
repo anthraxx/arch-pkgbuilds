@@ -1,6 +1,6 @@
 pkgbase = metasploit
 	pkgdesc = Advanced open-source platform for developing, testing, and using exploit code
-	pkgver = 4.16.30
+	pkgver = 4.16.33
 	pkgrel = 1
 	url = https://www.metasploit.com/
 	arch = x86_64
@@ -15,12 +15,12 @@ pkgbase = metasploit
 	optdepends = ruby-pg: database support
 	options = !strip
 	options = !emptydirs
-	source = metasploit-4.16.30.tar.gz::https://github.com/rapid7/metasploit-framework/archive/4.16.30.tar.gz
+	source = metasploit-4.16.33.tar.gz::https://github.com/rapid7/metasploit-framework/archive/4.16.33.tar.gz
 	source = metasploit-dont-restrict-aggregator.patch
-	sha256sums = bc44e8f65d7b4c7d7372c92e0ff22a1e53b9bee8b06b2b1b253b0da9eef3ab16
-	sha256sums = f1a6d0369f24eb622d23dd0fed428cf6404f74cfb0a8001af5d1e18df026d9f6
-	sha512sums = 1ba6d7bbb711fca0dad49b5b1ce36b807c2fd0eb423ea3015af6703ed4755e33d3c2bdf726699a158702fec217a608e62b5b71862e0dc68c7d45db01c4a46ef0
-	sha512sums = 71611dd350a3f74b6ba61d1508b57d357de221bb676d25d96d5bbcd898e5cabb978ffb9c6c3b37559055fb886c11fe4fed64d8b701d1d94dfff057a32ed53b00
+	sha256sums = 09f777c172851967890b666f26778a8f9ee301d6089a5b06f44f212bbc2c530e
+	sha256sums = 28008fbc74852a0e939bde209a0faa715eae08a56b2e10c53e1535d50a727609
+	sha512sums = decf0ef3384bd8d3ce82fe97ed7a52b54de3a3a4eaa60b3748bf88ce61bcb2e7dc5e716999aee6ee6987f28599c011116242ea1b8a9a855fadabc9f98e971340
+	sha512sums = fcc1d1f8f2f5f337de25d674571403d62c24501f91c04914e8a9d0960fe7f248f66b44ad83f014d8e30a5b394882bd35588f226b53cec607ddd122f133eaa361
 
 pkgname = metasploit
 
