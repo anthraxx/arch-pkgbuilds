@@ -1,6 +1,6 @@
 pkgbase = checksec
 	pkgdesc = Tool designed to test which standard Linux OS and PaX security features are being used
-	pkgver = 1.7.5
+	pkgver = 1.8.0
 	pkgrel = 1
 	url = https://github.com/slimm609/checksec.sh
 	arch = any
@@ -8,8 +8,8 @@ pkgbase = checksec
 	depends = bash
 	depends = binutils
 	depends = procps-ng
-	source = checksec-1.7.5.tar.gz::https://github.com/slimm609/checksec.sh/archive/1.7.5.tar.gz
-	sha512sums = 7269fb3628907f6fe4e8b720d2dcbd5bf8586e1821bd758533dff6255c6a52be9146b58f60abea798ee92471c3d5ad9e867fa7ad4b8e5ea2d8aa03d5a3b83098
+	source = checksec-1.8.0.tar.gz::https://github.com/slimm609/checksec.sh/archive/1.8.0.tar.gz
+	sha512sums = 0236e40ba8b4f7c13ebd3b51f22dd05e6c4442e8646b5a1ee814556d9a6ca19f9bae638af33a6bfec2f8ef95567d222a20dcdcd9eae6ffb7ea5261919f020283
 
 pkgname = checksec
 
