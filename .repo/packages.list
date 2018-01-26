@@ -1,4 +1,5 @@
 avidemux
+hwloc
 iptraf-ng
 irssi
 jasper
@@ -28,3 +29,4 @@ vala
 valgrind
 vim
 vlc
+wget
