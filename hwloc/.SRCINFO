@@ -1,21 +1,23 @@
 pkgbase = hwloc
 	pkgdesc = Portable Hardware Locality is a portable abstraction of hierarchical architectures
-	pkgver = 1.11.8
+	pkgver = 1.11.9
 	pkgrel = 1
-	url = http://www.open-mpi.org/projects/hwloc/
+	url = https://www.open-mpi.org/projects/hwloc/
 	arch = x86_64
 	license = BSD
 	makedepends = cairo
 	makedepends = libxml2
 	makedepends = pciutils
+	makedepends = systemd
 	depends = numactl
 	depends = libtool
+	depends = libsystemd
 	optdepends = cairo
 	optdepends = libxml2
 	optdepends = pciutils
 	options = !docs
-	source = http://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-1.11.8.tar.bz2
-	sha1sums = 5d6164400a49e2c77a7e1e98dd0247a1f7e6d4cf
+	source = https://www.open-mpi.org/software/hwloc/v1.11/downloads/hwloc-1.11.9.tar.bz2
+	sha256sums = 394333184248d63cb2708a976e57f05337d03bb50c33aa3097ff5c5a74a85164
 
 pkgname = hwloc
 
