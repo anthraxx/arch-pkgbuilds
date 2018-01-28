@@ -1,7 +1,7 @@
 pkgbase = ropper
 	pkgdesc = Show information about binary files and find gadgets to build rop chains for different architectures
-	pkgver = 1.10.10
-	pkgrel = 2
+	pkgver = 1.11.4
+	pkgrel = 1
 	url = https://github.com/sashs/Ropper
 	arch = any
 	license = GPL2
@@ -11,12 +11,12 @@ pkgbase = ropper
 	makedepends = python2-setuptools
 	makedepends = python2-capstone
 	makedepends = python2-filebytes
-	source = ropper-1.10.10.tar.gz::https://github.com/sashs/Ropper/archive/v1.10.10.tar.gz
-	sha512sums = 5ef06837a5ceeb61cf12dbf3d529fad5f98b581a655490ee9d62909ace9b2a31885be2c972eba448252299a1de3417452ba5ec33235c8dfb50d477279c7c34b8
+	source = ropper-1.11.4.tar.gz::https://github.com/sashs/Ropper/archive/v1.11.4.tar.gz
+	sha512sums = 296f1d166070bdfef031ced271d5d7c0f962b4f2c0df111b5fc18adadc2c34365658c09fe7abc5e359fed075c00171c86e3e9927442f36c7339c9a4853396167
 
 pkgname = ropper
 	depends = python
-	depends = python-ropper>=1.10.10
+	depends = python-ropper>=1.11.4
 	optdepends = python-keystone: assemble command support
 
 pkgname = python-ropper
