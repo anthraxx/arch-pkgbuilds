@@ -1,6 +1,6 @@
 pkgbase = pixiewps
 	pkgdesc = Offline bruteforce of the WPS pin exploiting the low or non-existing entropy of some APs
-	pkgver = 1.4.1
+	pkgver = 1.4.2
 	pkgrel = 1
 	url = https://github.com/wiire/pixiewps
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = pixiewps
 	depends = openssl
 	optdepends = reaver: authentication session key support
 	optdepends = bully: authentication session key support
-	source = pixiewps-1.4.1.tar.gz::https://github.com/wiire-a/pixiewps/archive/v1.4.1.tar.gz
-	sha512sums = 83f20655c2ad1a67554e6c8cd03ae0dc9484534e3013eb6808032c403f7fbf06c394bbd11005d8705dc0bff83a31a819e6fd6f592286b35dd1d224ee17994249
+	source = pixiewps-1.4.2.tar.gz::https://github.com/wiire-a/pixiewps/archive/v1.4.2.tar.gz
+	sha512sums = e64b29b0ab46a768d7e76904b8be61a6c050ccd97da47dc43406a0247b728a521f88f10c8b3bdddfa87dca30955337782c91b3c128a578cbefdcceba811ad64f
 
 pkgname = pixiewps
 
