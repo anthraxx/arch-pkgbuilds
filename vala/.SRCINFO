@@ -1,6 +1,6 @@
 pkgbase = vala
 	pkgdesc = Compiler for the GObject type system
-	pkgver = 0.38.5
+	pkgver = 0.38.8
 	pkgrel = 1
 	url = https://wiki.gnome.org/Projects/Vala
 	arch = x86_64
@@ -15,13 +15,13 @@ pkgbase = vala
 	depends = glib2
 	depends = gtk-doc
 	depends = graphviz
-	depends = ttf-dejavu
+	depends = ttf-font
 	depends = pkg-config
 	depends = gcc
 	provides = valadoc
 	conflicts = valadoc
 	replaces = valadoc
-	source = git+https://git.gnome.org/browse/vala#commit=c389a822546ccf534c9cec38d55797e880a68a53
+	source = git+https://git.gnome.org/browse/vala#commit=3bb9af482c339719abc1e2af0bdb20027f2d02cc
 	sha256sums = SKIP
 
 pkgname = vala
