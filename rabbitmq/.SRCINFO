@@ -15,12 +15,16 @@ pkgbase = rabbitmq
 	source = https://www.rabbitmq.com/releases/rabbitmq-server/v3.6.14/rabbitmq-server-generic-unix-3.6.14.tar.xz.asc
 	source = rabbitmq-env.conf
 	source = rabbitmq.service
+	source = rabbitmq.sysusers
+	source = rabbitmq.tmpfiles
 	source = rabbitmq-script-wrapper
 	validpgpkeys = 0A9AF2115F4687BD29803A206B73A36E6026DFCA
 	sha512sums = 842a30d14f78f42fe765936d9ad38612cf90c4ec5b09f52d3fb06ad4eec0eddf54244cfc43086b9949eee39dc37b7d4bc12c5ffb4339efd717b45322b3dc5784
 	sha512sums = SKIP
 	sha512sums = 4872ff514c9f841fe4c93bc442ec4e3177d1bfa3834e8d8a26fc77a63aff1cdc14944827673a59556e26210b2b4c0091f93c8e93a334710e5bc3336a64e77140
 	sha512sums = d51b43f948febb23cdd5b0c7736f966d8433b05ccd95778e90d280d45ccfd9a714e888762f458337a784fff4b86430151adb0f81d779d6b99c9154fcd7e0e319
+	sha512sums = 17d33e7104172bc265d97821fec58f1402ad3103f1ea4b1f6bbabcf0dd840685708a1bdc808b48c1a60726c5c0aa7b6479395afd9360d3116b812c143c432423
+	sha512sums = 5cbef5497029ff227050c6f18c4fcc35b3922747408d01b7590f096253af82a8a8f16008efcc8ea21f970ce87244de62e2e375f65c49e407e53440eada5d7114
 	sha512sums = 3f271d546836eccc3bcf61105c013d3b590c3e2535106d07e5605a63174fd62ef204207367c2cd39be54e0246d0bbd9aecebe8b5cefe9018a766ceb8af70bc81
 
 pkgname = rabbitmq
