@@ -1,6 +1,6 @@
 pkgbase = wavemon
 	pkgdesc = Ncurses-based monitoring application for wireless network devices
-	pkgver = 0.8.1
+	pkgver = 0.8.2
 	pkgrel = 1
 	url = https://github.com/uoaerg/wavemon
 	arch = x86_64
@@ -8,8 +8,8 @@ pkgbase = wavemon
 	depends = ncurses
 	depends = libcap
 	depends = libnl
-	source = wavemon-0.8.1.tar.gz::https://github.com/uoaerg/wavemon/archive/v0.8.1.tar.gz
-	sha512sums = 6614e7591a55f76cc11391d1694ed8ad786adcf564c4cb1a8b52ce2b4eb591f2da239065ce274aa5e065d799479c65d3dabed3c228b851892f0a989b7ac36eb9
+	source = wavemon-0.8.2.tar.gz::https://github.com/uoaerg/wavemon/archive/v0.8.2.tar.gz
+	sha512sums = 383e8444602f1262015e5706ad76ae0cfd5ff9560cf8037edc92242bd89c1f8d4044a83d24009cac2c25b5bf3bda3ef52f0302d2ff0f21959c51ffdebe76ef25
 
 pkgname = wavemon
 
