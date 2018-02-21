@@ -1,6 +1,6 @@
 pkgbase = sslsplit
 	pkgdesc = Tool for man-in-the-middle attacks against SSL/TLS encrypted network connections
-	pkgver = 0.5.1
+	pkgver = 0.5.2
 	pkgrel = 1
 	url = https://www.roe.ch/SSLsplit
 	arch = x86_64
@@ -8,10 +8,10 @@ pkgbase = sslsplit
 	checkdepends = check
 	depends = libevent
 	depends = openssl
-	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.1.tar.bz2
-	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.1.tar.bz2.asc
+	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.2.tar.bz2
+	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.2.tar.bz2.asc
 	validpgpkeys = BFF9C7D7EA0EAC7F1AA55B3EFABE3324B5D3397E
-	sha512sums = 89f399e9efa86610ede5d4f1ebaedfe90c2da36fa7d613c92f5b1a83bc385a83fd2775f350e6f320cd637c4546a7cbb97b7a554214ccb639df047370227d8d92
+	sha512sums = 6c8a679c8016255e11adabb4f2a2e94cc23386ce33bc128e5bab2e5187f042e8daf8c720eef0f4fd3e7e94250deaf33b3c9253ffe05f1e4bdbd9a31f77785cc2
 	sha512sums = SKIP
 
 pkgname = sslsplit
