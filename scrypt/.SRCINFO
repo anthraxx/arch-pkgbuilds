@@ -1,0 +1,15 @@
+pkgbase = scrypt
+	pkgdesc = key derivation function and encryption utility
+	pkgver = 1.2.1
+	pkgrel = 3
+	url = https://www.tarsnap.com/scrypt/
+	arch = x86_64
+	license = BSD
+	depends = openssl
+	source = https://www.tarsnap.com/scrypt/scrypt-1.2.1.tgz
+	source = LICENSE
+	sha256sums = 4621f5e7da2f802e20850436219370092e9fcda93bd598f6d4236cce33f4c577
+	sha256sums = b02ea12e4a5a42008daedb8b871a1b6f2e062c743b2c00c5d077f8d6bb95145b
+
+pkgname = scrypt
+
