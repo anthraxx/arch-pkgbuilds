@@ -61,7 +61,7 @@ run_namcap() {
 sign() {
 	local file=$1; shift
 	msg2 "Signing ${file}..."
-	gpg --pinentry-mode loopback --yes --detach-sign "${file}"
+	until gpg --pinentry-mode loopback --yes --detach-sign "${file}"; do :; done
 }
 
 mksrcinfo() {
