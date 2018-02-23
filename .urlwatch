@@ -1134,5 +1134,14 @@ command: 'curl https://ftp.gnu.org/gnu/wget/ 2>/dev/null|tr "<>" "\n"|grep "^wge
 ---
 name: 'clamav (github)'
 command: 'git ls-remote --tags https://github.com/Cisco-Talos/clamav-devel'
+---
+name: 'python-scrypt (bitbucket)'
+url: 'https://bitbucket.org/mhallin/py-scrypt/raw/default/.hgtags'
+---
+name: 'python-scrypt (pypi)'
+command: 'curl https://pypi.python.org/pypi/scrypt/ 2>/dev/null|grep tar.gz'
+---
+name: 'scrypt'
+command: 'curl https://www.tarsnap.com/scrypt.html 2>/dev/null|grep tgz|tr \" "\n"|grep tgz'
 
 # vim: ft=yaml
