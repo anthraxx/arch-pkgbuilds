@@ -1143,5 +1143,8 @@ command: 'curl https://pypi.python.org/pypi/scrypt/ 2>/dev/null|grep tar.gz'
 ---
 name: 'scrypt'
 command: 'curl https://www.tarsnap.com/scrypt.html 2>/dev/null|grep tgz|tr \" "\n"|grep tgz'
+---
+name: 'python-urwid (github)'
+command: 'git ls-remote --tags https://github.com/urwid/urwid'
 
 # vim: ft=yaml
