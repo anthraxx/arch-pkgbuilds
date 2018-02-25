@@ -1,0 +1,21 @@
+pkgbase = lib32-libidn2
+	pkgdesc = Free software implementation of IDNA2008, Punycode and TR46
+	pkgver = 2.0.4
+	pkgrel = 1
+	url = https://www.gnu.org/software/libidn/#libidn2
+	arch = x86_64
+	license = GPL2
+	license = LGPL3
+	makedepends = gtk-doc
+	makedepends = ruby-ronn
+	depends = libidn2
+	depends = lib32-glibc
+	depends = lib32-libunistring
+	source = https://ftp.gnu.org/gnu/libidn/libidn2-2.0.4.tar.gz
+	source = https://ftp.gnu.org/gnu/libidn/libidn2-2.0.4.tar.gz.sig
+	validpgpkeys = 1CB27DBC98614B2D5841646D08302DB6A2670428
+	sha256sums = 644b6b03b285fb0ace02d241d59483d98bc462729d8bb3608d5cad5532f3d2f0
+	sha256sums = SKIP
+
+pkgname = lib32-libidn2
+
