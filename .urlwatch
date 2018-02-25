@@ -1146,5 +1146,11 @@ command: 'curl https://www.tarsnap.com/scrypt.html 2>/dev/null|grep tgz|tr \" "\
 ---
 name: 'python-urwid (github)'
 command: 'git ls-remote --tags https://github.com/urwid/urwid'
+---
+name: 'libidn2 (ftp)'
+command: 'curl https://ftp.gnu.org/gnu/libidn/|tr \" "\n"|grep tar|grep "^libidn2"'
+---
+name: 'libunistring (ftp)'
+command: 'curl https://ftp.gnu.org/gnu/libunistring/|tr \" "\n"|grep tar|grep "^libuni"'
 
 # vim: ft=yaml
