@@ -1,4 +1,6 @@
 avidemux
+clamav
+doxygen
 hwloc
 iptraf-ng
 irssi
@@ -22,6 +24,7 @@ postgresql
 postgresql-old-upgrade
 publicsuffix-list
 python-pyelftools
+python-urwid
 qwt
 trayer
 truecrypt

@@ -59,9 +59,11 @@ lib32-freeglut
 lib32-krb5
 lib32-libappindicator
 lib32-libdbusmenu
+lib32-libidn2
 lib32-libindicator
 lib32-libpsl
 lib32-libudev0-shim
+lib32-libunistring
 lib32-sdl2_ttf
 libappindicator
 libdbusmenu
@@ -140,7 +142,9 @@ python-qrencode
 python-rangehttpserver
 python-recommonmark
 python-resumable-urlretrieve
+python-scrypt
 python-socketio
+python-stopit
 python-tblib
 python-terminaltables
 python-ujson
@@ -216,6 +220,7 @@ scanmem
 scapy
 scapy3k
 scrot
+scrypt
 signify
 slowhttptest
 smali
