@@ -1,13 +1,14 @@
 pkgbase = wget
 	pkgdesc = Network utility to retrieve files from the Web
 	pkgver = 1.19.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gnu.org/software/wget/wget.html
 	arch = x86_64
 	license = GPL3
 	checkdepends = perl-http-daemon
 	checkdepends = perl-io-socket-ssl
 	checkdepends = python
+	depends = glibc
 	depends = gnutls
 	depends = libidn
 	depends = libutil-linux
