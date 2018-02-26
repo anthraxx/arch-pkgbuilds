@@ -1155,5 +1155,8 @@ command: 'curl https://ftp.gnu.org/gnu/libunistring/|tr \" "\n"|grep tar|grep "^
 ---
 name: 'libmicrodns (github)'
 command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
+---
+name: 'ccache (upstream)'
+command: 'curl https://www.samba.org/ftp/ccache/|tr \" "\n"|grep tar|grep "^ccache"'
 
 # vim: ft=yaml

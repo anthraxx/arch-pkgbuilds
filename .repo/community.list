@@ -9,6 +9,7 @@ binwalk
 bully
 byacc
 capstone
+ccache
 checksec
 cjdns
 clamtk
