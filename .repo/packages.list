@@ -9,6 +9,7 @@ jsoncpp
 krb5
 lgi
 libgdiplus
+libmicrodns
 libpqxx
 libpsl
 licenses

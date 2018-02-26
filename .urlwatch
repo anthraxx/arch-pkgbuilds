@@ -1152,5 +1152,8 @@ command: 'curl https://ftp.gnu.org/gnu/libidn/|tr \" "\n"|grep tar|grep "^libidn
 ---
 name: 'libunistring (ftp)'
 command: 'curl https://ftp.gnu.org/gnu/libunistring/|tr \" "\n"|grep tar|grep "^libuni"'
+---
+name: 'libmicrodns (github)'
+command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
 
 # vim: ft=yaml
