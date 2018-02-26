@@ -1,6 +1,6 @@
 pkgbase = nimble
 	pkgdesc = Package manager for the Nim programming language
-	pkgver = 0.8.8
+	pkgver = 0.8.10
 	pkgrel = 1
 	epoch = 1
 	url = https://github.com/nim-lang/nimble
@@ -8,9 +8,9 @@ pkgbase = nimble
 	license = BSD
 	makedepends = nim
 	depends = glibc
-	source = nimble-0.8.8.tar.gz::https://github.com/nim-lang/nimble/archive/v0.8.8.tar.gz
-	sha256sums = 4a849370f58af0d6fe940c15536ab9487f75517c695dd845f84ad96e71f2f4bd
-	sha512sums = 4201ed0856b26505e83aa885624065a0200dead9cbc0d5bc0ba750da597b9c37708c1783f7fe518d2bdff954b53ccbc9f92d723f2ce41f4799c8fb9d895c1c6e
+	source = nimble-0.8.10.tar.gz::https://github.com/nim-lang/nimble/archive/v0.8.10.tar.gz
+	sha256sums = bb1962a71448945775bba4c1fd63162fa9bb2afbaf6d6f61a5012c1c3fee59f9
+	sha512sums = 18128cb28c6f1b1d1bf2dddb287e376404ddf842a3f665ae3dfddb39ad5dc08e7ec0509d6e823cec3eaad3263ec4a5e72d513aae173a50451799a85ef79453b3
 
 pkgname = nimble
 
