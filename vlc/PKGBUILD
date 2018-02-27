@@ -52,9 +52,10 @@ optdepends=('avahi: service discovery using bonjour protocol'
             'opencv: opencv video'
             'libnfs: NFS access'
             'mpg123: mpg123 codec'
-            'protobuf: chromecast'
+            'protobuf: chromecast streaming'
             'libmicrodns: mDNS services discovery (chromecast etc)'
             'lua-socket: http interface'
+            'live-media: RTSP input'
             'libdvdread: DVD input module'
             'libdvdnav: DVD with navigation input module'
             'libogg: Ogg and OggSpots codec'
@@ -128,6 +129,7 @@ build() {
               --disable-rpath \
               --enable-nls \
               --enable-archive \
+              --enable-live555 \
               --enable-dc1394 \
               --enable-dv1394 \
               --enable-dvdread \
