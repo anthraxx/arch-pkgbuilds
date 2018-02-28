@@ -1158,5 +1158,8 @@ command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
 ---
 name: 'ccache (upstream)'
 command: 'curl https://www.samba.org/ftp/ccache/|tr \" "\n"|grep tar|grep "^ccache"'
+---
+name: 'libplacebo (github)'
+command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
 
 # vim: ft=yaml

@@ -10,6 +10,7 @@ krb5
 lgi
 libgdiplus
 libmicrodns
+libplacebo
 libpqxx
 libpsl
 licenses
