@@ -1,0 +1,16 @@
+pkgbase = libplacebo
+	pkgdesc = Reusable library for GPU-accelerated video/image rendering primitives
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/haasn/libplacebo
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = meson
+	makedepends = ninja
+	makedepends = vulkan-headers
+	depends = vulkan-icd-loader
+	source = libplacebo-0.4.0.tar.gz::https://github.com/haasn/libplacebo/archive/v0.4.0.tar.gz
+	sha512sums = 4dfcdfaa2e52d68b65219ed6ba8895388a6caadd996212cbe5389b7a2ed54296422ead3ad5b4f4495209e7bfb132cc15d6e6a0ac2edcf0ecae5562912c026710
+
+pkgname = libplacebo
+
