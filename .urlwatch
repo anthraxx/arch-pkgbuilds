@@ -1148,16 +1148,16 @@ name: 'python-urwid (github)'
 command: 'git ls-remote --tags https://github.com/urwid/urwid'
 ---
 name: 'libidn2 (ftp)'
-command: 'curl https://ftp.gnu.org/gnu/libidn/|tr \" "\n"|grep tar|grep "^libidn2"'
+command: 'curl https://ftp.gnu.org/gnu/libidn/ 2>/dev/null|tr \" "\n"|grep tar|grep "^libidn2"'
 ---
 name: 'libunistring (ftp)'
-command: 'curl https://ftp.gnu.org/gnu/libunistring/|tr \" "\n"|grep tar|grep "^libuni"'
+command: 'curl https://ftp.gnu.org/gnu/libunistring/ 2>/dev/null|tr \" "\n"|grep tar|grep "^libuni"'
 ---
 name: 'libmicrodns (github)'
 command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
 ---
 name: 'ccache (upstream)'
-command: 'curl https://www.samba.org/ftp/ccache/|tr \" "\n"|grep tar|grep "^ccache"'
+command: 'curl https://www.samba.org/ftp/ccache/ 2>/dev/null|tr \" "\n"|grep tar|grep "^ccache"'
 ---
 name: 'libplacebo (github)'
 command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
