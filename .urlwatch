@@ -1161,5 +1161,8 @@ command: 'curl https://www.samba.org/ftp/ccache/ 2>/dev/null|tr \" "\n"|grep tar
 ---
 name: 'libplacebo (github)'
 command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
+---
+name: 'haskell-iwlib (github)'
+command: 'git ls-remote --tags https://github.com/jaor/iwlib'
 
 # vim: ft=yaml
