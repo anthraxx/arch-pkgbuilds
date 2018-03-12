@@ -1,6 +1,6 @@
 pkgbase = vala
 	pkgdesc = Compiler for the GObject type system
-	pkgver = 0.38.8
+	pkgver = 0.40.0
 	pkgrel = 1
 	url = https://wiki.gnome.org/Projects/Vala
 	arch = x86_64
@@ -21,7 +21,7 @@ pkgbase = vala
 	provides = valadoc
 	conflicts = valadoc
 	replaces = valadoc
-	source = git+https://git.gnome.org/browse/vala#commit=3bb9af482c339719abc1e2af0bdb20027f2d02cc
+	source = git+https://git.gnome.org/browse/vala#commit=3ae57ab3ae448815e61da34fbd36a14cae679336
 	sha256sums = SKIP
 
 pkgname = vala
