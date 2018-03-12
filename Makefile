@@ -65,8 +65,6 @@ repo: repo-checkout
 
 repo-update:
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Update community...$(RST)"
-	@cd .repo/community; \
-		svn update
+	@.repo/update community
 	@echo "$(BOLD)$(GREEN)[*] $(RST)$(BOLD)Update packages...$(RST)"
-	@cd .repo/packages; \
-		svn update
+	@.repo/update packages

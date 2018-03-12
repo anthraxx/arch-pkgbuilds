@@ -1,0 +1,24 @@
+#!/bin/bash -e
+if [[ -z "${1}" ]]; then
+	echo "Usage: ${0} [REPO]"
+	exit 1
+fi
+
+prefix=$(dirname "${0}")
+cd "${prefix}/${1}"
+svn up > .update.tmp
+cat .update.tmp
+
+updated_packages=$(grep '/trunk/' .update.tmp|sed -E 's|[A-Z]    (.+)/trunk/.+|\1|'|uniq)
+for pkgbase in $updated_packages; do
+	files=$(grep "${pkgbase}/trunk/" .update.tmp|sed -E 's|[A-Z]   .+/trunk/(.+)|\1|')
+	echo "$pkgbase"
+	for file in $files; do
+		echo "    ${file}"
+		cp "${pkgbase}/trunk/${file}" "../../${pkgbase}"
+		git add "../../${pkgbase}/${file}"
+	done
+	svn_log=$(svn log -l 1 "${pkgbase}/trunk"|head -n-1|tail -n-2)
+	git commit -v "../../${pkgbase}" --template <(echo "$svn_log")
+done
+rm .update.tmp
