@@ -9,7 +9,6 @@ pkgbase = fwknop
 	depends = iptables
 	depends = libpcap
 	depends = wget
-	options = !libtool
 	backup = etc/fwknop/access.conf
 	backup = etc/fwknop/fwknopd.conf
 	source = https://cipherdyne.org/fwknop/download/fwknop-2.6.9.tar.bz2
