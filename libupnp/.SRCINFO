@@ -1,0 +1,16 @@
+pkgbase = libupnp
+	pkgdesc = Portable Open Source UPnP Development Kit
+	pkgver = 1.6.24
+	pkgrel = 2
+	url = http://pupnp.sourceforge.net/
+	arch = x86_64
+	license = BSD
+	makedepends = pkgconfig
+	depends = glibc
+	source = http://downloads.sourceforge.net/sourceforge/pupnp/libupnp-1.6.24.tar.bz2
+	source = segfault_http_makemessage.patch
+	md5sums = c5f4a3b674741d85ef29258841ccd540
+	md5sums = b5ab030107cadfb307dc1b809b7a5fe3
+
+pkgname = libupnp
+
