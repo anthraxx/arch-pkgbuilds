@@ -1,0 +1,19 @@
+pkgbase = miniupnpd
+	pkgdesc = Lightweight UPnP IGD daemon
+	pkgver = 2.0.20170421
+	pkgrel = 2
+	url = http://miniupnp.free.fr
+	arch = x86_64
+	license = BSD
+	makedepends = lsb-release
+	depends = iptables
+	depends = net-tools
+	depends = util-linux
+	backup = etc/miniupnpd/miniupnpd.conf
+	source = http://miniupnp.free.fr/files/miniupnpd-2.0.20170421.tar.gz
+	source = miniupnpd.systemd
+	sha256sums = 9677aeccadf73b4bf8bb9d832c32b5da8266b4d58eed888f3fd43d7656405643
+	sha256sums = 66cd1ed0ae55c683910d46c2e486a8b52e48088b70248323cf894bc962ede48f
+
+pkgname = miniupnpd
+
