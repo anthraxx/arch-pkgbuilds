@@ -1,0 +1,14 @@
+pkgbase = libcap-ng
+	pkgdesc = A library making programming with POSIX capabilities easier than traditional libcap
+	pkgver = 0.7.8
+	pkgrel = 1
+	url = http://people.redhat.com/sgrubb/libcap-ng/
+	arch = x86_64
+	license = GPL2
+	license = LGPL2.1
+	depends = glibc
+	source = http://people.redhat.com/sgrubb/libcap-ng/libcap-ng-0.7.8.tar.gz
+	md5sums = 0dece96644bd798020e170fbf7663802
+
+pkgname = libcap-ng
+
