@@ -1,13 +1,14 @@
 pkgbase = miniupnpc
-	pkgdesc = A small UPnP client library/tool to access Internet Gateway Devices
-	pkgver = 2.0.20170509
-	pkgrel = 2
-	url = http://miniupnp.free.fr
+	pkgdesc = Small UPnP client library/tool to access Internet Gateway Devices
+	pkgver = 2.0.20180222
+	pkgrel = 1
+	url = https://miniupnp.tuxfamily.org/
 	arch = x86_64
 	license = BSD
 	depends = sh
-	source = http://miniupnp.free.fr/files/miniupnpc-2.0.20170509.tar.gz
-	sha256sums = d3c368627f5cdfb66d3ebd64ca39ba54d6ff14a61966dbecb8dd296b7039f16a
+	source = https://miniupnp.tuxfamily.org/files/miniupnpc-2.0.20180222.tar.gz
+	sha256sums = 587944686469d09f739744b3aed70c7ce753a79c40d6f1227f68a3e962665b75
+	sha512sums = 0cceeedff6c584d2d7037ff91fbba0fe580fabfda810b9a9ed7c8d8495445339e3ff115d63d4429bcd3eff2b13b123e1bd5855ff1bc9dcd986b968a82c368591
 
 pkgname = miniupnpc
 
