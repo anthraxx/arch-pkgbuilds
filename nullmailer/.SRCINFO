@@ -1,0 +1,22 @@
+pkgbase = nullmailer
+	pkgdesc = Simple relay-only mail transport agent.
+	pkgver = 2.0
+	pkgrel = 3
+	url = https://www.untroubled.org/nullmailer/
+	install = nullmailer.install
+	arch = x86_64
+	license = GPL
+	depends = gnutls
+	provides = smtp-forwarder
+	conflicts = smtp-forwarder
+	conflicts = smtp-server
+	options = emptydirs
+	source = https://www.untroubled.org/nullmailer/archive/nullmailer-2.0.tar.gz
+	source = nullmailer.sysusers
+	source = nullmailer.tmpfiles
+	md5sums = e35e8248056fd21a2e464d34116c44a2
+	md5sums = fa9c9f9194d4ffbe0c6cd9e325f0f34a
+	md5sums = 52e15c34a0a2187688da1f4d1a9cc784
+
+pkgname = nullmailer
+
