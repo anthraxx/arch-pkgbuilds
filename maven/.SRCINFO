@@ -1,16 +1,20 @@
 pkgbase = maven
-	pkgdesc = A Java project management and project comprehension tool
+	pkgdesc = Java project management and project comprehension tool
 	pkgver = 3.5.2
 	pkgrel = 1
-	url = http://maven.apache.org
+	url = https://maven.apache.org
 	arch = any
 	license = APACHE
 	makedepends = maven
 	depends = java-environment
+	depends = bash
 	backup = opt/maven/conf/settings.xml
-	source = http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/3.5.2/source/apache-maven-3.5.2-src.tar.gz
+	source = https://www-eu.apache.org/dist/maven/maven-3/3.5.2/source/apache-maven-3.5.2-src.tar.gz
+	source = https://www-eu.apache.org/dist/maven/maven-3/3.5.2/source/apache-maven-3.5.2-src.tar.gz.asc
 	source = maven.sh
+	validpgpkeys = 042B29E928995B9DB963C636C7CA19B7B620D787
 	sha256sums = 246653dd9920f87b54c67ff4651b32d78ac4d7da973c10a6c8b1c70d9e6d0305
+	sha256sums = SKIP
 	sha256sums = 24dc65607ff9e25c74ff2f75711911471910eaf415bce1856789c9d047209b8b
 
 pkgname = maven
