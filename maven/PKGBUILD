@@ -1,0 +1,36 @@
+# $Id: PKGBUILD 264228 2017-10-25 10:41:47Z spupykin $
+# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
+# Contributor: William Rea <sillywilly@gmail.com>
+
+pkgname=maven
+pkgver=3.5.2
+pkgrel=1
+pkgdesc="A Java project management and project comprehension tool"
+arch=('any')
+url="http://maven.apache.org"
+license=('APACHE')
+depends=('java-environment')
+makedepends=('maven')
+backup=('opt/maven/conf/settings.xml')
+source=(http://apache-mirror.rbc.ru/pub/apache/maven/maven-3/$pkgver/source/apache-maven-$pkgver-src.tar.gz
+	maven.sh)
+sha256sums=('246653dd9920f87b54c67ff4651b32d78ac4d7da973c10a6c8b1c70d9e6d0305'
+            '24dc65607ff9e25c74ff2f75711911471910eaf415bce1856789c9d047209b8b')
+
+package() {
+  cd "$srcdir"/apache-maven-$pkgver
+
+  . /etc/profile.d/jre.sh
+
+  mkdir -p "$srcdir"/repo
+  mkdir -p "$pkgdir"/opt/maven
+  mkdir -p "$pkgdir"/usr/bin
+
+  # FIXME: downloads many deps from Internet. Probably they should be
+  # packaged or added into source=()
+  mvn package -Dmaven.repo.local="$srcdir"/repo -DdistributionTargetDir="$pkgdir"/opt/maven
+
+  install -D -m 755 "$srcdir"/maven.sh "$pkgdir"/etc/profile.d/maven.sh
+  ln -s /opt/maven/bin/mvn "$pkgdir"/usr/bin/mvn
+  ln -s /opt/maven/bin/mvnDebug "$pkgdir"/usr/bin/mvnDebug
+}
