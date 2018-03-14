@@ -553,8 +553,8 @@ command: 'git ls-remote --tags https://github.com/carmaa/inception'
 name: 'findnewest'
 command: 'git ls-remote --tags https://github.com/0-wiz-0/findnewest'
 ---
-name: 'bettercap'
-command: 'git ls-remote --tags https://github.com/evilsocket/bettercap'
+name: 'bettercap (github)'
+command: 'git ls-remote --tags https://github.com/bettercap/bettercap'
 ---
 name: 'ruby-network_interface'
 command: 'git ls-remote --tags https://github.com/rapid7/network_interface'
@@ -1164,5 +1164,56 @@ command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
 ---
 name: 'haskell-iwlib (github)'
 command: 'git ls-remote --tags https://github.com/jaor/iwlib'
+---
+name: 'miniupnp (github)'
+command: 'git ls-remote --tags https://github.com/miniupnp/miniupnp'
+---
+name: 'miniupnp (upstream)'
+command: 'curl https://miniupnp.tuxfamily.org/files/ 2>/dev/null|grep .tar|tr "<>" "\n"|grep "^miniupnp"'
+---
+name: 'libupnp (sourceforge)'
+command: 'curl "https://sourceforge.net/projects/pupnp/rss?path=/pupnp" 2>/dev/null|grep link|tr "/" "\n"|grep tar'
+---
+name: 'ncrack (github)'
+command: 'git ls-remote --tags https://github.com/nmap/ncrack'
+---
+name: 'nullmailer (upstream)'
+command: 'curl https://www.untroubled.org/nullmailer/archive/ 2>/dev/null|tr "<>" "\n"|grep "^nullmailer"'
+---
+name: 'libpqxx (github)'
+command: 'git ls-remote --tags https://github.com/jtv/libpqxx'
+---
+name: 'libcap-ng (github)'
+command: 'git ls-remote --tags https://github.com/stevegrubb/libcap-ng'
+---
+name: 'exfat (github)'
+command: 'git ls-remote --tags https://github.com/relan/exfat'
+---
+name: 'perl-net-ssleay (cpan)'
+command: 'curl http://search.cpan.org/dist/Net-SSLeay/ 2>/dev/null|grep Net-SSLeay|grep tar'
+---
+name: 'i3 (github)'
+command: 'git ls-remote --tags https://github.com/i3/i3'
+---
+name: 'i3lock (github)'
+command: 'git ls-remote --tags https://github.com/i3/i3lock'
+---
+name: 'i3status (github)'
+command: 'git ls-remote --tags https://github.com/i3/i3status'
+---
+name: 'maven (github)'
+command: 'git ls-remote --tags https://github.com/apache/maven'
+---
+name: 'vim-fugitive (github)'
+command: 'git ls-remote --tags https://github.com/tpope/vim-fugitive'
+---
+name: 'vim-surround (github)'
+command: 'git ls-remote --tags https://github.com/tpope/vim-surround'
+---
+name: 'pgadmin4 (github)'
+command: 'git ls-remote --tags https://github.com/postgres/pgadmin4'
+---
+name: 'vim-bufexplorer (github)'
+command: 'git ls-remote --tags https://github.com/jlanzarotta/bufexplorer'
 
 # vim: ft=yaml
