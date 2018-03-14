@@ -1,16 +1,17 @@
 pkgbase = perl-net-ssleay
 	pkgdesc = Perl extension for using OpenSSL
-	pkgver = 1.81
-	pkgrel = 4
-	url = http://search.cpan.org/dist/Net-SSLeay/
+	pkgver = 1.85
+	pkgrel = 1
+	url = https://search.cpan.org/dist/Net-SSLeay/
 	arch = x86_64
 	license = custom:BSD
+	makedepends = chrpath
 	depends = openssl
 	provides = net-ssleay
 	replaces = net-ssleay
 	options = !emptydirs
-	source = http://www.cpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.81.tar.gz
-	md5sums = 71932ce34d4db44de8d00399c3405792
+	source = https://www.cpan.org/authors/id/M/MI/MIKEM/Net-SSLeay-1.85.tar.gz
+	sha512sums = 74e0f2f56b707f1ff845c78c1fa7ce26a71b8f943bb99e994d4e065d1f42259fe4cd1a6a17d333459727534158f9541f116dbc8515122380807d9450b0faa26b
 
 pkgname = perl-net-ssleay
 	depends = openssl
