@@ -1,0 +1,16 @@
+pkgbase = vim-fugitive
+	pkgdesc = A Git wrapper so awesome, it should be illegal
+	pkgver = 2.2
+	pkgrel = 2
+	url = https://github.com/tpope/vim-fugitive
+	arch = any
+	groups = vim-plugins
+	license = custom:vim
+	depends = vim
+	source = vim-fugitive-2.2.tar.gz::https://github.com/tpope/vim-fugitive/archive/v2.2.tar.gz
+	source = license.txt
+	md5sums = d1c245be66c6a7817f3dab47ebdddfd8
+	md5sums = cd49910a3dde6fe0a7e24ebe8cbf7066
+
+pkgname = vim-fugitive
+
