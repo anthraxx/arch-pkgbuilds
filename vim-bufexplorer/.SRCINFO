@@ -1,0 +1,14 @@
+pkgbase = vim-bufexplorer
+	pkgdesc = Simple buffer list/switcher for vim
+	pkgver = 7.4.19
+	pkgrel = 1
+	url = https://github.com/jlanzarotta/bufexplorer
+	arch = any
+	groups = vim-plugins
+	license = BSD
+	depends = vim>=7.0
+	source = vim-bufexplorer-7.4.19.tar.gz::https://github.com/jlanzarotta/bufexplorer/archive/v7.4.19.tar.gz
+	sha512sums = d38bcb52a50cfcf6d0b66ca6f1290a6be53d5cee98b3d2d7a93e01b5ef904af53c6cc8256e667bdeeb23a58344f5d69838bb7b5d71d225a83d1e173b99344888
+
+pkgname = vim-bufexplorer
+
