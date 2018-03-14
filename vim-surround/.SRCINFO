@@ -1,0 +1,16 @@
+pkgbase = vim-surround
+	pkgdesc = Provides mappings to easily delete, change, and add paired "surroundings"
+	pkgver = 2.1
+	pkgrel = 2
+	url = https://github.com/tpope/vim-surround
+	arch = any
+	groups = vim-plugins
+	license = custom:vim
+	depends = vim
+	source = vim-surround-2.1.tar.gz::https://github.com/tpope/vim-surround/archive/v2.1.tar.gz
+	source = license.txt
+	md5sums = 85ffd09f75fe308f0bde43b0ce39bc2c
+	md5sums = cd49910a3dde6fe0a7e24ebe8cbf7066
+
+pkgname = vim-surround
+
