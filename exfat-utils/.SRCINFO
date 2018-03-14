@@ -1,6 +1,6 @@
 pkgbase = exfat-utils
 	pkgdesc = Utilities for exFAT file system
-	pkgver = 1.2.7
+	pkgver = 1.2.8
 	pkgrel = 1
 	url = https://github.com/relan/exfat
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = exfat-utils
 	provides = fuse-exfat
 	conflicts = fuse-exfat
 	replaces = fuse-exfat
-	source = exfat-utils-1.2.7.zip::https://github.com/relan/exfat/archive/v1.2.7.zip
-	md5sums = b32dc1c1629e6ce9b76fabd79a1d6589
+	source = exfat-utils-1.2.8.tar.gz::https://github.com/relan/exfat/archive/v1.2.8.tar.gz
+	sha512sums = 2805d8a59c53db348265943bfd5537aa1dfc87582fb1a3e9cba6ab112b93632be3c0932f72b57c7839d60faf1d455f56fd7d7a7f49e3e9419f4b6715332e939a
 
 pkgname = exfat-utils
 
