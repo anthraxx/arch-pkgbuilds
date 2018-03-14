@@ -1,7 +1,7 @@
 pkgbase = wget
 	pkgdesc = Network utility to retrieve files from the Web
 	pkgver = 1.19.4
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.gnu.org/software/wget/wget.html
 	arch = x86_64
 	license = GPL3
