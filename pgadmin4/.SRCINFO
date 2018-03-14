@@ -1,0 +1,28 @@
+pkgbase = pgadmin4
+	pkgdesc = Comprehensive design and management interface for PostgreSQL
+	pkgver = 2.1
+	pkgrel = 1
+	url = https://www.pgadmin.org/
+	arch = x86_64
+	license = custom
+	makedepends = python-setuptools
+	makedepends = imagemagick
+	depends = qt5-webengine
+	depends = python
+	depends = python-psycopg2
+	depends = postgresql-libs
+	depends = hicolor-icon-theme
+	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v2.1/source/pgadmin4-2.1.tar.gz
+	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v2.1/source/pgadmin4-2.1.tar.gz.sig
+	source = pgAdmin4.desktop
+	source = config_distro.py
+	source = config_local.py
+	validpgpkeys = E0C4CEEB826B1FDA4FB468E024ADFAAF698F1519
+	sha256sums = 6c73244552c3195ced59282ed8eab3a0cae7c1a99fe30e7ec13bc3f2a102ab4a
+	sha256sums = SKIP
+	sha256sums = 9a39a321fa5a7fcf4f7f7abf6872de6de537800212e9f6f4902ed37b806765b7
+	sha256sums = 510c11bf26fa335548ec4c582bc9f5a5242b8e03f3cb0b7c19e6bfd12b6d663c
+	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+pkgname = pgadmin4
+
