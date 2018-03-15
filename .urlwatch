@@ -131,7 +131,7 @@ name: 'kippo'
 command: 'git ls-remote --tags https://github.com/desaster/kippo'
 ---
 name: 'cowrie'
-command: 'git ls-remote https://github.com/micheloosterhof/cowrie'
+command: 'git ls-remote https://github.com/micheloosterhof/cowrie|grep -v merge'
 ---
 name: 'conky-manager'
 command: 'curl http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/ 2>/dev/null|tr \"\<\> "\n"|grep conky-manager'
