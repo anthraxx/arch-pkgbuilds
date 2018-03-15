@@ -8,11 +8,13 @@ jasper
 jsoncpp
 krb5
 lgi
+libcap-ng
 libgdiplus
 libmicrodns
 libplacebo
 libpqxx
 libpsl
+libupnp
 licenses
 memcached
 meson
@@ -21,6 +23,7 @@ mplayer
 mtr
 nvidia-settings
 openmpi
+perl-net-ssleay
 pgbouncer
 postgresql
 postgresql-old-upgrade
