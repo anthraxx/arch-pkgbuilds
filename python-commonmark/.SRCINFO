@@ -1,7 +1,7 @@
 pkgbase = python-commonmark
 	pkgdesc = Python parser for the CommonMark Markdown spec
-	pkgver = 0.7.4
-	pkgrel = 3
+	pkgver = 0.7.5
+	pkgrel = 1
 	url = https://pypi.python.org/pypi/CommonMark
 	arch = any
 	license = BSD
@@ -15,9 +15,10 @@ pkgbase = python-commonmark
 	makedepends = python2-docutils
 	makedepends = python2-future
 	makedepends = python2-sphinx
-	source = python-commonmark-0.7.4.tar.gz::https://github.com/rtfd/CommonMark-py/archive/0.7.4.tar.gz
-	sha256sums = fe9210e59299a291b0da87c3aecedc5ff50cb9976b0850d72a6eb5151a269478
-	sha512sums = 1973bad380197c6e42215077505c91f4a5d485653635683f5b192c806b4366fedb1c67285e716b9632fb3ebd0e1e2e587c5247422c82a936f84ed81d56e342ca
+	options = !makeflags
+	source = python-commonmark-0.7.5.tar.gz::https://github.com/rtfd/CommonMark-py/archive/0.7.5.tar.gz
+	sha256sums = f483150b7b1dde5f7956e47d2345913b453c4390ff2279817520ae94e25c8eee
+	sha512sums = 91c9d0e5770430c12d155e6d4ca5a7dcde3f70e24f0ff362e54436f6a218428f1db7a4177ed7cd152c31f6d1a9a25db51f1b248727d36720fc16635d6dd4edd2
 
 pkgname = python-commonmark
 	depends = python-docutils
