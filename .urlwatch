@@ -782,7 +782,7 @@ name: 'libpsl (github)'
 command: 'git ls-remote --tags https://github.com/rockdaboot/libpsl'
 ---
 name: 'publicsuffix-list (github)'
-command: 'git ls-remote https://github.com/publicsuffix/list'
+command: 'git ls-remote --heads https://github.com/publicsuffix/list'
 ---
 name: 'python-qrencode (pypi)'
 command: 'curl https://pypi.python.org/pypi/qrencode 2>/dev/null|grep tar.gz'
