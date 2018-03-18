@@ -1,6 +1,6 @@
 pkgbase = vim-gitgutter
 	pkgdesc = Vim plugin which shows a git diff in the gutter (sign column)
-	pkgver = 487.7222649
+	pkgver = 490.37bdd03
 	pkgrel = 1
 	url = https://github.com/airblade/vim-gitgutter
 	arch = any
@@ -8,7 +8,7 @@ pkgbase = vim-gitgutter
 	license = MIT
 	depends = vim
 	depends = git
-	source = vim-gitgutter::git+https://github.com/airblade/vim-gitgutter#commit=72226496b335193d7ac7ed5b043cfd8ec95db499
+	source = vim-gitgutter::git+https://github.com/airblade/vim-gitgutter#commit=37bdd03d176c5e182c7e8dbdc79c3f71d2a04898
 	sha512sums = SKIP
 
 pkgname = vim-gitgutter
