@@ -1,13 +1,13 @@
 pkgbase = asio
 	pkgdesc = Cross-platform C++ library for ASynchronous network I/O
-	pkgver = 1.10.8
+	pkgver = 1.12.0
 	pkgrel = 1
-	url = http://asio.sourceforge.net
+	url = https://think-async.com/Asio/
 	arch = x86_64
-	license = custom
-	depends = boost
-	source = http://downloads.sourceforge.net/asio/asio-1.10.8.tar.bz2
-	md5sums = 59702ae78da4c45e5fffad39b062cf42
+	license = custom:boost
+	makedepends = boost
+	source = https://github.com/chriskohlhoff/asio/archive/asio-1-12-0.tar.gz
+	sha256sums = fa8c3a16dc2163f5b3451f2a14ce95277c971f46700497d4e94af6059c00dc06
 
 pkgname = asio
 
