@@ -253,6 +253,9 @@ url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
 name: 'hydra'
 command: 'curl -k https://www.thc.org/thc-hydra/ 2>/dev/null|grep hydra- | grep tar'
 ---
+name: 'hydra (github)'
+command: 'git ls-remote --tags https://github.com/vanhauser-thc/thc-hydra'
+---
 name: 'pngcrush (sourceforge)'
 command: "curl 'https://sourceforge.net/projects/pmt/files/pngcrush/' 2>&1|grep files/pngcrush|grep href|tr ' ' '\n'|grep pngcrush"
 ---
@@ -459,6 +462,9 @@ command: 'git ls-remote --tags https://github.com/esnme/ultrajson'
 ---
 name: 'thc-ipv6'
 command: 'curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz'
+---
+name: 'thc-ipv6 (github)'
+command: 'git ls-remote --tags https://github.com/vanhauser-thc/thc-ipv6'
 ---
 name: 'fwknop'
 command: 'git ls-remote --tags https://github.com/mrash/fwknop'
@@ -1215,5 +1221,8 @@ command: 'git ls-remote --tags https://github.com/postgres/pgadmin4'
 ---
 name: 'vim-bufexplorer (github)'
 command: 'git ls-remote --tags https://github.com/jlanzarotta/bufexplorer'
+---
+name: 'asio (github)'
+command: 'git ls-remote --tags https://github.com/chriskohlhoff/asio'
 
 # vim: ft=yaml
