@@ -1,6 +1,6 @@
 pkgbase = mono
 	pkgdesc = Free implementation of the .NET platform including runtime and compiler
-	pkgver = 5.10.0.157
+	pkgver = 5.10.0.160
 	pkgrel = 1
 	url = http://www.mono-project.com/
 	install = mono.install
@@ -17,7 +17,7 @@ pkgbase = mono
 	depends = ca-certificates
 	provides = monodoc
 	conflicts = monodoc
-	source = mono::git+https://github.com/mono/mono#commit=d21cb0853b93dd4f7e8935995f4121fc7b9763bb
+	source = mono::git+https://github.com/mono/mono#commit=f3ac8fdeb37a7e0a505c5005be6774158d88a648
 	source = git+https://github.com/mono/aspnetwebstack
 	source = git+https://github.com/mono/Newtonsoft.Json
 	source = git+https://github.com/mono/cecil
