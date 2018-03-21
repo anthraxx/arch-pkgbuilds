@@ -1224,5 +1224,11 @@ command: 'git ls-remote --tags https://github.com/jlanzarotta/bufexplorer'
 ---
 name: 'asio (github)'
 command: 'git ls-remote --tags https://github.com/chriskohlhoff/asio'
+---
+name: 'libdvbpsi (github)'
+command: 'git ls-remote --tags https://code.videolan.org/videolan/libdvbpsi'
+---
+name: 'bftpd (sourceforge)'
+command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|grep href|grep -Ev "timeline|folder"|tr "/" "\n"|grep bftpd-'
 
 # vim: ft=yaml

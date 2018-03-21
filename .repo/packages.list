@@ -1,5 +1,6 @@
 asio
 avidemux
+bftpd
 clamav
 doxygen
 hwloc
@@ -10,6 +11,7 @@ jsoncpp
 krb5
 lgi
 libcap-ng
+libdvbpsi
 libgdiplus
 libmicrodns
 libplacebo
