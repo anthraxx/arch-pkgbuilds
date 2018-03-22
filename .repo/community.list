@@ -123,6 +123,7 @@ python2-unittest2
 python-aiohttp
 python-alembic
 python-argcomplete
+python-async_generator
 python-async-timeout
 python-axolotl
 python-axolotl-curve25519

@@ -1230,5 +1230,8 @@ command: 'git ls-remote --tags https://code.videolan.org/videolan/libdvbpsi.git'
 ---
 name: 'bftpd (sourceforge)'
 command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|grep href|grep -Ev "timeline|folder"|tr "/" "\n"|grep bftpd-'
+---
+name: 'async_generator (github)'
+command: 'git ls-remote --tags https://github.com/python-trio/async_generator'
 
 # vim: ft=yaml
