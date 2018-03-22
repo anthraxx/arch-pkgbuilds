@@ -1,0 +1,35 @@
+pkgbase = bftpd
+	pkgdesc = Small, easy-to-configure FTP server
+	pkgver = 4.9
+	pkgrel = 1
+	url = http://bftpd.sourceforge.net/
+	arch = x86_64
+	license = GPL
+	depends = pam
+	depends = zlib
+	depends = glibc
+	backup = etc/bftpd.conf
+	backup = etc/logrotate.d/bftpd
+	backup = etc/pam.d/bftpd
+	backup = etc/xinetd.d/bftpd
+	source = https://downloads.sourceforge.net/sourceforge/bftpd/bftpd-4.9.tar.gz
+	source = bftpd.logrotate
+	source = bftpd.pam
+	source = bftpd.xinetd
+	source = bftpd.service
+	source = bftpd.socket
+	source = bftpd_AT.service
+	source = bftpd.tmpfiles
+	source = bftpd-4.9-Makefile.patch
+	sha256sums = cdd8cdfbca44309bac47b2d6cc1efd7c63ff3535a1803ace89f73dc9128df28e
+	sha256sums = 4768016884e2aaaaecc1412353f7dfaf19d2dab0e03789c4df9bbae2d56dfb7a
+	sha256sums = 57dfd072fd7ef0018c6b0a798367aac1abb5979060ff3f9df22d1048bb71c0d5
+	sha256sums = 18096a2f6914fecd9f36721247d170ba48b986225dae3564cb2d3b0e6f18c35a
+	sha256sums = 6047c33d1694445aa1b0cfad4ba796ff6c1635eb86c8398f39c0f9180d9490be
+	sha256sums = 0f930f803cf40dda1336ddb89e925b8f7b703518484b8a1a41153f0828de404c
+	sha256sums = 97dba309c60029c498f353b39778c6594deef8a3b98ca09889857ca920674ccc
+	sha256sums = 0be0b772ca19362173152fa7a8d7578faa535995b1e150bafec7a28e649b399f
+	sha256sums = 93248ffd3f99336e704aeedaaac207cb2e25f64998fd5c274fd29cb548f14acc
+
+pkgname = bftpd
+
