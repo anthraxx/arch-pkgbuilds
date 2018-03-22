@@ -19,6 +19,7 @@ libpqxx
 libpsl
 libupnp
 licenses
+linux-hardened
 memcached
 meson
 mono
