@@ -11,8 +11,8 @@ arch=('any')
 url="https://github.com/davidhalter/jedi-vim"
 license=('MIT')
 depends=('vim' 'python-jedi' 'python')
-optdepends=('vim-supertab: for tab completion'
-            'python2-jedi: for Python 2 support')
+optdepends=('vim-supertab: tab completion'
+            'python2-jedi: Python 2 support')
 checkdepends=('python-pytest')
 groups=('vim-plugins')
 options=('!emptydirs')
@@ -29,7 +29,6 @@ package() {
   cd ${_reponame}-${pkgver}
 
   install -d "${pkgdir}/usr/share/vim/vimfiles"
-
   cp -dpr --no-preserve=ownership pythonx "${pkgdir}/usr/share/vim/vimfiles"
   cp -dpr --no-preserve=ownership doc "${pkgdir}/usr/share/vim/vimfiles/doc"
   cp -dpr --no-preserve=ownership after "${pkgdir}/usr/share/vim/vimfiles/after"
