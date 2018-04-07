@@ -1,7 +1,7 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 90
-	pkgrel = 2
+	pkgver = 93
+	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
 	license = GPL3
@@ -42,6 +42,7 @@ pkgbase = diffoscope
 	checkdepends = r
 	checkdepends = dtc
 	checkdepends = giflib
+	checkdepends = gnumeric
 	checkdepends = python-progressbar
 	checkdepends = binwalk
 	checkdepends = python-argcomplete
@@ -75,6 +76,7 @@ pkgbase = diffoscope
 	optdepends = ghc: haskell utilities support
 	optdepends = giflib: gifbuild utilities support
 	optdepends = gnupg: GNU privacy guard support
+	optdepends = gnumeric: GNOME Spreadsheet support
 	optdepends = mono: mono support
 	optdepends = openssh: OpenSSH key comparing support
 	optdepends = poppler: PDF utilities support
@@ -91,8 +93,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-90.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-90.tar.xz
-	sha512sums = 189123539db21c68cd3ed4100ece7aff55e8824c51fbc5632e23641c7bb025f406c8bb207f364c34900162a60959f649dceae0037f1487c98958ff6fdb511c75
+	source = diffoscope-93.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-93.tar.xz
+	sha512sums = 2788347513482e0ba26eeca190ec0f124de3c7b81e12a9f33d48ab015d095980e9276440c4a659e070282fc8a4fef2b16c1295a9f34f772489f064e9ee4f78eb
 
 pkgname = diffoscope
 
