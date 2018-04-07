@@ -1,17 +1,17 @@
 pkgbase = ccache
 	pkgdesc = Compiler cache that speeds up recompilation by caching previous compilations
-	pkgver = 3.4.1
+	pkgver = 3.4.2
 	pkgrel = 1
 	url = https://ccache.samba.org/
 	arch = x86_64
 	license = GPL3
 	depends = zlib
-	source = https://www.samba.org/ftp/ccache/ccache-3.4.1.tar.xz
-	source = https://www.samba.org/ftp/ccache/ccache-3.4.1.tar.xz.asc
+	source = https://www.samba.org/ftp/ccache/ccache-3.4.2.tar.xz
+	source = https://www.samba.org/ftp/ccache/ccache-3.4.2.tar.xz.asc
 	validpgpkeys = 5A939A71A46792CF57866A51996DDA075594ADB8
-	sha256sums = 8c2e260d4245e362552e47bec359941210a96419ac5adf582046ceb92489f7de
+	sha256sums = 18a8b14367d63d3d37fb6c33cba60e1b7fcd7a63d608df97c9771ae0d234fee2
 	sha256sums = SKIP
-	sha512sums = ebfa65888c2d8ef87c2e86889723afcc88103af0e73e386ba39f474a7f542712b705a553611a5f51a057c5f056925f10492bb1f3d9b837c9d578d7a913a845de
+	sha512sums = 9bf07269df6785bb92758093f46f3be4df45de532e431e0bc3a68a7170d1782376a9b4495acf77569549062c84f61621c21c5d200e271cd064dbda4a73276f8e
 	sha512sums = SKIP
 
 pkgname = ccache
