@@ -5,7 +5,7 @@ name: 'cowfortune'
 command: 'git ls-remote --tags https://github.com/anthraxx/cowfortune'
 ---
 name: 'hexer'
-url: 'http://devel.ringlet.net/editors/hexer/'
+command: 'curl http://devel.ringlet.net/editors/hexer/ 2>/dev/null|sed -E "s|.*>(.+)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'hexer (gitlab)'
 command: 'git ls-remote --tags https://gitlab.com/hexer/hexer.git'
@@ -47,7 +47,7 @@ name: 'sslstrip'
 url: 'http://www.thoughtcrime.org/software/sslstrip/'
 ---
 name: 'tcpxtract'
-command: 'curl http://tcpxtract.sourceforge.net/ 2>/dev/null|grep tar.gz'
+command: 'curl http://tcpxtract.sourceforge.net/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'vit'
 command: 'git ls-remote --tags https://git.tasktools.org/EX/vit.git'
@@ -59,7 +59,7 @@ name: 'radare2'
 command: 'git ls-remote --tags https://github.com/radare/radare2'
 ---
 name: 'perl-term-extendedcolor'
-command: 'git ls-remote https://github.com/trapd00r/Term-ExtendedColor'
+command: 'git ls-remote --heads --tags https://github.com/trapd00r/Term-ExtendedColor'
 ---
 name: 'valabind'
 command: 'git ls-remote --tags https://github.com/radare/valabind'
@@ -86,7 +86,10 @@ name: 'dnsmap'
 command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fdnsmap%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep dnsmap"
 ---
 name: 'wifite'
-command: 'git ls-remote https://github.com/derv82/wifite'
+command: 'git ls-remote --heads --tags https://github.com/derv82/wifite'
+---
+name: 'wifite2'
+command: 'git ls-remote --heads --tags https://github.com/derv82/wifite2'
 ---
 name: 'python-hexdump'
 url: 'https://bitbucket.org/techtonik/hexdump/raw/default/.hgtags'
@@ -116,7 +119,7 @@ name: 'dirbuster'
 command: "curl 'https://sourceforge.net/projects/dirbuster/files/DirBuster%20Source/' 2>/dev/null|grep 'tr title='"
 ---
 name: 'qira'
-command: 'git ls-remote https://github.com/BinaryAnalysisPlatform/qira'
+command: 'git ls-remote --heads --tags https://github.com/BinaryAnalysisPlatform/qira'
 ---
 name: 'python-flask-socketio'
 command: 'git ls-remote --tags https://github.com/miguelgrinberg/Flask-SocketIO'
@@ -131,7 +134,7 @@ name: 'kippo'
 command: 'git ls-remote --tags https://github.com/desaster/kippo'
 ---
 name: 'cowrie'
-command: 'git ls-remote https://github.com/micheloosterhof/cowrie|grep -v merge'
+command: 'git ls-remote --heads --tags https://github.com/micheloosterhof/cowrie'
 ---
 name: 'conky-manager'
 command: 'curl http://ppa.launchpad.net/teejee2008/ppa/ubuntu/pool/main/c/conky-manager/ 2>/dev/null|tr \"\<\> "\n"|grep conky-manager'
@@ -152,13 +155,13 @@ name: 'pgpdump'
 command: 'git ls-remote --tags https://github.com/kazu-yamamoto/pgpdump'
 ---
 name: 'pyexiftool'
-command: 'git ls-remote https://github.com/smarnach/pyexiftool'
+command: 'git ls-remote --heads --tags https://github.com/smarnach/pyexiftool'
 ---
 name: 'python-trollius'
 command: 'git ls-remote --tags https://github.com/haypo/trollius'
 ---
 name: 'pyshark'
-command: 'git ls-remote https://github.com/KimiNewt/pyshark'
+command: 'git ls-remote --heads --tags https://github.com/KimiNewt/pyshark'
 ---
 name: 'pyrit (googlecode)'
 command: 'curl "https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Fpyrit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false" 2>/dev/null|tr "," "\n"|grep \\.tar'
@@ -185,10 +188,10 @@ name: 'pyton-olefile (gitub)'
 command: 'git ls-remote --tags https://github.com/decalage2/olefile'
 ---
 name: 'pdb-clone'
-command: 'curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|grep pdb-clone'
+command: 'curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'pyclewn'
-command: 'curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep tar.gz'
+command: 'curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'libressl'
 command: 'git ls-remote --tags https://github.com/libressl-portable/portable'
@@ -197,7 +200,7 @@ name: 'w3af'
 command: 'git ls-remote --tags https://github.com/andresriancho/w3af'
 ---
 name: 'python-tblib'
-command: 'curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep tar'
+command: 'curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-stopit'
 command: 'git ls-remote --tags https://github.com/glenfant/stopit'
@@ -212,7 +215,7 @@ name: 'ncmpcpp (git)'
 command: 'git ls-remote --tags git://repo.or.cz/ncmpcpp'
 ---
 name: 'ncmpcpp (http)'
-command: 'curl http://rybczak.net/ncmpcpp/stable/ 2>/dev/null|tr \" "\n"|grep tar|grep -v "</a>"|sort'
+command: 'curl http://rybczak.net/ncmpcpp/stable/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep -v "</a>"|sort'
 ---
 name: 'scanmem'
 command: 'git ls-remote --tags https://github.com/scanmem/scanmem'
@@ -250,9 +253,6 @@ command: 'git ls-remote --tags https://github.com/uoaerg/wavemon'
 name: 'afl'
 url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
 ---
-name: 'hydra'
-command: 'curl -k https://www.thc.org/thc-hydra/ 2>/dev/null|grep hydra- | grep tar'
----
 name: 'hydra (github)'
 command: 'git ls-remote --tags https://github.com/vanhauser-thc/thc-hydra'
 ---
@@ -272,7 +272,7 @@ name: 'irssi-xmpp'
 url: 'http://cybione.org/~irssi-xmpp/files/'
 ---
 name: 'profanity'
-command: 'curl http://www.profanity.im/ 2>/dev/null|grep tar.gz'
+command: 'curl http://www.profanity.im/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'libstrophe'
 command: 'git ls-remote --tags https://github.com/strophe/libstrophe'
@@ -296,7 +296,7 @@ name: 'hashcat (git)'
 command: 'git ls-remote --tags https://github.com/hashcat/hashcat'
 ---
 name: 'clamtk'
-command: 'curl https://bitbucket.org/davem_/clamtk/downloads/ 2>/dev/null|tr "<>" "\n"|grep clamtk|grep -v "{"|grep tar|grep -v href|sort'
+command: 'curl https://bitbucket.org/davem_/clamtk/downloads/ 2>/dev/null|tr "<>" "\n"|grep clamtk|grep -v "{"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep -v href|sort'
 ---
 name: 'dnsenum'
 command: 'git ls-remote --tags https://github.com/fwaeytens/dnsenum'
@@ -305,7 +305,7 @@ name: 'cjdns'
 command: 'git ls-remote --tags https://github.com/cjdelisle/cjdns'
 ---
 name: 'firmware-mod-kit'
-command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Ffirmware-mod-kit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep tar"
+command: "curl 'https://www.googleapis.com/storage/v1/b/google-code-archive/o/v2%2Fcode.google.com%2Ffirmware-mod-kit%2Fdownloads-page-1.json?alt=media&stripTrailingSlashes=false' 2>/dev/null|tr ',' '\n'|grep -E '\\.(zip|tar|tgz|xz|bz2)'"
 ---
 name: 'xprobe2'
 command: 'curl https://sourceforge.net/projects/xprobe/files/xprobe2/ 2>/dev/null|grep .tar.gz'
@@ -314,7 +314,7 @@ name: 'xmonad-utils'
 command: "curl https://hackage.haskell.org/package/xmonad-utils 2>/dev/null|grep .tar.gz"
 ---
 name: 'peda'
-command: 'git ls-remote https://github.com/longld/peda'
+command: 'git ls-remote --heads --tags https://github.com/longld/peda'
 ---
 name: 'viper-framework'
 command: 'git ls-remote --tags https://github.com/viper-framework/viper'
@@ -341,7 +341,7 @@ name: 'rabbitmqadmin'
 command: 'git ls-remote --tags https://github.com/rabbitmq/rabbitmq-management'
 ---
 name: 'gradle'
-command: "curl https://services.gradle.org/distributions/ 2>/dev/null|grep zip|sed -r 's|.+>(.+)<.+|\\1|g'|grep -v image|sort"
+command: "curl https://services.gradle.org/distributions/ 2>/dev/null|grep -E '\\.(zip|tar|tgz|xz|bz2)'|sed -r 's|.+>(.+)<.+|\\1|g'|grep -v image|sort"
 ---
 name: 'binnavi'
 command: 'git ls-remote --tags https://github.com/google/binnavi'
@@ -401,16 +401,16 @@ name: 'speedtest-cli'
 command: 'git ls-remote --tags https://github.com/sivel/speedtest-cli'
 ---
 name: 'knockd'
-command: 'curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep tar.gz'
+command: 'curl http://www.zeroflux.org/projects/knock 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'grails'
 command: 'git ls-remote --tags https://github.com/grails/grails-core'
 ---
 name: 'gef'
-command: 'git ls-remote https://github.com/hugsy/gef'
+command: 'git ls-remote --heads --tags https://github.com/hugsy/gef'
 ---
 name: 'distorm'
-command: 'git ls-remote https://github.com/gdabah/distorm'
+command: 'git ls-remote --heads --tags https://github.com/gdabah/distorm'
 ---
 name: 'afl-utils'
 command: 'git ls-remote --tags https://github.com/rc0r/afl-utils'
@@ -425,7 +425,7 @@ name: 'python-netaddr'
 command: 'git ls-remote --tags https://github.com/drkjam/netaddr'
 ---
 name: 'mdk3'
-command: "curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep tar"
+command: "curl 'http://aspj.aircrack-ng.org/#mdk3' 2>/dev/null|grep mdk3|grep -E '\\.(zip|tar|tgz|xz|bz2)'"
 ---
 name: 'unicorn'
 command: 'git ls-remote --tags https://github.com/unicorn-engine/unicorn'
@@ -459,9 +459,6 @@ command: "curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.
 ---
 name: 'python-ujson (git)'
 command: 'git ls-remote --tags https://github.com/esnme/ultrajson'
----
-name: 'thc-ipv6'
-command: 'curl https://thc.org/thc-ipv6/ --insecure 2>/dev/null|grep tar.gz'
 ---
 name: 'thc-ipv6 (github)'
 command: 'git ls-remote --tags https://github.com/vanhauser-thc/thc-ipv6'
@@ -605,7 +602,7 @@ name: 'LinSSID'
 command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files|grep -v stats"
 ---
 name: 'john'
-command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep tar"
+command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep -E '\\.(zip|tar|tgz|xz|bz2)'"
 ---
 name: 'steam'
 url: 'http://repo.steampowered.com/steam/pool/steam/s/steam/'
@@ -689,7 +686,7 @@ name: 'umurmur (github)'
 command: 'git ls-remote --tags https://github.com/umurmur/umurmur'
 ---
 name: 'xpdf (ftp)'
-command: 'curl http://www.xpdfreader.com/download.html 2>/dev/null | grep tar'
+command: 'curl http://www.xpdfreader.com/download.html 2>/dev/null | grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python2-subprocess32 (github)'
 command: 'git ls-remote --tags https://github.com/google/python-subprocess32'
@@ -713,7 +710,7 @@ name: 'mtr (github)'
 command: 'git ls-remote --tags https://github.com/traviscross/mtr'
 ---
 name: 'mtr (upstream)'
-command: 'curl ftp://ftp.bitwizard.nl/mtr/ 2>/dev/null'
+command: 'curl ftp://ftp.bitwizard.nl/mtr/ 2>/dev/null|tr " " "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'nvidia-settings (github)'
 command: 'git ls-remote --tags https://github.com/NVIDIA/nvidia-settings'
@@ -737,16 +734,16 @@ name: 'smplayer-themes (sourceforge)'
 command: 'curl https://sourceforge.net/projects/smplayer/files/SMPlayer-themes/ 2>/dev/null|tr \"\<\> "\n"|grep files/|grep -v google|grep -v net.sf.file'
 ---
 name: 'libdbusmenu (launchpad)'
-command: 'curl https://launchpad.net/libdbusmenu/+download 2>/dev/null|grep tar.gz'
+command: 'curl https://launchpad.net/libdbusmenu/+download 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'libindicator (launchpad)'
-command: 'curl https://launchpad.net/libindicator/+download 2>/dev/null|grep tar.gz'
+command: 'curl https://launchpad.net/libindicator/+download 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'libappindicator (launchpad)'
-command: 'curl https://launchpad.net/libappindicator/+download 2>/dev/null|grep tar.gz'
+command: 'curl https://launchpad.net/libappindicator/+download 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'sdl2_ttf'
-command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep tar.gz'
+command: 'curl http://www.libsdl.org/projects/SDL_ttf/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'jsoncpp (github)'
 command: 'git ls-remote --tags https://github.com/open-source-parsers/jsoncpp'
@@ -767,7 +764,7 @@ name: 'gufw (launchpad)'
 command: 'curl https://launchpad.net/gui-ufw 2>/dev/null|grep Version -A1'
 ---
 name: 'gufw (launchpad downloads)'
-command: 'curl https://launchpad.net/gui-ufw/+download 2>/dev/null|grep tar.gz'
+command: 'curl https://launchpad.net/gui-ufw/+download 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'avidemux (sourceforge)'
 command: 'curl https://sourceforge.net/projects/avidemux/files/avidemux/ 2>/dev/null|grep released'
@@ -776,7 +773,7 @@ name: 'jasper (github)'
 command: 'git ls-remote --tags https://github.com/mdadams/jasper'
 ---
 name: 'tftpy (github)'
-command: 'git ls-remote https://github.com/msoulier/tftpy'
+command: 'git ls-remote --heads --tags https://github.com/msoulier/tftpy'
 ---
 name: 'tftpy (sourceforge)'
 command: 'curl https://sourceforge.net/projects/tftpy/files/ 2>/dev/null|grep released'
@@ -788,10 +785,10 @@ name: 'libpsl (github)'
 command: 'git ls-remote --tags https://github.com/rockdaboot/libpsl'
 ---
 name: 'publicsuffix-list (github)'
-command: 'git ls-remote --heads https://github.com/publicsuffix/list'
+command: 'git ls-remote --heads --tags https://github.com/publicsuffix/list'
 ---
 name: 'python-qrencode (pypi)'
-command: 'curl https://pypi.python.org/pypi/qrencode 2>/dev/null|grep tar.gz'
+command: 'curl https://pypi.python.org/pypi/qrencode 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-qrencode (github)'
 command: 'git ls-remote --tags https://github.com/Arachnid/pyqrencode'
@@ -839,7 +836,7 @@ name: 'cmocka (git)'
 command: 'git ls-remote --tags https://git.cryptomilk.org/projects/cmocka.git'
 ---
 name: 'vlc'
-url: 'https://download.videolan.org/vlc/'
+command: 'curl https://download.videolan.org/vlc/ 2>/dev/null|grep href|sed -E "s|.*>(.+)<.*|\1|"'
 ---
 name: 'krb5'
 command: 'curl https://web.mit.edu/kerberos/ 2>/dev/null|grep release'
@@ -899,13 +896,13 @@ name: 'python-distro (github)'
 command: 'git ls-remote --tags https://github.com/nir0s/distro'
 ---
 name: 'perl-archive-cpio'
-command: 'curl https://metacpan.org/release/Archive-Cpio 2>/dev/null|grep tar.gz'
+command: 'curl https://metacpan.org/release/Archive-Cpio 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-editor'
 command: 'git ls-remote --tags https://github.com/fmoo/python-editor'
 ---
 name: 'python-alembic (pypi)'
-command: 'curl https://pypi.python.org/pypi/alembic 2>/dev/null|grep tar.gz'
+command: 'curl https://pypi.python.org/pypi/alembic 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-commonmark (github)'
 command: 'git ls-remote --tags https://github.com/rtfd/CommonMark-py'
@@ -914,10 +911,10 @@ name: 'python-recommonmark (github)'
 command: 'git ls-remote --tags https://github.com/rtfd/recommonmark'
 ---
 name: 'python-recommonmark (pypi)'
-command: 'curl https://pypi.python.org/pypi/recommonmark 2>/dev/null|grep tar.gz'
+command: 'curl https://pypi.python.org/pypi/recommonmark 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'rxvt-unicode (upstream)'
-command: 'curl http://dist.schmorp.de/rxvt-unicode/ 2>/dev/null|grep tar'
+command: 'curl http://dist.schmorp.de/rxvt-unicode/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'ruby-async (github)'
 command: 'git ls-remote --tags https://github.com/socketry/async'
@@ -1115,16 +1112,16 @@ name: 'dzen2 (github)'
 command: 'git ls-remote https://github.com/robm/dzen'
 ---
 name: 'vim-gitgutter (github)'
-command: 'git ls-remote https://github.com/airblade/vim-gitgutter'
+command: 'git ls-remote --heads --tags https://github.com/airblade/vim-gitgutter'
 ---
 name: 'dmenu (git)'
 command: 'git ls-remote --tags https://git.suckless.org/dmenu'
 ---
 name: 'dmenu (upstream)'
-command: 'curl https://tools.suckless.org/dmenu/ 2>/dev/null|grep tar.gz'
+command: 'curl https://tools.suckless.org/dmenu/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'valgrind (upstream)'
-command: "curl https://sourceware.org/pub/valgrind/ 2>/dev/null|tr '<>' '\n'|grep tar|grep -v href"
+command: "curl https://sourceware.org/pub/valgrind/ 2>/dev/null|tr '<>' '\n'|grep -E '\\.(zip|tar|tgz|xz|bz2)'|grep -v href"
 ---
 name: 'libgdiplus (github)'
 command: 'git ls-remote --tags https://github.com/mono/libgdiplus'
@@ -1145,7 +1142,7 @@ name: 'python-scrypt (bitbucket)'
 url: 'https://bitbucket.org/mhallin/py-scrypt/raw/default/.hgtags'
 ---
 name: 'python-scrypt (pypi)'
-command: 'curl https://pypi.python.org/pypi/scrypt/ 2>/dev/null|grep tar.gz'
+command: 'curl https://pypi.python.org/pypi/scrypt/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'scrypt'
 command: 'curl https://www.tarsnap.com/scrypt.html 2>/dev/null|grep tgz|tr \" "\n"|grep tgz'
@@ -1154,16 +1151,16 @@ name: 'python-urwid (github)'
 command: 'git ls-remote --tags https://github.com/urwid/urwid'
 ---
 name: 'libidn2 (ftp)'
-command: 'curl https://ftp.gnu.org/gnu/libidn/ 2>/dev/null|tr \" "\n"|grep tar|grep "^libidn2"'
+command: 'curl https://ftp.gnu.org/gnu/libidn/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep "^libidn2"'
 ---
 name: 'libunistring (ftp)'
-command: 'curl https://ftp.gnu.org/gnu/libunistring/ 2>/dev/null|tr \" "\n"|grep tar|grep "^libuni"'
+command: 'curl https://ftp.gnu.org/gnu/libunistring/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep "^libuni"'
 ---
 name: 'libmicrodns (github)'
 command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
 ---
 name: 'ccache (upstream)'
-command: 'curl https://www.samba.org/ftp/ccache/ 2>/dev/null|tr \" "\n"|grep tar|grep "^ccache"'
+command: 'curl https://www.samba.org/ftp/ccache/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep "^ccache"'
 ---
 name: 'libplacebo (github)'
 command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
@@ -1178,7 +1175,7 @@ name: 'miniupnp (upstream)'
 command: 'curl https://miniupnp.tuxfamily.org/files/ 2>/dev/null|grep .tar|tr "<>" "\n"|grep "^miniupnp"'
 ---
 name: 'libupnp (sourceforge)'
-command: 'curl "https://sourceforge.net/projects/pupnp/rss?path=/pupnp" 2>/dev/null|grep link|tr "/" "\n"|grep tar'
+command: 'curl "https://sourceforge.net/projects/pupnp/rss?path=/pupnp" 2>/dev/null|grep link|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'ncrack (github)'
 command: 'git ls-remote --tags https://github.com/nmap/ncrack'
@@ -1196,7 +1193,7 @@ name: 'exfat (github)'
 command: 'git ls-remote --tags https://github.com/relan/exfat'
 ---
 name: 'perl-net-ssleay (cpan)'
-command: 'curl http://search.cpan.org/dist/Net-SSLeay/ 2>/dev/null|grep Net-SSLeay|grep tar'
+command: 'curl http://search.cpan.org/dist/Net-SSLeay/ 2>/dev/null|grep Net-SSLeay|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'i3 (github)'
 command: 'git ls-remote --tags https://github.com/i3/i3'
@@ -1233,5 +1230,11 @@ command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|g
 ---
 name: 'async_generator (github)'
 command: 'git ls-remote --tags https://github.com/python-trio/async_generator'
+---
+name: 'openjdk'
+command: 'curl http://hg.openjdk.java.net/jdk/jdk10/raw-file/default/.hgtags 2>/dev/null'
+---
+name: 'vim-jedi (github)'
+command: 'git ls-remote --tags https://github.com/davidhalter/jedi-vim'
 
 # vim: ft=yaml

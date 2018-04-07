@@ -262,6 +262,7 @@ vim-easymotion
 vim-fugitive
 vim-gitgutter
 vimiv
+vim-jedi
 vim-nerdcommenter
 vim-surround
 vim-tagbar
