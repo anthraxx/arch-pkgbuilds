@@ -1,10 +1,10 @@
-# $Id: PKGBUILD 318565 2018-03-11 17:54:28Z heftig $
+# $Id: PKGBUILD 320541 2018-03-28 09:20:29Z heftig $
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Contributor: Ionut Biru <ibiru@archlinux.org>
 # Contributor: Timm Preetz <timm@preetz.us>
 
 pkgname=vala
-pkgver=0.40.0
+pkgver=0.40.2
 pkgrel=1
 pkgdesc="Compiler for the GObject type system"
 url="https://wiki.gnome.org/Projects/Vala"
@@ -16,7 +16,7 @@ checkdepends=(dbus libx11 gobject-introspection)
 provides=(valadoc)
 conflicts=(valadoc)
 replaces=(valadoc)
-_commit=3ae57ab3ae448815e61da34fbd36a14cae679336  # tags/0.40.0^0
+_commit=3a11e70aefae4f2344b6352440e82cab0963f4f7  # tags/0.40.2^0
 source=("git+https://git.gnome.org/browse/vala#commit=$_commit")
 sha256sums=('SKIP')
 
