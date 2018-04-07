@@ -1,6 +1,6 @@
 pkgbase = python-pcapy
 	pkgdesc = Extension module that interfaces with the libpcap packet capture library
-	pkgver = 0.11.1
+	pkgver = 0.11.3
 	pkgrel = 1
 	url = https://github.com/CoreSecurity/pcapy
 	arch = x86_64
@@ -8,8 +8,8 @@ pkgbase = python-pcapy
 	makedepends = python-setuptools
 	makedepends = python2-setuptools
 	makedepends = libpcap
-	source = python-pcapy-0.11.1.tar.gz::https://github.com/CoreSecurity/pcapy/archive/0.11.1.tar.gz
-	sha512sums = 60eebbeae84da33d7bd2eb2398687007a305e8986fcc183d8061fa50bbc0cdf9a66c17461a32a652ca39952dd0935b164bd98a200f82ffef00ffaa55409522a3
+	source = python-pcapy-0.11.3.tar.gz::https://github.com/CoreSecurity/pcapy/archive/0.11.3.tar.gz
+	sha512sums = 1fb385e9de757346876cc5a4daf5399380e5e41632c4d9b02385833b55396342d082e5e86a284f7d1bf65eda886cc9aa1d324e77fabad7f8ca6731837f03f08a
 
 pkgname = python-pcapy
 	depends = python
