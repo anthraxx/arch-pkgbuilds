@@ -1239,5 +1239,8 @@ command: 'git ls-remote --tags https://github.com/davidhalter/jedi-vim'
 ---
 name: 'flawfinder (sourceforge)'
 command: 'curl "https://sourceforge.net/projects/flawfinder/files/?source=navbar" 2>/dev/null|grep href|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+---
+name: 'ruby-manpages (github)'
+command: 'git ls-remote --tags https://github.com/bitboxer/manpages'
 
 # vim: ft=yaml

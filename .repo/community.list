@@ -195,6 +195,7 @@ ruby-hitimes
 ruby-jekyll-sass-converter
 ruby-kramdown
 ruby-mail-gpg
+ruby-manpages
 ruby-maruku
 ruby-mercenary
 ruby-mini_portile2
