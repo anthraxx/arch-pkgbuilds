@@ -1,0 +1,16 @@
+pkgbase = ruby-manpages
+	pkgdesc = Man pages support for ruby gems
+	pkgver = 0.6.1
+	pkgrel = 1
+	url = https://github.com/bitboxer/manpages
+	arch = any
+	license = MIT
+	depends = ruby
+	depends = ruby-rdoc
+	options = !emptydirs
+	source = ruby-manpages-0.6.1.tar.gz::https://github.com/bitboxer/manpages/archive/0.6.1.tar.gz
+	sha256sums = c25fa337fd162c6442a42073d4aaf9468c2df49d7bfb953bd887790ca3872ced
+	sha512sums = e2194cd8a8f91265203cfb2f63948c9f7a5c5c60c9435acebefbea7b88fcdd3da5dc08acf5589c42c06a8688e304ab88296216de23ac0d729ec893a6cc308a61
+
+pkgname = ruby-manpages
+
