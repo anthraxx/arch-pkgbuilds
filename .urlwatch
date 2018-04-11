@@ -215,7 +215,7 @@ name: 'ncmpcpp (git)'
 command: 'git ls-remote --tags git://repo.or.cz/ncmpcpp'
 ---
 name: 'ncmpcpp (http)'
-command: 'curl http://rybczak.net/ncmpcpp/stable/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep -v "</a>"|sort'
+command: 'curl https://rybczak.net/ncmpcpp/stable/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep -v "</a>"|sort'
 ---
 name: 'scanmem'
 command: 'git ls-remote --tags https://github.com/scanmem/scanmem'
