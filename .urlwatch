@@ -1236,5 +1236,8 @@ command: 'curl http://hg.openjdk.java.net/jdk/jdk10/raw-file/default/.hgtags 2>/
 ---
 name: 'vim-jedi (github)'
 command: 'git ls-remote --tags https://github.com/davidhalter/jedi-vim'
+---
+name: 'flawfinder (sourceforge)'
+command: 'curl "https://sourceforge.net/projects/flawfinder/files/?source=navbar" 2>/dev/null|grep href|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 
 # vim: ft=yaml
