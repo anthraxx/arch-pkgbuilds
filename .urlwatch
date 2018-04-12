@@ -1172,7 +1172,7 @@ name: 'miniupnp (github)'
 command: 'git ls-remote --tags https://github.com/miniupnp/miniupnp'
 ---
 name: 'miniupnp (upstream)'
-command: 'curl https://miniupnp.tuxfamily.org/files/ 2>/dev/null|grep .tar|tr "<>" "\n"|grep "^miniupnp"'
+command: 'curl https://miniupnp.tuxfamily.org/files/ 2>/dev/null|grep .tar|tr "<>" "\n"|grep "^miniupnp"|sort -u'
 ---
 name: 'libupnp (sourceforge)'
 command: 'curl "https://sourceforge.net/projects/pupnp/rss?path=/pupnp" 2>/dev/null|grep link|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
