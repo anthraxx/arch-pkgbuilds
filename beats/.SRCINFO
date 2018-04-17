@@ -1,7 +1,7 @@
 pkgbase = beats
 	pkgdesc = Data shippers for Elasticsearch
 	pkgver = 6.2.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.elastic.co/products/beats
 	arch = x86_64
 	license = APACHE
