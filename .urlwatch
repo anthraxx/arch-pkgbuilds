@@ -188,10 +188,10 @@ name: 'pyton-olefile (gitub)'
 command: 'git ls-remote --tags https://github.com/decalage2/olefile'
 ---
 name: 'pdb-clone'
-command: 'curl https://pypi.python.org/pypi/pdb-clone 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/pdb-clone -L 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'pyclewn'
-command: 'curl https://pypi.python.org/pypi/pyclewn 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/pyclewn -L 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'libressl'
 command: 'git ls-remote --tags https://github.com/libressl-portable/portable'
@@ -200,13 +200,13 @@ name: 'w3af'
 command: 'git ls-remote --tags https://github.com/andresriancho/w3af'
 ---
 name: 'python-tblib'
-command: 'curl https://pypi.python.org/pypi/tblib 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/tblib -L 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-stopit'
 command: 'git ls-remote --tags https://github.com/glenfant/stopit'
 ---
 name: 'python2-darts.util.lru'
-command: 'curl https://pypi.python.org/pypi/darts.util.lru 2>/dev/null|grep -i version'
+command: 'curl https://pypi.python.org/pypi/darts.util.lru -L 2>/dev/null|grep -i version'
 ---
 name: 'vundle'
 command: 'git ls-remote --tags https://github.com/gmarik/Vundle.vim'
@@ -455,7 +455,7 @@ name: 'vsftpd'
 url: 'https://security.appspot.com/vsftpd/Changelog.txt'
 ---
 name: 'python-ujson (http)'
-command: "curl https://pypi.python.org/pypi/ujson/ 2>/dev/null|grep -E 'zip|tar.gz'"
+command: "curl https://pypi.python.org/pypi/ujson/ -L 2>/dev/null|grep -E 'zip|tar.gz'"
 ---
 name: 'python-ujson (git)'
 command: 'git ls-remote --tags https://github.com/esnme/ultrajson'
@@ -524,13 +524,13 @@ name: 'python-blist (git)'
 command: 'git ls-remote --tags https://github.com/DanielStutzbach/blist'
 ---
 name: 'python-blist (pypi)'
-command: 'curl https://pypi.python.org/pypi/blist 2>/dev/null|grep blist|grep .tar'
+command: 'curl https://pypi.python.org/pypi/blist -L 2>/dev/null|grep blist|grep .tar'
 ---
 name: 'python-unittest2 (hg)'
 command: 'curl https://hg.python.org/unittest2/tags 2>/dev/null|grep /rev/'
 ---
 name: 'python-unittest2 (pypi)'
-command: 'curl https://pypi.python.org/pypi/unittest2 2>/dev/null|grep unittest2|grep .tar'
+command: 'curl https://pypi.python.org/pypi/unittest2 -L 2>/dev/null|grep unittest2|grep .tar'
 ---
 name: 'pidgin-xmpp-recepts (git)'
 command: 'git ls-remote --tags https://github.com/noonien-d/pidgin-xmpp-receipts'
@@ -788,7 +788,7 @@ name: 'publicsuffix-list (github)'
 command: 'git ls-remote --heads --tags https://github.com/publicsuffix/list'
 ---
 name: 'python-qrencode (pypi)'
-command: 'curl https://pypi.python.org/pypi/qrencode 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/qrencode -L 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-qrencode (github)'
 command: 'git ls-remote --tags https://github.com/Arachnid/pyqrencode'
@@ -902,7 +902,7 @@ name: 'python-editor'
 command: 'git ls-remote --tags https://github.com/fmoo/python-editor'
 ---
 name: 'python-alembic (pypi)'
-command: 'curl https://pypi.python.org/pypi/alembic 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/alembic -L 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'python-commonmark (github)'
 command: 'git ls-remote --tags https://github.com/rtfd/CommonMark-py'
@@ -911,7 +911,7 @@ name: 'python-recommonmark (github)'
 command: 'git ls-remote --tags https://github.com/rtfd/recommonmark'
 ---
 name: 'python-recommonmark (pypi)'
-command: 'curl https://pypi.python.org/pypi/recommonmark 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/recommonmark -L 2>/dev/null|sed -E "s|.*>(.*)<.*|\1|"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'rxvt-unicode (upstream)'
 command: 'curl http://dist.schmorp.de/rxvt-unicode/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
@@ -1142,7 +1142,7 @@ name: 'python-scrypt (bitbucket)'
 url: 'https://bitbucket.org/mhallin/py-scrypt/raw/default/.hgtags'
 ---
 name: 'python-scrypt (pypi)'
-command: 'curl https://pypi.python.org/pypi/scrypt/ 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
+command: 'curl https://pypi.python.org/pypi/scrypt/ -L 2>/dev/null|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
 name: 'scrypt'
 command: 'curl https://www.tarsnap.com/scrypt.html 2>/dev/null|grep tgz|tr \" "\n"|grep tgz'
