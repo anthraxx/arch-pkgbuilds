@@ -1,6 +1,6 @@
 pkgbase = pgadmin4
 	pkgdesc = Comprehensive design and management interface for PostgreSQL
-	pkgver = 2.1
+	pkgver = 3.0
 	pkgrel = 1
 	url = https://www.pgadmin.org/
 	arch = x86_64
@@ -12,17 +12,17 @@ pkgbase = pgadmin4
 	depends = python-psycopg2
 	depends = postgresql-libs
 	depends = hicolor-icon-theme
-	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v2.1/source/pgadmin4-2.1.tar.gz
-	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v2.1/source/pgadmin4-2.1.tar.gz.sig
+	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v3.0/source/pgadmin4-3.0.tar.gz
+	source = https://ftp.postgresql.org/pub/pgadmin/pgadmin4/v3.0/source/pgadmin4-3.0.tar.gz.sig
 	source = pgAdmin4.desktop
 	source = config_distro.py
 	source = config_local.py
 	validpgpkeys = E0C4CEEB826B1FDA4FB468E024ADFAAF698F1519
-	sha256sums = 6c73244552c3195ced59282ed8eab3a0cae7c1a99fe30e7ec13bc3f2a102ab4a
-	sha256sums = SKIP
-	sha256sums = 9a39a321fa5a7fcf4f7f7abf6872de6de537800212e9f6f4902ed37b806765b7
-	sha256sums = 510c11bf26fa335548ec4c582bc9f5a5242b8e03f3cb0b7c19e6bfd12b6d663c
-	sha256sums = e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+	sha512sums = 5921340176e6748ef13112d906061f195d4bb2f73917d762371bbaeb44ef66cf8e0edcd1cd241eb78dae46ed0b3af014c749468a930fb0c0983b38b2c54dfc3a
+	sha512sums = SKIP
+	sha512sums = 25e6ae6658dd25aa9ebaccaef89ab15c19d513da3641fecaf9100d1139b0cc32c027f60a688f5fdff3b26e7be7897e33e9a7b4dddbf68599e583bd5b2e7946e9
+	sha512sums = 16d00dc2095904a6b12da7039458f632873829ad98d4d7653eac5804032ba92097ccae4488d56467d0ea9bd64e2654a3dead73eb7924c947ff1737ff6e3b4745
+	sha512sums = cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
 
 pkgname = pgadmin4
 
