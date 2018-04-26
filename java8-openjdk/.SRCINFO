@@ -1,0 +1,74 @@
+pkgbase = java8-openjdk
+	pkgver = 8.u172
+	pkgrel = 2
+	url = http://openjdk.java.net/
+	arch = x86_64
+	license = custom
+	makedepends = jdk7-openjdk
+	makedepends = ccache
+	makedepends = cpio
+	makedepends = unzip
+	makedepends = zip
+	makedepends = libxrender
+	makedepends = libxtst
+	makedepends = fontconfig
+	makedepends = libcups
+	makedepends = alsa-lib
+	source = jdk8u-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u172-b11.tar.gz
+	source = corba-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u172-b11.tar.gz
+	source = hotspot-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u172-b11.tar.gz
+	source = jdk-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u172-b11.tar.gz
+	source = jaxws-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u172-b11.tar.gz
+	source = jaxp-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u172-b11.tar.gz
+	source = langtools-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u172-b11.tar.gz
+	source = nashorn-jdk8u172-b11.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u172-b11.tar.gz
+	sha256sums = f1ca31605360594cb57b21aa5888f253e9775125957f96afb1a9dbb71676af22
+	sha256sums = a89b558a4bb1d0368486a58d248a16b1760f8536fdc94ff70bf09e5c1bfcea24
+	sha256sums = f7a2652021b50d43c076df8f94cec13b82e2704c0d1535289074cb5e0eec31a0
+	sha256sums = 756b6855c9bdb7ae1ac4b7a4d2bafcbdad4ab6dd33ccc64efb94f9d4f21273d3
+	sha256sums = 8ad3b70c468cce6104f023ca5f4354462a47a38d9dc25994a6d04b2c18598432
+	sha256sums = 0193ff13167f6ff7d667cd32dd2d05e4591975a4404b433c9ff59d2d4ce54603
+	sha256sums = ef0f2042143cf6ddc508d81978fdb7cd900d38e5b166f40112d1967ceb09f036
+	sha256sums = 2a3bff4dfca022cb603cd46a6766fd1b7212adb473af5809b48504576bce6029
+
+pkgname = jre8-openjdk-headless
+	pkgdesc = OpenJDK Java 8 headless runtime environment
+	install = install_jre8-openjdk-headless.sh
+	depends = java-runtime-common
+	depends = ca-certificates-utils
+	depends = nss
+	optdepends = java-rhino: for some JavaScript support
+	provides = java-runtime-headless=8
+	provides = java-runtime-headless-openjdk=8
+	replaces = jre8-openjdk-headless-wm
+	backup = 
+
+pkgname = jre8-openjdk
+	pkgdesc = OpenJDK Java 8 full runtime environment
+	install = install_jre8-openjdk.sh
+	depends = jre8-openjdk-headless=8.u172-2
+	depends = xdg-utils
+	depends = hicolor-icon-theme
+	optdepends = icedtea-web: web browser plugin + Java Web Start
+	optdepends = alsa-lib: for basic sound support
+	optdepends = gtk2: for the Gtk+ look and feel - desktop usage
+	optdepends = java-openjfx: for JavaFX GUI components support
+	provides = java-runtime=8
+	provides = java-runtime-openjdk=8
+	replaces = jre8-openjdk-wm
+
+pkgname = jdk8-openjdk
+	pkgdesc = OpenJDK Java 8 development kit
+	install = install_jdk8-openjdk.sh
+	depends = java-environment-common
+	depends = jre8-openjdk=8.u172-2
+	provides = java-environment=8
+	provides = java-environment-openjdk=8
+	replaces = jdk8-openjdk-wm
+
+pkgname = openjdk8-src
+	pkgdesc = OpenJDK Java 8 sources
+
+pkgname = openjdk8-doc
+	pkgdesc = OpenJDK Java 8 documentation
+
