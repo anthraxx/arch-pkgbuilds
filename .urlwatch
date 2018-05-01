@@ -1245,5 +1245,8 @@ command: 'curl "https://sourceforge.net/projects/flawfinder/files/?source=navbar
 ---
 name: 'ruby-manpages (github)'
 command: 'git ls-remote --tags https://github.com/bitboxer/manpages'
+---
+name: 'xcb-util-xrm (github)'
+command: 'git ls-remote --tags https://github.com/Airblader/xcb-util-xrm'
 
 # vim: ft=yaml

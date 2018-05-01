@@ -276,6 +276,7 @@ websocketpp
 wifite
 wireshark
 wpscan
+xcb-util-xrm
 xdot
 xmobar
 xmonad
