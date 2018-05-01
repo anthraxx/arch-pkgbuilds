@@ -1,15 +1,16 @@
 pkgbase = pax-utils
-	pkgdesc = ELF related utils for ELF 32/64 binaries that can check files for security relevant properties
-	pkgver = 1.2.2
-	pkgrel = 3
-	url = http://hardened.gentoo.org/pax-utils.xml
+	pkgdesc = ELF utils that can check files for security relevant properties
+	pkgver = 1.2.3
+	pkgrel = 1
+	url = https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 	arch = x86_64
-	license = GPL
+	license = GPL2
 	depends = bash
 	depends = libcap
 	depends = python-pyelftools
-	source = http://distfiles.gentoo.org/distfiles/pax-utils-1.2.2.tar.xz
-	sha256sums = 7f4a7f8db6b4743adde7582fa48992ad01776796fcde030683732f56221337d9
+	source = https://dev.gentoo.org/~slyfox/distfiles/pax-utils-1.2.3.tar.xz
+	sha256sums = d231b1a34aea2b9205c24fada79a8251d4c3fbcce49367fc055fe43e4c9783b2
+	sha512sums = efcbce49aa7e5cd433f9b3fbc8fa82f6d7b0eb80ec40aafde453d6fe96e3565e066e5020f04d71537d8d4e820147f4203c0df2dd330ebb1358a26def3dd5484c
 
 pkgname = pax-utils
 
