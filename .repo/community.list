@@ -102,6 +102,7 @@ openntpd
 owl-lisp
 p0f
 patchelf
+pax-utils
 pdfcrack
 peda
 penlight

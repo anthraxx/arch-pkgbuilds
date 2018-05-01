@@ -1248,5 +1248,8 @@ command: 'git ls-remote --tags https://github.com/bitboxer/manpages'
 ---
 name: 'xcb-util-xrm (github)'
 command: 'git ls-remote --tags https://github.com/Airblader/xcb-util-xrm'
+---
+name: 'pax-utils (upstream)'
+command: 'curl https://dev.gentoo.org/~slyfox/distfiles/ 2>/dev/null|grep pax-utils|tr "><" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)$"'
 
 # vim: ft=yaml
