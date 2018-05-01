@@ -1,0 +1,15 @@
+pkgbase = xcb-util-xrm
+	pkgdesc = XCB utility functions for the X resource manager
+	pkgver = 1.2
+	pkgrel = 2
+	url = https://github.com/Airblader/xcb-util-xrm
+	arch = x86_64
+	license = MIT
+	makedepends = xorg-util-macros
+	makedepends = libx11
+	depends = xcb-util
+	source = https://github.com/Airblader/xcb-util-xrm/releases/download/v1.2/xcb-util-xrm-1.2.tar.gz
+	sha256sums = c4a1d64d4a6973c649e3b6e3c418242f11e39c65d4d227d555d48f6df0558567
+
+pkgname = xcb-util-xrm
+
