@@ -1103,7 +1103,7 @@ name: 'linux-hardened (github)'
 command: 'git ls-remote --tags https://github.com/copperhead/linux-hardened'
 ---
 name: 'vim-vital (github)'
-command: 'git ls-remote https://github.com/vim-jp/vital.vim'
+command: 'git ls-remote --heads --tags https://github.com/vim-jp/vital.vim'
 ---
 name: 'vim-easymotion (github)'
 command: 'git ls-remote --tags https://github.com/easymotion/vim-easymotion'
@@ -1231,8 +1231,11 @@ command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|g
 name: 'async_generator (github)'
 command: 'git ls-remote --tags https://github.com/python-trio/async_generator'
 ---
-name: 'openjdk'
-command: 'curl http://hg.openjdk.java.net/jdk/jdk10/raw-file/default/.hgtags 2>/dev/null'
+name: 'openjdk 10'
+command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk10u/raw-file/default/.hgtags 2>/dev/null'
+---
+name: 'openjdk 8'
+command: 'curl http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/raw-file/default/.hgtags 2>/dev/null'
 ---
 name: 'vim-jedi (github)'
 command: 'git ls-remote --tags https://github.com/davidhalter/jedi-vim'
