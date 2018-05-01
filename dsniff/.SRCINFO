@@ -1,22 +1,30 @@
 pkgbase = dsniff
 	pkgdesc = Collection of tools for network auditing and penetration testing
 	pkgver = 2.4b1
-	pkgrel = 26
+	pkgrel = 27
 	url = https://www.monkey.org/~dugsong/dsniff/
 	arch = x86_64
 	license = BSD
+	makedepends = rpcsvc-proto
+	depends = glibc
 	depends = libpcap
 	depends = openssl
 	depends = libxmu
 	depends = glib2
 	depends = libnet
 	depends = libnids
+	depends = libtirpc
+	options = !makeflags
 	source = https://www.monkey.org/~dugsong/dsniff/beta/dsniff-2.4b1.tar.gz
-	source = http://ftp.de.debian.org/debian/pool/main/d/dsniff/dsniff_2.4b1+debian-22.1.debian.tar.gz
-	source = dsniff-openssl-1.1.patch
+	source = http://ftp.de.debian.org/debian/pool/main/d/dsniff/dsniff_2.4b1+debian-28.debian.tar.xz
+	source = dsniff-rpc.patch
+	source = dsniff-macof-size-calculation.patch
+	source = dsniff-httppostfix.patch
 	sha256sums = a9803a7a02ddfe5fb9704ce86f0ffc48453c321e88db85810db411ba0841152a
-	sha256sums = 28ddb8514c6a7a17f51f428b6fada299baf5a3efa153f77f081ac6c1e6466633
-	sha256sums = cd87f75b167b2b9b6d31e158610731f1305edd7339c6456c6bcb15f0849b02eb
+	sha256sums = b67866be5dca90a02165a3469db4286f43dc5ea6090b3a8cf5569863a1d3c3b9
+	sha256sums = 21b37ba4c386aa576d6829c298bdd62df6fa227e44164d9e96675e66b93bb134
+	sha256sums = d8f5cc5d14a614410a84a8eaba5a4212ee03466c4fe2fd4a634f5d7c3f688ec7
+	sha256sums = 3efd6ca2267540016e843af3e8d7720d888fd17a73cba410e2c68022fd3a7baf
 
 pkgname = dsniff
 
