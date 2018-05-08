@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 93
+	pkgver = 94
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -93,8 +93,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-93.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-93.tar.xz
-	sha512sums = 2788347513482e0ba26eeca190ec0f124de3c7b81e12a9f33d48ab015d095980e9276440c4a659e070282fc8a4fef2b16c1295a9f34f772489f064e9ee4f78eb
+	source = diffoscope-94.tar.xz::https://anonscm.debian.org/cgit/reproducible/diffoscope.git/snapshot/diffoscope-94.tar.xz
+	sha512sums = cdb5823b5baca2039182897cedd9e0ab216f6a7f6b0fc22afaa5a38710b5b2404077d59f3c9293adb650c0f817707d0b95fce684852ee93f6dafa55172a64b15
 
 pkgname = diffoscope
 
