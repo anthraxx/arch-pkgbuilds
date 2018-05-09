@@ -1,7 +1,7 @@
 pkgbase = cjdns
 	pkgdesc = Routing engine designed for security, scalability, speed and ease of use
-	pkgver = 20.1
-	pkgrel = 3
+	pkgver = 20.2
+	pkgrel = 1
 	url = https://github.com/cjdelisle/cjdns
 	install = cjdns.install
 	arch = x86_64
@@ -11,8 +11,9 @@ pkgbase = cjdns
 	depends = glibc
 	depends = sh
 	optdepends = nodejs: optional utilities support
-	source = cjdns-20.1.tar.gz::https://github.com/cjdelisle/cjdns/archive/cjdns-v20.1.tar.gz
-	sha512sums = 519835f489359fb677d35040862dece20b75d84716281096f2c32c8531e8d784d852d8e2709d8c67e8098ad819f62c2a2ef1647fbad3e28e3e20f502d23cd3e7
+	source = cjdns-20.2.tar.gz::https://github.com/cjdelisle/cjdns/archive/cjdns-v20.2.tar.gz
+	sha256sums = b114f4e89c971d2c288e3d8265396248a37134895b0e0468bf55030de84b4d2a
+	sha512sums = 31edd3ff7e62bfe2ab555da1e34d4b900829180d9558eecdd93a3d726126067c8094419683f047abdcabc444e3b2ae933a68ca4fa1b535731f977e07983b7d39
 
 pkgname = cjdns
 
