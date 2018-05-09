@@ -20,6 +20,7 @@ cowpatty
 diffoscope
 distorm
 dmenu
+dsniff
 dzen2
 elasticsearch
 enjarify
@@ -252,6 +253,7 @@ strip-nondeterminism
 synergy
 testssl.sh
 tetrinet
+tftpy
 thc-ipv6
 tlsh
 umurmur
