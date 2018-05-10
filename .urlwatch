@@ -1278,5 +1278,8 @@ command: 'git ls-remote --tags https://github.com/kpcyrd/rshijack'
 ---
 name: 'badtouch (github)'
 command: 'git ls-remote --tags https://github.com/kpcyrd/badtouch'
+---
+name: 'z3 (github)'
+command: 'git ls-remote --tags https://github.com/Z3Prover/z3'
 
 # vim: ft=yaml
