@@ -1,0 +1,19 @@
+pkgbase = etherape
+	pkgdesc = A graphical network monitor for various OSI layers and protocols
+	pkgver = 0.9.15
+	pkgrel = 2
+	url = http://etherape.sourceforge.net/
+	arch = x86_64
+	license = GPL2
+	makedepends = rarian
+	makedepends = gnome-doc-utils
+	depends = libgnomecanvas
+	depends = libpcap
+	depends = popt
+	source = https://downloads.sourceforge.net/etherape/etherape-0.9.15.tar.gz
+	source = drop-libgnomeui.patch
+	sha1sums = 9e97875b76a1543bf7145632dd3e018987ea1c96
+	sha1sums = SKIP
+
+pkgname = etherape
+
