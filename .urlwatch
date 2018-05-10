@@ -1269,5 +1269,14 @@ command: 'git ls-remote --tags https://github.com/appneta/tcpreplay'
 ---
 name: 'etherape (bitbucket)'
 command: 'curl https://bitbucket.org/bchiara/etherape/raw/default/.hgtags 2>/dev/null'
+---
+name: 'sniffglue (github)'
+command: 'git ls-remote --tags https://github.com/kpcyrd/sniffglue'
+---
+name: 'rshijack (github)'
+command: 'git ls-remote --tags https://github.com/kpcyrd/rshijack'
+---
+name: 'badtouch (github)'
+command: 'git ls-remote --tags https://github.com/kpcyrd/badtouch'
 
 # vim: ft=yaml

@@ -3,6 +3,7 @@ afl-utils
 arj
 asciiquarium
 awesome
+badtouch
 beats
 bettercap
 binwalk
@@ -175,6 +176,7 @@ radamsa
 radare2
 reaver
 ropper
+rshijack
 ruby-addressable
 ruby-async
 ruby-async-dns
@@ -244,6 +246,7 @@ slowhttptest
 smali
 smplayer
 smplayer-themes
+sniffglue
 speedtest-cli
 sqlmap
 sslscan
