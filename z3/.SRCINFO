@@ -1,15 +1,34 @@
 pkgbase = z3
-	pkgdesc = A high-performance theorem prover
+	pkgdesc = High-performance theorem prover
 	pkgver = 4.6.0
 	pkgrel = 2
 	url = https://github.com/Z3Prover/z3
 	arch = x86_64
 	license = MIT
+	makedepends = cmake
 	makedepends = python2
-	depends = gcc-libs
+	makedepends = python2-setuptools
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = gcc-libs
+	makedepends = gmp
 	optdepends = python2-setuptools: bindings for python2
 	source = https://github.com/Z3Prover/z3/archive/z3-4.6.0.tar.gz
+	source = z3-4.6.0-gcc8.patch::https://github.com/Z3Prover/z3/commit/2d5dd802386d78117d5ed9ddcbf8bc22ab3cb461.patch
 	sha512sums = 92a87292db17ceb4a90e45bce4f6237fe0437a7a5e147b4b63a2cb793e2d59fc04a6aa579ddb904280eac08b4a85c600df092d4c2fa99239199514b9c0363243
+	sha512sums = 8d1e9e140dcbc3e97379d5a4f7943837046b5cfa07bd76a5703242a0f80b9b70e9bb279282f3415f8fccc80590cf75d1b325393467cb2ad8f24bf3dc9d8a900d
 
 pkgname = z3
+	depends = gcc-libs
+	depends = gmp
+	provides = libz3
+	provides = libz3.so
+
+pkgname = python-z3
+	depends = python
+	depends = libz3
+
+pkgname = python2-z3
+	depends = python2
+	depends = libz3
 
