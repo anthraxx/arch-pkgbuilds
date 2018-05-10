@@ -1266,5 +1266,8 @@ command: 'git ls-remote --tags https://git.tuxfamily.org/chrony/chrony.git'
 ---
 name: 'tcpreplay (github)'
 command: 'git ls-remote --tags https://github.com/appneta/tcpreplay'
+---
+name: 'etherape (bitbucket)'
+command: 'curl https://bitbucket.org/bchiara/etherape/raw/default/.hgtags 2>/dev/null'
 
 # vim: ft=yaml
