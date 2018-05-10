@@ -18,6 +18,7 @@ libcap-ng
 libdvbpsi
 libgdiplus
 libmicrodns
+libmypaint
 libplacebo
 libpqxx
 libpsl
@@ -29,6 +30,7 @@ meson
 mono
 mplayer
 mtr
+mypaint-brushes
 nvidia-settings
 openmpi
 perl-net-ssleay

@@ -11,6 +11,7 @@ byacc
 capstone
 ccache
 checksec
+chrony
 cjdns
 clamtk
 cmocka
