@@ -1263,5 +1263,8 @@ command: 'git ls-remote --tags https://github.com/Jehan/mypaint-brushes'
 ---
 name: 'chrony (upstream git)'
 command: 'git ls-remote --tags https://git.tuxfamily.org/chrony/chrony.git'
+---
+name: 'tcpreplay (github)'
+command: 'git ls-remote --tags https://github.com/appneta/tcpreplay'
 
 # vim: ft=yaml

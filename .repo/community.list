@@ -252,6 +252,7 @@ steam
 steam-native-runtime
 strip-nondeterminism
 synergy
+tcpreplay
 testssl.sh
 tetrinet
 tftpy
