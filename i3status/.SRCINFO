@@ -1,0 +1,25 @@
+pkgbase = i3status
+	pkgdesc = Generates status bar to use with i3bar, dzen2 or xmobar
+	pkgver = 2.12
+	pkgrel = 1
+	url = https://i3wm.org/i3status/
+	install = i3status.install
+	arch = x86_64
+	groups = i3
+	license = BSD
+	makedepends = asciidoc
+	depends = wireless_tools
+	depends = confuse
+	depends = yajl
+	depends = libpulse
+	depends = libnl
+	options = docs
+	backup = etc/i3status.conf
+	source = https://i3wm.org/i3status/i3status-2.12.tar.bz2
+	source = https://i3wm.org/i3status/i3status-2.12.tar.bz2.asc
+	validpgpkeys = 424E14D703E7C6D43D9D6F364E7160ED4AC8EE1D
+	md5sums = ed839f1626781aaca236b46693fab975
+	md5sums = SKIP
+
+pkgname = i3status
+
