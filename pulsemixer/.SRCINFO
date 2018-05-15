@@ -1,16 +1,16 @@
 pkgbase = pulsemixer
-	pkgdesc = cli and curses mixer for pulseaudio
+	pkgdesc = CLI and curses mixer for pulseaudio
 	pkgver = 1.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/GeorgeFilipkin/pulsemixer
 	arch = any
 	license = MIT
+	makedepends = python-setuptools
 	depends = python
 	depends = pulseaudio
-	conflicts = pulsemixer-git
-	replaces = pulsemixer-git
-	source = https://github.com/GeorgeFilipkin/pulsemixer/archive/1.4.0.tar.gz
+	source = pulsemixer-.tar.gz::https://github.com/GeorgeFilipkin/pulsemixer/archive/1.4.0.tar.gz
 	sha256sums = 2fcce7fe285b5ece1f3987a7fa848bb9a01d3a5f3a0de71b755d6417416aead2
+	sha512sums = f59e55022cf4b06d3a8d57a34fd7b3712917517b7feddfba2c562f6b038a71b6936a88a82af480503f51bd32f68f14e5315a27de9c39373602c398649e8fdc93
 
 pkgname = pulsemixer
 
