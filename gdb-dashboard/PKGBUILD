@@ -2,7 +2,7 @@
 
 pkgname=gdb-dashboard
 pkgver=0.4.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Modular visual interface for GDB in Python'
 url='https://github.com/cyrus-and/gdb-dashboard'
 arch=('any')
@@ -15,8 +15,8 @@ sha512sums=('42455d953d12258fdb2126372705dd068631df8d2178055bb1f5c1532b08eb7f945
 package() {
   cd ${pkgname}-${pkgver}
   install -Dm 644 .gdbinit -t "${pkgdir}/usr/share/${pkgname}"
-  install -Dm 644 README.md "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
-  install -Dm 644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/licenses/${pkgname}"
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
 }
 
 # vim: ts=2 sw=2 et:
