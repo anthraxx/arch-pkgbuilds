@@ -1,7 +1,7 @@
 pkgbase = tcpreplay
 	pkgdesc = Gives the ability to replay previously captured traffic in a libpcap format
 	pkgver = 4.2.6
-	pkgrel = 1
+	pkgrel = 2
 	url = http://tcpreplay.appneta.com
 	arch = x86_64
 	license = GPL3
