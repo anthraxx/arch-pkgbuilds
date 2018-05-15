@@ -19,6 +19,7 @@ cmocka
 conky-manager
 cowfortune
 cowpatty
+dhcping
 diffoscope
 distorm
 dmenu
@@ -33,6 +34,7 @@ findnewest
 fish
 flawfinder
 fwknop
+gdb-dashboard
 gist
 gradle
 grails
@@ -121,6 +123,7 @@ pngcrush
 powerdns
 powerdns-recursor
 profanity
+pulsemixer
 pwndbg
 pyrit
 python2-subprocess32
@@ -175,6 +178,7 @@ rabbitmqadmin
 radamsa
 radare2
 reaver
+ropgadget
 ropper
 rshijack
 ruby-addressable
