@@ -1290,5 +1290,8 @@ command: 'git ls-remote --tags https://github.com/radareorg/cutter'
 ---
 name: 'tcp cutter (upstream)'
 command: 'curl http://www.digitage.co.uk/digitage/files/cutter/ 2>/dev/null|tr "<>" "\n"|grep -v href|grep -E "tar.gz|jar|zip|tgz"|sort'
+---
+name: 'vim-ale (github)'
+command: 'git ls-remote --tags https://github.com/w0rp/ale'
 
 # vim: ft=yaml

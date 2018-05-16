@@ -274,6 +274,7 @@ unittestpp
 valabind
 veracrypt
 vicious
+vim-ale
 vim-bufexplorer
 vim-easymotion
 vim-fugitive
