@@ -1281,5 +1281,11 @@ command: 'git ls-remote --tags https://github.com/kpcyrd/badtouch'
 ---
 name: 'z3 (github)'
 command: 'git ls-remote --tags https://github.com/Z3Prover/z3'
+---
+name: 'pulsemixer (github)'
+command: 'git ls-remote --tags https://github.com/GeorgeFilipkin/pulsemixer'
+---
+name: 'cutter (github)'
+command: 'git ls-remote --tags https://github.com/radareorg/cutter'
 
 # vim: ft=yaml
