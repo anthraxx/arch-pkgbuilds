@@ -1285,7 +1285,10 @@ command: 'git ls-remote --tags https://github.com/Z3Prover/z3'
 name: 'pulsemixer (github)'
 command: 'git ls-remote --tags https://github.com/GeorgeFilipkin/pulsemixer'
 ---
-name: 'cutter (github)'
+name: 'radare cutter (github)'
 command: 'git ls-remote --tags https://github.com/radareorg/cutter'
+---
+name: 'tcp cutter (upstream)'
+command: 'curl http://www.digitage.co.uk/digitage/files/cutter/ 2>/dev/null|tr "<>" "\n"|grep -v href|grep -E "tar.gz|jar|zip|tgz"|sort'
 
 # vim: ft=yaml
