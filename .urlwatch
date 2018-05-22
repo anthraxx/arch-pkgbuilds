@@ -494,7 +494,7 @@ name: 'powerdns (http)'
 command: 'curl https://downloads.powerdns.com/releases/ 2>/dev/null|grep .tar.gz'
 ---
 name: 'diffoscope'
-command: 'git ls-remote --tags https://anonscm.debian.org/git/reproducible/diffoscope'
+command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/diffoscope.git'
 ---
 name: 'python-libarchive-c'
 command: 'git ls-remote --tags https://github.com/Changaco/python-libarchive-c'
@@ -539,7 +539,7 @@ name: 'enjarify'
 command: 'git ls-remote --tags https://github.com/google/enjarify'
 ---
 name: 'strip-nondeterminism'
-command: 'git ls-remote --tags https://anonscm.debian.org/git/reproducible/strip-nondeterminism'
+command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/strip-nondeterminism.git'
 ---
 name: 'zzuf'
 command: 'git ls-remote --tags https://github.com/samhocevar/zzuf'
