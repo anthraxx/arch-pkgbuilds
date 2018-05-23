@@ -1,7 +1,7 @@
 pkgbase = pax-utils
 	pkgdesc = ELF utils that can check files for security relevant properties
 	pkgver = 1.2.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 	arch = x86_64
 	license = GPL2
