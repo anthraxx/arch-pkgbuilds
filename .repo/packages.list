@@ -23,6 +23,7 @@ libmypaint
 libplacebo
 libpqxx
 libpsl
+libseccomp
 libupnp
 licenses
 linux-hardened
