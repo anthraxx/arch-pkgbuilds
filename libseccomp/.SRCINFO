@@ -1,0 +1,18 @@
+pkgbase = libseccomp
+	pkgdesc = Enhanced seccomp library
+	pkgver = 2.3.2
+	pkgrel = 2
+	url = https://github.com/seccomp/libseccomp
+	arch = x86_64
+	license = LGPL2.1
+	depends = glibc
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.3.2/libseccomp-2.3.2.tar.gz
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.3.2/libseccomp-2.3.2.tar.gz.asc
+	source = 0001-arch-add-the-statx-syscall.patch
+	validpgpkeys = 7100AADFAE6E6E940D2E0AD655E45A5AE8CA7C8A
+	sha256sums = 3ddc8c037956c0a5ac19664ece4194743f59e1ccd4adde848f4f0dae7f77bca1
+	sha256sums = SKIP
+	sha256sums = 190c6dd821ddad9ee0aefa720a86dd744acd279c095b07f099a7e0e72d1ce543
+
+pkgname = libseccomp
+
