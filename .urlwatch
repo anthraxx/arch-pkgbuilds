@@ -1295,6 +1295,6 @@ name: 'vim-ale (github)'
 command: 'git ls-remote --tags https://github.com/w0rp/ale'
 ---
 name: 'libseccomp (github)'
-command: 'git ls-remote --taga https://github.com/seccomp/libseccomp'
+command: 'git ls-remote --tags https://github.com/seccomp/libseccomp'
 
 # vim: ft=yaml
