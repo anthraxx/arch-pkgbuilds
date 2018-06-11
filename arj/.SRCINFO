@@ -1,7 +1,7 @@
 pkgbase = arj
 	pkgdesc = Free and portable clone of the ARJ archiver
 	pkgver = 3.10.22
-	pkgrel = 11
+	pkgrel = 12
 	url = http://arj.sourceforge.net/
 	arch = x86_64
 	license = GPL
