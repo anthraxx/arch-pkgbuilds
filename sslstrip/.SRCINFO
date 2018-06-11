@@ -1,7 +1,7 @@
 pkgbase = sslstrip
 	pkgdesc = Python tool to hijack HTTPS connections during a MITM attack
 	pkgver = 0.9
-	pkgrel = 7
+	pkgrel = 8
 	url = http://www.thoughtcrime.org/software/sslstrip/
 	arch = any
 	license = GPL3
