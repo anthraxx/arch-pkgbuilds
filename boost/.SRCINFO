@@ -1,6 +1,6 @@
 pkgbase = boost
 	pkgver = 1.67.0
-	pkgrel = 2
+	pkgrel = 4
 	url = http://www.boost.org/
 	arch = x86_64
 	license = custom
@@ -13,8 +13,10 @@ pkgbase = boost
 	makedepends = zlib
 	makedepends = openmpi
 	source = https://downloads.sourceforge.net/project/boost/boost/1.67.0/boost_1_67_0.tar.bz2
-	source = 776.patch
+	source = lockfree-add-include-boost-next_prior.patch
+	source = fix-return-var-qualifier-in-svm_ptr-get_context.patch
 	sha256sums = 2684c972994ee57fc5632e03bf044746f6eb45d4920c343937a465fd67a5adba
+	sha256sums = 2639c43e33f9279ffbebf270be0e0951b9f0e7a8264f8c3bfebb5b9901da2db6
 	sha256sums = 43cdc2081f90d2acc7e4d9de6689bce07b2a1b4754e85dc7fa50872afa330ffa
 
 pkgname = boost-libs
