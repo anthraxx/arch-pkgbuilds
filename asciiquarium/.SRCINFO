@@ -1,7 +1,7 @@
 pkgbase = asciiquarium
 	pkgdesc = An aquarium/sea animation in ASCII art
 	pkgver = 1.1
-	pkgrel = 4
+	pkgrel = 5
 	url = http://www.robobunny.com/projects/asciiquarium
 	arch = any
 	license = GPL2
