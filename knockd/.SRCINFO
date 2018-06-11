@@ -1,7 +1,7 @@
 pkgbase = knockd
 	pkgdesc = A simple port-knocking daemon
 	pkgver = 0.7
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.zeroflux.org/projects/knock
 	arch = x86_64
 	license = GPL2
