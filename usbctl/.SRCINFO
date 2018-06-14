@@ -1,0 +1,23 @@
+pkgbase = usbctl
+	pkgdesc = Linux-hardened deny_new_usb control
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/anthraxx/usbctl
+	arch = any
+	license = MIT
+	depends = linux-hardened
+	depends = bash
+	depends = usbutils
+	depends = coreutils
+	depends = diffutils
+	depends = procps-ng
+	depends = grep
+	depends = util-linux
+	source = usbctl-1.0.tar.gz::https://github.com/anthraxx/usbctl/archive/1.0/1.0.tar.gz
+	source = usbctl-1.0.tar.gz.sig::https://github.com/anthraxx/usbctl/releases/download/1.0/1.0.tar.gz.sig
+	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
+	sha512sums = 0f16297188439d10c1dcff6368ec830c4f665e05c01790383791cb207bda5667416c8f3b662173e6d7c5ffac2ef2b83593889b0e76a4a061129df5128bf2f4f6
+	sha512sums = SKIP
+
+pkgname = usbctl
+
