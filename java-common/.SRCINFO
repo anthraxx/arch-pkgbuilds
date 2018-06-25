@@ -1,0 +1,29 @@
+pkgbase = java-common
+	pkgver = 3
+	pkgrel = 1
+	url = https://www.archlinux.org/packages/extra/any/java-common/
+	arch = any
+	license = GPL
+	checkdepends = wget
+	source = profile_jre.csh
+	source = profile_jre.sh
+	source = bin_archlinux-java
+	source = test_archlinux-java
+	source = shunit2-2.1.6.tar.gz::https://github.com/kward/shunit2/archive/source.tar.gz
+	sha256sums = 9d25638cafc2fabd1ba6f2f26aa01233eccf3d31db003d956b571f0ab655dd23
+	sha256sums = 519e9881a2a9f4fc3d581ea0ef0da594eedbfdfcf734f9fdc0bb595e8ac77e4c
+	sha256sums = 5101f9d3d42cd545843a537826451c1b2e0bf2b16aba4e36ac797d9ace16dc63
+	sha256sums = 721b225f6eb420f7b173ba2db8c65688f50ffd5dad0960ecce4cfefdb57b26a2
+	sha256sums = 6beca93d20b72b46083c8271c4cf1da21b45f250a92b401c2565c65e1d75138f
+
+pkgname = java-runtime-common
+	pkgdesc = Common files for Java Runtime Environments
+	install = install_java-runtime-common.sh
+	conflicts = java-common
+	replaces = java-common
+	backup = etc/profile.d/jre.sh
+	backup = etc/profile.d/jre.csh
+
+pkgname = java-environment-common
+	pkgdesc = Common files for Java Development Kits
+
