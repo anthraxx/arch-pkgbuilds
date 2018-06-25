@@ -1,0 +1,107 @@
+pkgbase = java7-openjdk
+	pkgver = 7.u171_2.6.13
+	pkgrel = 1
+	url = http://icedtea.classpath.org
+	arch = x86_64
+	license = custom
+	makedepends = jdk7-openjdk
+	makedepends = libxp
+	makedepends = libxslt
+	makedepends = alsa-lib
+	makedepends = apache-ant>=1.8.1
+	makedepends = giflib
+	makedepends = libpng>=1.5.7
+	makedepends = gtk2
+	makedepends = java-rhino
+	makedepends = libpulse>=0.9.11
+	makedepends = zip
+	makedepends = unzip
+	makedepends = cpio
+	makedepends = fastjar
+	makedepends = wget
+	makedepends = eclipse-ecj
+	makedepends = pcsclite
+	makedepends = lksctp-tools
+	noextract = icedtea_2.6.13_openjdk.tar.bz2
+	noextract = icedtea_2.6.13_corba.tar.bz2
+	noextract = icedtea_2.6.13_jaxp.tar.bz2
+	noextract = icedtea_2.6.13_jaxws.tar.bz2
+	noextract = icedtea_2.6.13_jdk.tar.bz2
+	noextract = icedtea_2.6.13_langtools.tar.bz2
+	noextract = icedtea_2.6.13_hotspot.tar.bz2
+	options = !emptydirs
+	source = http://icedtea.classpath.org/download/source/icedtea-2.6.13.tar.xz
+	source = http://icedtea.classpath.org/download/source/icedtea-2.6.13.tar.xz.sig
+	source = icedtea_2.6.13_openjdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/openjdk.tar.bz2
+	source = icedtea_2.6.13_corba.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/corba.tar.bz2
+	source = icedtea_2.6.13_jaxp.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jaxp.tar.bz2
+	source = icedtea_2.6.13_jaxws.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jaxws.tar.bz2
+	source = icedtea_2.6.13_jdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jdk.tar.bz2
+	source = icedtea_2.6.13_langtools.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/langtools.tar.bz2
+	source = icedtea_2.6.13_hotspot.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/hotspot.tar.bz2
+	source = fontconfig-paths.diff
+	source = openjdk7_nonreparenting-wm.diff
+	validpgpkeys = 5132579DD1540ED23E04C5A0CFDA0F9B35964222
+	sha256sums = 104e84205d1176e217e24f770784c53d1cd666aeb23ab0bae8ac858e5b0e63f0
+	sha256sums = SKIP
+	sha256sums = 14a9f90e2fe5c0bb73dc8ffcc9ea5dc76d3ce7a74a0c901cfd0b0ae3fc8c6450
+	sha256sums = df1154915cad317b93555b563fc12acad1b92e5f2870642736f186b7a4d80f14
+	sha256sums = 143a5b957fbb00889ff9d38a4bf391218786b6a33664235279edbb6e79a3decc
+	sha256sums = d3e3d55d6e2231c4420d30d124f72c56695d45e8a398e3cc7ba21ff2a93c1284
+	sha256sums = adbda93d1e9be89447e009733a6c9050c6e6cebda3c674a76ebbeb8986623534
+	sha256sums = 12036b985f8811cdadf6d5bf840f90bab25f4da1cc3e86bab9c3f6efcc10055b
+	sha256sums = 9ae3d6d43ff771cf02b8c7805ac0f0a457f5fa7026b1334ea1085262d3d86d9d
+	sha256sums = 9ad943ceb3dbcdf45d72974fc3667886a7ed65c69ab9abc17be5412827551a7f
+	sha256sums = 56b919ababb13bd6afdcdaceb112b529b6e82539255f2dae9a7e5eb91645164b
+
+pkgname = jre7-openjdk-headless
+	pkgdesc = OpenJDK Java 7 headless runtime environment
+	install = jre7-openjdk-headless.install
+	depends = java-runtime-common
+	depends = libjpeg-turbo
+	depends = lcms2
+	depends = nss
+	depends = ca-certificates-utils
+	depends = libcups
+	optdepends = fontconfig: needed for Java Mauve support - libmawt.so
+	optdepends = java-rhino: for some JavaScript support
+	provides = java-runtime-headless=7
+	provides = java-runtime-headless-openjdk=7
+	conflicts = openjdk6
+	replaces = jre7-openjdk-headless-wm
+	backup = 
+
+pkgname = jre7-openjdk
+	pkgdesc = OpenJDK Java 7 full runtime environment
+	install = jre7-openjdk.install
+	depends = jre7-openjdk-headless=7.u171_2.6.13-1
+	depends = xdg-utils
+	depends = hicolor-icon-theme
+	optdepends = icedtea-web: web browser plugin + Java Web Start
+	optdepends = alsa-lib: for basic sound support
+	optdepends = giflib: for gif format support
+	optdepends = libpulse: for advanced sound support
+	optdepends = gtk2: for the Gtk+ look and feel - desktop usage
+	optdepends = libxtst: linked in xawt/libmawt.so - desktop usage
+	provides = java-runtime=7
+	provides = java-runtime-openjdk=7
+	conflicts = openjdk6
+	replaces = jre7-openjdk-wm
+
+pkgname = jdk7-openjdk
+	pkgdesc = OpenJDK Java 7 development kit
+	install = jdk7-openjdk.install
+	depends = java-environment-common
+	depends = jre7-openjdk=7.u171_2.6.13-1
+	provides = java-environment=7
+	provides = java-environment-openjdk=7
+	replaces = openjdk6
+	replaces = jdk7-openjdk-wm
+
+pkgname = openjdk7-src
+	pkgdesc = OpenJDK Java 7 sources
+	replaces = openjdk6-src
+
+pkgname = openjdk7-doc
+	pkgdesc = OpenJDK Java 7 documentation
+
