@@ -11,7 +11,9 @@ iptraf-ng
 irssi
 jasper
 java10-openjdk
+java7-openjdk
 java8-openjdk
+java-common
 jsoncpp
 krb5
 lgi
@@ -45,6 +47,7 @@ python-urwid
 qwt
 trayer
 truecrypt
+usbctl
 vala
 valgrind
 vim
