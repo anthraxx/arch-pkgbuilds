@@ -1,7 +1,7 @@
 pkgbase = speedtest-cli
 	pkgdesc = Command line interface for testing internet bandwidth using speedtest.net
 	pkgver = 2.0.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sivel/speedtest-cli
 	arch = any
 	license = Apache
