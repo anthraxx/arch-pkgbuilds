@@ -1,7 +1,7 @@
 pkgbase = python-flask-sqlalchemy
 	pkgdesc = Adds SQLAlchemy support to your Flask application
 	pkgver = 2.3.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://flask-sqlalchemy.pocoo.org/
 	arch = any
 	license = BSD
