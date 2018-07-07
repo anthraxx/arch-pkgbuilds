@@ -1,7 +1,7 @@
 pkgbase = distorm
 	pkgdesc = Powerful disassembler library for x86/AMD64
 	pkgver = 3.3.4
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/gdabah/distorm
 	arch = x86_64
 	license = BSD
