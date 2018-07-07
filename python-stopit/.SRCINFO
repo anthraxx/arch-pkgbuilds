@@ -1,7 +1,7 @@
 pkgbase = python-stopit
 	pkgdesc = Library to raise asynchronous exceptions in other thread, control the timeout of blocks or callables
 	pkgver = 1.1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/glenfant/stopit
 	arch = any
 	license = GPL3
