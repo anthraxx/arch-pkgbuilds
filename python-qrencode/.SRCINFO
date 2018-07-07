@@ -1,7 +1,7 @@
 pkgbase = python-qrencode
 	pkgdesc = Simple wrapper for the C qrencode library
 	pkgver = 1.2
-	pkgrel = 3
+	pkgrel = 4
 	url = https://pypi.python.org/pypi/qrencode/
 	arch = x86_64
 	license = MIT
