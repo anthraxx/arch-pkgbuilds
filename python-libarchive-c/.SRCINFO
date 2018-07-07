@@ -1,7 +1,7 @@
 pkgbase = python-libarchive-c
 	pkgdesc = Python interface to libarchive
 	pkgver = 2.8
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/Changaco/python-libarchive-c
 	arch = any
 	license = CC0
