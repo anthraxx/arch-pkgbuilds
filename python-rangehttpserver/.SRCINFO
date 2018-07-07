@@ -1,7 +1,7 @@
 pkgbase = python-rangehttpserver
 	pkgdesc = SimpleHTTPServer with support for Range requests
 	pkgver = 1.2.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/danvk/RangeHTTPServer/
 	arch = any
 	license = Apache
