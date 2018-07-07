@@ -1,7 +1,7 @@
 pkgbase = capstone
 	pkgdesc = A lightweight multi-platform, multi-architecture disassembly framework
 	pkgver = 3.0.4
-	pkgrel = 5
+	pkgrel = 6
 	url = http://www.capstone-engine.org/index.html
 	arch = x86_64
 	license = BSD
