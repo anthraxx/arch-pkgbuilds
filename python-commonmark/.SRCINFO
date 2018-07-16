@@ -1,7 +1,7 @@
 pkgbase = python-commonmark
 	pkgdesc = Python parser for the CommonMark Markdown spec
 	pkgver = 0.7.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://pypi.python.org/pypi/CommonMark
 	arch = any
 	license = BSD
