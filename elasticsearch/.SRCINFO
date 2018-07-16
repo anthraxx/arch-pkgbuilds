@@ -1,7 +1,7 @@
 pkgbase = elasticsearch
 	pkgdesc = Distributed RESTful search engine built on top of Lucene
 	pkgver = 6.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.elastic.co/products/elasticsearch
 	arch = any
 	license = APACHE
