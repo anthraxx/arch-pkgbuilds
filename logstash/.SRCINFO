@@ -1,7 +1,7 @@
 pkgbase = logstash
 	pkgdesc = Tool for managing events and logs
 	pkgver = 6.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.elastic.co/products/logstash/
 	arch = x86_64
 	license = Apache
@@ -11,6 +11,8 @@ pkgbase = logstash
 	depends = java-runtime-headless>=8
 	depends = ruby
 	depends = ruby-bundler
+	depends = coreutils
+	depends = awk
 	noextract = jruby-bin-9.1.13.0.tar.gz
 	backup = etc/conf.d/logstash
 	backup = etc/logstash/logstash.yml
