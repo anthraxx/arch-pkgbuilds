@@ -1,7 +1,7 @@
 pkgbase = python-multidict
 	pkgdesc = Asyncio-based multidict implementation for Python
 	pkgver = 4.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/aio-libs/multidict
 	arch = x86_64
 	license = APACHE
