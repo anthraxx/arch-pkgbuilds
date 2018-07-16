@@ -1,7 +1,7 @@
 pkgbase = wpscan
 	pkgdesc = Black box WordPress vulnerability scanner
 	pkgver = 2.9.4
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = http://wpscan.org
 	install = wpscan.install
