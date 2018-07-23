@@ -1,7 +1,7 @@
 pkgbase = python-hexdump
 	pkgdesc = Library and tool to work with hex and binary data
 	pkgver = 3.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://bitbucket.org/techtonik/hexdump
 	arch = any
 	license = Public Domain
