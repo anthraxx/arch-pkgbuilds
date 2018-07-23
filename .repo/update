@@ -9,13 +9,19 @@ cd "${prefix}/${1}"
 svn up > .update.tmp
 cat .update.tmp
 
-updated_packages=$(grep '/trunk/' .update.tmp|sed -E 's|[A-Z]    (.+)/trunk/.+|\1|'|uniq)
+updated_packages=$(grep '/trunk/' .update.tmp|sed -En 's|[AUCGER]    (.+)/trunk/.+|\1|p'|uniq)
 for pkgbase in $updated_packages; do
-	files=$(grep "${pkgbase}/trunk/" .update.tmp|sed -E 's|[A-Z]   .+/trunk/(.+)|\1|')
+	files=$(grep "${pkgbase}/trunk/" .update.tmp|sed -En 's|[AUCGER]   .+/trunk/(.+)|\1|p')
 	echo "$pkgbase"
 	for file in $files; do
 		echo "    ${file}"
 		cp "${pkgbase}/trunk/${file}" "../../${pkgbase}"
+		git add "../../${pkgbase}/${file}"
+	done
+	deleted_files=$(grep "${pkgbase}/trunk/" .update.tmp|sed -En 's|[D]   .+/trunk/(.+)|\1|p')
+	for file in $deleted_files; do
+		echo "    Deleted: ${file}"
+		rm "../../${pkgbase}/${file}"
 		git add "../../${pkgbase}/${file}"
 	done
 	svn_log=$(svn log -l 1 "${pkgbase}/trunk"|head -n-1|tail -n-2)
