@@ -1,7 +1,7 @@
 pkgbase = python-flask-socketio
 	pkgdesc = Socket.IO integration for Flask applications
 	pkgver = 3.0.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://flask-socketio.readthedocs.org/
 	arch = any
 	license = MIT
