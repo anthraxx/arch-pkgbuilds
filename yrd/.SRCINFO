@@ -1,7 +1,7 @@
 pkgbase = yrd
 	pkgdesc = cjdns swiss army knife
 	pkgver = 0.5.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/kpcyrd/yrd
 	arch = any
 	license = GPL3
