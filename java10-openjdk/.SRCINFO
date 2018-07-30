@@ -1,10 +1,10 @@
 pkgbase = java10-openjdk
-	pkgver = 10.0.1.u10
+	pkgver = 10.0.2.u13
 	pkgrel = 1
 	url = http://openjdk.java.net/
 	arch = x86_64
 	license = custom
-	makedepends = jdk9-openjdk
+	makedepends = jdk10-openjdk
 	makedepends = cpio
 	makedepends = unzip
 	makedepends = zip
@@ -25,12 +25,12 @@ pkgbase = java10-openjdk
 	makedepends = lcms2
 	makedepends = libnet
 	makedepends = bash
-	source = http://hg.openjdk.java.net/jdk-updates/jdk10u/archive/jdk-10.0.1+10.tar.gz
+	source = http://hg.openjdk.java.net/jdk-updates/jdk10u/archive/jdk-10.0.2+13.tar.gz
 	source = freedesktop-java.desktop
 	source = freedesktop-jconsole.desktop
 	source = freedesktop-policytool.desktop
 	source = freedesktop-jshell.desktop
-	sha256sums = 5ccebeaf3ed953468c2696364eb5bf41dd3cdb1f17e135f6f0c28d760bcde0b9
+	sha256sums = f34a53b049f2e3ee8d954998687c4a48b56f24efbb2738ae7fe81bbbdff7f078
 	sha256sums = 819e6ca314641c3115566f9478fbd8671f5d884a3d4e65f05950b4bd2d3b8451
 	sha256sums = 5276edf203e5a75607c55b8bd4ae4f76cf61360811190286829c66d0c4b06554
 	sha256sums = 7f3bc3e424b6d8bac403eb336d81524680f347300c233400222a3850f937c659
@@ -49,6 +49,7 @@ pkgname = jre10-openjdk-headless
 	optdepends = java-rhino: for some JavaScript support
 	provides = java-runtime-headless=10
 	provides = java-runtime-headless-openjdk=10
+	replaces = jre9-openjdk-headless
 	backup = etc/java10-openjdk/logging.properties
 	backup = etc/java10-openjdk/management/jmxremote.access
 	backup = etc/java10-openjdk/management/jmxremote.password.template
@@ -67,29 +68,33 @@ pkgname = jre10-openjdk-headless
 pkgname = jre10-openjdk
 	pkgdesc = OpenJDK Java 10 full runtime environment
 	install = install_jre10-openjdk.sh
-	depends = jre10-openjdk-headless=10.0.1.u10-1
+	depends = jre10-openjdk-headless=10.0.2.u13-1
 	depends = giflib
 	optdepends = alsa-lib: for basic sound support
 	optdepends = gtk2: for the Gtk+ 2 look and feel - desktop usage
 	optdepends = gtk3: for the Gtk+ 3 look and feel - desktop usage
 	provides = java-runtime=10
 	provides = java-runtime-openjdk=10
+	replaces = jre9-openjdk
 
 pkgname = jdk10-openjdk
 	pkgdesc = OpenJDK Java 10 development kit
 	install = install_jdk10-openjdk.sh
-	depends = jre10-openjdk=10.0.1.u10-1
+	depends = jre10-openjdk=10.0.2.u13-1
 	depends = java-environment-common=3
 	depends = hicolor-icon-theme
 	depends = libelf
 	provides = java-environment=10
 	provides = java-environment-openjdk=10
+	replaces = jdk9-openjdk
 
 pkgname = openjdk10-src
 	pkgdesc = OpenJDK Java 10 sources
-	depends = jdk10-openjdk=10.0.1.u10-1
+	depends = jdk10-openjdk=10.0.2.u13-1
+	replaces = openjdk9-src
 
 pkgname = openjdk10-doc
 	pkgdesc = OpenJDK Java 10 documentation
-	depends = jdk10-openjdk=10.0.1.u10-1
+	depends = jdk10-openjdk=10.0.2.u13-1
+	replaces = openjdk9-doc
 
