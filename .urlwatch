@@ -1296,5 +1296,8 @@ command: 'git ls-remote --tags https://github.com/w0rp/ale'
 ---
 name: 'libseccomp (github)'
 command: 'git ls-remote --tags https://github.com/seccomp/libseccomp'
+---
+name: ' (github)'
+command: 'git ls-remote --tags https://github.com/visualvm/visualvm.src'
 
 # vim: ft=yaml
