@@ -1,7 +1,7 @@
 pkgbase = strip-nondeterminism
 	pkgdesc = Tool for stripping bits of non-deterministic information from files
 	pkgver = 0.041
-	pkgrel = 2
+	pkgrel = 3
 	url = https://salsa.debian.org/reproducible-builds/strip-nondeterminism
 	arch = any
 	license = GPL3
