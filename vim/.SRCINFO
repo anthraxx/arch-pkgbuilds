@@ -1,7 +1,7 @@
 pkgbase = vim
 	pkgdesc = Vi Improved, a highly configurable, improved version of the vi text editor
 	pkgver = 8.1.0194
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.vim.org
 	arch = x86_64
 	license = custom:vim
@@ -36,7 +36,7 @@ pkgbase = vim
 	sha512sums = 1e06e981691b17662fd0fddac5c00c87c920d1b4a1cbb6191c42d57cc40b00af12710e26b22fcfc0901bb8142b15f6a04aa65cec2d9b3bb9d5a06cb650d3ab9c
 
 pkgname = vim
-	depends = vim-runtime=8.1.0194-1
+	depends = vim-runtime=8.1.0194-2
 	depends = gpm
 	depends = acl
 	depends = glibc
@@ -61,7 +61,7 @@ pkgname = vim
 
 pkgname = gvim
 	pkgdesc = Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
-	depends = vim-runtime=8.1.0194-1
+	depends = vim-runtime=8.1.0194-2
 	depends = gpm
 	depends = libxt
 	depends = gtk3
@@ -76,7 +76,7 @@ pkgname = gvim
 	optdepends = lua: Lua language support
 	optdepends = perl: Perl language support
 	optdepends = tcl: Tcl language support
-	provides = vim=8.1.0194-1
+	provides = vim=8.1.0194-2
 	provides = xxd
 	conflicts = vim-minimal
 	conflicts = vim
