@@ -1,7 +1,7 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
 	pkgver = 99
-	pkgrel = 2
+	pkgrel = 3
 	url = https://diffoscope.org/
 	arch = x86_64
 	license = GPL3
