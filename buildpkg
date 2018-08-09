@@ -101,7 +101,7 @@ while [[ ${#} -gt 0 ]]; do
 		--core)
 			EXTRA_x86_64=1
 			BUILD_MODES="${BUILD_MODES} extra-x86_64-build"
-			PUBLISH_PACKAGES="corepkg"
+			PUBLISH_PACKAGES="testingpkg"
 			PUBLISH_COMMUNITY="communitypkg"
 		;;
 		--extra)
