@@ -249,7 +249,7 @@ for PACKAGE in ${PACKAGES}; do
 	# import all needed gpg keys
 	if [[ -n "${validpgpkeys}" ]]; then
 		msg2 "Importing PGP keys: ${validpgpkeys}"
-		gpg --recv-keys "${validpgpkeys}" &>/dev/null
+		gpg --recv-keys ${validpgpkeys} &>/dev/null
 	fi
 
 	# build selected modes
