@@ -1297,7 +1297,16 @@ command: 'git ls-remote --tags https://github.com/w0rp/ale'
 name: 'libseccomp (github)'
 command: 'git ls-remote --tags https://github.com/seccomp/libseccomp'
 ---
-name: ' (github)'
+name: 'visualvm (github)'
 command: 'git ls-remote --tags https://github.com/visualvm/visualvm.src'
+---
+name: 'hcxtools (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxtools'
+---
+name: 'hcxdumptool (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxdumptool'
+---
+name: 'hcxkeys (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxkeys'
 
 # vim: ft=yaml
