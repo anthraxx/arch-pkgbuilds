@@ -236,7 +236,7 @@ name: 'radamsa'
 command: 'git ls-remote --tags https://github.com/aoh/radamsa'
 ---
 name: 'owl-lisp'
-command: 'git ls-remote --tags https://github.com/aoh/owl-lisp'
+command: 'git ls-remote --tags https://gitlab.com/owl-lisp/owl'
 ---
 name: 'synergy'
 command: 'git ls-remote --tags https://github.com/symless/synergy-core'
