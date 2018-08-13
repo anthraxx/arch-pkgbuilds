@@ -1,0 +1,30 @@
+pkgbase = intellij-idea-community-edition
+	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
+	pkgver = 2018.1.5
+	pkgrel = 1
+	epoch = 2
+	url = https://www.jetbrains.com/idea/
+	install = idea.install
+	arch = any
+	license = Apache
+	depends = java-environment=8
+	depends = giflib
+	depends = libxtst
+	depends = libxft
+	depends = ttf-font
+	depends = coreutils
+	depends = grep
+	depends = which
+	conflicts = intellij-idea-libs
+	replaces = intellij-idea-libs
+	backup = usr/share/intellijidea-ce/bin/idea.vmoptions
+	backup = usr/share/intellijidea-ce/bin/idea64.vmoptions
+	source = https://download.jetbrains.com/idea/ideaIC-2018.1.5-no-jdk.tar.gz
+	source = idea.desktop
+	source = idea.sh
+	sha256sums = d819ae48bc96f4bf6864e9d9a3e28880639bafd0e4e7be4347b907b3ffd763ad
+	sha256sums = bd37ad47c926941108f624cbe5adbd7fe91d198b15aca63d8a0c0da14c7a76a6
+	sha256sums = 0e5d6a47b5ae464e9f562110ccc798f55055943e425e0621c0275f72615fdb1d
+
+pkgname = intellij-idea-community-edition
+
