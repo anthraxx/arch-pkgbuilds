@@ -1308,5 +1308,11 @@ command: 'git ls-remote --tags https://github.com/ZerBea/hcxdumptool'
 ---
 name: 'hcxkeys (github)'
 command: 'git ls-remote --tags https://github.com/ZerBea/hcxkeys'
+---
+name: 'vala (gnome gitlab)'
+command: 'git ls-remote --tags https://gitlab.gnome.org/GNOME/vala.git'
+---
+name: 'intellij IDE website'
+command: "curl 'https://data.services.jetbrains.com/products/releases?code=IIU%2CIIC&latest=true&type=release'|jq '.[\"IIC\"][0] | .version, .build'"
 
 # vim: ft=yaml
