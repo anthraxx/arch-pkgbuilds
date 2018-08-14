@@ -1,8 +1,8 @@
 pkgbase = xmonad
 	pkgdesc = Lightweight X11 tiled window manager written in Haskell
-	pkgver = 0.13.20180419
-	pkgrel = 3
-	url = http://xmonad.org/
+	pkgver = 0.14
+	pkgrel = 1
+	url = https://xmonad.org/
 	arch = x86_64
 	license = BSD
 	makedepends = gendesk
@@ -14,10 +14,10 @@ pkgbase = xmonad
 	depends = haskell-data-default
 	depends = haskell-setlocale
 	optdepends = xorg-xmessage: for displaying visual error messages
-	source = xmonad-ecf1a0ca0d094c76a18c2c1b77ac7c1dcac10f5e.tar.gz::https://github.com/xmonad/xmonad/archive/ecf1a0ca0d094c76a18c2c1b77ac7c1dcac10f5e.tar.gz
+	source = xmonad-0.14.tar.gz::https://github.com/xmonad/xmonad/archive/v0.14.tar.gz
 	source = dynamic-compilation.patch
 	source = xmonad.svg
-	sha512sums = 12a35f837d7b2437e91c00cb88d5b2f7b98e6f26b8329c06cb5ec5d265da61644820a43e7b07c260ff52321ffa82214478a267471f36238baa70574366a0396d
+	sha512sums = 052e8c1f551ebc44aeb340eb8ebd7e6af9da5b3709b42b24df573ef22d07a7f6cbb08ee20de2006f3fe29b2ac91975838bc9da996951f6e06d64637d75e19dd4
 	sha512sums = abc598ebc4b55917186cd4d549fc970f53905f820d394ada9a092c08d8833050ad18b23e2f4fd7f281487da2db5b0ca058600e995ac97b18d3be4c62071562d6
 	sha512sums = 31f0ceb724a9931aeda75ab706c8908b5d8341af4df50ab1d749814baacb748ad3622601cd99ac03bf936b698fcd854b23d1541e1772306e3337a13a79b110b6
 
