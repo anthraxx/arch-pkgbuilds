@@ -1,7 +1,7 @@
 pkgbase = radare2
 	pkgdesc = Open-source tools to disasm, debug, analyze and manipulate binary files
 	pkgver = 2.8.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://radare.org
 	arch = x86_64
 	license = GPL3
