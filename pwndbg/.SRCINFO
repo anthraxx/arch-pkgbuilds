@@ -1,7 +1,7 @@
 pkgbase = pwndbg
 	pkgdesc = Makes debugging with GDB suck less
-	pkgver = 2017.09.26
-	pkgrel = 3
+	pkgver = 2018.07.29
+	pkgrel = 1
 	url = https://github.com/pwndbg/pwndbg
 	arch = any
 	license = MIT
@@ -14,11 +14,11 @@ pkgbase = pwndbg
 	depends = python-six
 	depends = python-future
 	optdepends = checksec: checksec command support
-	optdepends = ropgadget: ropgadget command support
 	optdepends = ropper: ropper command support
+	optdepends = ropgadget: ropgadget command support
 	optdepends = radare2: radare2 command support
-	source = pwndbg-2017.09.26.tar.gz::https://github.com/pwndbg/pwndbg/archive/2017.09.26.tar.gz
-	sha512sums = fd8d5d80e8c1e974a55783807129b3288f3695a1b16e06e114b64f72b8876e430dd7131e4c47cd94937ba337917001317ec887f54c9c86fc6264d1ee35d85f8b
+	source = pwndbg-2018.07.29.tar.gz::https://github.com/pwndbg/pwndbg/archive/2018.07.29.tar.gz
+	sha512sums = 1ebe5652d9d9e5161f2c383d3d5d2e4eaf6c162412ec50ed77da39631c7decccd2fc53045646197fea3966ac47ae3b81f67f685ff1905c6585b5b7deea12ca7a
 
 pkgname = pwndbg
 
