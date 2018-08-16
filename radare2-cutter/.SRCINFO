@@ -1,7 +1,7 @@
 pkgbase = radare2-cutter
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
 	pkgver = 1.6
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/radareorg/cutter
 	arch = x86_64
 	license = GPL3

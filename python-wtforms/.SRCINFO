@@ -1,13 +1,15 @@
 pkgbase = python-wtforms
 	pkgdesc = Flexible forms validation and rendering library for python web development
 	pkgver = 2.2.1
-	pkgrel = 2
-	url = http://wtforms.simplecodes.com/
+	pkgrel = 4
+	url = https://wtforms.readthedocs.io/
 	arch = any
 	license = BSD
 	makedepends = python-setuptools
+	makedepends = python-babel
 	makedepends = python-sphinx
 	makedepends = python2-setuptools
+	makedepends = python2-babel
 	makedepends = python2-sphinx
 	source = python-wtforms-2.2.1.tar.gz::https://github.com/wtforms/wtforms/archive/2.2.1.tar.gz
 	sha512sums = db989ff5352d6834fc51c0ed208de11c12a2c0ad90f73dfeaa8f9995edc7f840deb427f1ffc6167f1c24e44f2137ecbb27ee1113258a6c55ed256a603657ef97

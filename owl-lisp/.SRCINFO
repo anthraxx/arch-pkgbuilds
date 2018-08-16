@@ -1,14 +1,15 @@
 pkgbase = owl-lisp
 	pkgdesc = Simple purely functional lisp
-	pkgver = 0.1.16
+	pkgver = 0.1.17
 	pkgrel = 1
-	url = https://github.com/aoh/owl-lisp
+	url = https://gitlab.com/owl-lisp/owl.git
 	arch = x86_64
 	license = MIT
+	makedepends = pandoc
 	depends = glibc
-	source = owl-lisp-0.1.16.tar.gz::https://github.com/aoh/owl-lisp/archive/v0.1.16.tar.gz
-	sha256sums = 4ad5939a6822076c25975da4971c730a077d3e04a077f36923b40087cb25d0ab
-	sha512sums = 1716bde1f9b42c5aaccc99b657e10c0625afbad96517e60e9a79ea1eef9dd77097179ffee389753a664a1bd6049fb05c1700743e4c138d10d33c2cb3c0de06d1
+	source = owl-lisp-0.1.17.tar.gz::https://gitlab.com/owl-lisp/owl/-/archive/v0.1.17/owl-v0.1.17.tar.gz
+	sha256sums = 02128f0ab7e5a05fec958f687cb0edac18a077fb0c339807d9660d35e18bf59a
+	sha512sums = 78e845027d388b963bf320b603b204632a1771235a6a054f605e63f6dc7ac222c7bd42115211a32b23439220957ef1390f83aec86f836e1d6c32d62193fa819c
 
 pkgname = owl-lisp
 

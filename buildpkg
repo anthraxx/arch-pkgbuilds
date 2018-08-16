@@ -101,7 +101,7 @@ while [[ ${#} -gt 0 ]]; do
 		--core)
 			EXTRA_x86_64=1
 			BUILD_MODES="${BUILD_MODES} extra-x86_64-build"
-			PUBLISH_PACKAGES="corepkg"
+			PUBLISH_PACKAGES="testingpkg"
 			PUBLISH_COMMUNITY="communitypkg"
 		;;
 		--extra)
@@ -247,10 +247,10 @@ for PACKAGE in ${PACKAGES}; do
 	fi
 
 	# import all needed gpg keys
-	for validpgpkey in ${validpgpkeys}; do
-		msg2 "Importing PGP key: ${validpgpkey}"
-		gpg --recv-keys "${validpgpkey}" &>/dev/null
-	done
+	if [[ -n "${validpgpkeys}" ]]; then
+		msg2 "Importing PGP keys: ${validpgpkeys}"
+		gpg --recv-keys ${validpgpkeys} &>/dev/null
+	fi
 
 	# build selected modes
 	if [[ -z "${SKIP_BUILD}" ]]; then

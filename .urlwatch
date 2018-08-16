@@ -236,7 +236,7 @@ name: 'radamsa'
 command: 'git ls-remote --tags https://github.com/aoh/radamsa'
 ---
 name: 'owl-lisp'
-command: 'git ls-remote --tags https://github.com/aoh/owl-lisp'
+command: 'git ls-remote --tags https://gitlab.com/owl-lisp/owl'
 ---
 name: 'synergy'
 command: 'git ls-remote --tags https://github.com/symless/synergy-core'
@@ -599,7 +599,7 @@ name: 'ruby-eventmachine'
 command: 'git ls-remote --tags https://github.com/eventmachine/eventmachine'
 ---
 name: 'LinSSID'
-command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files|grep -v stats"
+command: "curl 'https://sourceforge.net/projects/linssid/files/?source=navbar' 2>/dev/null|grep files/LinSSID|grep -v png|grep -v net.sf.files|grep -v stats|tr '/' '\n'|grep -i linssid_"
 ---
 name: 'john'
 command: "curl 'http://www.openwall.com/john/' 2>/dev/null|grep john|grep -E '\\.(zip|tar|tgz|xz|bz2)'"
@@ -1296,5 +1296,23 @@ command: 'git ls-remote --tags https://github.com/w0rp/ale'
 ---
 name: 'libseccomp (github)'
 command: 'git ls-remote --tags https://github.com/seccomp/libseccomp'
+---
+name: 'visualvm (github)'
+command: 'git ls-remote --tags https://github.com/visualvm/visualvm.src'
+---
+name: 'hcxtools (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxtools'
+---
+name: 'hcxdumptool (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxdumptool'
+---
+name: 'hcxkeys (github)'
+command: 'git ls-remote --tags https://github.com/ZerBea/hcxkeys'
+---
+name: 'vala (gnome gitlab)'
+command: 'git ls-remote --tags https://gitlab.gnome.org/GNOME/vala.git'
+---
+name: 'intellij IDE website'
+command: "curl 'https://data.services.jetbrains.com/products/releases?code=IIU%2CIIC&latest=true&type=release'|jq '.[\"IIC\"][0] | .version, .build'"
 
 # vim: ft=yaml
