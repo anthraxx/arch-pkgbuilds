@@ -47,7 +47,10 @@ hashid
 hash-identifier
 haskell-iwlib
 haskell-libmpd
-haskell-parsec
+haskell-parsec-numbers
+hcxdumptool
+hcxkeys
+hcxtools
 hexer
 httping
 hydra
