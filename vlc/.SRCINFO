@@ -1,7 +1,7 @@
 pkgbase = vlc
 	pkgdesc = Multi-platform MPEG, VCD/DVD, and DivX player
-	pkgver = 3.0.3
-	pkgrel = 4
+	pkgver = 3.0.3.r1
+	pkgrel = 1
 	url = https://www.videolan.org/vlc/
 	arch = x86_64
 	license = LGPL2.1
