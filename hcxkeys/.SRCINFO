@@ -1,0 +1,17 @@
+pkgbase = hcxkeys
+	pkgdesc = Set of tools to generate plainmasterkeys (rainbowtables) and hashes for hashcat and John the Ripper
+	pkgver = 4.0.1+4+g451c639
+	pkgrel = 1
+	url = https://github.com/ZerBea/hcxkeys
+	arch = x86_64
+	license = MIT
+	makedepends = git
+	makedepends = opencl-headers
+	depends = openssl
+	depends = opencl-driver
+	depends = opencl-icd-loader
+	source = hcxkeys::git+https://github.com/ZerBea/hcxkeys#commit=451c639d5fc099acb3eb86f647450650452cba2e
+	sha512sums = SKIP
+
+pkgname = hcxkeys
+
