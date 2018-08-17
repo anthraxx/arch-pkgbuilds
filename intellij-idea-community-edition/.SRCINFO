@@ -1,32 +1,34 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
 	pkgver = 2018.2.1
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 2
 	url = https://www.jetbrains.com/idea/
 	install = idea.install
-	arch = any
+	arch = x86_64
 	license = Apache
-	depends = java-environment=8
+	makedepends = apache-ant
+	makedepends = git
+	makedepends = java-openjfx
 	depends = giflib
-	depends = libxtst
-	depends = libxft
-	depends = ttf-font
-	depends = coreutils
-	depends = grep
-	depends = which
-	depends = glibc
+	depends = java-environment=8
 	depends = python
-	conflicts = intellij-idea-libs
-	replaces = intellij-idea-libs
-	backup = usr/share/intellijidea-ce/bin/idea.vmoptions
-	backup = usr/share/intellijidea-ce/bin/idea64.vmoptions
-	source = https://download.jetbrains.com/idea/ideaIC-2018.2.1-no-jdk.tar.gz
+	depends = sh
+	depends = ttf-font
+	backup = usr/share/idea/bin/idea.vmoptions
+	backup = usr/share/idea/bin/idea64.vmoptions
+	source = idea-182.3911.36.tar.gz::https://github.com/JetBrains/intellij-community/archive/idea/182.3911.36.tar.gz
+	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/182.3911.36
+	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#tag=idea/182.3911.36
+	source = idea-build.patch
 	source = idea.desktop
 	source = idea.sh
-	sha256sums = 5e26c975f12bdda8b02fd592ab9a725a91306db10e84e515787370f4821a4eb7
-	sha256sums = bd37ad47c926941108f624cbe5adbd7fe91d198b15aca63d8a0c0da14c7a76a6
-	sha256sums = 0e5d6a47b5ae464e9f562110ccc798f55055943e425e0621c0275f72615fdb1d
+	sha256sums = 4556dbf0099fde8115b05bdc76e80c82263d9c3ef98c9b112c48d610f2fac509
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = 3793e8125abb05b1580919017469ada2563a2e5972a8d74666557df60d270cfd
+	sha256sums = fa9e3cba5e26a7e01cecda867f23467322db123c5553dfbb4f14aae034ccbed7
+	sha256sums = 9e2155dd4d352b2410fc689236b15d5c3cb9937d82b50d39ec8b8dbcdfa40de1
 
 pkgname = intellij-idea-community-edition
 
