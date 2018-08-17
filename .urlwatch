@@ -838,6 +838,9 @@ command: 'git ls-remote --tags https://git.cryptomilk.org/projects/cmocka.git'
 name: 'vlc'
 command: 'curl https://download.videolan.org/vlc/ 2>/dev/null|grep href|sed -E "s|.*>(.+)<.*|\1|"'
 ---
+name: 'vlc 3.0 (github)'
+command: 'git ls-remote --tags https://github.com/videolan/vlc-3.0'
+---
 name: 'krb5'
 command: 'curl https://web.mit.edu/kerberos/ 2>/dev/null|grep release'
 ---
@@ -1314,5 +1317,8 @@ command: 'git ls-remote --tags https://gitlab.gnome.org/GNOME/vala.git'
 ---
 name: 'intellij IDE website'
 command: "curl 'https://data.services.jetbrains.com/products/releases?code=IIU%2CIIC&latest=true&type=release'|jq '.[\"IIC\"][0] | .version, .build'"
+---
+name: 'audit (github)'
+command: 'git ls-remote --tags https://github.com/linux-audit/audit-userspace'
 
 # vim: ft=yaml
