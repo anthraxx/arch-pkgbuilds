@@ -1,6 +1,6 @@
 pkgbase = bettercap
 	pkgdesc = Swiss army knife for network attacks and monitoring
-	pkgver = 2.7
+	pkgver = 2.8
 	pkgrel = 1
 	url = https://github.com/bettercap/bettercap
 	arch = x86_64
@@ -14,8 +14,8 @@ pkgbase = bettercap
 	depends = glibc
 	depends = libnfnetlink
 	options = !emptydirs
-	source = bettercap-2.7.tar.gz::https://github.com/bettercap/bettercap/archive/v2.7.tar.gz
-	sha512sums = 9ac9ff08d9d24fa339fcf981d70945daf51b743a05f0f30d9153bfd756bdd9cdc1ebed221d6898740dfa57fb46d1b4d22d22cf942ea9737dbc2f5fafbb04713e
+	source = bettercap-2.8.tar.gz::https://github.com/bettercap/bettercap/archive/v2.8.tar.gz
+	sha512sums = f23f42d06e938d615d3d7033cdabdeeb571c606dd24ae8a412262b34871980d7e0bb3a13d9836668f7667a9d7fac1cfb27e0bb8b5bcf94854e9353991f748325
 
 pkgname = bettercap
 
