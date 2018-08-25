@@ -1,16 +1,16 @@
 pkgbase = iperf
 	pkgdesc = A tool to measure maximum TCP bandwidth
-	pkgver = 2.0.11
+	pkgver = 2.0.12
 	pkgrel = 1
 	url = https://sourceforge.net/projects/iperf2/
 	install = iperf.install
 	arch = x86_64
 	license = custom
 	depends = gcc-libs
-	source = https://downloads.sourceforge.net/iperf2/iperf-2.0.11.tar.gz
+	source = https://downloads.sourceforge.net/iperf2/iperf-2.0.12.tar.gz
 	source = iperf-tcp.service
 	source = iperf-udp.service
-	md5sums = c63766d275b4537f419db096b9dfe4dc
+	md5sums = e501e26b9289097086ce0c44a42b10bc
 	md5sums = 1d8660b540aa0db2e627d3d400cb8de4
 	md5sums = a27a8d27b1585bc999a04a2f082e2726
 
