@@ -1323,5 +1323,8 @@ command: 'git ls-remote --tags https://github.com/linux-audit/audit-userspace'
 ---
 name: 'dash (git)'
 command: 'git ls-remote --tags https://git.kernel.org/pub/scm/utils/dash/dash.git'
+---
+name: 'whowatch (github)'
+command: 'git ls-remote --tags https://github.com/mtsuszycki/whowatch'
 
 # vim: ft=yaml
