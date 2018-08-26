@@ -1320,5 +1320,8 @@ command: "curl 'https://data.services.jetbrains.com/products/releases?code=IIU%2
 ---
 name: 'audit (github)'
 command: 'git ls-remote --tags https://github.com/linux-audit/audit-userspace'
+---
+name: 'dash (git)'
+command: 'git ls-remote --tags https://git.kernel.org/pub/scm/utils/dash/dash.git'
 
 # vim: ft=yaml
