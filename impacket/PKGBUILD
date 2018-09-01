@@ -3,7 +3,7 @@
 # Contributor: Paolo Giangrandi <peoro.noob@gmail.com>
 
 pkgname=impacket
-pkgver=0.9.15
+pkgver=0.9.17
 pkgrel=1
 pkgdesc='Collection of classes for working with network protocols'
 url='https://github.com/CoreSecurity/impacket'
@@ -12,7 +12,7 @@ license=('Apache')
 depends=('python2-crypto' 'python2-pyasn1' 'python2-pcapy' 'python2-pyopenssl')
 checkdepends=('python2-pytest')
 source=(${pkgname}-${pkgver}.tar.gz::https://github.com/CoreSecurity/impacket/archive/impacket_${pkgver//./_}.tar.gz)
-sha512sums=('31b1b059d01071319bccfc9a57b23eed175bfba61961ec425553916e7d1940ff6ef53d79ef5e43963e1b4f6037f50489ad22cd6935a53f2cd82bc5b2c6d741ce')
+sha512sums=('c6a84b5f3e0e08bc44c6648c0c65048c5b9ee63ce7706896f4f9a3c061b3bf64e5e68ca87794162cfc730144eff60c392eea2548edeaba61e04350c857e69c9b')
 
 prepare() {
   cd ${pkgname}-${pkgname}_${pkgver//./_}
@@ -23,7 +23,7 @@ check() {
   cd ${pkgname}-${pkgname}_${pkgver//./_}
   PYTHONPATH="./impacket:${PYTHONPATH}" \
     PYTHONDONTWRITEBYTECODE=1 \
-    py.test2 impacket/testcases/ImpactPacket
+    py.test2 tests/ImpactPacket
 }
 
 package() {
