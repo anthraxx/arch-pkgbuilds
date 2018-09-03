@@ -1326,5 +1326,8 @@ command: 'git ls-remote --tags https://git.kernel.org/pub/scm/utils/dash/dash.gi
 ---
 name: 'whowatch (github)'
 command: 'git ls-remote --tags https://github.com/mtsuszycki/whowatch'
+---
+name: 'aribb24 (github)'
+command: 'git ls-remote --tags https://github.com/nkoriyama/aribb24'
 
 # vim: ft=yaml
