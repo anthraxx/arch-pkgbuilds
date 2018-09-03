@@ -28,8 +28,8 @@ command: "curl http://cpansearch.perl.org/src/WOLDRICH/ 2>/dev/null|grep Term-Ex
 name: 'scapy (git)'
 command: 'git ls-remote --tags https://github.com/secdev/scapy'
 ---
-name: 'scapy3k'
-command: 'git ls-remote --tags https://github.com/phaethon/scapy'
+name: 'kamene (github)'
+command: 'git ls-remote --tags https://github.com/phaethon/kamene'
 ---
 name: 'shellnoob'
 command: 'git ls-remote --tags https://github.com/reyammer/shellnoob'
