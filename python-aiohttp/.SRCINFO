@@ -1,26 +1,29 @@
 pkgbase = python-aiohttp
 	pkgdesc = HTTP client/server for asyncio
-	pkgver = 3.2.1
-	pkgrel = 2
+	pkgver = 3.4.2
+	pkgrel = 1
 	url = https://aiohttp.readthedocs.io
 	arch = x86_64
 	license = Apache
 	checkdepends = python-pytest
 	checkdepends = python-pytest-runner
 	checkdepends = python-pytest-mock
+	checkdepends = python-pytest-timeout
 	checkdepends = python-async_generator
+	checkdepends = python-brotlipy
 	makedepends = cython
 	makedepends = python-setuptools
+	makedepends = git
 	depends = python
 	depends = python-chardet
 	depends = python-multidict
 	depends = python-async-timeout
 	depends = python-yarl
-	depends = python-idna_ssl
 	depends = python-attrs
-	source = python-aiohttp-3.2.1.tar.gz::https://github.com/aio-libs/aiohttp/archive/v3.2.1.tar.gz
-	sha256sums = 6cf1c7fd052bc92e0be940e5b2e877a202d2d0fdf36cbf2aa3ef3c92f4e2327a
-	sha512sums = c56bbcd09bcb56cea1ee2977a7550a0dcde1a18e58e50340978e8882a483350f092b06314611e62e90964a357252debddaf031af427910f318efa31720f3dc33
+	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=3ddd91c2c89e5a31380b169bd5a26c8d641b2fc5
+	source = git+https://github.com/nodejs/http-parser
+	sha512sums = SKIP
+	sha512sums = SKIP
 
 pkgname = python-aiohttp
 
