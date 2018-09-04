@@ -1,18 +1,18 @@
 pkgbase = jadx
 	pkgdesc = Command line and GUI tools to produce Java source code from Android Dex and APK files
-	pkgver = 0.6.1
+	pkgver = 0.8.0
 	pkgrel = 1
 	url = https://github.com/skylot/jadx
 	arch = any
 	license = Apache
-	makedepends = java-environment
+	makedepends = java-environment=8
 	makedepends = gradle
-	depends = java-runtime
+	depends = java-runtime=8
 	depends = bash
 	depends = fontconfig
 	depends = xorg-font-utils
-	source = jadx-0.6.1.tar.gz::https://github.com/skylot/jadx/archive/v0.6.1.tar.gz
-	sha512sums = 05b62710164d4062ff3cd15529b571fa6c0d4aeb9466ec54c4ccc9985dbcce6d6ef4f22b18a6ce1a795a87ed917da199043c3b56a2f6e7984af6b371d0d99705
+	source = jadx-0.8.0.tar.gz::https://github.com/skylot/jadx/archive/v0.8.0.tar.gz
+	sha512sums = bea4937c9e2912378d70922bc13e19e493ba8a5423332afa0c731bae9c307f5ec3c442227aed2d3ebba23b626ea460edd1fdc11cf74a2ba52b8e9d6e4e5b979b
 
 pkgname = jadx
 
