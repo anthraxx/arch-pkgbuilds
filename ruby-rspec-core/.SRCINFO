@@ -1,15 +1,15 @@
 pkgbase = ruby-rspec-core
 	pkgdesc = RSpec runner and formatters
-	pkgver = 3.7.1
+	pkgver = 3.8.0
 	pkgrel = 1
 	url = https://github.com/rspec/rspec-core
 	arch = any
 	license = MIT
 	depends = ruby-rspec-support
-	noextract = rspec-core-3.7.1.gem
+	noextract = rspec-core-3.8.0.gem
 	options = !emptydirs
-	source = https://rubygems.org/downloads/rspec-core-3.7.1.gem
-	sha512sums = 86e091642e35d41a82a20e314cd71fe23e1de1bd6008d9fed82b5078616aa1815e5a1f049a996283d90d8b638e3b0e004ecd9136f0b85d60b1636929f39fa511
+	source = https://rubygems.org/downloads/rspec-core-3.8.0.gem
+	sha512sums = c3163b4bc8463c9b6ac86921fb315d000b944f7b825f489ebc264473aa3ee8a61eb7bec92b7b528da40a051a83ef14d341790087d21746b1da142981f5d16ab0
 
 pkgname = ruby-rspec-core
 
