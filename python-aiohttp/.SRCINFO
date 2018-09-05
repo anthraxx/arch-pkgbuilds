@@ -1,6 +1,6 @@
 pkgbase = python-aiohttp
 	pkgdesc = HTTP client/server for asyncio
-	pkgver = 3.4.2
+	pkgver = 3.4.4
 	pkgrel = 1
 	url = https://aiohttp.readthedocs.io
 	arch = x86_64
@@ -20,7 +20,7 @@ pkgbase = python-aiohttp
 	depends = python-async-timeout
 	depends = python-yarl
 	depends = python-attrs
-	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=3ddd91c2c89e5a31380b169bd5a26c8d641b2fc5
+	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=fd335f2d597208e95bc86732cf93edbc8fa379ef
 	source = git+https://github.com/nodejs/http-parser
 	sha512sums = SKIP
 	sha512sums = SKIP
