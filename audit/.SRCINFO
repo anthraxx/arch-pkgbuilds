@@ -1,0 +1,30 @@
+pkgbase = audit
+	pkgdesc = Userspace components of the audit framework
+	pkgver = 2.8.4
+	pkgrel = 1
+	url = https://people.redhat.com/sgrubb/audit
+	arch = x86_64
+	license = GPL
+	makedepends = libldap
+	makedepends = swig
+	makedepends = linux-headers
+	makedepends = python
+	makedepends = python2
+	depends = krb5
+	depends = libcap-ng
+	options = emptydirs
+	backup = etc/libaudit.conf
+	backup = etc/audit/audit-stop.rules
+	backup = etc/audit/auditd.conf
+	backup = etc/audisp/audispd.conf
+	backup = etc/audisp/audisp-remote.conf
+	backup = etc/audisp/zos-remote.conf
+	backup = etc/audisp/plugins.d/af_unix.conf
+	backup = etc/audisp/plugins.d/audispd-zos-remote.conf
+	backup = etc/audisp/plugins.d/au-remote.conf
+	backup = etc/audisp/plugins.d/syslog.conf
+	source = audit-2.8.4.tar.gz::https://people.redhat.com/sgrubb/audit/audit-2.8.4.tar.gz
+	sha512sums = 5795c565effab995cee447a2dc457ef6a6f15201fb185d7104992ac373a3cb5cfc865dd661c0896a895c96f452eff392d455064d0eead55cd7364d96e0d15c4a
+
+pkgname = audit
+
