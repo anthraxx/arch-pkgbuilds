@@ -1,9 +1,14 @@
+ant
+apache-ant
+aribb24
 asio
+audit
 avidemux
 beep
 bftpd
 boost
 clamav
+dash
 doxygen
 gimp
 hwloc
@@ -54,3 +59,4 @@ vim
 visualvm
 vlc
 wget
+xorg-setxkbmap
