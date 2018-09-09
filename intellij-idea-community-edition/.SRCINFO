@@ -1,10 +1,9 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
-	pkgver = 2018.2.2
+	pkgver = 2018.2.3
 	pkgrel = 1
 	epoch = 2
 	url = https://www.jetbrains.com/idea/
-	install = idea.install
 	arch = x86_64
 	license = Apache
 	makedepends = apache-ant
@@ -17,18 +16,18 @@ pkgbase = intellij-idea-community-edition
 	depends = ttf-font
 	backup = usr/share/idea/bin/idea.vmoptions
 	backup = usr/share/idea/bin/idea64.vmoptions
-	source = idea-182.4129.33.tar.gz::https://github.com/JetBrains/intellij-community/archive/idea/182.4129.33.tar.gz
-	source = idea-android::git://git.jetbrains.org/idea/android.git#commit=b3cd38efb0d8ca0ae5fb82edf27b82a31122c647
+	source = idea-182.4323.46.tar.gz::https://github.com/JetBrains/intellij-community/archive/idea/182.4323.46.tar.gz
+	source = idea-android-182.4323.46.tar.gz::https://github.com/JetBrains/android/archive/idea/182.4323.46.tar.gz
 	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#commit=70a9f8b3756d917717a04140b858a23eef5e60ca
 	source = idea-build.patch
 	source = idea.desktop
 	source = idea.sh
-	sha256sums = 151b292adf956789a519e12701bf767181bd7cef95902e81a7b6d3c0a98aec90
-	sha256sums = SKIP
+	sha256sums = 0eae527f1cee3fe4ca0fd90ff67707e4e304bb71d3e1d4e773e0c4c0245e8643
+	sha256sums = 3a8759e8ba508a16108f5b778739465333433fd9fb540414af0f46a1110131fd
 	sha256sums = SKIP
 	sha256sums = 3793e8125abb05b1580919017469ada2563a2e5972a8d74666557df60d270cfd
 	sha256sums = fa9e3cba5e26a7e01cecda867f23467322db123c5553dfbb4f14aae034ccbed7
-	sha256sums = 9e2155dd4d352b2410fc689236b15d5c3cb9937d82b50d39ec8b8dbcdfa40de1
+	sha256sums = c021dba82f75a18be6ffdc2fe70d616496bbe3a14e7a5efef30c06b4cbd915c3
 
 pkgname = intellij-idea-community-edition
 
