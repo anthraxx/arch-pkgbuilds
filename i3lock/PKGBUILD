@@ -1,0 +1,42 @@
+# $Id: PKGBUILD 378905 2018-09-09 14:45:14Z jelle $
+# Maintainer: Thorsten Töpper <atsutane-tu@freethoughts.de>
+
+pkgname=i3lock
+pkgver=2.10
+pkgrel=1
+pkgdesc="An improved screenlocker based upon XCB and PAM"
+arch=('x86_64')
+url="https://i3wm.org/i3lock/"
+license=('MIT')
+groups=("i3")
+depends=('xcb-util-image' 'libev' 'cairo' 'libxkbcommon-x11' 'pam')
+options=('docs')
+backup=("etc/pam.d/i3lock")
+source=("https://i3wm.org/i3lock/$pkgname-$pkgver.tar.bz2"
+        "https://i3wm.org/i3lock/$pkgname-$pkgver.tar.bz2.asc")
+md5sums=('a496ec274c2f75bbefaa088c4d18ec85'
+         'SKIP')
+validpgpkeys=('424E14D703E7C6D43D9D6F364E7160ED4AC8EE1D') # Michael Stapelberg
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  # Fix ticket FS#31544, sed line taken from gentoo
+  sed -i -e 's:login:system-auth:' i3lock.pam
+}
+
+build() {
+  cd "${pkgname}-${pkgver}"
+
+  make
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  make DESTDIR="${pkgdir}" install
+  
+  install -Dm644 i3lock.1 ${pkgdir}/usr/share/man/man1/i3lock.1
+  install -Dm644 LICENSE ${pkgdir}/usr/share/licenses/${pkgname}/LICENSE
+}
+
+# vim:set ts=2 sw=2 et:
+
