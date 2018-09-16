@@ -1,7 +1,7 @@
 pkgbase = python-flask-socketio
 	pkgdesc = Socket.IO integration for Flask applications
-	pkgver = 3.0.1
-	pkgrel = 2
+	pkgver = 3.0.2
+	pkgrel = 1
 	url = https://flask-socketio.readthedocs.org/
 	arch = any
 	license = MIT
@@ -20,9 +20,9 @@ pkgbase = python-flask-socketio
 	makedepends = python2-eventlet
 	makedepends = python2-socketio
 	options = !makeflags
-	source = python-flask-socketio-3.0.1.tar.gz::https://github.com/miguelgrinberg/Flask-SocketIO/archive/v3.0.1.tar.gz
-	sha256sums = 7dd3ee668670efb1fe63edd771613770cbb78b0dfef6f2f6e36f27b674c89fbd
-	sha512sums = a7818afbf183363ffddcaac634192dc1103289ca3c198622a7f7779986650c8e1347537654018eb3acb71e8ff2e5822d504812b4f369acf6f35fdffc814de23c
+	source = python-flask-socketio-3.0.2.tar.gz::https://github.com/miguelgrinberg/Flask-SocketIO/archive/v3.0.2.tar.gz
+	sha256sums = 64b8ab4503290884921aacd3b399a5f1e82266e20c98d87a0b339284bca92d05
+	sha512sums = 5c5dab420cc08e01fc7ea6f9ae90e97330a79bbf1477f1f6f5909a8c2ac98a614aaa4c8c2264fda101b776271cb0e532e82749c3a54d1400eeca875bea885ebb
 
 pkgname = python-flask-socketio
 	depends = python-flask
