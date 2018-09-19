@@ -1,7 +1,7 @@
 pkgbase = gimp
 	pkgdesc = GNU Image Manipulation Program
 	pkgver = 2.10.6
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gimp.org/
 	arch = x86_64
 	license = GPL
@@ -20,7 +20,7 @@ pkgbase = gimp
 	depends = glib-networking
 	depends = hicolor-icon-theme
 	depends = jasper
-	depends = lcms
+	depends = lcms2
 	depends = libheif
 	depends = libexif
 	depends = libgudev
