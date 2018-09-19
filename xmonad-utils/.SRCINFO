@@ -1,7 +1,7 @@
 pkgbase = xmonad-utils
 	pkgdesc = Small collection of X utilities
 	pkgver = 0.1.3.3
-	pkgrel = 7
+	pkgrel = 9
 	url = http://hackage.haskell.org/package/xmonad-utils
 	arch = x86_64
 	license = custom:BSD3
@@ -10,7 +10,7 @@ pkgbase = xmonad-utils
 	depends = gmp
 	depends = libffi
 	depends = libxrandr
-	depends = haskell-x11>=1.3
+	depends = haskell-x11
 	depends = haskell-random
 	depends = haskell-unix
 	options = !emptydirs
