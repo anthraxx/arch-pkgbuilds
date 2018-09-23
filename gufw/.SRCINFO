@@ -1,7 +1,7 @@
 pkgbase = gufw
 	pkgdesc = Uncomplicated way to manage your Linux firewall
-	pkgver = 18.04.0
-	pkgrel = 2
+	pkgver = 18.10.0
+	pkgrel = 1
 	url = https://gufw.org/
 	arch = any
 	license = GPL3
@@ -9,14 +9,15 @@ pkgbase = gufw
 	makedepends = python-distutils-extra
 	depends = gtk3
 	depends = polkit
+	depends = python
 	depends = python-gobject
 	depends = ufw
 	depends = webkit2gtk
 	depends = desktop-file-utils
 	depends = gtk-update-icon-cache
-	source = https://launchpad.net/gui-ufw/trunk/18.04/+download/gui-ufw-18.04.0.tar.gz
-	sha256sums = b6b12524d3d2c6035288f15003c97aa23eef862fdaa78fb621e045cd793374fc
-	sha512sums = 86154bd802e87ecd4bb6cfe74ae50d716d96bf33ca21847d439f602a4d318f7fcfa1f8a7222567ba194dba479f217842be7f1538ad725256458ebc428a33e831
+	source = https://launchpad.net/gui-ufw/trunk/18.10/+download/gui-ufw-18.10.0.tar.gz
+	sha256sums = c44468550cbcb35ebee0dd8339341447118811ccd0714e79350136117421b93b
+	sha512sums = a2f733d9622e4f22d230243cc25dca0933eae163933d08a98358a933056cf29630c1fa34d7cc449fb45890c55770023aef1e6a3d72702dc1fd0357f38e09a7e7
 
 pkgname = gufw
 
