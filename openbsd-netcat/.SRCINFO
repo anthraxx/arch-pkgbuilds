@@ -1,0 +1,19 @@
+pkgbase = openbsd-netcat
+	pkgdesc = TCP/IP swiss army knife. OpenBSD variant.
+	pkgver = 1.190_2
+	pkgrel = 1
+	url = http://packages.debian.org/sid/netcat-openbsd
+	arch = x86_64
+	license = BSD
+	makedepends = gcc
+	makedepends = make
+	depends = libbsd
+	provides = netcat
+	conflicts = gnu-netcat
+	source = http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.190.orig.tar.gz
+	source = http://ftp.debian.org/debian/pool/main/n/netcat-openbsd/netcat-openbsd_1.190-2.debian.tar.xz
+	sha512sums = 32310813391f63b8283dc4a63e52821e464ecbfcd0ea995e8e15047c6252a86b31eb4725dc69b778594c43d6ce0cc081aa0f00d7cda0587c91941f20b93a33fe
+	sha512sums = c33510ad6761627e0b7e564747f6ae82c7569157bdc91f6a282a97b038b2b0917c27fdfba137462c7c34d84fcfdfe8b6393204884d153e3d200a86f5c6657a9a
+
+pkgname = openbsd-netcat
+
