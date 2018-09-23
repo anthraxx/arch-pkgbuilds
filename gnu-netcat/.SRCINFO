@@ -1,0 +1,16 @@
+pkgbase = gnu-netcat
+	pkgdesc = GNU rewrite of netcat, the network piping application
+	pkgver = 0.7.1
+	pkgrel = 6
+	url = http://netcat.sourceforge.net/
+	arch = x86_64
+	license = GPL
+	depends = glibc
+	depends = texinfo
+	provides = netcat
+	replaces = netcat
+	source = http://downloads.sourceforge.net/sourceforge/netcat/netcat-0.7.1.tar.bz2
+	md5sums = 0a29eff1736ddb5effd0b1ec1f6fe0ef
+
+pkgname = gnu-netcat
+
