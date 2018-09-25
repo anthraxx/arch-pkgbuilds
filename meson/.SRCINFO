@@ -1,7 +1,7 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
-	pkgver = 0.47.2
-	pkgrel = 1
+	pkgver = 0.48.0
+	pkgrel = 2
 	url = http://mesonbuild.com/
 	arch = any
 	license = Apache
@@ -39,18 +39,15 @@ pkgbase = meson
 	checkdepends = libwmf
 	checkdepends = dmd
 	checkdepends = valgrind
-	makedepends = python-setuptools
-	depends = python
+	depends = python-setuptools
 	depends = ninja
-	source = https://github.com/mesonbuild/meson/releases/download/0.47.2/meson-0.47.2.tar.gz
-	source = https://github.com/mesonbuild/meson/releases/download/0.47.2/meson-0.47.2.tar.gz.asc
+	source = https://github.com/mesonbuild/meson/releases/download/0.48.0/meson-0.48.0.tar.gz
+	source = https://github.com/mesonbuild/meson/releases/download/0.48.0/meson-0.48.0.tar.gz.asc
 	source = arch-meson
-	source = test.diff
 	validpgpkeys = 95181F4EED14FDF4E41B518D3BF4693BFEEB9428
-	sha512sums = a1ac5691a5319ccf196d9443aea61e6c3ee9f09a9f638a3a7b5e5381b4c14372253c845be74fa2b59f42b9697671f12bce92c46bcb5cb629aeebd68e044e0021
+	sha512sums = 33ddb6b36ad6a4d4e7bbc2f9b3c8cab103142b88ed6fcf8c727341ad5339209f183e8fdd0177a28d4394f7635e1127182760ea63c0c6ded3a8d41fe64584ee7c
 	sha512sums = SKIP
 	sha512sums = 4cdacd6a7d2bdaacde176fd7f90f8a06ae403db7e63498518c637b13bdc344dca595fb8b9f41f978f450cd43ffef8a4013c0e74f669d13ba6881d38068ea1c0d
-	sha512sums = 0e537c4fc04535decf901713f05d895dd8b93f2136e463b4a5adc5f2bf3a3e4c4ee07b5936fd7d01309af75a50fb1dc8d842b953c039ffe096efd54fd86aa7d0
 
 pkgname = meson
 
