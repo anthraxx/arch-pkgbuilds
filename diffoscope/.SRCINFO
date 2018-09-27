@@ -1,7 +1,7 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 99
-	pkgrel = 3
+	pkgver = 102
+	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
 	license = GPL3
@@ -26,7 +26,7 @@ pkgbase = diffoscope
 	checkdepends = poppler
 	checkdepends = sqlite
 	checkdepends = squashfs-tools
-	checkdepends = tlsh
+	checkdepends = python-tlsh
 	checkdepends = unzip
 	checkdepends = gzip
 	checkdepends = tar
@@ -87,14 +87,14 @@ pkgbase = diffoscope
 	optdepends = python-jsbeautifier: javascript beautifier support
 	optdepends = python-progressbar: show progressbar support
 	optdepends = tcpdump: pcap matching support
-	optdepends = tlsh: fuzzy matching supprt
+	optdepends = python-tlsh: fuzzy matching supprt
 	optdepends = unzip: zip utilities support
 	optdepends = gzip: gzip utilities support
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-99.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/99/diffoscope-99.tar.bz2
-	sha512sums = b270fa1e56927de7fc46457cdca46b559d39b32c1c401e39946e5206d53b2bd758ea0011e2311b77fb046e1953ab2eef54f7b53d958bd61e7122bda8610093d5
+	source = diffoscope-102.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/102/diffoscope-102.tar.bz2
+	sha512sums = 4d003041d6b5cebfa02820dd0cf38c2b8ca52ec2adc57024ea09c67d4e7ec6aab0d185f80a0f7db491d4c653f2aff94597ed248e11a4cbacc4bcb2536b0c76c5
 
 pkgname = diffoscope
 
