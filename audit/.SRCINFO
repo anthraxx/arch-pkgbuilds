@@ -33,12 +33,12 @@ pkgname = audit
 	backup = etc/audisp/plugins.d/syslog.conf
 
 pkgname = python2-audit
-	pkgdesc = Userspace components of the audit framework (python bindings)
+	pkgdesc = Userspace components of the audit framework (python2 bindings)
 	depends = python
 	depends = audit
 
 pkgname = python-audit
-	pkgdesc = Userspace components of the audit framework (python2 bindings)
+	pkgdesc = Userspace components of the audit framework (python bindings)
 	depends = python2
 	depends = audit
 
