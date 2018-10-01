@@ -1,22 +1,22 @@
 pkgbase = wpscan
 	pkgdesc = Black box WordPress vulnerability scanner
-	pkgver = 2.9.4
-	pkgrel = 2
+	pkgver = 3.3.1
+	pkgrel = 1
 	epoch = 1
 	url = http://wpscan.org
 	install = wpscan.install
 	arch = x86_64
 	license = custom:WPScan
-	makedepends = unzip
 	depends = ruby-bundler
 	depends = libxslt
 	depends = libyaml
 	depends = curl
+	depends = libxml2
 	options = !strip
 	options = !emptydirs
-	source = wpscan-2.9.4.tar.gz::https://github.com/wpscanteam/wpscan/archive/2.9.4.tar.gz
-	sha256sums = ad066b48565e82208d5e0451891366f6a9b9a3648d149d14c83d00f4712094d3
-	sha512sums = 1ca5fd2e8bc5a7a368576351bce465039a7fdcea33d4abe86a168dbd2725922ae40362264a2f71e0839435e5085a9ebe74415bd3d40c316e3b4d654122a87e67
+	source = wpscan-3.3.1.tar.gz::https://github.com/wpscanteam/wpscan/archive/v3.3.1.tar.gz
+	sha256sums = b4e0f31c591e9b55ee58a2675b7bc6dd31ad7fdfa1ded3c2da1fe72ce9fb0e05
+	sha512sums = 1b0dc3cf8d3459c2ae6a189f0ec45fe8ca80cc22cdd55c6f2122d474259c373aeb1577d3d8f3a24b31f51160b5a3f73c36c6e9c64d272e066c1b106047bff7a2
 
 pkgname = wpscan
 
