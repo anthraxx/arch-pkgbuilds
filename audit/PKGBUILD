@@ -54,7 +54,7 @@ package_audit() {
   make DESTDIR="${pkgdir}" INSTALL='install -p' install
 
   cd "${pkgdir}"
-  install -d var/log/audit
+  install -dm 700 var/log/audit
   rm -rf etc/rc.d \
     etc/sysconfig \
     usr/lib/audit \
