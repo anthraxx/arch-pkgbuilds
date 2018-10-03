@@ -12,7 +12,7 @@
 # installed version of that library. They change around paths every
 # update and just generally don't seem to care much.
 pkgname=synergy
-pkgver=1.10.0
+pkgver=1.10.1
 pkgrel=1
 pkgdesc='Share a single mouse and keyboard between multiple computers'
 url='https://symless.com/synergy/'
@@ -28,7 +28,7 @@ source=(synergy-${pkgver}.tar.gz::https://github.com/symless/synergy-core/archiv
         fix-test-build.patch
         synergys.socket
         synergys.service)
-sha512sums=('3957378df3d6003f33f1a28210f7797b941d649f9ba0d39a5fdba2663aae1b7e2fd04e2897063e59d4c94b0864ca82049d41c7aa8b9d9577889c87a2726728e1'
+sha512sums=('33b298de3e7dacdd4d5c162840b8d0ddabd4127ed7cb04336f2d8dd1a8a9a69dc70c8959cb9086e56e65035cdacb7c743670479123711321283811eb3a823e6e'
             '6ed5384ec46e991958f48051c66b87febfb457a748cea48909f87a088c804907f480f123620a0a5921e281ca9871e251de8b7dd5803ffe8566841f68f396c160'
             'b8347b803a7baaeeab75e55778314298fc69e15ccda154a8622b4697c3a3e7d6ba51cb156f06c6b289c41cb0892be7fed5ce49591531ed1ef18fa3a1ec8a7d6d'
             '89b29994f238013393b90ad628d781ea6ea1d46c33819be561f031cc0790ef7f3860faaa2803e1459ed3c14affb749ea3bab6b15598c760424c8063195cb56a6'
@@ -41,30 +41,30 @@ prepare() {
   mkdir build
 
   # get rid of shitty bundled gtest and gmock
-  patch -p1 < "${srcdir}/use-system-libs.patch"
+  patch -Np1 < "${srcdir}/use-system-libs.patch"
   # fix the build with qt5.11
   # this is likely to be obsolete in future versions
   # see: https://github.com/symless/synergy-core/pull/6359
-  patch -p1 < "${srcdir}/fix-qt5_11-compatibility.patch"
+  patch -Np1 < "${srcdir}/fix-qt5_11-compatibility.patch"
   # enable building of test executables
-  patch -p1 < "${srcdir}/enable-test-build.patch"
+  patch -Np1 < "${srcdir}/enable-test-build.patch"
   # fix building of test executables
-  patch -p1 < "${srcdir}/fix-test-build.patch"
+  patch -Np1 < "${srcdir}/fix-test-build.patch"
+  # remove tests that need working X
+  rm src/test/integtests/platform/XWindowsScreenTests.cpp \
+    src/test/integtests/platform/XWindowsKeyStateTests.cpp
 }
 
 build() {
-  cd synergy-core-${pkgver}-stable
-
-  (cd build
-    cmake -DCMAKE_INSTALL_PREFIX=/usr ..
-    make
-  )
+  cd synergy-core-${pkgver}-stable/build
+  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  make
 }
 
 check() {
-  cd synergy-core-${pkgver}-stable
-  ./build/bin/unittests
-  ./build/bin/integtests
+  cd synergy-core-${pkgver}-stable/build
+  ./bin/unittests
+  ./bin/integtests
 }
 
 package() {
@@ -77,15 +77,15 @@ package() {
   install -Dm 644 doc/${pkgname}.conf* -t "${pkgdir}/etc"
 
   # install manfiles
-  install -Dm 644 "doc/${pkgname}c.man" "${pkgdir}/usr/share/man/man1/${pkgname}c.1"
-  install -Dm 644 "doc/${pkgname}s.man" "${pkgdir}/usr/share/man/man1/${pkgname}s.1"
+  install -Dm 644 doc/${pkgname}c.man "${pkgdir}/usr/share/man/man1/${pkgname}c.1"
+  install -Dm 644 doc/${pkgname}s.man "${pkgdir}/usr/share/man/man1/${pkgname}s.1"
 
   # install systemd service and socket
   install -Dm 644 "${srcdir}"/synergys.{service,socket} -t "${pkgdir}/usr/lib/systemd/user"
 
   # install desktop/icon stuff
-  install -Dm 644 "res/synergy.ico" -t "${pkgdir}/usr/share/icons"
-  install -Dm 644 "res/synergy.desktop" -t "${pkgdir}/usr/share/applications"
+  install -Dm 644 res/synergy.ico -t "${pkgdir}/usr/share/icons"
+  install -Dm 644 res/synergy.desktop -t "${pkgdir}/usr/share/applications"
 }
 
 # vim:set ts=2 sw=2 et:
