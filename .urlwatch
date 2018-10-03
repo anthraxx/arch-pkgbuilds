@@ -1335,5 +1335,8 @@ command: 'git ls-remote --tags https://github.com/apache/ant'
 ---
 name: 'xorg-setxkbmap (upstream)'
 command: "curl https://xorg.freedesktop.org/releases/individual/app/ 2>/dev/null|grep .tar|tr '<>' '\n'|grep '^setxkbmap'"
+---
+name: 'fping (github)'
+command: 'git ls-remote --tags https://github.com/schweikert/fping'
 
 # vim: ft=yaml
