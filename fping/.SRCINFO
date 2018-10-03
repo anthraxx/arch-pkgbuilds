@@ -1,0 +1,14 @@
+pkgbase = fping
+	pkgdesc = A utility to ping multiple hosts at once
+	pkgver = 4.0
+	pkgrel = 2
+	url = http://www.fping.org/
+	install = fping.install
+	arch = x86_64
+	license = custom
+	depends = glibc
+	source = https://www.fping.org/dist/fping-4.0.tar.gz
+	sha256sums = 67eb4152b98ad34f99d2eec4e1098a0bb52caf13c0c89cd147349d08190fe8ce
+
+pkgname = fping
+
