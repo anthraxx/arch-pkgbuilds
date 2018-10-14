@@ -1,7 +1,7 @@
 pkgbase = vim-fugitive
 	pkgdesc = Git wrapper so awesome, it should be illegal
 	pkgver = 2.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/tpope/vim-fugitive
 	arch = any
 	groups = vim-plugins
