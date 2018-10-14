@@ -1338,5 +1338,14 @@ command: "curl https://xorg.freedesktop.org/releases/individual/app/ 2>/dev/null
 ---
 name: 'fping (github)'
 command: 'git ls-remote --tags https://github.com/schweikert/fping'
+---
+name: 'libqb (github)'
+command: 'git ls-remote --tags https://github.com/ClusterLabs/libqb'
+---
+name: 'usbguard (github)'
+command: 'git ls-remote --tags https://github.com/dkopecek/usbguard'
+---
+name: 'pegtl (github)'
+command: 'git ls-remote --tags https://github.com/taocpp/PEGTL'
 
 # vim: ft=yaml
