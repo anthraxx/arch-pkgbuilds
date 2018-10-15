@@ -1,6 +1,7 @@
 [Unit]
 Description=TeamSpeak3 Server
 After=network-online.target
+Wants=network-online.target
 
 [Service]
 Type=simple
@@ -18,11 +19,12 @@ ExecStart=/usr/bin/ts3server inifile=/etc/teamspeak3-server.ini
 CapabilityBoundingSet=
 AmbientCapabilities=
 NoNewPrivileges=true
-# DynamicUser only implies ProtectHome=read-only
 ProtectHome=true
+ProtectSystem=full
 ProtectKernelTunables=true
 ProtectKernelModules=true
 ProtectControlGroups=true
+PrivateTmp=true
 LockPersonality=true
 
 [Install]
