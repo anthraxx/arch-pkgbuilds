@@ -1347,5 +1347,8 @@ command: 'git ls-remote --tags https://github.com/dkopecek/usbguard'
 ---
 name: 'pegtl (github)'
 command: 'git ls-remote --tags https://github.com/taocpp/PEGTL'
+---
+name: 'teamspeak3-server (4players)'
+command: "curl 'http://dl.4players.de/ts/releases/' 2>/dev/null|grep folder|sed -E 's|.*>(.+)</a>.*|\1|g'"
 
 # vim: ft=yaml
