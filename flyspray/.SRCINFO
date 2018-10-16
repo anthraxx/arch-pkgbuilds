@@ -1,17 +1,15 @@
 pkgbase = flyspray
-	pkgdesc = A PHP web-based bug tracker
-	pkgver = 1.0rc6
+	pkgdesc = Lightweight, web-based bug tracking system written in PHP
+	pkgver = 1.0rc7
 	pkgrel = 1
-	url = http://www.flyspray.org/
+	url = https://www.flyspray.org/
 	arch = any
-	license = GPL
-	makedepends = unzip
+	license = LGPL2.1
 	depends = php
-	noextract = flyspray-1.0rc6.zip
 	options = !strip
 	backup = etc/webapps/flyspray/.htaccess
-	source = flyspray-1.0rc6.tar.gz::https://github.com/Flyspray/flyspray/archive/v1.0-rc6.tar.gz
-	sha256sums = 41d2cb35bc5bdbac8d47d4cf3865775c9f65beb57559cdb79ac59461c7692081
+	source = flyspray-1.0rc7.tar.gz::https://github.com/Flyspray/flyspray/archive/v1.0-rc7.tar.gz
+	sha256sums = b04c4ff059f9a0449279758d196d7843bc99fad2365c930ed9d06e6b55eee9e2
 
 pkgname = flyspray
 
