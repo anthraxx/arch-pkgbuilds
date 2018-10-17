@@ -1,6 +1,6 @@
 pkgbase = valgrind
 	pkgdesc = Tool to help find memory-management problems in programs
-	pkgver = 3.13.0+290+2b0aa0a5
+	pkgver = 3.14.0
 	pkgrel = 1
 	url = http://valgrind.org/
 	arch = x86_64
@@ -22,7 +22,7 @@ pkgbase = valgrind
 	replaces = valgrind-multilib
 	options = !emptydirs
 	options = !strip
-	source = git+http://repo.or.cz/valgrind.git#commit=2b0aa0a5b88f900e986a3360952fcb3d2513419d
+	source = git+http://repo.or.cz/valgrind.git#commit=3a3000290b4af0e8ef9880293c54659a6819ba78
 	source = valgrind-3.7.0-respect-flags.patch
 	md5sums = SKIP
 	md5sums = 470d9881870aacc210b7a6efb64cc9a9
