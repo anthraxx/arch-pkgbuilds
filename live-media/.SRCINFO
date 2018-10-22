@@ -1,14 +1,15 @@
 pkgbase = live-media
-	pkgdesc = A set of C++ libraries for multimedia streaming
-	pkgver = 2018.01.29
+	pkgdesc = Set of C++ libraries for multimedia streaming
+	pkgver = 2018.10.17
 	pkgrel = 1
 	url = http://live555.com/liveMedia
 	arch = x86_64
 	license = LGPL
 	depends = gcc-libs
 	options = staticlibs
-	source = http://live555.com/liveMedia/public/live.2018.01.29.tar.gz
-	sha256sums = f307e308faec29fe3c23f7cba6b80d5b0af7ba27f74d513e9286c9696a690503
+	source = http://live555.com/liveMedia/public/live.2018.10.17.tar.gz
+	sha256sums = 7c68d9c95b39acd309a2b6a4fc14c3837544a9be3f64062ed38d1ad6f68dc9e8
+	sha512sums = df1880059505acc66f0b4b4e45a655da78888082b36635eb201970fb9dd79d5bc87ba2d251032be226604e59e59e31fe1ff229911b6410f18e4c65b01166dd54
 
 pkgname = live-media
 
