@@ -1,6 +1,6 @@
 pkgbase = ruby-rouge
 	pkgdesc = Pure-ruby code highlighter that is compatible with pygments
-	pkgver = 3.1.1
+	pkgver = 3.3.0
 	pkgrel = 1
 	url = http://rouge.jneen.net/
 	arch = any
@@ -8,9 +8,9 @@ pkgbase = ruby-rouge
 	depends = ruby
 	depends = ruby-rdoc
 	options = !emptydirs
-	source = ruby-rouge-3.1.1.tar.gz::https://github.com/jneen/rouge/archive/v3.1.1.tar.gz
-	sha256sums = 4b20a3c6c30e6728bb8d5732ed43983b503b1619d4543df50adc8f749baa20de
-	sha512sums = db082daf8e3977de32d33e0fd7d0a6721bf61525f65925f5ed0c1234892e470fe39ae1afd0b2dc9eb9aa629958543b802df4034b7e2a91517a51dc87e8a09c6b
+	source = ruby-rouge-3.3.0.tar.gz::https://github.com/jneen/rouge/archive/v3.3.0.tar.gz
+	sha256sums = 328a8aacbc6c783ac99eb814eb13fb1c2b3962217a725cc616363500ba4d89ca
+	sha512sums = b9a765e4f1efb9958d0e12ffdd4a28a83045fdccef12c9ff8138665a5efdbe3817682c06b99313b542968282e53c993266adaf79dd6512b8eda50c33bcab4753
 
 pkgname = ruby-rouge
 
