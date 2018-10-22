@@ -1353,5 +1353,11 @@ command: "curl 'http://dl.4players.de/ts/releases/' 2>/dev/null|grep folder|sed 
 ---
 name: 'live-media (upstream)'
 command: "curl http://live555.com/liveMedia/public/ 2>/dev/null|grep -oP 'live[a-z0-9\.]*.tar.gz'"
+---
+name: 'sqlalchemy-utils (github)'
+command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-utils'
+---
+name: 'sqlalchemy-continuum (github)'
+command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-continuum'
 
 # vim: ft=yaml
