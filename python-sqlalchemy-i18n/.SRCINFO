@@ -1,0 +1,16 @@
+pkgbase = python-sqlalchemy-i18n
+	pkgdesc = Internationalization extension for SQLAlchemy models
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/kvesteri/sqlalchemy-i18n
+	arch = any
+	license = BSD
+	depends = python
+	depends = python-sqlalchemy
+	depends = python-sqlalchemy-utils
+	depends = python-six
+	source = python-sqlalchemy-i18n-1.0.3.tar.gz::https://github.com/kvesteri/sqlalchemy-i18n/archive/1.0.3.tar.gz
+	sha512sums = 08f5d0d00228fd9f39214b039f6b9260b99f5f940a3067daac695ce0c7e2909a0336abe081d3c272a8cb744e2f049ab108dea502875a52b987c1f52d27c52db8
+
+pkgname = python-sqlalchemy-i18n
+
