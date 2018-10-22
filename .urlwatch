@@ -1359,5 +1359,8 @@ command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-utils'
 ---
 name: 'sqlalchemy-continuum (github)'
 command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-continuum'
+---
+name: 'sqlalchemy-i18n (github)'
+command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-i18n'
 
 # vim: ft=yaml
