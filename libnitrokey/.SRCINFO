@@ -1,16 +1,21 @@
 pkgbase = libnitrokey
 	pkgdesc = Communicate with Nitrokey stick devices in a clean and easy manner
 	pkgver = 3.4.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.nitrokey.com
-	arch = i686
 	arch = x86_64
 	license = LGPL3
 	makedepends = cmake
 	makedepends = qt5-tools
+	makedepends = catch2
 	depends = hidapi
-	source = libnitrokey-3.4.1.tar.gz::https://github.com/Nitrokey/libnitrokey/archive/v3.4.1.tar.gz
-	sha256sums = 224c92023a7b8ef88e7c66d158c9593fb309956dca4523bc3c5d1615a137cef6
+	depends = libusb
+	provides = libnitrokey.so
+	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.4.1/libnitrokey-v3.4.1.tar.gz
+	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.4.1/libnitrokey-v3.4.1.tar.gz.sig
+	validpgpkeys = 868184069239FF65DE0BCD7DD9BAE35991DE5B22
+	sha512sums = 697c73b5248f3dd077d02fc2cfb3ce573df3d48c344291717f889061ee703b9d231fe0c7f8c1962af5dbfb1bb206c0345a56fc049ecfcfc5d933a00c5d7a05d0
+	sha512sums = SKIP
 
 pkgname = libnitrokey
 
