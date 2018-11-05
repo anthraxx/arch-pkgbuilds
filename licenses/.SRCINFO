@@ -1,6 +1,6 @@
 pkgbase = licenses
 	pkgdesc = Standard licenses distribution package
-	pkgver = 20171006
+	pkgver = 20181104
 	pkgrel = 1
 	url = https://www.archlinux.org/
 	arch = any
@@ -56,7 +56,7 @@ pkgbase = licenses
 	md5sums = 9f4337828d782bdea41f03dd2ad1b808
 	md5sums = d09c120ca7db95ef2aeecec0cb08293b
 	md5sums = b4a94da2a1f918b217ef5156634fc9e0
-	md5sums = a45bb1bbeed9e26b26c5763df1d3913d
+	md5sums = 00b4bd92b48eaed71b4e4e7b7314c3b6
 	md5sums = 8a960b08d972f43f91ae84a6f00dcbfb
 	md5sums = f083e41c43db25e18f36c91e57750b64
 	md5sums = a055911c32fb4ed6e96c453ceaeba857
