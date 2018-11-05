@@ -1,0 +1,15 @@
+post_install() {
+  /usr/bin/getent group nitrokey >/dev/null 2>&1 || usr/sbin/groupadd -r nitrokey &>/dev/null
+  udevadm control --reload
+  echo "Don't forget to add users to the nitrokey group."
+}
+
+post_upgrade() {
+    post_install
+}
+
+post_remove() {
+    if /usr/bin/getent group nitrokey >/dev/null 2>&1; then
+        /usr/sbin/groupdel nitrokey
+    fi
+}
