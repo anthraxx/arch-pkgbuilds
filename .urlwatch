@@ -1362,5 +1362,11 @@ command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-continuum'
 ---
 name: 'sqlalchemy-i18n (github)'
 command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-i18n'
+---
+name: 'libnitrokey (github)'
+command: 'git ls-remote --tags https://github.com/Nitrokey/libnitrokey'
+---
+name: 'nitrokey-app (github)'
+command: 'git ls-remote --tags https://github.com/Nitrokey/nitrokey-app'
 
 # vim: ft=yaml
