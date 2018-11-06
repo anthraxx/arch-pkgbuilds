@@ -1368,5 +1368,8 @@ command: 'git ls-remote --tags https://github.com/Nitrokey/libnitrokey'
 ---
 name: 'nitrokey-app (github)'
 command: 'git ls-remote --tags https://github.com/Nitrokey/nitrokey-app'
+---
+name: 'cppcodec (github)'
+command: 'git ls-remote --tags https://github.com/tplgy/cppcodec'
 
 # vim: ft=yaml
