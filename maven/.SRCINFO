@@ -1,21 +1,22 @@
 pkgbase = maven
 	pkgdesc = Java project management and project comprehension tool
-	pkgver = 3.5.4
+	pkgver = 3.6.0
 	pkgrel = 1
 	url = https://maven.apache.org
 	arch = any
 	license = APACHE
 	makedepends = maven
 	makedepends = java-environment=8
-	depends = java-environment=8
+	depends = java-environment>=7
 	depends = bash
 	depends = procps-ng
 	backup = opt/maven/conf/settings.xml
-	source = https://www-eu.apache.org/dist/maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz
-	source = https://www-eu.apache.org/dist/maven/maven-3/3.5.4/source/apache-maven-3.5.4-src.tar.gz.asc
+	source = https://www-eu.apache.org/dist/maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.tar.gz
+	source = https://www-eu.apache.org/dist/maven/maven-3/3.6.0/source/apache-maven-3.6.0-src.tar.gz.asc
 	source = maven.sh
 	validpgpkeys = 042B29E928995B9DB963C636C7CA19B7B620D787
-	sha256sums = f3ba1f1b24bbd4c345174ac616d40e26e72dad6022d56317d3ff6f7dd003e2f5
+	validpgpkeys = AE9E53FC28FF2AB1012273D0BF1518E0160788A2
+	sha256sums = b31c0a4d5b76151a0cbef657e332585a6b7604c39754b4ed93c914cbb1c3599e
 	sha256sums = SKIP
 	sha256sums = 24dc65607ff9e25c74ff2f75711911471910eaf415bce1856789c9d047209b8b
 
