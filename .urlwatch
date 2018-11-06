@@ -413,7 +413,7 @@ name: 'distorm'
 command: 'git ls-remote --heads --tags https://github.com/gdabah/distorm'
 ---
 name: 'afl-utils'
-command: 'git ls-remote --tags https://github.com/rc0r/afl-utils'
+command: 'git ls-remote --tags https://gitlab.com/rc0r/afl-utils'
 ---
 name: 'sslsplit (http)'
 url: 'https://mirror.roe.ch/rel/sslsplit/'
