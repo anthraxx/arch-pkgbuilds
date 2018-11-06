@@ -1,6 +1,6 @@
 pkgbase = ruby-sass
 	pkgdesc = Sass makes CSS fun again
-	pkgver = 3.5.6
+	pkgver = 3.6.0
 	pkgrel = 1
 	url = http://sass-lang.com/
 	arch = any
@@ -11,9 +11,9 @@ pkgbase = ruby-sass
 	depends = ruby-maruku
 	depends = ruby-rdoc
 	options = !emptydirs
-	source = ruby-sass-3.5.6.tar.gz::https://github.com/sass/sass/archive/3.5.6.tar.gz
-	sha256sums = 7ba95dbb21806ad086e32a863b7f2d5033c9d5f49f0de65bb25b4ce223b0e63d
-	sha512sums = 0c38b3a208b83c880d496c3ca2978eff469507a22ca6f9f76fe28a4de6bbd452659d8effc25d46701e2b597f4494d8a780b59d22c82dde31c190318fd84d25fa
+	source = ruby-sass-3.6.0.tar.gz::https://github.com/sass/ruby-sass/archive/3.6.0.tar.gz
+	sha256sums = cdcf25d4c7ba12137ac8858af66d7e90afde0b68072b83feb2df7f9d91b1eaa1
+	sha512sums = fc29fcc46f735402940a5763353d9a20567e22e05f8f2bfad6c27e12307fec7b9eb1349c3fb202bb2bbb2ae8df83f726795fae5a54536ca0d31dfa5479ac3ee6
 
 pkgname = ruby-sass
 
