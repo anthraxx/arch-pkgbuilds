@@ -1371,5 +1371,8 @@ command: 'git ls-remote --tags https://github.com/Nitrokey/nitrokey-app'
 ---
 name: 'cppcodec (github)'
 command: 'git ls-remote --tags https://github.com/tplgy/cppcodec'
+---
+name: 'python-pyotp (github)'
+command: 'git ls-remote --tags https://github.com/pyotp/pyotp'
 
 # vim: ft=yaml
