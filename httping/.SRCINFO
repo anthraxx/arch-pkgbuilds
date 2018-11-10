@@ -1,7 +1,7 @@
 pkgbase = httping
 	pkgdesc = A ping-like tool for http-requests
 	pkgver = 2.5
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.vanheusden.com/httping/
 	arch = x86_64
 	license = GPL2
