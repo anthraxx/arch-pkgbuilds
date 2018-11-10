@@ -1,7 +1,7 @@
 pkgbase = ldoc
 	pkgdesc = LuaDoc-compatible documentation generation system
 	pkgver = 1.4.6
-	pkgrel = 1
+	pkgrel = 2
 	url = http://stevedonovan.github.com/ldoc/
 	arch = any
 	license = custom
