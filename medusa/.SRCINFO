@@ -1,7 +1,7 @@
 pkgbase = medusa
 	pkgdesc = Speedy, massively parallel and modular login brute-forcer for network
 	pkgver = 2.2
-	pkgrel = 7
+	pkgrel = 8
 	url = http://www.foofus.net/jmk/medusa/medusa.html
 	arch = x86_64
 	license = GPL2
