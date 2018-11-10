@@ -1,7 +1,7 @@
 pkgbase = python2-unittest2
 	pkgdesc = New features in unittest for Python 2
 	pkgver = 1.1.0
-	pkgrel = 4
+	pkgrel = 5
 	url = http://www.voidspace.org.uk/python/articles/unittest2.shtml
 	arch = any
 	license = BSD
