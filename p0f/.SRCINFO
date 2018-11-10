@@ -1,7 +1,7 @@
 pkgbase = p0f
 	pkgdesc = Purely passive TCP/IP traffic fingerprinting tool
 	pkgver = 3.09b
-	pkgrel = 1
+	pkgrel = 2
 	url = http://lcamtuf.coredump.cx/p0f3/
 	arch = x86_64
 	license = GPL2
