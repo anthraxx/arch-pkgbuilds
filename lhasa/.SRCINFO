@@ -1,7 +1,7 @@
 pkgbase = lhasa
 	pkgdesc = Free LZH/LHA archive tool
 	pkgver = 0.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/fragglet/lhasa
 	arch = x86_64
 	license = custom:ISC
