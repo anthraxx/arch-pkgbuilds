@@ -1,7 +1,7 @@
 pkgbase = libdbusmenu
 	pkgdesc = Library for passing menus over DBus
 	pkgver = 16.04.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://launchpad.net/libdbusmenu
 	arch = x86_64
 	license = GPL3
