@@ -1,7 +1,7 @@
 pkgbase = volatility
 	pkgdesc = Advanced memory forensics framework
 	pkgver = 2.6
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/volatilityfoundation/volatility/wiki
 	arch = any
 	license = GPL2
