@@ -1,7 +1,7 @@
 pkgbase = vim-tagbar
 	pkgdesc = Plugin to browse the tags of the current file and get an overview of its structure
 	pkgver = 2.7
-	pkgrel = 1
+	pkgrel = 2
 	url = https://majutsushi.github.io/tagbar/
 	arch = any
 	groups = vim-plugins
