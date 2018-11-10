@@ -1,7 +1,7 @@
 pkgbase = wifite
 	pkgdesc = Tool to attack multiple WEP and WPA encrypted networks at the same time
 	pkgver = 87.r139.918a499
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = https://github.com/derv82/wifite
 	arch = any
