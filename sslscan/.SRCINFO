@@ -1,7 +1,7 @@
 pkgbase = sslscan
 	pkgdesc = A fast tools to scan SSL services, such as HTTPS to determine the ciphers that are supported
 	pkgver = 1.10.2
-	pkgrel = 6
+	pkgrel = 7
 	url = https://github.com/DinoTools/sslscan/
 	arch = x86_64
 	license = GPL3
