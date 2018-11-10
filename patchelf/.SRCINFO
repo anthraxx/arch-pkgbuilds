@@ -1,7 +1,7 @@
 pkgbase = patchelf
 	pkgdesc = Small utility to modify the dynamic linker and RPATH of ELF executables
 	pkgver = 0.9
-	pkgrel = 1
+	pkgrel = 2
 	url = https://nixos.org/patchelf.html
 	arch = x86_64
 	license = GPL3
