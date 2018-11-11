@@ -1,7 +1,7 @@
 pkgbase = mediaelch
 	pkgdesc = Media Manager for handling Movies, TV Shows and Concerts/Music Videos for Kodi
 	pkgver = 2.4.2
-	pkgrel = 3
+	pkgrel = 4
 	url = http://www.mediaelch.de/
 	arch = x86_64
 	license = LGPL3
