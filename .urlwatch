@@ -1374,5 +1374,11 @@ command: 'git ls-remote --tags https://github.com/tplgy/cppcodec'
 ---
 name: 'python-pyotp (github)'
 command: 'git ls-remote --tags https://github.com/pyotp/pyotp'
+---
+name: 'nasm'
+command: 'git ls-remote --tags https://repo.or.cz/nasm.git'
+---
+name: 'patch'
+command: 'git ls-remote --tags https://git.savannah.gnu.org/git/patch.git'
 
 # vim: ft=yaml
