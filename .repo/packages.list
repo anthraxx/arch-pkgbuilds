@@ -1,5 +1,4 @@
 ant
-apache-ant
 aribb24
 asio
 audit
@@ -8,8 +7,13 @@ beep
 bftpd
 boost
 clamav
+cowsay
+cppcodec
+ctags
 dash
 doxygen
+fping
+gdb
 gimp
 hwloc
 iptraf-ng
@@ -19,6 +23,7 @@ java10-openjdk
 java7-openjdk
 java8-openjdk
 java-common
+java-openjdk
 jsoncpp
 krb5
 lgi
@@ -27,6 +32,7 @@ libdvbpsi
 libgdiplus
 libmicrodns
 libmypaint
+libnitrokey
 libplacebo
 libpqxx
 libpsl
@@ -34,14 +40,18 @@ libseccomp
 libupnp
 licenses
 linux-hardened
+live-media
 memcached
 meson
 mono
 mplayer
 mtr
 mypaint-brushes
+nasm
+nitrokey-app
 nvidia-settings
 openmpi
+patch
 perl-net-ssleay
 pgbouncer
 postgresql

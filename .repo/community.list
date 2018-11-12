@@ -67,6 +67,7 @@ irssi-otr
 irssi-xmpp
 jadx
 john
+kamene
 keepassx2
 keystone
 kibana
@@ -165,6 +166,7 @@ python-pbkdf2
 python-pcapy
 python-perf
 python-ptrace
+python-pyotp
 python-pytest-aiohttp
 python-qrencode
 python-rangehttpserver
@@ -172,6 +174,9 @@ python-recommonmark
 python-resumable-urlretrieve
 python-scrypt
 python-socketio
+python-sqlalchemy-continuum
+python-sqlalchemy-i18n
+python-sqlalchemy-utils
 python-stopit
 python-tblib
 python-terminaltables
@@ -250,7 +255,6 @@ ruby-yard
 rxvt-unicode
 scanmem
 scapy
-scapy3k
 scrot
 scrypt
 signify
@@ -269,6 +273,7 @@ steam-native-runtime
 strip-nondeterminism
 synergy
 tcpreplay
+teamspeak3-server
 testssl.sh
 tetrinet
 tftpy
@@ -277,6 +282,7 @@ tlsh
 umurmur
 unicorn
 unittestpp
+usbguard
 valabind
 veracrypt
 vicious
