@@ -1,0 +1,14 @@
+pkgbase = libgfshare
+	pkgdesc = Utilities for multi-way secret-sharing
+	pkgver = 2.0.0
+	pkgrel = 2
+	url = https://www.digital-scurf.org/software/libgfshare
+	arch = x86_64
+	license = MIT
+	depends = glibc
+	provides = libgfshare.so
+	source = https://www.digital-scurf.org/files/libgfshare/libgfshare-2.0.0.tar.bz2
+	sha512sums = d6fd60a743825df85cb429b1dee583ab0a6d998fd5c79ee45b3da4c83a55970aee896337514c3686abfd3ff63099232e0f4af4203c32fa042500bfa8bc8d3495
+
+pkgname = libgfshare
+
