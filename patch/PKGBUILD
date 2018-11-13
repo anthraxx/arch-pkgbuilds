@@ -45,11 +45,11 @@ prepare() {
     msg2 "Applying patch $src..."
     patch -Np1 < "../$src"
   done
+  autoreconf -fiv
 }
 
 build() {
   cd $pkgname-$pkgver
-  autoreconf -fiv
   ./configure --prefix=/usr
   make
 }
