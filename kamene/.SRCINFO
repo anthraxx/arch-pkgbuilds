@@ -1,0 +1,28 @@
+pkgbase = kamene
+	pkgdesc = Powerful interactive packet manipulation program (based on scapy) written in Python
+	pkgver = 0.32
+	pkgrel = 1
+	url = https://github.com/phaethon/kamene
+	arch = any
+	license = GPL2
+	checkdepends = python-cryptography
+	checkdepends = python-pyx
+	checkdepends = python-matplotlib
+	checkdepends = python-netifaces
+	checkdepends = graphviz
+	checkdepends = sox
+	depends = tcpdump
+	depends = python
+	optdepends = python-cryptography: WEP decryption, IPsec and certificate support
+	optdepends = python-pyx: psdump() and pdfdump() functions
+	optdepends = python-matplotlib: plotting support
+	optdepends = python-netifaces: network interface information support
+	optdepends = graphviz: conversations() method support
+	optdepends = sox: for VOIP support
+	replaces = scapy3k
+	source = kamene-0.32.tar.gz::https://github.com/phaethon/kamene/archive/v0.32.tar.gz
+	sha256sums = 8254333ddc1404ee2bcd73c4a2c23e4f9c59320738610512f23ea3dad3cde28d
+	sha512sums = ba0e7ceb41e0687a8b8deb743f4cc8dc00021200ae028faac0afc3a1f202ac2c2cfdc7ebd7ea6ab3af4790e8393c9d1ed5b8f80f16bf0783e5058f29d2038ea6
+
+pkgname = kamene
+
