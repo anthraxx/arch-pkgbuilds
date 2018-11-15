@@ -1,0 +1,15 @@
+pkgbase = stem
+	pkgdesc = Python controller library for Tor
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://stem.torproject.org/
+	arch = any
+	license = LGPL3
+	makedepends = git
+	depends = python
+	optdepends = tor: you need a tor-server to talk to
+	source = git+https://git.torproject.org/stem.git#tag=1.7.0
+	sha256sums = SKIP
+
+pkgname = stem
+
