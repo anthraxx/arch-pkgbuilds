@@ -1396,7 +1396,7 @@ command: 'git ls-remote --tags https://github.com/byllyfish/precis_i18n'
 name: 'nyx'
 command: 'git ls-remote --tag https://git.torproject.org/nyx.git'
 ---
-name: 'stem'
+name: 'python-stem'
 command: 'git ls-remote --tag https://git.torproject.org/stem.git'
 
 # vim: ft=yaml
