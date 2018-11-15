@@ -1380,5 +1380,14 @@ command: 'git ls-remote --tags https://repo.or.cz/nasm.git'
 ---
 name: 'patch'
 command: 'git ls-remote --tags https://git.savannah.gnu.org/git/patch.git'
+---
+name: 'libgfshare'
+command: 'curl https://www.digital-scurf.org/files/libgfshare/ 2>/dev/null|tr "<>" "\n"|grep -E "^\w+gfshare"'
+---
+name: 'shaderc (github)'
+command: 'git ls-remote --tags https://github.com/google/shaderc'
+---
+name: 'glslang (github)'
+command: 'git ls-remote --tags https://github.com/KhronosGroup/glslang'
 
 # vim: ft=yaml
