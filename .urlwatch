@@ -1389,5 +1389,8 @@ command: 'git ls-remote --tags https://github.com/google/shaderc'
 ---
 name: 'glslang (github)'
 command: 'git ls-remote --tags https://github.com/KhronosGroup/glslang'
+---
+name: 'python-precis_i18n (github)'
+command: 'git ls-remote --tags https://github.com/byllyfish/precis_i18n'
 
 # vim: ft=yaml
