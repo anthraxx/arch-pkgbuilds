@@ -11,6 +11,7 @@ pkgbase = nyx
 	depends = net-tools
 	depends = procps-ng
 	depends = lsof
+	optdepends = tor: tor-server to talk to
 	source = https://files.pythonhosted.org/packages/source/n/nyx/nyx-2.0.4.tar.gz
 	source = https://files.pythonhosted.org/packages/source/n/nyx/nyx-2.0.4.tar.gz.asc
 	validpgpkeys = 68278CC5DD2D1E85C4E45AD90445B7AB9ABBEEC6
