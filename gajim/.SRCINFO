@@ -1,0 +1,33 @@
+pkgbase = gajim
+	pkgdesc = Full featured and easy to use XMPP (Jabber) client
+	pkgver = 1.0.3
+	pkgrel = 3
+	url = https://www.gajim.org/
+	arch = any
+	license = GPL3
+	makedepends = intltool
+	depends = gtk3
+	depends = python-cairo
+	depends = python-dbus
+	depends = python-gobject
+	depends = python-keyring
+	depends = python-nbxmpp
+	depends = python-pyasn1
+	depends = python-pyopenssl
+	optdepends = alsa-utils: play notification sounds
+	optdepends = avahi: serverless chatting with autodetected clients in a local network
+	optdepends = farstream: start audio and video chat
+	optdepends = geoclue2: share current location
+	optdepends = gnome-keyring: password storage
+	optdepends = gspell: spellchecking of composed messages
+	optdepends = gupnp-igd: request your router to forward port for file transfer
+	optdepends = libxss: measure idle time, in order to set auto status
+	optdepends = python-crypto: encrypting chat messages
+	optdepends = python-docutils: generate XHTML output from RST code
+	optdepends = python-gnupg: encrypting chat messages with OpenPGP
+	optdepends = python-pillow: support of WebP avatars
+	source = https://www.gajim.org/downloads/1.0/gajim-1.0.3.tar.bz2
+	sha1sums = 82e103e35ce29ea7b587ef55b8d8da1c013ddfcb
+
+pkgname = gajim
+
