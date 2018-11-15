@@ -1,8 +1,8 @@
 pkgbase = nasm
-	pkgdesc = An 80x86 assembler designed for portability and modularity
-	pkgver = 2.13.03
+	pkgdesc = 80x86 assembler designed for portability and modularity
+	pkgver = 2.14
 	pkgrel = 1
-	url = http://www.nasm.us
+	url = https://www.nasm.us
 	arch = x86_64
 	license = BSD
 	makedepends = perl-font-ttf
@@ -11,9 +11,11 @@ pkgbase = nasm
 	makedepends = adobe-source-sans-pro-fonts
 	makedepends = ttf-liberation
 	makedepends = ghostscript
+	makedepends = xmlto
+	makedepends = asciidoc
 	depends = glibc
-	source = http://www.nasm.us/pub/nasm/releasebuilds/2.13.03/nasm-2.13.03.tar.xz
-	sha1sums = 1338ae8832bdbabd00a2b7ee3e39b8fd2f923ea0
+	source = https://www.nasm.us/pub/nasm/releasebuilds/2.14/nasm-2.14.tar.xz
+	sha512sums = 0f7f1b8b0cd4ac62df1dc203789b74670ebe10f3be10af9984331b1c348745ed31a43aca77c5c771016a718fa2c7c8805c1c9edfdd6b0fe83ee0937cb0dd3d23
 
 pkgname = nasm
 
