@@ -1,0 +1,25 @@
+pkgbase = vpnc
+	pkgdesc = VPN client for cisco3000 VPN Concentrators
+	pkgver = 0.5.3.svn550
+	pkgrel = 3
+	url = http://www.unix-ag.uni-kl.de/~massar/vpnc/
+	arch = x86_64
+	license = GPL
+	makedepends = subversion
+	makedepends = git
+	depends = libgcrypt
+	depends = openssl
+	depends = iproute2
+	optdepends = openresolv: Let vpnc manage resolv.conf
+	backup = etc/vpnc/default.conf
+	source = vpnc::svn+http://svn.unix-ag.uni-kl.de/vpnc/trunk#revision=550
+	source = vpnc-scripts::git://git.infradead.org/users/dwmw2/vpnc-scripts.git#commit=07c3518dd6b8dc424e9c3650a62bed994a4dcbe1
+	source = vpnc.conf
+	source = vpnc@.service
+	md5sums = SKIP
+	md5sums = SKIP
+	md5sums = a3f4e0cc682f437e310a1c86ae198e45
+	md5sums = 09cfded435c43dd2adb5a8863bd74cfc
+
+pkgname = vpnc
+
