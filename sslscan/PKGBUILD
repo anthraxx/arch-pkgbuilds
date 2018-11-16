@@ -2,32 +2,30 @@
 # Contributor: Remi Gacogne <rgacogne-arch at coredump dot fr>
 
 pkgname=sslscan
-pkgver=1.10.2
-pkgrel=7
+pkgver=1.11.12
+pkgrel=1
 pkgdesc="A fast tools to scan SSL services, such as HTTPS to determine the ciphers that are supported"
-url="https://github.com/DinoTools/sslscan/"
-arch=('x86_64')
+url="https://github.com/rbsec/sslscan"
+arch=('i686' 'x86_64')
 license=('GPL3')
-depends=('openssl-1.0')
-source=(${pkgname}-${pkgver}.tar.gz::https://github.com/DinoTools/${pkgname}/archive/${pkgver}.tar.gz
-        add-checks-for-ssl3.patch)
-sha512sums=('b7bf9a12c0469893bf1ada53f42cf0a7c286d6bcb5db260ea0ecd6c332ccb8ec6caafa07cd78d15582af5d154b6f4c84cee55ba2fe5a286cb9bd3f9c83e60c34'
-            '2cc720dfc12ba8e50b5dc9665cb34a567f26b9685da36dcd56b937a2b3aa9b8199f241074558ed870fdd7b77415396723edff040904c585d519d0b66582dca29')
+makedepends=('git')
+depends=('zlib')
+source=(${pkgname}-${pkgver}.tar.gz::https://github.com/rbsec/${pkgname}/archive/${pkgver}-rbsec.tar.gz)
+sha512sums=('e667cc50f0ec71343b73ca11871a1a53aa9f255c671f16b7c5f33093125a1e60d6e7945e7bd7296f4a71aa6837c823dc939e18982f3e3f831acc061ead9e7ebb')
 
 prepare() {
-  cd ${pkgname}-${pkgver}
-  patch -Np1 -i ../add-checks-for-ssl3.patch
+  cd ${pkgname}-${pkgver}-rbsec
   sed -e 's/CFLAGS ?=/CFLAGS +=/' -e 's/LDFLAGS ?=/LDFLAGS +=/' -i Makefile
 }
 
 build() {
-  cd ${pkgname}-${pkgver}
-  make OPENSSL_INCLUDE=/usr/include/openssl-1.0 OPENSSL_LIB=/usr/lib/openssl-1.0
+  cd ${pkgname}-${pkgver}-rbsec
+  make static
 }
 
 package() {
-  cd ${pkgname}-${pkgver}
-  make BINPATH="${pkgdir}/usr/bin" MANPATH="${pkgdir}/usr/share/man" install
+  cd ${pkgname}-${pkgver}-rbsec
+  make DESTDIR=${pkgdir} install
 }
 
 # vim:set ts=2 sw=2 et:
