@@ -1398,5 +1398,11 @@ command: 'git ls-remote --tag https://git.torproject.org/nyx.git'
 ---
 name: 'python-stem'
 command: 'git ls-remote --tag https://git.torproject.org/stem.git'
+---
+name: 'vpnc'
+command: 'svn info http://svn.unix-ag.uni-kl.de/vpnc/trunk/ 2>/dev/null|grep Revision'
+---
+name: 'vpnc-scripts'
+command: 'git ls-remote git://git.infradead.org/users/dwmw2/vpnc-scripts.git'
 
 # vim: ft=yaml
