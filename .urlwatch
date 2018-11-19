@@ -1404,5 +1404,11 @@ command: 'svn info http://svn.unix-ag.uni-kl.de/vpnc/trunk/ 2>/dev/null|grep Rev
 ---
 name: 'vpnc-scripts'
 command: 'git ls-remote git://git.infradead.org/users/dwmw2/vpnc-scripts.git'
+---
+name: 'lz4'
+command: 'git ls-remote --tags https://github.com/lz4/lz4'
+---
+name: 'zstd'
+command: 'git ls-remote --tags https://github.com/facebook/zstd'
 
 # vim: ft=yaml
