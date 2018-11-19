@@ -1,18 +1,21 @@
 pkgbase = lib32-libtiff
 	pkgdesc = Library for manipulation of TIFF images (32-bit)
-	pkgver = 4.0.9
+	pkgver = 4.0.10
 	pkgrel = 1
 	url = http://www.simplesystems.org/libtiff/
 	arch = x86_64
 	license = custom
-	makedepends = gcc-multilib
+	depends = libtiff
 	depends = lib32-gcc-libs
 	depends = lib32-libjpeg
 	depends = lib32-zlib
 	depends = lib32-xz
-	depends = libtiff
-	source = http://download.osgeo.org/libtiff/tiff-4.0.9.tar.gz
-	sha512sums = 04f3d5eefccf9c1a0393659fe27f3dddd31108c401ba0dc587bca152a1c1f6bc844ba41622ff5572da8cc278593eff8c402b44e7af0a0090e91d326c2d79f6cd
+	depends = lib32-zstd
+	source = https://download.osgeo.org/libtiff/tiff-4.0.10.tar.gz
+	source = https://download.osgeo.org/libtiff/tiff-4.0.10.tar.gz.sig
+	validpgpkeys = EBDFDB21B020EE8FD151A88DE301047DE1198975
+	sha512sums = d213e5db09fd56b8977b187c5a756f60d6e3e998be172550c2892dbdb4b2a8e8c750202bc863fe27d0d1c577ab9de1710d15e9f6ed665aadbfd857525a81eea8
+	sha512sums = SKIP
 
 pkgname = lib32-libtiff
 
