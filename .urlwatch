@@ -1413,5 +1413,14 @@ command: 'git ls-remote --tags https://github.com/facebook/zstd'
 ---
 name: 'thunderbird'
 command: "curl https://ftp.mozilla.org/pub/thunderbird/releases/ 2>/dev/null|tr '<>' '\n'|grep -E '^[0-9]+[0-9.]+'|sort -n"
+---
+name: 'rfdump'
+command: "curl http://www.rfdump.org/ 2>/dev/null|grep tar|tr '><' '\n'|grep -i '^rfdump'"
+---
+name: 'libcli'
+command: 'git ls-remote --tags https://github.com/dparrish/libcli'
+---
+name: 'netsniff-ng'
+command: 'git ls-remote --tags github.com/netsniff-ng/netsniff-ng'
 
 # vim: ft=yaml
