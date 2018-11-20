@@ -1410,5 +1410,8 @@ command: 'git ls-remote --tags https://github.com/lz4/lz4'
 ---
 name: 'zstd'
 command: 'git ls-remote --tags https://github.com/facebook/zstd'
+---
+name: 'thunderbird'
+command: "curl https://ftp.mozilla.org/pub/thunderbird/releases/ 2>/dev/null|tr '<>' '\n'|grep -E '^[0-9]+[0-9.]+'|sort -n"
 
 # vim: ft=yaml
