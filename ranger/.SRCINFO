@@ -1,0 +1,33 @@
+pkgbase = ranger
+	pkgdesc = A simple, vim-like file manager
+	pkgver = 1.9.1
+	pkgrel = 3
+	url = https://ranger.github.io
+	arch = any
+	license = GPL
+	depends = python
+	optdepends = atool: for previews of archives
+	optdepends = elinks: for previews of html pages
+	optdepends = ffmpegthumbnailer: for video previews
+	optdepends = highlight: for syntax highlighting of code
+	optdepends = libcaca: for ASCII-art image previews
+	optdepends = lynx: for previews of html pages
+	optdepends = mediainfo: for viewing information about media files
+	optdepends = odt2txt: for OpenDocument texts
+	optdepends = perl-image-exiftool: for viewing information about media files
+	optdepends = poppler: for pdf previews
+	optdepends = python-chardet: in case of encoding detection problems
+	optdepends = sudo: to use the "run as root"-feature
+	optdepends = transmission-cli: for viewing bittorrent information
+	optdepends = w3m: for previews of images and html pages
+	conflicts = ranger-git
+	source = http://ranger.github.io/ranger-1.9.1.tar.gz
+	source = http://ranger.github.io/ranger-1.9.1.tar.gz.sig
+	source = replace-stopiteration-with-bare-return.patch
+	validpgpkeys = 1E9B36EC051FF6F7FFC969A7F08CE1E200FB5CDF
+	sha256sums = 40411b0dd08b0abd2632399751b111359786ae5f1e6df047f49653cb7a9edfd2
+	sha256sums = SKIP
+	sha256sums = 116d6a29139acb7d5216ced45cfcc9faa27ab66acc6aecf4306d9adc7059b872
+
+pkgname = ranger
+
