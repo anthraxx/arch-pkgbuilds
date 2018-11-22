@@ -1,0 +1,20 @@
+pkgbase = sn0int
+	pkgdesc = OSINT framework and package manager
+	pkgver = 0.5.1
+	pkgrel = 2
+	url = https://github.com/kpcyrd/sn0int
+	install = sn0int.install
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	makedepends = python-sphinx
+	depends = libcap
+	depends = sqlite
+	depends = libseccomp
+	depends = geoip2-database
+	depends = publicsuffix-list
+	source = https://github.com/kpcyrd/sn0int/archive/v0.5.1/sn0int-0.5.1.tar.gz
+	sha256sums = 0737b2187485914423db397e5154d2e5580ba98c9d3097922d4d9128d4780e54
+
+pkgname = sn0int
+
