@@ -1,18 +1,26 @@
 pkgbase = python-pysmi
-	pkgdesc = A pure-Python implementation of SNMP/SMI MIB parsing and conversion library. Can produce PySNMP MIB modules.
-	pkgver = 0.2.2
+	pkgdesc = SNMP/SMI MIB parsing and conversion library designed to turn ASN.1 MIBs into various formats
+	pkgver = 0.3.2
 	pkgrel = 1
 	url = http://snmplabs.com/pysmi/
 	arch = any
 	license = BSD
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
 	makedepends = python
+	makedepends = python-sphinx
+	makedepends = python-ply
 	makedepends = python2
-	source = pysmi-0.2.2.tar.gz::https://github.com/etingof/pysmi/archive/v0.2.2.tar.gz
-	sha256sums = f46d98c8c9f7ba0ce41c687dc6419c804a9f932c43dcaafbb838c75da7feef52
+	makedepends = python2-sphinx
+	makedepends = python2-ply
+	source = pysmi-0.3.2.tar.gz::https://github.com/etingof/pysmi/archive/v0.3.2.tar.gz
+	sha512sums = d8ee1e08a3fdd808559d11499b323783637622b3ddd4cf3351d2e6ca2ed51a1cfbd3c2ffb6f71555f244ea2da8521ea81e3daba4d97658c1e6e7322ef1a46228
 
 pkgname = python-pysmi
+	depends = python
 	depends = python-ply
 
 pkgname = python2-pysmi
+	depends = python2
 	depends = python2-ply
 
