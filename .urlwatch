@@ -1434,5 +1434,8 @@ command: 'git ls-remote --tags https://git.torproject.org/torsocks.git'
 ---
 name: 'python-pysmi'
 command: 'git ls-remote --tags https://github.com/etingof/pysmi'
+---
+name: 'python-pysnmp'
+command: 'git ls-remote --tags https://github.com/etingof/pysnmp'
 
 # vim: ft=yaml
