@@ -1425,5 +1425,8 @@ command: 'git ls-remote --tags github.com/netsniff-ng/netsniff-ng'
 ---
 name: 'ranger'
 command: 'git ls-remote --tags https://github.com/ranger/ranger'
+---
+name: 'sn0int'
+command: 'git ls-remote --tags https://github.com/kpcyrd/sn0int'
 
 # vim: ft=yaml
