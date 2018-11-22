@@ -1,0 +1,18 @@
+pkgbase = torsocks
+	pkgdesc = Wrapper to safely torify applications
+	pkgver = 2.2.0
+	pkgrel = 2
+	url = https://gitweb.torproject.org/torsocks.git/
+	arch = x86_64
+	license = GPL2
+	makedepends = git
+	depends = tor
+	backup = etc/tor/torsocks.conf
+	source = https://people.torproject.org/~dgoulet/torsocks/torsocks-2.2.0.tar.xz
+	source = https://people.torproject.org/~dgoulet/torsocks/torsocks-2.2.0.tar.xz.asc
+	validpgpkeys = B74417EDDF22AC9F9E90F49142E86A2A11F48D36
+	md5sums = 512bab466f2c026b3c478dee14861ccb
+	md5sums = SKIP
+
+pkgname = torsocks
+
