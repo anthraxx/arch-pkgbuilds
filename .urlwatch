@@ -1431,5 +1431,8 @@ command: 'git ls-remote --tags https://github.com/kpcyrd/sn0int'
 ---
 name: 'torsocks'
 command: 'git ls-remote --tags https://git.torproject.org/torsocks.git'
+---
+name: 'python-pysmi'
+command: 'git ls-remote --tags https://github.com/etingof/pysmi'
 
 # vim: ft=yaml
