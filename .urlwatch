@@ -1428,5 +1428,8 @@ command: 'git ls-remote --tags https://github.com/ranger/ranger'
 ---
 name: 'sn0int'
 command: 'git ls-remote --tags https://github.com/kpcyrd/sn0int'
+---
+name: 'torsocks'
+command: 'git ls-remote --tags https://git.torproject.org/torsocks.git'
 
 # vim: ft=yaml
