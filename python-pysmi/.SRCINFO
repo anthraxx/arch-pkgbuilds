@@ -1,12 +1,14 @@
 pkgbase = python-pysmi
 	pkgdesc = SNMP/SMI MIB parsing and conversion library designed to turn ASN.1 MIBs into various formats
 	pkgver = 0.3.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://snmplabs.com/pysmi/
 	arch = any
 	license = BSD
 	checkdepends = python-pytest
+	checkdepends = python-pysnmp
 	checkdepends = python2-pytest
+	checkdepends = python2-pysnmp
 	makedepends = python
 	makedepends = python-sphinx
 	makedepends = python-ply
