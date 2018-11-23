@@ -1437,5 +1437,8 @@ command: 'git ls-remote --tags https://github.com/etingof/pysmi'
 ---
 name: 'python-pysnmp'
 command: 'git ls-remote --tags https://github.com/etingof/pysnmp'
+---
+name: 'routersploit'
+command: 'git ls-remote --tags https://github.com/threat9/routersploit'
 
 # vim: ft=yaml
