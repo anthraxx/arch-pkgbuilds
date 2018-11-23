@@ -1440,5 +1440,8 @@ command: 'git ls-remote --tags https://github.com/etingof/pysnmp'
 ---
 name: 'routersploit'
 command: 'git ls-remote --tags https://github.com/threat9/routersploit'
+---
+name: 'python-threat9-test-bed'
+command: 'git ls-remote --tags https://github.com/threat9/threat9-test-bed'
 
 # vim: ft=yaml
