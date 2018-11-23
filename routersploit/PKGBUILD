@@ -1,27 +1,34 @@
-# Maintainer: Gordian Edenhofer <gordian.edenhofer@gmail.com>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Gordian Edenhofer <gordian.edenhofer@gmail.com>
 
 pkgname=routersploit
 pkgver=3.4.0
-pkgrel=1
-pkgdesc="An open-source exploitation framework dedicated to embedded devices."
+pkgrel=2
+pkgdesc='Open-source exploitation framework dedicated to embedded devices'
+url='https://github.com/threat9/routersploit'
 arch=('any')
 license=('BSD')
-url="https://github.com/threat9/routersploit"
-depends=('python-future' 'python-requests' 'python-paramiko' 'python-pysnmp' 'python-crypto')
-source=("${pkgname}_v${pkgver}.tar.gz"::"https://github.com/threat9/${pkgname}/archive/v${pkgver}.tar.gz")
+depends=('python' 'python-future' 'python-requests' 'python-paramiko' 'python-pysnmp' 'python-pycryptodome')
+checkdepends=('python-pytest' 'python-pytest-forked' 'python-pytest-xdist' 'flake8' 'python-threat9-test-bed')
+source=(${pkgname}-${pkgver}.tar.gz::https://github.com/threat9/routersploit/archive/v${pkgver}.tar.gz)
 sha512sums=('9182598105c4d1c971dc63ac24059469dd1862af204f59994cfc85012091663a85faee4c7c04cce573eef1fa91525b44a3963b8c24460d3b31595c4ef6a6c4e5')
 
-package() {
-	cd "${srcdir}/${pkgname}-${pkgver}"
-
-	# Copy self containing python modules
-	install -D ./rsf.py "${pkgdir}/opt/routersploit/rsf.py"
-	cp -dpr --no-preserve=ownership "./${pkgname}" "${pkgdir}/opt/${pkgname}"
-
-	# Install a specially crafted invocation for the binary
-	install -d "${pkgdir}"/usr/bin
-	echo -e "#!/bin/sh\ncd /opt/${pkgname} && exec ./rsf.py \"\$@\"\ncd -" > "${pkgdir}/usr/bin/rsf"
-	chmod 755 "${pkgdir}/usr/bin/rsf"
-
-	install -D ./LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+check() {
+  cd ${pkgname}-${pkgver}
+  rm tests/exploits/routers/dlink/test_dns_320l_327l_rce.py
+  make tests
 }
+
+package() {
+  cd ${pkgname}-${pkgver}
+
+  python setup.py install --prefix=/usr --root="${pkgdir}" --optimize=1
+  rm -rf "${pkgdir}"/usr/lib/python*/site-packages/tests
+  mv "${pkgdir}/usr/bin/rsf"{.py,}
+
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  cp -r docs/* "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
+
+# vim: ts=2 sw=2 et:
