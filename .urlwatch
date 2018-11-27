@@ -892,6 +892,9 @@ command: 'git ls-remote --tags https://github.com/elastic/elasticsearch'
 name: 'beats (git)'
 command: 'git ls-remote --tags https://github.com/elastic/beats'
 ---
+name: 'curator'
+command: 'git ls-remote --tags https://github.com/elastic/curator'
+---
 name: 'vim (github)'
 command: 'git ls-remote --tags https://github.com/vim/vim'
 ---
