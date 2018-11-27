@@ -1,12 +1,13 @@
 pkgbase = lib32-libindicator
 	pkgdesc = Set of symbols and convenience functions for Ayatana indicators (32-bit)
 	pkgver = 12.10.1
-	pkgrel = 6
+	pkgrel = 7
 	url = https://launchpad.net/libindicator
 	arch = x86_64
 	license = GPL3
 	makedepends = lib32-gtk2
 	makedepends = lib32-gtk3
+	makedepends = python
 	source = https://launchpad.net/libindicator/12.10/12.10.1/+download/libindicator-12.10.1.tar.gz
 	source = https://launchpad.net/libindicator/12.10/12.10.1/+download/libindicator-12.10.1.tar.gz.asc
 	validpgpkeys = 6FC05581A37D71FCECE165DB5BE41E162CD6358E
