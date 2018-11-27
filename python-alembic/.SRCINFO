@@ -1,6 +1,6 @@
 pkgbase = python-alembic
 	pkgdesc = Lightweight database migration tool for usage with SQLAlchemy
-	pkgver = 1.0.2
+	pkgver = 1.0.3
 	pkgrel = 1
 	url = https://bitbucket.org/zzzeek/alembic
 	arch = any
@@ -19,10 +19,10 @@ pkgbase = python-alembic
 	makedepends = python2-sqlalchemy
 	makedepends = python2-editor
 	makedepends = python2-dateutil
-	source = https://pypi.org/packages/source/a/alembic/alembic-1.0.2.tar.gz
-	source = https://pypi.org/packages/source/a/alembic/alembic-1.0.2.tar.gz.asc
+	source = https://pypi.org/packages/source/a/alembic/alembic-1.0.3.tar.gz
+	source = https://pypi.org/packages/source/a/alembic/alembic-1.0.3.tar.gz.asc
 	validpgpkeys = 83AF7ACE251C13E6BB7DEFBD330239C1C4DAFEE1
-	sha512sums = 111a61195df092f76e54ebaf30d30b9c47fc178421aa8dd94ccd9a24159ba93930110378fe4ef5c25379c83dbeb6f287713ca29fe5b149498ca8b8192c27c689
+	sha512sums = 300590db99468e3e163f2164502c8bd0233c8f399d856d7e11b75608732527922de4aff88266e9cbda71ba9e54d2256ee5bc794f463dd9061057b03f83300aa1
 	sha512sums = SKIP
 
 pkgname = python-alembic
