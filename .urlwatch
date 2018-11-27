@@ -1443,5 +1443,8 @@ command: 'git ls-remote --tags https://github.com/threat9/routersploit'
 ---
 name: 'python-threat9-test-bed'
 command: 'git ls-remote --tags https://github.com/threat9/threat9-test-bed'
+---
+name: 'python-requests-aws4auth'
+command: 'git ls-remote --tags https://github.com/sam-washington/requests-aws4auth'
 
 # vim: ft=yaml
