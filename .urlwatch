@@ -1449,5 +1449,23 @@ command: 'git ls-remote --tags https://github.com/threat9/threat9-test-bed'
 ---
 name: 'python-requests-aws4auth'
 command: 'git ls-remote --tags https://github.com/sam-washington/requests-aws4auth'
+---
+name: 'python-flask-gravatar'
+command: 'git ls-remote --tags https://github.com/zzzsochi/Flask-Gravatar'
+---
+name: 'python-flask-mail'
+command: 'git ls-remote --tags https://github.com/mattupstate/flask-mail'
+---
+name: 'python-flask-principal'
+command: 'git ls-remote --tags https://github.com/mattupstate/flask-principal'
+---
+name: 'python-flask-paranoid'
+command: 'git ls-remote --tags https://github.com/miguelgrinberg/flask-paranoid'
+---
+name: 'python-htmlmin'
+command: 'git ls-remote https://github.com/mankyd/htmlmin'
+---
+name: 'python-flask-htmlmin'
+command: 'git ls-remote --tags https://github.com/hamidfzm/Flask-HTMLmin'
 
 # vim: ft=yaml
