@@ -1,10 +1,10 @@
 pkgbase = haskell-parsec-numbers
 	pkgdesc = Number parsers without the need to use a large (and unportable) token parser
 	pkgver = 0.1.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://hackage.haskell.org/package/parsec-numbers
 	arch = x86_64
-	license = custom:BSD3
+	license = BSD
 	makedepends = ghc
 	depends = ghc-libs
 	depends = haskell-parsec
