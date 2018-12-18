@@ -1,0 +1,27 @@
+pkgbase = python-flask-paranoid
+	pkgdesc = Simple user session protection for Flask applications
+	pkgver = 0.2
+	pkgrel = 1
+	url = https://github.com/miguelgrinberg/flask-paranoid/
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
+	makedepends = python-flask
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	makedepends = python2-flask
+	makedepends = python2-sphinx
+	makedepends = python2-setuptools
+	source = python-flask-paranoid-0.2.tar.gz::https://github.com/miguelgrinberg/flask-paranoid/archive/v0.2.tar.gz
+	sha256sums = cda72c43fd17e6b782e079942b79ec9b19ac40c06337c871cc1dfedbe49297d3
+	sha512sums = 0d642999fa4d5b795c3dcecc586fc1600cdfceec4adb38bb87ca8be9825d9ddafabb07d98df573a89e61a44a0abd27cbbd21524237b0e23b337a7d5e32ddfdae
+
+pkgname = python-flask-paranoid
+	depends = python
+	depends = python-flask
+
+pkgname = python2-flask-paranoid
+	depends = python2
+	depends = python2-flask
+
