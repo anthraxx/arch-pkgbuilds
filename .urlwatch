@@ -1467,5 +1467,14 @@ command: 'git ls-remote https://github.com/mankyd/htmlmin'
 ---
 name: 'python-flask-htmlmin'
 command: 'git ls-remote --tags https://github.com/hamidfzm/Flask-HTMLmin'
+---
+name: 'python-sshtunnel'
+command: 'git ls-remote https://github.com/pahaz/sshtunnel'
+---
+name: 'python-flask-security'
+command: 'git ls-remote --tags https://github.com/mattupstate/flask-security'
+---
+name: 'python-flask-babelex'
+command: 'git ls-remote https://github.com/mrjoes/flask-babelex'
 
 # vim: ft=yaml
