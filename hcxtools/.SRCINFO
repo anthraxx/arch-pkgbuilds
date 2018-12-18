@@ -1,6 +1,6 @@
 pkgbase = hcxtools
 	pkgdesc = Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
-	pkgver = 5.0.0
+	pkgver = 5.1.0
 	pkgrel = 1
 	url = https://github.com/ZerBea/hcxtools
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = hcxtools
 	depends = libpcap
 	depends = zlib
 	depends = openssl
-	source = hcxtools::git+https://github.com/ZerBea/hcxtools#commit=f38b771c637e6e001f97d9baec02eac051ecd643
+	source = hcxtools::git+https://github.com/ZerBea/hcxtools#commit=c1ef441df654268c10904105ea5c96ef66c73237
 	sha512sums = SKIP
 
 pkgname = hcxtools
