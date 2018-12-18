@@ -1,7 +1,7 @@
 pkgbase = glslang
 	pkgdesc = OpenGL and OpenGL ES shader front end and validator
-	pkgver = 7.9.2888
-	pkgrel = 2
+	pkgver = 7.10.2984
+	pkgrel = 1
 	url = https://github.com/KhronosGroup/glslang
 	arch = x86_64
 	license = BSD
@@ -9,8 +9,8 @@ pkgbase = glslang
 	depends = gcc-libs
 	depends = spirv-tools
 	options = staticlibs
-	source = glslang-7.9.2888.tar.gz::https://github.com/KhronosGroup/glslang/archive/7.9.2888.tar.gz
-	sha256sums = cb66779d0e6b5f07f0445bd58289a24e56e12693e71d75c8fae3db31ffacaf8c
+	source = glslang-7.10.2984.tar.gz::https://github.com/KhronosGroup/glslang/archive/7.10.2984.tar.gz
+	sha256sums = d0afe88034577ecf06a825db1a5e8222d949a38d3b19c5ce002b90b66c403f67
 
 pkgname = glslang
 
