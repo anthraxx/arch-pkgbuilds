@@ -1,0 +1,31 @@
+pkgbase = python-flask-htmlmin
+	pkgdesc = Flask html response minifier
+	pkgver = 1.5.0
+	pkgrel = 1
+	url = https://github.com/hamidfzm/Flask-HTMLmin
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	checkdepends = python-pytest-cov
+	checkdepends = python2-pytest
+	checkdepends = python2-pytest-cov
+	makedepends = python-setuptools
+	makedepends = python-flask
+	makedepends = python-htmlmin
+	makedepends = python2-setuptools
+	makedepends = python2-flask
+	makedepends = python2-htmlmin
+	source = python-flask-htmlmin-1.5.0.tar.gz::https://github.com/hamidfzm/Flask-HTMLmin/archive/v1.5.0.tar.gz
+	sha256sums = 3c4bd8a3d12f66e1ff59a7b72df8e6e6b81c562ea8dbb34577e577ea66bfffa2
+	sha512sums = 71aaa80fdae5084758b2ede071ba455dc2572a1cbc29e0bc92ceaecc410400759ce369fc9eca5d083eeafb30957c7641b441fefaa885c871df624e01a7a0f839
+
+pkgname = python-flask-htmlmin
+	depends = python
+	depends = python-flask
+	depends = python-htmlmin
+
+pkgname = python2-flask-htmlmin
+	depends = python2
+	depends = python2-flask
+	depends = python2-htmlmin
+
