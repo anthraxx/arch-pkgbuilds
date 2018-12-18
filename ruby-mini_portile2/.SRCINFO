@@ -1,10 +1,11 @@
 pkgbase = ruby-mini_portile2
 	pkgdesc = Simple autoconf builder for developers
 	pkgver = 2.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/flavorjones/mini_portile
 	arch = any
 	license = MIT
+	makedepends = ruby-rdoc
 	depends = ruby
 	options = !emptydirs
 	source = ruby-mini_portile2-2.4.0.tar.gz::https://github.com/flavorjones/mini_portile/archive/v2.4.0.tar.gz
