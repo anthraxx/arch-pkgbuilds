@@ -1,0 +1,39 @@
+pkgbase = python-flask-babelex
+	pkgdesc = Adds i18n/l10n support to Flask applications
+	pkgver = 0.9.3.r2.gd699306
+	pkgrel = 1
+	url = https://github.com/mrjoes/flask-babelex
+	arch = any
+	license = BSD
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
+	makedepends = git
+	makedepends = python-flask
+	makedepends = python-babel
+	makedepends = python-speaklater
+	makedepends = python-jinja
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	makedepends = python2-flask
+	makedepends = python2-babel
+	makedepends = python2-speaklater
+	makedepends = python2-jinja
+	makedepends = python2-sphinx
+	makedepends = python2-setuptools
+	source = python-flask-babelex::git+https://github.com/mrjoes/flask-babelex#commit=d6993064993635ace5af98cbf5368dca593603db
+	sha512sums = SKIP
+
+pkgname = python-flask-babelex
+	depends = python
+	depends = python-flask
+	depends = python-babel
+	depends = python-speaklater
+	depends = python-jinja
+
+pkgname = python2-flask-babelex
+	depends = python2
+	depends = python2-flask
+	depends = python2-babel
+	depends = python2-speaklater
+	depends = python2-jinja
+
