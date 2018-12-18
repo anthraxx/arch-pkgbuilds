@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 103
+	pkgver = 107
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -95,8 +95,10 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-103.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/103/diffoscope-103.tar.bz2
-	sha512sums = 1cc5fb7b8d162cbc8a3aed211c8fc95f1c894f9eccd0e5535c13934253f6a7395ea92cd9c8dad066390d130cbd961f5e1ea7f302de3be8f4b833068f4c6d758e
+	source = diffoscope-107.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/107/diffoscope-107.tar.bz2
+	source = test_icc_fixture.patch::https://salsa.debian.org/reproducible-builds/diffoscope/commit/a4c38a60fe505de772f0d9ced5cca1ca5df540ba.patch
+	sha512sums = d46af97fad55629022eceffdc82c75a32f3649c8ff237cced373af99bfe80ce1a4f135d3d45efc0013350afec697f3fbac69b75917456501fb3ba1b4ced77071
+	sha512sums = d3415e43a271050ee01599b58d4c8c8347f3855eb4f1a2265722f014747ad749624bf08001444d6754ef78aaae46ca81fb40971b6d28ae307b54a86c13112e42
 
 pkgname = diffoscope
 
