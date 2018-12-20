@@ -1476,5 +1476,8 @@ command: 'git ls-remote --tags https://github.com/mattupstate/flask-security'
 ---
 name: 'python-flask-babelex'
 command: 'git ls-remote https://github.com/mrjoes/flask-babelex'
+---
+name: 'python-websockets'
+command: 'git ls-remote --tags https://github.com/aaugustin/websockets'
 
 # vim: ft=yaml
