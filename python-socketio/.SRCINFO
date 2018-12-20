@@ -1,6 +1,6 @@
 pkgbase = python-socketio
 	pkgdesc = Python implementation of the Socket.IO realtime server
-	pkgver = 2.0.0
+	pkgver = 2.1.2
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/python-socketio
 	arch = any
@@ -20,9 +20,9 @@ pkgbase = python-socketio
 	makedepends = python2-engineio
 	makedepends = python2-tornado
 	options = !makeflags
-	source = python-socketio-2.0.0.tar.gz::https://github.com/miguelgrinberg/python-socketio/archive/v2.0.0.tar.gz
-	sha256sums = e1bd0d7c697744db4be3d98010b6b169bdeff551dedf419c3f40f432cfa8a88a
-	sha512sums = 685061ef1cebc8d7f16bbd128ce7b274a89e0527418a5a54541fcc4e7aec660a5dca681e694ae373b86eadb376892ec2c57547505243d463e7e69bd9aeb7d7d3
+	source = python-socketio-2.1.2.tar.gz::https://github.com/miguelgrinberg/python-socketio/archive/v2.1.2.tar.gz
+	sha256sums = 410e56a46aa08a6f254b506dd6c3e438341a45679886f3d81684fcc8b743fc3d
+	sha512sums = a7247a367bc7f89ab02e5099d18250d1c5e36502126631dccfaab6b26fbc72d72e3464ff1f05ea12efe1f0ab5d0bfaae2c38e0c809590284313466058c480b0f
 
 pkgname = python-socketio
 	depends = python
