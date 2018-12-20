@@ -1479,5 +1479,8 @@ command: 'git ls-remote https://github.com/mrjoes/flask-babelex'
 ---
 name: 'python-websockets'
 command: 'git ls-remote --tags https://github.com/aaugustin/websockets'
+---
+name: 'python-gevent-websocket'
+command: 'git ls-remote --tags https://gitlab.com/noppo/gevent-websocket'
 
 # vim: ft=yaml
