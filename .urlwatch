@@ -175,6 +175,9 @@ command: 'git ls-remote https://github.com/FelipeEcker/nsoq'
 name: 'cowpatty'
 command: "curl 'http://www.willhackforsushi.com/?page_id=50' 2>/dev/null|grep tgz"
 ---
+name: 'cowpatty (github)'
+command: 'git ls-remote --tags https://github.com/joswr1ght/cowpatty'
+---
 name: 'irssi-otr'
 command: 'git ls-remote --tags https://github.com/cryptodotis/irssi-otr'
 ---
