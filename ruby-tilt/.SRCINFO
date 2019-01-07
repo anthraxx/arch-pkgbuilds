@@ -1,11 +1,12 @@
 pkgbase = ruby-tilt
 	pkgdesc = Generic interface to multiple Ruby template engines
 	pkgver = 2.0.8
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/rtomayko/tilt
 	arch = any
 	license = MIT
 	makedepends = ruby-ronn
+	makedepends = ruby-rdoc
 	depends = ruby
 	options = !emptydirs
 	source = ruby-tilt-2.0.8.tar.gz::https://github.com/rtomayko/tilt/archive/v2.0.8.tar.gz
