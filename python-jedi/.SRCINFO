@@ -1,0 +1,28 @@
+pkgbase = python-jedi
+	pkgver = 0.13.2
+	pkgrel = 1
+	url = https://github.com/davidhalter/jedi
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python2-pytest
+	checkdepends = python-parso
+	checkdepends = python2-parso
+	makedepends = python2-setuptools
+	makedepends = python-setuptools
+	source = python-jedi-0.13.2.tar.gz::https://github.com/davidhalter/jedi/archive/v0.13.2.tar.gz
+	sha256sums = 434f1a6a6afb7477f5b2934da7822fcdbe7d962abf0cec9f391117df493dde0c
+
+pkgname = python2-jedi
+	pkgdesc = Awesome autocompletion for python2
+	depends = python2
+	depends = python2-parso
+	conflicts = jedi-git
+	conflicts = python2-jedi-git
+
+pkgname = python-jedi
+	pkgdesc = Awesome autocompletion for python
+	depends = python
+	depends = python-parso
+	conflicts = python3-jedi-git
+

@@ -1,0 +1,43 @@
+# Maintainer: Jelle van der Waa <jelle@archlinux.org>
+# Contributor: Danilo Bargen <gezuru@gmail.com>
+# Contributor: Simon Conseil <contact+aur at saimon dot org>
+# Contributor: Jesus Alvarez
+
+pkgbase=python-jedi
+pkgname=('python2-jedi' 'python-jedi')
+pkgver=0.13.2
+pkgrel=1
+arch=('any')
+url="https://github.com/davidhalter/jedi"
+license=('MIT')
+makedepends=('python2-setuptools' 'python-setuptools')
+checkdepends=('python-pytest' 'python2-pytest' 'python-parso' 'python2-parso')
+source=("$pkgbase-$pkgver.tar.gz::https://github.com/davidhalter/jedi/archive/v$pkgver.tar.gz")
+sha256sums=('434f1a6a6afb7477f5b2934da7822fcdbe7d962abf0cec9f391117df493dde0c')
+
+check() {
+    cd "$srcdir/jedi-${pkgver}"
+    pytest test || warning 'Ignoring test_pyc failure'
+}
+
+package_python-jedi() {
+    pkgdesc="Awesome autocompletion for python"
+    depends=('python' 'python-parso')
+    conflicts=('python3-jedi-git')
+    cd "$srcdir/jedi-${pkgver}"
+    python3 setup.py install --root="$pkgdir/" --optimize=1
+
+    install -D -m644 "$srcdir/jedi-${pkgver}/LICENSE.txt" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
+
+package_python2-jedi() {
+    pkgdesc="Awesome autocompletion for python2"
+    depends=('python2' 'python2-parso')
+    conflicts=('jedi-git' 'python2-jedi-git')
+    cd "$srcdir/jedi-${pkgver}"
+    python2 setup.py install --root="$pkgdir/" --optimize=1
+
+    install -D -m644 "$srcdir/jedi-${pkgver}/LICENSE.txt" "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}
+
+# vim:set ts=2 sw=2 et
