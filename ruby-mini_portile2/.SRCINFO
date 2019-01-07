@@ -1,7 +1,7 @@
 pkgbase = ruby-mini_portile2
 	pkgdesc = Simple autoconf builder for developers
 	pkgver = 2.4.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/flavorjones/mini_portile
 	arch = any
 	license = MIT
