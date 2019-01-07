@@ -1485,5 +1485,8 @@ command: 'git ls-remote --tags https://github.com/aaugustin/websockets'
 ---
 name: 'python-gevent-websocket'
 command: 'git ls-remote --tags https://gitlab.com/noppo/gevent-websocket'
+---
+name: 'xscreensaver'
+command: 'curl -L "https://www.jwz.org/xscreensaver/download.html" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36" 2>/dev/null|tr \" "\n"|grep tar.gz$'
 
 # vim: ft=yaml
