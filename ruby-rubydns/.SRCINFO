@@ -1,12 +1,11 @@
 pkgbase = ruby-rubydns
 	pkgdesc = High-performance asynchronous DNS server and resolver
 	pkgver = 2.0.2
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/ioquatix/rubydns
 	arch = any
 	license = MIT
 	depends = ruby
-	depends = ruby-celluloid-dns
 	depends = ruby-async-dns
 	options = !emptydirs
 	source = ruby-rubydns-2.0.2.tar.gz::https://github.com/ioquatix/rubydns/archive/v2.0.2.tar.gz
