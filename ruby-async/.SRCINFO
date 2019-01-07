@@ -1,7 +1,7 @@
 pkgbase = ruby-async
 	pkgdesc = Composable asynchronous I/O
 	pkgver = 1.10.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/socketry/async
 	arch = any
 	license = MIT
