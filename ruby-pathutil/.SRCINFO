@@ -1,10 +1,11 @@
 pkgbase = ruby-pathutil
 	pkgdesc = Faster pure Ruby implementation of Pathname with extra bits
 	pkgver = 0.16.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/envygeeks/pathutil
 	arch = any
 	license = MIT
+	makedepends = ruby-rdoc
 	depends = ruby
 	depends = ruby-forwardable-extended
 	options = !emptydirs
