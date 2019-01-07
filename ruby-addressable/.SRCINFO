@@ -1,10 +1,11 @@
 pkgbase = ruby-addressable
 	pkgdesc = URI Implementation
 	pkgver = 2.5.2
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/sporkmonger/addressable
 	arch = any
 	license = Apache
+	makedepends = ruby-rdoc
 	depends = ruby
 	depends = ruby-public_suffix
 	options = !emptydirs
