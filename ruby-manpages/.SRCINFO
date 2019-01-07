@@ -1,7 +1,7 @@
 pkgbase = ruby-manpages
 	pkgdesc = Man pages support for ruby gems
 	pkgver = 0.6.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/bitboxer/manpages
 	arch = any
 	license = MIT
