@@ -1,7 +1,7 @@
 pkgbase = ruby-public_suffix
 	pkgdesc = Domain name parser based on the Public Suffix List
 	pkgver = 3.0.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://simonecarletti.com/code/publicsuffix-ruby
 	arch = any
 	license = MIT
