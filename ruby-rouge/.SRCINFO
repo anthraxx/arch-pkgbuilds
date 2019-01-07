@@ -1,7 +1,7 @@
 pkgbase = ruby-rouge
 	pkgdesc = Pure-ruby code highlighter that is compatible with pygments
 	pkgver = 3.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://rouge.jneen.net/
 	arch = any
 	license = MIT
