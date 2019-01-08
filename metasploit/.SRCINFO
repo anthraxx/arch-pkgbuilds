@@ -1,7 +1,7 @@
 pkgbase = metasploit
 	pkgdesc = Advanced open-source platform for developing, testing, and using exploit code
 	pkgver = 4.17.31
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.metasploit.com/
 	arch = x86_64
 	license = BSD
