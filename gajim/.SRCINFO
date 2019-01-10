@@ -1,14 +1,12 @@
 pkgbase = gajim
 	pkgdesc = Full featured and easy to use XMPP (Jabber) client
-	pkgver = 1.1.0
+	pkgver = 1.1.1
 	pkgrel = 1
 	url = https://www.gajim.org/
 	arch = any
 	license = GPL3
-	makedepends = intltool
 	depends = gtk3
 	depends = python-cairo
-	depends = python-dbus
 	depends = python-gobject
 	depends = python-keyring
 	depends = python-nbxmpp
@@ -32,15 +30,16 @@ pkgbase = gajim
 	optdepends = geoclue2: share current location
 	optdepends = gnome-keyring: store passwords encrypted in GNOME Keyring
 	optdepends = kded: store passwords encrypted in KSecretService
-	optdepends = gspell: spellchecking of composed messages
 	optdepends = gupnp-igd: request your router to forward port for file transfer
 	optdepends = libxss: measure idle time, in order to set auto status
 	optdepends = python-crypto: encrypting chat messages
 	optdepends = python-docutils: generate XHTML output from RST code
 	optdepends = python-gnupg: encrypting chat messages with OpenPGP
 	optdepends = python-pillow: support of WebP avatars
-	source = https://www.gajim.org/downloads/1.1/gajim-1.1.0.tar.bz2
-	sha512sums = 47b18de111643eba382255e7c2d195b41f30bf15957cd27939ebd44eade7af1b9ebe50c30ca10f33ca36e879d309fc414369fd8ba2c725c336f38a3a0f88ba7c
+	optdepends = python-axolotl: OMEMO support
+	optdepends = python-qrcode: generate QR codes for OMEMO keys
+	source = https://www.gajim.org/downloads/1.1/gajim-1.1.1.tar.bz2
+	sha512sums = af943e16129ca8df8b76e44e3ba1514aaa996a016c505305b77efefb6564c5aa1747a4ac001b24c65910713d7aee62e63ca0052dca048283f8eeb0f2d75094f3
 
 pkgname = gajim
 
