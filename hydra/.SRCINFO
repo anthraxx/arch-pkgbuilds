@@ -1,7 +1,7 @@
 pkgbase = hydra
 	pkgdesc = Very fast network logon cracker which support many different services
-	pkgver = 8.6
-	pkgrel = 2
+	pkgver = 8.8
+	pkgrel = 1
 	url = https://github.com/vanhauser-thc/thc-hydra
 	arch = x86_64
 	license = GPL3
@@ -18,8 +18,8 @@ pkgbase = hydra
 	depends = ncurses
 	depends = pcre
 	optdepends = gtk2: graphical front-end (xhydra)
-	source = thc-hydra-8.6.tar.gz::https://github.com/vanhauser-thc/thc-hydra/archive/8.6.tar.gz
-	sha256sums = 05a87eb018507b24afca970081f067e64441460319fb75ca1e64c4a1f322b80b
+	source = https://github.com/vanhauser-thc/thc-hydra/archive/v8.8/thc-hydra-v8.8.tar.gz
+	sha256sums = bc895a7aebdf0279186d40140f0dc1546ac6f3a5c5bc9d13b13766bffea3e966
 
 pkgname = hydra
 
