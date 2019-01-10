@@ -1,0 +1,27 @@
+pkgbase = python-trustme
+	pkgdesc = Library for fake certificate authority (CA) to generate fake TLS certs
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://trustme.readthedocs.io
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-pyopenssl
+	checkdepends = python-service_identity
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-cryptography
+	makedepends = python2
+	makedepends = python2-setuptools
+	makedepends = python2-cryptography
+	source = python-trustme-0.4.0.tar.gz::https://github.com/python-trio/trustme/archive/v0.4.0.tar.gz
+	sha512sums = bec8de0e93ecad1b322a370e9b8f9651f9a294b58216b1caf42d5cc69293c38fd62542358106a1d5a59469240e471c26617503f2e486b3432a22d7363e0925e7
+
+pkgname = python-trustme
+	depends = python
+	depends = python-cryptography
+
+pkgname = python2-trustme
+	depends = python2
+	depends = python2-cryptography
+
