@@ -1,16 +1,18 @@
 pkgbase = distorm
 	pkgdesc = Powerful disassembler library for x86/AMD64
-	pkgver = 3.3.8
+	pkgver = 3.4.1
 	pkgrel = 1
 	url = https://github.com/gdabah/distorm
 	arch = x86_64
 	license = BSD
 	makedepends = python
+	makedepends = python-setuptools
 	makedepends = python2
+	makedepends = python2-setuptools
 	makedepends = glibc
 	options = staticlibs
-	source = distorm-3.3.8.tar.gz::https://github.com/gdabah/distorm/archive/v3.3.8.tar.gz
-	sha512sums = bf65fe500089b4aa38d6430eb985f1dc3494b43c829379c56f91b5b4b25d19504fa3781a2fb2b03946f541962f6e564e46d6ec464c469ee21ecb773303b8494e
+	source = distorm-3.4.1.tar.gz::https://github.com/gdabah/distorm/archive/v3.4.1.tar.gz
+	sha512sums = 0e9f8b62bc190ef7d516f1902b6003adef9c7d5d4a5f985fb0bdfc5d4838b2805e2b8836b02d5eccdb3401e814417de615dec675aed9e606c93122ca8a0d2083
 
 pkgname = distorm
 	depends = glibc
