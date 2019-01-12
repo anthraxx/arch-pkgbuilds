@@ -1497,5 +1497,8 @@ command: 'git ls-remote --tags https://github.com/python-trio/trustme'
 ---
 name: 'dav1d'
 command: 'https://code.videolan.org/videolan/dav1d'
+---
+name: 'doxygen'
+command: 'git ls-remote --tags https://github.com/doxygen/doxygen'
 
 # vim: ft=yaml
