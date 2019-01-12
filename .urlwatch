@@ -1494,5 +1494,8 @@ command: 'git ls-remote --tags https://github.com/pyca/service_identity'
 ---
 name: 'python-trustme'
 command: 'git ls-remote --tags https://github.com/python-trio/trustme'
+---
+name: 'dav1d'
+command: 'https://code.videolan.org/videolan/dav1d'
 
 # vim: ft=yaml
