@@ -1,0 +1,18 @@
+pkgbase = dav1d
+	pkgdesc = AV1 cross-platform decoder focused on speed and correctness
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://code.videolan.org/videolan/dav1d/
+	arch = x86_64
+	license = BSD
+	makedepends = meson
+	makedepends = ninja
+	makedepends = nasm
+	makedepends = doxygen
+	depends = glibc
+	provides = libdav1d.so
+	source = dav1d-0.1.0.tar.bz2::https://code.videolan.org/videolan/dav1d/-/archive/0.1.0/dav1d-0.1.0.tar.bz2
+	sha512sums = 5893ad40af7c4f5c3678ecc604ad360b5d1cd3fadaa16f7183d638745097fed091aeb3456540db61a2f4f0fc8bb93f2a20f428c76a7976d3fd186cc8b8baed53
+
+pkgname = dav1d
+
