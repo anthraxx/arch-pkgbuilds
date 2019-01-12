@@ -1,0 +1,35 @@
+# Maintainer: Eric Bélanger <eric@archlinux.org>
+
+pkgname=xscreensaver
+pkgver=5.40
+pkgrel=1
+pkgdesc="Screen saver and locker for the X Window System"
+arch=('x86_64')
+url="http://www.jwz.org/xscreensaver/"
+license=('BSD')
+depends=('libglade' 'libxmu' 'glu' 'xorg-appres' 'perl-libwww')
+makedepends=('bc' 'intltool' 'libxpm' 'gdm')
+optdepends=('gdm: for login manager support')
+backup=('etc/pam.d/xscreensaver')
+source=(http://www.jwz.org/xscreensaver/${pkgname}-${pkgver}.tar.gz
+	LICENSE)
+sha1sums=('82c7433fe008e6ea9ab8683cf3325a673b8a8233'
+          '3eedb8b91b13c29df9b1fe5cbb027e1470b802d2')
+
+build() {
+  cd ${pkgname}-${pkgver}
+  ./configure --prefix=/usr --sysconfdir=/etc --localstatedir=/var \
+    --libexecdir=/usr/lib --with-x-app-defaults=/usr/share/X11/app-defaults \
+    --with-pam --with-login-manager --with-gtk --with-gl \
+    --without-gle --with-pixbuf --with-jpeg
+  make
+}
+
+package() {
+  cd ${pkgname}-${pkgver}
+  install -d "${pkgdir}/etc/pam.d"
+  make install_prefix="${pkgdir}" install
+  install -D -m644 ../LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  chmod 755 "${pkgdir}/usr/bin/xscreensaver"
+  echo "NotShowIn=KDE;GNOME;" >> "${pkgdir}/usr/share/applications/xscreensaver-properties.desktop"
+}
