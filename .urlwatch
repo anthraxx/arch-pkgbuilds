@@ -1500,5 +1500,8 @@ command: 'https://code.videolan.org/videolan/dav1d'
 ---
 name: 'doxygen'
 command: 'git ls-remote --tags https://github.com/doxygen/doxygen'
+---
+name: 'python-qrcode'
+command: 'git ls-remote --tags https://github.com/lincolnloop/python-qrcode'
 
 # vim: ft=yaml
