@@ -1,7 +1,7 @@
 pkgbase = python-pysnmp
 	pkgdesc = Open source and free implementation of v1/v2c/v3 SNMP engine
-	pkgver = 4.4.6
-	pkgrel = 2
+	pkgver = 4.4.8
+	pkgrel = 1
 	url = https://github.com/etingof/pysnmp
 	arch = any
 	license = BSD
@@ -16,8 +16,8 @@ pkgbase = python-pysnmp
 	makedepends = python2-pysmi
 	makedepends = python2-pyasn1
 	options = !makeflags
-	source = pysnmp-4.4.6.tar.gz::https://github.com/etingof/pysnmp/archive/v4.4.6.tar.gz
-	sha512sums = de18de7500c0283885b01f280bcc3f20318b806fd28fd574351edfba3ddba4b95ddde0f59d55a743047cc4c16d2a0b60187339097c428ff21f3cc4f96c24a6b3
+	source = pysnmp-4.4.8.tar.gz::https://github.com/etingof/pysnmp/archive/v4.4.8.tar.gz
+	sha512sums = 3d18fee5834544411740ab612f19535f43e268ee1fd6a661b1c007ca41fa9eb930d5cf9f9318f69db86405119310448e0972f8ad8f8b1aa5316c0ac8b7f5f55b
 
 pkgname = python-pysnmp
 	depends = python
