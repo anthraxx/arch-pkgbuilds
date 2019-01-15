@@ -1,7 +1,7 @@
 pkgbase = python-qrcode
 	pkgdesc = Python library to generate QR codes
-	pkgver = 6.0
-	pkgrel = 2
+	pkgver = 6.1
+	pkgrel = 1
 	url = https://github.com/lincolnloop/python-qrcode
 	arch = any
 	license = custom
@@ -12,10 +12,8 @@ pkgbase = python-qrcode
 	makedepends = python2-six
 	makedepends = python-setuptools
 	makedepends = python2-setuptools
-	source = https://pypi.io/packages/source/q/qrcode/qrcode-6.0.tar.gz
-	source = https://github.com/lincolnloop/python-qrcode/commit/35056062270a3d5084b1217df611d09cd94c5ca3.patch
-	sha512sums = c43f12fe6b12d244d19a994cfd20adbe3776bbda1459c9dbc6164b1c9e7637f05e2acc1c2d29b82243024a4ea9b46c319a56acdf6d05e7b697bcd2c31c02102e
-	sha512sums = 320ec020268d8ede2f80ba622cd593b2ba9758f1d264fdb546dac126a841d454d02d12ae57edc6601bfd19062953bce9189b59184ce653d43c002e7664f87018
+	source = https://github.com/lincolnloop/python-qrcode/archive/v6.1/python-qrcode-v6.1.tar.gz
+	sha512sums = 3af3b67959be8dd30b372145ff7b8aa1e20153c403b17c688d5a7189e3b25da872c6eee916e6d47e4f6545c87c0c0eb9af52e115353a0e8c0f73e4948ddc6829
 
 pkgname = python-qrcode
 	depends = python-pillow
