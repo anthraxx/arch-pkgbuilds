@@ -1,0 +1,31 @@
+pkgbase = gdb
+	pkgdesc = The GNU Debugger
+	pkgver = 8.2.1
+	pkgrel = 3
+	url = http://www.gnu.org/software/gdb/
+	arch = x86_64
+	license = GPL3
+	makedepends = texinfo
+	makedepends = python
+	makedepends = guile2.0
+	makedepends = ncurses
+	makedepends = expat
+	makedepends = xz
+	source = https://ftp.gnu.org/gnu/gdb/gdb-8.2.1.tar.xz
+	source = https://ftp.gnu.org/gnu/gdb/gdb-8.2.1.tar.xz.sig
+	validpgpkeys = F40ADB902B24264AA42E50BF92EDB04BFF325CF3
+	sha1sums = 023556a6d6effa1ffaadf0007cc4458cbe8dde3d
+	sha1sums = SKIP
+
+pkgname = gdb
+	depends = ncurses
+	depends = expat
+	depends = xz
+	depends = mpfr
+	depends = gdb-common=8.2.1
+	backup = etc/gdb/gdbinit
+
+pkgname = gdb-common
+	depends = python
+	depends = guile2.0
+
