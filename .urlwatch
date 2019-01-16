@@ -1503,5 +1503,14 @@ command: 'git ls-remote --tags https://github.com/doxygen/doxygen'
 ---
 name: 'python-qrcode'
 command: 'git ls-remote --tags https://github.com/lincolnloop/python-qrcode'
+---
+name: 'libxml2'
+command: 'git ls-remote --tags https://git.gnome.org/browse/libxml2'
+---
+name: 'exiv2'
+command: 'git ls-remote --tags https://github.com/Exiv2/exiv2'
+---
+name: 'gdb'
+command: 'curl http://ftp.gnu.org/gnu/gdb/ 2>/dev/null|tr \" "\n"|grep "^gdb-"'
 
 # vim: ft=yaml
