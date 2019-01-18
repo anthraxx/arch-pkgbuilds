@@ -1,0 +1,16 @@
+pkgbase = hexyl
+	pkgdesc = Colored command-line hex viewer
+	pkgver = 0.4.0
+	pkgrel = 1
+	url = https://github.com/sharkdp/hexyl
+	arch = x86_64
+	license = Apache
+	license = MIT
+	makedepends = rust
+	makedepends = cargo
+	depends = gcc-libs
+	source = https://github.com/sharkdp/hexyl/archive/v0.4.0/hexyl-0.4.0.tar.gz
+	sha512sums = 621d90e1521fd60a606471efb1974ad114b52d237e9992dd95304a9dfa4f16718f77946e7f0a326f581f900211c86f1ea227ab0f6903edabdd0f845f1ce6ff4d
+
+pkgname = hexyl
+
