@@ -1512,5 +1512,14 @@ command: 'git ls-remote --tags https://github.com/Exiv2/exiv2'
 ---
 name: 'gdb'
 command: 'curl http://ftp.gnu.org/gnu/gdb/ 2>/dev/null|tr \" "\n"|grep "^gdb-"'
+---
+name: 'cobalt'
+command: 'git ls-remote --tags https://github.com/cobalt-org/cobalt.rs'
+---
+name: 'lsd'
+command: 'git ls-remote --tags https://github.com/Peltoche/lsd'
+---
+name: 'hexyl'
+command: 'git ls-remote --tags https://github.com/sharkdp/hexyl'
 
 # vim: ft=yaml
