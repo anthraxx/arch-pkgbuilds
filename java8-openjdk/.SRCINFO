@@ -1,5 +1,5 @@
 pkgbase = java8-openjdk
-	pkgver = 8.u192
+	pkgver = 8.u202
 	pkgrel = 1
 	url = http://openjdk.java.net/
 	arch = x86_64
@@ -14,22 +14,22 @@ pkgbase = java8-openjdk
 	makedepends = fontconfig
 	makedepends = libcups
 	makedepends = alsa-lib
-	source = jdk8u-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u192-b26.tar.gz
-	source = corba-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u192-b26.tar.gz
-	source = hotspot-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u192-b26.tar.gz
-	source = jdk-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u192-b26.tar.gz
-	source = jaxws-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u192-b26.tar.gz
-	source = jaxp-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u192-b26.tar.gz
-	source = langtools-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u192-b26.tar.gz
-	source = nashorn-jdk8u192-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u192-b26.tar.gz
-	sha256sums = 4d3c656cf27bfd9dd9007ccdee7a36ed1002f3f9ecd8a4b10a2030fab4d3a5c3
-	sha256sums = a3e63d3a5fb839a7efa4006068d06265ab6033251b4796a4963c31638040efd5
-	sha256sums = 702f0e4a391ae1a7e2e0a7c26bff0c1186c4d90ffe87aba3a6e0c6e8e813bf60
-	sha256sums = 6e7b59a098b4b4bdf3ea4c985d1c90e984f5f8313c402fdc0c02120a135107e9
-	sha256sums = 9846bcac7b21aea41940702c12e4347eeabc440b02fa35ced0b5b1ce7a645415
-	sha256sums = 1466776a9e11a7bdc5c4fca327d3551873885c196a6689a5febd6259a8c56ee4
-	sha256sums = 98cc9e7cf4dfd12ae1c3377e700e9e29b52ce7d9a3e44be3944f15a43fb5066f
-	sha256sums = 61ca69a5267bbd02d0cb979b022bfb34bde1fb1c45b93ae53944914bcb88fc53
+	source = jdk8u-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u202-b26.tar.gz
+	source = corba-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u202-b26.tar.gz
+	source = hotspot-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u202-b26.tar.gz
+	source = jdk-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u202-b26.tar.gz
+	source = jaxws-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u202-b26.tar.gz
+	source = jaxp-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u202-b26.tar.gz
+	source = langtools-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u202-b26.tar.gz
+	source = nashorn-jdk8u202-b26.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u202-b26.tar.gz
+	sha256sums = 6c5b04dd4e5d73c6bc4c616d7be32b61cd3e8402dd7a259b26a44c8052f0a7a2
+	sha256sums = 973e46b43ea16d76aa6d60db7d125ab456ae9808dcc7138005a7cfbac9e2c456
+	sha256sums = ccc5fb49e46340b5068c6094810c3db29ac27a9f848314cfd29930e05a0924a7
+	sha256sums = 584786a2ced9de3a1d3285e115efb252309348f1d2dcf63799a597c14891f7bb
+	sha256sums = 1b3c71458e86235c39862248d9b56732293ee208395167eba32ba1d075b0d7f4
+	sha256sums = cf6e5e825b0b7977733894e757ee41d7837fa63240be10556a7d2767ff98a742
+	sha256sums = da08f0dccf4b88ea7dd651bdfe19bcd5ce737671a6a68d74c5af351715518e17
+	sha256sums = e9331149c2d269e86ff1901d526c90c32a21cecfc3b13289d6c93b8e5508debf
 
 pkgname = jre8-openjdk-headless
 	pkgdesc = OpenJDK Java 8 headless runtime environment
@@ -46,7 +46,7 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.u192-1
+	depends = jre8-openjdk-headless=8.u202-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
@@ -61,7 +61,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.u192-1
+	depends = jre8-openjdk=8.u202-1
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
