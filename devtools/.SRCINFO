@@ -6,7 +6,6 @@ pkgbase = devtools
 	arch = any
 	license = GPL
 	makedepends = asciidoc
-	depends = namcap
 	depends = openssh
 	depends = subversion
 	depends = rsync

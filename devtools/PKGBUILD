@@ -8,7 +8,7 @@ pkgdesc='Tools for Arch Linux package maintainers'
 arch=('any')
 license=('GPL')
 url='https://git.archlinux.org/devtools.git/'
-depends=('namcap' 'openssh' 'subversion' 'rsync' 'arch-install-scripts'
+depends=('openssh' 'subversion' 'rsync' 'arch-install-scripts'
          'git' 'bzr' 'mercurial' 'diffutils')
 makedepends=('asciidoc')
 optdepends=('btrfs-progs: btrfs support')
