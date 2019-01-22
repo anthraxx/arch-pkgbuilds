@@ -14,6 +14,7 @@ pkgbase = devtools-git
 	depends = git
 	depends = bzr
 	depends = mercurial
+	depends = diffutils
 	optdepends = btrfs-progs: btrfs support
 	provides = devtools
 	conflicts = devtools
