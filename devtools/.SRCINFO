@@ -5,6 +5,7 @@ pkgbase = devtools
 	url = https://git.archlinux.org/devtools.git/
 	arch = any
 	license = GPL
+	makedepends = asciidoc
 	depends = namcap
 	depends = openssh
 	depends = subversion
@@ -13,6 +14,7 @@ pkgbase = devtools
 	depends = git
 	depends = bzr
 	depends = mercurial
+	depends = diffutils
 	optdepends = btrfs-progs: btrfs support
 	source = https://sources.archlinux.org/other/devtools/devtools-20180531.tar.gz
 	source = https://sources.archlinux.org/other/devtools/devtools-20180531.tar.gz.sig
@@ -24,8 +26,9 @@ pkgbase = devtools
 	validpgpkeys = B81B051F2D7FC867AAFF35A58DBD63B82072D77A
 	validpgpkeys = F3691687D867B81B51CE07D9BBE43771487328A9
 	validpgpkeys = 6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD
-	md5sums = ed3c757184e633faeea09747a7b91bb1
-	md5sums = SKIP
+	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
+	sha256sums = ed3c757184e633faeea09747a7b91bb1
+	sha256sums = SKIP
 
 pkgname = devtools
 
