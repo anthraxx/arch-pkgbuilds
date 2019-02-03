@@ -5,7 +5,6 @@ pkgbase = ruby-mustermann
 	url = https://github.com/sinatra/mustermann
 	arch = any
 	license = MIT
-	depends = glibc
 	depends = ruby
 	options = !emptydirs
 	source = ruby-mustermann-1.0.3.tar.gz::https://github.com/sinatra/mustermann/archive/v1.0.3.tar.gz
