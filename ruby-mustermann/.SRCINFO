@@ -1,0 +1,15 @@
+pkgbase = ruby-mustermann
+	pkgdesc = Your personal string matching expert
+	pkgver = 1.0.3
+	pkgrel = 1
+	url = https://github.com/sinatra/mustermann
+	arch = any
+	license = MIT
+	depends = glibc
+	depends = ruby
+	options = !emptydirs
+	source = ruby-mustermann-1.0.3.tar.gz::https://github.com/sinatra/mustermann/archive/v1.0.3.tar.gz
+	md5sums = b14ca6ccee20d62002764bf836b30329
+
+pkgname = ruby-mustermann
+
