@@ -1533,5 +1533,8 @@ command: 'git ls-remote --tags https://github.com/sinatra/mustermann'
 ---
 name: 'ruby-rake-compiler'
 command: 'git ls-remote --tags https://github.com/rake-compiler/rake-compiler'
+---
+name: 'ruby-minitest'
+command: 'git ls-remote https://github.com/seattlerb/minitest'
 
 # vim: ft=yaml
