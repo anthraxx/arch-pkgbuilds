@@ -1,7 +1,7 @@
 pkgbase = audit
 	pkgdesc = Userspace components of the audit framework
 	pkgver = 2.8.4
-	pkgrel = 2
+	pkgrel = 3
 	url = https://people.redhat.com/sgrubb/audit
 	arch = x86_64
 	license = GPL
@@ -34,11 +34,11 @@ pkgname = audit
 
 pkgname = python2-audit
 	pkgdesc = Userspace components of the audit framework (python2 bindings)
-	depends = python
+	depends = python2
 	depends = audit
 
 pkgname = python-audit
 	pkgdesc = Userspace components of the audit framework (python bindings)
-	depends = python2
+	depends = python
 	depends = audit
 
