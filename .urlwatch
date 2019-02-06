@@ -1536,5 +1536,8 @@ command: 'git ls-remote --tags https://github.com/rake-compiler/rake-compiler'
 ---
 name: 'ruby-minitest'
 command: 'git ls-remote https://github.com/seattlerb/minitest'
+---
+name: 'evilginx'
+command: 'git ls-remote --tags https://github.com/kgretzky/evilginx2'
 
 # vim: ft=yaml
