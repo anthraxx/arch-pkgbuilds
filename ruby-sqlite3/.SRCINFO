@@ -1,7 +1,7 @@
 pkgbase = ruby-sqlite3
 	pkgdesc = Ruby bindings for the SQLite3 embedded database
 	pkgver = 1.3.13
-	pkgrel = 2
+	pkgrel = 3
 	url = http://github.com/luislavena/sqlite3-ruby
 	arch = x86_64
 	license = BSD
@@ -10,6 +10,7 @@ pkgbase = ruby-sqlite3
 	makedepends = ruby-rake-compiler
 	makedepends = ruby-hoe
 	makedepends = ruby-mini_portile
+	makedepends = ruby-minitest
 	depends = ruby
 	depends = sqlite
 	options = !emptydirs
