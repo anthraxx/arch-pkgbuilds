@@ -1,15 +1,15 @@
 pkgbase = python-scrypt
 	pkgdesc = Bindings for the scrypt key derivation function library
-	pkgver = 0.8.6
-	pkgrel = 6
+	pkgver = 0.8.7
+	pkgrel = 1
 	url = https://pypi.python.org/pypi/scrypt/
 	arch = x86_64
 	license = BSD
 	makedepends = python-setuptools
 	makedepends = python2-setuptools
 	options = !emptydirs
-	source = https://pypi.io/packages/source/s/scrypt/scrypt-0.8.6.tar.gz
-	sha512sums = f0f3bd61a5fcb55a1d6af5b7062202446c2c0595e88617f1e53c4ded6a9b1ab857fda9e8d153c0b3bbceee49a818dd428776522c6b0919b15096fd230b13ef60
+	source = https://pypi.io/packages/source/s/scrypt/scrypt-0.8.7.tar.gz
+	sha512sums = 2919ceed50888bdfdad846db1ef5ec6ac8769ef00a6c44bbe2837318a4809854c2f4c957e7035593aa6cc47a42f431bb3a86004f9e21c1f33ade8a6f8f90be84
 
 pkgname = python-scrypt
 	depends = python
