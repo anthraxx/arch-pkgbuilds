@@ -1,15 +1,15 @@
 pkgbase = penlight
 	pkgdesc = Lua libraries focusing on input data handling
-	pkgver = 1.5.4
-	pkgrel = 2
+	pkgver = 1.6.0
+	pkgrel = 1
 	url = https://github.com/stevedonovan/penlight
 	arch = any
 	license = custom
 	depends = lua
 	depends = lua-filesystem
-	source = lua-penlight-1.5.4.tar.gz::https://github.com/stevedonovan/penlight/archive/1.5.4.tar.gz
-	sha256sums = c0bcbb0874fb559ab0a3de30a21244799b7fdf8b81b34a3df0493b12ee7a5ff1
-	sha512sums = c46e7875410a90390bfbf010a53f1d536475e2094668722618d03951caad0fcb0674c9bc7119a0753e4ed3df9e4d70fef828ba4c6c24e8ada4036948d2432519
+	source = https://github.com/stevedonovan/penlight/archive/1.6.0/lua-penlight-1.6.0.tar.gz
+	sha256sums = a552d0a314f7aa94c9579746996a7aad4ed59f3187f33b4735d3e323e27354b0
+	sha512sums = 4f9988e9e5d66aad1c7137a5b8a36e4eaa2dba5408c90ee0253ce3db69980b2e0be8c9ba38f1e88f269da96d09a908115e0e9c2bd0667393f950fdfc1e232ff0
 
 pkgname = lua-penlight
 
