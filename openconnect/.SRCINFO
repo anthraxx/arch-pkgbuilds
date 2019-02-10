@@ -1,0 +1,23 @@
+pkgbase = openconnect
+	pkgdesc = Open client for Cisco AnyConnect VPN
+	pkgver = 7.08
+	pkgrel = 2
+	epoch = 1
+	url = http://www.infradead.org/openconnect.html
+	arch = x86_64
+	license = LGPL2.1
+	makedepends = intltool
+	makedepends = python2
+	depends = libxml2
+	depends = gnutls
+	depends = libproxy
+	depends = vpnc
+	depends = krb5
+	depends = lz4
+	depends = pcsclite
+	options = !emptydirs
+	source = ftp://ftp.infradead.org/pub/openconnect/openconnect-7.08.tar.gz
+	md5sums = ca2ca1f61b8515879b481dcf6ed4366b
+
+pkgname = openconnect
+
