@@ -1408,8 +1408,14 @@ command: 'git ls-remote --tag https://git.torproject.org/stem.git'
 name: 'vpnc'
 command: 'svn info http://svn.unix-ag.uni-kl.de/vpnc/trunk/ 2>/dev/null|grep Revision'
 ---
+name: 'vpnc (github)'
+command: 'git ls-remote https://github.com/streambinder/vpnc'
+---
 name: 'vpnc-scripts'
 command: 'git ls-remote git://git.infradead.org/users/dwmw2/vpnc-scripts.git'
+---
+name: 'openconnect'
+command: 'git ls-remote --tags git://git.infradead.org/users/dwmw2/openconnect.git'
 ---
 name: 'lz4'
 command: 'git ls-remote --tags https://github.com/lz4/lz4'
