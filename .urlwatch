@@ -1539,5 +1539,20 @@ command: 'git ls-remote https://github.com/seattlerb/minitest'
 ---
 name: 'evilginx'
 command: 'git ls-remote --tags https://github.com/kgretzky/evilginx2'
+---
+name: 'ruby-immutable-struct'
+command: 'git ls-remote --tags https://github.com/stitchfix/immutable-struct'
+---
+name: 'ruby-sinatra'
+command: 'git ls-remote --tags https://github.com/sinatra/sinatra'
+---
+name: 'ruby-rack-test'
+command: 'git ls-remote --tags https://github.com/rack-test/rack-test'
+---
+name: 'sqlitebrowse'
+command: 'git ls-remote --tags https://github.com/sqlitebrowser/sqlitebrowse'
+---
+name: 'ruby-builder'
+command: 'git ls-remote --tags https://github.com/jimweirich/builder'
 
 # vim: ft=yaml
