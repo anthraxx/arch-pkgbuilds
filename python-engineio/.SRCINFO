@@ -1,6 +1,6 @@
 pkgbase = python-engineio
 	pkgdesc = Python implementation of the Engine.IO realtime server
-	pkgver = 3.3.0
+	pkgver = 3.3.1
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/python-engineio
 	arch = any
@@ -33,9 +33,9 @@ pkgbase = python-engineio
 	makedepends = python2-gevent-websocket
 	makedepends = python2-enum34
 	options = !makeflags
-	source = python-engineio-3.3.0.tar.gz::https://github.com/miguelgrinberg/python-engineio/archive/v3.3.0.tar.gz
-	sha256sums = 4c78120d5471eb54c6aaa6848ae4ff0fd1a28bda1a16895f633d5b4698b33f19
-	sha512sums = b22f689b3c2664fe01cf3a26ad8be5c1a30ce6a3b4f5edbd91dec189ab82f4500f76eca6428d4cc9d771b94ed9e18fd1b94063168eb3fad9752a8d7d1cb1c97d
+	source = python-engineio-3.3.1.tar.gz::https://github.com/miguelgrinberg/python-engineio/archive/v3.3.1.tar.gz
+	sha256sums = 177371619e0fc4f062135e2caa0e14b52abe1e8767c28c000ed646939eede05c
+	sha512sums = d8328624034712a08c72f92c13295ecef21a2375504baab3ff0e3d2731cb442ad6b05df4a01fa698a289b1d802e5adc0b2bd657f01bba86a5fdad3e9708899e5
 
 pkgname = python-engineio
 	depends = python-six
