@@ -1,6 +1,6 @@
 pkgbase = fish
 	pkgdesc = Smart and user friendly shell intended mostly for interactive use
-	pkgver = 3.0.0
+	pkgver = 3.0.1
 	pkgrel = 1
 	url = https://fishshell.com/
 	install = fish.install
@@ -14,8 +14,8 @@ pkgbase = fish
 	depends = which
 	depends = pcre2
 	optdepends = python: for manual page completion parser and web configuration tool
-	source = fish-3.0.0.tar.gz::https://github.com/fish-shell/fish-shell/archive/3.0.0.tar.gz
-	sha512sums = 97efb67c34860794787b44c04fbb8ebc1b7a8c37da00e7f6d93daab6707f198a2e0455e956a3b1c6a0c1711fa2d0f024ba42a3f82fbb17e857c518a858bb2ffb
+	source = https://github.com/fish-shell/fish-shell/archive/3.0.1/fish-3.0.1.tar.gz
+	sha512sums = 6203b317c503b92c6f742eeb06f9e01558c6a31394ea73134c90b1cf0acebc5b88cdfe18cacf17f70d9b1612289f610e78a7cb683ffbfd9d616e1848f9861bcf
 
 pkgname = fish
 
