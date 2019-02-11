@@ -1,7 +1,7 @@
 pkgbase = libpsl
 	pkgdesc = Public Suffix List library
 	pkgver = 0.20.2
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/rockdaboot/libpsl
 	arch = x86_64
 	license = MIT
@@ -10,6 +10,7 @@ pkgbase = libpsl
 	makedepends = publicsuffix-list
 	makedepends = gtk-doc
 	depends = libidn2
+	depends = libidn2.so
 	depends = libunistring
 	provides = libpsl.so
 	source = https://github.com/rockdaboot/libpsl/releases/download/libpsl-0.20.2/libpsl-0.20.2.tar.gz
