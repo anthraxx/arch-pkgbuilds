@@ -1560,5 +1560,17 @@ command: 'git ls-remote --tags https://github.com/sqlitebrowser/sqlitebrowse'
 ---
 name: 'ruby-builder'
 command: 'git ls-remote --tags https://github.com/jimweirich/builder'
+---
+name: 'lzop'
+command: 'curl https://www.lzop.org/download/ 2>/dev/null|tr "><" "\n"|grep "^lzop"'
+---
+name: 'vim-airline-themes'
+command: 'git ls-remote https://github.com/vim-airline/vim-airline-themes'
+---
+name: 'catch2'
+command: 'git ls-remote --tags https://github.com/catchorg/catch2'
+---
+name: 'stoken'
+command: 'git ls-remote --tags https://github.com/cernekee/stoken'
 
 # vim: ft=yaml
