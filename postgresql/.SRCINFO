@@ -63,7 +63,7 @@ pkgname = postgresql
 	depends = openssl>=1.0.0
 	depends = pam
 	depends = icu
-	depends = libsystemd
+	depends = systemd-libs
 	depends = libldap
 	optdepends = python2: for PL/Python 2 support
 	optdepends = python: for PL/Python 3 support
