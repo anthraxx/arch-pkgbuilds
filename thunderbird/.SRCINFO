@@ -1,7 +1,7 @@
 pkgbase = thunderbird
 	pkgdesc = Standalone mail and news reader from mozilla.org
 	pkgver = 60.5.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.mozilla.org/thunderbird/
 	arch = x86_64
 	license = MPL
@@ -34,7 +34,6 @@ pkgbase = thunderbird
 	depends = hunspell
 	depends = sqlite
 	depends = ttf-font
-	depends = libvpx
 	depends = icu
 	optdepends = libcanberra: sound support
 	options = !emptydirs
