@@ -1,6 +1,6 @@
 pkgbase = sn0int
 	pkgdesc = Semi-automatic OSINT framework and package manager
-	pkgver = 0.9.1
+	pkgver = 0.10.0
 	pkgrel = 1
 	url = https://github.com/kpcyrd/sn0int
 	install = sn0int.install
@@ -13,8 +13,11 @@ pkgbase = sn0int
 	depends = libseccomp
 	depends = geoip2-database
 	depends = publicsuffix-list
-	source = https://github.com/kpcyrd/sn0int/archive/v0.9.1/sn0int-0.9.1.tar.gz
-	sha512sums = e0dde7833e0762862726426b42ca94de148ffe3490ded299999528557038ecec3c34288c050ad37f9eaf7580f1b7894829a772ce3a00e816ea14924d6cd8b569
+	source = v0.10.0.tar.gz::https://github.com/kpcyrd/sn0int/archive/v0.10.0/sn0int-0.10.0.tar.gz
+	source = https://github.com/kpcyrd/sn0int/releases/download/v0.10.0/v0.10.0.tar.gz.asc
+	validpgpkeys = 64B13F7117D6E07D661BBCE0FE763A64F5E54FD6
+	sha512sums = 2a86ebbfaf6b87e552ca1b44ea621adc0402ccf1992725e8d406b86560b8ae7032b6cc892d60e33dc815947407a696781cf3d97e9479986c9d41b5b627bdb05a
+	sha512sums = SKIP
 
 pkgname = sn0int
 
