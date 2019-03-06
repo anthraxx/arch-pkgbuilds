@@ -1,6 +1,6 @@
 pkgbase = lsd
 	pkgdesc = Modern ls with a lot of pretty colors and awesome icons
-	pkgver = 0.12.0
+	pkgver = 0.13.0
 	pkgrel = 1
 	url = https://github.com/Peltoche/lsd
 	arch = x86_64
@@ -8,8 +8,10 @@ pkgbase = lsd
 	makedepends = rust
 	makedepends = cargo
 	depends = gcc-libs
-	source = https://github.com/Peltoche/lsd/archive/0.12.0/lsd-0.12.0.tar.gz
-	sha512sums = b5bac177f3116ace5fed07fbcbf277b4657dfe15e7e66799844f3c0fc049673f9d99c0e9c27768704b0c35cd8bced2c1915b8d1bcbbef7c1052dd072e4965ea3
+	depends = awesome-terminal-fonts
+	source = https://github.com/Peltoche/lsd/archive/0.13.0/lsd-0.13.0.tar.gz
+	sha256sums = b1d04a6e10549f1394c7d9478cea5e3e3104a1c2aa20ba7a87098e04e608daa6
+	sha512sums = c55b0f6595b157a591bdd252432cd8d6aa63efe9cfae7f84602ec759e60b11cd08298f7dc792d59162e0ef3b84b8f2ff7caaacefd686b67c9d5ab81bea808cd9
 
 pkgname = lsd
 
