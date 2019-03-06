@@ -1,6 +1,6 @@
 pkgbase = gdb-dashboard
 	pkgdesc = Modular visual interface for GDB in Python
-	pkgver = 0.4.2
+	pkgver = 0.4.3
 	pkgrel = 1
 	url = https://github.com/cyrus-and/gdb-dashboard
 	arch = any
@@ -8,8 +8,9 @@ pkgbase = gdb-dashboard
 	depends = gdb
 	depends = binutils
 	optdepends = python-pygments: syntax highlighting support
-	source = gdb-dashboard-0.4.2.tar.gz::https://github.com/cyrus-and/gdb-dashboard/archive/v0.4.2.tar.gz
-	sha512sums = d5e66b0e0be27e494e74f6bd1609c18aac8ac6725ad7ceb66db3f4458ebc89c4fb194559ca36af8f53d2a4459f9c090c9b9cf3b7e664f80f9bc504cc4e956bf6
+	source = gdb-dashboard-0.4.3.tar.gz::https://github.com/cyrus-and/gdb-dashboard/archive/v0.4.3.tar.gz
+	sha256sums = 70fd21f959df02607dfdd4641453c01cabc0b3cdb35e19d62f3f691ef4714ed9
+	sha512sums = b0ba054d4f5f5c899819d973aa60c8319a164eaa74e1b222ceab76cd22656fdb1fd96a35328ad55ac68412c85e1afe44ce66a085bfccdc8e0627aae4d505c7f0
 
 pkgname = gdb-dashboard
 
