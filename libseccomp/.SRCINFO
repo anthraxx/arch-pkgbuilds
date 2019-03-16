@@ -1,15 +1,17 @@
 pkgbase = libseccomp
 	pkgdesc = Enhanced seccomp library
-	pkgver = 2.3.3
+	pkgver = 2.4.0
 	pkgrel = 1
 	url = https://github.com/seccomp/libseccomp
 	arch = x86_64
 	license = LGPL2.1
+	checkdepends = valgrind
 	depends = glibc
-	source = https://github.com/seccomp/libseccomp/releases/download/v2.3.3/libseccomp-2.3.3.tar.gz
-	source = https://github.com/seccomp/libseccomp/releases/download/v2.3.3/libseccomp-2.3.3.tar.gz.asc
+	provides = libseccomp.so
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.4.0/libseccomp-2.4.0.tar.gz
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.4.0/libseccomp-2.4.0.tar.gz.asc
 	validpgpkeys = 7100AADFAE6E6E940D2E0AD655E45A5AE8CA7C8A
-	sha256sums = 7fc28f4294cc72e61c529bedf97e705c3acf9c479a8f1a3028d4cd2ca9f3b155
+	sha256sums = 2e74c7e8b54b340ad5d472e59286c6758e1e1e96c6b43c3dbdc8ddafbf0e525d
 	sha256sums = SKIP
 
 pkgname = libseccomp
