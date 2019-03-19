@@ -1,8 +1,8 @@
 pkgbase = qwt
 	pkgdesc = Qt Widgets for Technical Applications
 	pkgver = 6.1.4
-	pkgrel = 1
-	url = https://qwt.sourceforge.net/
+	pkgrel = 2
+	url = https://qwt.sourceforge.io/
 	arch = x86_64
 	license = custom:qwt
 	makedepends = qt5-tools
