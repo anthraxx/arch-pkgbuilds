@@ -1,7 +1,7 @@
 pkgbase = volatility
 	pkgdesc = Advanced memory forensics framework
-	pkgver = 2.6
-	pkgrel = 2
+	pkgver = 2.6.1
+	pkgrel = 1
 	url = https://github.com/volatilityfoundation/volatility/wiki
 	arch = any
 	license = GPL2
@@ -16,8 +16,8 @@ pkgbase = volatility
 	optdepends = python2-libforensic1394: firewire live analysis support
 	optdepends = libraw1394: alternative firewire live analysis support
 	optdepends = python2-openpyxl: Excel xlsx/xlsm files support
-	source = volatility-2.6.tar.gz::https://github.com/volatilityfoundation/volatility/archive/2.6.tar.gz
-	sha512sums = 7f71ae5aac38d66dd1e3ff830d0859d7da72d65c5f729bb2d73a374088c3116cdf8a69a419749ee3c92cd084c9a4cf3e20da5de94588a4c0424ca55a55c1e793
+	source = volatility-2.6.1.tar.gz::https://github.com/volatilityfoundation/volatility/archive/2.6.1.tar.gz
+	sha512sums = 64d49de21a87fb6152ad430126466bf66bca06457f3fa2d54cee29b0e4a2eee53ab658570b6cbc782e85ca558f45fac5cf6e6625ebd85aa3ffc9f69768cfa844
 
 pkgname = volatility
 
