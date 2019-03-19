@@ -1572,5 +1572,11 @@ command: 'git ls-remote --tags https://github.com/catchorg/catch2'
 ---
 name: 'stoken'
 command: 'git ls-remote --tags https://github.com/cernekee/stoken'
+---
+name: 'vim-typescript'
+command: 'git ls-remote https://github.com/leafgarland/typescript-vim'
+---
+name: 'mtd-utils'
+command: 'git ls-remote --tags git://git.infradead.org/mtd-utils.git'
 
 # vim: ft=yaml
