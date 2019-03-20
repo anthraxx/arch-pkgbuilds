@@ -1,0 +1,20 @@
+pkgbase = ruby-optimist
+	pkgdesc = Commandline option parser for Ruby that just gets out of your way
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://github.com/ManageIQ/optimist
+	arch = any
+	license = MIT
+	checkdepends = ruby-minitest
+	checkdepends = ruby-chronic
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-bundler
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/ManageIQ/optimist/archive/v3.0.0/ruby-optimist-3.0.0.tar.gz
+	sha256sums = a8f86b0c6c5a31361acca40e33e55f7b9c9d5cbd9c6711dabb8e52c8858c0d61
+	sha512sums = f08884196516cd799f7e615b8b533eb315b53aa7049395f713502983c548e69dc4a7e6e01bb2b12e8860a8823ffd9c7218fbb645f65683682d0e7a12ced11e60
+
+pkgname = ruby-optimist
+
