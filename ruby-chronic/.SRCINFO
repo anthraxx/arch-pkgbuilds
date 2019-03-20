@@ -1,0 +1,18 @@
+pkgbase = ruby-chronic
+	pkgdesc = Natural language date/time parser written in pure Ruby
+	pkgver = 0.10.2
+	pkgrel = 1
+	url = https://github.com/mojombo/chronic
+	arch = any
+	license = MIT
+	checkdepends = ruby-minitest
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/mojombo/chronic/archive/v0.10.2/ruby-chronic-0.10.2.tar.gz
+	sha256sums = e7b01a3b4a512fbdafecc7a1cdc8dd102d1c3d9089ff32cf409f08d73204de0d
+	sha512sums = a8f9b12caf529374a163b13307208272e210d8d885a1bed47b64613dd319cc2cbbf2728c9a171f603bc2fe7a1383dd17b35f690b8597462fb329dbe4afe46c6e
+
+pkgname = ruby-chronic
+
