@@ -1,0 +1,18 @@
+pkgbase = bcg729
+	pkgdesc = Encoder and decoder of the ITU G.729 Annex A/B speech codec
+	pkgver = 1.0.4
+	pkgrel = 3
+	url = https://www.linphone.org/technical-corner/bcg729/overview
+	arch = x86_64
+	license = GPL2
+	makedepends = cmake
+	depends = glibc
+	source = https://github.com/BelledonneCommunications/bcg729/archive/1.0.4/bcg729-1.0.4.tar.gz
+	source = bcg729-cmake-symbol-visibility.patch::https://github.com/Lekensteyn/bcg729/commit/5e70712297ad2df58a035728da07c440c8ab5fcf.patch
+	source = bcg729-cmake-install-pkgconfig.patch::https://github.com/Lekensteyn/bcg729/commit/58e60cff7fd5829f26fcf6d7b4d80de440b1b151.patch
+	sha256sums = 94b3542a06cbd96306efc19f959f9febae62806a22599063f82a8c33e989d48b
+	sha256sums = 6696d6f3a768a6ad1c3f48439ae26a1f7cda170b010095032cd391efe457deff
+	sha256sums = 22292952b6c7db426cec99bcabac87ef8b4b2bc8f4ef3c43924578878f59ce68
+
+pkgname = bcg729
+
