@@ -1584,5 +1584,8 @@ command: 'git ls-remote --tags https://github.com/ManageIQ/optimist'
 ---
 name: 'ruby-chronic'
 command: 'git ls-remote --tags https://github.com/mojombo/chronic'
+---
+name: 'bcg729'
+command: 'git ls-remote --tags https://github.com/BelledonneCommunications/bcg729'
 
 # vim: ft=yaml
