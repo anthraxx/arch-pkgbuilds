@@ -1581,5 +1581,8 @@ command: 'git ls-remote --tags git://git.infradead.org/mtd-utils.git'
 ---
 name: 'ruby-optimist'
 command: 'git ls-remote --tags https://github.com/ManageIQ/optimist'
+---
+name: 'ruby-chronic'
+command: 'git ls-remote --tags https://github.com/mojombo/chronic'
 
 # vim: ft=yaml
