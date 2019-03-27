@@ -5,7 +5,6 @@ pkgbase = flawfinder
 	url = https://www.dwheeler.com/flawfinder
 	arch = any
 	license = GPL2
-	checkdepends = python2
 	makedepends = python-setuptools
 	depends = python
 	source = https://www.dwheeler.com/flawfinder/flawfinder-2.0.8.tar.gz
