@@ -6,7 +6,6 @@ pkgbase = jsoncpp
 	arch = x86_64
 	license = MIT
 	license = custom:Public_Domain
-	checkdepends = python2
 	makedepends = gcc-libs
 	makedepends = doxygen
 	makedepends = graphviz
