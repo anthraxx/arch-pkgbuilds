@@ -1,6 +1,6 @@
 pkgbase = lynis
 	pkgdesc = Security and system auditing tool to harden Unix/Linux systems
-	pkgver = 2.7.2
+	pkgver = 2.7.3
 	pkgrel = 1
 	url = https://cisofy.com/lynis/
 	arch = any
@@ -12,10 +12,10 @@ pkgbase = lynis
 	optdepends = iptables: firewall tests
 	optdepends = bash-completion: completion for bash
 	backup = etc/lynis/default.prf
-	source = https://downloads.cisofy.com/lynis/lynis-2.7.2.tar.gz
-	source = https://downloads.cisofy.com/lynis/lynis-2.7.2.tar.gz.asc
+	source = https://downloads.cisofy.com/lynis/lynis-2.7.3.tar.gz
+	source = https://downloads.cisofy.com/lynis/lynis-2.7.3.tar.gz.asc
 	validpgpkeys = 73AC9FC55848E977024D1A61429A566FD5B79251
-	sha512sums = 95c7a9209d1bd8896894f226549a7c4ef1f35c5ae0e354bed1c2e10d33b59c682ef9e0e5ec9837ba60d43cfee4e8f922235ca8d9b0c45c98c3fae2ced014b9c8
+	sha512sums = eb50d5d1769f0276a8383a5c6c664b390ced75248678edd80b00a7c344e8567d9c5fcc7a1f4a1a0e20a26c03bb3648d3b81f165266b3654e75bbec5061ab3837
 	sha512sums = SKIP
 
 pkgname = lynis
