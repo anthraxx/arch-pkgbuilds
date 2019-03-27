@@ -2,7 +2,7 @@
 # Maintainer: Christian Rebischke <chris.rebischke[at]archlinux[dot]org>
 
 pkgname=bettercap
-pkgver=2.18
+pkgver=2.21.1
 pkgrel=1
 pkgdesc='Swiss army knife for network attacks and monitoring'
 url='https://github.com/bettercap/bettercap'
@@ -10,9 +10,10 @@ arch=('x86_64')
 license=('GPL3')
 depends=('libpcap' 'libnetfilter_queue' 'iproute2' 'glibc' 'libnfnetlink')
 makedepends=('go-pie' 'git' 'dep')
+optdepends=('bettercap-caplets: scripts (caplets) and proxy modules')
 options=('!emptydirs')
-source=(${pkgname}-${pkgver}.tar.gz::https://github.com/bettercap/bettercap/archive/v${pkgver}.tar.gz)
-sha512sums=('252df1835c4dd08b1e1709d894d498506aef34d727c94e4052f9a60e4c835fffad899a282bef5bb1532aeb2ba0f0cfc40cf634e0125eea1f848509bf941ce635')
+source=(https://github.com/bettercap/bettercap/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
+sha512sums=('7afa5a4e43c13f6ce1e744665815518f07b528279e06ca24fd082515c535a96d39e04720051d633391454db994fb333e8a0ad2543e3e21c762e76982a3aebe69')
 
 prepare(){
   export GOPATH="${srcdir}/go"
