@@ -9,7 +9,6 @@ pkgbase = gtest
 	makedepends = cmake
 	makedepends = gcc-libs
 	makedepends = sh
-	makedepends = ninja
 	source = googletest-release-1.8.1.tar.gz::https://github.com/google/googletest/archive/release-1.8.1.tar.gz
 	source = gtest-1.8.1-libversion.patch
 	source = gtest-1.8.1-null-pointer.patch
