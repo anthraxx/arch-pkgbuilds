@@ -562,6 +562,9 @@ command: 'git ls-remote --tags https://github.com/0-wiz-0/findnewest'
 name: 'bettercap (github)'
 command: 'git ls-remote --tags https://github.com/bettercap/bettercap'
 ---
+name: 'bettercap-caplets (github)'
+command: 'git ls-remote https://github.com/bettercap/caplets'
+---
 name: 'ruby-network_interface'
 command: 'git ls-remote --tags https://github.com/rapid7/network_interface'
 ---
