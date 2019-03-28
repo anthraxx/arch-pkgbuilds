@@ -1,7 +1,7 @@
 pkgbase = mplayer
 	pkgdesc = Media player for Linux
-	pkgver = 38101
-	pkgrel = 2
+	pkgver = 38125
+	pkgrel = 1
 	url = http://www.mplayerhq.hu/
 	arch = x86_64
 	license = GPL
@@ -38,7 +38,7 @@ pkgbase = mplayer
 	makedepends = libdvdnav
 	makedepends = ffmpeg
 	options = !emptydirs
-	source = mplayer-38101::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38101
+	source = mplayer-38125::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38125
 	source = mplayer.desktop
 	source = include-samba-4.0.patch
 	source = revert-icl-fixes.patch
