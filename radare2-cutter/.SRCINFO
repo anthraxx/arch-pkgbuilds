@@ -1,10 +1,11 @@
 pkgbase = radare2-cutter
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
-	pkgver = 1.8.1
+	pkgver = 1.8.0.r37.g67f865af
 	pkgrel = 1
 	url = https://github.com/radareorg/cutter
 	arch = x86_64
 	license = GPL3
+	makedepends = git
 	makedepends = cmake
 	depends = radare2
 	depends = capstone
@@ -14,7 +15,7 @@ pkgbase = radare2-cutter
 	depends = icu
 	depends = python
 	depends = jupyter
-	source = radare2-cutter-1.8.1.tar.gz::https://github.com/radareorg/cutter/archive/v1.8.1.tar.gz
+	source = radare2-cutter::git+https://github.com/radareorg/cutter#commit=67f865af71cd8534ace3f58021cc5802b3a4a15a
 	sha512sums = SKIP
 
 pkgname = radare2-cutter
