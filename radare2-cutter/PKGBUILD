@@ -2,9 +2,9 @@
 # Contributor: Aaron McDaniel (mcd1992) <'aur' at the domain 'fgthou.se'>
 
 pkgname=radare2-cutter
-_gitcommit=67f865af71cd8534ace3f58021cc5802b3a4a15a
-pkgver=1.8.0.r37.g67f865af
-pkgrel=1
+_gitcommit=800594551b8f0bb9104f2b6e83de6ece5fa62913
+pkgver=1.8.1
+pkgrel=2
 pkgdesc='Qt and C++ GUI for radare2 reverse engineering framework'
 url='https://github.com/radareorg/cutter'
 arch=('x86_64')
@@ -16,6 +16,7 @@ sha512sums=('SKIP')
 
 pkgver() {
   cd ${pkgname}
+  git tag -d deploy-test-pancake>/dev/null 2>&1||true
   git describe --always --tags | sed 's/^v//;s/\([^-]*-g\)/r\1/;s/-/./g'
 }
 
