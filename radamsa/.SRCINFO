@@ -1,14 +1,15 @@
 pkgbase = radamsa
 	pkgdesc = General purpose mutation based fuzzer
-	pkgver = 0.5
-	pkgrel = 2
+	pkgver = 0.6
+	pkgrel = 1
 	url = https://gitlab.com/akihe/radamsa
 	arch = x86_64
 	license = MIT
+	makedepends = git
 	makedepends = owl-lisp
 	depends = glibc
-	source = radamsa-0.5.tar.gz::https://github.com/aoh/radamsa/archive/v0.5.tar.gz
-	sha512sums = 3fd4c9877bc16e527a78fe5fd19c9f51064a2799cc616e5528ebade667daea79f40245f54a4e841d512c18e4847c14805e617f9729fdd2a8d3689a5c3f0068f4
+	source = https://gitlab.com/akihe/radamsa/-/archive/v0.6/radamsa-v0.6.tar.gz
+	sha512sums = 4724454d28abc1fb5ab4485d685dd0f9a514146bba14e48159237306c984a694f8d5656191756edabb984ee6c3e53f317dea2fe1bac41d1625abf8d6877172bc
 
 pkgname = radamsa
 
