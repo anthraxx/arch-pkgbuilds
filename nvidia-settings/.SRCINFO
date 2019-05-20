@@ -1,6 +1,6 @@
 pkgbase = nvidia-settings
 	pkgdesc = Tool for configuring the NVIDIA graphics driver
-	pkgver = 418.74
+	pkgver = 430.14
 	pkgrel = 1
 	url = https://github.com/NVIDIA/nvidia-settings
 	arch = x86_64
@@ -15,9 +15,9 @@ pkgbase = nvidia-settings
 	makedepends = nvidia-utils
 	makedepends = libxext
 	options = staticlibs
-	source = nvidia-settings-418.74.tar.gz::https://github.com/NVIDIA/nvidia-settings/archive/418.74.tar.gz
+	source = nvidia-settings-430.14.tar.gz::https://github.com/NVIDIA/nvidia-settings/archive/430.14.tar.gz
 	source = libxnvctrl_so.patch
-	sha512sums = 4ec19fb2d99855ca77fb312b54420e2633fbd9a9c6d5690ff4daeacb8cfddd9bb80d13d1675da7571a9cab7be1eea604468e32333d29d1b603af3f1933c58672
+	sha512sums = f3046fed2f6ac956e6987ad3223bbdb4795c1778847b9a0b99c68e79893bbf82866ad9de252a6dd5459bcc24e6519f534d92f2ee05b4c65a611a25f3c0b5ca4f
 	sha512sums = f69f5dc84fe624579a3c9ce877f4ae4e34c2184877576afbea07b8abdd7ff01e470517f2b77cd11a904518cbcb83fb388ca1d08888006f0ef2854723920c9cf8
 
 pkgname = nvidia-settings
