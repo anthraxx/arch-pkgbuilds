@@ -1172,7 +1172,7 @@ name: 'libmicrodns (github)'
 command: 'git ls-remote --tags https://github.com/videolabs/libmicrodns'
 ---
 name: 'ccache (upstream)'
-command: 'curl https://www.samba.org/ftp/ccache/ 2>/dev/null|tr \" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"|grep "^ccache"'
+command: 'git ls-remote --tags https://github.com/ccache/ccache'
 ---
 name: 'libplacebo (github)'
 command: 'git ls-remote --tags https://github.com/haasn/libplacebo'
@@ -1242,6 +1242,12 @@ command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|g
 ---
 name: 'async_generator (github)'
 command: 'git ls-remote --tags https://github.com/python-trio/async_generator'
+---
+name: 'openjdk 12'
+command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk12u/raw-file/default/.hgtags 2>/dev/null'
+---
+name: 'openjdk 11'
+command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk11u/raw-file/default/.hgtags 2>/dev/null'
 ---
 name: 'openjdk 10'
 command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk10u/raw-file/default/.hgtags 2>/dev/null'
@@ -1590,5 +1596,8 @@ command: 'git ls-remote --tags https://github.com/mojombo/chronic'
 ---
 name: 'bcg729'
 command: 'git ls-remote --tags https://github.com/BelledonneCommunications/bcg729'
+---
+name: 'beep'
+command: 'git ls-remote --tags https://github.com/spkr-beep/beep'
 
 # vim: ft=yaml
