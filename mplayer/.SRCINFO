@@ -1,7 +1,7 @@
 pkgbase = mplayer
 	pkgdesc = Media player for Linux
-	pkgver = 38125
-	pkgrel = 5
+	pkgver = 38139
+	pkgrel = 1
 	url = http://www.mplayerhq.hu/
 	arch = x86_64
 	license = GPL
@@ -78,7 +78,7 @@ pkgbase = mplayer
 	makedepends = speex
 	makedepends = libmpeg2
 	options = !emptydirs
-	source = mplayer-38125::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38125
+	source = mplayer-38139::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38139
 	source = mplayer.desktop
 	source = include-samba-4.0.patch
 	source = revert-icl-fixes.patch
