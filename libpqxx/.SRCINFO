@@ -1,6 +1,6 @@
 pkgbase = libpqxx
 	pkgdesc = C++ client API for PostgreSQL
-	pkgver = 6.2.5
+	pkgver = 6.4.4
 	pkgrel = 1
 	url = http://pqxx.org/development/libpqxx/
 	arch = x86_64
@@ -9,9 +9,10 @@ pkgbase = libpqxx
 	makedepends = xmlto
 	makedepends = doxygen
 	depends = postgresql-libs>=9.1
-	source = libpqxx-6.2.5.tar.gz::https://github.com/jtv/libpqxx/archive/6.2.5.tar.gz
-	sha256sums = 36fcf8439ac7f7cc68b21e95b20e921ece4487cda1cc1d09b798a84e7cb3a4b7
-	sha512sums = 6d32136799d0ab744c7dcdd2656951cc076f3a416f903ca0d6bf3a8e6b0043d37fa73bbf19c2861647475b048f23988dcbd2f7a677a43912811ee027a1f26452
+	provides = libpqxx.so
+	source = libpqxx-6.4.4.tar.gz::https://github.com/jtv/libpqxx/archive/6.4.4.tar.gz
+	sha256sums = 6ae3a0113a242db6bb9d998943b7cc23699652d843dab702aa06a8b9330c171a
+	sha512sums = a168dbc7af210c711fa9f0f6e20d9d3abea167d412a642f591b104a109f11f4c262a27b6919340d405400a58baf7bcc663f7d3ec1b4ecd03f0a4b6c2960b5099
 
 pkgname = libpqxx
 
