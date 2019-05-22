@@ -1,14 +1,12 @@
 pkgbase = curator
 	pkgdesc = Curator: Tending your Elasticsearch indices
-	pkgver = 5.6.0
+	pkgver = 5.7.6
 	pkgrel = 1
 	url = https://github.com/elastic/curator
 	arch = x86_64
 	license = APACHE
 	checkdepends = python-pytest
 	checkdepends = python-mock
-	checkdepends = python2-pytest
-	checkdepends = python2-mock
 	makedepends = python
 	makedepends = python-setuptools
 	makedepends = python-elasticsearch
@@ -21,21 +19,13 @@ pkgbase = curator
 	makedepends = python-certifi
 	makedepends = python-six
 	makedepends = python-sphinx
-	makedepends = python2
-	makedepends = python2-setuptools
-	makedepends = python2-elasticsearch
-	makedepends = python2-boto3
-	makedepends = python2-requests-aws4auth
-	makedepends = python2-click
-	makedepends = python2-urllib3
-	makedepends = python2-yaml
-	makedepends = python2-voluptuous
-	makedepends = python2-certifi
-	makedepends = python2-six
-	makedepends = python2-sphinx
+	makedepends = python-cx_freeze
+	makedepends = xz
+	makedepends = mpdecimal
 	options = !makeflags
-	source = python-elasticsearch-curator-5.6.0.tar.gz::https://github.com/elastic/curator/archive/v5.6.0.tar.gz
-	sha512sums = 7dc02b5d15228ea96254dc7dd8069d8396c5d3df883b7ab42936c7612b0f16f5399131563703ccd05469facee7ddf20a720daf62a2713943a4b9a0c9448dd676
+	source = https://github.com/elastic/curator/archive/v5.7.6/python-elasticsearch-curator-5.7.6.tar.gz
+	sha256sums = a48486cacf0b32038358babfc5a8755c9a24992ff5279226b923298b426fe253
+	sha512sums = d4f46fad5d8107899fc4c9ee1b7dad595749415cee53f55993c517743df6119ff7680f3ad96f1a937d793dad395416257b56a4b3cdcd6a99b162ad7f77196051
 
 pkgname = python-elasticsearch-curator
 	pkgdesc = Curator: Tending your Elasticsearch indices (python API)
@@ -50,24 +40,13 @@ pkgname = python-elasticsearch-curator
 	depends = python-voluptuous
 	depends = python-certifi
 	depends = python-six
-
-pkgname = python2-elasticsearch-curator
-	pkgdesc = Curator: Tending your Elasticsearch indices (python2 API)
-	depends = python2
-	depends = python2-elasticsearch
-	depends = python2-elasticsearch
-	depends = python2-boto3
-	depends = python2-requests-aws4auth
-	depends = python2-click
-	depends = python2-urllib3
-	depends = python2-yaml
-	depends = python2-voluptuous
-	depends = python2-certifi
-	depends = python2-six
+	depends = python-cx_freeze
+	depends = xz
+	depends = mpdecimal
 
 pkgname = curator
 	depends = python
 	depends = python-setuptools
 	depends = python-elasticsearch-curator
-	provides = elasticsearch-curator=5.6.0-1
+	provides = elasticsearch-curator=5.7.6-1
 
