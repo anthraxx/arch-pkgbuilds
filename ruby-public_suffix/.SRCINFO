@@ -1,15 +1,15 @@
 pkgbase = ruby-public_suffix
 	pkgdesc = Domain name parser based on the Public Suffix List
-	pkgver = 3.0.3
-	pkgrel = 2
+	pkgver = 3.1.0
+	pkgrel = 1
 	url = https://simonecarletti.com/code/publicsuffix-ruby
 	arch = any
 	license = MIT
 	makedepends = ruby-rdoc
 	depends = ruby
 	options = !emptydirs
-	source = ruby-public_suffix-3.0.3.tar.gz::https://github.com/weppos/publicsuffix-ruby/archive/v3.0.3.tar.gz
-	sha512sums = db15409885f0e886489c19482ecf2d0122d56f09e4b18ca3f1dfcd1f22bccb792b1780ae19a1c096b4b62f5c356f2e8b5aa95dee97001394b086a25eedd208e8
+	source = ruby-public_suffix-3.1.0.tar.gz::https://github.com/weppos/publicsuffix-ruby/archive/v3.1.0.tar.gz
+	sha512sums = b0dc9e380e6f806ac2986ecd3f1b6756862ce0212f3b46f160de58359cc2d1b66f9919e0446d695b9a8ed24c435edd6c442fdcbe6365196f87d3948d38f2b606
 
 pkgname = ruby-public_suffix
 
