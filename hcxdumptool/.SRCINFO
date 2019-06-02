@@ -1,15 +1,15 @@
 pkgbase = hcxdumptool
 	pkgdesc = Small tool to capture packets from wlan devices
-	pkgver = 5.1.4
+	pkgver = 5.1.5
 	pkgrel = 1
 	url = https://github.com/ZerBea/hcxdumptool
 	arch = x86_64
 	license = MIT
 	depends = glibc
-	source = https://github.com/ZerBea/hcxdumptool/archive/5.1.4/hcxdumptool-5.1.4.tar.gz
-	source = https://github.com/ZerBea/hcxdumptool/releases/download/5.1.4/hcxdumptool-5.1.4.tar.gz.asc
+	source = https://github.com/ZerBea/hcxdumptool/archive/5.1.5/hcxdumptool-5.1.5.tar.gz
+	source = https://github.com/ZerBea/hcxdumptool/releases/download/5.1.5/hcxdumptool-5.1.5.tar.gz.asc
 	validpgpkeys = 5920CE1C567948AFD2C0A9B7375516A45DB88630
-	sha512sums = 2e0eed2de167c4d1cb9ff804e3272dc072ede45aa82bd8cdca020a3375b976df55e5620689d0b0a142eb29e40b82334e8b59a5c0a93ced66e98d5f0b5d532397
+	sha512sums = 53b7f53cf74d68a49e76e148f369874772046c20e2ab12aaa55cbc73b3a47aba531050a2f71a55ebb1d02aad44db1f3c74b2e44dcdae3f4ce7d3048d89039b7b
 	sha512sums = SKIP
 
 pkgname = hcxdumptool
