@@ -1,7 +1,7 @@
 pkgbase = miniupnpd
 	pkgdesc = Lightweight UPnP IGD daemon
 	pkgver = 2.1.20190502
-	pkgrel = 1
+	pkgrel = 2
 	url = https://miniupnp.tuxfamily.org/
 	arch = x86_64
 	license = BSD
