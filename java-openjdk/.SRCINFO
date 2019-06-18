@@ -1,10 +1,10 @@
 pkgbase = java-openjdk
-	pkgver = 11.0.3.u4
+	pkgver = 12.0.1.u12
 	pkgrel = 1
 	url = https://openjdk.java.net/
 	arch = x86_64
 	license = custom
-	makedepends = java-environment>=10
+	makedepends = java-environment>=11
 	makedepends = cpio
 	makedepends = unzip
 	makedepends = zip
@@ -15,6 +15,7 @@ pkgbase = java-openjdk
 	makedepends = libxtst
 	makedepends = libxt
 	makedepends = libxext
+	makedepends = libxrandr
 	makedepends = alsa-lib
 	makedepends = pandoc
 	makedepends = graphviz
@@ -25,19 +26,17 @@ pkgbase = java-openjdk
 	makedepends = lcms2
 	makedepends = libnet
 	makedepends = bash
-	source = http://hg.openjdk.java.net/jdk-updates/jdk11u/archive/jdk-11.0.3+4.tar.gz
+	source = http://hg.openjdk.java.net/jdk-updates/jdk12u/archive/jdk-12.0.1+12.tar.gz
 	source = freedesktop-java.desktop
 	source = freedesktop-jconsole.desktop
-	source = freedesktop-policytool.desktop
 	source = freedesktop-jshell.desktop
-	sha256sums = a60b4dff1e726c4e0df25042db7ea30f4b9af2d0995deabc6172bfb7e9a5c104
-	sha256sums = 575587ad58dfa9908f046d307b9afc7b0b2eb20a1eb454f8fdbbd539ea7b3d01
-	sha256sums = 2f57b7c7dd671eabe9fa10c4f1283573e99d7f7c36eccd82c95b705979a2e8cb
-	sha256sums = d8907cefaf87f9afcbf1a2079868c03e0209cc1e7b99fbd4022641802c8cf30c
-	sha256sums = f271618a8c2a892b554caf26857af41efdf0d8bcb95d57ce7ba535d6979e96da
+	sha256sums = 055917843af812b2fcec82ec65c6448c353fa54174d3583d5c62ca8d9b15c0d0
+	sha256sums = 779dba7cf4f5de7cd512adf969354ec4aefddb33d970757eb3c49ea1fd8d5184
+	sha256sums = fa67642a8ba1173c30536a12dfbeeacf5d0f37918849057c1049b88a81f261ed
+	sha256sums = 0a1d66a3e4774d7fad267c8a4e726ecf362ae2f33df12439567e0fb249655c48
 
 pkgname = jre-openjdk-headless
-	pkgdesc = OpenJDK Java 11 headless runtime environment
+	pkgdesc = OpenJDK Java 12 headless runtime environment
 	install = install_jre-openjdk-headless.sh
 	depends = java-runtime-common>=3
 	depends = ca-certificates-utils
@@ -47,9 +46,9 @@ pkgname = jre-openjdk-headless
 	depends = libnet
 	depends = freetype2
 	optdepends = java-rhino: for some JavaScript support
-	provides = java-runtime-headless=11
-	provides = java-runtime-headless-openjdk=11
-	provides = jre11-openjdk-headless=11.0.3.u4-1
+	provides = java-runtime-headless=12
+	provides = java-runtime-headless-openjdk=12
+	provides = jre12-openjdk-headless=12.0.1.u12-1
 	backup = etc/java-openjdk/logging.properties
 	backup = etc/java-openjdk/management/jmxremote.access
 	backup = etc/java-openjdk/management/jmxremote.password.template
@@ -66,35 +65,35 @@ pkgname = jre-openjdk-headless
 	backup = etc/java-openjdk/sound.properties
 
 pkgname = jre-openjdk
-	pkgdesc = OpenJDK Java 11 full runtime environment
+	pkgdesc = OpenJDK Java 12 full runtime environment
 	install = install_jre-openjdk.sh
-	depends = jre11-openjdk-headless=11.0.3.u4-1
+	depends = jre12-openjdk-headless=12.0.1.u12-1
 	depends = giflib
 	optdepends = alsa-lib: for basic sound support
 	optdepends = gtk2: for the Gtk+ 2 look and feel - desktop usage
 	optdepends = gtk3: for the Gtk+ 3 look and feel - desktop usage
-	provides = java-runtime=11
-	provides = java-runtime-openjdk=11
-	provides = jre11-openjdk=11.0.3.u4-1
+	provides = java-runtime=12
+	provides = java-runtime-openjdk=12
+	provides = jre12-openjdk=12.0.1.u12-1
 
 pkgname = jdk-openjdk
-	pkgdesc = OpenJDK Java 11 development kit
+	pkgdesc = OpenJDK Java 12 development kit
 	install = install_jdk-openjdk.sh
-	depends = jre11-openjdk=11.0.3.u4-1
+	depends = jre12-openjdk=12.0.1.u12-1
 	depends = java-environment-common=3
 	depends = hicolor-icon-theme
 	depends = libelf
-	provides = java-environment=11
-	provides = java-environment-openjdk=11
-	provides = jdk11-openjdk=11.0.3.u4-1
+	provides = java-environment=12
+	provides = java-environment-openjdk=12
+	provides = jdk12-openjdk=12.0.1.u12-1
 
 pkgname = openjdk-src
-	pkgdesc = OpenJDK Java 11 sources
-	depends = jdk11-openjdk=11.0.3.u4-1
-	provides = openjdk11-src=11.0.3.u4-1
+	pkgdesc = OpenJDK Java 12 sources
+	depends = jdk12-openjdk=12.0.1.u12-1
+	provides = openjdk12-src=12.0.1.u12-1
 
 pkgname = openjdk-doc
-	pkgdesc = OpenJDK Java 11 documentation
-	depends = jdk11-openjdk=11.0.3.u4-1
-	provides = openjdk11-doc=11.0.3.u4-1
+	pkgdesc = OpenJDK Java 12 documentation
+	depends = jdk12-openjdk=12.0.1.u12-1
+	provides = openjdk12-doc=12.0.1.u12-1
 
