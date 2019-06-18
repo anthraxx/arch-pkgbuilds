@@ -1,6 +1,6 @@
 pkgbase = java8-openjdk
 	pkgver = 8.u222
-	pkgrel = 1
+	pkgrel = 2
 	url = http://openjdk.java.net/
 	arch = x86_64
 	license = custom
@@ -46,7 +46,7 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.u222-1
+	depends = jre8-openjdk-headless=8.u222-2
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
@@ -61,7 +61,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.u222-1
+	depends = jre8-openjdk=8.u222-2
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
