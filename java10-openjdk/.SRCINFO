@@ -28,12 +28,10 @@ pkgbase = java10-openjdk
 	source = http://hg.openjdk.java.net/jdk-updates/jdk10u/archive/jdk-10.0.2+13.tar.gz
 	source = freedesktop-java.desktop
 	source = freedesktop-jconsole.desktop
-	source = freedesktop-policytool.desktop
 	source = freedesktop-jshell.desktop
 	sha256sums = f34a53b049f2e3ee8d954998687c4a48b56f24efbb2738ae7fe81bbbdff7f078
 	sha256sums = 819e6ca314641c3115566f9478fbd8671f5d884a3d4e65f05950b4bd2d3b8451
 	sha256sums = 5276edf203e5a75607c55b8bd4ae4f76cf61360811190286829c66d0c4b06554
-	sha256sums = 7f3bc3e424b6d8bac403eb336d81524680f347300c233400222a3850f937c659
 	sha256sums = 0bcdb1eb9640775ca61e87ffeb9b0e0f99386b41f51fec753688bdd5ff9b6010
 
 pkgname = jre10-openjdk-headless
