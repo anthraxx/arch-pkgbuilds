@@ -1,10 +1,10 @@
 pkgbase = java8-openjdk
-	pkgver = 8.u212
+	pkgver = 8.u222
 	pkgrel = 1
 	url = http://openjdk.java.net/
 	arch = x86_64
 	license = custom
-	makedepends = jdk7-openjdk
+	makedepends = java-environment=8
 	makedepends = ccache
 	makedepends = cpio
 	makedepends = unzip
@@ -14,22 +14,22 @@ pkgbase = java8-openjdk
 	makedepends = fontconfig
 	makedepends = libcups
 	makedepends = alsa-lib
-	source = jdk8u-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u212-b01.tar.gz
-	source = corba-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u212-b01.tar.gz
-	source = hotspot-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u212-b01.tar.gz
-	source = jdk-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u212-b01.tar.gz
-	source = jaxws-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u212-b01.tar.gz
-	source = jaxp-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u212-b01.tar.gz
-	source = langtools-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u212-b01.tar.gz
-	source = nashorn-jdk8u212-b01.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u212-b01.tar.gz
-	sha256sums = 0ae08f7c0713308bc4464af982a650b13118a5e591c8d74f98da8463700b9bd8
-	sha256sums = ce2769d11a58e5352511e6ba1339f461d9364c2a27dd486ccb55dcd5a7a90347
-	sha256sums = c892af62a60d42b6913a759227383301fb33edff8e623c6e75960798bf0961a2
-	sha256sums = 77f5f17a8b3d141dc64bed0dd0d6179e79e3d28dd0768e892160c9b9c2540cc9
-	sha256sums = 0b56f4a35e0f75c6e8ee410bb3208d0ddf4cc21e9ee46e819ea938483585c54e
-	sha256sums = e3fb7f0ea4890a38a2f57514a0dcbc39820a4a20ccae0877f47ad41c7dc72bbf
-	sha256sums = 0597705f6e01635099f107a5bc44e95c82518362752cdc08ca0dd2292325ade9
-	sha256sums = ba11dd3ca2839fc99d8091e00b788ba2e1ec08fd8e27eeb33bfb491ec0cbfe9e
+	source = jdk8u-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u222-b05.tar.gz
+	source = corba-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u222-b05.tar.gz
+	source = hotspot-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u222-b05.tar.gz
+	source = jdk-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u222-b05.tar.gz
+	source = jaxws-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u222-b05.tar.gz
+	source = jaxp-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u222-b05.tar.gz
+	source = langtools-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u222-b05.tar.gz
+	source = nashorn-jdk8u222-b05.tar.gz::http://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u222-b05.tar.gz
+	sha256sums = 9556cee8070449fd515e1dfb4c23b6499d5dc49586136e17fb8862aff3e37024
+	sha256sums = 996e17a077a00e4d205f635c38f432a0eee5225e556a35bf6b5d333b72a2d12f
+	sha256sums = 48955c5d073129b57bb2a03f27397a1eb74aaaa3459663848dbd896ccd8ad9de
+	sha256sums = 66f1805fdd465813618399ac1bd3b4fbe87a2820afb803cfb6d59a45eebfe51f
+	sha256sums = 92e876099a42001e8c8ec749cc00f10a9e2d8d5dba57d8e15e20d05d02474460
+	sha256sums = 465b40d283fd2063e4422c3c7f2a43da0dcfe70e8125442cff9134436c8a18d1
+	sha256sums = 845e3c106beb7319180adcb41a0f5d40de169453291da4050b326f828de7d8c7
+	sha256sums = 96673ee96926ee942148a3e8cc381e172db550bc9af9e230ac0526b45d65234c
 
 pkgname = jre8-openjdk-headless
 	pkgdesc = OpenJDK Java 8 headless runtime environment
@@ -46,13 +46,13 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.u212-1
+	depends = jre8-openjdk-headless=8.u222-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
 	optdepends = alsa-lib: for basic sound support
 	optdepends = gtk2: for the Gtk+ look and feel - desktop usage
-	optdepends = java-openjfx: for JavaFX GUI components support
+	optdepends = java8-openjfx: for JavaFX GUI components support
 	provides = java-runtime=8
 	provides = java-runtime-openjdk=8
 	replaces = jre8-openjdk-wm
@@ -61,7 +61,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.u212-1
+	depends = jre8-openjdk=8.u222-1
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
