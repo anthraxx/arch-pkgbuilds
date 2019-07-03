@@ -1,7 +1,7 @@
 pkgbase = vsftpd
 	pkgdesc = Very Secure FTP daemon
 	pkgver = 3.0.3
-	pkgrel = 4
+	pkgrel = 5
 	url = https://security.appspot.com/vsftpd.html
 	arch = x86_64
 	license = GPL2
@@ -22,6 +22,9 @@ pkgbase = vsftpd
 	source = vsftpd@.service
 	source = vsftpd-ssl.service
 	source = vsftpd-ssl@.service
+	source = vsftpd-fix-seccomp.patch
+	source = vsftpd-conf-pam.patch
+	source = vsftpd-disable-anonymous-access-by-default.patch
 	validpgpkeys = 8660FD3291B184CDBC2F6418AA62EC463C0E751C
 	sha256sums = 9d4d2bf6e6e2884852ba4e69e157a2cecd68c5a7635d66a3a8cf8d898c955ef7
 	sha256sums = SKIP
@@ -31,6 +34,9 @@ pkgbase = vsftpd
 	sha256sums = d7b8e4827d4f6bafcbf52f9d2d7380958c7b08bb3f757806aa89d4bc06c9671c
 	sha256sums = b88a50fc68b3bf746d13c9a777df77791cd3eac6eb7c2df655418071c2adf422
 	sha256sums = 4a55c2468b08d858f71bacf1f4885847bec8e548b0e92088068d9bdd3884af84
+	sha256sums = 8bb7e4e4640137d38a2944859c2f443eea559ecb7f594c0fa4e962539107af66
+	sha256sums = 751715726c4b888d5c96846ac0bd0d64238cceb28ef3c2ef447af85cdc2b79f1
+	sha256sums = 4baa5a2db122974fa2a9603d335aed59dee5ad4217615fbe247301d129281d20
 
 pkgname = vsftpd
 
