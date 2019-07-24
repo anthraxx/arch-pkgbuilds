@@ -1,17 +1,17 @@
 pkgbase = ccache
 	pkgdesc = Compiler cache that speeds up recompilation by caching previous compilations
-	pkgver = 3.7.1
+	pkgver = 3.7.2
 	pkgrel = 1
 	url = https://ccache.samba.org/
 	arch = x86_64
 	license = GPL3
 	depends = zlib
-	source = https://github.com/ccache/ccache/releases/download/v3.7.1/ccache-3.7.1.tar.xz
-	source = https://github.com/ccache/ccache/releases/download/v3.7.1/ccache-3.7.1.tar.xz.asc
+	source = https://github.com/ccache/ccache/releases/download/v3.7.2/ccache-3.7.2.tar.xz
+	source = https://github.com/ccache/ccache/releases/download/v3.7.2/ccache-3.7.2.tar.xz.asc
 	validpgpkeys = 5A939A71A46792CF57866A51996DDA075594ADB8
-	sha256sums = 66fc121a2a33968f9ec428e02f48ff4b8896fbabb759e9c09352267014dcbe65
+	sha256sums = a5da0008512ff9e882097acaffb3616fae98ec25827167bb4bd1e4acf0b66793
 	sha256sums = SKIP
-	sha512sums = c2f369c861998f82600272deedc436840af7f85baa355a1e119dacea8f41275d601a0805c3e2a8bc434df621a4e52647bd8654a71c2329542a8b160f7f179cdf
+	sha512sums = 3290f0609c27a2f063e632392be01ef163273115700f87a6d2954fcfd52fcc14bf66fc147ecbd2b692258317e113bf8be9f7efdf377560e2e8d9dd67cef58147
 	sha512sums = SKIP
 
 pkgname = ccache
