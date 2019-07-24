@@ -1,6 +1,6 @@
 pkgbase = thunderbird
 	pkgdesc = Standalone mail and news reader from mozilla.org
-	pkgver = 60.7.2
+	pkgver = 60.8.0
 	pkgrel = 1
 	url = https://www.mozilla.org/thunderbird/
 	arch = x86_64
@@ -37,11 +37,14 @@ pkgbase = thunderbird
 	optdepends = libcanberra: sound support
 	options = !emptydirs
 	options = !makeflags
-	source = https://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/60.7.2/source/thunderbird-60.7.2.source.tar.xz
-	source = rust-1.33.patch
+	source = https://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/60.8.0/source/thunderbird-60.8.0.source.tar.xz
+	source = https://ftp.mozilla.org/pub/mozilla.org/thunderbird/releases/60.8.0/source/thunderbird-60.8.0.source.tar.xz.asc
+	source = rust-1.35.patch
 	source = thunderbird.desktop
-	sha256sums = fc89a5f66b17d554fc0b9c153483edcc74b1bacc916dfd6dccead8478060af31
-	sha256sums = 2b0244a9f7a30f28bcc12055f171e5506c7e3b929d85c3b3514b7e4e4c251784
+	validpgpkeys = 14F26682D0916CDD81E37B6D61B7B526D98F0353
+	sha256sums = 1e7a13e64b63476d2235aaac6823fdab949af45cfcd5a25ee710cbae08c2f5d1
+	sha256sums = SKIP
+	sha256sums = 3257987cc0ab0559c65561d523eb4d0e73b5edb86d9d18a2487818d9fca0bb30
 	sha256sums = e44c55501f650a4e80b9c353b81f33e07ca65808db831eff6ca616aded233827
 
 pkgname = thunderbird
