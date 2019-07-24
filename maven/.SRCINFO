@@ -1,7 +1,7 @@
 pkgbase = maven
 	pkgdesc = Java project management and project comprehension tool
 	pkgver = 3.6.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://maven.apache.org
 	arch = any
 	license = APACHE
@@ -13,11 +13,13 @@ pkgbase = maven
 	backup = opt/maven/conf/settings.xml
 	source = https://www-eu.apache.org/dist/maven/maven-3/3.6.1/source/apache-maven-3.6.1-src.tar.gz
 	source = https://www-eu.apache.org/dist/maven/maven-3/3.6.1/source/apache-maven-3.6.1-src.tar.gz.asc
+	source = 0001-MNG-6642.patch
 	source = maven.sh
 	validpgpkeys = 042B29E928995B9DB963C636C7CA19B7B620D787
 	validpgpkeys = AE9E53FC28FF2AB1012273D0BF1518E0160788A2
 	sha256sums = 025921fff6ba827a25413ffc08fb1933565eb1f07ee2d3f228911913ee4f3c3f
 	sha256sums = SKIP
+	sha256sums = 70858a5052fdcc93823f34fd6716200c433eec3990cef2058c186ef52fb9882d
 	sha256sums = 17d9b8efa6a922907110026273443bcc8d83e061e14ac82cb5052b483acc9b76
 
 pkgname = maven
