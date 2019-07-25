@@ -1,7 +1,7 @@
 pkgbase = gpsim
 	pkgdesc = Full-featured software simulator for Microchip PIC microcontrollers
-	pkgver = 0.30.0
-	pkgrel = 2
+	pkgver = 0.31.0
+	pkgrel = 1
 	url = http://gpsim.sourceforge.net/
 	arch = x86_64
 	license = GPL
@@ -10,8 +10,9 @@ pkgbase = gpsim
 	depends = gtk2
 	depends = gtk2+extra
 	depends = popt
-	source = https://downloads.sourceforge.net/gpsim/gpsim-0.30.0.tar.gz
-	sha512sums = 8681f06e73569b801d2961858c8676490d93f7ef40e99f07e7a5eff16955850b66bcd8182aa22ba0edca0b10723cb3a5b7b8bf52fdb0cc94955c3072352292df
+	source = https://downloads.sourceforge.net/gpsim/gpsim-0.31.0.tar.gz
+	sha256sums = 110ee6be3a5d02b32803a91e480cbfc9d423ef72e0830703fc0bc97b9569923f
+	sha512sums = a6af7e9170cee11c35f0e4731d39876e563edd8ca9cbd0f4b3017f224e5317b4c8bcc8aa4468102fa5c11157f487b6c7354e3aba8778842ed0b5be9bbb9ef45f
 
 pkgname = gpsim
 
