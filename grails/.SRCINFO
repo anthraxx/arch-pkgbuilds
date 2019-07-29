@@ -1,6 +1,6 @@
 pkgbase = grails
 	pkgdesc = Groovy on rails, web framework
-	pkgver = 3.3.10
+	pkgver = 4.0.0
 	pkgrel = 1
 	url = https://grails.org/
 	arch = any
@@ -12,12 +12,12 @@ pkgbase = grails
 	makedepends = java-environment
 	optdepends = groovy: the groovy programming language
 	optdepends = grails-docs: documentation for grails
-	noextract = grails-docs-3.3.10.zip
+	noextract = grails-docs-4.0.0.zip
 	options = !emptydirs
-	source = grails-3.3.10.zip::https://github.com/grails/grails-core/releases/download/v3.3.10/grails-3.3.10.zip
-	source = grails-docs-3.3.10.zip::https://github.com/grails/grails-doc/releases/download/v3.3.10/grails-docs-3.3.10.zip
-	sha512sums = fa61510e6bad14f87a9a8c516d16d252d20f08b69df4466413e5b9424469f110b99e343f97777c124ee3fd673b3836d88d3185ec9df0e51f4f1dd22669c93585
-	sha512sums = b745f9b7110370624a467442cd9c6b18d83c87c61864b413b25b1abfe066dbb33a546eb00e75c638a54a15e56dfee2f4f24fd22848fd01cd11b9245de1fb01c2
+	source = grails-4.0.0.zip::https://github.com/grails/grails-core/releases/download/v4.0.0/grails-4.0.0.zip
+	source = grails-docs-4.0.0.zip::https://github.com/grails/grails-doc/releases/download/v4.0.0/grails-docs-4.0.0.zip
+	sha512sums = cd4d0236b57ac595f9a6dde0462e1c253c1902d7c2063c82eb84cc28a36976c8e6e958a7785e059b5b0e2a7a494b921bfb8e47f4ae066552e4a89ef874b0e2cb
+	sha512sums = f853342c734417fdffba3186eed6a98986a4dce58de9ca24ad1e63d6eb3cf90473b51532d95a5d246466948943c09db8e2e79f18a3ff8c405c1f963f6e4f0cc2
 
 pkgname = grails
 	depends = java-environment
