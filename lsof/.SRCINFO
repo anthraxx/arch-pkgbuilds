@@ -1,0 +1,15 @@
+pkgbase = lsof
+	pkgdesc = Lists open files for running Unix processes
+	pkgver = 4.91
+	pkgrel = 1
+	url = https://people.freebsd.org/~abe/
+	arch = x86_64
+	license = custom
+	depends = glibc
+	source = ftp://ftp.fu-berlin.de/pub/unix/tools/lsof/lsof_4.91.tar.bz2
+	source = license.txt
+	sha1sums = da6f9883d00f200671f6e47cf838bb9b6b9c6f01
+	sha1sums = db6b6d90ce895e4053f91ad25c7761fbf9a37dd6
+
+pkgname = lsof
+
