@@ -245,7 +245,7 @@ name: 'synergy'
 command: 'git ls-remote --tags https://github.com/symless/synergy-core'
 ---
 name: 'profanity'
-command: 'git ls-remote --tags https://github.com/boothj5/profanity'
+command: 'git ls-remote --tags https://github.com/profanity-im/profanity'
 ---
 name: 'fish'
 command: 'git ls-remote --tags https://github.com/fish-shell/fish-shell'
@@ -1364,7 +1364,7 @@ name: 'pegtl (github)'
 command: 'git ls-remote --tags https://github.com/taocpp/PEGTL'
 ---
 name: 'teamspeak3-server (4players)'
-command: "curl 'http://dl.4players.de/ts/releases/' 2>/dev/null|grep folder|sed -E 's|.*>(.+)</a>.*|\1|g'"
+command: "curl https://teamspeak.com/versions/server.json 2>/dev/null| jq -r '.linux.x86_64.version'"
 ---
 name: 'live-media (upstream)'
 command: "curl http://live555.com/liveMedia/public/ 2>/dev/null|grep -oP 'live[a-z0-9\.]*.tar.gz'"
@@ -1599,5 +1599,8 @@ command: 'git ls-remote --tags https://github.com/BelledonneCommunications/bcg72
 ---
 name: 'beep'
 command: 'git ls-remote --tags https://github.com/spkr-beep/beep'
+---
+name: 'EmptyEpsilon'
+command: 'git ls-remote --tags https://github.com/daid/EmptyEpsilon'
 
 # vim: ft=yaml
