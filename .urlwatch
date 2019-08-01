@@ -1602,5 +1602,8 @@ command: 'git ls-remote --tags https://github.com/spkr-beep/beep'
 ---
 name: 'EmptyEpsilon'
 command: 'git ls-remote --tags https://github.com/daid/EmptyEpsilon'
+---
+name: 'lsof'
+command: 'git ls-remote --tags https://github.com/lsof-org/lsof'
 
 # vim: ft=yaml
