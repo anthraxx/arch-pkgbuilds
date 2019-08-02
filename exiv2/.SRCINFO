@@ -1,6 +1,6 @@
 pkgbase = exiv2
 	pkgdesc = Exif, Iptc and XMP metadata manipulation library and tools
-	pkgver = 0.27.1
+	pkgver = 0.27.2
 	pkgrel = 1
 	url = http://exiv2.org
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = exiv2
 	depends = gcc-libs
 	depends = zlib
 	depends = expat
-	source = exiv2-0.27.1.tar.gz::https://github.com/Exiv2/exiv2/archive/0.27.1.tar.gz
-	sha256sums = 1b3766b2c203ce213a4195de14d61694017ec1a69d15d4575bccecef130990fe
+	source = exiv2-0.27.2.tar.gz::https://github.com/Exiv2/exiv2/archive/v0.27.2.tar.gz
+	sha256sums = 3dbcaf01fbc5b98d42f091d1ff0d4b6cd9750dc724de3d9c0d113948570b2934
 
 pkgname = exiv2
 
