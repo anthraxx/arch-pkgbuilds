@@ -1,7 +1,7 @@
 pkgbase = pgbouncer
 	pkgdesc = Lightweight connection pooler for PostgreSQL
 	pkgver = 1.9.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://pgbouncer.github.io/
 	install = pgbouncer.install
 	arch = x86_64
