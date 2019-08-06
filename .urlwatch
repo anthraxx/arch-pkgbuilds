@@ -1605,5 +1605,8 @@ command: 'git ls-remote --tags https://github.com/daid/EmptyEpsilon'
 ---
 name: 'lsof'
 command: 'git ls-remote --tags https://github.com/lsof-org/lsof'
+---
+name: 'flac'
+command: 'curl https://ftp.osuosl.org/pub/xiph/releases/flac/ 2>/dev/null|tr "<>" "\n"|grep "^flac-.*.tar"
 
 # vim: ft=yaml
