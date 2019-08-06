@@ -1,0 +1,23 @@
+pkgbase = flac
+	pkgver = 1.3.2
+	pkgrel = 2
+	url = https://xiph.org/flac/
+	arch = x86_64
+	license = BSD
+	license = GPL
+	makedepends = nasm
+	makedepends = doxygen
+	depends = gcc-libs
+	depends = libogg
+	options = !makeflags
+	source = https://downloads.xiph.org/releases/flac/flac-1.3.2.tar.xz
+	sha1sums = 2bdbb56b128a780a5d998e230f2f4f6eb98f33ee
+
+pkgname = flac
+	pkgdesc = Free Lossless Audio Codec
+	options = !docs
+
+pkgname = flac-doc
+	pkgdesc = Developer documentation for the Free Lossless Audio Codec
+	depends = flac
+
