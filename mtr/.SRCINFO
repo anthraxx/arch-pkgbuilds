@@ -1,7 +1,7 @@
 pkgbase = mtr
 	pkgdesc = Combines the functionality of traceroute and ping into one tool
 	pkgver = 0.93
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.bitwizard.nl/mtr/
 	install = mtr.install
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = mtr
 	makedepends = ncurses
 	makedepends = gtk2
 	makedepends = libcap
-	source = ftp://ftp.bitwizard.nl/mtr/mtr-0.93.tar.gz
-	sha512sums = 046e98a661bd6248ce819411ceb6e2b875b92877de38523594898df507836c113573cf40d7d4cc548370f515abe99e0aa4d8b3ba44ad54dd00f8e93c8a96c021
+	source = https://github.com/traviscross/mtr/archive/v0.93/mtr-0.93.tar.gz
+	sha512sums = 865c394d8dfa234c472832dc205ddc9ec3cf0552475f565782fd4f4e878251c03f1473e2d28d6799e59da4fcb33c5355049f1e6f02e8610c6bbf681ffb78f53e
 
 pkgname = mtr
 	pkgdesc = Combines the functionality of traceroute and ping into one tool (CLI version)
