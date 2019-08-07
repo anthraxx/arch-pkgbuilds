@@ -1,0 +1,13 @@
+pkgbase = os-prober
+	pkgdesc = Utility to detect other OSes on a set of drives
+	pkgver = 1.76
+	pkgrel = 1
+	url = https://joeyh.name/code/os-prober/
+	arch = x86_64
+	license = GPL3
+	depends = sh
+	source = http://http.debian.net/debian/pool/main/o/os-prober/os-prober_1.76.tar.xz
+	sha256sums = d3a580610e0148ee1fea98de993b27b856870fb0a31e9ce1a33be2654e2c64ed
+
+pkgname = os-prober
+
