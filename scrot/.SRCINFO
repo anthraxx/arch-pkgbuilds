@@ -1,17 +1,17 @@
 pkgbase = scrot
 	pkgdesc = Simple command-line screenshot utility for X
-	pkgver = 0.9.1
+	pkgver = 1.1.1
 	pkgrel = 1
-	url = https://tracker.debian.org/pkg/scrot
+	url = https://github.com/resurrecting-open-source-projects/scrot
 	arch = x86_64
 	license = MIT
+	makedepends = autoconf-archive
 	depends = giblib
-	source = http://http.debian.net/debian/pool/main/s/scrot/scrot_0.9.orig.tar.gz
-	source = http://http.debian.net/debian/pool/main/s/scrot/scrot_0.9-1.debian.tar.xz
-	sha256sums = d9b6141c652f4c4c1a9d412d6d57d2045b515e70cd726e4787f5f066c837269e
-	sha256sums = e3313362fae895d393f7b7d26e087c45f61ccaee4e31251af616604e77258547
-	sha512sums = e449b951fcbe2124fe874e5516d397a2d7ebb99ec8fceeb30c55cbee2596dec39ef5dff9db9acf1ff2930bc3752d4c1c1fbe0a28bc284481676370f330046f7b
-	sha512sums = fbd33ae9b6c500b000baf01564d912ea05185651d9eac8e052c945aa7c03b11b550fbaafa0a655d499028e653b6517220f16a514613853e37cda8009b4b79db4
+	depends = libxfixes
+	depends = libxcursor
+	source = https://github.com/resurrecting-open-source-projects/scrot/archive/1.1.1/scrot-1.1.1.tar.gz
+	sha256sums = 63bc645d5dfff51e441541dc999379b34722c6428a4cd642e20005e6901383ba
+	sha512sums = 6444fec6d793053b120a6f81bb1696b2c3d1a48f2b7d3949f63ab7e97cbd60d87962b87e52bf43acfae12c3381d59f7924c0f7c71d5372876d14a698f9b9f138
 
 pkgname = scrot
 
