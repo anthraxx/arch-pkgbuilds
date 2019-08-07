@@ -862,8 +862,8 @@ command: 'git ls-remote --tags https://github.com/hashcat/hashcat-utils'
 name: 'memcached (github)'
 command: 'git ls-remote --tags https://github.com/memcached/memcached'
 ---
-name: 'scrot (upstream)'
-command: 'curl http://scrot.sourcearchive.com/ 2>/dev/null|tr \" "\n"|grep download'
+name: 'scrot (github)'
+command: 'git ls-remote --tags https://github.com/resurrecting-open-source-projects/scrot'
 ---
 name: 'pwndbg (github)'
 command: 'git ls-remote --tags https://github.com/pwndbg/pwndbg'
