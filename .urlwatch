@@ -1607,6 +1607,9 @@ name: 'lsof'
 command: 'git ls-remote --tags https://github.com/lsof-org/lsof'
 ---
 name: 'flac'
-command: 'curl https://ftp.osuosl.org/pub/xiph/releases/flac/ 2>/dev/null|tr "<>" "\n"|grep "^flac-.*.tar"
+command: 'curl https://ftp.osuosl.org/pub/xiph/releases/flac/ 2>/dev/null|tr "<>" "\n"|grep "^flac-.*.tar"'
+---
+name: 'os-prober'
+command: 'curl http://ftp.us.debian.org/debian/pool/main/o/os-prober/ 2>/dev/null|tr "<>" "\n"|grep "^os-prober.*.tar"
 
 # vim: ft=yaml
