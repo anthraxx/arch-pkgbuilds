@@ -1,7 +1,7 @@
 pkgbase = tlsh
 	pkgdesc = Fuzzy matching library that generates a hash value which can be used for similarity comparisons
-	pkgver = 3.4.5
-	pkgrel = 4
+	pkgver = 3.17.0
+	pkgrel = 1
 	url = https://github.com/trendmicro/tlsh
 	arch = x86_64
 	license = Apache
@@ -9,15 +9,13 @@ pkgbase = tlsh
 	makedepends = python
 	makedepends = python2
 	makedepends = gcc-libs
-	source = tlsh-3.4.5.tar.gz::https://github.com/trendmicro/tlsh/archive/v3.4.5.tar.gz
-	source = dont-use-rpath.patch
-	source = install-libraries.patch
-	sha512sums = 039f9fb9fb467a9b22f85a621c46069bac1745da039657840e1ff1a53901392fcf29d3c953b0f47d831d022a5e2594925c726d4ff921614418a3bb023a4ebbdc
-	sha512sums = 6b7d32c24151c6513918875011339990bdf4638a4f03c166b5144efe10a4bb5bf1da0401951f78a75f7e197c81a03b4ae540e22cd3ce9f2f2c99f0436780d510
-	sha512sums = 448dc550df26c756b8fef7b774d193336d63f7fa2f01683308ddfd042edbe60677adad23c95e27b3d98ce7d6c734110cf218335bbc8bd0ce57dccf3eaa63a065
+	source = https://github.com/trendmicro/tlsh/archive/3.17.0/tlsh-3.17.0.tar.gz
+	sha256sums = 810cecdda1632ecb836278e5a58560d5b2b7911d02ed7419dc02b6a38e635985
+	sha512sums = 81664da8cffb2fd7632ca63b7662a8de3d09ce9b697dbaac8b92aa40fb2d49c440c1489f01d16ff6475754bc1406bc6b30579941d85319b63811dd0dd22ef765
 
 pkgname = tlsh
 	depends = gcc-libs
+	provides = libtlsh.so
 
 pkgname = python-tlsh
 	depends = python
