@@ -1,13 +1,13 @@
 pkgbase = packeth
-	pkgdesc = A Linux GUI packet generator tool for ethernet.
-	pkgver = 1.9
+	pkgdesc = Linux GUI packet generator tool for ethernet
+	pkgver = 2.1
 	pkgrel = 1
 	url = http://packeth.sourceforge.net/
 	arch = x86_64
 	license = GPL
 	depends = gtk2
-	source = https://downloads.sourceforge.net/packeth/packETH-1.9.tar.bz2
-	sha512sums = f322130a5981412f109555c52f9ae0b1c92e4f2a4c9a0ec2a62abeef368ade1ef08d5152724a6351fd626ef1dee4b5b98a61b250efd2391e4d61976d4ae4c50d
+	source = https://github.com/jemcek/packETH/archive/2.1/packeth-2.1.tar.gz
+	sha512sums = 55be4a2eb517c1d040664ea1a16d59dab20b06edbbd073cbf709deb4dfcec8d8eb12b88dfbd578f9bdb0ca614036ac4bbb00be6f865b774da2aa62ce8d3d767e
 
 pkgname = packeth
 
