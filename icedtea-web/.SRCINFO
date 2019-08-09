@@ -1,0 +1,33 @@
+pkgbase = icedtea-web
+	pkgver = 1.7
+	pkgrel = 1
+	url = https://icedtea.classpath.org/wiki/IcedTea-Web
+	arch = x86_64
+	license = GPL2
+	makedepends = java-environment-openjdk=8
+	makedepends = zip
+	makedepends = libxtst
+	makedepends = npapi-sdk
+	makedepends = rhino
+	makedepends = junit
+	makedepends = firefox
+	makedepends = epiphany
+	optdepends = rhino: for using proxy auto config files
+	noextract = icedtea-web-1.7.tar.gz
+	source = https://icedtea.classpath.org/download/source/icedtea-web-1.7.tar.gz
+	source = https://icedtea.classpath.org/download/source/icedtea-web-1.7.tar.gz.sig
+	validpgpkeys = C058EF1E749812E6A486384B53B5CFF671EEED59
+	sha256sums = 2030ea323964ae82eabe5436eef076de4b892786424ad9be21f3abc9d76c0291
+	sha256sums = SKIP
+
+pkgname = icedtea-web
+	pkgdesc = Free web browser plugin to run applets written in Java and an implementation of Java Web Start
+	depends = java-runtime-openjdk
+	depends = desktop-file-utils
+	provides = java-web-start
+	replaces = icedtea-web-java7
+
+pkgname = icedtea-web-doc
+	pkgdesc = icedtea-web browser plugin + Java WebStart - documentation files
+	replaces = icedtea-web-java7-doc
+
