@@ -1614,5 +1614,8 @@ command: 'curl http://ftp.us.debian.org/debian/pool/main/o/os-prober/ 2>/dev/nul
 ---
 name: 'packeth'
 command: 'git ls-remote --tags https://github.com/jemcek/packETH'
+---
+name: 'icedtea-web'
+command: 'curl -L https://icedtea.classpath.org/download/source/ 2>/dev/null|tr "<>" "\n"|grep "^icedtea-web"'
 
 # vim: ft=yaml
