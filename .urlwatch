@@ -256,6 +256,9 @@ command: 'git ls-remote --tags https://github.com/uoaerg/wavemon'
 name: 'afl'
 url: 'http://lcamtuf.coredump.cx/afl/releases/?O=D'
 ---
+name: 'afl (github)'
+command: 'git ls-remote --tags https://github.com/google/AFL'
+---
 name: 'hydra (github)'
 command: 'git ls-remote --tags https://github.com/vanhauser-thc/thc-hydra'
 ---
@@ -1617,5 +1620,17 @@ command: 'git ls-remote --tags https://github.com/jemcek/packETH'
 ---
 name: 'icedtea-web'
 command: 'curl -L https://icedtea.classpath.org/download/source/ 2>/dev/null|tr "<>" "\n"|grep "^icedtea-web"'
+---
+name: 'rapidjson'
+command: 'git ls-remote --tags https://github.com/miloyip/rapidjson'
+---
+name: 'leatherman'
+command: 'git ls-remote --tags https://github.com/puppetlabs/leatherman'
+---
+name: 'cpp-hocon'
+command: 'git ls-remote --tags https://github.com/puppetlabs/cpp-hocon'
+---
+name: 'libwhereami'
+command: 'git ls-remote --tags https://github.com/puppetlabs/libwhereami'
 
 # vim: ft=yaml

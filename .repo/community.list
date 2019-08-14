@@ -23,6 +23,7 @@ cobalt
 conky-manager
 cowfortune
 cowpatty
+cpp-hocon
 curator
 cutter
 dhcping
@@ -81,6 +82,7 @@ keystone
 kibana
 knockd
 ldoc
+leatherman
 lhasa
 lib32-freeglut
 lib32-krb5
@@ -105,6 +107,7 @@ libmesode
 libqb
 libstrophe
 libudev0-shim
+libwhereami
 linssid
 logstash
 lolcat
@@ -233,6 +236,7 @@ radamsa
 radare2
 radare2-cutter
 ranger
+rapidjson
 reaver
 rfdump
 ropgadget
