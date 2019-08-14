@@ -1,0 +1,16 @@
+pkgbase = leatherman
+	pkgdesc = Collection of C++ and CMake utility libraries
+	pkgver = 1.7.0
+	pkgrel = 1
+	url = https://github.com/puppetlabs/leatherman
+	arch = x86_64
+	license = APACHE
+	checkdepends = ruby
+	makedepends = boost
+	makedepends = cmake
+	makedepends = rapidjson
+	source = leatherman-1.7.0.tar.gz::https://github.com/puppetlabs/leatherman/archive/1.7.0.tar.gz
+	sha512sums = d7a475ecc6bea3e2239482e96c673ca3cded21c4538c9416241f8cf402ab70189cc4e4ff86c5b9daf7d74b864f292feeaf380289b347c54adf8afcf43c83e788
+
+pkgname = leatherman
+
