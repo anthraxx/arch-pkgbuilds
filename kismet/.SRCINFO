@@ -1,7 +1,7 @@
 pkgbase = kismet
 	pkgdesc = 802.11 layer2 wireless network detector, sniffer, and intrusion detection system
-	pkgver = 2019_05_R2
-	pkgrel = 2
+	pkgver = 2019_08_R1
+	pkgrel = 1
 	url = https://www.kismetwireless.net/
 	install = kismet.install
 	arch = x86_64
@@ -12,6 +12,7 @@ pkgbase = kismet
 	depends = libcap
 	depends = libmicrohttpd
 	depends = protobuf-c
+	depends = sqlite
 	optdepends = gpsd: log coordinates of detected networks
 	optdepends = wireshark-cli: provide OUI files used to determine device manufacturer
 	optdepends = wireshark-cli: mergecap, to merge multiple capture files
@@ -20,10 +21,9 @@ pkgbase = kismet
 	optdepends = flite: alternative/lightweight text-to-speech support
 	optdepends = ruby: ruby interface
 	backup = etc/kismet.conf
-	backup = etc/kismet_drone.conf
-	source = https://www.kismetwireless.net/code/kismet-2019-05-R2.tar.xz
+	source = https://www.kismetwireless.net/code/kismet-2019-08-R1.tar.xz
 	validpgpkeys = 354689DF3C9DED803381A661D7B28822738BBDB1
-	sha256sums = 6821e5378f7d75394079c910b1ad49aeadc32507acc5fc85325a7794e0e85c1f
+	sha256sums = 3a0bde964f34c5eceaa085b9f1dc4eb008a4ce3a38b68bec6d962d3404a0d96b
 
 pkgname = kismet
 
