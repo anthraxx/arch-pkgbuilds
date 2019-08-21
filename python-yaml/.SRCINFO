@@ -1,6 +1,6 @@
 pkgbase = python-yaml
 	pkgdesc = Python bindings for YAML, using fast libYAML library
-	pkgver = 5.1.1
+	pkgver = 5.1.2
 	pkgrel = 1
 	url = https://pyyaml.org/wiki/PyYAML
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = python-yaml
 	makedepends = libyaml
 	makedepends = cython
 	makedepends = cython2
-	source = http://pyyaml.org/download/pyyaml/PyYAML-5.1.1.tar.gz
-	sha512sums = fa47fb2d2903506c55e3651ec130ad5472168e0257eabec8fdf329336f60d9ef36df0f8c4eb7d5ab913f3037120048b02f715aa2215085b3b1ce936cdcff77bf
+	source = http://pyyaml.org/download/pyyaml/PyYAML-5.1.2.tar.gz
+	sha512sums = b5ee201c612486a95c87b7e41d474313160284359b8b30ababc80b51325aef9dd7dc27eb3b8a03a4749cb8c7e3789c5684d5c285fe35d4b20be1f189641531e0
 
 pkgname = python-yaml
 	depends = python
