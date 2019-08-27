@@ -1,7 +1,7 @@
 pkgbase = gimp
 	pkgdesc = GNU Image Manipulation Program
 	pkgver = 2.10.12
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gimp.org/
 	arch = x86_64
 	license = GPL
@@ -31,7 +31,7 @@ pkgbase = gimp
 	depends = libwmf
 	depends = libxmu
 	depends = libxpm
-	depends = mypaint-brushes
+	depends = mypaint-brushes1
 	depends = openexr
 	depends = poppler-data
 	depends = pygtk
