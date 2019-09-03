@@ -1,6 +1,6 @@
 pkgbase = python-eventlet
 	pkgdesc = Highly concurrent networking library
-	pkgver = 0.25.0
+	pkgver = 0.25.1
 	pkgrel = 1
 	url = https://eventlet.net
 	arch = any
@@ -29,8 +29,8 @@ pkgbase = python-eventlet
 	makedepends = python2-dnspython
 	makedepends = python2-subprocess32
 	options = !makeflags
-	source = https://github.com/eventlet/eventlet/archive/v0.25.0/python-eventlet-0.25.0.tar.gz
-	sha512sums = e490cbf06f01d0bb1809ec2c66ff718a9404f844f153caffc54317aebb24042d096b9c930fe035e5c2a59b186d344628741aae02f625a0dc2596de52b4a3cbcc
+	source = https://github.com/eventlet/eventlet/archive/v0.25.1/python-eventlet-0.25.1.tar.gz
+	sha512sums = ed3c1bfc17039c17730d4a8bb8ae3a3604b0210f3e6c326764fce748d7466a090b270c5dbc713aaf023681f33a80967adbe83f6280b61f5661a309a0bd43249a
 
 pkgname = python-eventlet
 	depends = python
