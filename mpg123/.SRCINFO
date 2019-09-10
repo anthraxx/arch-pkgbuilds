@@ -1,6 +1,6 @@
 pkgbase = mpg123
-	pkgdesc = A console based real time MPEG Audio Player for Layer 1, 2 and 3
-	pkgver = 1.25.11
+	pkgdesc = Console based real time MPEG Audio Player for Layer 1, 2 and 3
+	pkgver = 1.25.12
 	pkgrel = 1
 	url = https://sourceforge.net/projects/mpg123
 	arch = x86_64
@@ -13,10 +13,12 @@ pkgbase = mpg123
 	optdepends = sdl: for sdl audio support
 	optdepends = jack: for jack audio support
 	optdepends = libpulse: for pulse audio support
-	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.25.11.tar.bz2
-	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.25.11.tar.bz2.sig
+	provides = libmpg123.so
+	provides = libout123.so
+	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.25.12.tar.bz2
+	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.25.12.tar.bz2.sig
 	validpgpkeys = D021FF8ECF4BE09719D61A27231C4CBC60D5CAFE
-	sha256sums = df063307faa27c7d9efe63d2139b1564cfc7cdbb7c6f449c89ef8faabfa0eab2
+	sha256sums = 1ffec7c9683dfb86ea9040d6a53d6ea819ecdda215df347f79def08f1fe731d1
 	sha256sums = SKIP
 
 pkgname = mpg123
