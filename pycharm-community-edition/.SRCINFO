@@ -1,0 +1,31 @@
+pkgbase = pycharm-community-edition
+	pkgdesc = Python IDE for Professional Developers
+	pkgver = 2019.2.1
+	pkgrel = 1
+	url = https://www.jetbrains.com/pycharm/
+	arch = x86_64
+	license = APACHE
+	makedepends = ant
+	makedepends = git
+	makedepends = java-environment=8
+	makedepends = java8-openjfx
+	makedepends = python2-setuptools
+	makedepends = python-setuptools
+	depends = giflib
+	depends = glib2
+	depends = java-runtime=11
+	depends = python
+	depends = sh
+	depends = ttf-font
+	optdepends = ipython2: IPython integration for Python 2
+	optdepends = ipython: IPython integration for Python 3
+	optdepends = python2: Python 2 support
+	source = git+https://github.com/JetBrains/intellij-community.git#commit=c174f139a77b056fc33292eab4248bbef2ef8f8c
+	source = pycharm.desktop
+	source = pycharm.sh
+	sha256sums = SKIP
+	sha256sums = 28e0d3200c721e61831d8246eba8f72485d3c8379d10bfa75ccb5331b6749480
+	sha256sums = eaae397aebb9df4681f5813c82afcc2292e3ea2978d02ce68be3ee89c824e996
+
+pkgname = pycharm-community-edition
+
