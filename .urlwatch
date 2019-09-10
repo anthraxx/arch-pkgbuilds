@@ -1632,5 +1632,8 @@ command: 'git ls-remote --tags https://github.com/puppetlabs/cpp-hocon'
 ---
 name: 'libwhereami'
 command: 'git ls-remote --tags https://github.com/puppetlabs/libwhereami'
+---
+name: 'mpg123'
+command: 'curl https://sourceforge.net/projects/mpg123/files/mpg123/ 2>/dev/null|grep mpg123/files/mpg123|grep href|grep -v stat|tr \" "\n"|grep mpg123'
 
 # vim: ft=yaml
