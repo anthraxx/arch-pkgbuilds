@@ -1,15 +1,31 @@
 pkgbase = flyspray
 	pkgdesc = Lightweight, web-based bug tracking system written in PHP
-	pkgver = 1.0rc7
+	pkgver = 1.0rc9
 	pkgrel = 1
 	url = https://www.flyspray.org/
+	install = flyspray.install
 	arch = any
 	license = LGPL2.1
+	makedepends = composer
+	makedepends = unzip
 	depends = php
-	options = !strip
+	depends = php-gd
+	optdepends = graphviz: plot task dependency graphs
+	optdepends = mariadb: use local MariaDB database
+	optdepends = php-fpm: run with FastCGI process manager
+	optdepends = php-pgsql: use PostgreSQL database
+	optdepends = postgresql: use local PostgreSQL database
+	optdepends = uwsgi: run in application container
 	backup = etc/webapps/flyspray/.htaccess
-	source = flyspray-1.0rc7.tar.gz::https://github.com/Flyspray/flyspray/archive/v1.0-rc7.tar.gz
-	sha256sums = b04c4ff059f9a0449279758d196d7843bc99fad2365c930ed9d06e6b55eee9e2
+	backup = etc/webapps/flyspray/flyspray.conf.php
+	source = flyspray-1.0rc9.tar.gz::https://github.com/flyspray/flyspray/archive/v1.0-rc9.tar.gz
+	source = flyspray.sysusers
+	source = flyspray.tmpfiles
+	source = flyspray.uwsgi
+	sha512sums = 30b297c6c993936db2e10eeea75a049b8bf42a9bd4090bbba2465de946eb04a5cde9d4b8ec88065c12f2f2dce99b9bf3d0fcdf30334fd1b77030813b8393c070
+	sha512sums = ee23df991c6a42bfb139caabad861a3f945ea18d81061fdb90ace8430d4225e7db322802de4fdf36aa8191cbedab3cafd025c76f08806b7fcdb88f6eb185519e
+	sha512sums = 65d333b98a93cc320300bacc8d142f7150e31f4a65da96f09ab0c88e6556a120a5cab8d2c871840753eb4eec6a281d0731b1ab5524834f1281f2d073ba4983f0
+	sha512sums = 1f2817cd0cf3ef1a642fed7b1814e2e773b2ad3b2fd9e5df305ab5d6f6dbc8bfa38e6220380c288f252d015c810dc8c83046555e9e1a54a9b7cb805a75dbe4f2
 
 pkgname = flyspray
 
