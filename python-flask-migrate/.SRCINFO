@@ -1,6 +1,6 @@
 pkgbase = python-flask-migrate
 	pkgdesc = SQLAlchemy database migrations for Flask applications using Alembic..
-	pkgver = 2.4.0
+	pkgver = 2.5.2
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/Flask-Migrate/
 	arch = any
@@ -17,9 +17,9 @@ pkgbase = python-flask-migrate
 	makedepends = python2-flask-sqlalchemy
 	makedepends = python2-setuptools
 	makedepends = python2-sphinx
-	source = python-flask-migrate-2.4.0.tar.gz::https://github.com/miguelgrinberg/Flask-Migrate/archive/v2.4.0.tar.gz
-	sha256sums = 507ad1d83be82efc923c951921843050044098908ead0b76ee52fffef552471e
-	sha512sums = aec265c506483af5117c4866f96e9fc95c779e7a96461bd8a816638836b6e8b66bd75e4bb7e1ce06729411b0be9b7cb6f6971be7b5649619cd9087a09f70a5ca
+	source = https://github.com/miguelgrinberg/Flask-Migrate/archive/v2.5.2/python-flask-migrate-2.5.2.tar.gz
+	sha256sums = ddf53166d92f29c5b6aca4abf6371d2e596dcd22a03ecaa8ba6a2393adf222eb
+	sha512sums = f7355bfa41972c93b8975e37dc8ab01935ff71fcced7198cf9db015f9f88df07b82b1841e938611fe3272a3f7df2fb878568ba0d17fdb87e81b46dec03bc2565
 
 pkgname = python-flask-migrate
 	depends = python-alembic
