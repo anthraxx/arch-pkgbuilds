@@ -1369,8 +1369,11 @@ command: 'git ls-remote --tags https://github.com/taocpp/PEGTL'
 name: 'teamspeak3-server (4players)'
 command: "curl https://teamspeak.com/versions/server.json 2>/dev/null| jq -r '.linux.x86_64.version'"
 ---
-name: 'live-media (upstream)'
+name: 'live-media live555 (upstream)'
 command: "curl http://live555.com/liveMedia/public/ 2>/dev/null|grep -oP 'live[a-z0-9\.]*.tar.gz'"
+---
+name: 'live-media live555 (videolan mirror)'
+command: "curl https://download.videolan.org/contrib/live555/ 2>/dev/null|grep -oP 'live[a-z0-9\.]*.tar.gz'"
 ---
 name: 'sqlalchemy-utils (github)'
 command: 'git ls-remote --tags https://github.com/kvesteri/sqlalchemy-utils'
