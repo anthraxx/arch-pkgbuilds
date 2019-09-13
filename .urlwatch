@@ -1635,5 +1635,14 @@ command: 'git ls-remote --tags https://github.com/puppetlabs/libwhereami'
 ---
 name: 'mpg123'
 command: 'curl https://sourceforge.net/projects/mpg123/files/mpg123/ 2>/dev/null|grep mpg123/files/mpg123|grep href|grep -v stat|tr \" "\n"|grep mpg123'
+---
+name: 'python-sphinx-autodoc-typehints'
+command: 'git ls-remote --tags https://github.com/agronholm/sphinx-autodoc-typehints'
+---
+name: 'python-sphinxcontrib-trio'
+command: 'git ls-remote --tags https://github.com/python-trio/sphinxcontrib-trio'
+---
+name: 'python-pallets-sphinx-themes'
+command: 'git ls-remote --tags https://github.com/pallets/pallets-sphinx-themes'
 
 # vim: ft=yaml
