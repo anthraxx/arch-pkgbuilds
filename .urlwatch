@@ -1647,5 +1647,8 @@ command: 'git ls-remote --tags https://github.com/pallets/pallets-sphinx-themes'
 ---
 name: 'python-flask-talisman'
 command: 'git ls-remote --tags https://github.com/GoogleCloudPlatform/flask-talisman'
+---
+name: 'python-sphinx-issues'
+command: 'git ls-remote --tags https://github.com/sloria/sphinx-issues'
 
 # vim: ft=yaml
