@@ -1,7 +1,7 @@
 pkgbase = libwhereami
 	pkgdesc = Library to report hypervisor information from inside a VM
 	pkgver = 0.2.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/puppetlabs/libwhereami
 	arch = x86_64
 	license = APACHE
