@@ -1,0 +1,18 @@
+pkgbase = python-sphinxcontrib-trio
+	pkgdesc = Make Sphinx better at documenting Python functions and methods
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/python-trio/sphinxcontrib-trio
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	checkdepends = python-lxml
+	checkdepends = python-cssselect
+	makedepends = python-setuptools
+	depends = python
+	depends = python-sphinx
+	source = https://github.com/python-trio/sphinxcontrib-trio/archive/v1.1.0/sphinxcontrib-trio-1.1.0.tar.gz
+	sha512sums = 0d119cb8a1669dcb10f4498d87dae70496b64976618783c7b49f8177b03eb15d7fb8833f21b395f62288e3e619dd98a620677d316bafbcc0bc716115a9b574c2
+
+pkgname = python-sphinxcontrib-trio
+
