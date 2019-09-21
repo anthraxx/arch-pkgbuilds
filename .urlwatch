@@ -1261,6 +1261,9 @@ command: 'curl http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/raw-file/default/.hgta
 name: 'vim-jedi (github)'
 command: 'git ls-remote --tags https://github.com/davidhalter/jedi-vim'
 ---
+name: 'python-jedi (github)'
+command: 'git ls-remote --tags https://github.com/davidhalter/jedi'
+---
 name: 'flawfinder (sourceforge)'
 command: 'curl "https://sourceforge.net/projects/flawfinder/files/?source=navbar" 2>/dev/null|grep href|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
