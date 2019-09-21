@@ -1,7 +1,7 @@
 pkgbase = vim-jedi
 	pkgdesc = Vim plugin for jedi, an awesome Python autocompletion
-	pkgver = 0.9.0
-	pkgrel = 2
+	pkgver = 0.10.0
+	pkgrel = 1
 	url = https://github.com/davidhalter/jedi-vim
 	arch = any
 	groups = vim-plugins
@@ -13,8 +13,8 @@ pkgbase = vim-jedi
 	optdepends = vim-supertab: tab completion
 	optdepends = python2-jedi: Python 2 support
 	options = !emptydirs
-	source = https://github.com/davidhalter/jedi-vim/archive/0.9.0/vim-jedi-0.9.0.tar.gz
-	sha256sums = e53ef98472dd4789d5382f5082c0c25bf713264422389fca2f2a9bcddc1435d5
+	source = https://github.com/davidhalter/jedi-vim/archive/0.10.0/vim-jedi-0.10.0.tar.gz
+	sha256sums = 4a5d9e572d08ee4b7637adba5cda355273c35c04e83790e918ea66483a000ffc
 
 pkgname = vim-jedi
 
