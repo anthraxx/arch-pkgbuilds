@@ -11,7 +11,6 @@ pkgbase = audit
 	makedepends = swig
 	makedepends = linux-headers
 	makedepends = python
-	makedepends = python2
 	options = emptydirs
 	source = audit-2.8.5.tar.gz::https://people.redhat.com/sgrubb/audit/audit-2.8.5.tar.gz
 	sha512sums = 7d416aaa21c1a167f8e911ca82aecbaba804424f3243f505066c43ecc4a62a34feb2c27555e99d3268608404793dccca0f828c63670e3aa816016fb493f8174a
@@ -31,11 +30,6 @@ pkgname = audit
 	backup = etc/audisp/plugins.d/audispd-zos-remote.conf
 	backup = etc/audisp/plugins.d/au-remote.conf
 	backup = etc/audisp/plugins.d/syslog.conf
-
-pkgname = python2-audit
-	pkgdesc = Userspace components of the audit framework (python2 bindings)
-	depends = python2
-	depends = audit
 
 pkgname = python-audit
 	pkgdesc = Userspace components of the audit framework (python bindings)
