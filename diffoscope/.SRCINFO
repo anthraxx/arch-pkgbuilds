@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 121
+	pkgver = 125
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -95,8 +95,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-121.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/121/diffoscope-121.tar.bz2
-	sha512sums = a5aa9e988709919a053e6f60bba3a9fd6cbd53cc9f8507fd81af9ed0612ea6ff7fd68398d1c1741a32847d82032e4a5b9450afa27717e629d1c691a9ef612d6a
+	source = diffoscope-125.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/125/diffoscope-125.tar.bz2
+	sha512sums = 211eb428a4bd5d298f73ceccaf68a856f39d3e728329d790cf2ce990f44c0d25f254323990d9e73c08239022e678f10d131a28569fc83d929088bd0ef60bdf9b
 
 pkgname = diffoscope
 
