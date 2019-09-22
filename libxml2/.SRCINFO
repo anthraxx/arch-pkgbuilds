@@ -1,7 +1,7 @@
 pkgbase = libxml2
 	pkgdesc = XML parsing library, version 2
 	pkgver = 2.9.9
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.xmlsoft.org/
 	arch = x86_64
 	license = MIT
@@ -13,9 +13,11 @@ pkgbase = libxml2
 	depends = ncurses
 	depends = xz
 	depends = icu
-	source = git+https://git.gnome.org/browse/libxml2#commit=f8a8c1f59db355b46962577e7b74f1a1e8149dc6
+	source = git+https://gitlab.gnome.org/GNOME/libxml2.git#commit=f8a8c1f59db355b46962577e7b74f1a1e8149dc6
+	source = libxml2-2.9.8-python3-unicode-errors.patch
 	source = https://www.w3.org/XML/Test/xmlts20130923.tar.gz
 	sha256sums = SKIP
+	sha256sums = 37eb81a8ec6929eed1514e891bff2dd05b450bcf0c712153880c485b7366c17c
 	sha256sums = 9b61db9f5dbffa545f4b8d78422167083a8568c59bd1129f94138f936cf6fc1f
 
 pkgname = libxml2
