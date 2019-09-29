@@ -8,16 +8,11 @@ pkgbase = python-pyotp
 	makedepends = git
 	makedepends = python-setuptools
 	makedepends = python-sphinx
-	makedepends = python2-setuptools
-	makedepends = python2-sphinx
+	depends = python
 	options = !makeflags
 	source = git+https://github.com/pyotp/pyotp#commit=041f5d3c65379d7188821caf92436c7f226ec60e?signed
 	validpgpkeys = 29BCBADB4ECAAAC2382699388AFAFCD242818A52
 	sha512sums = SKIP
 
 pkgname = python-pyotp
-	depends = python
-
-pkgname = python2-pyotp
-	depends = python2
 
