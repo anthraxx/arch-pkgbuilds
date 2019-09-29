@@ -1659,5 +1659,8 @@ command: 'git ls-remote --tags https://github.com/sloria/sphinx-issues'
 ---
 name: 'vim-nerdtree'
 command: 'git ls-remote --tags https://github.com/scrooloose/nerdtree'
+---
+name: 'vim-airline'
+command: 'git ls-remote --tags https://github.com/vim-airline/vim-airline'
 
 # vim: ft=yaml
