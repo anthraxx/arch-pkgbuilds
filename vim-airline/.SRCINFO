@@ -1,0 +1,17 @@
+pkgbase = vim-airline
+	pkgdesc = Status line, written in Vimscript
+	pkgver = 0.10
+	pkgrel = 1
+	url = https://github.com/vim-airline/vim-airline
+	arch = any
+	groups = vim-plugins
+	license = MIT
+	makedepends = git
+	depends = vim-runtime
+	depends = vim-airline-themes
+	optdepends = powerline-fonts
+	source = git+https://github.com/vim-airline/vim-airline#tag=v0.10
+	md5sums = SKIP
+
+pkgname = vim-airline
+
