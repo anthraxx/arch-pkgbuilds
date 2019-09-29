@@ -11,27 +11,14 @@ pkgbase = python-tweepy
 	makedepends = python-requests-oauthlib
 	makedepends = python-six
 	makedepends = python-pysocks
-	makedepends = python2-setuptools
-	makedepends = python2-pip
-	makedepends = python2-requests
-	makedepends = python2-requests-oauthlib
-	makedepends = python2-six
-	makedepends = python2-pysocks
-	source = https://github.com/tweepy/tweepy/archive/v3.8.0/tweepy-3.8.0.tar.gz
-	sha256sums = a71d2bb42ece75222fb34d8c1b7a23db70c276206ba5e38b467a02513da4d0c4
-	sha512sums = ac0dd20db9bfc2e5ae8f0fbac77052c3636bb3035ed3f0c144e15834765f4feff989f5431dbcd54e934223b2a3256d70446ef94d9274468a2e59e2fea71690c9
-
-pkgname = python-tweepy
 	depends = python
 	depends = python-requests
 	depends = python-requests-oauthlib
 	depends = python-six
 	depends = python-pysocks
+	source = https://github.com/tweepy/tweepy/archive/v3.8.0/tweepy-3.8.0.tar.gz
+	sha256sums = a71d2bb42ece75222fb34d8c1b7a23db70c276206ba5e38b467a02513da4d0c4
+	sha512sums = ac0dd20db9bfc2e5ae8f0fbac77052c3636bb3035ed3f0c144e15834765f4feff989f5431dbcd54e934223b2a3256d70446ef94d9274468a2e59e2fea71690c9
 
-pkgname = python2-tweepy
-	depends = python2
-	depends = python2-requests
-	depends = python2-requests-oauthlib
-	depends = python2-six
-	depends = python2-pysocks
+pkgname = python-tweepy
 
