@@ -11,17 +11,10 @@ pkgbase = python-trustme
 	makedepends = python
 	makedepends = python-setuptools
 	makedepends = python-cryptography
-	makedepends = python2
-	makedepends = python2-setuptools
-	makedepends = python2-cryptography
+	depends = python
+	depends = python-cryptography
 	source = python-trustme-0.5.2.tar.gz::https://github.com/python-trio/trustme/archive/v0.5.2.tar.gz
 	sha512sums = f2afc6782daee036565c79aa86b176a734ed9d0bb7248a56c8be87806e54287ac579f26857e241ff4daff3f6a063afa9dbe927e0aa8439a37880fcf065afa526
 
 pkgname = python-trustme
-	depends = python
-	depends = python-cryptography
-
-pkgname = python2-trustme
-	depends = python2
-	depends = python2-cryptography
 
