@@ -1656,5 +1656,8 @@ command: 'git ls-remote --tags https://github.com/GoogleCloudPlatform/flask-tali
 ---
 name: 'python-sphinx-issues'
 command: 'git ls-remote --tags https://github.com/sloria/sphinx-issues'
+---
+name: 'vim-nerdtree'
+command: 'git ls-remote --tags https://github.com/scrooloose/nerdtree'
 
 # vim: ft=yaml
