@@ -1,5 +1,5 @@
 pkgbase = java7-openjdk
-	pkgver = 7.u171_2.6.13
+	pkgver = 7.u231_2.6.19
 	pkgrel = 1
 	url = http://icedtea.classpath.org
 	arch = x86_64
@@ -8,7 +8,6 @@ pkgbase = java7-openjdk
 	makedepends = libxp
 	makedepends = libxslt
 	makedepends = alsa-lib
-	makedepends = apache-ant>=1.8.1
 	makedepends = giflib
 	makedepends = libpng>=1.5.7
 	makedepends = gtk2
@@ -22,37 +21,43 @@ pkgbase = java7-openjdk
 	makedepends = eclipse-ecj
 	makedepends = pcsclite
 	makedepends = lksctp-tools
-	noextract = icedtea_2.6.13_openjdk.tar.bz2
-	noextract = icedtea_2.6.13_corba.tar.bz2
-	noextract = icedtea_2.6.13_jaxp.tar.bz2
-	noextract = icedtea_2.6.13_jaxws.tar.bz2
-	noextract = icedtea_2.6.13_jdk.tar.bz2
-	noextract = icedtea_2.6.13_langtools.tar.bz2
-	noextract = icedtea_2.6.13_hotspot.tar.bz2
+	noextract = icedtea_2.6.19_openjdk.tar.bz2
+	noextract = icedtea_2.6.19_corba.tar.bz2
+	noextract = icedtea_2.6.19_jaxp.tar.bz2
+	noextract = icedtea_2.6.19_jaxws.tar.bz2
+	noextract = icedtea_2.6.19_jdk.tar.bz2
+	noextract = icedtea_2.6.19_langtools.tar.bz2
+	noextract = icedtea_2.6.19_hotspot.tar.bz2
 	options = !emptydirs
-	source = http://icedtea.classpath.org/download/source/icedtea-2.6.13.tar.xz
-	source = http://icedtea.classpath.org/download/source/icedtea-2.6.13.tar.xz.sig
-	source = icedtea_2.6.13_openjdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/openjdk.tar.bz2
-	source = icedtea_2.6.13_corba.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/corba.tar.bz2
-	source = icedtea_2.6.13_jaxp.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jaxp.tar.bz2
-	source = icedtea_2.6.13_jaxws.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jaxws.tar.bz2
-	source = icedtea_2.6.13_jdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/jdk.tar.bz2
-	source = icedtea_2.6.13_langtools.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/langtools.tar.bz2
-	source = icedtea_2.6.13_hotspot.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.13/hotspot.tar.bz2
+	source = http://icedtea.classpath.org/download/source/icedtea-2.6.19.tar.xz
+	source = http://icedtea.classpath.org/download/source/icedtea-2.6.19.tar.xz.sig
+	source = icedtea_2.6.19_openjdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/openjdk.tar.bz2
+	source = icedtea_2.6.19_corba.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/corba.tar.bz2
+	source = icedtea_2.6.19_jaxp.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/jaxp.tar.bz2
+	source = icedtea_2.6.19_jaxws.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/jaxws.tar.bz2
+	source = icedtea_2.6.19_jdk.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/jdk.tar.bz2
+	source = icedtea_2.6.19_langtools.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/langtools.tar.bz2
+	source = icedtea_2.6.19_hotspot.tar.bz2::http://icedtea.classpath.org/download/drops/icedtea7/2.6.19/hotspot.tar.bz2
+	source = https://archive.apache.org/dist/ant/binaries/apache-ant-1.9.14-bin.tar.bz2
 	source = fontconfig-paths.diff
 	source = openjdk7_nonreparenting-wm.diff
+	source = icedtea-jdk-xattr.diff
+	source = fix-xattr-include.patch
 	validpgpkeys = 5132579DD1540ED23E04C5A0CFDA0F9B35964222
-	sha256sums = 104e84205d1176e217e24f770784c53d1cd666aeb23ab0bae8ac858e5b0e63f0
+	sha256sums = 2ba0d2ec3970a163f27d1996074ac4a8767075fc0b7671ef3974cd667aba277d
 	sha256sums = SKIP
-	sha256sums = 14a9f90e2fe5c0bb73dc8ffcc9ea5dc76d3ce7a74a0c901cfd0b0ae3fc8c6450
-	sha256sums = df1154915cad317b93555b563fc12acad1b92e5f2870642736f186b7a4d80f14
-	sha256sums = 143a5b957fbb00889ff9d38a4bf391218786b6a33664235279edbb6e79a3decc
-	sha256sums = d3e3d55d6e2231c4420d30d124f72c56695d45e8a398e3cc7ba21ff2a93c1284
-	sha256sums = adbda93d1e9be89447e009733a6c9050c6e6cebda3c674a76ebbeb8986623534
-	sha256sums = 12036b985f8811cdadf6d5bf840f90bab25f4da1cc3e86bab9c3f6efcc10055b
-	sha256sums = 9ae3d6d43ff771cf02b8c7805ac0f0a457f5fa7026b1334ea1085262d3d86d9d
+	sha256sums = 2531838d9cf08755d88c91498da6fef427000d0fd527c7ddeaa60c993aa679ea
+	sha256sums = aae916ff4c1f3cbdb14f57716d03adf1f2d9cb221bf0fa0580f607d7a360245b
+	sha256sums = 4545cf0b2bfeca6cd019f1c8bab3ed7317963776b859f80ffc4d8d79d3c82e8f
+	sha256sums = 9b2b76598996962c5128e586edded4022e162421d9898a57c3d6dce2fbe7ee6b
+	sha256sums = 1653315e15f30f4f250d6ec9085043b534a28c293ba445467e274c56fef84b88
+	sha256sums = d9d02a7f135350d66d2dde28dad7f2257843d11cc663b641740b1cf21ec3d710
+	sha256sums = fbbfa17c95891491311758d2ef595ec322c46452e0bf7b51eb42a9ca1ccc419b
+	sha256sums = efad74bd98d9eb72b080a3e08f5b17118e05372d22e3aa3bc0bd1686aa71361c
 	sha256sums = 9ad943ceb3dbcdf45d72974fc3667886a7ed65c69ab9abc17be5412827551a7f
 	sha256sums = 56b919ababb13bd6afdcdaceb112b529b6e82539255f2dae9a7e5eb91645164b
+	sha256sums = 8da7248a72c60f4cb82c33712bdd8ce8f25b0cd147816efb7112f18a752fcabd
+	sha256sums = 9a48d91af72d28d7f0fca8ea6f5e42085d7c877c7141a7d895331ab1f5882086
 
 pkgname = jre7-openjdk-headless
 	pkgdesc = OpenJDK Java 7 headless runtime environment
@@ -74,7 +79,7 @@ pkgname = jre7-openjdk-headless
 pkgname = jre7-openjdk
 	pkgdesc = OpenJDK Java 7 full runtime environment
 	install = jre7-openjdk.install
-	depends = jre7-openjdk-headless=7.u171_2.6.13-1
+	depends = jre7-openjdk-headless=7.u231_2.6.19-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
@@ -92,7 +97,7 @@ pkgname = jdk7-openjdk
 	pkgdesc = OpenJDK Java 7 development kit
 	install = jdk7-openjdk.install
 	depends = java-environment-common
-	depends = jre7-openjdk=7.u171_2.6.13-1
+	depends = jre7-openjdk=7.u231_2.6.19-1
 	provides = java-environment=7
 	provides = java-environment-openjdk=7
 	replaces = openjdk6
