@@ -1,8 +1,8 @@
 pkgbase = doxygen
 	pkgdesc = Documentation system for C++, C, Java, IDL and PHP
 	pkgver = 1.8.16
-	pkgrel = 1
-	url = http://www.doxygen.org/
+	pkgrel = 2
+	url = http://www.doxygen.nl
 	arch = x86_64
 	license = GPL
 	makedepends = cmake
@@ -16,8 +16,11 @@ pkgbase = doxygen
 	makedepends = python2
 	makedepends = git
 	source = doxygen-1.8.16.tar.gz::https://github.com/doxygen/doxygen/archive/Release_1_8_16.tar.gz
+	source = doxygen-1.8.16-compat.patch
 	sha256sums = 75b18117f88ca1930ab74c05f6712690a26dd4fdcfc9d7d5324be43160645fb4
+	sha256sums = bb0d5a9baa9ee364da6ba51f5501d5a882572ae15055dc2db41593f3a19cb0e1
 	sha512sums = 546ceaae949cf5cc8162309bc804dad7a00b970c14a2dd66d27111e03f2fbebfec299ddc559f8c915ed00776217d2c439843806d2b6c15b58cf29f490979bd8f
+	sha512sums = c41d5dd0e69d42119c025582ea9beb2bb09cf37f654e5d02aa2f68fea4ecb3465dc1b47d8e6202da1188b44e61ca3b90e848dfdf8464d33674bdc2645ae21144
 
 pkgname = doxygen
 	pkgdesc = Documentation system for C++, C, Java, IDL and PHP
