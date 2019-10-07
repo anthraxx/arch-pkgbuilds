@@ -1,6 +1,6 @@
 pkgbase = beats
 	pkgdesc = Data shippers for Elasticsearch
-	pkgver = 7.3.2
+	pkgver = 7.4.0
 	pkgrel = 1
 	url = https://www.elastic.co/products/beats
 	arch = x86_64
@@ -14,7 +14,7 @@ pkgbase = beats
 	depends = glibc
 	optdepends = elasticsearch: for standalone installation
 	optdepends = python: for migration script
-	source = https://github.com/elastic/beats/archive/v7.3.2/beats-7.3.2.tar.gz
+	source = https://github.com/elastic/beats/archive/v7.4.0/beats-7.4.0.tar.gz
 	source = filebeat.service
 	source = packetbeat.service
 	source = metricbeat.service
@@ -22,14 +22,16 @@ pkgbase = beats
 	source = auditbeat.service
 	source = journalbeat.service
 	source = tmpfile.conf
-	sha256sums = 513d0056f4de63f33052792ba690677844c8930104cb55236a421ca879db242e
-	sha256sums = 66d9061841e8b406135383e45d6db9ce6261b2bb08aa28224e3ed689e6e0efec
+	source = magefile_text_file_busy.patch
+	sha256sums = b6b689eb89051266c75342972736412e2d5d8fc78d0ed1f285377d6a1f346c69
+	sha256sums = 7256be466b4255cf3ec9e3600998ec006e762508345a08db16e004a1f15083dc
 	sha256sums = 9f4e33fc768d3500fa3428dcbfda241c6473a2cae8cc4dbadf8f61ca9f2bbec5
-	sha256sums = 26b123acd96808162a7f827ce6f0e9669140c2665fc28d76583a15996fbf853d
-	sha256sums = 212cb4ab5a02d7078025f7d1f50f48e5caa25debce0852cf68cd8f89ed0a8d09
-	sha256sums = b7f1c61950f21c7fab31166c68d4a9e5027f0c5bcc40a97913d6d89eaf643b85
-	sha256sums = 57d2f5bf75b4b5214065ba408c98ec941fb0042f19a623add7f4396d640225ba
+	sha256sums = 7d83a068e8c4da3de3f42bf21b840a86900e9cf02f5ba0851501a1620e5fa29d
+	sha256sums = 878b28a891c9683da4b3d8b6914212e3de0f5e832633c54c6263b3099eb96ba2
+	sha256sums = 5ee738b911022494bc9f8422a4fa7ab7862bd635ca7b08fa3bc8d789ef2785bf
+	sha256sums = c3633d95314d11dd4e153197f22f308c239ced9240291a9aeaec4f6721911e01
 	sha256sums = f29361772f23ec42bb15b5e0ca7e93f17fe00d31cf08a9e2c0d0ab27f2277bbc
+	sha256sums = 6fdef755fe03d1c83aa9dfe0cba505b4a9d3e4134cb6d3f9c62e9795a3b7c85a
 
 pkgname = filebeat
 	pkgdesc = Sends log files to Logstash or directly to Elasticsearch
@@ -54,5 +56,5 @@ pkgname = auditbeat
 	depends = audit
 
 pkgname = journalbeat
-	pkgdesc = Data collector to read and forward journal entries from journald to Elasticsearch
+	pkgdesc = Data collector to ship systemd journal entries to Elasticsearch or Logstash
 
