@@ -3,7 +3,7 @@
 # Refactored by Blaž "Speed" Hrastnik <https://github.com/archSeer>
 
 pkgname=elasticsearch
-pkgver=7.3.2
+pkgver=7.4.0
 pkgrel=1
 pkgdesc="Distributed RESTful search engine built on top of Lucene"
 arch=('x86_64')
@@ -11,7 +11,7 @@ url="https://www.elastic.co/products/elasticsearch"
 license=('Apache')
 depends=('java-runtime-headless' 'systemd')
 source=(
-  "https://artifacts.elastic.co/downloads/$pkgname/$pkgname-oss-$pkgver-linux-x86_64.tar.gz"
+  "https://artifacts.elastic.co/downloads/$pkgname/$pkgname-oss-$pkgver-x86_64.rpm"
   elasticsearch-env
   elasticsearch.service
   elasticsearch@.service
@@ -22,15 +22,15 @@ source=(
   elasticsearch-tmpfile.conf
   elasticsearch.default
 )
-sha256sums=('2a3ef5aa3279b88d9268e3c5ae2430e27793c24f7a3660e57a20d1483dbb5954'
-            'ff530bf9440364955e9f38b5c5cc0782da1b1ac1c54870b162b7ded81e56eebc'
-            'de3842935b6ef9cb8a05dc18334112f534dccc2292e36052df942a92de7e66db'
-            '13090c1d23ae0a21bf6f0f1d1da795d38972f1674b20c3d2d32f54311aa99094'
+sha256sums=('94fd86f9ec7e548b74ae133296048f7d942784fe84440ae48ef7153efff3f674'
+            '830bf17a9e1f88a8d6152899af2674571ecace88e202e484b56bf24f67d96e10'
+            '8ddd205b147f7d6904e6d6c5e32290d0bda0602b0de67d20e2107fd853391cc7'
+            '873cc91d35e7239e32bc04044e4a429220d85bea18a69a71efe188d6987039da'
             'bac40d87acaa5bee209ceb6dfa253009a072e9243fe3b94be42fb5cd44727d6f'
             '22a78a165a810608188faea6f2b0b381f27b1e9d60126c3b3e729124540589a8'
             'b3feb1e9c7e7ce6b33cea6c727728ed700332aae942ca475c3bcc1d56b9f113c'
             '815f6a39db6f54bb40750c382ffbdc298d2c4c187ee8ea7e2f855923e2ff354b'
-            '3173e3efa429507e6329f518699a072dfd442d9b5da7c62452a55f82334dd2b5'
+            '0a344d779c550de324bfda385896caf0d728563751c176127b63ebf2354abee0'
             'bb74e5fb8bc28f2125e015395ab05bea117b72bfc6dadbca827694b362ee0bf8')
 
 backup=('etc/elasticsearch/elasticsearch.yml'
@@ -39,36 +39,32 @@ backup=('etc/elasticsearch/elasticsearch.yml'
         'etc/default/elasticsearch')
 
 prepare() {
-  cd "$srcdir"/$pkgname-$pkgver
-
-  find bin -type f \( -name \*.bat -o -name \*.exe \) -delete
-  find bin -type f \( -name \*.jar -o -name \*-env \) -exec chmod a-x {} +
-  find bin -type f ! -name \*.jar -exec \
+  cd "$srcdir"
+  find usr/share/elasticsearch/bin -type f ! -name \*.jar -exec \
     sed -r 's;source .*/(.*)-env;source /usr/share/elasticsearch/\1-env;' -i {} +
-  find bin -type f -name "elasticsearch-*" ! -name elasticsearch-bin -exec \
+  find usr/share/elasticsearch/bin -type f -name "elasticsearch-*" ! -name elasticsearch-bin -exec \
     sed 's/`dirname "$0"`/$(dirname "$(realpath "$0")")/' -i {} +
 }
 
 package() {
   cd "$pkgdir"
-  install -dm750 etc/elasticsearch{,/scripts}
+  install -dm2750 etc/elasticsearch
+  install -dm750 etc/elasticsearch/scripts
   install -dm755 {usr/share,var/lib,var/log}/elasticsearch
   install -dm755 usr/bin
 
-  cd "$srcdir"/$pkgname-$pkgver
-  cp -R bin lib modules plugins "$pkgdir"/usr/share/elasticsearch/
-
-  cd config
-  for conf in *; do
-    install -Dm644 "$conf" "$pkgdir/etc/elasticsearch/$conf"
+  cd "$srcdir"
+  for conf in etc/elasticsearch/*; do
+    install -Dm644 "$conf" "$pkgdir/$conf"
   done
+  cp -R usr/share/elasticsearch/{bin,lib,modules,plugins} "$pkgdir"/usr/share/elasticsearch
 
-  cd ..
-  mv bin/elasticsearch-env .
+  cd "$pkgdir"/usr/share/elasticsearch
+  rm -rf bin/elasticsearch-env
+
   find bin/ -type f -name elasticsearch-\* ! -name elasticsearch-cli -exec \
     ln -s ../share/elasticsearch/{} "$pkgdir"/usr/{} \;
 
-  cd "$pkgdir"/usr/share/elasticsearch
   ln -s ../../../var/log/elasticsearch logs
   ln -s ../../../var/lib/elasticsearch data
 
