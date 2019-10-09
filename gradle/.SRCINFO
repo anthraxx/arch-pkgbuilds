@@ -1,7 +1,7 @@
 pkgbase = gradle
 	pkgdesc = Powerful build system for the JVM
 	pkgver = 5.6.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gradle.org/
 	arch = any
 	license = Apache
@@ -12,7 +12,7 @@ pkgbase = gradle
 	makedepends = kotlin
 	makedepends = groovy
 	makedepends = java-environment=11
-	depends = java-environment
+	depends = java-environment=11
 	depends = bash
 	source = https://services.gradle.org/distributions/gradle-5.6.2-src.zip
 	source = gradle.sh
