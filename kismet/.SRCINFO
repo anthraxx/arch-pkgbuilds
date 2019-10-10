@@ -1,6 +1,6 @@
 pkgbase = kismet
 	pkgdesc = 802.11 layer2 wireless network detector, sniffer, and intrusion detection system
-	pkgver = 2019_08_R1
+	pkgver = 2019_09_R1
 	pkgrel = 1
 	url = https://www.kismetwireless.net/
 	install = kismet.install
@@ -20,10 +20,20 @@ pkgbase = kismet
 	optdepends = festival: text-to-speech support
 	optdepends = flite: alternative/lightweight text-to-speech support
 	optdepends = ruby: ruby interface
-	backup = etc/kismet.conf
-	source = https://www.kismetwireless.net/code/kismet-2019-08-R1.tar.xz
+	backup = etc/kismet/kismet.conf
+	backup = etc/kismet/kismet_80211.conf
+	backup = etc/kismet/kismet_alerts.conf
+	backup = etc/kismet/kismet_filter.conf
+	backup = etc/kismet/kismet_httpd.conf
+	backup = etc/kismet/kismet_logging.conf
+	backup = etc/kismet/kismet_memory.conf
+	backup = etc/kismet/kismet_storage.conf
+	backup = etc/kismet/kismet_uav.conf
+	source = https://www.kismetwireless.net/code/kismet-2019-09-R1.tar.xz
+	source = kismet.sysusers
 	validpgpkeys = 354689DF3C9DED803381A661D7B28822738BBDB1
-	sha256sums = 3a0bde964f34c5eceaa085b9f1dc4eb008a4ce3a38b68bec6d962d3404a0d96b
+	sha512sums = eeaf069718206f2b6d292c41792217afc9c72c10ffa014c8c670de64195bd28d44f33364dba7d338610f17a5af2be3c125ccd1297cce362159a4968c9ddabb88
+	sha512sums = 452b728c30c9932bdb91741af425267da87a66962ea9b736751948881f5477dee0bff8e2eeca2befdea2920da6d7d9e198bde69cef8c48bb49a0093a7f0ef897
 
 pkgname = kismet
 
