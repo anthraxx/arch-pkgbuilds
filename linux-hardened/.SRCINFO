@@ -1,6 +1,6 @@
 pkgbase = linux-hardened
 	pkgver = 5.3.7.a
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
 	license = GPL2
@@ -19,7 +19,7 @@ pkgbase = linux-hardened
 	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.3.7.tar.sign
 	source = https://github.com/anthraxx/linux-hardened/releases/download/5.3.7.a/linux-hardened-5.3.7.a.patch
 	source = https://github.com/anthraxx/linux-hardened/releases/download/5.3.7.a/linux-hardened-5.3.7.a.patch.sig
-	source = config.x86_64
+	source = config
 	source = 60-linux.hook
 	source = 90-linux.hook
 	source = linux.preset
@@ -32,7 +32,7 @@ pkgbase = linux-hardened
 	sha256sums = 40f9fccc1fb9d9db2a216caf33362c861d701d3ea186488638b4ce95f8865d3f
 	sha256sums = SKIP
 	sha256sums = 63feccba3f160c368c694f6a8fed4d8caa2c2a62cf73c7de28ab5fe276fe9923
-	sha256sums = ae2e95db94ef7176207c690224169594d49445e04249d2499e9d2fbc117a0b21
+	sha256sums = 452b8d4d71e1565ca91b1bebb280693549222ef51c47ba8964e411b2d461699c
 	sha256sums = c043f3033bb781e2688794a59f6d1f7ed49ef9b13eb77ff9a425df33a244a636
 	sha256sums = ad6344badc91ad0630caacde83f7f9b97276f80d26a20619a87952be65492c65
 
