@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 125
+	pkgver = 127
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -16,7 +16,29 @@ pkgbase = diffoscope
 	checkdepends = e2fsprogs
 	checkdepends = enjarify
 	checkdepends = imagemagick
+	checkdepends = java-environment=10
+	checkdepends = fontforge
+	checkdepends = gettext
+	checkdepends = ghc
+	checkdepends = gnupg
+	checkdepends = mono
+	checkdepends = mono-tools
+	checkdepends = poppler
+	checkdepends = sqlite
+	checkdepends = squashfs-tools
+	checkdepends = lz4
 	checkdepends = java-environment>=8
+	checkdepends = fontforge
+	checkdepends = gettext
+	checkdepends = ghc
+	checkdepends = gnupg
+	checkdepends = mono
+	checkdepends = mono-tools
+	checkdepends = poppler
+	checkdepends = sqlite
+	checkdepends = squashfs-tools
+	checkdepends = lz4
+	checkdepends = java-environment<=10
 	checkdepends = fontforge
 	checkdepends = gettext
 	checkdepends = ghc
@@ -95,8 +117,8 @@ pkgbase = diffoscope
 	optdepends = tar: tar utilities support
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
-	source = diffoscope-125.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/125/diffoscope-125.tar.bz2
-	sha512sums = 211eb428a4bd5d298f73ceccaf68a856f39d3e728329d790cf2ce990f44c0d25f254323990d9e73c08239022e678f10d131a28569fc83d929088bd0ef60bdf9b
+	source = diffoscope-127.tar.bz2::https://salsa.debian.org/reproducible-builds/diffoscope/-/archive/127/diffoscope-127.tar.bz2
+	sha512sums = 53b6d976b6458857347b9e60f67a94b389615ca88fe1211c52f4f90dd285be570edac0e1ab604583c8f84fb11affaad84aa276f7b5af31d672a4ae030d5bb236
 
 pkgname = diffoscope
 
