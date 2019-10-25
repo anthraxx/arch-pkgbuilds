@@ -1,14 +1,14 @@
 pkgbase = catch2
 	pkgdesc = Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD
-	pkgver = 2.9.2
+	pkgver = 2.10.2
 	pkgrel = 1
 	url = https://github.com/catchorg/catch2
 	arch = any
 	license = Boost
 	makedepends = cmake
 	makedepends = python
-	source = https://github.com/catchorg/Catch2/archive/v2.9.2/catch2-2.9.2.tar.gz
-	sha256sums = 54bea6d80a388a80f895cd0e2343fca72b0d9093a776af40904aefce49c13bda
+	source = https://github.com/catchorg/Catch2/archive/v2.10.2/catch2-2.10.2.tar.gz
+	sha256sums = 79aa46ee6c5a87bc5306bfffc6ecde6a1ad6327715b208ee2e846873f282a494
 
 pkgname = catch2
 
