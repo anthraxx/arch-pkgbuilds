@@ -1,6 +1,6 @@
 pkgbase = hexyl
 	pkgdesc = Colored command-line hex viewer
-	pkgver = 0.5.1
+	pkgver = 0.6.0
 	pkgrel = 1
 	url = https://github.com/sharkdp/hexyl
 	arch = x86_64
@@ -9,8 +9,8 @@ pkgbase = hexyl
 	makedepends = rust
 	makedepends = cargo
 	depends = gcc-libs
-	source = https://github.com/sharkdp/hexyl/archive/v0.5.1/hexyl-0.5.1.tar.gz
-	sha512sums = 947d7135bf96def2b8de6536edff10f64361b526cde9cf575d70e6fcf95d212013b8a4d1c1d13138ce5a0468b6cc46045dc0c4b85873cb3a1877f8845267eee7
+	source = https://github.com/sharkdp/hexyl/archive/v0.6.0/hexyl-0.6.0.tar.gz
+	sha512sums = b6f6a324d147fffb51bca7148cd3a7c41d926f609d0626ba4c3f26c7bc48b642613063bf6cb6d485b056113763b5a82b2d40710220ef57cfe8ebf48681cac380
 
 pkgname = hexyl
 
