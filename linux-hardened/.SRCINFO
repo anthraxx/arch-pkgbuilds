@@ -1,6 +1,6 @@
 pkgbase = linux-hardened
 	pkgver = 5.3.7.b
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
 	license = GPL2
