@@ -1,7 +1,7 @@
 pkgbase = python-trustme
 	pkgdesc = Library for fake certificate authority (CA) to generate fake TLS certs
 	pkgver = 0.5.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://trustme.readthedocs.io
 	arch = any
 	license = MIT
