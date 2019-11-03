@@ -1,11 +1,12 @@
 pkgbase = python-service_identity
 	pkgdesc = Service Identity Verification for Python
 	pkgver = 18.1.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://service-identity.readthedocs.io/
 	arch = any
 	license = MIT
 	checkdepends = python-pytest
+	checkdepends = python-cryptography
 	makedepends = python
 	makedepends = python-setuptools
 	makedepends = python-attrs
@@ -19,7 +20,7 @@ pkgbase = python-service_identity
 	depends = python-pyasn1-modules
 	depends = python-idna
 	source = python-service_identity-18.1.0.tar.gz::https://github.com/pyca/service_identity/archive/18.1.0.tar.gz
-	sha512sums = 0d1abf6ba1e725e923171fd3b809b2cf7ba757ca47f773e8c99a2e2265425b253549609c76955c4d67fcd2fd305d479a1d7541cb26811e94db26ab853d3d3441
+	sha512sums = 6b6da48c543bfbe0d9da9f0d03dbd735ce97e64a76cbf9eae2b615ced7b91c5fcca1f25353e53858c48da9c4e0c0be4e33fa4559adb50899a79689cbb372f49b
 
 pkgname = python-service_identity
 
