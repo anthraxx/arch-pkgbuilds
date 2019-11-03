@@ -1,13 +1,14 @@
 pkgbase = python-pallets-sphinx-themes
 	pkgdesc = Sphinx themes for Pallets and related projects
 	pkgver = 1.2.2
-	pkgrel = 1
+	pkgrel = 5
 	url = https://github.com/pallets/pallets-sphinx-themes
 	arch = any
 	license = BSD
 	makedepends = python-setuptools
 	depends = python
 	depends = python-sphinx
+	depends = python-importlib-metadata
 	source = https://github.com/pallets/pallets-sphinx-themes/archive/1.2.2/pallets-sphinx-themes-1.2.2.tar.gz
 	sha512sums = 3e4a1c278179e1595b40541eeabf9d2e642d5693d802a7e775829d96b8ed1031ebb08b608c688e8ec9e6a9c41f72523006a77948f93f938f265c5da26eb7d478
 
