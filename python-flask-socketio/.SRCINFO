@@ -7,30 +7,15 @@ pkgbase = python-flask-socketio
 	license = MIT
 	checkdepends = python-coverage
 	checkdepends = python-pytest
-	checkdepends = python2-coverage
-	checkdepends = python2-pytest
 	makedepends = python-setuptools
 	makedepends = python-sphinx
-	makedepends = python-flask
-	makedepends = python-eventlet
-	makedepends = python-socketio
-	makedepends = python2-setuptools
-	makedepends = python2-sphinx
-	makedepends = python2-flask
-	makedepends = python2-eventlet
-	makedepends = python2-socketio
+	depends = python-flask
+	depends = python-eventlet
+	depends = python-socketio
 	options = !makeflags
 	source = python-flask-socketio-3.2.1.tar.gz::https://github.com/miguelgrinberg/Flask-SocketIO/archive/v3.2.1.tar.gz
 	sha256sums = aa2ce476d70600fb8fef04107677612e370602ac0d1c5ece5a6e01f297b3d8b0
 	sha512sums = 8f2009a34142f669fbc2711a12f202554f01da695d0f62a4dcc0d3b5a1f55d8b21a9d66fa0651d316e31979dd0400d5c2f9d4b24c3ff915e5a54682e7d877a06
 
 pkgname = python-flask-socketio
-	depends = python-flask
-	depends = python-eventlet
-	depends = python-socketio
-
-pkgname = python2-flask-socketio
-	depends = python2-flask
-	depends = python2-eventlet
-	depends = python-socketio
 
