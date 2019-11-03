@@ -1,14 +1,16 @@
 pkgbase = python-precis_i18n
 	pkgdesc = PRECIS framework (RFC 8264, RFC 8265, RFC 8266)
 	pkgver = 1.0.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/byllyfish/precis_i18n
 	arch = any
 	license = MIT
 	makedepends = python-setuptools
 	depends = python
 	source = https://github.com/byllyfish/precis_i18n/archive/v1.0.1/python-precis_i18n-1.0.1.tar.gz
+	source = precis_i18n-python-3.8.patch::https://github.com/byllyfish/precis_i18n/commit/7b6987e2.patch
 	sha512sums = a62e76588ae1ccba6de51488ceae0e2a454e77bdc946e7c4cea1cb41017253b6e239aab120bdbf1a57b51b827ec7554fb7d6fc10a3a4203f09f6f91f1b4192f4
+	sha512sums = 81bcc4d2af10cef756830f504ec74aee1a88f56b29ede1b631142b624aca8ac8aa217a7802a731a2d8ffce90c7de6d80c597b7f8ae91a9ae665b5a6fe11e3b60
 
 pkgname = python-precis_i18n
 
