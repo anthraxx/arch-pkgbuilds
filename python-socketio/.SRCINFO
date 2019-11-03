@@ -1,38 +1,23 @@
 pkgbase = python-socketio
 	pkgdesc = Python implementation of the Socket.IO realtime server
 	pkgver = 3.1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/miguelgrinberg/python-socketio
 	arch = any
 	license = MIT
 	checkdepends = python-pytest
 	checkdepends = python-mock
-	checkdepends = python2-pytest
-	checkdepends = python2-mock
 	makedepends = python-setuptools
 	makedepends = python-sphinx
-	makedepends = python-six
-	makedepends = python-engineio
 	makedepends = python-tornado
-	makedepends = python2-setuptools
-	makedepends = python2-sphinx
-	makedepends = python2-six
-	makedepends = python2-engineio
-	makedepends = python2-tornado
+	depends = python
+	depends = python-six
+	depends = python-engineio
+	optdepends = python-tornado: tornado asyncio webserver
 	options = !makeflags
 	source = python-socketio-3.1.2.tar.gz::https://github.com/miguelgrinberg/python-socketio/archive/v3.1.2.tar.gz
 	sha256sums = a44950c0535f92b3ad6f055536f4ffc35a4be8af8f88919ec25e55c2765f5fa8
 	sha512sums = 026aa04ef3d3dd32a3617b8572e0d704ec03cb9a694059ef89325a8d766ff25f93341f1f2621b46729b9462d4927bdc7052fe051a73ea7b94046a0da0d5aaf21
 
 pkgname = python-socketio
-	depends = python
-	depends = python-six
-	depends = python-engineio
-	optdepends = python-tornado: tornado asyncio webserver
-
-pkgname = python2-socketio
-	depends = python2
-	depends = python2-six
-	depends = python2-engineio
-	optdepends = python2-tornado: tornado asyncio webserver
 
