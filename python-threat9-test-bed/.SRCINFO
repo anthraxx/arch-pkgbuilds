@@ -1,7 +1,7 @@
 pkgbase = python-threat9-test-bed
 	pkgdesc = Threat9 Test Bed
 	pkgver = 0.6.0+2+g1ed61b3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/threat9/threat9-test-bed
 	arch = any
 	license = custom
