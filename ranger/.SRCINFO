@@ -1,7 +1,7 @@
 pkgbase = ranger
 	pkgdesc = Simple, vim-like file manager
 	pkgver = 1.9.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ranger.github.io
 	arch = any
 	license = GPL
