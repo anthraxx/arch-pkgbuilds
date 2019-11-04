@@ -1,7 +1,7 @@
 pkgbase = python-socketio
 	pkgdesc = Python implementation of the Socket.IO realtime server
 	pkgver = 3.1.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/miguelgrinberg/python-socketio
 	arch = any
 	license = MIT
