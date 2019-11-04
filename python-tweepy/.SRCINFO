@@ -1,7 +1,7 @@
 pkgbase = python-tweepy
 	pkgdesc = Python library for accessing the entire Twitter API
 	pkgver = 3.8.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.tweepy.org/
 	arch = any
 	license = MIT
