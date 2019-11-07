@@ -1,7 +1,7 @@
 pkgbase = vlc
 	pkgdesc = Multi-platform MPEG, VCD/DVD, and DivX player
 	pkgver = 3.0.8
-	pkgrel = 4
+	pkgrel = 5
 	url = https://www.videolan.org/vlc/
 	arch = x86_64
 	license = LGPL2.1
@@ -138,7 +138,7 @@ pkgbase = vlc
 	optdepends = librsvg: SVG plugin
 	optdepends = x264: H264 encoding
 	optdepends = x265: HEVC/H.265 encoder
-	optdepends = zvbi: VBI/Teletext decoding
+	optdepends = zvbi: VBI/Teletext/webcam/v4l2 capture/decoding
 	optdepends = libass: Subtitle support
 	optdepends = libkate: Kate codec
 	optdepends = libtiger: Tiger rendering for Kate streams
