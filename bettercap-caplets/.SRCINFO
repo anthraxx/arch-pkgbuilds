@@ -1,13 +1,13 @@
 pkgbase = bettercap-caplets
 	pkgdesc = Bettercap scripts (caplets) and proxy modules
-	pkgver = v20190327.r302.3b47dd6
+	pkgver = v20191009.r336.9b56899
 	pkgrel = 1
 	url = https://github.com/bettercap/caplets
 	arch = any
 	license = GPL3
 	makedepends = git
 	depends = bettercap
-	source = bettercap-caplets::git+https://github.com/bettercap/caplets#commit=3b47dd6c2f4f2bc87ddf3d536c6f4780ed6c245a
+	source = bettercap-caplets::git+https://github.com/bettercap/caplets#commit=9b568997eee61f246286718b80e3ad16c3bcf422
 	sha512sums = SKIP
 
 pkgname = bettercap-caplets
