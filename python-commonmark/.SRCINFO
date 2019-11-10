@@ -1,35 +1,20 @@
 pkgbase = python-commonmark
 	pkgdesc = Python parser for the CommonMark Markdown spec
-	pkgver = 0.8.0
-	pkgrel = 3
+	pkgver = 0.9.1
+	pkgrel = 1
 	url = https://pypi.org/project/commonmark/
 	arch = any
 	license = BSD
 	checkdepends = python-hypothesis
-	checkdepends = python2-hypothesis
 	makedepends = python-setuptools
-	makedepends = python-docutils
-	makedepends = python-future
 	makedepends = python-sphinx
-	makedepends = python2-setuptools
-	makedepends = python2-docutils
-	makedepends = python2-future
-	makedepends = python2-sphinx
 	makedepends = python-sphinx_rtd_theme
-	makedepends = python2-sphinx_rtd_theme
-	options = !makeflags
-	source = python-commonmark-0.8.0.tar.gz::https://github.com/readthedocs/commonmark.py/archive/0.8.0.tar.gz
-	source = python-3.8.patch
-	sha256sums = b52fe76749ad856cd52be67e35b548143e7d49d02faef288cf0abf2ee59dabec
-	sha256sums = f5cd2dc52eee3a6d856b615910d85d031b6c9f5f7e80e28479d589d46a289a5e
-	sha512sums = fcb70913ec2a8693fc667e18c1600a90d6fa26d9516a9cffd2a3d7a7c2bce2167d65d2ecd0940b4d8933b833f1ed6620bc59fd7bc2ae198365043119dced9da3
-	sha512sums = 82a839293cc8e3ac1394f091f7441f0320e3ea9414edb40f6f794947b360a379743d767b24e02284f8e7eb3a0635fa9179945242e7aa2f2e18bdffde80e160ee
-
-pkgname = python-commonmark
 	depends = python-docutils
 	depends = python-future
+	options = !makeflags
+	source = python-commonmark-0.9.1.tar.gz::https://github.com/readthedocs/commonmark.py/archive/0.9.1.tar.gz
+	sha256sums = b5d5be6af35a183c3f915d714b31b61e6918894051114419f9ac0bbb715bf4c6
+	sha512sums = a6de0b384247ff79fe326012bd1fc71135e6ae5bc7b6a15d5402969a94f81fdd802f1a9d557c504eb74bfb3fea68f55355a70a6e0112a620cc285cf9039892e4
 
-pkgname = python2-commonmark
-	depends = python2-docutils
-	depends = python2-future
+pkgname = python-commonmark
 
