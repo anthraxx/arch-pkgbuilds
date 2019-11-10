@@ -8,7 +8,6 @@ pkgbase = keystone
 	makedepends = cmake
 	makedepends = gcc-libs
 	makedepends = python
-	makedepends = python2
 	options = staticlibs
 	options = !emptydirs
 	source = keystone-0.9.1.tar.gz::https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz
@@ -20,10 +19,5 @@ pkgname = keystone
 pkgname = python-keystone
 	license = BSD
 	depends = python
-	depends = keystone
-
-pkgname = python2-keystone
-	license = BSD
-	depends = python2
 	depends = keystone
 
