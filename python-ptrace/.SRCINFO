@@ -5,16 +5,10 @@ pkgbase = python-ptrace
 	url = https://github.com/haypo/python-ptrace
 	arch = any
 	license = GPL2
-	makedepends = python
 	makedepends = python-sphinx
-	makedepends = python2
-	makedepends = python2-sphinx
+	depends = python
 	source = python-ptrace-0.9.4.tar.gz::https://github.com/haypo/python-ptrace/archive/0.9.4.tar.gz
 	sha512sums = dd300fb3f2e3bbca67e585601788a0b83130c96697e8820b02f19934c45e294bc2da2e22f08ad325c34795184a956ae6a42cbe83c976fe5e0d65b9386da82b57
 
 pkgname = python-ptrace
-	depends = python
-
-pkgname = python2-ptrace
-	depends = python2
 
