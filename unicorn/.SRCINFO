@@ -9,7 +9,6 @@ pkgbase = unicorn
 	makedepends = python
 	makedepends = python2
 	makedepends = python-setuptools
-	makedepends = python2-setuptools
 	makedepends = ruby
 	makedepends = ruby-rdoc
 	options = staticlibs
@@ -24,10 +23,6 @@ pkgname = unicorn
 
 pkgname = python-unicorn
 	depends = python
-	depends = unicorn
-
-pkgname = python2-unicorn
-	depends = python2
 	depends = unicorn
 
 pkgname = ruby-unicorn-engine
