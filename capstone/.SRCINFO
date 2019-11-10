@@ -8,8 +8,6 @@ pkgbase = capstone
 	makedepends = glibc
 	makedepends = python
 	makedepends = python-setuptools
-	makedepends = python2
-	makedepends = python2-setuptools
 	options = staticlibs
 	source = capstone-4.0.1.tar.gz::https://github.com/aquynh/capstone/archive/4.0.1.tar.gz
 	sha256sums = 79bbea8dbe466bd7d051e037db5961fdb34f67c9fac5c3471dd105cfb1e05dc7
@@ -22,8 +20,4 @@ pkgname = capstone
 pkgname = python-capstone
 	depends = capstone
 	depends = python
-
-pkgname = python2-capstone
-	depends = capstone
-	depends = python2
 
