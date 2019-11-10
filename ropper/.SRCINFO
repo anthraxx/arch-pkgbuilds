@@ -8,9 +8,6 @@ pkgbase = ropper
 	makedepends = python-setuptools
 	makedepends = python-capstone
 	makedepends = python-filebytes
-	makedepends = python2-setuptools
-	makedepends = python2-capstone
-	makedepends = python2-filebytes
 	source = ropper-1.12.5.tar.gz::https://github.com/sashs/Ropper/archive/v1.12.5.tar.gz
 	sha512sums = d5afe158e16569a8bd7ec634f0666a8af2f057a72d0a0d0b974b72b3e44a7f826ebaa46b83a0c2c7bcc2a52b660f2f7cc94ecc54562be08d06079cb57e16ca41
 
@@ -23,9 +20,4 @@ pkgname = python-ropper
 	depends = python-capstone
 	depends = python-filebytes
 	optdepends = python-keystone: assemble command support
-
-pkgname = python2-ropper
-	depends = python2-capstone
-	depends = python2-filebytes
-	optdepends = python2-keystone: assemble command support
 
