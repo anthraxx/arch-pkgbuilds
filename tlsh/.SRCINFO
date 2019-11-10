@@ -7,7 +7,6 @@ pkgbase = tlsh
 	license = Apache
 	makedepends = cmake
 	makedepends = python
-	makedepends = python2
 	makedepends = gcc-libs
 	source = https://github.com/trendmicro/tlsh/archive/3.17.0/tlsh-3.17.0.tar.gz
 	sha256sums = 810cecdda1632ecb836278e5a58560d5b2b7911d02ed7419dc02b6a38e635985
@@ -19,7 +18,4 @@ pkgname = tlsh
 
 pkgname = python-tlsh
 	depends = python
-
-pkgname = python2-tlsh
-	depends = python2
 
