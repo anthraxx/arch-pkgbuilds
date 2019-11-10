@@ -1,6 +1,6 @@
 pkgbase = dav1d
 	pkgdesc = AV1 cross-platform decoder focused on speed and correctness
-	pkgver = 0.4.0
+	pkgver = 0.5.1
 	pkgrel = 1
 	url = https://code.videolan.org/videolan/dav1d/
 	arch = x86_64
@@ -11,15 +11,12 @@ pkgbase = dav1d
 	makedepends = doxygen
 	makedepends = vulkan-headers
 	depends = glibc
-	depends = sdl2
-	depends = libplacebo
-	depends = libplacebo.so
 	depends = vulkan-icd-loader
 	provides = libdav1d.so
-	source = https://downloads.videolan.org/pub/videolan/dav1d/0.4.0/dav1d-0.4.0.tar.xz
-	source = https://downloads.videolan.org/pub/videolan/dav1d/0.4.0/dav1d-0.4.0.tar.xz.asc
+	source = https://downloads.videolan.org/pub/videolan/dav1d/0.5.1/dav1d-0.5.1.tar.xz
+	source = https://downloads.videolan.org/pub/videolan/dav1d/0.5.1/dav1d-0.5.1.tar.xz.asc
 	validpgpkeys = 65F7C6B4206BD057A7EB73787180713BE58D1ADC
-	sha512sums = 8ed44b3d747f01b87b34f86fada824dfb7f86c16168af641fe754c767af5714e9fe212b6eea2bc11b5b041460184c78f755e10d4947e46bc70d95e1bd750f79d
+	sha512sums = 0ed67219127c2a3dc3151d9e427c5f3dab4e3272a8fdcd17ceae032b81992a1f250045d45b0e0c5c500ebf11e8387fd47f8bf8c4c319577c887daab49a651504
 	sha512sums = SKIP
 
 pkgname = dav1d
