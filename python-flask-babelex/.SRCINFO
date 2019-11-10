@@ -6,34 +6,16 @@ pkgbase = python-flask-babelex
 	arch = any
 	license = BSD
 	checkdepends = python-pytest
-	checkdepends = python2-pytest
 	makedepends = git
-	makedepends = python-flask
-	makedepends = python-babel
-	makedepends = python-speaklater
-	makedepends = python-jinja
 	makedepends = python-sphinx
 	makedepends = python-setuptools
-	makedepends = python2-flask
-	makedepends = python2-babel
-	makedepends = python2-speaklater
-	makedepends = python2-jinja
-	makedepends = python2-sphinx
-	makedepends = python2-setuptools
-	source = python-flask-babelex::git+https://github.com/mrjoes/flask-babelex#commit=d6993064993635ace5af98cbf5368dca593603db
-	sha512sums = SKIP
-
-pkgname = python-flask-babelex
 	depends = python
 	depends = python-flask
 	depends = python-babel
 	depends = python-speaklater
 	depends = python-jinja
+	source = python-flask-babelex::git+https://github.com/mrjoes/flask-babelex#commit=d6993064993635ace5af98cbf5368dca593603db
+	sha512sums = SKIP
 
-pkgname = python2-flask-babelex
-	depends = python2
-	depends = python2-flask
-	depends = python2-babel
-	depends = python2-speaklater
-	depends = python2-jinja
+pkgname = python-flask-babelex
 
