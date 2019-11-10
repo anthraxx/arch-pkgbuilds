@@ -8,15 +8,10 @@ pkgbase = python-sshtunnel
 	checkdepends = python-pytest
 	checkdepends = python-mock
 	checkdepends = openssh
-	checkdepends = python2-pytest
-	checkdepends = python2-mock
 	makedepends = git
 	makedepends = python-paramiko
 	makedepends = python-sphinx
 	makedepends = python-setuptools
-	makedepends = python2-paramiko
-	makedepends = python2-sphinx
-	makedepends = python2-setuptools
 	source = python-sshtunnel::git+https://github.com/pahaz/sshtunnel#commit=4461abe9037ce0b86cd6aaaaeeebe27a97ce58ca
 	sha512sums = SKIP
 
@@ -29,8 +24,4 @@ pkgname = sshtunnel
 pkgname = python-sshtunnel
 	depends = python
 	depends = python-paramiko
-
-pkgname = python2-sshtunnel
-	depends = python2
-	depends = python2-paramiko
 
