@@ -6,14 +6,9 @@ pkgbase = python-hexdump
 	arch = any
 	license = Public Domain
 	checkdepends = python-tox
-	makedepends = python
-	makedepends = python2
+	depends = python
 	source = python-hexdump-3.3.tar.bz2::https://bitbucket.org/techtonik/hexdump/get/3.3.tar.bz2
 	sha512sums = b8f9c2c7ef69cf52572434c1edb529b7bd61e66cc62f1fb8ff32bcf5899502607552a9a1c50deed2e02f3b638744d509dedf588fa1176d79d4c9ec198f650e4d
 
 pkgname = python-hexdump
-	depends = python
-
-pkgname = python2-hexdump
-	depends = python2
 
