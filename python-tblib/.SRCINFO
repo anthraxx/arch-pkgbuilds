@@ -6,16 +6,11 @@ pkgbase = python-tblib
 	arch = any
 	license = BSD
 	makedepends = python-setuptools
-	makedepends = python2-setuptools
 	makedepends = python-six
-	makedepends = python2-six
+	depends = python-six
 	source = https://github.com/ionelmc/python-tblib/archive/v1.5.0/python-tblib-1.5.0.tar.gz
 	sha256sums = 583527ec61e2abb949b702d46dd7059354975c18a2ecc45130e4938905df258c
 	sha512sums = 33b6160401d3593e3b836cd9468ddf7246c84f77eb01118788ad4dc3f3af32c1796d09fa9347c956da1fcc4c48245b794247a28c900072f35564eb8abfdc3275
 
 pkgname = python-tblib
-	depends = python-six
-
-pkgname = python2-tblib
-	depends = python2-six
 
