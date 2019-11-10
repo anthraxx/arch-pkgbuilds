@@ -1,41 +1,22 @@
 pkgbase = python-recommonmark
 	pkgdesc = Markdown parser for docutils
-	pkgver = 0.4.0.133.c410abb
-	pkgrel = 6
+	pkgver = 0.6.0.194.48f9d1a
+	pkgrel = 1
 	url = https://github.com/readthedocs/recommonmark
 	arch = any
 	license = MIT
 	checkdepends = python-pytest
-	checkdepends = python2-pytest
 	makedepends = git
-	makedepends = python-setuptools
-	makedepends = python-commonmark
-	makedepends = python-docutils
-	makedepends = python-sphinx
-	makedepends = python2-setuptools
-	makedepends = python2-commonmark
-	makedepends = python2-docutils
-	makedepends = python2-sphinx
-	source = python-recommonmark::git+https://github.com/readthedocs/recommonmark#commit=c410abb565a3c4ad4de0ce204ab2fa2db8031cf1
-	source = recommonmark-disable-math-on-builds.patch
-	source = recommonmark-sphinx-refdomain-fix.patch
-	source = recommonmark-fix-mdnode-parent.patch
-	source = recommonmark-sphinx-2.patch
-	sha512sums = SKIP
-	sha512sums = 66ef07ac21643b913c8ee551c7c71753fcb6442712e4fb11b84ea5f34265715471759b2c5a1badc1e299ca6aa831713b12284144801616349b2db61738607e8a
-	sha512sums = df2440e7ce927ca6adc31e07f9e375fa4643bbe1c33a34821d3d3e5d9d4b2ae8bbdf7412a8f2c64d343c9004f54a4a650fc59e461b3b1eb1ab11c1dec02422fd
-	sha512sums = 89745108ad78349ace30582cb28f8693edc109c97e94182a37afe5219bec8988bb785d77594e34306facf0eaa4e640c0bdf4e53249d6154094222e58df9498e9
-	sha512sums = cff81ff659acd39557fbaf5c2b85a8c4f2b5ff0f950a2ecb10131f2673582173686c3cf46c7c8811d01f9ebab4675dfbcc097612005504121978f2957001ddf6
-
-pkgname = python-recommonmark
 	depends = python-docutils
 	depends = python-commonmark
 	depends = python-setuptools
 	depends = python-sphinx
+	source = python-recommonmark::git+https://github.com/readthedocs/recommonmark#commit=48f9d1a6848c77a104854f556c053f3ed3c2c354
+	source = recommonmark-disable-math-on-builds.patch
+	source = recommonmark-sphinx-2.patch
+	sha512sums = SKIP
+	sha512sums = 66ef07ac21643b913c8ee551c7c71753fcb6442712e4fb11b84ea5f34265715471759b2c5a1badc1e299ca6aa831713b12284144801616349b2db61738607e8a
+	sha512sums = 608c44a861f589964ffd30818917dd46aa0df2a249d74cf54f1dbd2e595dc3e1914357df563608d0c3f10bc3d387aece36d69178161c9d4fa824224a72c367e5
 
-pkgname = python2-recommonmark
-	depends = python2-docutils
-	depends = python2-commonmark
-	depends = python2-setuptools
-	depends = python2-sphinx
+pkgname = python-recommonmark
 
