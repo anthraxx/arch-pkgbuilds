@@ -7,22 +7,11 @@ pkgbase = python-pysmi
 	license = BSD
 	checkdepends = python-pytest
 	checkdepends = python-pysnmp
-	checkdepends = python2-pytest
-	checkdepends = python2-pysnmp
-	makedepends = python
 	makedepends = python-sphinx
-	makedepends = python-ply
-	makedepends = python2
-	makedepends = python2-sphinx
-	makedepends = python2-ply
+	depends = python
+	depends = python-ply
 	source = pysmi-0.3.4.tar.gz::https://github.com/etingof/pysmi/archive/v0.3.4.tar.gz
 	sha512sums = e6be1f0117f069cb9d67bb0dbc1cd8fa37b40865094ee33a60f794f6721cef14a72326fffd2fc43f22d6a959daf2d42147270421f86a57bde46081b5839880bf
 
 pkgname = python-pysmi
-	depends = python
-	depends = python-ply
-
-pkgname = python2-pysmi
-	depends = python2
-	depends = python2-ply
 
