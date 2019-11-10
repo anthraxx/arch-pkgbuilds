@@ -8,15 +8,9 @@ pkgbase = python-wtforms
 	makedepends = python-setuptools
 	makedepends = python-babel
 	makedepends = python-sphinx
-	makedepends = python2-setuptools
-	makedepends = python2-babel
-	makedepends = python2-sphinx
+	depends = python
 	source = python-wtforms-2.2.1.tar.gz::https://github.com/wtforms/wtforms/archive/2.2.1.tar.gz
 	sha512sums = db989ff5352d6834fc51c0ed208de11c12a2c0ad90f73dfeaa8f9995edc7f840deb427f1ffc6167f1c24e44f2137ecbb27ee1113258a6c55ed256a603657ef97
 
 pkgname = python-wtforms
-	depends = python
-
-pkgname = python2-wtforms
-	depends = python2
 
