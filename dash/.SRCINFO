@@ -1,7 +1,7 @@
 pkgbase = dash
 	pkgdesc = POSIX compliant shell that aims to be as small as possible
 	pkgver = 0.5.10.2
-	pkgrel = 1
+	pkgrel = 2
 	url = http://gondor.apana.org.au/~herbert/dash/
 	install = dash.install
 	arch = x86_64
