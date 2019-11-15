@@ -1,7 +1,7 @@
 pkgbase = licenses
 	pkgdesc = Standard licenses distribution package
 	pkgver = 20191011
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.archlinux.org/
 	arch = any
 	license = custom:none
