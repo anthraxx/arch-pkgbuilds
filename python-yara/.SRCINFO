@@ -1,6 +1,6 @@
 pkgbase = python-yara
 	pkgdesc = Tool aimed at helping malware researchers to identify and classify malware samples
-	pkgver = 3.10.0
+	pkgver = 3.11.0
 	pkgrel = 1
 	url = https://github.com/VirusTotal/yara-python
 	arch = x86_64
