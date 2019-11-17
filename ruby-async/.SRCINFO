@@ -1,18 +1,18 @@
 pkgbase = ruby-async
 	pkgdesc = Composable asynchronous I/O
-	pkgver = 1.10.3
-	pkgrel = 2
+	pkgver = 1.23.0
+	pkgrel = 1
 	url = https://github.com/socketry/async
 	arch = any
 	license = MIT
+	makedepends = ruby-rdoc
 	depends = ruby
 	depends = ruby-nio4r
 	depends = ruby-timers
-	depends = ruby-rdoc
 	options = !emptydirs
-	source = ruby-async-1.10.3.tar.gz::https://github.com/socketry/async/archive/v1.10.3.tar.gz
-	sha256sums = a89b42e297c1e0f20a33fa2a10ade0e6f0e3d88122af62433bf6593f578013f8
-	sha512sums = d7d6db903145c1587caeb4d336057033908bc138efa3f171d709e141e8c58c405bb885ec6f25ac7e76b5f35327a114dbc95b4b19f262b84d21199690d9262a19
+	source = https://github.com/socketry/async/archive/v1.23.0/ruby-async-1.23.0.tar.gz
+	sha256sums = df38555fc8e7e818d5681ef351a5a333b07e6c838648b4d6607bdc8e1baead7c
+	sha512sums = 0c7a8fd953357c1b55f61b80757975e6b3b605d7163f060e41c6bcfca40012c5f86611604d71d99f14b1256a6cb0c4c77c01eff2b6cbf1de5b1548b02a0f2ed3
 
 pkgname = ruby-async
 
