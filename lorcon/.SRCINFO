@@ -1,0 +1,15 @@
+pkgbase = lorcon
+	pkgdesc = Generic library for injecting 802.11 frames
+	pkgver = 2.0.0.20091101
+	pkgrel = 3
+	epoch = 1
+	url = http://802.11ninja.net/
+	arch = x86_64
+	license = GPL
+	makedepends = git
+	depends = libpcap
+	source = git://github.com/lunixbochs/lorcon#commit=10d5c825aa
+	sha512sums = SKIP
+
+pkgname = lorcon
+
