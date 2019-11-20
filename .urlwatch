@@ -1662,5 +1662,8 @@ command: 'git ls-remote --tags https://github.com/scrooloose/nerdtree'
 ---
 name: 'vim-airline'
 command: 'git ls-remote --tags https://github.com/vim-airline/vim-airline'
+---
+name: 'lorcon'
+command: 'git ls-remote --tags https://github.com/kismetwireless/lorcon'
 
 # vim: ft=yaml
