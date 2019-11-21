@@ -1665,5 +1665,8 @@ command: 'git ls-remote --tags https://github.com/vim-airline/vim-airline'
 ---
 name: 'lorcon'
 command: 'git ls-remote --tags https://github.com/kismetwireless/lorcon'
+---
+name: 'disorderfs'
+command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/disorderfs.git'
 
 # vim: ft=yaml
