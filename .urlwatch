@@ -1668,5 +1668,8 @@ command: 'git ls-remote --tags https://github.com/kismetwireless/lorcon'
 ---
 name: 'disorderfs'
 command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/disorderfs.git'
+---
+name: 'reprotest'
+command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/reprotest.git
 
 # vim: ft=yaml
