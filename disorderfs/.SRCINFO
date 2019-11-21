@@ -1,0 +1,15 @@
+pkgbase = disorderfs
+	pkgdesc = FUSE filesystem that introduces non-determinism
+	pkgver = 0.5.5
+	pkgrel = 1
+	url = https://reproducible-builds.org/
+	arch = x86_64
+	license = GPL3
+	makedepends = asciidoc
+	makedepends = git
+	depends = fuse
+	source = git+https://salsa.debian.org/reproducible-builds/disorderfs.git#commit=984eac8879049d84896895e044ddc5e6c3948061
+	sha512sums = SKIP
+
+pkgname = disorderfs
+

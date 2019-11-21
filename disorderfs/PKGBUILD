@@ -1,0 +1,26 @@
+# Maintainer: Jelle van der Waa <jelle@archlinux.org>
+# Contributor: Mike Swanson <mikeonthecomputer@gmail.com>
+
+pkgname=disorderfs
+pkgver=0.5.5
+pkgrel=1
+pkgdesc="FUSE filesystem that introduces non-determinism"
+arch=('x86_64')
+url="https://reproducible-builds.org/"
+license=('GPL3')
+depends=('fuse')
+makedepends=('asciidoc' 'git')
+source=("git+https://salsa.debian.org/reproducible-builds/disorderfs.git#commit=984eac8879049d84896895e044ddc5e6c3948061")
+sha512sums=('SKIP')
+
+build() {
+  cd $pkgname
+
+  make
+}
+
+package() {
+  cd $pkgname
+
+  make DESTDIR="$pkgdir/" PREFIX=/usr install
+}
