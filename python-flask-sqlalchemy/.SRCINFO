@@ -8,27 +8,15 @@ pkgbase = python-flask-sqlalchemy
 	checkdepends = python-pytest
 	checkdepends = python-blinker
 	checkdepends = python-mock
-	checkdepends = python2-pytest
-	checkdepends = python2-blinker
-	checkdepends = python2-mock
 	makedepends = python-setuptools
-	makedepends = python-flask
-	makedepends = python-sqlalchemy
-	makedepends = python2-setuptools
-	makedepends = python2-flask
-	makedepends = python2-sqlalchemy
 	makedepends = python-sphinx
 	makedepends = python-pallets-sphinx-themes
 	makedepends = python-sphinx-issues
+	depends = python-flask
+	depends = python-sqlalchemy
 	source = python-flask-sqlalchemy-2.4.0.tar.gz::https://github.com/mitsuhiko/flask-sqlalchemy/archive/2.4.0.tar.gz
 	sha256sums = bf8c585851e6c8971751a6d23fa7a3f9bf26d8a4b0c1eff08583224a7ed62b2f
 	sha512sums = 4a5f247527ea07d58004d532365c955364c0999a0214b63fa1a96f3baf17e86e4a7a0d8f911e83fe965e5e9b23427c315ecfa83634379bf70c7b028f526518d5
 
 pkgname = python-flask-sqlalchemy
-	depends = python-flask
-	depends = python-sqlalchemy
-
-pkgname = python2-flask-sqlalchemy
-	depends = python2-flask
-	depends = python2-sqlalchemy
 
