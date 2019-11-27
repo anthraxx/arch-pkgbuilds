@@ -1,17 +1,23 @@
 pkgbase = ruby-gpgme
 	pkgdesc = Ruby interface to GnuPG Made Easy (GPGME)
-	pkgver = 2.0.16
-	pkgrel = 2
+	pkgver = 2.0.19
+	pkgrel = 1
 	url = https://github.com/ueno/ruby-gpgme
 	arch = x86_64
 	license = GPL2
 	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-bundler
+	makedepends = ruby-yard
 	depends = ruby
 	depends = ruby-mini_portile2
+	depends = gpgme
+	depends = libgpg-error
+	depends = libassuan
 	options = !emptydirs
-	source = ruby-gpgme-2.0.16.tar.gz::https://github.com/ueno/ruby-gpgme/archive/v2.0.16.tar.gz
-	sha256sums = e2712cb0a94dea827023afd63e1fa273d9204fc3685f351b926404b1beed1fca
-	sha512sums = 719be5387fa7077b25f2f36d334ee4a1a830cd00e69952880cd4f829a2182bd98edcab25a805485aba4f3def415be170feaaf577589195d27deef55cdbd152f3
+	source = https://github.com/ueno/ruby-gpgme/archive/v2.0.19/ruby-gpgme-2.0.19.tar.gz
+	sha256sums = 8a1a832a73bc8cb45207cf0b964b1f78c1698c5f76ca611fb2c118cd8ec5d325
+	sha512sums = a9fea9ad33e423ede54f64e7804b6a940bec9a120be3d612a1985abd06c030441091ba397144cd5b484fcfee26b0885303dcd4d954aefef0ae02575b95f12a36
 
 pkgname = ruby-gpgme
 
