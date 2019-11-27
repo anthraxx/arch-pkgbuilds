@@ -1,21 +1,25 @@
 pkgbase = impacket
 	pkgdesc = Collection of classes for working with network protocols
-	pkgver = 0.9.19
+	pkgver = 0.9.20
 	pkgrel = 1
 	url = https://github.com/CoreSecurity/impacket
 	arch = any
 	license = Apache
-	checkdepends = python2-pytest
-	checkdepends = python2-pytest-runner
-	depends = python2-crypto
-	depends = python2-pyasn1
-	depends = python2-pcapy
-	depends = python2-pyopenssl
-	depends = python2-six
-	depends = python2-ldap3
-	depends = python2-flask
-	source = impacket-0.9.19.tar.gz::https://github.com/CoreSecurity/impacket/archive/impacket_0_9_19.tar.gz
-	sha512sums = 92866065e8d30fc0c586cbb073836cbdaa9e685b386588570f74d1f59aa8e6182b67b1ba11d77465a52063baa8f0da76080030bfc71ce2d67dc3bb03abe3e352
+	checkdepends = python-pytest
+	checkdepends = python-pytest-runner
+	checkdepends = python-cryptography
+	depends = python
+	depends = python-pycryptodome
+	depends = python-pycryptodomex
+	depends = python-pyasn1
+	depends = python-pcapy
+	depends = python-pyopenssl
+	depends = python-six
+	depends = python-ldap3
+	depends = python-flask
+	source = https://github.com/CoreSecurity/impacket/archive/impacket_0_9_20.tar.gz
+	sha256sums = ccb9dc1accd306d86c1949388c8673ceb5304bfc5a2b3f868876b350d103045d
+	sha512sums = 14e97d03352b8a86701f0f6cdd688b8a7b9952eef5bf3ed9b984fbec6ee60b427c7d8f4200ddc0ae44279c78db30b6a2a48330243da80de25f7d9541a202e731
 
 pkgname = impacket
 
