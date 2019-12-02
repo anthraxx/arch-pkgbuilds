@@ -1,6 +1,6 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
-	pkgver = 2019.2.4
+	pkgver = 2019.3
 	pkgrel = 1
 	epoch = 2
 	url = https://www.jetbrains.com/idea/
@@ -19,9 +19,9 @@ pkgbase = intellij-idea-community-edition
 	depends = libdbusmenu-glib
 	backup = usr/share/idea/bin/idea.vmoptions
 	backup = usr/share/idea/bin/idea64.vmoptions
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/192.7142.36
-	source = idea-android::git+https://github.com/JetBrains/android#tag=idea/192.7142.36
-	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#tag=idea/192.7142.36
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/193.5233.102
+	source = idea-android::git+https://github.com/JetBrains/android#tag=idea/193.5233.102
+	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#tag=idea/193.5233.102
 	source = idea-build.patch
 	source = idea.desktop
 	source = idea.sh
