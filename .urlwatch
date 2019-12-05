@@ -1670,6 +1670,9 @@ name: 'disorderfs'
 command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/disorderfs.git'
 ---
 name: 'reprotest'
-command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/reprotest.git
+command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/reprotest.git'
+---
+name: 'java-atk-wrapper'
+command: 'git ls-remote --tags https://gitlab.gnome.org/GNOME/java-atk-wrapper.git'
 
 # vim: ft=yaml
