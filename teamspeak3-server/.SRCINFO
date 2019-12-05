@@ -1,12 +1,13 @@
 pkgbase = teamspeak3-server
 	pkgdesc = TeamSpeak is software for quality voice communication via the Internet (server)
-	pkgver = 3.10.0
+	pkgver = 3.10.2
 	pkgrel = 1
 	url = https://www.teamspeak.com/en/
 	install = teamspeak3-server.install
 	arch = x86_64
 	license = custom
 	depends = glibc
+	depends = gcc-libs
 	optdepends = mariadb-connector-c: for MariaDB backend
 	backup = etc/teamspeak3-server.ini
 	backup = etc/tsdns_settings.ini
@@ -16,8 +17,8 @@ pkgbase = teamspeak3-server
 	sha256sums = 3739925771a878ded7b4e30c70fa47ea9aa20c2e10a222612e33128637534537
 	sha256sums = 73c38a5e70caf042a5997ae831e33be7ba83e5c31ccca01c257c929569149acd
 	sha256sums = 98e3331a803ce0ff85500a3908a61fe105d47ea3c31affc2f605d8385315ca5b
-	source_x86_64 = https://files.teamspeak-services.com/releases/server/3.10.0/teamspeak3-server_linux_amd64-3.10.0.tar.bz2
-	sha256sums_x86_64 = 5d0ade1cc3802cae75cf2b1d22b14163154a0d1d77d5aded7e56c826d023d6dd
+	source_x86_64 = https://files.teamspeak-services.com/releases/server/3.10.2/teamspeak3-server_linux_amd64-3.10.2.tar.bz2
+	sha256sums_x86_64 = d4262f0d51e682c0c645b36c196ad32dae99a1345420cfad00d52f2af109870d
 
 pkgname = teamspeak3-server
 
