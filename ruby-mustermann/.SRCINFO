@@ -1,7 +1,7 @@
 pkgbase = ruby-mustermann
 	pkgdesc = Your personal string matching expert
 	pkgver = 1.0.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sinatra/mustermann
 	arch = any
 	license = MIT
