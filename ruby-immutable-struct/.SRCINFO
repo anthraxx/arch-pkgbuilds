@@ -1,7 +1,7 @@
 pkgbase = ruby-immutable-struct
 	pkgdesc = Create struct-like classes that don't have setters, but have an awesome constructor
 	pkgver = 2.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/stitchfix/immutable-struct
 	arch = any
 	license = MIT
