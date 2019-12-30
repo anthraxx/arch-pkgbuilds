@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 131
+	pkgver = 134
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -120,7 +120,7 @@ pkgbase = diffoscope
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
 	optdepends = zstd: zst compression
-	source = diffoscope-131::git+https://salsa.debian.org/reproducible-builds/diffoscope.git?signed#tag=131
+	source = diffoscope-134::git+https://salsa.debian.org/reproducible-builds/diffoscope.git?signed#tag=134
 	validpgpkeys = C2FE4BD271C139B86C533E461E953E27D4311E58
 	sha512sums = SKIP
 
