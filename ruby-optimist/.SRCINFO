@@ -1,7 +1,7 @@
 pkgbase = ruby-optimist
 	pkgdesc = Commandline option parser for Ruby that just gets out of your way
 	pkgver = 3.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ManageIQ/optimist
 	arch = any
 	license = MIT
