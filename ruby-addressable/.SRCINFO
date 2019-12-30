@@ -1,7 +1,7 @@
 pkgbase = ruby-addressable
 	pkgdesc = URI Implementation
 	pkgver = 2.7.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sporkmonger/addressable
 	arch = any
 	license = Apache
