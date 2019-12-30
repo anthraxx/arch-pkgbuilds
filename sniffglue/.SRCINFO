@@ -1,6 +1,6 @@
 pkgbase = sniffglue
 	pkgdesc = Secure multithreaded packet sniffer
-	pkgver = 0.9.0
+	pkgver = 0.10.1
 	pkgrel = 1
 	url = https://github.com/kpcyrd/sniffglue
 	arch = x86_64
@@ -9,15 +9,19 @@ pkgbase = sniffglue
 	depends = libpcap
 	depends = libseccomp
 	backup = etc/sniffglue.conf
-	source = https://github.com/kpcyrd/sniffglue/archive/v0.9.0/sniffglue-0.9.0.tar.gz
+	source = https://github.com/kpcyrd/sniffglue/archive/v0.10.1/sniffglue-0.10.1.tar.gz
+	source = https://github.com/kpcyrd/sniffglue/releases/download/v0.10.1/sniffglue-0.10.1.tar.gz.asc
 	source = sniffglue-sysuser.conf
 	source = sniffglue.conf
-	sha256sums = 47f800615b6c316d23e43ff9056fa808160c35aea29cf5f57c2629f0cb267e50
-	sha256sums = 531e051488e57ed2f5bf5d8289fa5562aa0ca73783838c11ec13c043dc268d02
-	sha256sums = a2e6cfa918a4e354b5c4c4c84867f3bb142833fde4acab545e13c8e89864004c
-	sha512sums = 915652edd2a9a8f21acae6e378f8e86ccfe2a4996d8c54d98790d96b717d7baf4c7c506a30f38ffcd52302273cb9a1ac203bd8f4ddc07b666103ac6f8de96113
+	validpgpkeys = 64B13F7117D6E07D661BBCE0FE763A64F5E54FD6
+	sha512sums = 8009e80550a9386422669d6782f6b0a2647b7f9c69d3846c7d0852308904187cf817352db0696bae8913b69a37498b600c1c4d7a34647c022392d63d579fe7c3
+	sha512sums = SKIP
 	sha512sums = 2595eb4856bc7a59c078255bf2aeeaa44a4f6a69b37cc8982e5d70a8ef14cb29b83b4d191ab3baabfbcf209f3effd232c10ec5baabc6ce52990969526d6fda98
 	sha512sums = 66e6b87e832ba8424334d24e3457a214e60e67c731471098329d0ca54c574518f7856ba780bb6bffde53bdefe2c8f789a242138ae67e2fef3e562fa083b362b1
+	b2sums = 4409e35fcba3aa74cf91c52711b7fdc706112271707689226b561c40d7922615ce8d203024a551dea545351db4eb9d17d25c29781f32d1f7f461ab43095e3c9e
+	b2sums = SKIP
+	b2sums = 69f5ba2cddca6878b776714c5015c1573df31fc4958432291baa4537349e5bdd1ab4307fd1c00bc20484213c118ecfc2ccfab88b942c0311e4d72872bf4eeeda
+	b2sums = ad68689ed08e882f734a613300c14ddfb6d84656dec8dbbed818302b0fe69907f7fc76306f49c0bac019acf4dcb46fec984e7194b16a481f7cc4636ca9aaf303
 
 pkgname = sniffglue
 
