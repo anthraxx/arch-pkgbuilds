@@ -1,6 +1,6 @@
 pkgbase = ctags
 	pkgdesc = Generates an index file of language objects found in source files
-	pkgver = r20190522+g3fdf28bc
+	pkgver = r20200106+ga3c87ab5
 	pkgrel = 1
 	epoch = 1
 	url = https://ctags.io/
@@ -13,7 +13,7 @@ pkgbase = ctags
 	depends = libyaml
 	depends = libseccomp
 	provides = universal-ctags
-	source = git+https://github.com/universal-ctags/ctags#commit=3fdf28bcd3aac31ee226f588f7d2ce32659d2637
+	source = git+https://github.com/universal-ctags/ctags#commit=a3c87ab5232ffb9d047b187d6fd3852bfd12b197
 	sha512sums = SKIP
 
 pkgname = ctags
