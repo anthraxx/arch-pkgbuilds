@@ -1,0 +1,23 @@
+pkgbase = haskell-alsa-mixer
+	pkgdesc = Bindings to the ALSA simple mixer API
+	pkgver = 0.3.0
+	pkgrel = 3
+	url = https://hackage.haskell.org/package/alsa-mixer
+	arch = x86_64
+	license = BSD
+	makedepends = ghc
+	makedepends = c2hs
+	depends = ghc-libs
+	depends = glibc
+	depends = gmp
+	depends = alsa-lib
+	depends = haskell-base
+	depends = haskell-unix
+	depends = haskell-alsa-core
+	depends = haskell-extensible-exceptions
+	source = https://github.com/ttuegel/alsa-mixer/archive/0.3.0/haskell-alsa-mixer-0.3.0.tar.gz
+	sha256sums = afc9aba478e37af03f38707e0bddc8a2c2f51ddc27a93bd8b81a277077f72ccf
+	sha512sums = 3977808321218a7694a59ff294664b2a9ae6e735844040adf89bf63ef75f025aada555fde6c79cbe19f4ca9c7546005de5a2b132c2fd6deef2c1a38ae555fe5f
+
+pkgname = haskell-alsa-mixer
+
