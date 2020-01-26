@@ -1,0 +1,18 @@
+pkgbase = ruby-builder
+	pkgdesc = Provide a simple way to create XML markup and data structures
+	pkgver = 3.2.4
+	pkgrel = 1
+	url = http://onestepback.org/
+	arch = any
+	license = MIT
+	checkdepends = ruby-minitest
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/tenderlove/builder/archive/v3.2.4/ruby-builder-v3.2.4.tar.gz
+	sha512sums = 0aed47b4f0855510f446f0a500929fe59025e3d178036c627c04c7754f49e1d8f2893b1ec16b881f6f93d364c9e17f281f7a6742c6dd9c4fcd9cec938cbb1684
+	b2sums = 9ff3a96e1c918fb98026ac897f2b7d971249dad9b62936792e2c4bd2e249bc702311bd1ecbd35b0c9e28bc19b720fe26703c220527061fc4c2c57543f8d0568b
+
+pkgname = ruby-builder
+
