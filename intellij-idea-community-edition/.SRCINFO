@@ -1,13 +1,12 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
-	pkgver = 2019.3
+	pkgver = 2019.3.2
 	pkgrel = 1
 	epoch = 2
 	url = https://www.jetbrains.com/idea/
 	arch = x86_64
 	license = Apache
 	makedepends = ant
-	makedepends = kotlin
 	makedepends = git
 	makedepends = java8-openjfx
 	makedepends = java-environment=8
@@ -19,16 +18,16 @@ pkgbase = intellij-idea-community-edition
 	depends = libdbusmenu-glib
 	backup = usr/share/idea/bin/idea.vmoptions
 	backup = usr/share/idea/bin/idea64.vmoptions
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/193.5233.102
-	source = idea-android::git+https://github.com/JetBrains/android#tag=idea/193.5233.102
-	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#tag=idea/193.5233.102
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/193.6015.39
+	source = idea-android::git+https://github.com/JetBrains/android#tag=idea/193.6015.39
+	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#tag=idea/193.6015.39
 	source = idea-build.patch
 	source = idea.desktop
 	source = idea.sh
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
-	sha256sums = 666e6128995b3470516dcda3815cd4b11102a20e0835b82446190c495f25cd25
+	sha256sums = c3beea12e932eadbd4af05f842e4134b904a309a708b0c11e0106a8acbdf859b
 	sha256sums = 049c4326b6b784da0c698cf62262b591b20abb52e0dcf869f869c0c655f3ce93
 	sha256sums = 5d4f998bec3249165b0e62b5e51e9b7fbe383bb9f1178ffefe070f2c9872eebb
 
