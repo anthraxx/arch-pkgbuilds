@@ -7,18 +7,12 @@ pkgbase = python-pcapy
 	license = Apache
 	makedepends = python
 	makedepends = python-setuptools
-	makedepends = python2
-	makedepends = python2-setuptools
 	makedepends = libpcap
-	source = https://github.com/CoreSecurity/pcapy/archive/0.11.5/python-pcapy-0.11.5.tar.gz
+	depends = python
+	depends = libpcap
+	source = https://github.com/CoreSecurity/pcapy/archive/0.11.5/-0.11.5.tar.gz
 	sha256sums = 2ff96eb65caee8a45a3ae3edb78d5b4d8debcace9dc2921aefa3be83bb0af9c6
 	sha512sums = b7b5e81ed94e828501de01758292e18888497e77acc9864421b555b59de26f233c4365093e48213b36e27a51ad887e7f4d5ce2e4fac3f2f1a3006b5b75297977
 
 pkgname = python-pcapy
-	depends = python
-	depends = libpcap
-
-pkgname = python2-pcapy
-	depends = python2
-	depends = libpcap
 
