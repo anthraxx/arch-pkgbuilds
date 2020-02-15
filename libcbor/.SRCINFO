@@ -1,14 +1,17 @@
 pkgbase = libcbor
-	pkgdesc = A C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
+	pkgdesc = C library for parsing and generating CBOR, the general-purpose schema-less binary data format
 	pkgver = 0.5.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/PJK/libcbor
-	arch = i686
 	arch = x86_64
 	license = MIT
 	makedepends = cmake
-	source = libcbor-0.5.0.zip::https://github.com/PJK/libcbor/archive/v0.5.0.zip
-	sha256sums = 2b9ead7d7b4b9213b30cc43f1da8e4006276b640e82321e37590aae3d7a9aa9b
+	makedepends = cmocka
+	depends = glibc
+	provides = libcbor.so
+	source = https://github.com/PJK/libcbor/archive/v0.5.0/libcbor-0.5.0.tar.gz
+	sha256sums = 9bbec94bb385bad3cd2f65482e5d343ddb97e9ffe261123ea0faa3bfea51d320
+	b2sums = 57e15e648159e7858d9d57a8b4cb7f3682f8153248610c9a3385cf9cbdea8babaf81d596b25d44bf6d59c75de23e76cce462fa7860b294019f46636726206d5a
 
 pkgname = libcbor
 
