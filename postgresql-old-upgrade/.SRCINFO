@@ -1,7 +1,7 @@
 pkgbase = postgresql-old-upgrade
 	pkgdesc = PostgreSQL build for migrating between major versions with pg_upgrade
-	pkgver = 11.6
-	pkgrel = 2
+	pkgver = 11.7
+	pkgrel = 1
 	url = https://www.postgresql.org/
 	arch = x86_64
 	license = custom:PostgreSQL
@@ -23,9 +23,9 @@ pkgbase = postgresql-old-upgrade
 	optdepends = python: for PL/Python 3 support
 	optdepends = perl: for PL/Perl support
 	optdepends = tcl: for PL/Tcl support
-	source = https://ftp.postgresql.org/pub/source/v11.6/postgresql-11.6.tar.bz2
-	sha256sums = 49924f7ff92965fdb20c86e0696f2dc9f8553e1563124ead7beedf8910c13170
-	sha512sums = de6833c0df8dbac7bc498ac573dc4c3645070d9bbdd6b5d89db3ef41e86e7fc19d5e6450aa46ee2a1392d86c33acf6b9364b2863caac49f45351a46647feecbd
+	source = https://ftp.postgresql.org/pub/source/v11.7/postgresql-11.7.tar.bz2
+	sha256sums = 324ae93a8846fbb6a25d562d271bc441ffa8794654c5b2839384834de220a313
+	sha512sums = 32c7ace228f9895241ce0d925fbfc60c0cd39f4cd35368fb10dc7db046151ffd59a9895b4c30a529627f0103051e84b4992ed60312cccd292489f3037076ca1e
 
 pkgname = postgresql-old-upgrade
 
