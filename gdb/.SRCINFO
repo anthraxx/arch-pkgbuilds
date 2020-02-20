@@ -11,6 +11,7 @@ pkgbase = gdb
 	makedepends = ncurses
 	makedepends = expat
 	makedepends = xz
+	makedepends = source-highlight
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.1.tar.xz
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.1.tar.xz.sig
 	validpgpkeys = F40ADB902B24264AA42E50BF92EDB04BFF325CF3
@@ -22,6 +23,7 @@ pkgname = gdb
 	depends = expat
 	depends = xz
 	depends = mpfr
+	depends = source-highlight
 	depends = gdb-common=9.1
 	backup = etc/gdb/gdbinit
 
