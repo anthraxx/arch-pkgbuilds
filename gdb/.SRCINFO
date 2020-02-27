@@ -1,7 +1,7 @@
 pkgbase = gdb
 	pkgdesc = The GNU Debugger
 	pkgver = 9.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gnu.org/software/gdb/
 	arch = x86_64
 	license = GPL3
@@ -11,6 +11,7 @@ pkgbase = gdb
 	makedepends = ncurses
 	makedepends = expat
 	makedepends = xz
+	makedepends = mpfr
 	makedepends = source-highlight
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.1.tar.xz
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.1.tar.xz.sig
