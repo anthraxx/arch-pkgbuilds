@@ -1,7 +1,7 @@
 pkgbase = caddy
 	pkgdesc = HTTP/2 Web Server with Automatic HTTPS
-	pkgver = 1.0.4
-	pkgrel = 3
+	pkgver = 1.0.5
+	pkgrel = 1
 	url = https://caddyserver.com
 	arch = x86_64
 	license = Apache
@@ -9,7 +9,7 @@ pkgbase = caddy
 	makedepends = git
 	depends = glibc
 	backup = etc/caddy/caddy.conf
-	source = git+https://github.com/caddyserver/caddy#commit=aadda6e34e5b85b04670ecf3bb096dead3da61fc?signed
+	source = git+https://github.com/caddyserver/caddy#commit=11ae1aa6b88e45b077dd97cb816fe06cd91cca67?signed
 	source = caddy-9e93bfd85c97d71ab842a4a4b555d358295c914e-index.html::https://raw.githubusercontent.com/caddyserver/dist/9e93bfd85c97d71ab842a4a4b555d358295c914e/welcome/index.html
 	source = caddy.service
 	source = caddy.tmpfiles
