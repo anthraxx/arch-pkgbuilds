@@ -1,14 +1,14 @@
 pkgbase = ropgadget
 	pkgdesc = Search gadgets in binaries to facilitate ROP exploitation for several file formats and architectures
-	pkgver = 5.7
-	pkgrel = 2
+	pkgver = 6.2
+	pkgrel = 1
 	url = http://www.shell-storm.org/project/ROPgadget
 	arch = any
 	license = GPL2
 	makedepends = python-setuptools
 	depends = python-capstone
-	source = ropgadget-5.7.tar.gz::https://github.com/JonathanSalwan/ROPgadget/archive/v5.7.tar.gz
-	sha512sums = ec7036395dd97327fbfc46df0f6d97aaf074be903caaae36757f5e02510b7bcf15c3b055caac4ee6b7c88c5c4efcebb80ec94b14d069c5743fd5b116e32acd85
+	source = ropgadget-6.2.tar.gz::https://github.com/JonathanSalwan/ROPgadget/archive/v6.2.tar.gz
+	sha512sums = 9fe04975957ebe3721e50a8db85043a760224419cd8e24fcf1b41d5595f7252b8c917315c5f79f23faa3a9650af04a6718c990ee0a91806adac12755d21dadc3
 
 pkgname = ropgadget
 
