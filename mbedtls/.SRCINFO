@@ -1,0 +1,18 @@
+pkgbase = mbedtls
+	pkgdesc = Portable cryptographic and SSL/TLS library, aka polarssl
+	pkgver = 2.16.3
+	pkgrel = 1
+	url = https://tls.mbed.org
+	arch = x86_64
+	license = Apache
+	checkdepends = python
+	depends = glibc
+	provides = polarssl
+	conflicts = polarssl
+	replaces = polarssl
+	options = staticlibs
+	source = https://tls.mbed.org/download/mbedtls-2.16.3-gpl.tgz
+	sha1sums = 03220368f76e358986cc00a842ccc824f8407f83
+
+pkgname = mbedtls
+
