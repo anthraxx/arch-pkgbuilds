@@ -1,12 +1,10 @@
 pkgbase = etherape
 	pkgdesc = Graphical network monitor for various OSI layers and protocols
 	pkgver = 0.9.18
-	pkgrel = 1
+	pkgrel = 2
 	url = http://etherape.sourceforge.net/
 	arch = x86_64
 	license = GPL2
-	makedepends = rarian
-	makedepends = gnome-doc-utils
 	makedepends = yelp-tools
 	depends = glibc
 	depends = glib2
