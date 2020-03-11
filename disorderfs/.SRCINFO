@@ -1,6 +1,6 @@
 pkgbase = disorderfs
 	pkgdesc = FUSE filesystem that introduces non-determinism
-	pkgver = 0.5.6
+	pkgver = 0.5.7
 	pkgrel = 1
 	url = https://reproducible-builds.org/
 	arch = x86_64
@@ -8,10 +8,12 @@ pkgbase = disorderfs
 	makedepends = asciidoc
 	makedepends = git
 	depends = fuse
-	source = https://reproducible-builds.org/_lfs/releases/disorderfs/disorderfs-0.5.6.tar.bz2
-	source = https://reproducible-builds.org/_lfs/releases/disorderfs/disorderfs-0.5.6.tar.bz2.asc
+	depends = gcc-libs
+	source = https://reproducible-builds.org/_lfs/releases/disorderfs/disorderfs-0.5.7.tar.bz2
+	source = https://reproducible-builds.org/_lfs/releases/disorderfs/disorderfs-0.5.7.tar.bz2.asc
 	validpgpkeys = B8BF54137B09D35CF026FE9D091AB856069AAA1C
-	sha512sums = 6909dec184bca1d37577730b66a1ad42a877527e61052b35587616a803dda5e948596cdb255826ffb5c3d88d18c59b1aa0e6acfee9219de0b8ab0ae1cc96f959
+	validpgpkeys = C2FE4BD271C139B86C533E461E953E27D4311E58
+	sha512sums = 342f21bbe9983a22c48c84ed8f883866462662171829b9eecadfa5fc3d376c6474e4f255a7ff2b9d9004af0677e5e0fc9174771e8e0bc464216824311ea3d1d9
 	sha512sums = SKIP
 
 pkgname = disorderfs
