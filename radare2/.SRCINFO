@@ -1,6 +1,6 @@
 pkgbase = radare2
 	pkgdesc = Open-source tools to disasm, debug, analyze and manipulate binary files
-	pkgver = 4.0.0
+	pkgver = 4.3.1
 	pkgrel = 1
 	url = https://radare.org
 	arch = x86_64
@@ -19,9 +19,9 @@ pkgbase = radare2
 	depends = file
 	depends = libuv
 	options = !emptydirs
-	source = https://github.com/radare/radare2/archive/4.0.0/radare2-4.0.0.tar.gz
-	sha256sums = 7621e38558917dc4b469acf2aa33d7cab6414420a0a1d205c55b9c96423e9cee
-	sha512sums = 3877088f61d8fac6a8fa12a35ef895904473e1db7e7428961eb06822ff1218338cd5b9ab16f78773413b31fec7463963b0cc3f801c661ce17cd40c8ddd423d76
+	source = https://github.com/radare/radare2/archive/4.3.1/radare2-4.3.1.tar.gz
+	sha256sums = 4abcb9c9dff24eab44d64d392e115ae774ab1ad90d04f2c983d96d7d7f9476aa
+	sha512sums = 06009dd2c75cfb2fcadd21041861f9569ff4b0b9438d1d5a1cf49ac8690ef041e18feb2445e6772acd0e217110328660e9de47db54d55c64f64764cb06988db8
 
 pkgname = radare2
 
