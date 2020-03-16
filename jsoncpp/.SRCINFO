@@ -1,6 +1,6 @@
 pkgbase = jsoncpp
 	pkgdesc = C++ library for interacting with JSON
-	pkgver = 1.9.1
+	pkgver = 1.9.2
 	pkgrel = 1
 	url = https://github.com/open-source-parsers/jsoncpp
 	arch = x86_64
@@ -12,9 +12,9 @@ pkgbase = jsoncpp
 	makedepends = python
 	makedepends = meson
 	options = staticlibs
-	source = https://github.com/open-source-parsers/jsoncpp/archive/1.9.1/jsoncpp-1.9.1.tar.gz
-	sha256sums = c7b40f5605dd972108f503f031b20186f5e5bca2b65cd4b8bd6c3e4ba8126697
-	sha512sums = 4a8352e1d32c0ba8a0aea4df1663279cb2256b334643c5b62be37dfb5951e06900ba38c010d1201511fcf7de09137d6a4b886edbb2b99160d2f62b5f4679f766
+	source = https://github.com/open-source-parsers/jsoncpp/archive/1.9.2/jsoncpp-1.9.2.tar.gz
+	sha256sums = 77a402fb577b2e0e5d0bdc1cf9c65278915cdb25171e3452c68b6da8a561f8f0
+	sha512sums = 7c7188199d62ae040d458d507ba62f0370c53f39c580760ee5485cae5c08e5ced0c9aea7c14f54dfd041999a7291e4d0f67f8ccd8b1030622c85590774688640
 
 pkgname = jsoncpp
 	depends = gcc-libs
