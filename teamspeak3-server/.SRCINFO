@@ -1,6 +1,6 @@
 pkgbase = teamspeak3-server
 	pkgdesc = TeamSpeak is software for quality voice communication via the Internet (server)
-	pkgver = 3.11.0
+	pkgver = 3.12.0
 	pkgrel = 1
 	url = https://www.teamspeak.com/en/
 	install = teamspeak3-server.install
@@ -17,8 +17,8 @@ pkgbase = teamspeak3-server
 	sha256sums = 3739925771a878ded7b4e30c70fa47ea9aa20c2e10a222612e33128637534537
 	sha256sums = 73c38a5e70caf042a5997ae831e33be7ba83e5c31ccca01c257c929569149acd
 	sha256sums = 98e3331a803ce0ff85500a3908a61fe105d47ea3c31affc2f605d8385315ca5b
-	source_x86_64 = https://files.teamspeak-services.com/releases/server/3.11.0/teamspeak3-server_linux_amd64-3.11.0.tar.bz2
-	sha256sums_x86_64 = 18c63ed4a3dc7422e677cbbc335e8cbcbb27acd569e9f2e1ce86e09642c81aa2
+	source_x86_64 = https://files.teamspeak-services.com/releases/server/3.12.0/teamspeak3-server_linux_amd64-3.12.0.tar.bz2
+	sha256sums_x86_64 = a8a65388bb1d32260d3568e7bfb7da264f58a1256799e30309589856e4b36b51
 
 pkgname = teamspeak3-server
 
