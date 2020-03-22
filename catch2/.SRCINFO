@@ -1,6 +1,6 @@
 pkgbase = catch2
 	pkgdesc = Modern, C++-native, header-only, test framework for unit-tests, TDD and BDD
-	pkgver = 2.11.1
+	pkgver = 2.11.3
 	pkgrel = 1
 	url = https://github.com/catchorg/catch2
 	arch = any
@@ -8,7 +8,7 @@ pkgbase = catch2
 	makedepends = git
 	makedepends = cmake
 	makedepends = python
-	source = catch2::git+https://github.com/catchorg/Catch2#commit=d10b9bd02e098476670f5eb0527d2c7281476e8a?signed
+	source = catch2::git+https://github.com/catchorg/Catch2#commit=255aa5f2afe1a622c97422f65ace6ca915be0d8d?signed
 	validpgpkeys = E29C46F3B8A7502860793B7DECC9C20E314B2360
 	validpgpkeys = 81E70B717FFB27AFDB45F52090BBFF120F9C087B
 	sha256sums = SKIP
