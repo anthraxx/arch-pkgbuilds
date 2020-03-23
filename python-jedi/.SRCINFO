@@ -1,31 +1,22 @@
 pkgbase = python-jedi
 	pkgdesc = Awesome autocompletion for python
-	pkgver = 0.15.1
-	pkgrel = 2
+	pkgver = 0.16.0
+	pkgrel = 1
 	url = https://github.com/davidhalter/jedi
 	arch = any
 	license = MIT
 	checkdepends = python-pytest
-	checkdepends = python2-pytest
 	checkdepends = python-parso
-	checkdepends = python2-parso
 	makedepends = git
-	makedepends = python2-setuptools
 	makedepends = python-setuptools
-	source = git+https://github.com/davidhalter/jedi#commit=005f69390c4b1a3b864e7373cfcbdaf95e65411d
-	source = git+https://github.com/davidhalter/typeshed
-	source = jedi-fix-pytest5.1.2.patch
-	sha256sums = SKIP
-	sha256sums = SKIP
-	sha256sums = a02b616a3cdd178de894abb6212f6ce86432915dc5c12cd156da043433e6b153
-
-pkgname = python2-jedi
-	pkgdesc = Awesome autocompletion for python2
-	depends = python2
-	depends = python2-parso
-
-pkgname = python-jedi
-	pkgdesc = Awesome autocompletion for python
 	depends = python
 	depends = python-parso
+	source = git+https://github.com/davidhalter/jedi#commit=18f84d3af73c0de04883c10ab8745d7efb16593b
+	source = git+https://github.com/davidhalter/typeshed
+	source = 0001-Jedi-understand-now-when-you-use-del-fixes-313.patch
+	sha256sums = SKIP
+	sha256sums = SKIP
+	sha256sums = c8ac3df187d59eb8a9ea18290a829b4b23e16b131b5580a6677d208fe8726d81
+
+pkgname = python-jedi
 
