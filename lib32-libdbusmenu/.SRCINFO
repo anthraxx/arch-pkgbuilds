@@ -1,14 +1,13 @@
 pkgbase = lib32-libdbusmenu
 	pkgdesc = Library for passing menus over DBus (32-bit)
 	pkgver = 16.04.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://launchpad.net/libdbusmenu
 	arch = x86_64
 	license = GPL3
 	license = LGPL2.1
 	license = LGPL3
 	makedepends = gnome-common
-	makedepends = gnome-doc-utils
 	makedepends = gobject-introspection
 	makedepends = lib32-gtk2
 	makedepends = lib32-gtk3
