@@ -13,8 +13,8 @@ pkgbase = jsoncpp
 	makedepends = meson
 	options = staticlibs
 	source = https://github.com/open-source-parsers/jsoncpp/archive/1.9.2/jsoncpp-1.9.2.tar.gz
-	sha256sums = 77a402fb577b2e0e5d0bdc1cf9c65278915cdb25171e3452c68b6da8a561f8f0
 	sha512sums = 7c7188199d62ae040d458d507ba62f0370c53f39c580760ee5485cae5c08e5ced0c9aea7c14f54dfd041999a7291e4d0f67f8ccd8b1030622c85590774688640
+	b2sums = 9081bf2b2599194c1c77476287e34aaeacc3c331147db79e3343eae28321e55dbfc8d74faf899912c257194030d39eac4fdb016a68290755badd1b68b0a69dd4
 
 pkgname = jsoncpp
 	depends = gcc-libs
