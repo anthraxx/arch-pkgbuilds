@@ -3,7 +3,7 @@
 # Maintainer: kpcyrd <kpcyrd[at]archlinux[dot]org>
 
 pkgname=sn0int
-pkgver=0.18.0
+pkgver=0.18.2
 pkgrel=1
 pkgdesc='Semi-automatic OSINT framework and package manager'
 url='https://github.com/kpcyrd/sn0int'
@@ -14,9 +14,9 @@ makedepends=('cargo' 'python-sphinx')
 install=sn0int.install
 source=(https://github.com/kpcyrd/${pkgname}/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz
         https://github.com/kpcyrd/${pkgname}/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz.asc)
-sha512sums=('b476be9e5593616ac6e1ee351974ada4b615c67c108e2043c7cd9efe7840efa66de739b8eaaa1e5406c43779bb83eb5ac4121412360066d83bf98895e57c5f40'
+sha512sums=('417d0cf861136942411c645151750a547a3a88f00ec00896411264e2c264db622429b8ce0e00c947fb03810a6fa2c7f39c439ac747ceeed21fdab8c9d512c6de'
             'SKIP')
-b2sums=('adc4cf4b212d4280b90f9397c6de82a0683fc0201ffbbe25f9d4542b23a78853759af2058560c0e2d1f95ae8a1ace3bbb6d59bf5c732fdaade61cc6b532c38b0'
+b2sums=('640f325ea56f5eb9dc1ac7877cf5c932f8ba56ed7c266684d906ed58b89ff993771ab25c119124e0448e976d8acb5ed49d87aa173955081be8afbb6fa06f8158'
         'SKIP')
 
 validpgpkeys=("64B13F7117D6E07D661BBCE0FE763A64F5E54FD6")
