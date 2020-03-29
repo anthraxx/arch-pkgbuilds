@@ -1,0 +1,36 @@
+pkgbase = python-flask-security-too
+	pkgdesc = Quick and simple security for Flask applications
+	pkgver = 3.3.3
+	pkgrel = 1
+	url = https://github.com/jwag956/flask-security
+	arch = any
+	license = MIT
+	makedepends = python-flask
+	makedepends = python-flask-login
+	makedepends = python-flask-mail
+	makedepends = python-flask-principal
+	makedepends = python-flask-wtf
+	makedepends = python-flask-babelex
+	makedepends = python-itsdangerous
+	makedepends = python-passlib
+	makedepends = python-sphinx
+	makedepends = python-setuptools
+	makedepends = python-pallets-sphinx-themes
+	makedepends = python-sphinx-issues
+	depends = python
+	depends = python-flask
+	depends = python-flask-login
+	depends = python-flask-mail
+	depends = python-flask-principal
+	depends = python-flask-wtf
+	depends = python-flask-babelex
+	depends = python-itsdangerous
+	depends = python-passlib
+	provides = python-flask-security
+	conflicts = python-flask-security
+	source = https://github.com/jwag956/flask-security/archive/3.3.3/python-flask-security-too-3.3.3.tar.gz
+	sha512sums = f60a242de35a65a67221b7c738935054fb6a2fc33fae6294bc66b42791729e170b65213ec8f1f860d91fe64b44de290d075853ebde512e75dac235cb582a6633
+	b2sums = e57c4e61aad6e45244efac1cae886c23bd0dcf1ff706ee687b0b123ca7b50e064ba148153864c22cd5eecdaea556ddc301c9a973b45578eea7c058dca53bd406
+
+pkgname = python-flask-security-too
+
