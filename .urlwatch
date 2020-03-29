@@ -1192,6 +1192,9 @@ command: 'curl https://miniupnp.tuxfamily.org/files/ 2>/dev/null|grep .tar|tr "<
 name: 'libupnp (sourceforge)'
 command: 'curl "https://sourceforge.net/projects/pupnp/rss?path=/pupnp" 2>/dev/null|grep link|tr "/" "\n"|grep -E "\\.(zip|tar|tgz|xz|bz2)"'
 ---
+name: 'libupnp (github)'
+command: 'git ls-remote --tags https://github.com/pupnp/pupnp'
+---
 name: 'ncrack (github)'
 command: 'git ls-remote --tags https://github.com/nmap/ncrack'
 ---
@@ -1246,8 +1249,8 @@ command: 'curl https://sourceforge.net/projects/bftpd/files/bftpd/ 2>/dev/null|g
 name: 'async_generator (github)'
 command: 'git ls-remote --tags https://github.com/python-trio/async_generator'
 ---
-name: 'openjdk 12'
-command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk12u/raw-file/default/.hgtags 2>/dev/null'
+name: 'openjdk 14'
+command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk14u/raw-file/default/.hgtags 2>/dev/null'
 ---
 name: 'openjdk 11'
 command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk11u/raw-file/default/.hgtags 2>/dev/null'
@@ -1501,6 +1504,9 @@ command: 'git ls-remote https://github.com/pahaz/sshtunnel'
 name: 'python-flask-security'
 command: 'git ls-remote --tags https://github.com/mattupstate/flask-security'
 ---
+name: 'python-flask-security-too'
+command: 'git ls-remote --tags https://github.com/jwag956/flask-security'
+---
 name: 'python-flask-babelex'
 command: 'git ls-remote https://github.com/mrjoes/flask-babelex'
 ---
@@ -1674,5 +1680,65 @@ command: 'git ls-remote --tags https://salsa.debian.org/reproducible-builds/repr
 ---
 name: 'java-atk-wrapper'
 command: 'git ls-remote --tags https://gitlab.gnome.org/GNOME/java-atk-wrapper.git'
+---
+name: 'haskell-alsa-core'
+command: "curl https://hackage.haskell.org/package/alsa-core/alsa-core.cabal 2>/dev/null | grep -i '^Version' | sed -E 's|.+ (.+)|\1|'"
+---
+name: 'haskell-alsa-mixer'
+command: "curl https://hackage.haskell.org/package/alsa-mixer/alsa-mixer.cabal >/dev/null | grep -i '^Version' | sed -E 's|.+ (.+)|\1|'"
+---
+name: 'haskell-alsa-mixer (github)'
+command: 'git ls-remote --tags https://github.com/ttuegel/alsa-mixer'
+---
+name: 'haskell-timezone-series'
+command: "curl https://hackage.haskell.org/package/timezone-series/timezone-series.cabal 2>/dev/null | grep -i '^Version' | sed -E 's|.+ (.+)|\1|'"
+---
+name: 'haskell-timezone-olson'
+command: "curl https://hackage.haskell.org/package/timezone-olson/timezone-olson.cabal 2>/dev/null | grep -i '^Version' | sed -E 's|.+ (.+)|\1|'"
+---
+name: 'ruby-builder'
+command: 'git ls-remote --tags https://github.com/tenderlove/builder'
+---
+name: 'ruby-hashie'
+command: 'git ls-remote --tags https://github.com/hashie/hashie'
+---
+name: 'vimpager'
+command: 'git ls-remote --tags https://github.com/rkitover/vimpager'
+---
+name: 'libfido2'
+command: 'git ls-remote --tags https://github.com/Yubico/libfido2'
+---
+name: 'libcbor'
+command: 'git ls-remote --tags https://github.com/PJK/libcbor'
+---
+name: 'tcplay'
+comand: 'git ls-remote --tags https://github.com/bwalex/tc-play'
+---
+name: 'python-one_gadget'
+comand: 'git ls-remote --tags https://github.com/szk3y/one-gadget-lib'
+---
+name: 'ruby-one_gadget'
+comand: 'git ls-remote --tags https://github.com/david942j/one_gadget'
+---
+name: 'ruby-bindata'
+comand: 'git ls-remote --tags https://github.com/dmendel/bindata'
+---
+name: 'ruby-elftools'
+comand: 'git ls-remote --tags https://github.com/david942j/rbelftools'
+---
+name: 'mbedtls'
+command: 'git ls-remote --tags https://github.com/ARMmbed/mbedtls'
+---
+name: 'aliyun-cli'
+command: 'git ls-remote --tags https://github.com/aliyun/aliyun-cli'
+---
+name: 'alicloud-vault'
+command: 'git ls-remote --tags https://github.com/arafato/alicloud-vault'
+---
+name: 'filezilla'
+command: ''
+---
+name: 'libfilezilla'
+command: ''
 
 # vim: ft=yaml
