@@ -1738,6 +1738,9 @@ command: 'git ls-remote --tags https://github.com/aliyun/aliyun-cli'
 name: 'alicloud-vault'
 command: 'git ls-remote --tags https://github.com/arafato/alicloud-vault'
 ---
+name: 'aircrack-ng'
+command: 'git ls-remote --tags https://github.com/aircrack-ng/aircrack-ng'
+---
 name: 'filezilla'
 command: ''
 ---
