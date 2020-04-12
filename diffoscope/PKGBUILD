@@ -1,7 +1,7 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgname=diffoscope
-pkgver=138
+pkgver=140
 pkgrel=1
 pkgdesc='Tool for in-depth comparison of files, archives, and directories'
 url='https://diffoscope.org/'
@@ -22,6 +22,7 @@ optdepends=(
   'dtc: device tree comparing support'
   'e2fsprogs: Ext2/3/4 filesystem utilities support'
   'enjarify: Android dex file support'
+  'hdf5: Hierarchical Data Format support'
   'imagemagick: ImageMagick identify support'
   'fpc: Free Pascal utilities support'
   'java-environment: java utilities support'
@@ -56,14 +57,14 @@ optdepends=(
 )
 makedepends=('help2man' 'python-docutils' 'git')
 checkdepends=(
-  'python-pytest' 'python-jsbeautifier' 'acl' 'binutils' 'bzip2' 'cdrtools' 'cpio' 'diffutils' 'e2fsprogs' 'enjarify' 'imagemagick'
-  'java-environment=10' 'fontforge' 'gettext' 'ghc' 'gnupg' 'mono' 'mono-tools' 'poppler' 'sqlite' 'squashfs-tools' 'lz4'
-  'unzip' 'gzip' 'tar' 'tcpdump' 'vim' 'xz' 'llvm' 'colord' 'fpc' 'openssh' 'odt2txt' 'docx2txt' 'r' 'dtc' 'giflib'
+  'python-pytest' 'python-jsbeautifier' 'python-h5py' 'acl' 'binutils' 'bzip2' 'cdrtools' 'cpio' 'diffutils' 'e2fsprogs' 'enjarify'
+  'hdf5' 'imagemagick' 'java-environment=10' 'fontforge' 'gettext' 'ghc' 'gnupg' 'mono' 'mono-tools' 'poppler' 'sqlite' 'squashfs-tools'
+  'lz4' 'unzip' 'gzip' 'tar' 'tcpdump' 'vim' 'xz' 'llvm' 'colord' 'fpc' 'openssh' 'odt2txt' 'docx2txt' 'r' 'dtc' 'giflib'
   'gnumeric' 'python-progressbar' 'binwalk' 'python-argcomplete' 'zstd')
 source=(https://diffoscope.org/archive/diffoscope-${pkgver}.tar.bz2{,.asc})
-sha512sums=('7f5a6d9316c184eb01bd7d2decbbde31693a2801dd103abe5ae1c1a04036447248f6060e34c4590020b392599e5beb2a9019325015bd9fdc1451c55a24af8875'
+sha512sums=('76fda58b7e71e2df0ba0fca9ab1819b388d830e222b330fbaf372834fb862dc0414363e9fdbe0ce7fe3b5fd1c220c846678bd27d81a2dc6c3ff12afe75d1e8b1'
             'SKIP')
-b2sums=('fb71085b18028110bb170b3e255f0b84c52e35b6567118f85e4c37c3649f687893dee2970b7bd51040e15036d03cf688005a16d5e8a12bb721f2a00a1c9a19bf'
+b2sums=('874d216b0c2008cab4368ae59dd52a794949235683d0f061e221e01d53214af35395a605644535e586042623621710a0467cb8fc6711afcb3d4e854d04d4fd71'
         'SKIP')
 validpgpkeys=("C2FE4BD271C139B86C533E461E953E27D4311E58") # "Chris Lamb <chris@chris-lamb.co.uk>"
 
