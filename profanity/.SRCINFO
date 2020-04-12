@@ -1,7 +1,7 @@
 pkgbase = profanity
 	pkgdesc = Console based XMPP client
 	pkgver = 0.8.1
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = http://www.profanity.im
 	arch = x86_64
@@ -18,6 +18,8 @@ pkgbase = profanity
 	makedepends = python
 	makedepends = gtk2
 	makedepends = autoconf-archive
+	makedepends = libsignal-protocol-c
+	makedepends = libgcrypt
 	source = https://github.com/profanity-im/profanity/archive/0.8.1/profanity-0.8.1.tar.gz
 	sha256sums = 53937d9a41f73f6a138446fa108ae20f7d0bd79369832d6ab42035fe8c7e77b5
 	sha512sums = 2062d7400056c44327470d11ec55cdb73948bdfea90fcbd33866e0a6d77b387f0eac56f4dfd158a8cff90f29893bd087b0ab954d2ef47da9f575c176bcdeb9ee
@@ -33,6 +35,8 @@ pkgname = profanity
 	depends = libnotify
 	depends = gpgme
 	depends = python
+	depends = libgcrypt
+	depends = libsignal-protocol-c
 
 pkgname = profanity-gtk
 	pkgdesc = Console based XMPP client (gtk support)
@@ -46,6 +50,8 @@ pkgname = profanity-gtk
 	depends = gpgme
 	depends = python
 	depends = gtk2
+	depends = libsignal-protocol-c
+	depends = libgcrypt
 	provides = profanity
 	conflicts = profanity
 
