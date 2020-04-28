@@ -1,25 +1,27 @@
 pkgbase = smplayer
 	pkgdesc = Media player with built-in codecs that can play virtually all video and audio formats
-	pkgver = 19.10.2
+	pkgver = 20.4.2
 	pkgrel = 1
 	url = https://www.smplayer.info/
 	arch = x86_64
 	license = GPL
 	makedepends = qt5-tools
+	depends = glibc
 	depends = qt5-script
+	depends = qt5-base
 	depends = mpv
-	depends = hicolor-icon-theme
 	depends = libx11
 	depends = zlib
 	depends = gcc-libs
+	depends = hicolor-icon-theme
 	optdepends = smplayer-themes: icon themes collection
 	optdepends = smplayer-skins: skin themes collection
 	optdepends = smtube: browse and play youtube videos
 	optdepends = youtube-dl: youtube videos and streaming
 	optdepends = mplayer: alternative multimedia engine
-	source = https://downloads.sourceforge.net/smplayer/smplayer-19.10.2.tar.bz2
-	sha256sums = 37ed9f9a051077b9bc1a68f06fd4ad37fdac2802f62c28fd177e91d97d094c44
-	sha512sums = 46327a1f988cfe8fe4e04f456057c2395f5ad011513988c1ffecf5c91cf2fdedbe8095cfba15f0f61c3e1cabc7f34b78d676bce430a79fcf542d74e14a33ec62
+	source = https://downloads.sourceforge.net/smplayer/smplayer-20.4.2.tar.bz2
+	sha512sums = 03404c2e7ba00d257ab2db82fe837eb4ab314c2b32a262ad18e75b245d43f812533f7e4609a6fe335c5c2e370cfb5fac8f0b3b8917c33a22c5b84f0074039156
+	b2sums = fe5f3ce279be478f93a71c521070e2564df331c56c6ac9410e0707101b7e662a16cbe65b439a194d253d3c4f49ce8e735eb19ad9a195e0e1f5d42461d3162925
 
 pkgname = smplayer
 
