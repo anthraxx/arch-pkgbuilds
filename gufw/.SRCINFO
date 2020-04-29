@@ -1,7 +1,7 @@
 pkgbase = gufw
 	pkgdesc = Uncomplicated way to manage your Linux firewall
-	pkgver = 19.10.0
-	pkgrel = 2
+	pkgver = 20.04.1
+	pkgrel = 1
 	url = https://gufw.org/
 	arch = any
 	license = GPL3
@@ -15,9 +15,9 @@ pkgbase = gufw
 	depends = webkit2gtk
 	depends = desktop-file-utils
 	depends = gtk-update-icon-cache
-	source = https://launchpad.net/gui-ufw/trunk/19.10/+download/gui-ufw-19.10.0.tar.gz
-	sha256sums = 18c155ef7b62e457e7c89fb9827db531a453d3fd766911c1b09c9fc716255cba
-	sha512sums = 4155c7cd729baecf7ae49e91e72ef8020d8e289379acc5273211031faf63056ebb795577d761cf79694ed9a189a2970b50264822e64e0863d0b96deaaab3ef81
+	source = https://github.com/costales/gufw/archive/20.04.1/gufw-20.04.1.tar.gz
+	sha512sums = fbc5a8ce863c3178354230ca4224b6c32e2aee691d3db1ba397f0b0c8a7acdd3d0a2f739c62ec5f99957e422387fd3ccee4ddce9959160c3c50c81a769b49981
+	b2sums = af273dc6430ae2d77eb857f3b00428ca12ace441e355642fd44adfaf0f6b369baa2fbd5d25ec57a8317911166330777d2ef94ea7a59eff8ddb6e51d6c322ccfd
 
 pkgname = gufw
 
