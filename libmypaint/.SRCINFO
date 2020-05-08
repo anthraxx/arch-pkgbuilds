@@ -1,7 +1,7 @@
 pkgbase = libmypaint
 	pkgdesc = Library for making brushstrokes which is used by MyPaint and other projects
 	pkgver = 1.5.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://mypaint.org/
 	arch = x86_64
 	license = ISC
