@@ -1,7 +1,7 @@
 pkgbase = dhcping
 	pkgdesc = Small tool to let you perform a dhcp-request to find out if a dhcp-server is still running
 	pkgver = 1.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.mavetju.org/unix/general.php
 	arch = x86_64
 	license = BSD
