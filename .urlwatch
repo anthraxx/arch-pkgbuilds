@@ -1743,5 +1743,8 @@ command: ''
 ---
 name: 'libfilezilla'
 command: ''
+---
+name: 'python-feedgen'
+command: 'git ls-remote --tags https://github.com/lkiesow/python-feedgen'
 
 # vim: ft=yaml
