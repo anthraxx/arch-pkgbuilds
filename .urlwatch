@@ -1752,5 +1752,8 @@ command: 'git ls-remote --tags http://github.com/jeremyevans/minitest-global_exp
 ---
 name: 'ruby-path_expander'
 command: 'git ls-remote --tags https://github.com/seattlerb/path_expander'
+---
+name: 'ruby-minitest-sprint'
+command: 'git ls-remote --tags https://github.com/seattlerb/minitest-sprint'
 
 # vim: ft=yaml
