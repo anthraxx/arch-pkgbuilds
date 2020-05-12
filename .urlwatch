@@ -1746,5 +1746,8 @@ command: ''
 ---
 name: 'python-feedgen'
 command: 'git ls-remote --tags https://github.com/lkiesow/python-feedgen'
+---
+name: 'ruby-minitest-global_expectations'
+command: 'git ls-remote --tags http://github.com/jeremyevans/minitest-global_expectations'
 
 # vim: ft=yaml
