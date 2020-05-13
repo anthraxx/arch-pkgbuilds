@@ -1,16 +1,21 @@
 pkgbase = ruby-rack
 	pkgdesc = Minimal, modular, and adaptable interface for developing web applications
-	pkgver = 2.0.8
+	pkgver = 2.2.2
 	pkgrel = 1
 	url = https://rack.github.io/
 	arch = any
 	license = MIT
 	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-bundler
+	makedepends = ruby-minitest
+	makedepends = ruby-minitest-global_expectations
+	makedepends = ruby-minitest-sprint
 	depends = ruby
 	options = !emptydirs
-	source = https://github.com/rack/rack/archive/2.0.8/ruby-rack-2.0.8.tar.gz
-	sha256sums = c8bc494bc9fb522d375766563618cd1d2d5e01cb8c0beebf3656e17c6722f8f0
-	sha512sums = 872253be6d39f8674d0b1c1f22efb5de149a52ebbbbf9ff50632979551a9cce7f214a07bfde7a2def8a4fc56737c31869d2b4e320c4e7a20dab868a192596bf9
+	source = https://github.com/rack/rack/archive/v2.2.2/ruby-rack-2.2.2.tar.gz
+	sha256sums = 73bddac03ac2702b803cfc09b7e56ac9cb86775d4d697ca6f98bb4302fe6ec9e
+	sha512sums = d0d27d091584b6cabafaa1d1053e013bc28ac0dc7da7b5bf28e528f5479091db1c896052a4ffe75be22011d3bc35c41ce73514a47e66b28ff8d3b723c46fd42c
 
 pkgname = ruby-rack
 
