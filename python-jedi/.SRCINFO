@@ -1,6 +1,6 @@
 pkgbase = python-jedi
 	pkgdesc = Awesome autocompletion for python
-	pkgver = 0.16.0
+	pkgver = 0.17.0
 	pkgrel = 1
 	url = https://github.com/davidhalter/jedi
 	arch = any
@@ -11,12 +11,12 @@ pkgbase = python-jedi
 	makedepends = python-setuptools
 	depends = python
 	depends = python-parso
-	source = git+https://github.com/davidhalter/jedi#commit=18f84d3af73c0de04883c10ab8745d7efb16593b
+	source = git+https://github.com/davidhalter/jedi#commit=8aaa8e00446f801c023bb4b056f51ac6f3d99e99
 	source = git+https://github.com/davidhalter/typeshed
-	source = 0001-Jedi-understand-now-when-you-use-del-fixes-313.patch
+	source = git+https://github.com/typeddjango/django-stubs
 	sha256sums = SKIP
 	sha256sums = SKIP
-	sha256sums = c8ac3df187d59eb8a9ea18290a829b4b23e16b131b5580a6677d208fe8726d81
+	sha256sums = SKIP
 
 pkgname = python-jedi
 
