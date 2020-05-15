@@ -1,0 +1,19 @@
+pkgbase = ruby-rb-fsevent
+	pkgdesc = FSEvents API with signals handled (without RubyCocoa)
+	pkgver = 0.10.4
+	pkgrel = 1
+	url = https://github.com/thibaudgg/rb-fsevent
+	arch = any
+	license = MIT
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-rspec
+	makedepends = ruby-bundler
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/thibaudgg/rb-fsevent/archive/v0.10.4/rb-fsevent-0.10.4.tar.gz
+	sha512sums = 94acdd4a897834198c08a345015941cb2c82642fe49fa3871c0468a67c9425f4ab73520219def3adbd17db16ac3515183ec4a02f306069561d4440ad880cc210
+	b2sums = bf8de5aaf1e988c5bb19a1297ac773c72a6f112383932d941ed02d558bc64789b4db54e3d306504058b11d8e754a52dfc67cc56e287eb6f8f769cb4f38fea52a
+
+pkgname = ruby-rb-fsevent
+
