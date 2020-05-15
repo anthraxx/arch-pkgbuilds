@@ -1,7 +1,7 @@
 pkgbase = netsniff-ng
 	pkgdesc = High performance Linux network sniffer for packet inspection
-	pkgver = 0.6.6
-	pkgrel = 3
+	pkgver = 0.6.7
+	pkgrel = 1
 	url = http://netsniff-ng.org/
 	arch = x86_64
 	license = GPL2
@@ -19,10 +19,10 @@ pkgbase = netsniff-ng
 	depends = libcli.so
 	depends = libnet
 	depends = libsodium
-	source = http://pub.netsniff-ng.org/netsniff-ng/netsniff-ng-0.6.6.tar.gz
-	source = http://pub.netsniff-ng.org/netsniff-ng/netsniff-ng-0.6.6.tar.gz.sign
+	source = http://pub.netsniff-ng.org/netsniff-ng/netsniff-ng-0.6.7.tar.gz
+	source = http://pub.netsniff-ng.org/netsniff-ng/netsniff-ng-0.6.7.tar.gz.sign
 	validpgpkeys = C3DE742283C246F2D7887AB4236B0FE9B5510F47
-	sha512sums = 627b9a20e36d91b6cad58a793d370a39bfc14fcfa58aa634e79f0bd5bf7bf5b55d13d891c52a133c4ebb6b77b1a80207d61b037902f3103eb1bd5534a1dc7822
+	sha512sums = 1b9a655c4a09f176132cc0276d564d3e9287e113e7d7bf88852b37465a869c27a1be9f21798f36ef3da31fa0a926e34b64571f913d1372f7a9775004271ca2fc
 	sha512sums = SKIP
 
 pkgname = netsniff-ng
