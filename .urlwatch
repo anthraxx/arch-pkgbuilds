@@ -1755,5 +1755,8 @@ command: 'git ls-remote --tags https://github.com/seattlerb/path_expander'
 ---
 name: 'ruby-minitest-sprint'
 command: 'git ls-remote --tags https://github.com/seattlerb/minitest-sprint'
+---
+name: 'ruby-rb-fsevent'
+command: 'git ls-remote --tags https://github.com/thibaudgg/rb-fsevent'
 
 # vim: ft=yaml
