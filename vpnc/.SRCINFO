@@ -1,6 +1,6 @@
 pkgbase = vpnc
 	pkgdesc = VPN client for cisco3000 VPN Concentrators
-	pkgver = 0.5.3.r462.r78
+	pkgver = 0.5.3.r468.r81
 	pkgrel = 1
 	epoch = 1
 	url = https://github.com/streambinder/vpnc
@@ -12,8 +12,8 @@ pkgbase = vpnc
 	depends = iproute2
 	optdepends = openresolv: Let vpnc manage resolv.conf
 	backup = etc/vpnc/default.conf
-	source = vpnc::git+https://github.com/streambinder/vpnc#commit=101208be5b74039ea70b9e007ce0d6c9fbe44d82
-	source = vpnc-scripts::git://git.infradead.org/users/dwmw2/vpnc-scripts.git#commit=c84fb8e5a523a647a01a1229a9104db934e19f00
+	source = vpnc::git+https://github.com/streambinder/vpnc#commit=1bd238527af94123788bcc529bde085d6be7227e
+	source = vpnc-scripts::git://git.infradead.org/users/dwmw2/vpnc-scripts.git#commit=c0122e891f7e033f35f047dad963702199d5cb9e
 	source = vpnc.conf
 	source = vpnc@.service
 	source = vpnc-systemd-resolved.patch
