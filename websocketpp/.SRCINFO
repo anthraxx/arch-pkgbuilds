@@ -1,6 +1,6 @@
 pkgbase = websocketpp
 	pkgdesc = C++/Boost Asio based websocket client/server library
-	pkgver = 0.8.1
+	pkgver = 0.8.2
 	pkgrel = 1
 	url = https://www.zaphoyd.com/websocketpp/
 	arch = any
@@ -8,15 +8,16 @@ pkgbase = websocketpp
 	makedepends = cmake
 	makedepends = boost
 	makedepends = boost-libs
-	makedepends = scons
+	makedepends = boost
+	makedepends = zlib
+	makedepends = openssl
 	optdepends = openssl: TLS socket component support
 	optdepends = asio: alternative asio transport support
 	optdepends = boost: non C++11 environments support
 	optdepends = boost-libs: non C++11 environments support
-	source = websocketpp-0.8.1.tar.gz::https://github.com/zaphoyd/websocketpp/archive/0.8.1.tar.gz
-	source = scons-python3.patch
-	sha512sums = 35e0261ed0285acf77d300768819bd380197de8acdf68223e2d7598481b9bfd69cb1653b435139771b1db6c16530c8d8cf9a887a8a6bba3fea126d0da4dbc13c
-	sha512sums = 410f51b0920ceba0cf597de5ef953fd4bc11ed440502455997d608dec7f3535e3212e929917c0f54e64914868e9fb3e76c75a39e916708a4d2d9d090d7ed1f41
+	source = https://github.com/zaphoyd/websocketpp/archive/0.8.2/websocketpp-0.8.2.tar.gz
+	sha512sums = b2afc63edb69ce81a3a6c06b3d857b3e8820f0e22300ac32bb20ab30ff07bd58bd5ada3e526ed8ab52de934e0e3a26cad2118b0e68ecf3e5e9e8d7101348fd06
+	b2sums = dacee33832f493d465afe208f9edea1393414a22c8db8f8c86b8f913521d0d8d68b95673a2e82b7479acfbab1ac541eda2d713a55d5de387b3879461d5884df7
 
 pkgname = websocketpp
 
