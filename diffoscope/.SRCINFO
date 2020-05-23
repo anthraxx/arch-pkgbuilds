@@ -1,7 +1,7 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
 	pkgver = 144
-	pkgrel = 1
+	pkgrel = 2
 	url = https://diffoscope.org/
 	arch = x86_64
 	license = GPL3
@@ -18,7 +18,7 @@ pkgbase = diffoscope
 	checkdepends = enjarify
 	checkdepends = hdf5
 	checkdepends = imagemagick
-	checkdepends = java-environment=10
+	checkdepends = java-environment=11
 	checkdepends = fontforge
 	checkdepends = gettext
 	checkdepends = ghc
@@ -104,14 +104,11 @@ pkgbase = diffoscope
 	optdepends = zstd: zst compression
 	source = https://diffoscope.org/archive/diffoscope-144.tar.bz2
 	source = https://diffoscope.org/archive/diffoscope-144.tar.bz2.asc
-	source = 0001-Update-llvm-diff-for-llvm-10.patch
 	validpgpkeys = C2FE4BD271C139B86C533E461E953E27D4311E58
 	sha512sums = 7d79a7298f27990ac519b39261fb1c815523a9acb7adc29097d3ff4a690ca172e3ce7ef56d5d4e89231579ce09865aa66effa157d87651027923ec8a7f10babb
 	sha512sums = SKIP
-	sha512sums = 56b3ed348b58da1ab58ee2f01fb2a325a41608f65b3d869d0e2a7e269ddee7428080a059ebe4eb93397b65514243c5d96b95ef075122d05463e2dcd7074762d6
 	b2sums = be1525096f05324d594f901ddc10776200805eade365f424630a415bb0046a4214239358fc15105e8c05aae87023b68298b1cfe04048ff3b3ff6f4365dc8bcf4
 	b2sums = SKIP
-	b2sums = ec0e74f3201fe4b2a4514ec4628eaa28bc9d2cb7d24d2f3d8469f27a6eea1863173cbb508c8e86d0c75e1bdecd236d1377dd950e9dc4279ea4a146c8b4abad62
 
 pkgname = diffoscope
 
