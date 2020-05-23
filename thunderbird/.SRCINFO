@@ -27,7 +27,6 @@ pkgbase = thunderbird
 	makedepends = cbindgen
 	makedepends = nodejs
 	depends = gtk3
-	depends = mozilla-common
 	depends = libxt
 	depends = startup-notification
 	depends = mime-types
