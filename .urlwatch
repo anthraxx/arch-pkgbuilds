@@ -1255,9 +1255,6 @@ command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk14u/raw-file/default/.h
 name: 'openjdk 11'
 command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk11u/raw-file/default/.hgtags 2>/dev/null'
 ---
-name: 'openjdk 10'
-command: 'curl http://hg.openjdk.java.net/jdk-updates/jdk10u/raw-file/default/.hgtags 2>/dev/null'
----
 name: 'openjdk 8'
 command: 'curl http://hg.openjdk.java.net/jdk8u/jdk8u/jdk/raw-file/default/.hgtags 2>/dev/null'
 ---
