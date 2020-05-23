@@ -1,14 +1,13 @@
 pkgbase = libupnp
 	pkgdesc = Portable Open Source UPnP Development Kit
-	pkgver = 1.6.25
-	pkgrel = 1
+	pkgver = 1.8.4
+	pkgrel = 2
 	url = http://pupnp.sourceforge.net/
 	arch = x86_64
 	license = BSD
-	makedepends = pkgconfig
 	depends = glibc
-	source = https://downloads.sourceforge.net/sourceforge/pupnp/libupnp-1.6.25.tar.bz2
-	sha256sums = c5a300b86775435c076d58a79cc0d5a977d76027d2a7d721590729b7f369fa43
+	source = https://downloads.sourceforge.net/sourceforge/pupnp/libupnp-1.8.4.tar.bz2
+	sha256sums = 188d3f786d92fe14191f17634d2d87847eee7d2b568a5257ea23262fec9973d6
 
 pkgname = libupnp
 
