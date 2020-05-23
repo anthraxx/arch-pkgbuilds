@@ -1,7 +1,7 @@
 pkgbase = cppcodec
 	pkgdesc = Header-only C++11 library to encode/decode base64, base64url, base32, base32hex and hex
 	pkgver = 0.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/tplgy/cppcodec
 	arch = any
 	license = MIT
