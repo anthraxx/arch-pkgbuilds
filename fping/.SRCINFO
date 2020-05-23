@@ -1,7 +1,7 @@
 pkgbase = fping
 	pkgdesc = Utility to ping multiple hosts at once
 	pkgver = 4.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.fping.org/
 	install = fping.install
 	arch = x86_64
