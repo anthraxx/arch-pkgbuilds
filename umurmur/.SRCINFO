@@ -1,15 +1,15 @@
 pkgbase = umurmur
 	pkgdesc = Minimalistic Mumble server
 	pkgver = 0.2.17
-	pkgrel = 17
+	pkgrel = 18
 	url = https://github.com/umurmur/umurmur
 	arch = x86_64
 	license = BSD
 	makedepends = cmake
+	makedepends = libconfig
+	makedepends = protobuf-c
+	makedepends = mbedtls
 	depends = glibc
-	depends = libconfig.so
-	depends = libprotobuf-c.so
-	depends = mbedtls
 	backup = etc/umurmur/umurmur.conf
 	source = umurmur-0.2.17.tar.gz::https://github.com/umurmur/umurmur/archive/0.2.17.tar.gz
 	source = umurmur.sysusers
@@ -25,4 +25,10 @@ pkgbase = umurmur
 	sha512sums = 825b50448231b5d791e87d7c4c471fdfe2e9a1560dad6fc90c2f4f8d0c5ed682291bf20b147a6a8c7ae361aeb8b1a11c24c6d41ffc17f06fb0f5ccd8208a899a
 
 pkgname = umurmur
+	depends = glibc
+	depends = libconfig.so
+	depends = libmbedcrypto.so
+	depends = libmbedtls.so
+	depends = libmbedx509.so
+	depends = libprotobuf-c.so
 
