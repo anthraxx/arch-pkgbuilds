@@ -1,7 +1,7 @@
 pkgbase = java-common
 	pkgdesc = Common files for Java Runtime Environments
 	pkgver = 3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.archlinux.org/packages/extra/any/java-common/
 	arch = any
 	license = GPL
