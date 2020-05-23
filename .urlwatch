@@ -1758,5 +1758,8 @@ command: 'git ls-remote --tags https://github.com/seattlerb/minitest-sprint'
 ---
 name: 'ruby-rb-fsevent'
 command: 'git ls-remote --tags https://github.com/thibaudgg/rb-fsevent'
+---
+name: 'libexif'
+command: 'git ls-remote --tags https://github.com/libexif/libexif'
 
 # vim: ft=yaml
