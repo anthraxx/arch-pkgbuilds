@@ -1,7 +1,7 @@
 pkgbase = libgfshare
 	pkgdesc = Utilities for multi-way secret-sharing
 	pkgver = 2.0.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.digital-scurf.org/software/libgfshare
 	arch = x86_64
 	license = MIT
