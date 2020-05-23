@@ -1,7 +1,7 @@
 pkgbase = usbguard
 	pkgdesc = Software framework for implementing USB device authorization policies
-	pkgver = 0.7.5
-	pkgrel = 2
+	pkgver = 0.7.6
+	pkgrel = 1
 	url = https://github.com/dkopecek/usbguard
 	arch = x86_64
 	license = GPL2
@@ -25,11 +25,12 @@ pkgbase = usbguard
 	provides = libusbguard.so
 	backup = etc/usbguard/usbguard-daemon.conf
 	backup = etc/usbguard/rules.conf
-	source = https://github.com/dkopecek/usbguard/releases/download/usbguard-0.7.5/usbguard-0.7.5.tar.gz
-	source = https://github.com/dkopecek/usbguard/releases/download/usbguard-0.7.5/usbguard-0.7.5.tar.gz.sig
+	source = https://github.com/dkopecek/usbguard/releases/download/usbguard-0.7.6/usbguard-0.7.6.tar.gz
+	source = https://github.com/dkopecek/usbguard/releases/download/usbguard-0.7.6/usbguard-0.7.6.tar.gz.asc
 	source = make-explicitly-treat-pthread-as-first-level-depende.patch
 	validpgpkeys = FD9B3F9DCEBB5537A8FAF5213B0C109510712034
-	sha512sums = b14f1cfaec676b5bc2f3aa2bda8be96ea8a6b3f02fc78f0fa7a58dd079c57886aae2c33a9e99cb9ccd53e5d6fa27712b978a2d19cd58b75dda34516d8caed0c4
+	validpgpkeys = DE78B93EAED8A620F5AA14DF52F7E84653274B59
+	sha512sums = 0b0d42276e48baac2dc1f9031eec25e3f622a8d6178cb0400b97c7d32005bfa158b60fd286fdc66206a8684658fefaf6389ef93511e942f025e75671d7455628
 	sha512sums = SKIP
 	sha512sums = 02232be248aa11e543b0cd2f26e3ff735267b58bb3a255fc32e390f0efff302e4b749fee3927942585a799f0e7571836bc085f89aef43df5517a678b04596e5a
 
