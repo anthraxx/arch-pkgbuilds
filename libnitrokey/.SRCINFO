@@ -1,7 +1,7 @@
 pkgbase = libnitrokey
 	pkgdesc = Communicate with Nitrokey stick devices in a clean and easy manner
 	pkgver = 3.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.nitrokey.com
 	arch = x86_64
 	license = LGPL3
