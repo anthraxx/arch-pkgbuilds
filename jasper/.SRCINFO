@@ -1,7 +1,7 @@
 pkgbase = jasper
 	pkgdesc = Software-based implementation of the codec specified in the emerging JPEG-2000 Part-1 standard
 	pkgver = 2.0.16
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.ece.uvic.ca/~mdadams/jasper/
 	arch = x86_64
 	license = custom:JasPer2.0
