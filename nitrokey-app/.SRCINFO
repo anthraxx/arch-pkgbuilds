@@ -1,7 +1,7 @@
 pkgbase = nitrokey-app
 	pkgdesc = Nitrokey management application
 	pkgver = 1.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.nitrokey.com
 	arch = x86_64
 	license = GPL3
