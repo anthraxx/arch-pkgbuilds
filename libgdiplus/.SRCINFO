@@ -1,7 +1,7 @@
 pkgbase = libgdiplus
 	pkgdesc = Open Source Implementation of the GDI+ API
 	pkgver = 5.6.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.mono-project.com/docs/gui/libgdiplus/
 	arch = x86_64
 	license = MPL
