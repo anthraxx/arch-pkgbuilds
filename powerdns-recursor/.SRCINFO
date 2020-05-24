@@ -20,6 +20,7 @@ pkgbase = powerdns-recursor
 	depends = libboost_context.so
 	depends = fstrm
 	depends = net-snmp
+	depends = libprotobuf.so
 	provides = pdns-recursor
 	conflicts = pdns-recursor
 	backup = etc/powerdns/recursor.conf
