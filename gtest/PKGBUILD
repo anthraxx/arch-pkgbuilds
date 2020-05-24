@@ -37,7 +37,6 @@ build() {
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=lib \
     -DBUILD_SHARED_LIBS=ON \
-    -DPython_ADDITIONAL_VERSIONS=2.7 \
     -Dgtest_build_tests=ON
   cmake --build build
 
@@ -66,9 +65,9 @@ package_gtest() {
   install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
   install -Dm 644 README.md CONTRIBUTORS -t "${pkgdir}/usr/share/doc/${pkgname}"
   install -Dm 755 scripts/gtest-config.in -t "${pkgdir}/usr/bin"
-  install -Dm 644 cmake/* -t "${pkgdir}/usr/src/gtest/cmake"
-  install -Dm 644 src/* -t "${pkgdir}/usr/src/gtest/src"
-  install -Dm 644 CMakeLists.txt -t "${pkgdir}/usr/src/gtest"
+  install -Dm 644 cmake/* -t "${pkgdir}/usr/src/googletest/cmake"
+  install -Dm 644 src/* -t "${pkgdir}/usr/src/googletest/src"
+  install -Dm 644 CMakeLists.txt -t "${pkgdir}/usr/src/googletest"
 }
 
 package_gmock() {
@@ -81,11 +80,13 @@ package_gmock() {
   install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
   install -Dm 644 README.md CONTRIBUTORS -t "${pkgdir}/usr/share/doc/${pkgname}"
   install -Dm 755 scripts/gmock-config.in -t "${pkgdir}/usr/bin"
-  install -Dm 644 src/* -t "${pkgdir}/usr/src/gmock"
+  install -Dm 644 cmake/* -t "${pkgdir}/usr/src/gmock/cmake"
+  install -Dm 644 src/* -t "${pkgdir}/usr/src/gmock/src"
+  install -Dm 644 CMakeLists.txt -t "${pkgdir}/usr/src/gmock"
   install -Dm 644 scripts/generator/{*.py,LICENSE,README*} -t "${pkgdir}/usr/share/gmock/generator"
   install -Dm 644 scripts/generator/cpp/* -t "${pkgdir}/usr/share/gmock/generator/cpp"
 
-  sed -i 's|src/||' "${pkgdir}/usr/src/gmock/gmock-all.cc"
+  sed -i 's|src/||' "${pkgdir}/usr/src/gmock/src/gmock-all.cc"
 
   python -m compileall -d /usr/share/gmock "${pkgdir}/usr/share/gmock"
   python -O -m compileall -d /usr/share/gmock "${pkgdir}/usr/share/gmock"
