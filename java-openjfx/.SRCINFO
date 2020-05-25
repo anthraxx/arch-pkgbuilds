@@ -1,6 +1,6 @@
 pkgbase = java-openjfx
-	pkgdesc = Java OpenJFX 13 client application platform (open-source implementation of JavaFX)
-	pkgver = 13.u14
+	pkgdesc = Java OpenJFX 14 client application platform (open-source implementation of JavaFX)
+	pkgver = 14.0.2.u0
 	pkgrel = 1
 	url = https://wiki.openjdk.java.net/display/OpenJFX/Main
 	arch = x86_64
@@ -28,14 +28,16 @@ pkgbase = java-openjfx
 	makedepends = unzip
 	makedepends = webkit2gtk
 	makedepends = zip
-	source = java-openjfx-13+14::https://hg.openjdk.java.net/openjfx/13-dev/rt/archive/13+14.tar.bz2
+	source = java-openjfx-14.0.2+0::https://github.com/openjdk/jfx/archive/14.0.2+0/jfx-14.0.2+0.tar.gz
 	source = gradle.properties
 	source = java-openjfx-flags.patch
 	source = java-openjfx-no-xlocale.patch
-	sha256sums = 9958e615818c526250c36059ae6ba0c7523e192193c8b5d5ca672ebcd498f1ca
+	source = java-openjfx-gstreamer-lite-gcc10-compat.patch
+	sha256sums = 4ed624e2a0c464526af50fae3115bca34357bc5d3bbe6e4bb608994dd9094a10
 	sha256sums = 2622aa35d733cc69f4421f1cd053bf425e89f93141cb52c9f016a9b425fc0cb6
 	sha256sums = e76f202e8163a9a6e02138987bfc344a66f70aa30b8b699c6bdb41eec31c1465
 	sha256sums = 220c63396561867a6d07ae81b6390160d8f91502587e4873998e3b7a83793a1c
+	sha256sums = d7f9db86854b1cb8ab973c2ff255e51a637b9c24af30144182202d33f01a9434
 
 pkgname = java-openjfx
 	depends = alsa-lib
@@ -45,7 +47,7 @@ pkgname = java-openjfx
 	depends = glib2
 	depends = gtk2
 	depends = gtk3
-	depends = java-runtime-openjdk=13
+	depends = java-runtime-openjdk=14
 	depends = libavcodec.so
 	depends = libavformat.so
 	depends = libfreetype.so
