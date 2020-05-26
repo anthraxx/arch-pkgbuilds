@@ -1,7 +1,7 @@
 pkgbase = cutter
 	pkgdesc = TCP/IP Connection cutting on Linux Firewalls and Routers
 	pkgver = 1.04
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.digitage.co.uk/digitage/software/linux-security/cutter
 	arch = x86_64
 	license = GPL2
