@@ -1,6 +1,6 @@
 pkgbase = python-flask-sqlalchemy
 	pkgdesc = Adds SQLAlchemy support to your Flask application
-	pkgver = 2.4.1
+	pkgver = 2.4.2
 	pkgrel = 1
 	url = http://flask-sqlalchemy.pocoo.org/
 	arch = any
@@ -14,8 +14,8 @@ pkgbase = python-flask-sqlalchemy
 	makedepends = python-sphinx-issues
 	depends = python-flask
 	depends = python-sqlalchemy
-	source = python-flask-sqlalchemy-2.4.1.tar.gz::https://github.com/mitsuhiko/flask-sqlalchemy/archive/2.4.1.tar.gz
-	sha512sums = fac982399eb59ea30af1ff2f1babc60944b438f8b5f544a9b1c31555d468d5c57ca13845ea1014aaae7bcb1485a6aa1fcad08fbe38167f0931ba42dc60f770ed
+	source = python-flask-sqlalchemy-2.4.2.tar.gz::https://github.com/mitsuhiko/flask-sqlalchemy/archive/2.4.2.tar.gz
+	sha512sums = 1f65dd13fe70c4f3c8690092c9dfca632d1f5ba22291da762fe48f0bc0112ec82880fb7d043aada2128d39366364fcd564ea47766abb36eb64358a578568c05f
 
 pkgname = python-flask-sqlalchemy
 
