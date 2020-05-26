@@ -1,7 +1,7 @@
 pkgbase = zzuf
 	pkgdesc = Transparent application input fuzzer
 	pkgver = 0.15
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/samhocevar/zzuf
 	arch = x86_64
 	license = custom:WTF
