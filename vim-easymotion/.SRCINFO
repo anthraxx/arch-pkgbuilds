@@ -1,7 +1,7 @@
 pkgbase = vim-easymotion
 	pkgdesc = Vim motion on speed
 	pkgver = 3.0.1
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/easymotion/vim-easymotion
 	arch = any
 	groups = vim-plugins
