@@ -1,7 +1,7 @@
 pkgbase = bully
 	pkgdesc = Retrieve WPA/WPA2 passphrase from a WPS enabled access point
 	pkgver = 1.1.12.g04185d7
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/aanarchyy/bully
 	arch = x86_64
 	license = GPL3
