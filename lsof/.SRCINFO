@@ -1,15 +1,17 @@
 pkgbase = lsof
 	pkgdesc = Lists open files for running Unix processes
 	pkgver = 4.93.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/lsof-org/lsof
 	arch = x86_64
 	license = custom
 	depends = glibc
 	depends = libtirpc
 	source = https://github.com/lsof-org/lsof/archive/4.93.2/lsof-4.93.2.tar.gz
+	source = lsof-reproducible.patch::https://github.com/lsof-org/lsof/commit/3e404f637c76949917435f4a086c40e644e0089c.patch
 	source = license.txt
 	sha512sums = 3c4a4d503391b1a648a08a4947c2e72a9629b169eddf50738b16a16a82f2a26967e4db2902e4a9157de5a73ae638db48e392117ffbd591e9fafd6b1725cd01a0
+	sha512sums = ccb263eb04d3cc6a879f6a6bada680dee473920ea6460c4e048e7551a2716b937007bc91f21751fb3dd0a43320f9b263983e7c04e2bac46d45472ce97e50047b
 	sha512sums = 3bdbc8f213e9bdba946636498d21486e2b79d8ae44a45b284b4dff8875e76f992ab0977e3ed510525a8f74203028acb6b15315fda963666012874be4ce4fdd93
 
 pkgname = lsof
