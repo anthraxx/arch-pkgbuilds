@@ -1,7 +1,7 @@
 pkgbase = doxygen
 	pkgdesc = Documentation system for C++, C, Java, IDL and PHP
 	pkgver = 1.8.18
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.doxygen.nl
 	arch = x86_64
 	license = GPL
@@ -13,7 +13,7 @@ pkgbase = doxygen
 	makedepends = ghostscript
 	makedepends = texlive-latexextra
 	makedepends = graphviz
-	makedepends = python2
+	makedepends = python
 	makedepends = git
 	source = doxygen-1.8.18.tar.gz::https://github.com/doxygen/doxygen/archive/Release_1_8_18.tar.gz
 	sha256sums = 9c88f733396dca16139483045d5afa5bbf19d67be0b8f0ea43c4e813ecfb2aa2
