@@ -1,7 +1,7 @@
 pkgbase = gimp
 	pkgdesc = GNU Image Manipulation Program
-	pkgver = 2.10.18
-	pkgrel = 8
+	pkgver = 2.10.20
+	pkgrel = 1
 	url = https://www.gimp.org/
 	install = gimp.install
 	arch = x86_64
@@ -43,10 +43,10 @@ pkgbase = gimp
 	optdepends = ghostscript: for postscript support
 	conflicts = gimp-plugin-wavelet-decompose
 	replaces = gimp-plugin-wavelet-decompose
-	source = https://download.gimp.org/pub/gimp/v2.10/gimp-2.10.18.tar.bz2
+	source = https://download.gimp.org/pub/gimp/v2.10/gimp-2.10.20.tar.bz2
 	source = 0001-no-check-update.patch
 	source = linux.gpl
-	sha256sums = 65bfe111e8eebffd3dde3016ccb507f9948d2663d9497cb438d9bb609e11d716
+	sha256sums = e12f9f874b1a007c4277b60aa81e0b67330be7e6153e5749ead839b902fc7b3c
 	sha256sums = 0695e23b343289d48074e57268012d620b249c670e98f489176c707020785dcb
 	sha256sums = 1003bbf5fc292d0d63be44562f46506f7b2ca5729770da9d38d3bb2e8a2f36b3
 
