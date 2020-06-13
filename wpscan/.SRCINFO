@@ -1,6 +1,6 @@
 pkgbase = wpscan
 	pkgdesc = Black box WordPress vulnerability scanner
-	pkgver = 3.8.1
+	pkgver = 3.8.2
 	pkgrel = 1
 	epoch = 1
 	url = https://wpscan.org
@@ -14,9 +14,9 @@ pkgbase = wpscan
 	depends = libxml2
 	options = !strip
 	options = !emptydirs
-	source = https://github.com/wpscanteam/wpscan/archive/v3.8.1/wpscan-3.8.1.tar.gz
-	sha512sums = 65d2021d79419a6b54a1a8f60d8bf1b89573fd3bba25096ac35dc751532429ab7b6a7217244f80fed2f1e549382ef5804ab9d23c533f42d27d478cbc24c022ff
-	b2sums = ef99dbd377dc50bd01ce090f43ac22d48bac428ba33b02ca95c122b86f48c10a34672374694929efeb53a106dc8af30e6880b4018cde12c8c019f652b3ad12f5
+	source = https://github.com/wpscanteam/wpscan/archive/v3.8.2/wpscan-3.8.2.tar.gz
+	sha512sums = 5c928d9fe9d0bd06f55bf52cd04e607fbed7501659bdaaec535e6e1a98d52ea3cd87264843fd24a340d2bc5f1205d984fa8b7e82eb1028d854328750598f24a9
+	b2sums = 5d47fed4ff4492abd353c09fd040d95dd0d2cea03bc520667560b6a67d55a7111847e0cf3272bb05a868fe1fecdaad4823e516f4fd9e5f2492264a8c8f8c067c
 
 pkgname = wpscan
 
