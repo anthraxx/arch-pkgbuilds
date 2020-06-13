@@ -1,6 +1,6 @@
 pkgbase = scrot
 	pkgdesc = Simple command-line screenshot utility for X
-	pkgver = 1.2
+	pkgver = 1.3
 	pkgrel = 1
 	url = https://github.com/resurrecting-open-source-projects/scrot
 	arch = x86_64
@@ -9,9 +9,9 @@ pkgbase = scrot
 	depends = giblib
 	depends = libxfixes
 	depends = libxcursor
-	source = https://github.com/resurrecting-open-source-projects/scrot/archive/1.2/scrot-1.2.tar.gz
-	sha256sums = e9b41d4cb9b5ab3747d6718c4eb51d5aaf35b6cac23c9ff68af15fc1c9ce187c
-	sha512sums = b89e7a94e6317fdb7bd260190c6d68a2dfefc08691b4574337afdfff84f55b8b9c955a6ac60642ae9749c1deaa16bee7b855fbd15833a95f602536693daf8c37
+	source = https://github.com/resurrecting-open-source-projects/scrot/archive/1.3/scrot-1.3.tar.gz
+	sha512sums = 45828824701c7574676d0746d01f3dc8313ea91a272fa169b616765442e8842b67d8aa73f47009a66d34dd6b89a230fd9fb42bc598e88baae70fc45345c13a4c
+	b2sums = 1972edfa3b61c95fd786d0b4db13633778293b2c671c395939ea0b77d49714e644abd60cfae5656f03fd1c701185d2c8961c45d62989e882f2cd8f4a824dee57
 
 pkgname = scrot
 
