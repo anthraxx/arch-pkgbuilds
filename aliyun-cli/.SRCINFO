@@ -1,6 +1,6 @@
 pkgbase = aliyun-cli
 	pkgdesc = Alibaba Cloud CLI
-	pkgver = 3.0.42
+	pkgver = 3.0.46
 	pkgrel = 1
 	url = https://github.com/aliyun/aliyun-cli
 	arch = x86_64
@@ -10,14 +10,11 @@ pkgbase = aliyun-cli
 	makedepends = go-bindata
 	depends = glibc
 	depends = jq
-	source = https://github.com/aliyun/aliyun-cli/archive/v3.0.42/aliyun-cli-3.0.42.tar.gz
-	source = git+https://github.com/aliyun/aliyun-openapi-meta#commit=8ee9c7a0cd24e45f5f729c98395b944b4cc89e4a
-	source = jteeuwen-go-bindata::git+https://github.com/jteeuwen/go-bindata#commit=6025e8de665b31fa74ab1a66f2cddd8c0abf887e
-	sha512sums = b446d55254db7628004440da8b7fe8c43e382f6fd7712490c656e0e05048eea3377155f867d9fb9d16b06e585d2e0eddf94e6c5ebc1e3bd43b32473f2e84f641
+	source = https://github.com/aliyun/aliyun-cli/archive/v3.0.46/aliyun-cli-3.0.46.tar.gz
+	source = git+https://github.com/aliyun/aliyun-openapi-meta#commit=5f5f2b9649e360a1ae3426207a514dbd0bd8a2df
+	sha512sums = 55722630d8ec6ae300458a98eba29a3df40acef72c51c427252722294ef273c40e4a58942b07ac9db8410f74f096b712fb86858a9b66ed5cf3f9f777ffc9afd2
 	sha512sums = SKIP
-	sha512sums = SKIP
-	b2sums = 60eeace414f8ebab48f839599d8ba864f570014d32fa50ca9544209479c47e339bb6c50cb1c2d3cc41ca7b6f1e895f1ea3768718504740cf178ea0615d105d25
-	b2sums = SKIP
+	b2sums = 42aacc3af9e57d08ab8defd6cd7a8e9582c7b8f59e13648c631ce380c8c35d6a00665e69af3791089b7e8dd92c3f00b4c3ccf091130642ccb864b17daab895b2
 	b2sums = SKIP
 
 pkgname = aliyun-cli
