@@ -1758,5 +1758,8 @@ command: 'git ls-remote --tags https://github.com/thibaudgg/rb-fsevent'
 ---
 name: 'libexif'
 command: 'git ls-remote --tags https://github.com/libexif/libexif'
+---
+name: 'libbpf'
+command: 'git ls-remote --tags https://github.com/libbpf/libbpf'
 
 # vim: ft=yaml
