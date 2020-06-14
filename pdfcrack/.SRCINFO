@@ -1,19 +1,20 @@
 pkgbase = pdfcrack
 	pkgdesc = Password recovery tool for PDF-files
-	pkgver = 0.18
+	pkgver = 0.19
 	pkgrel = 1
 	url = http://pdfcrack.sourceforge.net/
 	arch = x86_64
 	license = GPL2
 	depends = glibc
-	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.18.tar.gz
-	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.18.tar.gz.asc
+	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.19.tar.gz
+	source = https://downloads.sourceforge.net/pdfcrack/pdfcrack-0.19.tar.gz.asc
 	validpgpkeys = 987AEFC56E70D68440C0D45149241DE2BA57F699
 	validpgpkeys = AC49CA5B95335D6DAF85BAC563EFAA4606037EB3
-	sha256sums = 8223aec52a2ae36f9a10a731513461458874f1fd8d803e4a04910d9dbf1cba0c
-	sha256sums = SKIP
-	sha512sums = 7d1624d835bcefff131745c75dc2ecafe63afdbf2c56568880804d5b7062a8eef27eebfedf340ab9d7e5770dd1a553d5d30b7ea5bca63a317deb40e0deed35a2
+	validpgpkeys = 4A524F4C6BD20FF789116E0443001F2E87BE0FD0
+	sha512sums = e58819e7d90db9a66ebf9509c0b8aace7f8e7dbf5f8083edc70c3f2ca28cf16476bbdbaa77f7c563dcf824e440ca0df03e91d6aaf2a0435ec8f349f4e19ee626
 	sha512sums = SKIP
+	b2sums = ddbbd813a8b76fd0b643ac5a9f63f8d82f76d2514e43dd0d4a4e4cc4feffb4b01598fc5438aef77f98b48c3df1f04139aa8db76d77eb3ed9d67a36a3b8ef57fb
+	b2sums = SKIP
 
 pkgname = pdfcrack
 
