@@ -1,6 +1,6 @@
 pkgbase = sn0int
 	pkgdesc = Semi-automatic OSINT framework and package manager
-	pkgver = 0.18.2
+	pkgver = 0.19.1
 	pkgrel = 1
 	url = https://github.com/kpcyrd/sn0int
 	install = sn0int.install
@@ -14,12 +14,12 @@ pkgbase = sn0int
 	depends = libsodium
 	depends = geoip2-database
 	depends = publicsuffix-list
-	source = https://github.com/kpcyrd/sn0int/archive/v0.18.2/sn0int-0.18.2.tar.gz
-	source = https://github.com/kpcyrd/sn0int/releases/download/v0.18.2/sn0int-0.18.2.tar.gz.asc
+	source = https://github.com/kpcyrd/sn0int/archive/v0.19.1/sn0int-0.19.1.tar.gz
+	source = https://github.com/kpcyrd/sn0int/releases/download/v0.19.1/sn0int-0.19.1.tar.gz.asc
 	validpgpkeys = 64B13F7117D6E07D661BBCE0FE763A64F5E54FD6
-	sha512sums = 417d0cf861136942411c645151750a547a3a88f00ec00896411264e2c264db622429b8ce0e00c947fb03810a6fa2c7f39c439ac747ceeed21fdab8c9d512c6de
+	sha512sums = 85734ce0634286c482f52fcf9eb1effabcb36d73d8c5c0d542a7b9dc71330c635f5a3aab4e55665b40844c78d8c02f6269b4a1d9d5b5917a930d2f34a8dc731d
 	sha512sums = SKIP
-	b2sums = 640f325ea56f5eb9dc1ac7877cf5c932f8ba56ed7c266684d906ed58b89ff993771ab25c119124e0448e976d8acb5ed49d87aa173955081be8afbb6fa06f8158
+	b2sums = d25965374e0b9855c587e58dec65eef0e907b8861e367ed2714eae10e46e67186cd29ded315b44b5bd5880a326b9eadcc53a71ee1bd7d64031e3bb4ba41bed2b
 	b2sums = SKIP
 
 pkgname = sn0int
