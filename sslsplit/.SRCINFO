@@ -1,20 +1,18 @@
 pkgbase = sslsplit
 	pkgdesc = Tool for man-in-the-middle attacks against SSL/TLS encrypted network connections
-	pkgver = 0.5.2
-	pkgrel = 2
+	pkgver = 0.5.5
+	pkgrel = 1
 	url = https://www.roe.ch/SSLsplit
 	arch = x86_64
 	license = BSD
 	checkdepends = check
 	depends = libevent
 	depends = openssl
-	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.2.tar.bz2
-	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.2.tar.bz2.asc
-	source = fix-tests.patch
-	validpgpkeys = BFF9C7D7EA0EAC7F1AA55B3EFABE3324B5D3397E
-	sha512sums = 6c8a679c8016255e11adabb4f2a2e94cc23386ce33bc128e5bab2e5187f042e8daf8c720eef0f4fd3e7e94250deaf33b3c9253ffe05f1e4bdbd9a31f77785cc2
+	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.5.tar.bz2
+	source = https://mirror.roe.ch/rel/sslsplit/sslsplit-0.5.5.tar.bz2.asc
+	validpgpkeys = 0C8B798526D8F3210E561548E1520675375F5E35
+	sha512sums = 1d4968382659e975cd59692f3de80d79831a7842c9b909bb3cefedb5e2928254394e0f593c3409e3d5b1d0b192d8f8123ae10b08cecfd65584d790437d9f3d2a
 	sha512sums = SKIP
-	sha512sums = 092ad2dc4dba64ff17c3401053218231ad9890b40d999a9b74b837c8f42a60fb33f2cc41de40aa5ef291ed69c7c90c47760c2148406bbae6b5dbba8a1f84f0fe
 
 pkgname = sslsplit
 
