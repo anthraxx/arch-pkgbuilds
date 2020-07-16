@@ -1,7 +1,7 @@
 pkgbase = i3status
 	pkgdesc = Generates status bar to use with i3bar, dzen2 or xmobar
 	pkgver = 2.13
-	pkgrel = 2
+	pkgrel = 3
 	url = https://i3wm.org/i3status/
 	arch = x86_64
 	groups = i3
