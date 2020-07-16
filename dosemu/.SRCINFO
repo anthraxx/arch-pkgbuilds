@@ -1,7 +1,7 @@
 pkgbase = dosemu
 	pkgdesc = DOS emulator
 	pkgver = 1.4.0.8+753+g18f6f5cd
-	pkgrel = 1
+	pkgrel = 3
 	epoch = 1
 	url = http://www.dosemu.org/
 	arch = x86_64
@@ -17,6 +17,7 @@ pkgbase = dosemu
 	depends = sdl
 	depends = libxxf86vm
 	depends = libsndfile
+	depends = alsa-lib
 	backup = etc/dosemu/dosemu.conf
 	backup = etc/dosemu/dosemu.users
 	backup = etc/dosemu/global.conf
