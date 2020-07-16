@@ -1,7 +1,7 @@
 pkgbase = vim-nerdcommenter
 	pkgdesc = Plugin that allows for easy commenting of code for many filetypes
 	pkgver = 2.5.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/scrooloose/nerdcommenter
 	arch = any
 	groups = vim-plugins
