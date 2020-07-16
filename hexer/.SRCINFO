@@ -1,7 +1,7 @@
 pkgbase = hexer
 	pkgdesc = Multi buffer editor for binary files with vi-like interface
 	pkgver = 1.0.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://devel.ringlet.net/editors/hexer/
 	arch = x86_64
 	license = custom
