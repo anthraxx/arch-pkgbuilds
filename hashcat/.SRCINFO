@@ -1,7 +1,7 @@
 pkgbase = hashcat
 	pkgdesc = Multithreaded advanced password recovery utility
-	pkgver = 5.1.0
-	pkgrel = 2
+	pkgver = 6.0.0
+	pkgrel = 1
 	epoch = 1
 	url = https://hashcat.net/hashcat
 	arch = x86_64
@@ -10,10 +10,10 @@ pkgbase = hashcat
 	depends = ocl-icd
 	depends = xxhash
 	provides = libhashcat.so
-	source = https://hashcat.net/files/hashcat-5.1.0.tar.gz
-	source = https://hashcat.net/files/hashcat-5.1.0.tar.gz.asc
+	source = https://hashcat.net/files/hashcat-6.0.0.tar.gz
+	source = https://hashcat.net/files/hashcat-6.0.0.tar.gz.asc
 	validpgpkeys = A70833229D040B4199CC00523C17DA8B8A16544F
-	sha512sums = 90605c2bcd0ec275d2f6ec581899b95cdc320b1494613a19803192c8a08037a7829b3776ed42c58eb6551ec1a746f47f94ab5b273958ca74e0fc57315e209ece
+	sha512sums = b508c77e1735c02bb59c427774a3f4fafdea37d09777ef2dcb6e5081cb993d02c4f46a6ab846dc97a8cef2b0f69bbc191e26b8f1608a299bc2c1a6b3d2474f96
 	sha512sums = SKIP
 
 pkgname = hashcat
