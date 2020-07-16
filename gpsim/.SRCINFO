@@ -1,7 +1,7 @@
 pkgbase = gpsim
 	pkgdesc = Full-featured software simulator for Microchip PIC microcontrollers
 	pkgver = 0.31.0
-	pkgrel = 1
+	pkgrel = 2
 	url = http://gpsim.sourceforge.net/
 	arch = x86_64
 	license = GPL
