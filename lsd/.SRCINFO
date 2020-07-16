@@ -1,7 +1,7 @@
 pkgbase = lsd
 	pkgdesc = Modern ls with a lot of pretty colors and awesome icons
 	pkgver = 0.16.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/Peltoche/lsd
 	arch = x86_64
 	license = Apache
