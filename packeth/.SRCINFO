@@ -1,7 +1,7 @@
 pkgbase = packeth
 	pkgdesc = Linux GUI packet generator tool for ethernet
 	pkgver = 2.1
-	pkgrel = 1
+	pkgrel = 2
 	url = http://packeth.sourceforge.net/
 	arch = x86_64
 	license = GPL
