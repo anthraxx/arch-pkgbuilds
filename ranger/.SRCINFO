@@ -1,7 +1,7 @@
 pkgbase = ranger
 	pkgdesc = Simple, vim-like file manager
 	pkgver = 1.9.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ranger.github.io
 	arch = any
 	license = GPL
@@ -20,6 +20,7 @@ pkgbase = ranger
 	optdepends = python-chardet: in case of encoding detection problems
 	optdepends = sudo: to use the "run as root"-feature
 	optdepends = transmission-cli: for viewing bittorrent information
+	optdepends = ueberzug: for previews of images
 	optdepends = w3m: for previews of images and html pages
 	source = https://ranger.github.io/ranger-1.9.3.tar.gz
 	source = https://ranger.github.io/ranger-1.9.3.tar.gz.sig
