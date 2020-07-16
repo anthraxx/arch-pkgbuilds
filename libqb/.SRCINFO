@@ -1,7 +1,7 @@
 pkgbase = libqb
 	pkgdesc = Library for providing high performance, reusable features for client-server architecture
 	pkgver = 1.0.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ClusterLabs/libqb
 	arch = x86_64
 	license = LGPL2.1
