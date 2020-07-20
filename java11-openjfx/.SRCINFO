@@ -1,0 +1,66 @@
+pkgbase = java11-openjfx
+	pkgdesc = Java OpenJFX 11 client application platform (open-source implementation of JavaFX)
+	pkgver = 11.0.3.u1
+	pkgrel = 2
+	url = https://wiki.openjdk.java.net/display/OpenJFX/Main
+	arch = x86_64
+	license = custom
+	makedepends = alsa-lib
+	makedepends = ant
+	makedepends = cairo
+	makedepends = cmake
+	makedepends = ffmpeg
+	makedepends = freetype2
+	makedepends = gdk-pixbuf2
+	makedepends = glib2
+	makedepends = gperf
+	makedepends = gtk2
+	makedepends = gtk3
+	makedepends = java-environment-openjdk=11
+	makedepends = libgl
+	makedepends = libx11
+	makedepends = libxtst
+	makedepends = pango
+	makedepends = python2
+	makedepends = qt5-base
+	makedepends = ruby
+	makedepends = unzip
+	makedepends = webkit2gtk
+	makedepends = zip
+	source = https://hg.openjdk.java.net/openjfx/11/rt/archive/11.0.3+1.tar.bz2
+	source = gradle.properties
+	source = https://services.gradle.org/distributions/gradle-4.8-bin.zip
+	source = java11-openjfx-flags.patch
+	source = java11-openjfx-no-xlocale.patch
+	sha256sums = c4a42e9f7ac94ca3b05b363375f782bc79be9446bee23eb94e6175a97b5262ae
+	sha256sums = 2622aa35d733cc69f4421f1cd053bf425e89f93141cb52c9f016a9b425fc0cb6
+	sha256sums = f3e29692a8faa94eb0b02ebf36fa263a642b3ae8694ef806c45c345b8683f1ba
+	sha256sums = 62d7356654b541a9f868cc7beb185e64a1375d9a734b906ba00eacbee258d16e
+	sha256sums = 220c63396561867a6d07ae81b6390160d8f91502587e4873998e3b7a83793a1c
+
+pkgname = java11-openjfx
+	depends = alsa-lib
+	depends = cairo
+	depends = ffmpeg
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk2
+	depends = gtk3
+	depends = java-runtime-openjdk=11
+	depends = libavcodec.so
+	depends = libavformat.so
+	depends = libfreetype.so
+	depends = libgl
+	depends = libx11
+	depends = libxtst
+	depends = pango
+	depends = python2
+	depends = qt5-base
+	depends = ruby
+	depends = unzip
+	depends = webkit2gtk
+
+pkgname = java11-openjfx-doc
+
+pkgname = java11-openjfx-src
+
