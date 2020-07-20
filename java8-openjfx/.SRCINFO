@@ -1,0 +1,64 @@
+pkgbase = java8-openjfx
+	pkgdesc = Java OpenJFX 8 client application platform (open-source implementation of JavaFX)
+	pkgver = 8.u202
+	pkgrel = 3
+	url = https://wiki.openjdk.java.net/display/OpenJFX/Main
+	arch = x86_64
+	license = GPL
+	makedepends = alsa-lib
+	makedepends = cairo
+	makedepends = cmake
+	makedepends = ffmpeg
+	makedepends = freetype2
+	makedepends = gdk-pixbuf2
+	makedepends = glib2
+	makedepends = gperf
+	makedepends = gtk2
+	makedepends = gtk3
+	makedepends = java-environment-openjdk=8
+	makedepends = libgl
+	makedepends = libx11
+	makedepends = libxtst
+	makedepends = pango
+	makedepends = python2
+	makedepends = qt5-base
+	makedepends = ruby
+	makedepends = unzip
+	makedepends = webkit2gtk
+	source = https://hg.openjdk.java.net/openjfx/8u/rt/archive/8u202-ga.tar.bz2
+	source = gradle.properties
+	source = https://services.gradle.org/distributions/gradle-4.8-bin.zip
+	source = java8-openjfx-flags.patch
+	source = java8-openjfx-no-xlocale.patch
+	sha256sums = 12b0538d04c4bd451e4692ee06357ac36233ff4ec2af9fa3b9bbdbab48c3f2fc
+	sha256sums = 75335ac8ccae143ab4dbb81fc32c70d34d95baa360388f55bf2d237e8821ad97
+	sha256sums = f3e29692a8faa94eb0b02ebf36fa263a642b3ae8694ef806c45c345b8683f1ba
+	sha256sums = 867badaca506f130f918bdc620ae7ae5be8b176fcdfc91fef551b636d6390b19
+	sha256sums = b21f6b254acc7aa2124521b6521d3bdfdfcfd9b062624a84ef73608120957d0d
+
+pkgname = java8-openjfx
+	depends = alsa-lib
+	depends = cairo
+	depends = ffmpeg
+	depends = gdk-pixbuf2
+	depends = glib2
+	depends = gtk2
+	depends = gtk3
+	depends = java-runtime-openjdk=8
+	depends = libavcodec.so
+	depends = libavformat.so
+	depends = libfreetype.so
+	depends = libgl
+	depends = libx11
+	depends = libxtst
+	depends = pango
+	depends = python2
+	depends = qt5-base
+	depends = ruby
+	depends = unzip
+	depends = webkit2gtk
+
+pkgname = java8-openjfx-doc
+
+pkgname = java8-openjfx-src
+
