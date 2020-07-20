@@ -1,6 +1,6 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2020.1.2
+	pkgver = 2020.1.3
 	pkgrel = 1
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
@@ -14,18 +14,20 @@ pkgbase = pycharm-community-edition
 	depends = giflib
 	depends = glib2
 	depends = java-runtime=11
+	depends = java11-openjfx
 	depends = python
 	depends = sh
 	depends = ttf-font
+	depends = libdbusmenu-glib
 	optdepends = ipython2: IPython integration for Python 2
 	optdepends = ipython: IPython integration for Python 3
 	optdepends = python2: Python 2 support
-	source = git+https://github.com/JetBrains/intellij-community.git#commit=47bc792f3b88d030aeabd4d00b0d757100a35289
+	source = git+https://github.com/JetBrains/intellij-community.git#commit=3e0e8f91ced043195717b296b09e008802b2f6aa
 	source = pycharm.desktop
 	source = pycharm.sh
 	sha256sums = SKIP
 	sha256sums = f727119ec7c8b96820e80712b1ee342de6a94ff72402e8f2d390cbff702f9b21
-	sha256sums = 8c1328ab5693a21fc49447d6aab979bf01cc6e2f592071b0ccbeba64cf6bd2d5
+	sha256sums = 7b5360b4977e934931acab775d04915417a5da9f3ea1dd44355525b0016cf65d
 
 pkgname = pycharm-community-edition
 
