@@ -1,14 +1,15 @@
 pkgbase = libseccomp
 	pkgdesc = Enhanced seccomp library
 	pkgver = 2.5.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/seccomp/libseccomp
 	arch = x86_64
 	license = LGPL2.1
 	checkdepends = valgrind
 	makedepends = gperf
+	makedepends = cython
+	makedepends = python-setuptools
 	depends = glibc
-	provides = libseccomp.so
 	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.0/libseccomp-2.5.0.tar.gz
 	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.0/libseccomp-2.5.0.tar.gz.asc
 	validpgpkeys = 7100AADFAE6E6E940D2E0AD655E45A5AE8CA7C8A
@@ -19,4 +20,9 @@ pkgbase = libseccomp
 	b2sums = SKIP
 
 pkgname = libseccomp
+	provides = libseccomp.so
+
+pkgname = python-libseccomp
+	depends = python
+	depends = libseccomp.so
 
