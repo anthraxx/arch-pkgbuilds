@@ -8,16 +8,11 @@ pkgbase = python-ujson
 	checkdepends = python-six
 	checkdepends = python-pytest
 	makedepends = python-setuptools
-	makedepends = python2-setuptools
 	makedepends = python-pip
-	makedepends = python2-pip
+	depends = python
 	source = https://github.com/ultrajson/ultrajson/archive/3.0.0/python-ujson-3.0.0.tar.gz
 	sha512sums = bd77fd9ba4c1f059216be46afced3db20b82b8637c5d41fe5ba04b9d63e636c422cae44a7fcee913dc40fc9d91367f2de97db757e4cb53b22ecb77b1c765e27d
 	b2sums = e15895072e44e0f54a7437fe5613aff3fa912f7d19f3058bb4977cf407d8b2a3d0c8c94526459bfbbccbcff56737c76be880bd3385776c8a771dba0194c8e0e7
 
 pkgname = python-ujson
-	depends = python
-
-pkgname = python2-ujson
-	depends = python2
 
