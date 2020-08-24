@@ -1,14 +1,14 @@
 pkgbase = vim-nerdtree
 	pkgdesc = Tree explorer plugin for navigating the filesystem
-	pkgver = 6.9.0
+	pkgver = 6.9.4
 	pkgrel = 1
 	url = https://github.com/scrooloose/nerdtree
 	arch = any
 	groups = vim-plugins
 	license = custom:WTFPL
 	depends = vim
-	source = https://github.com/scrooloose/nerdtree/archive/6.9.0/vim-nerdtree-6.9.0.tar.gz
-	sha512sums = 811558a2f880b1cdaa990d092f86ceec7383de8dd1459f5a071877b80c3ddd8a640ecb46c6f2805eb6f1117199af0b0addcf04472905e36aafdaf31e1cfd784d
+	source = https://github.com/scrooloose/nerdtree/archive/6.9.4/vim-nerdtree-6.9.4.tar.gz
+	sha512sums = a5bacc31271b755c2139e1990d35351a9af34ef6e483588894f3c1c7883dfd9fceb1a6a78e28bb10caff1bb269c6c48b8215f6f3b8abdb2995c0da8fb9f1e59e
 
 pkgname = vim-nerdtree
 
