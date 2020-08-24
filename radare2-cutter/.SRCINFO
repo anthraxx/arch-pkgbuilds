@@ -1,7 +1,7 @@
 pkgbase = radare2-cutter
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
-	pkgver = 1.10.3
-	pkgrel = 2
+	pkgver = 1.11.1
+	pkgrel = 1
 	epoch = 1
 	url = https://github.com/radareorg/cutter
 	arch = x86_64
@@ -9,6 +9,7 @@ pkgbase = radare2-cutter
 	makedepends = git
 	makedepends = cmake
 	makedepends = shiboken2
+	makedepends = qt5-tools
 	depends = radare2
 	depends = capstone
 	depends = qt5-base
@@ -22,10 +23,9 @@ pkgbase = radare2-cutter
 	depends = graphviz
 	depends = gcc-libs
 	optdepends = r2ghidra-dec: ghidra decompiler plugin
-	source = radare2-cutter::git+https://github.com/radareorg/cutter#commit=1aad797722f9fc60b80792a4cc02380c9241714a
-	source = radare2-cutter-qt5.15.patch
+	source = radare2-cutter::git+https://github.com/radareorg/cutter#commit=9a822ec3964381cb917da593b6404ee72be5433a
 	sha512sums = SKIP
-	sha512sums = 966bf673904d3c633a09a7c6755d32de1205c07849def03ac35433eb6587ad5fd4860e33c11d54e6b4cff5470ed91cf35eacb0a15ca3bb4e1d095fdfa0e3e87b
+	b2sums = SKIP
 
 pkgname = radare2-cutter
 
