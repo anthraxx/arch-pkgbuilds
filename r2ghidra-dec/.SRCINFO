@@ -1,6 +1,6 @@
 pkgbase = r2ghidra-dec
 	pkgdesc = Deep ghidra decompiler integration for radare2 and Cutter
-	pkgver = r2.4.5.0
+	pkgver = 4.5.0
 	pkgrel = 1
 	url = https://github.com/radareorg/r2ghidra-dec
 	arch = x86_64
