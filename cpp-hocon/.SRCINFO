@@ -1,6 +1,6 @@
 pkgbase = cpp-hocon
 	pkgdesc = C++ port of the Typesafe Config library
-	pkgver = 0.2.2
+	pkgver = 0.3.0
 	pkgrel = 1
 	url = https://github.com/puppetlabs/cpp-hocon
 	arch = x86_64
@@ -16,8 +16,8 @@ pkgbase = cpp-hocon
 	depends = leatherman_util.so
 	depends = leatherman_locale.so
 	provides = libcpp-hocon.so
-	source = cpp-hocon-0.2.2.tar.gz::https://github.com/puppetlabs/cpp-hocon/archive/0.2.2.tar.gz
-	sha512sums = 2a0c6aa4cabab18282bacc7cbbc4d9f237ab7073bfe12cb6fb1ea706761336bae0cf22a76c66d649a61b6bc6279c9db5ba8993bd0eb53fb88835c73570863948
+	source = cpp-hocon-0.3.0.tar.gz::https://github.com/puppetlabs/cpp-hocon/archive/0.3.0.tar.gz
+	sha512sums = de997e6d90330f901863b7da0d6f6e069a31e052b6f31c1e3009a9559c863f08879ecf4e202c763ec32567dd3a1e436ff5d3bf0b3009a085ef3ee95e5ca6c7e5
 
 pkgname = cpp-hocon
 
