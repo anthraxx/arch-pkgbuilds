@@ -1,7 +1,7 @@
 pkgbase = mtd-utils
 	pkgdesc = Utilities for dealing with MTD devices
-	pkgver = 2.1.1
-	pkgrel = 2
+	pkgver = 2.1.2
+	pkgrel = 1
 	url = http://www.linux-mtd.infradead.org/
 	arch = x86_64
 	license = GPL2
@@ -10,10 +10,10 @@ pkgbase = mtd-utils
 	depends = util-linux
 	depends = zstd
 	depends = zlib
-	source = ftp://ftp.infradead.org/pub/mtd-utils/mtd-utils-2.1.1.tar.bz2
-	source = ftp://ftp.infradead.org/pub/mtd-utils/mtd-utils-2.1.1.tar.bz2.asc
+	source = ftp://ftp.infradead.org/pub/mtd-utils/mtd-utils-2.1.2.tar.bz2
+	source = ftp://ftp.infradead.org/pub/mtd-utils/mtd-utils-2.1.2.tar.bz2.asc
 	validpgpkeys = 13063F723C9E584AEACD5B9BBCE5DC3C741A02D1
-	sha512sums = 615b27f6c4c9f392715060467b5728aeb1e774256e661e2b84126464e69a5e1140646e2cf9d6e42d6279c6396c1b2204f545023e5be09d02afb1587d62c4399e
+	sha512sums = ff3bf018d02b7fb2d545c49823d69a1726e42c39e3e3a956c1c4dc2ac7f18142b1dab66ad4c167b2652e33bc2a0fa277a6803e7fd04d7fd8b75d70a047ce177d
 	sha512sums = SKIP
 
 pkgname = mtd-utils
