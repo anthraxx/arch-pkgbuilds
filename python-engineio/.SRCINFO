@@ -1,6 +1,6 @@
 pkgbase = python-engineio
 	pkgdesc = Python implementation of the Engine.IO realtime server
-	pkgver = 3.13.1
+	pkgver = 3.13.2
 	pkgrel = 1
 	url = https://github.com/miguelgrinberg/python-engineio
 	arch = any
@@ -19,6 +19,7 @@ pkgbase = python-engineio
 	makedepends = python-gevent
 	makedepends = python-gevent-websocket
 	makedepends = python-websockets
+	depends = python
 	depends = python-six
 	depends = python-urllib3
 	depends = python-websocket-client
@@ -29,9 +30,9 @@ pkgbase = python-engineio
 	optdepends = python-gevent: gevent driver
 	optdepends = python-gevent-websocket: gevent driver
 	options = !makeflags
-	source = https://github.com/miguelgrinberg/python-engineio/archive/v3.13.1/python-engineio-3.13.1.tar.gz
-	sha512sums = 261c3db434caaa1972f40ae6877782cb7d7ebb23dc45c39a27efce3e33def3a3016b6b814880f45253ea8b70cc4694585248eec9a87c7bed0460e7dd59b17269
-	b2sums = 233e5a796451826138a74a1ea98258bf558d4225639d95609d36a02b654df7d616f125b74ecde96faaf9af60ccd3e508030feb833f1cd48197a406f9d842ed19
+	source = https://github.com/miguelgrinberg/python-engineio/archive/v3.13.2/python-engineio-3.13.2.tar.gz
+	sha512sums = 712b7f9646d0a8aa470d0f373ccfa4baf4e37eba6583def4325037a33e066819f3dbcb8cc6544ba2878a784e8ca22f67f490a7aa18f6c8f45c660900a1946561
+	b2sums = 5b63d660ba82f94dd784f5aea7e651a05cf914049ab99f9aef36972efbe4978832f7225e7d77098d5319f437ac77216c44d11efa5f353745b8d4c285c24560e8
 
 pkgname = python-engineio
 
