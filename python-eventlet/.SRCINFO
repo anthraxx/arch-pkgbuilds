@@ -1,6 +1,6 @@
 pkgbase = python-eventlet
 	pkgdesc = Highly concurrent networking library
-	pkgver = 0.25.2
+	pkgver = 0.26.1
 	pkgrel = 1
 	url = https://eventlet.net
 	arch = any
@@ -23,9 +23,9 @@ pkgbase = python-eventlet
 	optdepends = python-pyzmq: non-blocking ZeroMQ support
 	optdepends = python-dnspython: non-blocking DNS support
 	options = !makeflags
-	source = https://github.com/eventlet/eventlet/archive/v0.25.2/eventlet-0.25.2.tar.gz
-	sha512sums = f59ccfef34411b38e497d99f960a7c696a80becb942fbfccc14a41ba1c70c73a17dbabf36f5dc03b4f250625992605002dd2753dd39e76b10d971a30fbf6bd31
-	b2sums = 52b931597c9528e3d2061eef062a08b011320e39565119e2e0e8b01500844065b9f818ebbc35da1ef7ab75766644bdf46b06f952b421e33a68aa55f6dd30e856
+	source = https://github.com/eventlet/eventlet/archive/v0.26.1/eventlet-0.26.1.tar.gz
+	sha512sums = 78dddbbc51827bebc331afa5eaade27a65e1f95b0a68ec57c4ad4f83ab7c90bffea4bd866718f3d0bef45794ccae1883fc046b4c92f05cb320e3ffb172e0d9a1
+	b2sums = 2175d25643b1fa6d4cf317a90ed1a529499672ff25be60c79d0d78af6a58bd093487ad92ccde51e5438a71d5b1ae7f74133a0a744b5e32fe71a264d7225ec814
 
 pkgname = python-eventlet
 
