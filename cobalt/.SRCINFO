@@ -1,6 +1,6 @@
 pkgbase = cobalt
 	pkgdesc = Static site generator written in Rust
-	pkgver = 0.15.11
+	pkgver = 0.16.2
 	pkgrel = 1
 	url = https://cobalt-org.github.io/
 	arch = x86_64
@@ -9,9 +9,9 @@ pkgbase = cobalt
 	makedepends = cargo
 	depends = openssl
 	depends = libsass
-	source = https://github.com/cobalt-org/cobalt.rs/archive/v0.15.11/cobalt.rs-v0.15.11.tar.gz
-	sha512sums = db097c17a59ab9ffe294f84c41ca97498c6d61ddff591e8624f01e5292a1f96505e206e952b54279471cecff0b5c2eb8ecb71c2db9776954a424d7d9070f1022
-	b2sums = 5881a095123730175ca7b63f745c70ebc58efabff98608ea164e6c7957821f55ef5f5709d9b7383bcb2e0574f228c94281d1e9de06bc67b840ed6ae6b0becf2b
+	source = https://github.com/cobalt-org/cobalt.rs/archive/v0.16.2/cobalt.rs-v0.16.2.tar.gz
+	sha512sums = 9cf68907e68ccbe7d580864426e642b1a0eb15f7794f05a74cb3addb64482d494a010f71d137940dd1cc66a31b0b58298e2e485c03978f36ed7f65f87372ce0c
+	b2sums = d4c292bb3538ec3ffdbabbe5263e69d177d735555b032fb314b3c86eae04651b8ddfa284451f2782072798d125b6be1f8f76e7f0a46229a147cc6e0a81ac6c82
 
 pkgname = cobalt
 

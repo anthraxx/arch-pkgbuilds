@@ -1,7 +1,7 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgname=hcxdumptool
-pkgver=6.0.6
+pkgver=6.1.1
 pkgrel=1
 pkgdesc='Small tool to capture packets from wlan devices'
 url='https://github.com/ZerBea/hcxdumptool'
@@ -10,9 +10,9 @@ license=('MIT')
 depends=('glibc' 'openssl')
 source=(https://github.com/ZerBea/hcxdumptool/archive/${pkgver}/${pkgname}-${pkgver}.tar.gz
         https://github.com/ZerBea/hcxdumptool/releases/download/${pkgver}/${pkgname}-${pkgver}.tar.gz.asc)
-sha512sums=('16a52e3cc778839b8dd2418fbeae2a269907260cf1286baafe146a2de99fae1c7d9ab3e9d8a10bd8b7f8bb2bef69c857c0c71ab20e5b757477fc00d5d12d9ddb'
+sha512sums=('61c10d4ba5b66fd2ec5c2d38b679c49e893bbc8860b0e45a7dd0c1261de5091982d5bc8e9435e0f3c2033c0a6be5fc91721b8740090d847db4325e840345f048'
             'SKIP')
-b2sums=('4e82f117a973416afef1e6a6a0dafa72c7012517dfc1265428404258a46de5c699e27b7e407ca98088bb212b4e39f822e4350f3ef18f51780895131c66e55d96'
+b2sums=('b6d6a253e59c05e85c400183211868487bd470c0548235e2b5eb24483652273c7d6f956195c1eba10ca8f1d48fbbe5536455bf98c57258adbe62d65979a514ba'
         'SKIP')
 validpgpkeys=('5920CE1C567948AFD2C0A9B7375516A45DB88630') # ZeroBeat <ZeroBeat@gmx.de>
 

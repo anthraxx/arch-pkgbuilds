@@ -1,7 +1,7 @@
 pkgbase = fwknop
 	pkgdesc = FireWall KNock OPerator: Single Packet Authorization and Port Knocking
 	pkgver = 2.6.10
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.cipherdyne.org/fwknop
 	arch = x86_64
 	license = GPL2

@@ -1,7 +1,7 @@
 pkgbase = rapidjson
 	pkgdesc = Fast JSON parser/generator for C++ with both SAX/DOM style API
 	pkgver = 1.1.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/miloyip/rapidjson
 	arch = any
 	license = MIT

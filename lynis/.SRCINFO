@@ -1,7 +1,7 @@
 pkgbase = lynis
 	pkgdesc = Security and system auditing tool to harden Unix/Linux systems
 	pkgver = 2.7.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://cisofy.com/lynis/
 	arch = any
 	license = GPL3

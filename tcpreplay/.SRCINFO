@@ -1,6 +1,6 @@
 pkgbase = tcpreplay
 	pkgdesc = Gives the ability to replay previously captured traffic in a libpcap format
-	pkgver = 4.3.2
+	pkgver = 4.3.3
 	pkgrel = 1
 	url = https://tcpreplay.appneta.com
 	arch = x86_64
@@ -11,11 +11,13 @@ pkgbase = tcpreplay
 	depends = autogen
 	optdepends = tcpdump: decoding of packets support
 	options = !emptydirs
-	source = https://github.com/appneta/tcpreplay/releases/download/v4.3.2/tcpreplay-4.3.2.tar.gz
-	source = https://github.com/appneta/tcpreplay/releases/download/v4.3.2/tcpreplay-4.3.2.tar.gz.asc
+	source = https://github.com/appneta/tcpreplay/releases/download/v4.3.3/tcpreplay-4.3.3.tar.gz
+	source = https://github.com/appneta/tcpreplay/releases/download/v4.3.3/tcpreplay-4.3.3.tar.gz.asc
 	validpgpkeys = 84E4FA215C934A7D97DC76D5E9E2149793BDE17E
-	sha512sums = 211158d39ec48cefe11f0681f38eb1ab6a8302c5ef0e97dbff7d3230defe63e34d8d5755c21f1fe3fc061c4a0caf48ea0b86ae7d444ca68529a96386ea97b8fe
+	sha512sums = ac31a767bc3c2033391f37c8d99bc9446e8284c661e4fbbd0fffa1b20b98bff70c0628d573581d260b1ed1a0a1a348177a691ae37ce4c9c48d9dbaabd7d3ff11
 	sha512sums = SKIP
+	b2sums = 3968fe96c8e8477cd5dc9fb8ee606264c0212dea139e54ccde2e42d184340ba1fa80c7c175340cb9f84f6c05a7a4ea745a7211286e2df44c6dabe24344f0c5f0
+	b2sums = SKIP
 
 pkgname = tcpreplay
 

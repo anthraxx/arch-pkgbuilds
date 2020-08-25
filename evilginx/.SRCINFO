@@ -1,11 +1,11 @@
 pkgbase = evilginx
 	pkgdesc = Man-in-the-middle attack framework used for phishing login credentials
 	pkgver = 2.3.0
-	pkgrel = 5
+	pkgrel = 6
 	url = https://github.com/kgretzky/evilginx2
 	arch = x86_64
 	license = GPL3
-	makedepends = go-pie
+	makedepends = go
 	makedepends = git
 	makedepends = dep
 	depends = glibc

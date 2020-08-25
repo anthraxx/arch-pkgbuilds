@@ -1,7 +1,7 @@
 pkgbase = tetrinet
 	pkgdesc = Multiplayer online Tetris game for up to six people
 	pkgver = 0.11
-	pkgrel = 8
+	pkgrel = 9
 	url = http://tetrinet.or.cz/
 	arch = x86_64
 	license = Public domain

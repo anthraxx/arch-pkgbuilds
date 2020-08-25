@@ -1,11 +1,11 @@
 pkgbase = caddy
 	pkgdesc = HTTP/2 Web Server with Automatic HTTPS
 	pkgver = 1.0.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://caddyserver.com
 	arch = x86_64
 	license = Apache
-	makedepends = go-pie
+	makedepends = go
 	makedepends = git
 	depends = glibc
 	backup = etc/caddy/caddy.conf

@@ -1,7 +1,7 @@
 pkgbase = i3-wm
 	pkgdesc = An improved dynamic tiling window manager
-	pkgver = 4.18.1
-	pkgrel = 1
+	pkgver = 4.18.2
+	pkgrel = 2
 	url = https://i3wm.org/
 	arch = x86_64
 	groups = i3
@@ -28,13 +28,15 @@ pkgbase = i3-wm
 	replaces = i3
 	replaces = i3bar
 	backup = etc/i3/config
-	source = https://i3wm.org/downloads/i3-4.18.1.tar.bz2
-	source = https://i3wm.org/downloads/i3-4.18.1.tar.bz2.asc
+	source = https://i3wm.org/downloads/i3-4.18.2.tar.bz2
+	source = https://i3wm.org/downloads/i3-4.18.2.tar.bz2.asc
 	source = 0001-Use-OVER-operator-for-drawing-text.patch
+	source = 0002-kick-tray-clients-before-destroying-the-bar.patch
 	validpgpkeys = 424E14D703E7C6D43D9D6F364E7160ED4AC8EE1D
-	sha256sums = 9abf90fa803f2cb8e53e3bc8c952eba48c43463083608e4107fc53ab224be07c
+	sha256sums = b28617d62f308b93817fc9949daffee74cf4a001685de389f3072cb44cf5120c
 	sha256sums = SKIP
 	sha256sums = e49e147b1cd06f95188decbbe41f5c3a0aca18d0195750bc3ea16465b4aca563
+	sha256sums = f8a3a307951f6a2f5fc740a0d5871e5fb502162d0269c6124d87aabb46e6e11a
 
 pkgname = i3-wm
 

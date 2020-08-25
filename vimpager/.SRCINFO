@@ -1,7 +1,7 @@
 pkgbase = vimpager
 	pkgdesc = A vim-based script to use as a PAGER.
 	pkgver = 2.06
-	pkgrel = 4
+	pkgrel = 5
 	url = https://www.vim.org/scripts/script.php?script_id=1723
 	arch = any
 	license = custom:BSD

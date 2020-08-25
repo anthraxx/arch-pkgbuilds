@@ -1,6 +1,6 @@
 pkgbase = valgrind
 	pkgdesc = Tool to help find memory-management problems in programs
-	pkgver = 3.15.0+269+gd772e2599
+	pkgver = 3.16.1
 	pkgrel = 1
 	url = http://valgrind.org/
 	arch = x86_64
@@ -9,7 +9,6 @@ pkgbase = valgrind
 	makedepends = gdb
 	makedepends = lib32-glibc
 	makedepends = lib32-gcc-libs
-	makedepends = git
 	makedepends = docbook-xml
 	makedepends = docbook-xsl
 	makedepends = docbook-sgml
@@ -20,12 +19,16 @@ pkgbase = valgrind
 	replaces = valgrind-multilib
 	options = !emptydirs
 	options = !strip
-	source = git+https://repo.or.cz/valgrind.git#commit=d772e25995c3400eecf2b6070e0bf3411447c3d1
+	source = https://sourceware.org/pub/valgrind/valgrind-3.16.1.tar.bz2
+	source = https://sourceware.org/pub/valgrind/valgrind-3.16.1.tar.bz2.asc
 	source = valgrind-3.7.0-respect-flags.patch
-	md5sums = SKIP
-	md5sums = 470d9881870aacc210b7a6efb64cc9a9
+	validpgpkeys = 0E9FFD0C16A1856CF9C7C690BA0166E698FA6035
+	sha512sums = 2a4173efe1b6facdd2f5c5ee8ed006704168eba1813736fccc8191d60363afd96197512cf42037e65f18d4ddd49adc74a54c47210df216fba3c46bf68ef0f950
 	sha512sums = SKIP
 	sha512sums = e0cec39381cefeca09ae4794cca309dfac7c8693e6315e137e64f5c33684598726d41cfbb4edf764fe985503b13ff596184ca5fc32b159d500ec092e4cf8838c
+	b2sums = 1c333c26827f7a8356869e8758da9dd6a7444642ac4f6377c84fdab8349b9cee1e9bf2cf2eb86043c4feffab342dd97da20e76d7566d0296189e6ea8483a8c65
+	b2sums = SKIP
+	b2sums = af556fdf3c02e37892bfe9afebc954cf2f1b2fa9b75c1caacfa9f3b456ebc02bf078475f9ee30079b3af5d150d41415a947c3d04235c1ea8412cf92b959c484a
 
 pkgname = valgrind
 
