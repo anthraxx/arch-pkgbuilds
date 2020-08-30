@@ -1,6 +1,6 @@
 pkgbase = python-jedi
 	pkgdesc = Awesome autocompletion for python
-	pkgver = 0.17.0
+	pkgver = 0.17.2
 	pkgrel = 1
 	url = https://github.com/davidhalter/jedi
 	arch = any
@@ -9,9 +9,11 @@ pkgbase = python-jedi
 	checkdepends = python-parso
 	makedepends = git
 	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-sphinx_rtd_theme
 	depends = python
 	depends = python-parso
-	source = git+https://github.com/davidhalter/jedi#commit=8aaa8e00446f801c023bb4b056f51ac6f3d99e99
+	source = git+https://github.com/davidhalter/jedi#commit=3b7106ae71cb7bd3431101d169a0110ee0c179aa
 	source = git+https://github.com/davidhalter/typeshed
 	source = git+https://github.com/typeddjango/django-stubs
 	sha256sums = SKIP
