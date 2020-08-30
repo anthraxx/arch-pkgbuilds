@@ -1,5 +1,5 @@
 pkgbase = java8-openjdk
-	pkgver = 8.u262
+	pkgver = 8.u265
 	pkgrel = 1
 	url = https://openjdk.java.net/
 	arch = x86_64
@@ -14,22 +14,22 @@ pkgbase = java8-openjdk
 	makedepends = fontconfig
 	makedepends = libcups
 	makedepends = alsa-lib
-	source = jdk8u-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u262-b10.tar.gz
-	source = corba-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u262-b10.tar.gz
-	source = hotspot-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u262-b10.tar.gz
-	source = jdk-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u262-b10.tar.gz
-	source = jaxws-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u262-b10.tar.gz
-	source = jaxp-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u262-b10.tar.gz
-	source = langtools-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u262-b10.tar.gz
-	source = nashorn-jdk8u262-b10.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u262-b10.tar.gz
-	sha256sums = 0561cef4ceed6450fd0e3c2cdf743c3cd89ee067507647ea32a1c2ccc294cbe6
-	sha256sums = 6dcf3a2fb2a6ee6ffe9262f12a890764730d02eeccf8701a18a7bde9012c225f
-	sha256sums = a14e9f6cd5db33635bd73ebf717251ab48efff29a47537fec3c6c54190b7d753
-	sha256sums = a5f92765f66c77adf358f81c5c116c4df099f3c19070e42068b77aea0fa34b1a
-	sha256sums = 32d0ad87d2a5cd03b3699ecfe43ed08085fb287edfa84424c7a3a951d7fd222a
-	sha256sums = d5a7b4dc51dc3bd656bfce0c60471dd1bc662e46d159353d2091becddc5ac72f
-	sha256sums = edf7d08b6abc3be55ec07f43f144edd54f85bf3d7e031ac4f78e818e009c582b
-	sha256sums = 2d8199f04ab3d0d44253d855006dd80db99c043f43a5f881d03283d4440c9c1f
+	source = jdk8u-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/archive/jdk8u265-b01.tar.gz
+	source = corba-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/corba/archive/jdk8u265-b01.tar.gz
+	source = hotspot-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/hotspot/archive/jdk8u265-b01.tar.gz
+	source = jdk-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jdk/archive/jdk8u265-b01.tar.gz
+	source = jaxws-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jaxws/archive/jdk8u265-b01.tar.gz
+	source = jaxp-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/jaxp/archive/jdk8u265-b01.tar.gz
+	source = langtools-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/langtools/archive/jdk8u265-b01.tar.gz
+	source = nashorn-jdk8u265-b01.tar.gz::https://hg.openjdk.java.net/jdk8u/jdk8u/nashorn/archive/jdk8u265-b01.tar.gz
+	sha256sums = ed77558bc632c07836ba2605467e8bf1204fdfcc447a5c52b41fe2c5273fdc03
+	sha256sums = ac780bdd3c97cc86a0d0d7aaec906be24f74bf03df5e8a1d32d28b9f538445c6
+	sha256sums = 9c3b5b9f162a5a4e4fcca004d11a544165e154e075a2e978e074d21517e1395f
+	sha256sums = ba15e81312454e348c970c998d5194b0e89bde1a135a813db5941c47605cac4e
+	sha256sums = 1d7214c43d47e2dbc2e276445e68ccc0086f513d418c3197c66c540570797a54
+	sha256sums = e756483314240e677c6e468aa28e2de8b002cfeddd4ef53f53fcf9e790130785
+	sha256sums = 8a8888898ea82238ea113562a35ee764d66ad0dbd22203bb61c56a525df93493
+	sha256sums = f1e593a9fca515f6ceeb72f1d792ff59feee8ce3a90bb0f878aa9e129cd730a1
 
 pkgname = jre8-openjdk-headless
 	pkgdesc = OpenJDK Java 8 headless runtime environment
@@ -46,7 +46,7 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.u262-1
+	depends = jre8-openjdk-headless=8.u265-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
@@ -61,7 +61,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.u262-1
+	depends = jre8-openjdk=8.u265-1
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
