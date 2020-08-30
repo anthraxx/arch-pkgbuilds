@@ -1,0 +1,15 @@
+pkgbase = python-parso
+	pkgdesc = Python parser that supports error recovery and round-trip parsing for different Python versions
+	pkgver = 0.8.0
+	pkgrel = 1
+	url = https://github.com/davidhalter/parso
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	source = python-parso-0.8.0.tar.gz::https://github.com/davidhalter/parso/archive/v0.8.0.tar.gz
+	sha512sums = fe9d1c46cb128d6af9c45f333e49475da795c1ed67572891f4daf08af620814b9db18469be11f771869e0f44acea9446e1419067e1b72affc1cb669a277d6a2c
+
+pkgname = python-parso
+
