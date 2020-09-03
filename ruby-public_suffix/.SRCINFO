@@ -1,6 +1,6 @@
 pkgbase = ruby-public_suffix
 	pkgdesc = Domain name parser based on the Public Suffix List
-	pkgver = 4.0.5
+	pkgver = 4.0.6
 	pkgrel = 1
 	url = https://simonecarletti.com/code/publicsuffix-ruby
 	arch = any
@@ -8,8 +8,8 @@ pkgbase = ruby-public_suffix
 	makedepends = ruby-rdoc
 	depends = ruby
 	options = !emptydirs
-	source = ruby-public_suffix-4.0.5.tar.gz::https://github.com/weppos/publicsuffix-ruby/archive/v4.0.5.tar.gz
-	sha512sums = ba2a781a9f83e9923158a4b539564e33cd9afeb5890f18d696a7de77fff76d7caeadb72954711dce3a46830ac16158796f43c3f3cc90a08d00320dae931de14f
+	source = ruby-public_suffix-4.0.6.tar.gz::https://github.com/weppos/publicsuffix-ruby/archive/v4.0.6.tar.gz
+	sha512sums = 80140eefc46ad04609a7bf440d30d404339f6140d068746b125877be7ceda3e3bb3c553e3ccb1ab163a3f4f8a184d4eeb620e63e2e9798d27bb810b58b4e3f54
 
 pkgname = ruby-public_suffix
 
