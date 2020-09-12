@@ -1,6 +1,6 @@
 pkgbase = dfrs
 	pkgdesc = Display file system space usage using graphs and colors
-	pkgver = 0.0.4
+	pkgver = 0.0.5
 	pkgrel = 1
 	url = https://github.com/anthraxx/dfrs
 	arch = x86_64
@@ -10,12 +10,12 @@ pkgbase = dfrs
 	depends = glibc
 	depends = gcc-libs
 	options = !makeflags
-	source = https://github.com/anthraxx/dfrs/archive/0.0.4/dfrs-0.0.4.tar.gz
-	source = https://github.com/anthraxx/dfrs/releases/download/0.0.4/dfrs-0.0.4.tar.gz.sig
+	source = https://github.com/anthraxx/dfrs/archive/0.0.5/dfrs-0.0.5.tar.gz
+	source = https://github.com/anthraxx/dfrs/releases/download/0.0.5/dfrs-0.0.5.tar.gz.sig
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
-	sha512sums = a3a628742e61f4283620584d4a71d805ced1c9c76349be67d195e0886429c1a3e865d432d933663d154f1184023b3205ca89075df918e4a9a23c6f40a0315dd7
+	sha512sums = d6a2c8bdede0c630f3fd3f3128e9961b939a5a3bd5d2e24c0fbda466669cfd9c4ca4dce09adf3e79debaf448c9e6773a8c5bb1b0e7a3e09f152025f2649c7d1c
 	sha512sums = SKIP
-	b2sums = 53a97c5085d3b88a685796f7fb487fd75f07d370965d4b2e1be5c0f66d51fe8dffca9afd40edbc5e2e2ce5eeff82d5e8ca082d4c93e79cbc9d49132d5d78939c
+	b2sums = 89f6212cd154663c8ded25e0cc79965961cfbca8d80fc132b642064cdf72c1c08f8a249140324e8307b0141f3ef0a1570585a1714d0edf7cb4f107ecb94b7c45
 	b2sums = SKIP
 
 pkgname = dfrs
