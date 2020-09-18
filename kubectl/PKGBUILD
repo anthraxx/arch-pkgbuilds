@@ -33,10 +33,10 @@ build() {
   export CGO_CFLAGS="${CFLAGS}"
   export CGO_CXXFLAGS="${CXXFLAGS}"
   export CGO_LDFLAGS="${LDFLAGS}"
-  export GOFLAGS="-buildmode=pie -trimpath -mod=readonly -modcacherw"
+  export GOFLAGS="-buildmode=pie -ldflags=-linkmode=external -trimpath -mod=readonly -modcacherw"
   export GOLDFLAGS="-linkmode=external"
 
-  make WHAT=cmd/kubectl GOFLAGS="${GOFLAGS}"
+  make WHAT=cmd/kubectl
   hack/update-generated-docs.sh
 }
 
