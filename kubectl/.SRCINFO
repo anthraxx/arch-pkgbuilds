@@ -1,0 +1,20 @@
+pkgbase = kubectl
+	pkgdesc = Kubernetes.io client binary
+	pkgver = 1.19.2
+	pkgrel = 1
+	url = https://kubernetes.io
+	arch = x86_64
+	license = Apache
+	makedepends = go
+	makedepends = rsync
+	makedepends = git
+	depends = glibc
+	source = https://github.com/kubernetes/kubernetes/archive/v1.19.2/kubernetes-1.19.2.tar.gz
+	source = gotags.patch
+	sha512sums = 7a4e0efdf0e262c662aa87bd77d226275761cb774cb77796846385b41937ce2d8d5e1f9fbae4804c7a0fbc6e558227661c453b2d5bd1b20a5c4913c31eae1519
+	sha512sums = 41a3ac1b849a8cfd824b21f5f3c0344a5b2342c51d33f2a79d3d25731a903e9338864faca495285868669be6926d7a9ce44febf40ecd2d40dec7cb1d79cb40b7
+	b2sums = 814f43f90f248ad428e7c68995a44a9c69722b8215bab3ab9237b06dcee53297a3f57cb2cf68b9e3d246e49944f3246e7d8d3587ab0abff4b8e2fb72e42152c1
+	b2sums = 9ccfe1fcee65e414bba3de3000c1c444590a662259d194c4c6b9fe4ad03dbd687350d7ee1f750b39224f298304eb0b18daa965cde2fcd3bce42e8c903062c30b
+
+pkgname = kubectl
+
