@@ -1,11 +1,12 @@
 pkgbase = kubectx
 	pkgdesc = Utility to manage and switch between kubectl contexts and Kubernetes namespaces
 	pkgver = 0.9.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/ahmetb/kubectx
 	arch = any
 	license = Apache
 	depends = bash
+	depends = kubectl
 	provides = kubectx
 	provides = kubens
 	source = https://github.com/ahmetb/kubectx/archive/v0.9.1/kubectx-0.9.1.tar.gz
