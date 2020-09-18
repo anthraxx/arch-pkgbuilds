@@ -1,0 +1,47 @@
+# Maintainer: Christian Rebischke <chris.rebischke@archlinux.org>
+# Maintainer: Daurnimator <daurnimator@archlinux.org>
+
+pkgname=kustomize
+pkgver=3.8.3
+pkgrel=1
+pkgdesc="Template-free customization of Kubernetes YAML manifests"
+arch=('x86_64')
+url="https://github.com/kubernetes-sigs/kustomize"
+license=('Apache')
+makedepends=('go')
+depends=('glibc')
+source=("https://github.com/kubernetes-sigs/kustomize/archive/kustomize/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('3a7450c0036d22438aa8968bfa893e21f0859c3a82477e26499e12bf6abe9714f8693f499e552f25fb80809247514c584c4429fda44adeca913b43eae1834a0c')
+
+build(){
+  cd "kustomize-kustomize-v${pkgver}/kustomize"
+
+  export CGO_LDFLAGS="${LDFLAGS}"
+  export CGO_CFLAGS="${CFLAGS}"
+  export CGO_CPPFLAGS="${CPPFLAGS}"
+  export CGO_CXXFLAGS="${CXXFLAGS}"
+  go build \
+    -trimpath \
+    -buildmode=pie \
+    -mod=readonly \
+    -modcacherw \
+    -ldflags " \
+      -X sigs.k8s.io/kustomize/api/provenance.version=${pkgver} \
+      -X sigs.k8s.io/kustomize/api/provenance.buildDate=$(date -u +'%Y-%m-%dT%H:%M:%SZ' --date=@${SOURCE_DATE_EPOCH}) \
+      -extldflags ${LDFLAGS}" \
+    .
+}
+
+check(){
+  cd "kustomize-kustomize-v${pkgver}/kustomize"
+
+  go test ./...
+}
+
+package(){
+  cd "kustomize-kustomize-v${pkgver}/kustomize"
+
+  install -D kustomize "${pkgdir}/usr/bin/kustomize"
+}
+
+# vim: ts=2 sw=2 et:
