@@ -1,0 +1,45 @@
+pkgbase = sequoia
+	pkgdesc = Cool new OpenPGP implementation
+	pkgver = 0.19.0
+	pkgrel = 1
+	url = https://sequoia-pgp.org/
+	arch = x86_64
+	license = GPL3
+	checkdepends = python-pytest
+	checkdepends = python-pytest-runner
+	makedepends = git
+	makedepends = cargo
+	makedepends = clang
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = python-cffi
+	makedepends = glibc
+	makedepends = nettle
+	makedepends = sqlite
+	makedepends = capnproto
+	makedepends = openssl
+	makedepends = gcc-libs
+	makedepends = gmp
+	options = !makeflags
+	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=v0.19.0
+	source = build.patch
+	sha512sums = SKIP
+	sha512sums = 44c8f4af25b3a8c42939ea75e87fa90ac42499545b41c3dc6744debf318ecc6361f4aad2692663a0516b9f5a6e1d33435d82a7749cfd2c26c9baf94f5dcb6b09
+
+pkgname = sequoia
+	depends = glibc
+	depends = nettle
+	depends = libhogweed.so
+	depends = libnettle.so
+	depends = sqlite
+	depends = capnproto
+	depends = openssl
+	depends = gcc-libs
+	depends = gmp
+
+pkgname = python-sequoia
+	pkgdesc = Cool new OpenPGP implementation - python bindings
+	depends = python
+	depends = python-cffi
+	depends = sequoia
+
