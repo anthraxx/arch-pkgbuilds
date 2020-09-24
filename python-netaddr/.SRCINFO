@@ -1,6 +1,6 @@
 pkgbase = python-netaddr
 	pkgdesc = Pure Python network address representation and manipulation library
-	pkgver = 0.7.20
+	pkgver = 0.8.0
 	pkgrel = 1
 	url = https://github.com/drkjam/netaddr
 	arch = any
@@ -11,9 +11,9 @@ pkgbase = python-netaddr
 	depends = python
 	optdepends = ipython: netaddr interractive command support
 	options = !makeflags
-	source = https://github.com/drkjam/netaddr/archive/0.7.20/python-netaddr-0.7.20.tar.gz
-	sha512sums = e5f99aad04bfc5dee3531059fdbbc1f4910ef880a12c0591bf8ff8fa55fecb666087432c2e74a2d9215da9f8e2848f0096fa966f3496f5d87558f0421ff1a429
-	b2sums = c06ae455851db0b344fbfbce8280e3f6a22b1b5b70933415425f45d5702e875668e1424c5726c11c4f88195b1a11957c2c13eb8c626ec2f935faa22312d4c4f9
+	source = https://github.com/drkjam/netaddr/archive/0.8.0/python-netaddr-0.8.0.tar.gz
+	sha512sums = 0b518ef240b81af425a5aaa6f087b10dece3f352c0c67cde8553ac00daa9d1890637c05d16740e2c23b30ae068c1b4c409ca8291e02093699fafd638701b9069
+	b2sums = c0a361c100490c17203aad14eb14a3e09c63f5a6ce2f4b7e85bc57942329ac4603a1d4b3a09a9ab964a775dfb50a8746f6dd4a05d2f9bba01674624a7d7b46c1
 
 pkgname = python-netaddr
 
