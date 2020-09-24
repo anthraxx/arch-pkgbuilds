@@ -1,6 +1,6 @@
 pkgbase = vim-ale
 	pkgdesc = Asynchronous Lint Engine
-	pkgver = 2.7.0
+	pkgver = 3.0.0
 	pkgrel = 1
 	url = https://github.com/w0rp/ale
 	arch = any
@@ -10,7 +10,7 @@ pkgbase = vim-ale
 	depends = vim
 	optdepends = shellcheck: for sh/bash support
 	optdepends = flake8: for python support
-	source = vim-ale::git+https://github.com/w0rp/ale#commit=1428c7b29e50af56f53ee1d587679d97a027dd72?signed
+	source = vim-ale::git+https://github.com/w0rp/ale#commit=08295ce17405cb5f6c80d2f726262493bfd21210?signed
 	validpgpkeys = E5132116F56ACE32A3D5D7DD0FC1ECAA8C81CD83
 	sha512sums = SKIP
 
