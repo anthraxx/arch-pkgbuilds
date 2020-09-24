@@ -1,7 +1,7 @@
 pkgbase = wpscan
 	pkgdesc = Black box WordPress vulnerability scanner
 	pkgver = 3.8.3
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = https://wpscan.org
 	install = wpscan.install
@@ -12,6 +12,7 @@ pkgbase = wpscan
 	depends = libyaml
 	depends = curl
 	depends = libxml2
+	optdepends = metasploit
 	options = !strip
 	options = !emptydirs
 	source = https://github.com/wpscanteam/wpscan/archive/v3.8.3/wpscan-3.8.3.tar.gz
