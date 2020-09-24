@@ -1,6 +1,6 @@
 pkgbase = libbpf
 	pkgdesc = Library for loading eBPF programs and reading and manipulating eBPF objects from user-space
-	pkgver = 0.0.9
+	pkgver = 0.1.1
 	pkgrel = 1
 	url = https://github.com/libbpf/libbpf
 	arch = x86_64
@@ -9,9 +9,9 @@ pkgbase = libbpf
 	depends = libelf
 	depends = linux-api-headers
 	provides = libbpf.so
-	source = https://github.com/libbpf/libbpf/archive/v0.0.9/libbpf-0.0.9.tar.gz
-	sha512sums = d54bbdee6f7ea83ffef3fd0abe07f71644bcf83e5cf4a307fb4e03d885503617f1af2d324cc869f0f01a92bcb58836780a4802ac4db83b9f037ea196edc1131a
-	b2sums = 1277ce5b9dab9037e287910c43a71ee33cd6607d7cbe59d40c6930bf49407e04fcdfa6f4795f98202930fd564c1569c2feef0bca73294334f00abd601a288ed0
+	source = https://github.com/libbpf/libbpf/archive/v0.1.1/libbpf-0.1.1.tar.gz
+	sha512sums = b9f68323a8f53b0fb0bf418b8a37685e7d74b6f5ad7aa2f266f65cd57199b3b9b5865bc4579758e5adcfbb027ced83e12ee87f3ff3bf159c7b54cbdcd50fd62f
+	b2sums = 0efb044b1dc02230d14a6e92c40d66f7cb28c7efbecc3d97d084a52dde581dbd02b02fb7fbbe8b4ca051f2f64497c6240c5dd9c992e6fe4629a1332311b7833c
 
 pkgname = libbpf
 
