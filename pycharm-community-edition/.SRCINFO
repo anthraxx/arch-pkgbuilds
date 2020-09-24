@@ -1,6 +1,6 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2020.2.1
+	pkgver = 2020.2.2
 	pkgrel = 1
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
@@ -22,7 +22,7 @@ pkgbase = pycharm-community-edition
 	optdepends = ipython2: IPython integration for Python 2
 	optdepends = ipython: IPython integration for Python 3
 	optdepends = python2: Python 2 support
-	source = git+https://github.com/JetBrains/intellij-community.git#commit=a00181c112b6550b815493ef209d62c8f0e744b8
+	source = git+https://github.com/JetBrains/intellij-community.git#commit=b85c208f6f0e693f8562147ecd992c705f7af779
 	source = pycharm.desktop
 	source = pycharm.sh
 	sha256sums = SKIP
