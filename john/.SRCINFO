@@ -1,7 +1,7 @@
 pkgbase = john
 	pkgdesc = John the Ripper password cracker
 	pkgver = 1.9.0.jumbo1
-	pkgrel = 3
+	pkgrel = 4
 	url = https://www.openwall.com/john
 	arch = x86_64
 	license = GPL2
@@ -23,9 +23,11 @@ pkgbase = john
 	backup = etc/john/john.conf
 	source = https://www.openwall.com/john/k/john-1.9.0-jumbo-1.tar.xz
 	source = https://www.openwall.com/john/k/john-1.9.0-jumbo-1.tar.xz.sign
+	source = john-pdf2john-path-fix.patch::https://github.com/openwall/john/commit/66cf12d17e9fa453b34bcd9d0b8dc4f1954e8cff.patch
 	validpgpkeys = 297AD21CF86C948081520C1805C027FD4BDC136E
 	sha512sums = c5cb5dc739ee4c666f8479cdf10511fddc391b590c59f90c060d3ccd8449b794ac7b831a6d1f7553883892499e709a66578cfa4d62caef9b7e0a831eb827e808
 	sha512sums = SKIP
+	sha512sums = 8ab1eb9736aa9114fc2ac6713a186e9938caeeb642ace820a6403a7f76959bb6b2fa42587a5ce7ce9e8569892d92bbd1c26248a4a577ecacfb5ed141958bf281
 
 pkgname = john
 
