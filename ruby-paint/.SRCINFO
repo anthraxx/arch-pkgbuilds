@@ -1,16 +1,19 @@
 pkgbase = ruby-paint
 	pkgdesc = Ruby paint manages terminal colors and effects
-	pkgver = 2.1.0
-	pkgrel = 2
+	pkgver = 2.2.0
+	pkgrel = 1
 	url = https://github.com/janlelis/paint
 	arch = any
 	license = MIT
+	makedepends = ruby-rake
+	depends = ruby
 	depends = ruby-rspec
 	depends = ruby-rainbow
 	depends = ruby-term-ansicolor
 	options = !emptydirs
-	source = ruby-paint-2.1.0.tar.gz::https://github.com/janlelis/paint/archive/v2.1.0.tar.gz
-	sha512sums = 0de206c78c678d77cfdff0f26e42f2a045fc98a982943f7104d11e47cd4db9b196dba6a14eb09d98c103b3b70e13b84e48fe6261d2b03a9a0f4d4f10037a39cb
+	source = https://github.com/janlelis/paint/archive/v2.2.0/ruby-paint-2.2.0.tar.gz
+	sha512sums = 67f9752d270ff8cd2706318a16b3b3980515bd07a55a2b8900eb79b200d6da87993185c839748052457536b82d53694bba33c0f64d8ada50b61a34c9985ba009
+	b2sums = 4f1e978023cd6edb371ae7315cc48451f3a911522f0d39b7dea264d8d112a6db4560507c33fdc55e247b782f30cd8b844d6c790ce86194c151acc7c2abc7f9c9
 
 pkgname = ruby-paint
 
