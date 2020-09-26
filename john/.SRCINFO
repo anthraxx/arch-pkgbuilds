@@ -1,7 +1,7 @@
 pkgbase = john
 	pkgdesc = John the Ripper password cracker
 	pkgver = 1.9.0.jumbo1
-	pkgrel = 4
+	pkgrel = 5
 	url = https://www.openwall.com/john
 	arch = x86_64
 	license = GPL2
@@ -14,6 +14,8 @@ pkgbase = john
 	depends = openmpi
 	depends = gcc-libs
 	depends = opencl-icd-loader
+	depends = libxcrypt
+	depends = libcrypt.so
 	optdepends = bash-completion: completion for bash
 	optdepends = lua: lua based john scripts
 	optdepends = perl: perl based john scripts
