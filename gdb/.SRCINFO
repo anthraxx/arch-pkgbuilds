@@ -1,10 +1,12 @@
 pkgbase = gdb
 	pkgdesc = The GNU Debugger
 	pkgver = 9.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gnu.org/software/gdb/
 	arch = x86_64
 	license = GPL3
+	makedepends = glibc
+	makedepends = gcc-libs
 	makedepends = texinfo
 	makedepends = python
 	makedepends = guile2.0
@@ -13,6 +15,7 @@ pkgbase = gdb
 	makedepends = xz
 	makedepends = mpfr
 	makedepends = source-highlight
+	makedepends = readline
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.2.tar.xz
 	source = https://ftp.gnu.org/gnu/gdb/gdb-9.2.tar.xz.sig
 	validpgpkeys = F40ADB902B24264AA42E50BF92EDB04BFF325CF3
@@ -22,12 +25,19 @@ pkgbase = gdb
 	b2sums = SKIP
 
 pkgname = gdb
+	depends = glibc
 	depends = ncurses
+	depends = libncursesw.so
+	depends = gcc-libs
 	depends = expat
 	depends = xz
 	depends = mpfr
 	depends = source-highlight
 	depends = gdb-common=9.2
+	depends = readline
+	depends = libreadline.so
+	depends = guile2.0
+	depends = python
 	backup = etc/gdb/gdbinit
 
 pkgname = gdb-common
