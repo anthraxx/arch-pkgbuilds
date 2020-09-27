@@ -1,15 +1,19 @@
 pkgbase = thc-ipv6
 	pkgdesc = Complete tool set to attack the inherent protocol weaknesses of IPv6 and ICMP6
 	pkgver = 3.6
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/vanhauser-thc/thc-ipv6
 	arch = x86_64
 	license = AGPL3
+	depends = glibc
 	depends = libpcap
 	depends = openssl
 	depends = libnetfilter_queue
-	source = thc-ipv6-3.6.tar.gz::https://github.com/vanhauser-thc/thc-ipv6/archive/v3.6.tar.gz
+	depends = perl
+	depends = perl-socket6
+	source = https://github.com/vanhauser-thc/thc-ipv6/archive/v3.6/thc-ipv6-3.6.tar.gz
 	sha512sums = 3ca25b85a6c31450490dc46ec999fff86303b7dfd28edefb8fd2319b794e43d36ed3c289d5ca775ba031055e83174e9927c25f74eed2b4dcfc63d8e04446d0ab
+	b2sums = 2215a59717f7e007b739724409ef1575c8f82ae22b415e7120b4c318fa54ae1e7238333c86da1a82607e46b470e3a367e0d415899890d4d916f45d65c20f0b54
 
 pkgname = thc-ipv6
 
