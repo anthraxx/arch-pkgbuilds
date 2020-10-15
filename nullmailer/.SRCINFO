@@ -1,7 +1,7 @@
 pkgbase = nullmailer
 	pkgdesc = Simple relay-only mail transport agent
 	pkgver = 2.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.untroubled.org/nullmailer/
 	arch = x86_64
 	license = GPL2
