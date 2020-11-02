@@ -1,14 +1,14 @@
 pkgbase = kustomize
 	pkgdesc = Template-free customization of Kubernetes YAML manifests
-	pkgver = 3.8.5
+	pkgver = 3.8.6
 	pkgrel = 1
 	url = https://github.com/kubernetes-sigs/kustomize
 	arch = x86_64
 	license = Apache
 	makedepends = go
 	depends = glibc
-	source = https://github.com/kubernetes-sigs/kustomize/archive/kustomize/v3.8.5/kustomize-3.8.5.tar.gz
-	sha512sums = ebf6b57fc7bd1a7facf9fe4fda4c984c05c3603fe6786d32bd2ebf7fae960de95563fa53adf3d99dd10643663c93867871a08b505c0b3470cf9be477ee54501e
+	source = https://github.com/kubernetes-sigs/kustomize/archive/kustomize/v3.8.6/kustomize-3.8.6.tar.gz
+	sha512sums = 35837895b5fabc16ff70e870dad29abf051585ebd3120f26a59b3ac5148aab6a3bdabfc55ee03d428701ba98ce95fad2c007f853e9292edf47ad2a8ba3f74031
 
 pkgname = kustomize
 
