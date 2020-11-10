@@ -1,7 +1,7 @@
 pkgbase = python-eventlet
 	pkgdesc = Highly concurrent networking library
 	pkgver = 0.26.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://eventlet.net
 	arch = any
 	license = MIT
