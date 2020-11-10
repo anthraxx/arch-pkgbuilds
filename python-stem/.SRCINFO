@@ -1,7 +1,7 @@
 pkgbase = python-stem
 	pkgdesc = Python controller library for Tor
 	pkgver = 1.8.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://stem.torproject.org/
 	arch = any
 	license = LGPL3
