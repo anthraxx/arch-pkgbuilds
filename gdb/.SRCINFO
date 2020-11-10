@@ -1,7 +1,7 @@
 pkgbase = gdb
 	pkgdesc = The GNU Debugger
 	pkgver = 10.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://www.gnu.org/software/gdb/
 	arch = x86_64
 	license = GPL3
