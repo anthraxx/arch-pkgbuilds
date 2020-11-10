@@ -1,7 +1,7 @@
 pkgbase = python-recommonmark
 	pkgdesc = Markdown parser for docutils
 	pkgver = 0.6.0.194.48f9d1a
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/readthedocs/recommonmark
 	arch = any
 	license = MIT
