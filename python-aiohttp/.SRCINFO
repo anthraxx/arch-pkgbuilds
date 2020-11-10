@@ -1,7 +1,7 @@
 pkgbase = python-aiohttp
 	pkgdesc = HTTP client/server for asyncio
 	pkgver = 3.6.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://aiohttp.readthedocs.io
 	arch = x86_64
 	license = Apache
