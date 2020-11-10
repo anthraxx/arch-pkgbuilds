@@ -1,7 +1,7 @@
 pkgbase = python-service_identity
 	pkgdesc = Service Identity Verification for Python
 	pkgver = 18.1.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://service-identity.readthedocs.io/
 	arch = any
 	license = MIT
