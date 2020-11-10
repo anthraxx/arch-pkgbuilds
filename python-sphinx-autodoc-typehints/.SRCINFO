@@ -1,7 +1,7 @@
 pkgbase = python-sphinx-autodoc-typehints
 	pkgdesc = Type hints support for the Sphinx autodoc extension
 	pkgver = 1.8.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/agronholm/sphinx-autodoc-typehints
 	arch = any
 	license = MIT
