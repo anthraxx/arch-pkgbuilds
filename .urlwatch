@@ -1761,5 +1761,8 @@ command: 'git ls-remote --tags https://github.com/libexif/libexif'
 ---
 name: 'libbpf'
 command: 'git ls-remote --tags https://github.com/libbpf/libbpf'
+---
+name: 'aribb25'
+command: 'git ls-remote --tags https://code.videolan.org/videolan/aribb25.git'
 
 # vim: ft=yaml
