@@ -1,6 +1,6 @@
 pkgbase = sequoia
 	pkgdesc = Cool new OpenPGP implementation
-	pkgver = 0.19.0
+	pkgver = 0.20.0
 	pkgrel = 1
 	url = https://sequoia-pgp.org/
 	arch = x86_64
@@ -20,11 +20,12 @@ pkgbase = sequoia
 	makedepends = openssl
 	makedepends = gcc-libs
 	makedepends = gmp
+	makedepends = bzip2
 	options = !makeflags
-	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=v0.19.0
-	source = build.patch
+	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=v0.20.0
+	source = sequoia-0.20-fix-install.patch::https://gitlab.com/sequoia-pgp/sequoia/-/commit/1f3ec0784818bcbe0e73ea4743a19060163fd9b3.patch
 	sha512sums = SKIP
-	sha512sums = 44c8f4af25b3a8c42939ea75e87fa90ac42499545b41c3dc6744debf318ecc6361f4aad2692663a0516b9f5a6e1d33435d82a7749cfd2c26c9baf94f5dcb6b09
+	sha512sums = 6510f0da18dc4895aa7a8d99e88c6a4acf09898928b5ce9fb6cd60fa419a3ae1d04312d90b6752bf637998b4530c87fd654fccd163093de36bca311f523671e4
 
 pkgname = sequoia
 	depends = glibc
@@ -36,6 +37,8 @@ pkgname = sequoia
 	depends = openssl
 	depends = gcc-libs
 	depends = gmp
+	depends = bzip2
+	depends = libbz2.so
 
 pkgname = python-sequoia
 	pkgdesc = Cool new OpenPGP implementation - python bindings
