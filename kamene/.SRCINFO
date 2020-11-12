@@ -1,7 +1,7 @@
 pkgbase = kamene
 	pkgdesc = Powerful interactive packet manipulation program (based on scapy) written in Python
 	pkgver = 0.32
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/phaethon/kamene
 	arch = any
 	license = GPL2
