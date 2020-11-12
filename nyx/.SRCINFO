@@ -1,7 +1,7 @@
 pkgbase = nyx
 	pkgdesc = Command-line status monitor for tor
 	pkgver = 2.1.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://nyx.torproject.org/
 	arch = any
 	license = GPL3
