@@ -1,7 +1,7 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
 	pkgver = 0.56.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://mesonbuild.com/
 	arch = any
 	license = Apache
