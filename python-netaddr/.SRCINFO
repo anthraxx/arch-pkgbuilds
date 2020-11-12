@@ -1,7 +1,7 @@
 pkgbase = python-netaddr
 	pkgdesc = Pure Python network address representation and manipulation library
 	pkgver = 0.8.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/drkjam/netaddr
 	arch = any
 	license = BSD
