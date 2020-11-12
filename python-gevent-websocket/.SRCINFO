@@ -1,7 +1,7 @@
 pkgbase = python-gevent-websocket
 	pkgdesc = WebSocket library for the gevent networking library
 	pkgver = 0.10.1
-	pkgrel = 5
+	pkgrel = 6
 	url = https://www.gitlab.com/noppo/gevent-websocket
 	arch = any
 	license = Apache
