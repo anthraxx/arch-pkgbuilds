@@ -1,7 +1,7 @@
 pkgbase = ropgadget
 	pkgdesc = Search gadgets in binaries to facilitate ROP exploitation for several file formats and architectures
 	pkgver = 6.3
-	pkgrel = 2
+	pkgrel = 3
 	url = http://www.shell-storm.org/project/ROPgadget
 	arch = any
 	license = GPL2
