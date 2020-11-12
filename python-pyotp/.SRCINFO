@@ -1,7 +1,7 @@
 pkgbase = python-pyotp
 	pkgdesc = Python library for generating and verifying one-time passwords
 	pkgver = 2.3.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://pyotp.readthedocs.io/
 	arch = any
 	license = MIT
