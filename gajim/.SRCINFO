@@ -1,7 +1,7 @@
 pkgbase = gajim
 	pkgdesc = Full featured and easy to use XMPP (Jabber) client
 	pkgver = 1.2.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gajim.org/
 	arch = any
 	license = GPL3
