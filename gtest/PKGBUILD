@@ -9,7 +9,7 @@
 pkgbase=gtest
 pkgname=('gtest' 'gmock')
 pkgver=1.10.0
-pkgrel=3
+pkgrel=4
 pkgdesc='Google Test - C++ testing utility'
 url='https://github.com/google/googletest'
 arch=('x86_64')
@@ -17,19 +17,15 @@ license=('BSD')
 makedepends=('python' 'cmake' 'gcc-libs' 'sh')
 _srcname=googletest-release-${pkgver}
 source=(${_srcname}.tar.gz::https://github.com/google/googletest/archive/release-${pkgver}.tar.gz
-        gtest-1.10.0-libversion.patch)
+        gtest-version.patch)
 sha512sums=('bd52abe938c3722adc2347afad52ea3a17ecc76730d8d16b065e165bc7477d762bce0997a427131866a89f1001e3f3315198204ffa5d643a9355f1f4d0d7b1a9'
-            '57d18cdd2d7b744c4e759a51899372befc78624de00fccc71464293f8c36d32f7dd3bb87ec55fc0303031a397bbba5d45075662687cf5bba378f5001dabf2faa')
+            'fd0eafebad57ed3b0eb29e92609cb8b81e4855560073a0c60a97811713ded0821c6b471d92460bf1537ea31e9d99c755b10eed4150f261f0acb9aceaadc7ad0e')
 
 prepare() {
   cd ${_srcname}
-  cp ../gtest-1.10.0-libversion.patch gtest-1.10.0-libversion.patch
-  sed "s|__GOOGLETEST_VERSION__|${pkgver}|g" -i gtest-1.10.0-libversion.patch
-  # https://src.fedoraproject.org/rpms/gtest/tree/master
-  patch -Np1 -i gtest-1.10.0-libversion.patch
-
-  # fixup version as they are never correct
-  sed -E "s|(GOOGLETEST_VERSION) [0-9\\.]+|\\1 ${pkgver}|" -i CMakeLists.txt
+  cp ../gtest-version.patch gtest-version.patch
+  sed "s|__GOOGLETEST_VERSION__|${pkgver}|g" -i gtest-version.patch
+  patch -Np1 -i gtest-version.patch
 }
 
 build() {
