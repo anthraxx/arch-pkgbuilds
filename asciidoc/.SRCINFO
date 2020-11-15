@@ -1,0 +1,28 @@
+pkgbase = asciidoc
+	pkgdesc = Text document format for short documents, articles, books and UNIX man pages.
+	pkgver = 9.0.3
+	pkgrel = 3
+	url = https://asciidoc.org/
+	arch = any
+	license = GPL
+	checkdepends = dblatex
+	checkdepends = graphviz
+	checkdepends = lilypond
+	checkdepends = source-highlight
+	depends = python
+	depends = libxslt
+	depends = docbook-xsl
+	optdepends = graphviz: graphviz-filter
+	optdepends = lilypond: music-filter
+	optdepends = imagemagick: music-filter
+	optdepends = source-highlight: source-highlight-filter
+	optdepends = dblatex: pdf generation
+	optdepends = fop: alternative pdf generation
+	optdepends = w3m: text generation
+	optdepends = lynx: alternative text generation
+	source = asciidoc-9.0.3.tar.gz::https://github.com/asciidoc/asciidoc-py3/archive/9.0.3.tar.gz
+	sha256sums = c0de1dcf111a200bf85bd81f67bc18778f839e55d761d6c7320095985524853a
+	b2sums = 4e196bddfe400c3758086048089e3d316a8e7909f870b761e23506de8cd5b9871df8a0e1017fafbaa854711ab0d49efe4f8134453c02528ba8b6e1ac1cf0c0ff
+
+pkgname = asciidoc
+
