@@ -1,14 +1,13 @@
 pkgbase = python-hexdump
 	pkgdesc = Library and tool to work with hex and binary data
 	pkgver = 3.3
-	pkgrel = 4
-	url = https://bitbucket.org/techtonik/hexdump
+	pkgrel = 5
+	url = https://pypi.org/project/hexdump/
 	arch = any
 	license = Public Domain
-	checkdepends = python-tox
 	depends = python
-	source = python-hexdump-3.3.tar.bz2::https://bitbucket.org/techtonik/hexdump/get/3.3.tar.bz2
-	sha512sums = b8f9c2c7ef69cf52572434c1edb529b7bd61e66cc62f1fb8ff32bcf5899502607552a9a1c50deed2e02f3b638744d509dedf588fa1176d79d4c9ec198f650e4d
+	source = https://files.pythonhosted.org/packages/source/h/hexdump/hexdump-3.3.zip
+	sha512sums = 3299f6a29dcf4293616c5ea652397429ee844ca30964ee0fc784fb2a93252b75eb28fb797640e26477eb6b291aa38e14ad5046d8b4488dc4e03bd79b9449898b
 
 pkgname = python-hexdump
 
