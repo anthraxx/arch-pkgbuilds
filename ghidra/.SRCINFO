@@ -1,6 +1,6 @@
 pkgbase = ghidra
 	pkgdesc = Software reverse engineering framework
-	pkgver = 9.1.2
+	pkgver = 9.2
 	pkgrel = 1
 	url = https://ghidra-sre.org/
 	arch = x86_64
@@ -8,6 +8,7 @@ pkgbase = ghidra
 	makedepends = git
 	makedepends = gradle
 	makedepends = unzip
+	makedepends = java-environment=11
 	depends = java-environment>=11
 	depends = bash
 	optdepends = python2: Python feature
@@ -15,13 +16,13 @@ pkgbase = ghidra
 	noextract = AXMLPrinter2.jar
 	noextract = yajsw-stable-12.12.zip
 	noextract = hfsexplorer-0_21-bin.zip
-	source = https://github.com/NationalSecurityAgency/ghidra/archive/Ghidra_9.1.2_build.tar.gz
+	source = https://github.com/NationalSecurityAgency/ghidra/archive/Ghidra_9.2_build.tar.gz
 	source = git+https://github.com/NationalSecurityAgency/ghidra-data#commit=60529abb6c1e28b689f539384a1ebd1fe13d6528
 	source = https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip
 	source = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/android4me/AXMLPrinter2.jar
 	source = https://sourceforge.net/projects/yajsw/files/yajsw/yajsw-stable-12.12/yajsw-stable-12.12.zip
 	source = https://sourceforge.net/projects/catacombae/files/HFSExplorer/0.21/hfsexplorer-0_21-bin.zip
-	sha512sums = 48e200e11b87dc07e8381af3a8b50df509991e49bba0cf73d6494d9f606d2b61850c2ebe051092567da5098b2e298332fb01923325135037e1f2fd097ff2b22d
+	sha512sums = a00bc715012c0989484d7610071d37b1991ebc4e994b5640a2d80d154b4794ff5f2644bca8a62b93664c8f31a469e18cd727dd859a3542820032bac0e1de6c59
 	sha512sums = SKIP
 	sha512sums = c4a6c72ea09b58a44fcb8918cfada600467f10f99a02b53d2436ac68295e73c8daf9ba0a8bc7160ba1e28e87f032ee034435ebe40af35b6e2fe9fa4607581358
 	sha512sums = c1168ec913f1fbb0675915d4fd865ec9a8e8573f6c8aedcb6e68166f61f11aeaececc7548d54d78134843c0102c57d6350973f6d3027d0ffdae52a5c57a7f601
