@@ -1,7 +1,7 @@
 pkgbase = python-engineio
 	pkgdesc = Python implementation of the Engine.IO realtime server
 	pkgver = 3.13.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/miguelgrinberg/python-engineio
 	arch = any
 	license = MIT
@@ -31,8 +31,11 @@ pkgbase = python-engineio
 	optdepends = python-gevent-websocket: gevent driver
 	options = !makeflags
 	source = https://github.com/miguelgrinberg/python-engineio/archive/v3.13.2/python-engineio-3.13.2.tar.gz
+	source = py39.patch
 	sha512sums = 712b7f9646d0a8aa470d0f373ccfa4baf4e37eba6583def4325037a33e066819f3dbcb8cc6544ba2878a784e8ca22f67f490a7aa18f6c8f45c660900a1946561
+	sha512sums = bdaf8f8f76c527a56000dac427c062b2be484381b3e1e05ec16a7c8f7b7fad8f07c16552c07dc08c002fb5067defa03de7dd8420e82289ea3ce836c9d88765dc
 	b2sums = 5b63d660ba82f94dd784f5aea7e651a05cf914049ab99f9aef36972efbe4978832f7225e7d77098d5319f437ac77216c44d11efa5f353745b8d4c285c24560e8
+	b2sums = 561bd0711b97c872b7f410a05f0bd5f65085eec27ee996b1491c9750d1bdc410ac38629a8717f1c5eb67897dd48da5664562d98e7a664271b1f65c4f6f4faac5
 
 pkgname = python-engineio
 
