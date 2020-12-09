@@ -1,7 +1,7 @@
 pkgbase = postgresql-old-upgrade
 	pkgdesc = PostgreSQL build for migrating between major versions with pg_upgrade
-	pkgver = 11.9
-	pkgrel = 2
+	pkgver = 12.5
+	pkgrel = 1
 	url = https://www.postgresql.org/
 	arch = x86_64
 	license = custom:PostgreSQL
@@ -10,7 +10,9 @@ pkgbase = postgresql-old-upgrade
 	makedepends = perl
 	makedepends = tcl>=8.6.0
 	makedepends = systemd
-	depends = postgresql-libs>=11
+	makedepends = llvm
+	makedepends = clang
+	depends = postgresql-libs>=12
 	depends = libxml2
 	depends = openssl>=1.0.0
 	depends = pam
@@ -19,14 +21,15 @@ pkgbase = postgresql-old-upgrade
 	depends = systemd-libs
 	depends = libldap
 	depends = krb5
+	depends = llvm-libs
 	optdepends = python2: for PL/Python 2 support
 	optdepends = python: for PL/Python 3 support
 	optdepends = perl: for PL/Perl support
 	optdepends = tcl: for PL/Tcl support
-	source = https://ftp.postgresql.org/pub/source/v11.9/postgresql-11.9.tar.bz2
-	sha256sums = 35618aa72e0372091f923c42389c6febd07513157b4fbb9408371706afbb6635
-	sha512sums = 2c5c2f51aa01f02af4aa0849441767383e30fef69dd52efa442892f39d2456bfa8bf01f633a265e00eca0745e792609d2c1d33f77d8f29a02f5f374c84f2bf6e
-	b2sums = 655d1c9e6eebde19402a4c220ee674c589641c5b6f4e6298c8c06d3330069178952455f5af58f90b9af196ba9c8fd03db0ccd70b8bc49335e465f0ed537eaf59
+	source = https://ftp.postgresql.org/pub/source/v12.5/postgresql-12.5.tar.bz2
+	sha256sums = bd0d25341d9578b5473c9506300022de26370879581f5fddd243a886ce79ff95
+	sha512sums = 9895bcb1bb26206500666ab4441e663ef83702d428b85a6ff177a4eaf44b0ae06b35d5c4da2672ccb4ec18296649af95bf2f0aed526afaa6a216a8c2d2c5627e
+	b2sums = 7f7458346a0823d155f5caea0061aa14048d6f3cac27b1ea23dba03b02a39f39314ad1d44e589520d5e287004ffd32e042fea99ebfeda24b2cc23867b402d336
 
 pkgname = postgresql-old-upgrade
 
