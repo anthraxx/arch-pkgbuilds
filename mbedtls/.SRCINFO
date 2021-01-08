@@ -1,6 +1,6 @@
 pkgbase = mbedtls
 	pkgdesc = Portable cryptographic and SSL/TLS library, aka polarssl
-	pkgver = 2.16.7
+	pkgver = 2.25.0
 	pkgrel = 1
 	url = https://tls.mbed.org
 	arch = x86_64
@@ -16,9 +16,9 @@ pkgbase = mbedtls
 	conflicts = polarssl
 	replaces = polarssl
 	options = staticlibs
-	source = https://github.com/ARMmbed/mbedtls/archive/mbedtls-2.16.7.tar.gz
-	sha256sums = 4786b7d1676f5e4d248f3a7f2d28446876d64962634f060ff21b92c690cfbe86
-	b2sums = cb53ac0c8896ce0dcc2b54edf4964267bf27057fead00f82f15de0ead786efcb4ba7e554e1c06ccb8a0f9fdedd512d94dce74a7a6e093c0a488ef257ded1458a
+	source = https://github.com/ARMmbed/mbedtls/archive/mbedtls-2.25.0.tar.gz
+	sha256sums = ea2049c2dd4868693998d5a9780e198194be5aea1706ff4a9d4f882f18c0a101
+	b2sums = 27a326ba08c341ed47ce280401a4b73606138aa8946fd8d8df5d084496eecc6eadf4eedd65270725a360d4b171c86cefeccb6b1515847587f0f11ed15b7dda9b
 
 pkgname = mbedtls
 
