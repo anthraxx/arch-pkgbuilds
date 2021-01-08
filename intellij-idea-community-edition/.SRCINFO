@@ -1,7 +1,7 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
 	pkgver = 2021.3.1
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 2
 	url = https://www.jetbrains.com/idea/
 	arch = x86_64
@@ -16,6 +16,7 @@ pkgbase = intellij-idea-community-edition
 	depends = ttf-font
 	depends = libdbusmenu-glib
 	depends = fontconfig
+	depends = hicolor-icon-theme
 	optdepends = lldb: lldb frontend integration
 	backup = usr/share/idea/bin/idea.vmoptions
 	backup = usr/share/idea/bin/idea64.vmoptions
