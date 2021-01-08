@@ -1,0 +1,18 @@
+pkgbase = tcpdump
+	pkgdesc = Powerful command-line packet analyzer
+	pkgver = 4.9.3
+	pkgrel = 2
+	url = https://www.tcpdump.org/
+	arch = x86_64
+	license = BSD
+	depends = libpcap
+	depends = libcap-ng
+	depends = openssl
+	source = https://www.tcpdump.org/release/tcpdump-4.9.3.tar.gz
+	source = https://www.tcpdump.org/release/tcpdump-4.9.3.tar.gz.sig
+	validpgpkeys = 1F166A5742ABB9E0249A8D30E089DEF1D9C15D0D
+	sha256sums = 2cd47cb3d460b6ff75f4a9940f594317ad456cfbf2bd2c8e5151e16559db6410
+	sha256sums = SKIP
+
+pkgname = tcpdump
+
