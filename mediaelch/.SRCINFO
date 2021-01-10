@@ -1,18 +1,20 @@
 pkgbase = mediaelch
 	pkgdesc = Media Manager for handling Movies, TV Shows and Concerts/Music Videos for Kodi
-	pkgver = 2.8.0
+	pkgver = 2.8.4
 	pkgrel = 1
 	url = https://www.mediaelch.de/mediaelch/
 	arch = x86_64
 	license = LGPL3
+	depends = glibc
+	depends = gcc-libs
 	depends = libmediainfo
 	depends = qt5-declarative
 	depends = qt5-multimedia
 	depends = qt5-script
 	depends = quazip
-	source = https://github.com/Komet/MediaElch/archive/v2.8.0/mediaelch-2.8.0.tar.gz
-	sha256sums = 034ca43c350b16933c2b83bae368f920824e765524bda56ab2324946d4245ef7
-	b2sums = 68cb5de5e7d5d92f5771889be898fbb3db2e94ba62760811419de3e70e23dea1743fd86792a98f3b3113df3dc5db3c2832f8418fde3e97df48e1888eb31de479
+	source = https://github.com/Komet/MediaElch/archive/v2.8.4/mediaelch-2.8.4.tar.gz
+	sha256sums = 1bda81d37d5e5222c26f1c3902054db5d0b0f47cd02293db277321a7428b0366
+	b2sums = 45973ec557c615387fedd1e2d299547f2a8b17fc7be190c775a4047868dd9455d6b2e4034ae46a02e8f246f7c3e170bf777baef102dc13750bb601b1bfe01509
 
 pkgname = mediaelch
 
