@@ -1,16 +1,16 @@
 pkgbase = byacc
 	pkgdesc = Berkeley reimplementation of the Unix parser generator Yacc
-	pkgver = 20191103
+	pkgver = 20210109
 	pkgrel = 1
 	url = https://invisible-island.net/byacc/
 	arch = x86_64
 	license = custom
 	depends = glibc
 	replaces = byacc-noconflict
-	source = ftp://ftp.invisible-island.net/byacc/byacc-20191103.tgz
-	source = ftp://ftp.invisible-island.net/byacc/byacc-20191103.tgz.asc
+	source = ftp://ftp.invisible-island.net/byacc/byacc-20210109.tgz
+	source = ftp://ftp.invisible-island.net/byacc/byacc-20210109.tgz.asc
 	validpgpkeys = C52048C0C0748FEE227D47A2702353E0F7E48EDB
-	sha512sums = 247cf5469da618733a9ce8d2f079e56ef485354c4fce462014ac9d3108ebf7eccb0147a3e005374a541895eff28b9a63f5f840a7576a26cb23ab34d968a2d05c
+	sha512sums = 95eafe81948fee1839fed8fff71d65c23d85de02af51672c118b2eed7c680f0dd300cec54cf366a248307c480844edc66a027575b29e20ef2f71f3c243ad5202
 	sha512sums = SKIP
 
 pkgname = byacc
