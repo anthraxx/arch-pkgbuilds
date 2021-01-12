@@ -1,6 +1,6 @@
 pkgbase = badtouch
 	pkgdesc = Scriptable network authentication cracker
-	pkgver = 0.7.1
+	pkgver = 0.7.2
 	pkgrel = 1
 	url = https://github.com/kpcyrd/badtouch
 	install = badtouch.install
@@ -8,14 +8,15 @@ pkgbase = badtouch
 	license = GPL3
 	makedepends = cargo
 	depends = openssl
+	depends = lua52
 	depends = libcap
 	depends = zlib
-	source = badtouch-0.7.1.tar.gz::https://github.com/kpcyrd/badtouch/archive/v0.7.1.tar.gz
-	source = badtouch-0.7.1.tar.gz.asc::https://github.com/kpcyrd/badtouch/releases/download/v0.7.1/v0.7.1.tar.gz.asc
+	source = https://github.com/kpcyrd/badtouch/archive/v0.7.2/badtouch-0.7.2.tar.gz
+	source = https://github.com/kpcyrd/badtouch/releases/download/v0.7.2/badtouch-0.7.2.tar.gz.asc
 	validpgpkeys = 64B13F7117D6E07D661BBCE0FE763A64F5E54FD6
-	sha256sums = c188bb1df106761a436fd25d3530323a47633c4c937d186e82c00981ffc94b5f
+	sha256sums = f3e384ccd9ff90c19f081c8cb240aff28bac42e7b318b5a04f50a70fc75537a4
 	sha256sums = SKIP
-	sha512sums = 3bfc58d50b366a1d3d6f6474b1446639e3e6144873228a1e153465977ffc66be060baa00c919e8accbd66eaf226a12f1a81d45160bbba75c702c8564e34ba0b5
+	sha512sums = 1d20db2f45e52018ece0c34d8eb8ee32c89ef14aa73632d88ce48bb0a5645b9e66fec3645b68da12a980cbc4f31f7200601612f598835c7b8345edc50979a317
 	sha512sums = SKIP
 
 pkgname = badtouch
