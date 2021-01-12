@@ -1,6 +1,6 @@
 pkgbase = hwloc
 	pkgdesc = Portable Hardware Locality is a portable abstraction of hierarchical architectures
-	pkgver = 2.2.0
+	pkgver = 2.4.0
 	pkgrel = 1
 	url = https://www.open-mpi.org/projects/hwloc/
 	arch = x86_64
@@ -9,16 +9,19 @@ pkgbase = hwloc
 	makedepends = libxml2
 	makedepends = pciutils
 	makedepends = systemd
+	makedepends = libx11
+	depends = glibc
 	depends = libtool
 	depends = systemd-libs
 	depends = libpciaccess
 	optdepends = cairo
 	optdepends = libxml2
 	optdepends = pciutils
+	optdepends = libx11
 	options = !docs
-	source = https://www.open-mpi.org/software/hwloc/v2.2/downloads/hwloc-2.2.0.tar.bz2
-	sha512sums = 23efd1d5e2df870ca7a0abb9b3c28c5c5d60dd0cc650ee95d20d5934f48947cbe1d3cf4e90e02b2dc61062ddf7afd67f2c1cf6e1862a48397078d66dd798e850
-	b2sums = 00e10f9c7467e6342e14a45d583ed307103428085a9b88398464f0439fec48647949aa80e099042b915b2c371fe105d61e8490d0555383d94740f3e6dab5aeee
+	source = https://www.open-mpi.org/software/hwloc/v2.4/downloads/hwloc-2.4.0.tar.bz2
+	sha512sums = 5a7a1d91ab4bdfa9f8db8ea49032f25ea12b01de02b53d8a24346b427a4bd9d70ad3a45199615202aaaa2557e18f12b869c84d7348f2c82b1a81e2856ce74c71
+	b2sums = fb444ebeafdd131cf929dcac718b0ce2e7af598a9777f7005e4adf3155e9ddc36222e9708970e2de9dd2659bb2d2baec3531e363eca747c11410da7ecd8c0cdf
 
 pkgname = hwloc
 
