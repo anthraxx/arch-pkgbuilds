@@ -1,6 +1,6 @@
 pkgbase = libplacebo
 	pkgdesc = Reusable library for GPU-accelerated video/image rendering primitives
-	pkgver = 2.72.2
+	pkgver = 3.104.0
 	pkgrel = 1
 	url = https://github.com/haasn/libplacebo
 	arch = x86_64
@@ -13,14 +13,17 @@ pkgbase = libplacebo
 	depends = vulkan-icd-loader
 	depends = glslang
 	depends = lcms2
+	depends = liblcms2.so
 	depends = shaderc
 	depends = libshaderc_shared.so
 	depends = libepoxy
 	depends = libglvnd
+	depends = glibc
+	depends = gcc-libs
 	provides = libplacebo.so
-	source = https://code.videolan.org/videolan/libplacebo/-/archive/v2.72.2/libplacebo-v2.72.2.tar.gz
-	sha512sums = 0cb100350dbc81566a8363b0265bf89de8569b0313d1f1aa8ba621e39d7ee43a47ec9ab7827d01fdd2133c357983002412e67c2b2ba3616bd570f16e8e3ba135
-	b2sums = 59ce83d23c22fa1bc10d82b01b531ee82e3e40bf062adf7ea1d276a65c683c448797348a7a9ce234f92e0fd6c699903ae70f15df5d2e2779bec32db6b0b769e6
+	source = https://code.videolan.org/videolan/libplacebo/-/archive/v3.104.0/libplacebo-v3.104.0.tar.gz
+	sha512sums = 896ade7d87fe02924cbf5a0f2b39a2054c8b9eb7a5f0adf574d0ec3dc9239020f8c69450501775002f7697250da595bf24a7d2d7039eb396073411c6fce2edfb
+	b2sums = dfd743470eb679ddf14b517f856dec1a1df1df88788d8222aade4b31f8d625c66a6bfeb0ff95df2eec531fa6950d68b3ca578cb244104a2591090ad8dcbca6a8
 
 pkgname = libplacebo
 
