@@ -1,6 +1,6 @@
 pkgbase = bettercap-caplets
 	pkgdesc = Bettercap scripts (caplets) and proxy modules
-	pkgver = v20200413.r340.dba2ff0
+	pkgver = v20201031.r370.7e20238
 	pkgrel = 1
 	url = https://github.com/bettercap/caplets
 	arch = any
@@ -8,7 +8,7 @@ pkgbase = bettercap-caplets
 	makedepends = git
 	depends = bettercap
 	optdepends = java-runtime: java caplets
-	source = bettercap-caplets::git+https://github.com/bettercap/caplets#commit=dba2ff08f0aed56ee81284a982ac9a04dec1c7c7
+	source = bettercap-caplets::git+https://github.com/bettercap/caplets#commit=7e202386a3b691ccda927e0bae0306c782d1b1a4
 	sha512sums = SKIP
 
 pkgname = bettercap-caplets
