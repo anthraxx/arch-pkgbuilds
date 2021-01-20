@@ -1,7 +1,7 @@
 pkgbase = python-pyotp
 	pkgdesc = Python library for generating and verifying one-time passwords
-	pkgver = 2.3.0
-	pkgrel = 3
+	pkgver = 2.4.1
+	pkgrel = 1
 	url = https://pyotp.readthedocs.io/
 	arch = any
 	license = MIT
@@ -10,7 +10,7 @@ pkgbase = python-pyotp
 	makedepends = python-sphinx
 	depends = python
 	options = !makeflags
-	source = git+https://github.com/pyotp/pyotp#commit=041f5d3c65379d7188821caf92436c7f226ec60e?signed
+	source = git+https://github.com/pyotp/pyotp#commit=480770f6b86c6445ffa041a830532b72e45ced6c?signed
 	validpgpkeys = 29BCBADB4ECAAAC2382699388AFAFCD242818A52
 	sha512sums = SKIP
 
