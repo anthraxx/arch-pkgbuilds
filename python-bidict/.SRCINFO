@@ -1,0 +1,23 @@
+pkgbase = python-bidict
+	pkgdesc = Bidirectional mapping library for Python
+	pkgver = 0.21.2
+	pkgrel = 2
+	url = https://bidict.readthedocs.org/
+	arch = any
+	license = MPL2
+	checkdepends = python-pytest
+	checkdepends = python-sphinx
+	checkdepends = python-sphinx-autodoc-typehints
+	checkdepends = python-pytest-benchmark
+	checkdepends = python-hypothesis
+	checkdepends = python-py-cpuinfo
+	makedepends = python-setuptools
+	makedepends = python-pip
+	makedepends = python-wheel
+	depends = python
+	source = https://files.pythonhosted.org/packages/source/b/bidict/bidict-0.21.2.tar.gz
+	sha256sums = 4fa46f7ff96dc244abfc437383d987404ae861df797e2fd5b190e233c302be09
+	b2sums = 6bc154cd49d33f9f144c0122175355327f16fbf3f701f751ecc0b65d335c78e5cb66126ef055545ec35a0b56a18efc4446a471477f9c2984f7c9a60cb80e2120
+
+pkgname = python-bidict
+
