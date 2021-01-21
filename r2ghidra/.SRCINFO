@@ -1,0 +1,26 @@
+pkgbase = r2ghidra
+	pkgdesc = Deep ghidra decompiler integration for radare2 and r2cutter
+	pkgver = 5.0.0.r16.gb5b89227
+	pkgrel = 1
+	url = https://github.com/radareorg/r2ghidra
+	arch = x86_64
+	license = LGPL3
+	makedepends = git
+	makedepends = cmake
+	makedepends = qt5-base
+	depends = radare2
+	depends = glibc
+	provides = r2cutter-r2ghidra
+	provides = radare2-r2ghidra
+	replaces = r2ghidra-dec
+	source = git+https://github.com/radareorg/r2ghidra#commit=b5b8922763f515f4048f25818fe7a67186ce92f6
+	source = git+https://github.com/radareorg/r2cutter#commit=d7543100963c382c01fa6adf6c7c81c27dbb6722
+	source = radare-ghidra::git+https://github.com/radareorg/ghidra.git
+	source = git+https://github.com/zeux/pugixml.git
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = SKIP
+
+pkgname = r2ghidra
+
