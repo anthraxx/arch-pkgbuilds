@@ -1,7 +1,7 @@
 pkgbase = ruby-pathutil
 	pkgdesc = Faster pure Ruby implementation of Pathname with extra bits
-	pkgver = 0.16.1
-	pkgrel = 4
+	pkgver = 0.16.2
+	pkgrel = 1
 	url = https://github.com/envygeeks/pathutil
 	arch = any
 	license = MIT
@@ -9,9 +9,9 @@ pkgbase = ruby-pathutil
 	depends = ruby
 	depends = ruby-forwardable-extended
 	options = !emptydirs
-	source = ruby-pathutil-0.16.1.tar.gz::https://github.com/envygeeks/pathutil/archive/v0.16.1.tar.gz
-	sha256sums = 6dec5d820dac6d70224176014704883dc99252a1bef980fef014078fdaf7c426
-	sha512sums = bd6b2402d12cdceefacde92cb38a67c03a73bdfd9e5823255eef348c571f1347a5febe0cd6a89cf3e78028cee9ca176f8ff192b85e0a52d752319287dcdb6998
+	source = https://github.com/envygeeks/pathutil/archive/v0.16.2/ruby-pathutil-0.16.2.tar.gz
+	sha512sums = d06daf365b94dacd33966f3928a53f0f00d2fca7b9f6348a7efd2b55ab5ba937459e5bd78fde241f30749a1ae55e4ae3ba1ed8945b5333464e7d3ce9666cd054
+	b2sums = 5a9d1dac1f1171ee6bc447725c04883cb56a9071927f3e0fdbcb9754345ac77a6609533a1308a411cb22658caeb2a4bed49225923af109bca288cfb3aeb3d669
 
 pkgname = ruby-pathutil
 
