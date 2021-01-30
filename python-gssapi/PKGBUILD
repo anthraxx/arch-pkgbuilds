@@ -1,29 +1,35 @@
-# Maintainer: Samuel Laurén <samuel.lauren@iki.fi>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Contributor: Samuel Laurén <samuel.lauren@iki.fi>
 
-_name=gssapi
 pkgname=python-gssapi
 pkgver=1.6.12
-pkgrel=1
-pkgdesc="Python GSSAPI Wrapper"
-arch=(any)
-url="https://github.com/pythongssapi/python-gssapi"
-license=("custom")
-depends=("python" "python-decorator" "krb5")
-makedepends=("python-setuptools")
-source=("https://pypi.python.org/packages/source/${_name:0:1}/${_name}/${_name}-${pkgver}.tar.gz")
-sha256sums=("16ed3b5d7fc37683be27f34a2a65062cb11d815d019bb2e89ffeb395576e51c8")
+pkgrel=2
+pkgdesc='Provides both low-level and high level wrappers around the GSSAPI C libraries'
+url='https://github.com/pythongssapi/python-gssapi'
+arch=('x86_64')
+license=('ISC')
+depends=('python' 'python-decorator' 'krb5')
+makedepends=('python-setuptools' 'cython')
+checkdepends=('python-parameterized' 'python-k5test')
+source=("https://github.com/pythongssapi/python-gssapi/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
+sha512sums=('df28677b7ea0c3f9ee9809310f60becba7095ac2614b61a6611662f118cbdcc5522a9be3f8195e04590b8ed7c5ae6bbc695e20902c8e975871fd55fb1997805d')
+b2sums=('2d2798d3e9c249abd67c9dc7426b917b4b54595494aa7331a1f9be6007985bdbc9fc05c624252443a357d5445ed7f93cb2cfb6918ca77feba75ff4e0ad0b56c1')
 
 build() {
-  cd "$srcdir/$_name-$pkgver"
+  cd "${pkgname}-${pkgver}"
+  python setup.py build
+}
 
-  python3 setup.py build
+check() {
+  cd "${pkgname}-${pkgver}"
+  python setup.py test
 }
 
 package() {
-  cd "$srcdir/$_name-$pkgver"
-
-  python3 setup.py install -O1 --skip-build --root="${pkgdir}"
-  install -Dm644 LICENSE.txt "$pkgdir/usr/share/licenses/$pkgname/LICENSE.xt"
+  cd "${pkgname}-${pkgver}"
+  python setup.py install -O1 --root="${pkgdir}" --skip-build
+  install -Dm 644 README.txt -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE.txt -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
 
-# vim:set ts=2 sw=2 et:
+# vim: ts=2 sw=2 et:

@@ -1,16 +1,20 @@
 pkgbase = python-gssapi
-	pkgdesc = Python GSSAPI Wrapper
+	pkgdesc = Provides both low-level and high level wrappers around the GSSAPI C libraries
 	pkgver = 1.6.12
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/pythongssapi/python-gssapi
-	arch = any
-	license = custom
+	arch = x86_64
+	license = ISC
+	checkdepends = python-parameterized
+	checkdepends = python-k5test
 	makedepends = python-setuptools
+	makedepends = cython
 	depends = python
 	depends = python-decorator
 	depends = krb5
-	source = https://pypi.python.org/packages/source/g/gssapi/gssapi-1.6.12.tar.gz
-	sha256sums = 16ed3b5d7fc37683be27f34a2a65062cb11d815d019bb2e89ffeb395576e51c8
+	source = https://github.com/pythongssapi/python-gssapi/archive/v1.6.12/python-gssapi-1.6.12.tar.gz
+	sha512sums = df28677b7ea0c3f9ee9809310f60becba7095ac2614b61a6611662f118cbdcc5522a9be3f8195e04590b8ed7c5ae6bbc695e20902c8e975871fd55fb1997805d
+	b2sums = 2d2798d3e9c249abd67c9dc7426b917b4b54595494aa7331a1f9be6007985bdbc9fc05c624252443a357d5445ed7f93cb2cfb6918ca77feba75ff4e0ad0b56c1
 
 pkgname = python-gssapi
 
