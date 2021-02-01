@@ -1,0 +1,22 @@
+pkgbase = bubblewrap
+	pkgdesc = Unprivileged sandboxing tool
+	pkgver = 0.4.1
+	pkgrel = 1
+	url = https://github.com/projectatomic/bubblewrap
+	arch = x86_64
+	license = GPL
+	makedepends = libxslt
+	makedepends = docbook-xsl
+	makedepends = git
+	depends = glibc
+	depends = libcap
+	source = git+https://github.com/projectatomic/bubblewrap#commit=5feb64dc60c936a7f9e424df9478aae9b88ee48a
+	sha256sums = SKIP
+
+pkgname = bubblewrap
+
+pkgname = bubblewrap-suid
+	pkgdesc = Unprivileged sandboxing tool (setuid variant)
+	provides = bubblewrap
+	conflicts = bubblewrap
+
