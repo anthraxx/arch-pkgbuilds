@@ -1,0 +1,19 @@
+pkgbase = arch-audit-git
+	pkgdesc = A utility like pkg-audit based on Arch Security Team data
+	pkgver = 0.1.14.r9.g857fd36
+	pkgrel = 1
+	url = https://gitlab.com/ilpianista/arch-audit
+	arch = i686
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = pkg-config
+	makedepends = git
+	depends = curl
+	provides = arch-audit
+	conflicts = arch-audit
+	source = git+https://gitlab.com/ilpianista/arch-audit.git
+	md5sums = SKIP
+
+pkgname = arch-audit-git
+
