@@ -1,0 +1,47 @@
+# Maintainer : Christian Rebischke <Chris.Rebischke@archlinux.org>
+# Contributor: Andrea Scarpino <andrea@archlinux.org>
+
+pkgname=arch-audit
+pkgver=0.1.15
+pkgrel=2
+pkgdesc='An utility like pkg-audit based on Arch CVE Monitoring Team data'
+url='https://gitlab.com/ilpianista/arch-audit'
+depends=('curl' 'openssl')
+makedepends=('cargo' 'pkg-config')
+arch=('x86_64')
+license=('MIT')
+source=("${pkgname}-${pkgver}.tar.gz::https://gitlab.com/ilpianista/arch-audit/-/archive/${pkgver}/arch-audit-${pkgver}.tar.gz"
+        "fix-term-crash.patch")
+sha512sums=('f8a6ee8b30f57c5ae572a939e64e47593273cf6e599d430793d657973467f489e0d5940dd21f66ba4e9f5ae8bac8e5f3cf02e6f793fc2e526d829ef83be05c9d'
+            '885c4c58fce12c420296375a7012731afd53d6947884812e53da045f0c0eedb64346af257c103536a4b37cf31eae4ec26fd7edfc0e1f667e268f2a1dddd23f2c')
+
+prepare() {
+  # apply fix for TERM crash
+  cd "${pkgname}-${pkgver}"
+  patch -Np1 < "${srcdir}/fix-term-crash.patch"
+}
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  cargo build --release
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  install -Dm755 "target/release/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+
+  install -Dm644 doc/arch-audit.1 "${pkgdir}/usr/share/man/man1/arch-audit.1"
+
+  install -Dm644 systemd/arch-audit.service \
+    "${pkgdir}/usr/share/${pkgname}/arch-audit.service"
+  install -Dm644 systemd/arch-audit.timer \
+    "${pkgdir}/usr/share/${pkgname}/arch-audit.timer"
+
+  install -Dm644 completions/zsh/_arch-audit \
+    "${pkgdir}"/usr/share/zsh/site-functions/_arch-audit
+
+  install -Dm644 hooks/arch-audit.hook \
+    "${pkgdir}/usr/share/${pkgname}/arch-audit.hook"
+}
