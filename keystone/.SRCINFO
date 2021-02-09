@@ -1,20 +1,24 @@
 pkgbase = keystone
 	pkgdesc = Lightweight multi-platform, multi-architecture assembler framework
-	pkgver = 0.9.1
-	pkgrel = 6
+	pkgver = 0.9.2
+	pkgrel = 1
 	url = https://www.keystone-engine.org/
 	arch = x86_64
 	license = GPL2
 	makedepends = cmake
+	makedepends = ninja
 	makedepends = gcc-libs
 	makedepends = python
+	makedepends = python-setuptools
 	options = staticlibs
 	options = !emptydirs
-	source = keystone-0.9.1.tar.gz::https://github.com/keystone-engine/keystone/archive/0.9.1.tar.gz
-	sha512sums = 3bd9c3793d5862a0a8628b52da381625e62445f661dbd5ed715723e7d9db01ce3f9586e5ca0a5cc71e8ceb6c912050f5c28e3ccd540e72c8abcfd2f0d1bbae17
+	source = https://github.com/keystone-engine/keystone/archive/0.9.2/keystone-0.9.2.tar.gz
+	sha512sums = 5d4dd30410410bc7848e75a2e31e8ecef6241ad25e21963aa7a07bbea21d95b75e235c80573129014102684c9647710ace3c0776a8401844d7e4b45cab7bd04b
+	b2sums = 5654ae6a66ccf6832fbdbb8c1083a2318e413bb833a0fadc4e1374f0de601e3dad9f354b1dec92d9a944621923458e432510299c1b55579ac9bb6b6e90a818de
 
 pkgname = keystone
 	depends = gcc-libs
+	provides = libkeystone.so
 
 pkgname = python-keystone
 	license = BSD
