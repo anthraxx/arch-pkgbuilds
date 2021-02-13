@@ -1,18 +1,20 @@
 pkgbase = arch-audit
-	pkgdesc = An utility like pkg-audit based on Arch CVE Monitoring Team data
-	pkgver = 0.1.15
-	pkgrel = 2
+	pkgdesc = A utility like pkg-audit based on Arch Security Team data
+	pkgver = 0.1.16
+	pkgrel = 1
 	url = https://gitlab.com/ilpianista/arch-audit
 	arch = x86_64
 	license = MIT
 	makedepends = cargo
 	makedepends = pkg-config
+	makedepends = scdoc
+	depends = glibc
+	depends = gcc-libs
 	depends = curl
-	depends = openssl
-	source = arch-audit-0.1.15.tar.gz::https://gitlab.com/ilpianista/arch-audit/-/archive/0.1.15/arch-audit-0.1.15.tar.gz
-	source = fix-term-crash.patch
-	sha512sums = f8a6ee8b30f57c5ae572a939e64e47593273cf6e599d430793d657973467f489e0d5940dd21f66ba4e9f5ae8bac8e5f3cf02e6f793fc2e526d829ef83be05c9d
-	sha512sums = 885c4c58fce12c420296375a7012731afd53d6947884812e53da045f0c0eedb64346af257c103536a4b37cf31eae4ec26fd7edfc0e1f667e268f2a1dddd23f2c
+	depends = libcurl.so
+	depends = libalpm.so
+	source = https://gitlab.com/ilpianista/arch-audit/-/archive/0.1.16/arch-audit-0.1.16.tar.gz
+	sha512sums = a55d0dcd130893696ca688b0631651a42b5c51b22dae8b87d5368f332492735354f95ee4defbe7572bf9cc9d2a557aac08c992ab95144ed0a9e00c1919056d4f
 
 pkgname = arch-audit
 
