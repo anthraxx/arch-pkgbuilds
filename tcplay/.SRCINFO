@@ -1,7 +1,7 @@
 pkgbase = tcplay
 	pkgdesc = Free and simple TrueCrypt implementation based on dm-crypt
 	pkgver = 3.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/bwalex/tc-play
 	arch = x86_64
 	license = BSD
