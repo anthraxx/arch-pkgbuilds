@@ -1,27 +1,33 @@
 pkgbase = caddy
-	pkgdesc = HTTP/2 Web Server with Automatic HTTPS
-	pkgver = 1.0.5
-	pkgrel = 2
+	pkgdesc = Fast web server with automatic HTTPS
+	pkgver = 2.3.0
+	pkgrel = 1
 	url = https://caddyserver.com
 	arch = x86_64
 	license = Apache
 	makedepends = go
 	makedepends = git
 	depends = glibc
-	backup = etc/caddy/caddy.conf
-	source = git+https://github.com/caddyserver/caddy#commit=11ae1aa6b88e45b077dd97cb816fe06cd91cca67?signed
-	source = caddy-9e93bfd85c97d71ab842a4a4b555d358295c914e-index.html::https://raw.githubusercontent.com/caddyserver/dist/9e93bfd85c97d71ab842a4a4b555d358295c914e/welcome/index.html
+	backup = etc/caddy/Caddyfile
+	source = git+https://github.com/caddyserver/caddy#tag=b4989773ebb2dff21283ee50ec667f9138bdd292?signed
+	source = caddy-dist::git+https://github.com/caddyserver/dist#commit=e784a6dd41d1cd4f72de2a427961bfb097b72cf9
 	source = caddy.service
+	source = caddy-api.service
 	source = caddy.tmpfiles
+	source = caddy.sysusers
 	source = Caddyfile
-	source = plugins.go
+	source = use-data-dir-for-autosave.patch
+	source = override-main-module-version.patch
 	validpgpkeys = 29D0817A67156E4F25DC24782A349DD577D586A5
-	sha256sums = SKIP
-	sha256sums = 7668022a48b0cbf459190f0bbfbfb32ae066449a95e006367cac9e1befa80c5f
-	sha256sums = c14ac8681e0434caf2c68e4a18dc59f8796fdffe9039f2e3c799ca64d37aa1ea
-	sha256sums = c8f002f5ba59985a643600dc3c871e18e110903aa945ef3f2da7c9edd39fbd7a
-	sha256sums = fb998b6de7bfe58f65c62eab37a4885e70833d19902da089766ad627a5f5a305
-	sha256sums = 69956ee6a54ee0469fdee77f6d07cccee61699b1ee24e2f94ef6017c7ec1118b
+	sha512sums = SKIP
+	sha512sums = SKIP
+	sha512sums = b6f69b9818b1807ebd614f696f39ca2bacc58b748273d1122c2a96641093c2acf9e168ff6a2d5b2e8b2da073993b5245740d77975d4ca823ff0598675a6b7806
+	sha512sums = a4d9bbcccf3c6fe9be2b7ba98214d579ecd40991c5cc520ca1d105f307b31622f1c6b5a6cd7a4e8b32ccd2a229ed70115cba9c507baa413803897b7183f9abe0
+	sha512sums = 55ee8d3f8b14f9adddc7a1026addcea4f85b4bae4cd512fd4da2a5e8adaae4b6fd0f486d2e3847f75518f4710a897b4fca84e48ee15700b968bad762125c4742
+	sha512sums = c893d88fec89e37da6596030c8dce7103e7e575371e8542a24d2a0741e877358d85219f2d8ade9d6aa0f515efe1156a4badd9fef5f65f553a5b0c72330c4728f
+	sha512sums = 716da3f4edeb3561243aeaf5c32b01ff7a4ac810b6deba8364fb12a1f71b6a5278c34a97b289bcfdc48784679b942bf780f1f36d416a575791168c94b0d59fe0
+	sha512sums = 563d6b45e91fc584fb5a27caaa382f59c140cb0a1b28b8d8faced4f7c7cad86d8671eb6ac10056f41518a842c8f606130d7e0c71df2b731d5eb0b4c868ea5d41
+	sha512sums = b06369dd976cfcc9b519782c088efa5fba25db61663112fcc4e20b108d5165cbebcf63b6fe6d1e36119a55271374bac0037a4d07af412241d6a4d2b4f4efda0b
 
 pkgname = caddy
 
