@@ -1,9 +1,8 @@
 pkgbase = rabbitmq
 	pkgdesc = Highly reliable and performant enterprise messaging implementation of AMQP written in Erlang/OTP
 	pkgver = 3.8.12
-	pkgrel = 1
+	pkgrel = 2
 	url = https://rabbitmq.com
-	install = rabbitmq.install
 	arch = any
 	license = MPL
 	makedepends = zip
@@ -15,14 +14,11 @@ pkgbase = rabbitmq
 	makedepends = python
 	makedepends = python-simplejson
 	makedepends = rsync
-	depends = util-linux
-	depends = inetutils
-	depends = erlang-nox
-	depends = socat
-	optdepends = rabbitmqadmin: CLI management tool
-	optdepends = logrotate: rotate log files
+	makedepends = util-linux
+	makedepends = inetutils
+	makedepends = erlang-nox
+	makedepends = socat
 	options = !makeflags
-	backup = etc/rabbitmq/rabbitmq-env.conf
 	source = https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.8.12/rabbitmq-server-3.8.12.tar.xz
 	source = https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.8.12/rabbitmq-server-3.8.12.tar.xz.asc
 	source = rabbitmq-customize-systemd-service.patch
@@ -40,4 +36,17 @@ pkgbase = rabbitmq
 	sha512sums = f2a6aaa38e575e7c947191a7c67add1434beb768c50acb16d5faa5dd83d390a9a5ec7c153487add4ac26de058a02bbb5c3a7d6377e91a1d0cbcca3c1d6797b02
 
 pkgname = rabbitmq
+	install = rabbitmq.install
+	depends = util-linux
+	depends = inetutils
+	depends = erlang-nox
+	depends = socat
+	optdepends = rabbitmqadmin: CLI management tool
+	optdepends = logrotate: rotate log files
+	backup = etc/rabbitmq/rabbitmq-env.conf
+
+pkgname = rabbitmqadmin
+	pkgdesc = Command-line tool for managing RabbitMQ server (requires "management" plugin)
+	url = https://www.rabbitmq.com/management-cli.html
+	depends = python
 
