@@ -1,6 +1,6 @@
 pkgbase = filezilla
 	pkgdesc = Fast and reliable FTP, FTPS and SFTP client
-	pkgver = 3.46.3
+	pkgver = 3.52.2
 	pkgrel = 1
 	url = https://filezilla-project.org/
 	arch = x86_64
@@ -14,9 +14,8 @@ pkgbase = filezilla
 	depends = gnutls
 	depends = libfilezilla
 	depends = libfilezilla.so
-	source = https://download.filezilla-project.org/client/FileZilla_3.46.3_src.tar.bz2
-	sha256sums = f1c5bff0a99c39447a5ea9fdfcc16cc408876ef52fa8d5e7bf041ea0717a7395
-	sha512sums = 35b61c3bfd1d40848e7846b4533da8844df0e4873cb89286b90330cbc29dffeff96fcab10aec908a08d9129198bb2d80df8f223d8ebc1a0863a4083cb06abffc
+	source = https://download.filezilla-project.org/client/FileZilla_3.52.2_src.tar.bz2
+	sha512sums = 74abb78eaece5ffed044a88bdbbff7be0470e47868b806925ea5666d741370dff910d55849f6ad91fb57f8c1a33c461dc10c9f093d75e7a96ff0d909f3a8f131
 
 pkgname = filezilla
 
