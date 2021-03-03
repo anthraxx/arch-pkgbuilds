@@ -1,17 +1,21 @@
 pkgbase = zstd
 	pkgdesc = Zstandard - Fast real-time compression algorithm
-	pkgver = 1.4.8
+	pkgver = 1.4.9
 	pkgrel = 1
 	url = https://facebook.github.io/zstd/
 	arch = x86_64
 	license = BSD
 	license = GPL2
 	makedepends = gtest
+	depends = glibc
+	depends = gcc-libs
 	depends = zlib
 	depends = xz
 	depends = lz4
-	source = https://github.com/facebook/zstd/releases/download/v1.4.8/zstd-1.4.8.tar.zst
-	sha256sums = c7ea10e20dd61b457220455e3cf553069987b968b7c63d1b9d46acbdb45623eb
+	provides = libzstd.so
+	source = https://github.com/facebook/zstd/releases/download/v1.4.9/zstd-1.4.9.tar.zst
+	sha256sums = 61dce0e9a5036d7fb9b5709ee6567c2c8a1b4ba48a8e43afe9ae355cc37bb494
+	b2sums = 01a5dedf211c8f136ed4d1a736a2de08329bfdd35b31c585c0a39c32c09c88f8eea9dff0cc646d7d40948b4837ad36a5380fb09cdbea1d05eccf7ffa403649ce
 
 pkgname = zstd
 
