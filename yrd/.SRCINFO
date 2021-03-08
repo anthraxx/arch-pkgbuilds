@@ -1,11 +1,11 @@
 pkgbase = yrd
 	pkgdesc = cjdns swiss army knife
 	pkgver = 0.5.3
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/kpcyrd/yrd
 	arch = any
 	license = GPL3
-	depends = python-setuptools
+	makedepends = python-setuptools
 	depends = python-argh
 	depends = python-requests
 	depends = cjdns
