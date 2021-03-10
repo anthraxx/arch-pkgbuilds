@@ -1,0 +1,48 @@
+[Unit]
+Description=Anonymizing overlay network for TCP (instance %i)
+After=network.target nss-lookup.target
+PartOf=tor.service
+ReloadPropagatedFrom=tor.service
+
+[Service]
+Type=notify
+NotifyAccess=all
+PIDFile=/run/tor-instances/%i/tor.pid
+PermissionsStartOnly=yes
+ExecStartPre=/usr/bin/install -Z -m 02755 -o _tor-%i -g _tor-%i -d /run/tor-instances/%i
+ExecStartPre=/bin/sed -e 's/@@NAME@@/%i/g; w /run/tor-instances/%i.defaults' /usr/share/tor/tor-service-defaults-torrc-instances
+ExecStartPre=/usr/bin/tor --defaults-torrc /run/tor-instances/%i.defaults -f /etc/tor/instances/%i/torrc --verify-config
+ExecStart=/usr/bin/tor --defaults-torrc /run/tor-instances/%i.defaults -f /etc/tor/instances/%i/torrc
+ExecReload=/bin/kill -HUP ${MAINPID}
+KillSignal=SIGINT
+TimeoutStartSec=300
+TimeoutStopSec=60
+Restart=on-failure
+LimitNOFILE=65536
+
+# Hardening
+NoNewPrivileges=yes
+PrivateTmp=yes
+PrivateDevices=yes
+DeviceAllow=/dev/null rw
+DeviceAllow=/dev/urandom r
+ProtectHome=yes
+ProtectSystem=strict
+ProcSubset=pid
+ProtectClock=true
+ProtectControlGroups=true
+ProtectHostname=true
+ProtectKernelLogs=true
+ProtectKernelModules=true
+ProtectKernelTunables=true
+ProtectProc=invisible
+MemoryDenyWriteExecute=true
+ReadOnlyDirectories=/
+# We would really like to restrict the next item to [..]/%i but we can't,
+# as systemd does not support that yet.  See also #781730.
+ReadWriteDirectories=-/var/lib/tor-instances
+ReadWriteDirectories=-/run
+CapabilityBoundingSet=CAP_SETUID CAP_SETGID CAP_NET_BIND_SERVICE CAP_DAC_READ_SEARCH
+
+[Install]
+WantedBy=multi-user.target
