@@ -1,7 +1,7 @@
 pkgbase = etherape
 	pkgdesc = Graphical network monitor for various OSI layers and protocols
-	pkgver = 0.9.18
-	pkgrel = 2
+	pkgver = 0.9.19
+	pkgrel = 1
 	url = http://etherape.sourceforge.net/
 	arch = x86_64
 	license = GPL2
@@ -12,8 +12,8 @@ pkgbase = etherape
 	depends = popt
 	depends = goocanvas
 	depends = gtk3
-	source = https://downloads.sourceforge.net/etherape/etherape-0.9.18.tar.gz
-	sha512sums = 0ed19966451f9e9b5f5754018d485e7dc59005657ceddf8a75e790c4b7fbf3c8eea56354cf490ec27e18c4bc14c5b3fe648c90facc471dfb14b52ea68abc37d3
+	source = https://downloads.sourceforge.net/etherape/etherape-0.9.19.tar.gz
+	sha512sums = 3819c36a6ea5b1ec6fc675563ab0264d180824343344bf4f2da834db39547b721c1565b6edb882d55ce4e0ca93e4b34e3a544996a988584aaf7fe8b8d5ca265e
 
 pkgname = etherape
 
