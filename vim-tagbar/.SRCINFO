@@ -1,15 +1,15 @@
 pkgbase = vim-tagbar
 	pkgdesc = Plugin to browse the tags of the current file and get an overview of its structure
-	pkgver = 2.7
-	pkgrel = 3
+	pkgver = 3.0.0
+	pkgrel = 1
 	url = https://majutsushi.github.io/tagbar/
 	arch = any
 	groups = vim-plugins
 	license = custom:vim
 	depends = ctags
 	depends = vim
-	source = vim-tagbar-2.7.tar.gz::https://github.com/majutsushi/tagbar/archive/v2.7.tar.gz
-	sha512sums = d964d3055f1679aad86b0756cc444a4857eb29ca22f2bd3567ad6c8d073e75d0c8823109038415f5bd1d269bbf8e36da6f34d70fedee54c10f90535ef79ff3c8
+	source = https://github.com/majutsushi/tagbar/archive/v3.0.0/vim-tagbar-3.0.0.tar.gz
+	sha512sums = 01633e56211ddf753b8b24757e5f67a3ac1d79e36e9c1b39d431db968d592a878d4e19e7631059270069885eea6e608655cb604df3f512588e159ffba1057aa5
 
 pkgname = vim-tagbar
 
