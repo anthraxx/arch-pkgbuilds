@@ -1,7 +1,7 @@
 pkgbase = python-ptrace
 	pkgdesc = Python binding of ptrace library to trace processes and syscalls
-	pkgver = 0.9.7
-	pkgrel = 3
+	pkgver = 0.9.8
+	pkgrel = 1
 	url = https://github.com/haypo/python-ptrace
 	arch = any
 	license = GPL2
@@ -9,9 +9,9 @@ pkgbase = python-ptrace
 	makedepends = python-setuptools
 	depends = python
 	depends = python-six
-	source = https://github.com/haypo/python-ptrace/archive/0.9.7/python-ptrace-0.9.7.tar.gz
-	sha512sums = 2893da4bc63015c1173f70657a4132018d7397e3d7ef2bc9532903fdc3386ee25ce92c8d0b38c2fd31f0089bc67b43354b178fdc27bd25916c8c2704cf8fcce7
-	b2sums = c171104b1858eaad396514ed248b6b34aea4dd0a65028743e17c2eebb8d02e3f9dcfae7e22d56de0e468bae8ad1e110110c2d0eb5b695e057233ec5d975bd7c6
+	source = https://github.com/haypo/python-ptrace/archive/0.9.8/python-ptrace-0.9.8.tar.gz
+	sha512sums = f50ba7d457bf20a161a99913a552f2e829e97975d7cfbf8cf5d89b4f2320772b537678f2e70b9aaa88341c4f01d4bf41f62683e913628db503152f3510a013a3
+	b2sums = 3d387beca9c92c0e3bbd5cf2c9d2af447c233b631e894ce1af2cdc697a1a48e24a299bbc998cd187ac9ad0f45bfc886f476afdb69329d761e8730a047731126b
 
 pkgname = python-ptrace
 
