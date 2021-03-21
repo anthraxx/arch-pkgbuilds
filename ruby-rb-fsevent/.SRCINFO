@@ -1,7 +1,7 @@
 pkgbase = ruby-rb-fsevent
 	pkgdesc = FSEvents API with signals handled (without RubyCocoa)
 	pkgver = 0.10.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/thibaudgg/rb-fsevent
 	arch = any
 	license = MIT
