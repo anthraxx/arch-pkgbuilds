@@ -1,7 +1,7 @@
 pkgbase = ruby-samus
 	pkgdesc = Helps you automate the release of Open Source Software
 	pkgver = 3.0.9
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/lsegal/samus
 	arch = any
 	license = MIT
