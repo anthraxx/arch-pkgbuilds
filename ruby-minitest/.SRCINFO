@@ -1,7 +1,7 @@
 pkgbase = ruby-minitest
 	pkgdesc = Complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking
 	pkgver = 5.14.3
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/seattlerb/minitest
 	arch = any
 	license = MIT
