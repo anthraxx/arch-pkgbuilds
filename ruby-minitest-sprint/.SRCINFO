@@ -1,7 +1,7 @@
 pkgbase = ruby-minitest-sprint
 	pkgdesc = Runs (Get it? It's fast!) your tests and makes it easier to rerun individual failures
 	pkgver = 1.2.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/seattlerb/minitest-sprint
 	arch = any
 	license = MIT
