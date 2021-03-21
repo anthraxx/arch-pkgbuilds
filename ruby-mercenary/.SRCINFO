@@ -1,7 +1,7 @@
 pkgbase = ruby-mercenary
 	pkgdesc = Easier way to build your command-line scripts
 	pkgver = 0.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jekyll/mercenary
 	arch = any
 	license = MIT
