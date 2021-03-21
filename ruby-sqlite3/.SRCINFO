@@ -1,7 +1,7 @@
 pkgbase = ruby-sqlite3
 	pkgdesc = Ruby bindings for the SQLite3 embedded database
 	pkgver = 1.4.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/luislavena/sqlite3-ruby
 	arch = x86_64
 	license = BSD
