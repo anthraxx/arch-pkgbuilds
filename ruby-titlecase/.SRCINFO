@@ -1,7 +1,7 @@
 pkgbase = ruby-titlecase
 	pkgdesc = Ruby version of John Gruber's TitleCase.pl
 	pkgver = 0.1.1+13+1d6b4f7
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/samsouder/titlecase
 	arch = any
 	license = MIT
