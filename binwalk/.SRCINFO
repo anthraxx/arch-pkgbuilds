@@ -1,7 +1,7 @@
 pkgbase = binwalk
 	pkgdesc = A tool for searching a given binary image for embedded files
-	pkgver = 2.2.0
-	pkgrel = 4
+	pkgver = 2.3.0
+	pkgrel = 1
 	url = https://github.com/ReFirmLabs/binwalk
 	arch = any
 	license = MIT
@@ -21,8 +21,8 @@ pkgbase = binwalk
 	optdepends = xz: XZ decompression support
 	optdepends = lhasa: LHA support
 	optdepends = sleuthkit: forensic analysis support
-	source = binwalk-2.2.0.tar.gz::https://github.com/ReFirmLabs/binwalk/archive/v2.2.0.tar.gz
-	sha512sums = 5f3ed31c0b5f9ca3057f86e82787a73b06f9f73747b51dd72130a78e4d69cf43a0207bffc495d177e97811de5bf835b3d0507f314b7a0c960eddf6d1efe0f0f9
+	source = binwalk-2.3.0.tar.gz::https://github.com/ReFirmLabs/binwalk/archive/v2.3.0.tar.gz
+	sha512sums = 74c25858eccaeff1bbf238cdff92df4cbec37dfff77204739bd82c35e4fd2329a8d0b13850b8b05900f756a99b898ebbbfb8ac44a26f37ca3ffb16c72402f9d6
 
 pkgname = binwalk
 
