@@ -1,0 +1,15 @@
+pkgbase = python-pefile
+	pkgdesc = Python PE parsing module
+	pkgver = 2019.4.18
+	pkgrel = 1
+	url = https://github.com/erocarrera/pefile
+	arch = any
+	license = MIT
+	depends = python
+	depends = python-future
+	source = https://github.com/erocarrera/pefile/archive/v2019.4.18/python-pefile-2019.4.18.tar.gz
+	sha512sums = 351e9fa45731134b4c983b987ab865aa838d58c0c68b9d1a0645c705cd49d51c763ab6db7d8f5d0bf9a1ba8ea89dd297a7fc5bbd1d8184eebd84cf6553743ce5
+	b2sums = a9204309c6c4fc203830e948885811841e7355720affbeccaaf7be1110a391d18001ce610cdc8f34655dfe4836893742b42aa85be3694433ee6608b214363767
+
+pkgname = python-pefile
+
