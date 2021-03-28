@@ -1,0 +1,22 @@
+pkgbase = volatility3
+	pkgdesc = Advanced memory forensics framework
+	pkgver = 1.0.1
+	pkgrel = 1
+	url = https://github.com/volatilityfoundation/volatility/wiki
+	arch = any
+	license = custom
+	makedepends = python-setuptools
+	depends = python
+	depends = python-yara
+	depends = python-capstone
+	depends = python-jsonschema
+	depends = python-pycryptodome
+	depends = python-pefile
+	provides = volatility
+	replaces = volatility
+	source = https://github.com/volatilityfoundation/volatility3/archive/v1.0.1/volatility3-1.0.1.tar.gz
+	sha512sums = df8d595decc9a4f6f1d3474fa03b94f571c05f429e191fe3bfa420fab1a5b6953bc53f396370b7ea76ff2f1ff79125be860561fc1eefd7d00b4e9f60cf25814d
+	b2sums = 09c68d329b25b8bd467156bf526e04a56e17a17d67e40ce4017e4307dbcbaa987dd78fe9dc5f3dc690d6e0c58542b728a96b58d73412e5776e653b2f38228739
+
+pkgname = volatility3
+
