@@ -1,0 +1,30 @@
+pkgbase = conky
+	pkgdesc = Lightweight system monitor for X
+	pkgver = 1.11.6
+	pkgrel = 1
+	url = https://github.com/brndnmtthws/conky
+	arch = x86_64
+	license = BSD
+	license = GPL
+	makedepends = cmake
+	makedepends = docbook2x
+	makedepends = docbook-xsl
+	makedepends = man-db
+	makedepends = git
+	depends = glib2
+	depends = lua
+	depends = wireless_tools
+	depends = libxdamage
+	depends = libxinerama
+	depends = libxft
+	depends = imlib2
+	depends = libxml2
+	depends = libpulse
+	depends = libxnvctrl
+	options = !strip
+	options = debug
+	source = https://github.com/brndnmtthws/conky/archive/v1.11.6.tar.gz
+	sha512sums = f7bffcef33680d61d0171ba50b29ddda011c1c1989fc847cd4b5b60d46bed4772294eec34fd27c4d642a9c03e3cedaa31855ffc0f3b60791f4bed14ffdf7490a
+
+pkgname = conky
+
