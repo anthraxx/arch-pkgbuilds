@@ -2,42 +2,33 @@
 # Contributor: Limao Luo <luolimao+AUR@gmail.com>
 # Contributor: Wes Brown <wesbrown18@gmail.com>
 
-pkgname=volatility
-pkgver=2.6.1
-pkgrel=2
+pkgname=volatility3
+pkgver=1.0.1
+pkgrel=1
 pkgdesc='Advanced memory forensics framework'
-url='https://github.com/volatilityfoundation/volatility/wiki'
+url='https://github.com/volatilityfoundation/volatility3/wiki'
 arch=('any')
-license=('GPL2')
-depends=('python2-distorm' 'python2-crypto' 'python2-ujson')
-optdepends=(
-  'python2-yara: classify malware support'
-  'python2-pillow: screenshots plugin support'
-  'python2-pytz: timezone conversion support'
-  'ipython2: enhanced volshell support'
-  'python2-libforensic1394: firewire live analysis support'
-  'libraw1394: alternative firewire live analysis support'
-  'python2-openpyxl: Excel xlsx/xlsm files support'
-)
-makedepends=('python2-setuptools')
-source=(${pkgname}-${pkgver}.tar.gz::https://github.com/volatilityfoundation/${pkgname}/archive/${pkgver}.tar.gz)
-sha512sums=('64d49de21a87fb6152ad430126466bf66bca06457f3fa2d54cee29b0e4a2eee53ab658570b6cbc782e85ca558f45fac5cf6e6625ebd85aa3ffc9f69768cfa844')
+license=('custom')
+depends=(
+  'python' 'python-yara' 'python-capstone' 'python-jsonschema'
+  'python-pycryptodome' 'python-pefile')
+makedepends=('python-setuptools')
+provides=('volatility')
+replaces=('volatility')
+source=(https://github.com/volatilityfoundation/volatility3/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
+sha512sums=('df8d595decc9a4f6f1d3474fa03b94f571c05f429e191fe3bfa420fab1a5b6953bc53f396370b7ea76ff2f1ff79125be860561fc1eefd7d00b4e9f60cf25814d')
+b2sums=('09c68d329b25b8bd467156bf526e04a56e17a17d67e40ce4017e4307dbcbaa987dd78fe9dc5f3dc690d6e0c58542b728a96b58d73412e5776e653b2f38228739')
 
-prepare() {
+build() {
   cd ${pkgname}-${pkgver}
-  sed -e 's/env python$/env python2/g' -i tools/vtype_diff.py tools/mac/convert.py
+  python setup.py build
 }
 
 package() {
   cd ${pkgname}-${pkgver}
-
-  python2 setup.py install -O1 --prefix=/usr --root="${pkgdir}"
-  ln -s /usr/bin/vol.py "${pkgdir}/usr/bin/${pkgname}"
-
-  install -d "${pkgdir}/usr/share/${pkgname}"
-  mv "${pkgdir}/usr/tools" "${pkgdir}/usr/share/${pkgname}"
-  mv "${pkgdir}/usr/contrib" "${pkgdir}/usr/share/${pkgname}"
-  install -Dm 644 README.txt "${pkgdir}/usr/share/doc/${pkgname}/README"
+  python setup.py install -O1 --prefix=/usr --root="${pkgdir}" --skip-build
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE.txt -t "${pkgdir}/usr/share/licenses/${pkgname}"
 }
 
 # vim: ts=2 sw=2 et:
