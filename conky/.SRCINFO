@@ -1,6 +1,6 @@
 pkgbase = conky
 	pkgdesc = Lightweight system monitor for X
-	pkgver = 1.11.6
+	pkgver = 1.12.1
 	pkgrel = 1
 	url = https://github.com/brndnmtthws/conky
 	arch = x86_64
@@ -11,6 +11,7 @@ pkgbase = conky
 	makedepends = docbook-xsl
 	makedepends = man-db
 	makedepends = git
+	depends = glibc
 	depends = glib2
 	depends = lua
 	depends = wireless_tools
@@ -21,10 +22,18 @@ pkgbase = conky
 	depends = libxml2
 	depends = libpulse
 	depends = libxnvctrl
-	options = !strip
-	options = debug
-	source = https://github.com/brndnmtthws/conky/archive/v1.11.6.tar.gz
-	sha512sums = f7bffcef33680d61d0171ba50b29ddda011c1c1989fc847cd4b5b60d46bed4772294eec34fd27c4d642a9c03e3cedaa31855ffc0f3b60791f4bed14ffdf7490a
+	depends = systemd-libs
+	depends = ncurses
+	depends = curl
+	depends = libncursesw.so
+	depends = libXNVCtrl.so
+	depends = libsystemd.so
+	depends = libpulse.so
+	depends = libcurl.so
+	source = git+https://github.com/brndnmtthws/conky.git#commit=7f84662c2c75dd939b27ce7d9fff95bc1070c1e0?signed
+	validpgpkeys = EB2E847572A71BE20F59AFBEB49ABB7270D9D4FD
+	sha512sums = SKIP
+	b2sums = SKIP
 
 pkgname = conky
 
