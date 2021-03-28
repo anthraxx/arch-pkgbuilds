@@ -1,7 +1,7 @@
 pkgbase = libforensic1394
 	pkgdesc = Library for performing live memory forensics over the IEEE 1394 (FireWire) interface
 	pkgver = 0.2
-	pkgrel = 6
+	pkgrel = 7
 	url = https://freddie.witherden.org/tools/libforensic1394/
 	arch = x86_64
 	license = LGPL3
@@ -20,9 +20,5 @@ pkgname = libforensic1394
 
 pkgname = python-libforensic1394
 	depends = python
-	depends = libforensic1394
-
-pkgname = python2-libforensic1394
-	depends = python2
 	depends = libforensic1394
 
