@@ -1,0 +1,17 @@
+pkgbase = radare2-r2pipe
+	pkgdesc = Access radare2 via pipe from any programming language
+	pkgver = 5.1.0
+	pkgrel = 1
+	url = https://github.com/radareorg/radare2-r2pipe
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = radare2
+	source = https://github.com/radareorg/radare2-r2pipe/archive/5.1.0/python-r2pipe-5.1.0.tar.gz
+	sha512sums = 6ee3f0f9feeff086fe401c41c354c05c3f35de7cfd2584232c64df8ac7f11c2b3f6c0a420d788937ed565799911d2584f5c3b34df81c7803e8f3a8178a7d1f28
+	b2sums = 8541d0434c7dcd01e3647b3c2badf20a00d124ba529566b53bbe086c4887b1f445e1068b74921ff9daa98cdb366ec86ccaced06544d0a49fa7ee3fdfe185a74e
+
+pkgname = python-r2pipe
+	depends = python
+	depends = radare2
+
