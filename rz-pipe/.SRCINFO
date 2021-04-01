@@ -1,0 +1,18 @@
+pkgbase = rz-pipe
+	pkgdesc = Access rizin via pipe from any programming language
+	pkgver = 0.1.0
+	pkgrel = 1
+	url = https://github.com/rizinorg/rz-pipe
+	arch = any
+	license = MIT
+	makedepends = python
+	makedepends = python-setuptools
+	makedepends = rizin
+	source = https://github.com/rizinorg/rz-pipe/archive/python-v0.1.0/python-rzpipe-0.1.0.tar.gz
+	sha512sums = 7cd6498ee1bb8af9a4771cf5aa622c06105a1bb999b57cb8257ea1ee26a27b3ccde901023f2205572d0673807ff0559b13a497a1a35ee5e4796e2d023a6ee29a
+	b2sums = 0e02fa053ab62dfbd2876ad98521f0fc7e5b98a577dd08e31ab0383b6ca25941cfd6f6a5e57fbfbb1ac995df0fe4ec5f7fdf293f4b8e54444881dd249f35ce8b
+
+pkgname = python-rzpipe
+	depends = python
+	depends = rizin
+
