@@ -11,8 +11,7 @@ license=('GPL3')
 depends=('gtk3' 'python-cairo' 'python-gobject' 'python-keyring' 'python-nbxmpp'
          'python-pyasn1' 'python-pyopenssl' 'python-precis_i18n' 'python-css-parser'
          'python-distro' 'hicolor-icon-theme')
-optdepends=('alsa-utils: play notification sounds'
-            'python-dbus: for gajim-remote and zeroconf support'
+optdepends=('python-dbus: for gajim-remote and zeroconf support'
             'avahi: serverless chatting with autodetected clients in a local network'
             'farstream: start audio and video chat'
             'gst-plugins-good: for video/voice support'
@@ -23,18 +22,17 @@ optdepends=('alsa-utils: play notification sounds'
             'gspell: for spell checking support'
             'notification-daemon: for desktop notifications'
             'geoclue: share current location'
-            'gnome-keyring: store passwords encrypted in GNOME Keyring'
-            'kded: store passwords encrypted in KSecretService'
+            'python-keyring: store passwords encrypted in a keyring'
             'gupnp-igd: request your router to forward port for file transfer'
             'libxss: measure idle time, in order to set auto status'
-            'python-crypto: encrypting chat messages'
-            'python-docutils: generate XHTML output from RST code'
             'python-gnupg: encrypting chat messages with OpenPGP'
             'python-pillow: support of WebP avatars'
             'python-axolotl: OMEMO support'
-            'python-qrcode: generate QR codes for OMEMO keys')
+            'python-qrcode: generate QR codes for OMEMO keys'
+            'gsound: Notification Sounds')
 source=(https://www.gajim.org/downloads/${pkgver%.*}/gajim-${pkgver}-2.tar.gz)
 sha512sums=('01d0e77e856935c7d388144fdc8c33271f41752a3544f713eb0ffe070bb7aee6fb3ae28aeddcda69298e405de21bc2ef004e8d7f4c59b3b09eb9366bbd6b0642')
+b2sums=('2517b3eeaf3d8b9304e72c82e533d7424b7deb48d2543f366b91b8cf9a3e278f5b4d271d9128529f8e623f6b6fa26b5b97932112598118bf4ec24f97c4199669')
 
 build() {
   cd ${pkgname}-${pkgver}
