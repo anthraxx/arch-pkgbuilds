@@ -1,6 +1,6 @@
 pkgbase = rz-cutter
 	pkgdesc = Qt and C++ GUI for rizin reverse engineering framework
-	pkgver = 2.0.0
+	pkgver = 2.0.1
 	pkgrel = 1
 	url = https://github.com/rizinorg/cutter
 	arch = x86_64
@@ -24,7 +24,7 @@ pkgbase = rz-cutter
 	depends = gcc-libs
 	depends = syntax-highlighting
 	optdepends = rz-ghidra: ghidra decompiler plugin
-	source = git+https://github.com/rizinorg/cutter#commit=e28b2a15b0588dc65d5e1172078be1ae88eab6db
+	source = git+https://github.com/rizinorg/cutter#commit=8d47919234e179284e7ca918cde827abc82a1b6b
 	source = git+https://github.com/rizinorg/cutter-translations
 	sha512sums = SKIP
 	sha512sums = SKIP
