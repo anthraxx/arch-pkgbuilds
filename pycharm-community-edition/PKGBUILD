@@ -4,9 +4,9 @@
 # Contributor: David Keogh <davekeogh@archlinux.us>
 
 pkgname=pycharm-community-edition
-pkgver=2020.3.4
-_build=203.7717.65
-_gitcommit=ba0c8fc9ab9bf23a71a6a963cd84fc89b09b9fc8
+pkgver=2021.1
+_build=211.6693.115
+_gitcommit=89042ffa49ea457d0f6e16d6df5765f60945d468
 pkgrel=1
 pkgdesc='Python IDE for Professional Developers'
 arch=(x86_64)
@@ -24,7 +24,6 @@ depends=(
   libdbusmenu-glib
 )
 optdepends=(
-  'ipython2: IPython integration for Python 2'
   'ipython: IPython integration for Python 3'
   'python2: Python 2 support'
 )
@@ -48,13 +47,19 @@ prepare() {
   cd intellij-community
 
   echo ${_build} > build.txt
+
+  # https://youtrack.jetbrains.com/issue/IDEA-266631
+  sed '/intellij.cwm.plugin/d' -i python/build/plugin-list.txt
+  sed '/intellij.marketplace/d' -i python/build/plugin-list.txt
+
   sed '/def targetOs =/c def targetOs = "linux"' -i build/dependencies/setupJbre.gradle
   sed '/String targetOS/c   String targetOS = OS_LINUX' -i platform/build-scripts/groovy/org/jetbrains/intellij/build/BuildOptions.groovy
   sed -E 's|(<sysproperty key="jna.nosys")|<sysproperty key="intellij.build.target.os" value="linux" />\1|' -i build.xml
   sed -E 's|(<sysproperty key="java.awt.headless")|<sysproperty key="intellij.build.target.os" value="linux" />\1|' -i python/build.xml
   sed "s/-Xmx612m -XX:MaxPermSize=152m/-Xmx2048m -XX:MaxPermSize=512m/" -i python/build.xml
-  sed 's|../build/plugins-autoupload-whitelist.txt|plugins-autoupload-whitelist.txt|' -i platform/build-scripts/groovy/org/jetbrains/intellij/build/impl/DistributionJARsBuilder.groovy
-  touch plugins-autoupload-whitelist.txt
+  sed 's|../build/plugins-autoupload.txt|plugins-autoupload.txt|' -i platform/build-scripts/groovy/org/jetbrains/intellij/build/impl/DistributionJARsBuilder.groovy
+  touch plugins-autoupload.txt
+  ./getPlugins.sh
 }
 
 build() {
