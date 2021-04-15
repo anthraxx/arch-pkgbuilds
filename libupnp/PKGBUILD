@@ -5,17 +5,17 @@
 
 _name=pupnp
 pkgname=libupnp
-pkgver=1.14.2
+pkgver=1.14.5
 pkgrel=1
 pkgdesc='Portable Open Source UPnP Development Kit'
-url='http://pupnp.sourceforge.net/'
+url="https://pupnp.sourceforge.io/"
 arch=('x86_64')
 license=('BSD')
 depends=('glibc')
 provides=('libixml.so' 'libupnp.so')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/${_name}/${_name}/archive/release-${pkgver}.tar.gz")
-sha512sums=('f2571dd749c5977db1edf4b01adc06391f6c4e2d8795cf7ca5eaedf60e4b00375fdd3f989b6ab05c86469f50fbe01ae2de4bada903bb9d8778d8ac4f8fba0c3d')
-b2sums=('012b51cefda2654aadb8206ad28b0f72fb794a20c8f79cfaf1730b249a1f61a12caadf216573b7d35a2550e76df87bebb0856dd87f8d5e4e269c77c796a4498d')
+sha512sums=('6a1587943fb76b860fa879b050ae46189cb9c6a514df3f00eefe8c3eaa268aa5c0307895b38cac22fac57a2918b925ecefde7c46b7c50f87cfcf86afd9ee180d')
+b2sums=('7b1a4f115d4fb545b26909d8f6feb0a017160876506f35a5932a0898e68104eb43d92f82872359bc7bccf27a05d41632296041bb450e8109758a0ff6b7dd8e58')
 
 prepare() {
   mv -v ${_name}-release-${pkgver} ${pkgname}-${pkgver}
