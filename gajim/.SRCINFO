@@ -25,7 +25,6 @@ pkgbase = gajim
 	optdepends = gst-libav: for video/voice support
 	optdepends = gst-python: for video/voice support
 	optdepends = gspell: for spell checking support
-	optdepends = notification-daemon: for desktop notifications
 	optdepends = geoclue: share current location
 	optdepends = python-keyring: store passwords encrypted in a keyring
 	optdepends = gupnp-igd: request your router to forward port for file transfer
