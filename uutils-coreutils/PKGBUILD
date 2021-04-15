@@ -1,0 +1,54 @@
+# Maintainer: Filipe Laíns (ffy00) <lains@archlinux.org>
+# Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+
+_pkgname=coreutils
+pkgname=uutils-$_pkgname
+pkgver=0.0.6
+pkgrel=1
+pkgdesc='Cross-platform Rust rewrite of the GNU coreutils'
+arch=('x86_64')
+url='https://github.com/uutils/coreutils'
+license=('MIT')
+depends=('glibc' 'gcc-libs')
+makedepends=('rust' 'cargo' 'python-sphinx')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz"
+        tests.patch)
+sha512sums=('e96121d3e5535f3c83abc001d8178fd4fd367b9309aed7be28ad4ba965e1fc02fa7f070338cd34b508fcfe99e78a53195e8f313500ba50c1ac7a825ba746c8d8'
+            '1a84aefb95cf6d4ae7582948c5ab3c357269dcd5b2261006b006f7a1b37d3d2a336c47479ab98a390661ee376b9813408af849a91ba0f2bd2493c6a680e07f2a')
+
+prepare() {
+  cd $_pkgname-$pkgver
+  sed 's|"bin"|"builduser"|g' -i tests/by-util/test_{chgrp,chown}.rs
+  patch -Np1 < ../tests.patch
+}
+
+build() {
+  cd $_pkgname-$pkgver
+
+  make PROFILE=release
+}
+
+check() {
+  cd $_pkgname-$pkgver
+
+  make test \
+      PROFILE=release \
+      CARGOFLAGS=--release \
+      TEST_NO_FAIL_FAST="--no-fail-fast -- --skip test_chown::test_big_p --skip test_chgrp::test_big_p"
+}
+
+package() {
+  cd $_pkgname-$pkgver
+
+  make install \
+      DESTDIR="$pkgdir" \
+      PREFIX=/usr \
+      MANDIR=/share/man/man1 \
+      PROG_PREFIX=uu- \
+      PROFILE=release
+
+  install -Dm 644 LICENSE "$pkgdir"/usr/share/licenses/$pkgname/LICENSE
+}
+
+# vim: ts=2 sw=2 et:
