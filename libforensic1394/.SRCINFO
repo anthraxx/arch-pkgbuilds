@@ -8,7 +8,6 @@ pkgbase = libforensic1394
 	makedepends = cmake
 	makedepends = glibc
 	makedepends = python
-	makedepends = python2
 	source = https://freddie.witherden.org/tools/libforensic1394/releases/libforensic1394-0.2.tar.gz
 	source = https://freddie.witherden.org/tools/libforensic1394/releases/libforensic1394-0.2.tar.gz.sig
 	validpgpkeys = 509E82C45B8EE8D9926B395CFC9F4433FBA8A957
