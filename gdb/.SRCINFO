@@ -1,7 +1,7 @@
 pkgbase = gdb
 	pkgdesc = The GNU Debugger
-	pkgver = 10.1
-	pkgrel = 4
+	pkgver = 10.2
+	pkgrel = 1
 	url = https://www.gnu.org/software/gdb/
 	arch = x86_64
 	license = GPL3
@@ -16,12 +16,12 @@ pkgbase = gdb
 	makedepends = mpfr
 	makedepends = source-highlight
 	makedepends = readline
-	source = https://ftp.gnu.org/gnu/gdb/gdb-10.1.tar.xz
-	source = https://ftp.gnu.org/gnu/gdb/gdb-10.1.tar.xz.sig
+	source = https://ftp.gnu.org/gnu/gdb/gdb-10.2.tar.xz
+	source = https://ftp.gnu.org/gnu/gdb/gdb-10.2.tar.xz.sig
 	validpgpkeys = F40ADB902B24264AA42E50BF92EDB04BFF325CF3
-	sha1sums = c625efd87116525fb3bbeca7eaa1028ee62c0e7d
+	sha1sums = 1056e2743a825ecce46ec9eec37f0b357831012b
 	sha1sums = SKIP
-	b2sums = 69d79cd667ecb6e936b41a03817ade5dd9b761f97bc123d668b5f968d123c37d048fc8ec1289151e989f01bb01a43cc3d8b5b54f1807f1e3eb5f43e6bf0aa55b
+	b2sums = c5d31d80d2b454767d6f844e8471b012ad437c3872391b618fd7b14c5cf251b78e55d28c12e81382fd600f67e2f618ff5dbe3a7b737a5d5161ceb3542afbb90b
 	b2sums = SKIP
 
 pkgname = gdb
@@ -33,7 +33,7 @@ pkgname = gdb
 	depends = xz
 	depends = mpfr
 	depends = source-highlight
-	depends = gdb-common=10.1
+	depends = gdb-common=10.2
 	depends = readline
 	depends = libreadline.so
 	depends = guile
