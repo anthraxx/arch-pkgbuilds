@@ -1,7 +1,7 @@
 pkgbase = vicious
 	pkgdesc = Widgets for the Awesome window manager
-	pkgver = 2.4.1
-	pkgrel = 2
+	pkgver = 2.5.0
+	pkgrel = 1
 	url = https://github.com/Mic92/vicious
 	arch = any
 	license = GPL2
@@ -10,9 +10,9 @@ pkgbase = vicious
 	optdepends = alsa-utils: for the Volume widget type
 	optdepends = wireless_tools: for the Wireless widget type
 	optdepends = curl: for widget types accessing network resources
-	source = https://github.com/Mic92/vicious/archive/v2.4.1/vicious-2.4.1.tar.gz
-	sha256sums = 02a123e77c42cb5bfff66e1bf95e5b8219ec83de91ecef5e4951be021438f3a3
-	sha512sums = f236552815d896dc50ca6a92896d135fa4c7f31c8f8c6685909c4a2bc0b5349fe0e1ce173c58a95ccd9f6f23d0af47236d3146a75669a9eeebf18e778e6edeef
+	source = https://github.com/Mic92/vicious/archive/v2.5.0/vicious-2.5.0.tar.gz
+	sha256sums = c25ce6e7e7539a5b62ff63ff2cc783b4f723cc1e3bcab1871804abc098d8fd96
+	sha512sums = deb21587d1d7f2e6e4dd77c74abbfa337acf6c99ef9bebc0e505f1508afc6e3b03f043a639f866fcda0191447c103d3fba51376682201482fb669a263321dee5
 
 pkgname = vicious
 
