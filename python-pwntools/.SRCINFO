@@ -1,6 +1,6 @@
 pkgbase = python-pwntools
 	pkgdesc = CTF framework and exploit development library
-	pkgver = 4.4.0
+	pkgver = 4.5.0
 	pkgrel = 1
 	url = https://github.com/Gallopsled/pwntools
 	arch = any
@@ -26,12 +26,14 @@ pkgbase = python-pwntools
 	depends = python-sortedcontainers
 	depends = python-unicorn
 	depends = python-paramiko
+	depends = python-colored-traceback
+	depends = python-rpyc
 	depends = ropgadget
-	source = https://github.com/Gallopsled/pwntools/archive/4.4.0/python-pwntools-4.4.0.tar.gz
+	source = https://github.com/Gallopsled/pwntools/archive/4.5.0/python-pwntools-4.5.0.tar.gz
 	source = pwn.conf
-	sha256sums = d6eb197a3173fc66e3479b65211d002951bd719215063e5bd7a2af6c767d2b76
+	sha256sums = 0661601cdc59108da6f9c4538f7208e65074b797941f0509841b1a7b5c2de392
 	sha256sums = 50916e4e45d026422cd6bfe8de50e7246c61b0b1e0007571e7c04a994282fe89
-	b2sums = bb9f313f17f8c43df2387db6f47f7337a8c615419f5d6e99dfb447782a7189a60d4dc012beb90c2419c370aa083cbea0810d6518f181d88dcc8c9e99ff3c21df
+	b2sums = 13f4e0ecbca87f66ce7068fa5559452199af7d45ad9674f15248b487fcc18dba5999d1abc01c59b27431c53c13c262e0c78f81bfa04805e099b855396f6d869b
 	b2sums = cac0a12eea8abd3d2ee21632e7f2281e7e35c2d7839cfbcba83ae5d0e8f427e9cc2462a6d17d187252b99d9dbbb14393b9d5a63996c42043f553e9b66bfe9e07
 
 pkgname = python-pwntools
