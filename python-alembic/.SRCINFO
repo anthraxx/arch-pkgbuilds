@@ -1,8 +1,8 @@
 pkgbase = python-alembic
 	pkgdesc = Lightweight database migration tool for usage with SQLAlchemy
-	pkgver = 1.4.3
-	pkgrel = 3
-	url = https://bitbucket.org/zzzeek/alembic
+	pkgver = 1.6.2
+	pkgrel = 1
+	url = https://github.com/sqlalchemy/alembic
 	arch = any
 	license = MIT
 	checkdepends = python-pytest
@@ -17,16 +17,13 @@ pkgbase = python-alembic
 	depends = python-sqlalchemy
 	depends = python-editor
 	depends = python-dateutil
-	source = https://pypi.org/packages/source/a/alembic/alembic-1.4.3.tar.gz
-	source = https://pypi.org/packages/source/a/alembic/alembic-1.4.3.tar.gz.asc
-	source = python-alembic-pytest6.patch::https://github.com/sqlalchemy/alembic/commit/869094097654.patch
+	source = https://pypi.org/packages/source/a/alembic/alembic-1.6.2.tar.gz
+	source = https://pypi.org/packages/source/a/alembic/alembic-1.6.2.tar.gz.asc
 	validpgpkeys = 83AF7ACE251C13E6BB7DEFBD330239C1C4DAFEE1
-	sha512sums = 925d8957fd9008d041737a9e79ec8d7a4c5deba1976e980362d355a75348c1638d783d9d48234a5bc3b2dc3f2f09dcb281d0c80ae0f0c5bc32e176c3dfa05463
+	sha512sums = d5b23812d3e65e9642f39e2596ab86773476a77959938f518438d7659c2da5436432fdc020a5fbda33fe866a047d9558f7a4c5eabe032a6d3f2e6d04ff7928e7
 	sha512sums = SKIP
-	sha512sums = 9ca880e30f837821c7b237bd9e7db16606817d039434358e8648507ecd94b8431e5e229dc2b208803fae9c4f6b56307a0e69b5ded827658aeb6a1e49d62144cf
-	b2sums = d9c8b6d6aebce7a45194dd6c654f4a2627714a5c1f7cb7a1cf80ed8c3fe861e3bb7857811128787ddd6c093b4370784b40cddb385cfbd30f6134d537fe949d2d
+	b2sums = 0b61282987e974e81b1007d4a66620b1ac2393b175f91011d0d6c450af1038a9ea553f4a7c1906b2e463f7b95617a00629f337547788821b250373f0de18d0b7
 	b2sums = SKIP
-	b2sums = 6a7a579307a951492191f880419d3e3a7e15bbc1e0c419898aae8ce3e2c342552aa1d82509c48db295c0ddd891b51c34156f030e7a8986c3eebff56647989840
 
 pkgname = python-alembic
 
