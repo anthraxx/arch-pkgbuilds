@@ -1,6 +1,6 @@
 pkgbase = python-websockets
 	pkgdesc = Python implementation of the WebSocket Protocol (RFC 6455)
-	pkgver = 8.1
+	pkgver = 9.0.1
 	pkgrel = 3
 	url = https://github.com/aaugustin/websockets
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = python-websockets
 	makedepends = python-sphinx-autodoc-typehints
 	makedepends = python-sphinxcontrib-trio
 	depends = python
-	source = https://github.com/aaugustin/websockets/archive/8.1/python-websockets-8.1.tar.gz
-	sha512sums = d245702574cf513da54bfc0ca10768558cd4e5017ecf8cb647f4b9176561192a3ace64edfc5c6f735664bf1b6136aa0bb9828114478f92d2c051e3109a218c12
+	source = https://github.com/aaugustin/websockets/archive/9.0.1/python-websockets-9.0.1.tar.gz
+	sha512sums = 554dc5f272f4f849982a2e2a3d391bc6dfc36dc247aa0e2854913d18772749762db424da38f135f8cf4a2a5f67a379f774faba76eb3113bafe509ac62753bed1
 
 pkgname = python-websockets
 
