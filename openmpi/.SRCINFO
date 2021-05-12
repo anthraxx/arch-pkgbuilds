@@ -1,7 +1,7 @@
 pkgbase = openmpi
 	pkgdesc = High performance message passing library (MPI)
-	pkgver = 4.0.5
-	pkgrel = 3
+	pkgver = 4.1.1
+	pkgrel = 1
 	url = https://www.open-mpi.org
 	arch = x86_64
 	license = custom:OpenMPI
@@ -20,9 +20,9 @@ pkgbase = openmpi
 	optdepends = gcc-fortran: fortran support
 	optdepends = cuda: cuda support
 	options = staticlibs
-	source = https://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.5.tar.bz2
-	sha256sums = c58f3863b61d944231077f344fe6b4b8fbb83f3d1bc93ab74640bf3e5acac009
-	b2sums = 9709dc8c251d4f2be14d0ab498c5d0d0e59f95db98fb16d9e84fe3d30af5a8e2f9636bbceaf7ae4086a3312bcd6299f0e9e1ca609d658930a1f5abe1018311e1
+	source = https://www.open-mpi.org/software/ompi/v4.1/downloads/openmpi-4.1.1.tar.bz2
+	sha256sums = e24f7a778bd11a71ad0c14587a7f5b00e68a71aa5623e2157bafee3d44c07cda
+	b2sums = 2f853ca44703197469e5ccd42ecd81de72d39f265e0da9d847e6b2f7a7646241b76346c71969bf6a3d4605c28f02de6b587fd0330c753ad7dec8503af0784b69
 
 pkgname = openmpi
 
