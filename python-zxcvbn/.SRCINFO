@@ -1,0 +1,16 @@
+pkgbase = python-zxcvbn
+	pkgdesc = Python implementation of Dropbox's realistic password strength estimator
+	pkgver = 4.4.28
+	pkgrel = 1
+	url = https://github.com/dwolfhub/zxcvbn-python
+	arch = any
+	license = MIT
+	checkdepends = python-pytest
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/dwolfhub/zxcvbn-python/archive/v4.4.28/python-zxcvbn-4.4.28.tar.gz
+	sha512sums = be85f976dcf685e2885edff116147cc4549f9c86dee4317b61b84dc4f36ab2c8c2f3468d5d1a55e8890693c852a09104b14360f9ce43feb3727f8fc164eb78f1
+	b2sums = e3baf57df00819243f9588c8203598b14b9f03e0a232d53152584b3b74872baef7050fdf8f11f25e8a8776e2e4a7a0af15c9045f07700fe686c6cb021f794f2b
+
+pkgname = python-zxcvbn
+
