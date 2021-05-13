@@ -1,21 +1,29 @@
 pkgbase = wifite
 	pkgdesc = Tool to attack multiple WEP and WPA encrypted networks at the same time
-	pkgver = 87.r139.918a499
-	pkgrel = 3
-	epoch = 1
-	url = https://github.com/derv82/wifite
+	pkgver = 2.5.8
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/kimocoder/wifite2
 	arch = any
 	license = GPL2
-	makedepends = git
-	depends = python2
+	makedepends = python-setuptools
+	depends = python
 	depends = aircrack-ng
-	optdepends = reaver: WPS attack support
-	optdepends = pyrit: detect WPA handshakes
-	optdepends = wireshark-cli: detect handshakes
+	depends = iproute2
+	depends = iw
+	optdepends = wireshark-cli: detecting WPS networks and inspecting handshake capture files
+	optdepends = reaver: WPS Pixie-Dust & brute-force attacks
+	optdepends = bully: WPS Pixie-Dust & brute-force attacks
 	optdepends = cowpatty: detect WPA handshakes
+	optdepends = pyrit: detect WPA handshakes
 	optdepends = macchanger: change MAC for attacks
-	source = wifite::git+https://github.com/derv82/wifite#commit=918a499786afdfefcc9582a29df79d0959294ba2
-	sha512sums = SKIP
+	optdepends = hashcat: cracking PMKID hashes
+	optdepends = hcxdumptool: capturing PMKID hashes
+	optdepends = hcxpcapngtool: converting PMKID packet captures into hashcat format
+	provides = wifite2
+	source = https://github.com/kimocoder/wifite2/archive/2.5.8/wifite-2.5.8.tar.gz
+	sha512sums = 60696146c63febe09b75c962cd27b0b50ae2d5ee8674c6e5a619eb699a41b9c8093973561fcadc1a94a660929532319af918521941cafdf83fcba3b8c6bf8d8f
+	b2sums = cc6df4b0d65597aed811664f16cafbb53755573c0ce6c530865debfc20e0ae3843fd15a266dd90f98eb25a952d6221c5a74d7efa54527a87e41163e1b36bad4e
 
 pkgname = wifite
 
