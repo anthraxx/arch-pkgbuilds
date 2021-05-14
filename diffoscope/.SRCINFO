@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 173
+	pkgver = 174
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -106,16 +106,13 @@ pkgbase = diffoscope
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
 	optdepends = zstd: zst compression
-	source = https://diffoscope.org/archive/diffoscope-173.tar.bz2
-	source = https://diffoscope.org/archive/diffoscope-173.tar.bz2.asc
-	source = file_compatibility.patch::https://salsa.debian.org/reproducible-builds/diffoscope/-/commit/7bf04a62623d234a870fd62b0ee745c9b940f5d7.patch
+	source = https://diffoscope.org/archive/diffoscope-174.tar.bz2
+	source = https://diffoscope.org/archive/diffoscope-174.tar.bz2.asc
 	validpgpkeys = C2FE4BD271C139B86C533E461E953E27D4311E58
-	sha512sums = c75f5f7ec2cd27fc70317893ea7f057ad2e51a6cedc2131b5ee45ed5d86044b01cc4d3a40b66eccec329127369b33d746f5d0d7ee47a727c728dc207334fd10a
+	sha512sums = 2f36bed3f22bfd78296b8dbd842e0a805a3e20175a9258ad784e161688c03a449f3efe518733ace983c5c095173e22fa0723d779b9578b002f01f767fa0091c2
 	sha512sums = SKIP
-	sha512sums = 7671335acf20b8b754bdec3963832b54cba0cbbc2f7e09edc65741fa2d70bf317953523cc0d2d82db08a03536d1ea4a4d8cfbb64dc7b292cfe1df40c83e91401
-	b2sums = 5b14e877aec224c4900684b3f59d5bdaf0f21ca0fc62fda75b8791234e9829d5a0a5b43268605b7c348bad0b84ae7353af4d7088aeeb44968fab2daf4b9aba9e
+	b2sums = db8002184e6ae9a5afafda2bd9972aa4d66863f6ced7fb89445d73137c59a189e6ada0cbf59284fb733647ef5f6ca22bc6b5a8ecc36206db75e9b46f40de3da2
 	b2sums = SKIP
-	b2sums = 9c7194c09deab31999e467c6c0724fa11758c0415c3134f70dcc0e39ee9aa0b941e46459b391786747dd81597b0cb1c2216556959ffd80478bd28e8256ca0e3f
 
 pkgname = diffoscope
 
