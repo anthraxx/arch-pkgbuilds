@@ -1,7 +1,7 @@
 pkgbase = tor
 	pkgdesc = Anonymizing overlay network.
 	pkgver = 0.4.5.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.torproject.org/
 	arch = x86_64
 	license = BSD
