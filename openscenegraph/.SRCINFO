@@ -1,7 +1,7 @@
 pkgbase = openscenegraph
 	pkgdesc = Open Source, high performance real-time graphics toolkit
 	pkgver = 3.6.5
-	pkgrel = 5
+	pkgrel = 6
 	url = http://www.openscenegraph.org
 	arch = x86_64
 	license = custom:OSGPL
@@ -35,4 +35,3 @@ pkgbase = openscenegraph
 	sha512sums = 0788e87bf17adf586d5041c5b565d0a09fe38f7c5e96a843e69f5171737aef68bd277b240ccf860cfb78e36ea6d7d7c599ecff104bb78de513d1b3edb70358ef
 
 pkgname = openscenegraph
-
