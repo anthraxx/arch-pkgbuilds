@@ -1,7 +1,7 @@
 pkgbase = haskell-alsa-core
 	pkgdesc = Binding to the ALSA Library API (Exceptions)
 	pkgver = 0.5.0.1
-	pkgrel = 14
+	pkgrel = 15
 	url = http://www.haskell.org/haskellwiki/ALSA
 	arch = x86_64
 	license = BSD
@@ -17,4 +17,3 @@ pkgbase = haskell-alsa-core
 	sha512sums = e02c8353911bf2c0c703400701ae72be6f510f771ff56dfc09322cbcf3a006f4cd0903f71f7ed2268886b3468113d5ce76933eedf5fad47aa71cb052d07fc4b4
 
 pkgname = haskell-alsa-core
-
