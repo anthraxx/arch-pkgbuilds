@@ -1,7 +1,7 @@
 pkgbase = haskell-iwlib
 	pkgdesc = Binding to the iw library for getting info about the current WiFi connection
 	pkgver = 0.1.0
-	pkgrel = 16
+	pkgrel = 17
 	url = https://hackage.haskell.org/package/iwlib
 	arch = x86_64
 	license = BSD
@@ -12,4 +12,3 @@ pkgbase = haskell-iwlib
 	sha512sums = 0d1bfd8e716c811d73c9d7802385138edc43193fb7b0c6f1620cf5b2e51c06b30fa537af925a7cdf193d0b247a71a82a574fac0ab6f721799c01a2a0c71f3dbc
 
 pkgname = haskell-iwlib
-
