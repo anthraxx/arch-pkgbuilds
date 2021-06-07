@@ -1,7 +1,7 @@
 pkgbase = imvirt
 	pkgdesc = Detect the virtualization technology of a machine, it is run in
 	pkgver = 0.9.6
-	pkgrel = 7
+	pkgrel = 8
 	url = http://micky.ibh.net/~liske/imvirt.html
 	arch = x86_64
 	license = GPL2
@@ -15,4 +15,3 @@ pkgbase = imvirt
 	sha512sums = a3e6d8d6ff48f8e97c448443c0a5bff4d50db4721704e083be74c3dba78b43422678a8fd93841d82a7f34e12a70cb578a2052f9898817efe5101e4a2d21d5f0b
 
 pkgname = imvirt
-
