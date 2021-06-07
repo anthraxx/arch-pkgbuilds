@@ -1,7 +1,7 @@
 pkgbase = perl-archive-cpio
 	pkgdesc = module for manipulations of cpio archives
 	pkgver = 0.10
-	pkgrel = 5
+	pkgrel = 6
 	url = https://metacpan.org/pod/Archive::Cpio
 	arch = any
 	license = unknown
@@ -12,4 +12,3 @@ pkgbase = perl-archive-cpio
 	sha512sums = c828f6f199de0efd7c7fbe2c3d4c5304df3c714720d91dd9a7d76e2c8d16bab1b92fc93a0b8afe78bd89b043ce7684c31d54b13c4e840f68ee040ca7bff43c3d
 
 pkgname = perl-archive-cpio
-
