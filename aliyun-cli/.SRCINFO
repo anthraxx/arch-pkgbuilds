@@ -1,6 +1,6 @@
 pkgbase = aliyun-cli
 	pkgdesc = Alibaba Cloud CLI
-	pkgver = 3.0.77
+	pkgver = 3.0.79
 	pkgrel = 1
 	url = https://github.com/aliyun/aliyun-cli
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = aliyun-cli
 	makedepends = go-bindata
 	depends = glibc
 	depends = jq
-	source = git+https://github.com/aliyun/aliyun-cli#commit=bc902e1400b30e618646115d8901e5ded9dfcc23
+	source = git+https://github.com/aliyun/aliyun-cli#commit=c6e361d1fc04bfbdff7ad1f72e79415105d59629
 	source = git+https://github.com/aliyun/aliyun-openapi-meta
 	sha512sums = SKIP
 	sha512sums = SKIP
@@ -18,4 +18,3 @@ pkgbase = aliyun-cli
 	b2sums = SKIP
 
 pkgname = aliyun-cli
-
