@@ -1,7 +1,7 @@
 pkgbase = haskell-timezone-series
 	pkgdesc = Enhanced timezone handling for Data.Time
 	pkgver = 0.1.9
-	pkgrel = 9
+	pkgrel = 10
 	url = http://projects.haskell.org/time-ng/
 	arch = x86_64
 	license = BSD
@@ -15,4 +15,3 @@ pkgbase = haskell-timezone-series
 	sha512sums = 9a716223270dfcb0ed39e2dcfb460e3540c0f2444f703c466cbd48ad5664e689aa3f6595f32e59b96fef7891aafabc03c9925367a26c2c043cb6adca2dad7a88
 
 pkgname = haskell-timezone-series
-
