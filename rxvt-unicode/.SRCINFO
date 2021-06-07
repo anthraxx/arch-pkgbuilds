@@ -1,6 +1,6 @@
 pkgbase = rxvt-unicode
 	pkgver = 9.26
-	pkgrel = 1
+	pkgrel = 2
 	url = http://software.schmorp.de/pkg/rxvt-unicode.html
 	arch = x86_64
 	license = GPL
@@ -33,4 +33,3 @@ pkgname = rxvt-unicode
 
 pkgname = rxvt-unicode-terminfo
 	pkgdesc = Terminfo files for urxvt
-
