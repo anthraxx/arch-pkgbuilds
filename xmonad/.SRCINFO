@@ -1,11 +1,12 @@
 pkgbase = xmonad
 	pkgdesc = Lightweight X11 tiled window manager written in Haskell
 	pkgver = 0.15
-	pkgrel = 128
+	pkgrel = 133
 	url = https://xmonad.org/
 	arch = x86_64
 	license = BSD
 	makedepends = gendesk
+	makedepends = uusi
 	depends = ghc
 	depends = haskell-x11
 	depends = sh
@@ -22,4 +23,3 @@ pkgbase = xmonad
 	sha512sums = 31f0ceb724a9931aeda75ab706c8908b5d8341af4df50ab1d749814baacb748ad3622601cd99ac03bf936b698fcd854b23d1541e1772306e3337a13a79b110b6
 
 pkgname = xmonad
-
