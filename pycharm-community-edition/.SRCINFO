@@ -1,6 +1,6 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2021.1.1
+	pkgver = 2021.1.2
 	pkgrel = 1
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
@@ -21,7 +21,7 @@ pkgbase = pycharm-community-edition
 	depends = libdbusmenu-glib
 	optdepends = ipython: IPython integration for Python 3
 	optdepends = python2: Python 2 support
-	source = git+https://github.com/JetBrains/intellij-community.git#commit=57775d7ab3335fc90899480e272c7ecea7f80e6e
+	source = git+https://github.com/JetBrains/intellij-community.git#commit=c315cd29d549d5f8c03638e657a7d55f214bb0ef
 	source = pycharm.desktop
 	source = pycharm.sh
 	sha256sums = SKIP
@@ -29,4 +29,3 @@ pkgbase = pycharm-community-edition
 	sha256sums = 7b5360b4977e934931acab775d04915417a5da9f3ea1dd44355525b0016cf65d
 
 pkgname = pycharm-community-edition
-
