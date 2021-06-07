@@ -1,7 +1,7 @@
 pkgbase = haskell-timezone-olson
 	pkgdesc = Pure Haskell parser and renderer for binary Olson timezone files
 	pkgver = 0.2.0
-	pkgrel = 3
+	pkgrel = 4
 	url = http://projects.haskell.org/time-ng/
 	arch = x86_64
 	license = BSD
@@ -18,4 +18,3 @@ pkgbase = haskell-timezone-olson
 	sha512sums = 06c73b24b23caa41f3dce472bca384e3ee7ba02a3dd8bc4458bc758bc6aabdeca9be299f16419702e860f38ea213fd62d90e63fc4746dc2015c0e06b15aba6dd
 
 pkgname = haskell-timezone-olson
-
