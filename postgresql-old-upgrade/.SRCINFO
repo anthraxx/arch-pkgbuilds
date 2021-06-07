@@ -1,7 +1,7 @@
 pkgbase = postgresql-old-upgrade
 	pkgdesc = PostgreSQL build for migrating between major versions with pg_upgrade
 	pkgver = 12.7
-	pkgrel = 1
+	pkgrel = 3
 	url = https://www.postgresql.org/
 	arch = x86_64
 	license = custom:PostgreSQL
@@ -32,4 +32,3 @@ pkgbase = postgresql-old-upgrade
 	b2sums = 4939cb314253bb9ca2b14639f730967ce7ad5c5eb135d529b112290e6b351f7b507d6428cc48b4e24f34f664b5f4938029ceb9cc6161c9aff5f60ba0b3f848c7
 
 pkgname = postgresql-old-upgrade
-
