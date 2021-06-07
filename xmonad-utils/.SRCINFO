@@ -1,7 +1,7 @@
 pkgbase = xmonad-utils
 	pkgdesc = Small collection of X utilities
 	pkgver = 0.1.3.3
-	pkgrel = 133
+	pkgrel = 138
 	url = https://hackage.haskell.org/package/xmonad-utils
 	arch = x86_64
 	license = BSD
@@ -23,4 +23,3 @@ pkgbase = xmonad-utils
 	sha512sums = f969a0b75107266ec5f74edc06075a1ede72857311d8e0494bf5b567d18e0a9d6e5b046dbb2a34783c2eafc18be9576b86aa78415306974718031a7dd652418c
 
 pkgname = xmonad-utils
-
