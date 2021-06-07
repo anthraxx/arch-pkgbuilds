@@ -1,6 +1,6 @@
 pkgbase = linux-hardened
 	pkgdesc = Security-Hardened Linux
-	pkgver = 5.12.7.hardened1
+	pkgver = 5.12.9.hardened1
 	pkgrel = 1
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
@@ -19,19 +19,19 @@ pkgbase = linux-hardened
 	makedepends = graphviz
 	makedepends = imagemagick
 	options = !strip
-	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.7.tar.xz
-	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.7.tar.sign
-	source = https://github.com/anthraxx/linux-hardened/releases/download/5.12.7-hardened1/linux-hardened-5.12.7-hardened1.patch
-	source = https://github.com/anthraxx/linux-hardened/releases/download/5.12.7-hardened1/linux-hardened-5.12.7-hardened1.patch.sig
+	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.9.tar.xz
+	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.12.9.tar.sign
+	source = https://github.com/anthraxx/linux-hardened/releases/download/5.12.9-hardened1/linux-hardened-5.12.9-hardened1.patch
+	source = https://github.com/anthraxx/linux-hardened/releases/download/5.12.9-hardened1/linux-hardened-5.12.9-hardened1.patch.sig
 	source = config
 	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
-	sha256sums = 5322e9f0a8d55acc0aa7ec1f57756b126e3cce83399ebf01aa75e5f728cb2c47
+	sha256sums = c7fabef5754271cd12f2d3a9ae237ed91c6fce09cec3895400d48194110ce76d
 	sha256sums = SKIP
-	sha256sums = 07c9c07878c29e85b508382f1915c91444b70caac1fde119eefedf9e21720be5
+	sha256sums = 0abbac808119aef9e201aa94ad810919e07be021de8a31232a886a44a18b3222
 	sha256sums = SKIP
-	sha256sums = ed31c05f705674c9e0cb8765a9b34e62ad0dfd25db23148fb996db5613130f60
+	sha256sums = 364248ec4547709a38ad86e7ba16a3d3aa97bac7d676c6955ea1bcdcca6606cf
 
 pkgname = linux-hardened
 	pkgdesc = The Security-Hardened Linux kernel and modules
@@ -49,4 +49,3 @@ pkgname = linux-hardened-headers
 
 pkgname = linux-hardened-docs
 	pkgdesc = Documentation for the Security-Hardened Linux kernel
-
