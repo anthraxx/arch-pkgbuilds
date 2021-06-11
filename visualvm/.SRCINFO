@@ -1,17 +1,16 @@
 pkgbase = visualvm
 	pkgdesc = Visual tool integrating several commandline JDK tools and lightweight profiling capabilities
-	pkgver = 1.4.4
+	pkgver = 2.0.7
 	pkgrel = 1
 	url = https://visualvm.github.io/
 	arch = x86_64
 	license = custom:GPL
 	depends = java-environment
-	source = https://github.com/visualvm/visualvm.src/releases/download/1.4.4/visualvm_144.zip
+	source = https://github.com/visualvm/visualvm.src/releases/download/2.0.7/visualvm_207.zip
 	source = visualvm.desktop
 	source = icon.png
-	sha256sums = 7c75dabebd960d72cbc47a149c0b029753fbb32320e86816bca6d06cf6e7a015
+	sha256sums = 7247bb703483f21a1dbe0ff045553b0234a1e94cc1136ab2a0ea88a1478de4e8
 	sha256sums = e820807e8d78446cf156a3947d97856e24865bb0d8c957e9ce2fed309c737441
 	sha256sums = 452fbd85c968ec7176c5894bc4106b7e25310314d44278d807510675b6a5c864
 
 pkgname = visualvm
-
