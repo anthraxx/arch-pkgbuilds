@@ -7,8 +7,9 @@ pkgbase = proxytunnel
 	license = GPL
 	makedepends = asciidoc
 	makedepends = xmlto
+	depends = glibc
 	depends = openssl
-	source = proxytunnel-1.10.20210604.tar.gz::https://github.com/proxytunnel/proxytunnel/archive/v1.10.20210604.tar.gz
+	source = https://github.com/proxytunnel/proxytunnel/archive/v1.10.20210604/proxytunnel-1.10.20210604.tar.gz
 	b2sums = f8e70bd81a541bd3ecf0ed09fedc57396531aeec460eaff125046700d1a9c69f110590a5b81f650fdaba0c5938dd401a2937ee7347a4e33a3b89ac36bb915a7c
 
 pkgname = proxytunnel
