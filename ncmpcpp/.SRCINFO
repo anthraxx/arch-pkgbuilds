@@ -1,7 +1,7 @@
 pkgbase = ncmpcpp
 	pkgdesc = Almost exact clone of ncmpc with some new features
 	pkgver = 0.9.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://ncmpcpp.rybczak.net/
 	arch = x86_64
 	license = GPL
@@ -33,4 +33,3 @@ pkgbase = ncmpcpp
 	b2sums = 160597493b93bac790b8619881e8a1fcf0efce4a538e35f54f31b06f3ed66691f02b37198cca46b475b7296aebbc864cb62a4398c60bd1e43907f9907a9bc118
 
 pkgname = ncmpcpp
-
