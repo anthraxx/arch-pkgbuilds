@@ -1,7 +1,7 @@
 pkgbase = haskell-parsec-numbers
 	pkgdesc = Number parsers without the need to use a large (and unportable) token parser
 	pkgver = 0.1.0
-	pkgrel = 15
+	pkgrel = 16
 	url = https://hackage.haskell.org/package/parsec-numbers
 	arch = x86_64
 	license = BSD
@@ -12,4 +12,3 @@ pkgbase = haskell-parsec-numbers
 	sha512sums = 8a06ef239e6fb9fabaf04d947c21b298acd9538d2f98dd2404d943c18b5f29aa0d11572be3e1a846ae3d1345fbbdc5b2803df3ec196ccc212c4d76082c930b05
 
 pkgname = haskell-parsec-numbers
-
