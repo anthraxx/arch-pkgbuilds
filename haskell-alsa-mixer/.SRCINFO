@@ -1,7 +1,7 @@
 pkgbase = haskell-alsa-mixer
 	pkgdesc = Bindings to the ALSA simple mixer API
 	pkgver = 0.3.0
-	pkgrel = 70
+	pkgrel = 71
 	url = https://hackage.haskell.org/package/alsa-mixer
 	arch = x86_64
 	license = BSD
@@ -20,4 +20,3 @@ pkgbase = haskell-alsa-mixer
 	sha512sums = 3977808321218a7694a59ff294664b2a9ae6e735844040adf89bf63ef75f025aada555fde6c79cbe19f4ca9c7546005de5a2b132c2fd6deef2c1a38ae555fe5f
 
 pkgname = haskell-alsa-mixer
-
