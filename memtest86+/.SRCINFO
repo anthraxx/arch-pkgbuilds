@@ -1,13 +1,13 @@
 pkgbase = memtest86+
-	pkgdesc = An advanced memory diagnostic tool
-	pkgver = 5.01
-	pkgrel = 4
+	pkgdesc = Advanced memory diagnostic tool
+	pkgver = 5.31b
+	pkgrel = 1
 	url = https://www.memtest.org
 	arch = any
 	license = GPL2
-	source = https://www.memtest.org/download/5.01/memtest86+-5.01.bin.gz
+	source = https://www.memtest.org/download/5.31b/memtest86+-5.31b.bin.gz
 	source = 60_memtest86+
-	sha1sums = acf4b99b435d4e99b8027221524e57d70b8cae47
-	sha1sums = 2aa2deeb7d7dc56f389aa1487b7a57b0d44ce559
+	b2sums = d171e2c8ee53fef79d37f9f014ab0bb4c796c26c1eb4ae3c0a5ac2635277480890c147988937646e2d32cdbd1dcc4c38551eb140f69f574ed4ec04b638f9ab59
+	b2sums = ca607b4483b592f7f0c64893f72b0b57b1dd91ebf2c107e65f0a1979a7234d09221dd2149c73d1c6a41ffea331c3cb633babed4400316fc953528272016b15d8
 
 pkgname = memtest86+
