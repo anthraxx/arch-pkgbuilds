@@ -1,0 +1,17 @@
+pkgbase = python-tasklib
+	pkgdesc = Python library for interacting with taskwarrior databases
+	pkgver = 2.3.0
+	pkgrel = 1
+	url = http://tasklib.readthedocs.org/en/latest/
+	arch = any
+	license = BSD
+	makedepends = python-setuptools
+	makedepends = python-sphinx
+	depends = python
+	depends = python-pytz
+	depends = python-tzlocal
+	source = https://github.com/robgolding/tasklib/archive/2.3.0/python-tasklib-2.3.0.tar.gz
+	sha512sums = 8c4e8753bb6637a78d7ac4cf3f9d3b2c78a2ffb28e87cacb8a7ca9333265ce06793f62de7c1d157b2c3c87b0cb862382fbdf797054d73dd8720d2b7b23205014
+	b2sums = aecf028f91627cb7ca3f83c02404fdc3d7d9ed9fc68342e8732a149195d1c5f6e66845de0a6ff532df60be40faa82e16be041647dbd18be619329fafed5b7a88
+
+pkgname = python-tasklib
