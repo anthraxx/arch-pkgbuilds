@@ -1,7 +1,7 @@
 pkgbase = openmpi
 	pkgdesc = High performance message passing library (MPI)
 	pkgver = 4.1.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.open-mpi.org
 	arch = x86_64
 	license = custom:OpenMPI
@@ -25,4 +25,3 @@ pkgbase = openmpi
 	b2sums = 2f853ca44703197469e5ccd42ecd81de72d39f265e0da9d847e6b2f7a7646241b76346c71969bf6a3d4605c28f02de6b587fd0330c753ad7dec8503af0784b69
 
 pkgname = openmpi
-
