@@ -1,6 +1,6 @@
 pkgbase = librabbitmq-c
-	pkgdesc = A RabbitMQ(amqp) library written in C-language
-	pkgver = 0.10.0
+	pkgdesc = RabbitMQ(amqp) library written in C-language
+	pkgver = 0.11.0
 	pkgrel = 1
 	url = https://github.com/alanxz/rabbitmq-c
 	arch = x86_64
@@ -9,9 +9,11 @@ pkgbase = librabbitmq-c
 	makedepends = docbook-xsl
 	makedepends = doxygen
 	makedepends = xmlto
+	makedepends = ninja
 	depends = popt
 	depends = openssl
-	source = librabbitmq-c-0.10.0.zip::https://github.com/alanxz/rabbitmq-c/archive/v0.10.0.zip
-	sha512sums = 8fd08564accb92524f4e5e87eec4fb9db94902b7854fc1cbf2413bedf85c6b8e5d8a7104a79dd34dd501f438f22de6fbef3c763a76c27ef734d9d6cb4f1d5d43
+	source = https://github.com/alanxz/rabbitmq-c/archive/v0.11.0/librabbitmq-c-0.11.0.tar.gz
+	sha512sums = 0c3dbb6e2b862e9f25e3f76df798ea272bbd81de2865950b95adf1f1e5791eb20d7c9d5a76cb7d2fda54bad5f12bdf69cbfa7e9fd1afdede6f9ec729ca2287de
+	b2sums = dce862d132d4bca010dbc284957f34a35d55407ea0eb4fb79369f699207c01cc7ed64c1bd58bea2d1178bd2c02176c3e93b66177fc975175b1da9ab9baaf661f
 
 pkgname = librabbitmq-c
