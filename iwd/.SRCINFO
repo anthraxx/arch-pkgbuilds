@@ -1,0 +1,23 @@
+pkgbase = iwd
+	pkgdesc = Internet Wireless Daemon
+	pkgver = 1.15
+	pkgrel = 1
+	url = https://git.kernel.org/cgit/network/wireless/iwd.git/
+	install = iwd.install
+	changelog = ChangeLog
+	arch = x86_64
+	license = LGPL
+	makedepends = python-docutils
+	makedepends = dbus
+	makedepends = systemd
+	depends = glibc
+	depends = readline
+	depends = libreadline.so
+	depends = ell
+	source = https://www.kernel.org/pub/linux/network/wireless/iwd-1.15.tar.xz
+	source = https://www.kernel.org/pub/linux/network/wireless/iwd-1.15.tar.sign
+	validpgpkeys = E932D120BC2AEC444E558F0106CA9F5D1DCF2659
+	sha256sums = a7ab8e80592da5cb1a8b651b6d41e87e4507a3f07e04246e05bca89c547af659
+	sha256sums = SKIP
+
+pkgname = iwd
