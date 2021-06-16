@@ -12,17 +12,10 @@ depends=('ocl-icd' 'xxhash' 'zlib' 'minizip')
 makedepends=('opencl-headers')
 provides=('libhashcat.so')
 license=('MIT')
-source=(https://hashcat.net/files/${pkgname}-${pkgver}.tar.gz{,.asc}
-        reproducible.patch)
+source=(https://hashcat.net/files/${pkgname}-${pkgver}.tar.gz{,.asc})
 sha512sums=('7c906a96f682f03672976dd420492bd78e9455a174a2e82ebf064cf75609e6e1322b07113f2868c8bf53948575ce094a0b6fe98b17ea65c065bb27561dc2cc81'
-            'SKIP'
-            '29262105a5b26797ff74828e52aa9bd2b98f07ff8642eabdbdcf59b77337fb620f0cdfe4218b17b302aa5d8ab4a5d47cb1844bddc59dda9c25234f27ec785d5d')
+            'SKIP')
 validpgpkeys=('A70833229D040B4199CC00523C17DA8B8A16544F') # Hashcat signing key <signing@hashcat.net>
-
-prepare() {
-  cd ${pkgname}-${pkgver}
-  patch -Np1 < ../reproducible.patch
-}
 
 build() {
   cd ${pkgname}-${pkgver}
