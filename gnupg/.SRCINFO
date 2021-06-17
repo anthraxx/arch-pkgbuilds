@@ -1,7 +1,7 @@
 pkgbase = gnupg
 	pkgdesc = Complete and free implementation of the OpenPGP standard
 	pkgver = 2.2.28
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gnupg.org/
 	install = install
 	arch = x86_64
@@ -31,6 +31,7 @@ pkgbase = gnupg
 	source = https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.28.tar.bz2.sig
 	source = drop-import-clean.patch
 	source = avoid-beta-warning.patch
+	source = scd-Error-code-map-fix-for-older-Yubikey.patch::https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=patch;h=01a413d5235f1bbd00f83fb86d0e183d8f0b1a57
 	validpgpkeys = D8692123C4065DEA5E0F3AB5249B39D24F25E3B6
 	validpgpkeys = 031EC2536E580D8EA286A9F22071B08A33BD3F06
 	validpgpkeys = 5B80C5754298F0CB55D8ED6ABCEF7E294B092E28
@@ -39,5 +40,6 @@ pkgbase = gnupg
 	sha256sums = SKIP
 	sha256sums = 02d375f0045f56f7dd82bacdb5ce559afd52ded8b75f6b2673c39ec666e81abc
 	sha256sums = 22fdf9490fad477f225e731c417867d9e7571ac654944e8be63a1fbaccd5c62d
+	sha256sums = 3d01999fcde60851898a06ef4a0b7497f44f65fe0655522bc7aef52c83960b3c
 
 pkgname = gnupg
