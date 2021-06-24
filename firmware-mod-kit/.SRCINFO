@@ -1,17 +1,20 @@
-pkgbase = firmware-mod-kit
+pkgbase = firmware-mod-kit-git
 	pkgdesc = Allows easy deconstruction and reconsutrction of firmware images for various embedded devices
-	pkgver = 0.99
-	pkgrel = 7
+	pkgver = 0.99.r75.g104c821
+	pkgrel = 1
 	url = http://code.google.com/p/firmware-mod-kit/
 	arch = i686
 	arch = x86_64
 	license = GPL
-	depends = python2-magic
+	makedepends = dos2unix
+	depends = python-magic
 	depends = zlib
 	depends = xz
 	options = !strip
-	source = firmware-mod-kit-0.99.tar.gz::https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/firmware-mod-kit/fmk_099.tar.gz
-	sha512sums = a5261935e42446568c0c0d4c4fc1beff18c5aa7b85b1aa3398dfeaf80c8bdbb4fb2a6fb4945defc29599d6e58f1553e80e8bb755da4d98f79e99447f0c3414b1
+	source = git+git://github.com/rampageX/firmware-mod-kit-git.git
+	source = https://raw.githubusercontent.com/st-ty1/Arch-Linux_firmware-mod-kit/main/gcc10.patch
+	sha512sums = SKIP
+	sha512sums = b777fe4386dc3e44f72d1fb0f2c41b4db751e0034bab1a7e1a2dbd26be741c5fa4345b671f74ec1896946263b364bf5ecc3e2befd3dc56073e651b8603c7c109
 
-pkgname = firmware-mod-kit
+pkgname = firmware-mod-kit-git
 
