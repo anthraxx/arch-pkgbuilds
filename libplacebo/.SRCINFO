@@ -1,7 +1,7 @@
 pkgbase = libplacebo
 	pkgdesc = Reusable library for GPU-accelerated video/image rendering primitives
 	pkgver = 3.120.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/haasn/libplacebo
 	arch = x86_64
 	license = LGPL2.1
@@ -27,4 +27,3 @@ pkgbase = libplacebo
 	b2sums = 6192570dba8de6e0bb98ccf3f0e4f13c01a27c5f97873ff0e5e3212d9b7cdebd98cce3d5ee5364ca8a585ec2a16d0bafc5a863ed35f6f225d86a4410b92edfd3
 
 pkgname = libplacebo
-
