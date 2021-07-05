@@ -1,7 +1,7 @@
 pkgbase = usbguard
 	pkgdesc = Software framework for implementing USB device authorization policies
 	pkgver = 1.0.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/USBGuard/usbguard
 	arch = x86_64
 	license = GPL2
@@ -43,4 +43,3 @@ pkgbase = usbguard
 	sha512sums = 8cf131ef73417245ed73297d09c2b5b3fa74c50fdccfca4bccc53b85de076b2a84b0a8024f7dfa1f02f7a92fffd34ea826039ad992add64cb45e1be6068041ea
 
 pkgname = usbguard
-
