@@ -1,7 +1,7 @@
 pkgbase = xmonad-contrib
 	pkgdesc = Add-ons for xmonad
 	pkgver = 0.16
-	pkgrel = 114
+	pkgrel = 116
 	url = https://xmonad.org/
 	arch = x86_64
 	license = BSD
@@ -16,6 +16,8 @@ pkgbase = xmonad-contrib
 	depends = haskell-random
 	depends = haskell-old-time
 	source = xmonad-contrib-0.16.tar.gz::https://github.com/xmonad/xmonad-contrib/archive/v0.16.tar.gz
+	source = ghc9.patch
 	sha512sums = 68f93ef6bcc1f2b3f5422c35a9ddcf846c75c1e9d8e6177750f4fad8dec818642e0a7159d295a381f0656c85b1f52382af1e32d577a825c4fcbdfa4c131581cc
+	sha512sums = aced6dbfa91edbbb46e6cf29593a12e73df0cd89ad66de5ab646c8e6b9a49b54c93478c3e589377a106b3bc6c5d68246aecd2d662870b33421f2c0ee70995c6c
 
 pkgname = xmonad-contrib
