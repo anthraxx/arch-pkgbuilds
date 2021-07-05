@@ -1,6 +1,6 @@
 pkgbase = clamav
 	pkgdesc = Anti-virus toolkit for Unix
-	pkgver = 0.103.2
+	pkgver = 0.103.3
 	pkgrel = 1
 	url = https://www.clamav.net/
 	arch = x86_64
@@ -23,17 +23,16 @@ pkgbase = clamav
 	backup = etc/clamav/freshclam.conf
 	backup = etc/clamav/clamav-milter.conf
 	backup = etc/logrotate.d/clamav
-	source = https://www.clamav.net/downloads/production/clamav-0.103.2.tar.gz
-	source = https://www.clamav.net/downloads/production/clamav-0.103.2.tar.gz.sig
+	source = https://www.clamav.net/downloads/production/clamav-0.103.3.tar.gz
+	source = https://www.clamav.net/downloads/production/clamav-0.103.3.tar.gz.sig
 	source = clamav.logrotate
 	source = clamav.tmpfiles
 	source = clamav.sysusers
 	validpgpkeys = E34DB95B374B31570496CD3F609B024F2B3EDD07
-	sha512sums = 87d47c4529a57da0b47b3744a279996ca24fa74ce10d7e27a53c19c1e13098af680e0e48ed767122bb2bbd3f927302451da84ccf51a933e7e3556ef43cbe9f45
+	sha512sums = c2ee24a6f63735c064140aa5baa347d51e8240b2f7eced3480d05435202aedd481fa7057fd40ecbc2e93a62fe8b0cefb574d8accdf9acede643ffbe0d396686f
 	sha512sums = SKIP
 	sha512sums = 9cb168c1c16bb43c99900d7ef34456e3f3b593d4d1943c875a0306bc86fd3872cb78e9e1413dcba93579e01b96d466c9eea1975e24190193663b7986c4525d48
 	sha512sums = c5443634399bd87fe0d0192518538ffdb7296a8437b5b0160a0fbd58696b01285de3237e3feb552c0095c49e576832dec2e2b2107eef2be42424ed7edd13cd19
 	sha512sums = b984836f6c34d97b90d81fa5d17361a2e3f8c0cc709e3350a4d25cf088dc04f7bf2504359980c8be489c96b1b8798c60e6da533069d3378d49d4f50f929a2c90
 
 pkgname = clamav
-
