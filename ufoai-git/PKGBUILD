@@ -11,7 +11,7 @@ url="http://ufoai.org/wiki/News"
 license=('GPL')
 arch=('i686' 'x86_64')
 depends=('libjpeg' 'libgl' 'libpng' 'curl' 'sdl2_image' 'sdl2_mixer' 'sdl2_ttf' 'libtheora' 'xvidcore' 'glu')
-makedepends=('git' 'python2' 'zip' 'gtksourceview2' 'gtkglext' 'openal')
+makedepends=('git' 'python2' 'zip' 'gtksourceview2' 'gtkglext' 'openal' 'lua51')
 optdepends=('python2: compiling self-created maps'
             'gtksourceview2: compiling the map-editor'
             'gtkglext: compiling the map-editor'
@@ -31,7 +31,7 @@ prepare() {
   # uncomment the '--enable-uforadiant' line for ufo-radiant (map editor)
   ./configure --prefix=/usr --datadir=/usr/share/ufoai \
     --enable-release --localedir=/usr/share/ufoai/base/i18n/ \
-   --enable-uforadiant
+   --enable-uforadiant --with-embedded-lua5.1
 }
 
 build() {
