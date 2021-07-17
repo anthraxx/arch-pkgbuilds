@@ -1,7 +1,7 @@
 pkgbase = ruby-addressable
 	pkgdesc = URI Implementation
-	pkgver = 2.7.0
-	pkgrel = 3
+	pkgver = 2.8.0
+	pkgrel = 1
 	url = https://github.com/sporkmonger/addressable
 	arch = any
 	license = Apache
@@ -9,9 +9,8 @@ pkgbase = ruby-addressable
 	depends = ruby
 	depends = ruby-public_suffix
 	options = !emptydirs
-	source = ruby-addressable-2.7.0.tar.gz::https://github.com/sporkmonger/addressable/archive/addressable-2.7.0.tar.gz
-	sha256sums = b0baa4caf354135d756b81821ef076935fa807cb97cc60174b481794fd0290b5
-	sha512sums = 507a9757a93b6cc7047a6d8226221242509a8895fce961d7b7e86c62c864eb646584cc1e3b8f6634a8578bc06a098403404bbee9b94f1c53d59503ca7408781f
+	source = ruby-addressable-2.8.0.tar.gz::https://github.com/sporkmonger/addressable/archive/addressable-2.8.0.tar.gz
+	sha256sums = ce5adc6636e9222897886fca3b07398c8a00c6604c3a9acba715761da201fe19
+	sha512sums = be22ca98d3ccbef8b3ee66bb257e347250d03072b2bcb18ed52dbb9d6ebe4ff0363b0545fe69e965896953ce705f046e41e20c5d2359866c9c6b7c9ef623b09b
 
 pkgname = ruby-addressable
-
