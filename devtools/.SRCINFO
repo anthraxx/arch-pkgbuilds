@@ -1,8 +1,8 @@
 pkgbase = devtools
 	pkgdesc = Tools for Arch Linux package maintainers
 	pkgver = 20210202
-	pkgrel = 1
-	url = https://git.archlinux.org/devtools.git/
+	pkgrel = 2
+	url = https://github.com/archlinux/devtools
 	arch = any
 	license = GPL
 	makedepends = asciidoc
@@ -35,4 +35,3 @@ pkgbase = devtools
 	b2sums = SKIP
 
 pkgname = devtools
-
