@@ -1,7 +1,7 @@
 pkgbase = vpnc
 	pkgdesc = VPN client for cisco3000 VPN Concentrators
-	pkgver = 0.5.3.r468.r81
-	pkgrel = 2
+	pkgver = 0.5.3.r496.r153
+	pkgrel = 1
 	epoch = 1
 	url = https://github.com/streambinder/vpnc
 	arch = x86_64
@@ -10,18 +10,16 @@ pkgbase = vpnc
 	depends = libgcrypt
 	depends = openssl
 	depends = iproute2
+	depends = which
 	optdepends = openresolv: Let vpnc manage resolv.conf
 	backup = etc/vpnc/default.conf
-	source = vpnc::git+https://github.com/streambinder/vpnc#commit=1bd238527af94123788bcc529bde085d6be7227e
-	source = vpnc-scripts::git://git.infradead.org/users/dwmw2/vpnc-scripts.git#commit=c0122e891f7e033f35f047dad963702199d5cb9e
+	source = vpnc::git+https://github.com/streambinder/vpnc#commit=43780cecd7a61668002f73b6f8b9f9ba61af74ad
+	source = vpnc-scripts::git+https://gitlab.com/openconnect/vpnc-scripts.git#commit=8fff06090ed193c4a7285e9a10b42e6679e8ecf3
 	source = vpnc.conf
 	source = vpnc@.service
-	source = vpnc-systemd-resolved.patch
 	sha512sums = SKIP
 	sha512sums = SKIP
 	sha512sums = ac70712192c01ff638a9badc5cff7105bee5c4fed5d3a3b728e9597661952d156041c82fe1e544e2bab602d193d4105d3689c79c46d964623f6ce38dd89f0ea7
 	sha512sums = cafcab676986c1a2e49441f01d61997f1c6b54bbb68661b9af007d4816f8e76eee6b7ac2dfab55b55965fa407e8331c663cf11aa79384c30b0c9049c1477b791
-	sha512sums = 3383783a0e4848ccff2247c5c7c99bcfeb3f7a7756d000fdb4627a73c82dd7ac8106183160d07dc77339df70efc4819ea89327e9da1d7c885d675d1dc84d4df1
 
 pkgname = vpnc
-
