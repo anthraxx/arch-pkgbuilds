@@ -1,6 +1,6 @@
 pkgbase = metasploit
 	pkgdesc = Advanced open-source platform for developing, testing, and using exploit code
-	pkgver = 6.0.48
+	pkgver = 6.0.53
 	pkgrel = 1
 	url = https://www.metasploit.com/
 	arch = x86_64
@@ -15,8 +15,8 @@ pkgbase = metasploit
 	depends = git
 	options = !strip
 	options = !emptydirs
-	source = https://github.com/rapid7/metasploit-framework/archive/6.0.48/metasploit-6.0.48.tar.gz
-	sha512sums = a03d7c68a7cb751314e120c2bbd2dd5457be3bb974bd0c7d4eb0a4a60a3401bef6895e9a1cff0cacfc7ac0a0c4290146b1c51502ca11e1c6223068e9baa2fdde
-	b2sums = c909771922a61280e103dc21823a0b65a728258c2e35554d70045280d5c1a65f1f73431bde642bb6a8750a90880752becfb4fc3a09f83f3d83bc0893343697d4
+	source = https://github.com/rapid7/metasploit-framework/archive/6.0.53/metasploit-6.0.53.tar.gz
+	sha512sums = 6cb3ded219c5bfd58297177aa06f1f5522eb0345b0b42fda49e3a4a42ac7cd88ec6503b3d389cbf2edae5b38c2d2259319740cfcacdf552b79a2ab85b24aae89
+	b2sums = 29386c7886e2bc6aade21f88809ccc967aba71a4b1a17f8026bb260f67e1ca3ff8b5bda30336e828b71fed9dd270d07f7f6a0f34eb8500f6d34872cc4126add4
 
 pkgname = metasploit
