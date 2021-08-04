@@ -12,9 +12,7 @@ pkgbase = sequoia-sqv
 	depends = glibc
 	depends = nettle
 	depends = libnettle.so
-	depends = nettle
 	depends = libhogweed.so
-	depends = libnettle.so
 	depends = gcc-libs
 	depends = gmp
 	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=v1.0.0?signed
