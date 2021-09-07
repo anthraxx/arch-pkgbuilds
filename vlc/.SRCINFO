@@ -1,7 +1,7 @@
 pkgbase = vlc
 	pkgdesc = Multi-platform MPEG, VCD/DVD, and DivX player
 	pkgver = 3.0.16
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.videolan.org/vlc/
 	arch = x86_64
 	license = LGPL2.1
@@ -127,7 +127,6 @@ pkgbase = vlc
 	optdepends = protobuf: chromecast streaming
 	optdepends = libmicrodns: mDNS services discovery (chromecast etc)
 	optdepends = lua52-socket: http interface
-	optdepends = live-media: RTSP input
 	optdepends = libdvdread: DVD input module
 	optdepends = libdvdnav: DVD with navigation input module
 	optdepends = libogg: Ogg and OggSpots codec
