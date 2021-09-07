@@ -1,6 +1,6 @@
 pkgbase = r2ghidra
 	pkgdesc = Deep ghidra decompiler integration for radare2 and iaito
-	pkgver = 5.3.0.r6.ge9d8fafe
+	pkgver = 5.4.1
 	pkgrel = 1
 	url = https://github.com/radareorg/r2ghidra
 	arch = x86_64
@@ -11,8 +11,8 @@ pkgbase = r2ghidra
 	depends = glibc
 	provides = radare2-r2ghidra
 	replaces = r2ghidra-dec
-	source = git+https://github.com/radareorg/r2ghidra#commit=e9d8fafec4e9bec39cddc09c4415efb4da28ba93
-	source = git+https://github.com/radareorg/ghidra-native.git#commit=9d7f7d1d8aed8d2360e8efe7976ebb2bb1f1b399
+	source = git+https://github.com/radareorg/r2ghidra#commit=f244bfa72677d10e5bd41183e0e51255b833b499
+	source = git+https://github.com/radareorg/ghidra-native.git#commit=358132818b1055cd6bbfdb8c08819a79e1e9cde8
 	source = git+https://github.com/zeux/pugixml.git
 	sha512sums = SKIP
 	sha512sums = SKIP
