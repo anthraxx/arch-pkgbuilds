@@ -2,7 +2,7 @@
 
 pkgbase=dav1d
 pkgname=(dav1d dav1d-doc)
-pkgver=0.9.0
+pkgver=0.9.2
 pkgrel=1
 pkgdesc='AV1 cross-platform decoder focused on speed and correctness'
 url='https://code.videolan.org/videolan/dav1d/'
@@ -11,12 +11,12 @@ license=('BSD')
 makedepends=('meson' 'ninja' 'nasm' 'doxygen' 'graphviz' 'xxhash')
 source=(https://downloads.videolan.org/pub/videolan/${pkgname}/${pkgver}/${pkgname}-${pkgver}.tar.xz{,.asc}
         https://code.videolan.org/videolan/dav1d-test-data/-/archive/${pkgver}/dav1d-test-data-${pkgver}.tar.gz)
-sha512sums=('46ead83042ab951eb4c79c458e060875174739a8a0efd8d34fdcb6ad3c094093f629d16f467c1dbd37a125bba31d0a7b051933540e38c675eade25fefc80ed75'
+sha512sums=('87026f8b14e408ff50fc8f137ec2ede4b14c5f69687e615d2359d0f718ae5cb5176522490786d9ae1f7838182f82615c2674f7c2961b6dcec83f1ee587c3af7c'
             'SKIP'
-            '38a7542c2cf742b5aa97b6c785f3376c8b78b00659ab87ba5a030d4d659bd66dd39813f23a0606fc1a736b8878b60ca85daa804d254f1bd73018fb7afa57873d')
-b2sums=('261331fb339c4f5e1f854310dd5ee5f0d9d7730385c5eaa5c097a26daa2d92b4283ade127dffbec776da2737f1269797cfdda516d3531e8ac1c0947c431e6e68'
+            '99c7546964b1c7187257b85057c41ad0698fd00920c7cd3b7e8cd8bc173965f03b3e64729ab11f72dd8125bd0fc7228752da64b69d8087cbd973b1a64f249188')
+b2sums=('7baa28821b06b05b95d3ea80b22dffe59d0793c9b4be4231ba0be99b548e1f5517a956dc865c2be1702576d078c2218e7e80342a26ab4003b4f06bcb0cdbb769'
         'SKIP'
-        'ef029fa912e6cee0a3931b0ff4427c860b09be4683fc8a098a2dcf0dd09db7b3e8c822e19b02b66e20fb4c8494b3650019b44276eb1aadc8134da26b910dc570')
+        '750b1fb40ee8db873b9eb1a7f3b8923546d4782ca790bcbcc25c7bf13ccd3193dff3adfc75c32d877c722afb0392fad74632bddc46090d00e15d57b25c2f7716')
 validpgpkeys=('65F7C6B4206BD057A7EB73787180713BE58D1ADC') # VideoLAN Release Signing Key
 
 prepare() {
