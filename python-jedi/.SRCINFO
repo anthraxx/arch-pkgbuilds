@@ -21,4 +21,3 @@ pkgbase = python-jedi
 	sha256sums = SKIP
 
 pkgname = python-jedi
-
