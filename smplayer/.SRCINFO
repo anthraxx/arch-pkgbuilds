@@ -1,6 +1,6 @@
 pkgbase = smplayer
 	pkgdesc = Media player with built-in codecs that can play virtually all video and audio formats
-	pkgver = 21.1.0
+	pkgver = 21.8.0
 	pkgrel = 1
 	url = https://www.smplayer.info/
 	arch = x86_64
@@ -19,9 +19,8 @@ pkgbase = smplayer
 	optdepends = smtube: browse and play youtube videos
 	optdepends = youtube-dl: youtube videos and streaming
 	optdepends = mplayer: alternative multimedia engine
-	source = https://downloads.sourceforge.net/smplayer/smplayer-21.1.0.tar.bz2
-	sha512sums = 94030ddba63355403f14ce70a3b7719eaa0b006017148039bcc691159c33bbb6c8a947bff10dab9fecc0daa7106ac1b9f3ac7d7ea4263d622240636743c90553
-	b2sums = 593ceae2ceeeea6a9689c8e92a1a15fcdd7e2e3f04a6982f0fc36864ced157ff4cb59a26cc9941931aef8e31eef1d580fd606cd2ae396ba1e998233a1e30e74d
+	source = https://downloads.sourceforge.net/smplayer/smplayer-21.8.0.tar.bz2
+	sha512sums = 4513718ca8cf1529ef5e4b8595cba9d9177073acaada6f7e8aed242a1fd56cb8fdf932a757ae147aa645a5422c1e8f52863b562f7e697f643769b1c57f7e647e
+	b2sums = a13146dac8c78d70c8e9db64aaf9da6c64267b389d6b06cb523548306733853276623d8d9e0ba1e94fb2bee5ab1da97109edb1fef4ce88a3569ca96f26e4d653
 
 pkgname = smplayer
-
