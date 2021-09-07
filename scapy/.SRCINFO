@@ -30,4 +30,3 @@ pkgname = python-scapy
 	optdepends = python-matplotlib: plotting support
 	optdepends = graphviz: conversations() method support
 	optdepends = sox: for VOIP support
-
