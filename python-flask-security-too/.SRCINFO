@@ -33,4 +33,3 @@ pkgbase = python-flask-security-too
 	b2sums = 38e352dab5fe687211240011d844a1d5f6c0b5fcbb10752960f7ff5de14f5aa2e30ed9bdadda6684a3bc99e176edb7b8937d99322b4c131e22e87b273896c391
 
 pkgname = python-flask-security-too
-
