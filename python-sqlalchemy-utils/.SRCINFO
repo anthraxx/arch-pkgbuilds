@@ -28,4 +28,3 @@ pkgbase = python-sqlalchemy-utils
 	b2sums = d79fd21f73af3b41e33b4f1c87cac92f36c8249b785dbb76972a0ef19931778ee2d9a24dfb0885508bc396007b6a4387313b1b8f384aa323d2c52a7ba10788f2
 
 pkgname = python-sqlalchemy-utils
-
