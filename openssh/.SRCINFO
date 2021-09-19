@@ -1,12 +1,11 @@
 pkgbase = openssh
 	pkgdesc = Premier connectivity tool for remote login with the SSH protocol
 	pkgver = 8.7p1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.openssh.com/portable.html
 	install = install
 	arch = x86_64
 	license = custom:BSD
-	checkdepends = inetutils
 	makedepends = linux-headers
 	makedepends = libfido2
 	depends = glibc
