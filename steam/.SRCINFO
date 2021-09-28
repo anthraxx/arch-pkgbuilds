@@ -1,12 +1,13 @@
 pkgbase = steam
 	pkgdesc = Valve's digital software delivery system
 	pkgver = 1.0.0.72
-	pkgrel = 1
+	pkgrel = 2
 	url = https://steampowered.com/
 	arch = x86_64
 	license = custom
 	depends = bash
 	depends = desktop-file-utils
+	depends = diffutils
 	depends = hicolor-icon-theme
 	depends = curl
 	depends = dbus
