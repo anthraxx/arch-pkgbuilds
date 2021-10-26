@@ -1,6 +1,6 @@
 pkgbase = meson
 	pkgdesc = High productivity build system
-	pkgver = 0.59.1
+	pkgver = 0.60.0
 	pkgrel = 1
 	url = https://mesonbuild.com/
 	arch = any
@@ -49,16 +49,15 @@ pkgbase = meson
 	checkdepends = rust-bindgen
 	checkdepends = cuda
 	checkdepends = hotdoc
+	makedepends = git
 	depends = python-setuptools
 	depends = ninja
-	source = https://github.com/mesonbuild/meson/releases/download/0.59.1/meson-0.59.1.tar.gz
-	source = https://github.com/mesonbuild/meson/releases/download/0.59.1/meson-0.59.1.tar.gz.asc
+	source = git+https://github.com/mesonbuild/meson#commit=f64e5cee6bc7ab8c00c31f341afc6043867773d0
 	source = skip-test.diff
 	source = arch-meson
 	validpgpkeys = 19E2D6D9B46D8DAA6288F877C24E631BABB1FE70
-	sha512sums = c45e29869dc681675b2643c37c892e7fff365c051edce4f2ec278fc6cee25bac6818add819e4db69d2fe3c1ba9572fc55bb8f67fe791cdc9c187627c71b01963
 	sha512sums = SKIP
-	sha512sums = a40e3be7a4ea7048cbbab59d28fb355debdfcdc5e45244aad65ab57fa222f4a2cf3165f28cc7e1dba893a162de9c7563ef0e155fa6a77960c4d02ef622313ace
+	sha512sums = 486e60b1d470c64d07d4686bd0b4374924967b9e024ff6d9fe248f512995ece19b8b09dd69c91f26dec4bb92c61fc3d275a2b7e481c2acd10ebb90d7e3cb7e20
 	sha512sums = f451f8a7ef9cf1dd724c2ce20bb85a3f1611b87b2e7a17ef0fdbe8ab82a67389f818ea30a5adfe8413143e4eac77ea2e0b8234b5b2466b41a892e2bd0435376c
 
 pkgname = meson
