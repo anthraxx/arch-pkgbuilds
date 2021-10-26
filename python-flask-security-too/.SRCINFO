@@ -1,7 +1,7 @@
 pkgbase = python-flask-security-too
 	pkgdesc = Quick and simple security for Flask applications
 	pkgver = 4.0.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/jwag956/flask-security
 	arch = any
 	license = MIT
@@ -26,6 +26,7 @@ pkgbase = python-flask-security-too
 	depends = python-flask-babelex
 	depends = python-itsdangerous
 	depends = python-passlib
+	depends = python-email-validator
 	provides = python-flask-security
 	conflicts = python-flask-security
 	source = https://github.com/jwag956/flask-security/archive/4.0.1/python-flask-security-too-4.0.1.tar.gz
