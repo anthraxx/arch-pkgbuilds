@@ -1,7 +1,7 @@
 pkgbase = vim-surround
 	pkgdesc = Provides mappings to easily delete, change, and add paired surroundings
 	pkgver = 2.1
-	pkgrel = 4
+	pkgrel = 1
 	url = https://github.com/tpope/vim-surround
 	arch = any
 	groups = vim-plugins
@@ -13,4 +13,3 @@ pkgbase = vim-surround
 	sha512sums = a50e91b1896b0d952008ba2f641a87af2d1a01e4f280f6c914edcd51ae5d1586d5ade71c3609866b501569007bcb7f2494f08280afec170884b90fab36332fac
 
 pkgname = vim-surround
-
