@@ -1,7 +1,7 @@
 pkgbase = ncdu
 	pkgdesc = Disk usage analyzer with an ncurses interface
 	pkgver = 1.16
-	pkgrel = 1
+	pkgrel = 2
 	url = https://dev.yorhel.nl/ncdu
 	arch = x86_64
 	license = MIT
