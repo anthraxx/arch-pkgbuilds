@@ -1,6 +1,6 @@
 pkgbase = python-pytest-asyncio
 	pkgdesc = Pytest support for asyncio.
-	pkgver = 0.15.1
+	pkgver = 0.16.0
 	pkgrel = 1
 	url = https://github.com/pytest-dev/pytest-asyncio/
 	arch = any
@@ -10,7 +10,7 @@ pkgbase = python-pytest-asyncio
 	checkdepends = python-hypothesis
 	makedepends = python-setuptools
 	depends = python-pytest
-	source = python-pytest-asyncio-0.15.1.tar.gz::https://github.com/pytest-dev/pytest-asyncio/archive/v0.15.1.tar.gz
-	sha512sums = 1813d49e0dd55f563d9bf058e009da61a17f61e081cc53626b5f1db623ba04905b6bea3ecba423dc931668053310176b634339d6526c7ea729d9aad87e4f044d
+	source = python-pytest-asyncio-0.16.0.tar.gz::https://github.com/pytest-dev/pytest-asyncio/archive/v0.16.0.tar.gz
+	sha512sums = f0059a6d05bf0c4e208f0058e30d5baf8284e630b8b91fa217f52eec18abe6b057dabfdadce2c5282e02bd4ea4cdb27f9ef62c4c308375cce1795d75a036db22
 
 pkgname = python-pytest-asyncio
