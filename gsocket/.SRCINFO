@@ -1,0 +1,21 @@
+pkgbase = gsocket
+	pkgdesc = Global Socket moving data from here to there securely, fast and trough NAT/Firewalls
+	pkgver = 1.4.33
+	pkgrel = 1
+	url = https://www.gsocket.io/
+	arch = x86_64
+	license = custom
+	depends = glibc
+	depends = bash
+	depends = openssl
+	depends = rsync
+	depends = sshfs
+	depends = openssh
+	depends = grep
+	depends = binutils
+	depends = coreutils
+	source = https://github.com/hackerschoice/gsocket/archive/v1.4.33/gsocket-1.4.33.tar.gz
+	sha512sums = 2eefbd52a387c57d633eb896397432147658e716223cc83562cbfc3011524bc8b8ce1ca1cfa27e1c2c61d52c09dd04107a7b58d0e448dd78b66487376e148169
+	b2sums = 68debc5b6a8cf7e367c155d38aa1fdef81acb158a3f88a8598510e27ba831a352d5b3cd1332137da195b2ee23374eae27437270278b15ed52b73d42950f87254
+
+pkgname = gsocket
