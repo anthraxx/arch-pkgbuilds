@@ -1,13 +1,14 @@
 pkgbase = i3status
 	pkgdesc = Generates status bar to use with i3bar, dzen2 or xmobar
-	pkgver = 2.13
-	pkgrel = 3
+	pkgver = 2.14
+	pkgrel = 1
 	url = https://i3wm.org/i3status/
 	arch = x86_64
 	groups = i3
 	license = BSD
 	makedepends = asciidoc
 	makedepends = xmlto
+	makedepends = meson
 	depends = alsa-lib
 	depends = confuse
 	depends = libnl
@@ -15,11 +16,10 @@ pkgbase = i3status
 	depends = yajl
 	options = docs
 	backup = etc/i3status.conf
-	source = https://i3wm.org/i3status//i3status-2.13.tar.bz2
-	source = https://i3wm.org/i3status//i3status-2.13.tar.bz2.asc
+	source = https://i3wm.org/i3status//i3status-2.14.tar.xz
+	source = https://i3wm.org/i3status//i3status-2.14.tar.xz.asc
 	validpgpkeys = 424E14D703E7C6D43D9D6F364E7160ED4AC8EE1D
-	md5sums = dd9001fb9ed732142d4d7194b77486cf
+	md5sums = 55a4bb05362947947bc93f705f5d71cd
 	md5sums = SKIP
 
 pkgname = i3status
-
