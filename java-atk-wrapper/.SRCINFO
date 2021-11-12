@@ -13,7 +13,7 @@ pkgbase = java-atk-wrapper
 	makedepends = at-spi2-atk
 	makedepends = java-environment=8
 	makedepends = java-environment=11
-	makedepends = java-environment=16
+	makedepends = java-environment=17
 	options = !emptydirs
 	source = https://gitlab.gnome.org/GNOME/java-atk-wrapper/-/archive/0.38.0/java-atk-wrapper-common-0.38.0.tar.bz2
 	sha256sums = c2d781897795ff9e4bf194a42c0023a9a89839c3c357982166752399de483a33
