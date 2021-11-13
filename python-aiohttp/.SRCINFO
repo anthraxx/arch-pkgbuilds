@@ -1,6 +1,6 @@
 pkgbase = python-aiohttp
 	pkgdesc = HTTP client/server for asyncio
-	pkgver = 3.7.4.post0
+	pkgver = 3.8.0
 	pkgrel = 1
 	url = https://aiohttp.readthedocs.io
 	arch = x86_64
@@ -18,27 +18,27 @@ pkgbase = python-aiohttp
 	checkdepends = python-freezegun
 	checkdepends = gunicorn
 	checkdepends = python-re-assert
+	checkdepends = python-proxy.py
 	makedepends = cython
 	makedepends = python-setuptools
 	makedepends = git
+	makedepends = npm
 	depends = python
 	depends = python-chardet
 	depends = python-multidict
 	depends = python-async-timeout
 	depends = python-yarl
 	depends = python-attrs
+	depends = python-charset-normalizer
+	depends = python-aiosignal
+	depends = python-frozenlist
 	optdepends = gunicorn: to deploy using Gunicorn
 	optdepends = python-aiodns: for fast DNS resolving
 	optdepends = python-cchardet: for faster encoding detection
 	optdepends = python-brotli: for Brotli transfer-encodings support
-	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=184274d9b28bbfa06ac60e48bf286a761c6a6cb0
-	source = git+https://github.com/nodejs/http-parser
-	source = python-aiohttp-release-resources-pytest.patch
-	source = python-aiohttp-brotli.patch
+	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=208a4eb6dbf5373d9f5a9f18efac839a6448eadc
+	source = git+https://github.com/nodejs/llhttp.git
 	sha512sums = SKIP
 	sha512sums = SKIP
-	sha512sums = 42db1eb1173f34351a76fcd0be28dbfa1f18be5da4bc0e75adfb4be666e26acc9fbca11a83506f4eee729122110f98512133cdc0a46615f75ee2846645f4fb7a
-	sha512sums = 3bfc6511d0a1a54e20c5b10457041621960da869a752a0b751a424db357d4153578ff1a5e9268f27e4badb2ac01f1c76d23f0058f76b9dd44063f56a046712d8
 
 pkgname = python-aiohttp
-
