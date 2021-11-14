@@ -1,7 +1,7 @@
 pkgbase = java-atk-wrapper
 	pkgdesc = ATK wrapper for screen reader access to Java Swing applications
 	pkgver = 0.38.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://gitlab.gnome.org/GNOME/java-atk-wrapper/
 	arch = x86_64
 	license = LGPL
