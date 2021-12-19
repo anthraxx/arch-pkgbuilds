@@ -1,6 +1,6 @@
 pkgbase = maven
 	pkgdesc = Java project management and project comprehension tool
-	pkgver = 3.8.3
+	pkgver = 3.8.4
 	pkgrel = 1
 	url = https://maven.apache.org
 	arch = any
@@ -10,17 +10,24 @@ pkgbase = maven
 	depends = java-environment>=7
 	depends = bash
 	depends = procps-ng
+	noextract = apache-maven-3.8.4-bin.tar.gz
 	backup = opt/maven/conf/settings.xml
-	source = https://www-eu.apache.org/dist/maven/maven-3/3.8.3/source/apache-maven-3.8.3-src.tar.gz
-	source = https://www-eu.apache.org/dist/maven/maven-3/3.8.3/source/apache-maven-3.8.3-src.tar.gz.asc
+	source = https://downloads.apache.org/maven/maven-3/3.8.4/source/apache-maven-3.8.4-src.tar.gz
+	source = https://downloads.apache.org/maven/maven-3/3.8.4/source/apache-maven-3.8.4-src.tar.gz.asc
+	source = https://downloads.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz
+	source = https://downloads.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz.asc
+	source = https://downloads.apache.org/maven/maven-3/3.8.4/binaries/apache-maven-3.8.4-bin.tar.gz.sha512
 	source = maven.sh
 	validpgpkeys = 042B29E928995B9DB963C636C7CA19B7B620D787
 	validpgpkeys = AE9E53FC28FF2AB1012273D0BF1518E0160788A2
 	validpgpkeys = BBE7232D7991050B54C8EA0ADC08637CA615D22C
 	validpgpkeys = B02137D875D833D9B23392ECAE5A7FB608A0221C
 	validpgpkeys = 6A814B1F869C2BBEAB7CB7271A2A1C94BDE89688
-	sha256sums = c58ea18cee78d678af33b4080b083a104ab80919e4bb57468109338e0bbad19f
+	sha256sums = 298bfb6172c134655f4f5608342f9c7bc798918ac165b8ded4af800be184ab9b
 	sha256sums = SKIP
+	sha256sums = 2cdc9c519427bb20fdc25bef5a9063b790e4abd930e7b14b4e9f4863d6f9f13c
+	sha256sums = SKIP
+	sha256sums = e3b1b816da14173abf0141e22ced80239b57fe81889e230529fec02a88dc55c4
 	sha256sums = 17d9b8efa6a922907110026273443bcc8d83e061e14ac82cb5052b483acc9b76
 
 pkgname = maven
