@@ -1,7 +1,7 @@
 pkgbase = python-tblib
 	pkgdesc = Python traceback fiddling library
 	pkgver = 1.7.0
-	pkgrel = 3
+	pkgrel = 5
 	url = https://github.com/ionelmc/python-tblib
 	arch = any
 	license = BSD
@@ -13,4 +13,3 @@ pkgbase = python-tblib
 	b2sums = edbd9e475304b6486072ef86147a65c0a8f540dc821a0f7e8babd72386276246b64d3d04f4fbb89edb34164965746e999694fba5d5b65f71b8ce3e8cfddb0add
 
 pkgname = python-tblib
-
