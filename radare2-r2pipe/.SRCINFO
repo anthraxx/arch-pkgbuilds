@@ -1,7 +1,7 @@
 pkgbase = radare2-r2pipe
 	pkgdesc = Access radare2 via pipe from any programming language
 	pkgver = 5.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/radareorg/radare2-r2pipe
 	arch = any
 	license = MIT
