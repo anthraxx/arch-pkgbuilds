@@ -1,7 +1,7 @@
 pkgbase = python-threat9-test-bed
 	pkgdesc = Threat9 Test Bed
 	pkgver = 0.6.0+2+g1ed61b3
-	pkgrel = 4
+	pkgrel = 6
 	url = https://github.com/threat9/threat9-test-bed
 	arch = any
 	license = custom
@@ -13,11 +13,13 @@ pkgbase = python-threat9-test-bed
 	depends = python-click
 	depends = python-faker
 	depends = python-flask
+	depends = python-asgiref
 	depends = gunicorn
 	depends = python-pyopenssl
 	depends = python-requests
 	source = python-threat9-test-bed::git+https://github.com/threat9/threat9-test-bed#commit=1ed61b34d0b138711e3f8267259cdb29787fe349
+	source = http-service-async-mock.patch
 	sha512sums = SKIP
+	sha512sums = 50ce00674dbf9878f09b27397af2f062fab8a71b11e66b49eb710876b49812ce95c93f4ee55bf1ad103b6f5d5b48b86c826a5adc2f9fddeb393ff6bddc650839
 
 pkgname = python-threat9-test-bed
-
