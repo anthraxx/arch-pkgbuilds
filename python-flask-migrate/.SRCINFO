@@ -1,7 +1,7 @@
 pkgbase = python-flask-migrate
 	pkgdesc = SQLAlchemy database migrations for Flask applications using Alembic..
 	pkgver = 3.0.0
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/miguelgrinberg/Flask-Migrate/
 	arch = any
 	license = MIT
@@ -16,4 +16,3 @@ pkgbase = python-flask-migrate
 	sha512sums = 658bc7562bdad4b7a80c5b946e7833f03c9382f97e1e8801540b4c2b54586f61779c90a1229ab55e9be47cdf9b76c6acedd53d9dac3986a49a01ceb6612d64e1
 
 pkgname = python-flask-migrate
-
