@@ -1,7 +1,7 @@
 pkgbase = python-bidict
 	pkgdesc = Bidirectional mapping library for Python
 	pkgver = 0.21.3
-	pkgrel = 1
+	pkgrel = 3
 	url = https://bidict.readthedocs.org/
 	arch = any
 	license = MPL2
