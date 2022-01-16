@@ -1,7 +1,7 @@
 pkgbase = python-wtforms
 	pkgdesc = Flexible forms validation and rendering library for python web development
 	pkgver = 2.3.3
-	pkgrel = 1
+	pkgrel = 3
 	url = https://wtforms.readthedocs.io/
 	arch = any
 	license = BSD
@@ -17,4 +17,3 @@ pkgbase = python-wtforms
 	b2sums = 96a504e5a5334086372c81f3691edc0a598d3df9bb3eecce007daae1f445930e80aeea5c943e10500b2cba24ebff16e6e89ec31c9e6a1a33c5008297bbc1b064
 
 pkgname = python-wtforms
-
