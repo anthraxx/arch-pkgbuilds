@@ -1,7 +1,7 @@
 pkgbase = python-sphinx-autodoc-typehints
 	pkgdesc = Type hints support for the Sphinx autodoc extension
-	pkgver = 1.11.1
-	pkgrel = 2
+	pkgver = 1.12.0
+	pkgrel = 1
 	url = https://github.com/agronholm/sphinx-autodoc-typehints
 	arch = any
 	license = MIT
@@ -13,8 +13,9 @@ pkgbase = python-sphinx-autodoc-typehints
 	depends = python
 	depends = python-sphinx
 	depends = python-typing_extensions
-	source = git+https://github.com/agronholm/sphinx-autodoc-typehints#commit=2fac99f455855c832b22a272edde3f9852ba6a04
+	source = git+https://github.com/agronholm/sphinx-autodoc-typehints#commit=1b85ff5306f02985ab00c73b41504bb5b17943eb
+	source = python-3.10.patch
 	sha512sums = SKIP
+	sha512sums = c5fca0339d1ad2e0226006396c7e39f66e71d02e11dd883f8e4ee2c195293cf54afa8e13ef0164e7249ee9d8a296314b5c7ad4d707688855838cd4e3de1bba44
 
 pkgname = python-sphinx-autodoc-typehints
-
