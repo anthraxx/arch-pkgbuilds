@@ -1,7 +1,7 @@
 pkgbase = keystone
 	pkgdesc = Lightweight multi-platform, multi-architecture assembler framework
 	pkgver = 0.9.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.keystone-engine.org/
 	arch = x86_64
 	license = GPL2
@@ -24,4 +24,3 @@ pkgname = python-keystone
 	license = BSD
 	depends = python
 	depends = keystone
-
