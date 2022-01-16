@@ -1,7 +1,7 @@
 pkgbase = reprotest
 	pkgdesc = Run a process twice and check the output for reproducibility
 	pkgver = 0.7.18
-	pkgrel = 1
+	pkgrel = 2
 	url = https://salsa.debian.org/reproducible-builds/reprotest
 	arch = any
 	license = GPL3
