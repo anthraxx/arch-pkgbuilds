@@ -1,7 +1,7 @@
 pkgbase = python-tasklib
 	pkgdesc = Python library for interacting with taskwarrior databases
 	pkgver = 2.4.3
-	pkgrel = 1
+	pkgrel = 3
 	url = http://tasklib.readthedocs.org/en/latest/
 	arch = any
 	license = BSD
