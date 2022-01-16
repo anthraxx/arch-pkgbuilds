@@ -1,7 +1,7 @@
 pkgbase = profanity
 	pkgdesc = Console based XMPP client
 	pkgver = 0.11.1
-	pkgrel = 2
+	pkgrel = 3
 	epoch = 1
 	url = http://www.profanity.im
 	arch = x86_64
