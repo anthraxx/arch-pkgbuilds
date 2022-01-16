@@ -1,7 +1,7 @@
 pkgbase = gufw
 	pkgdesc = Uncomplicated way to manage your Linux firewall
 	pkgver = 21.04.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gufw.org/
 	arch = any
 	license = GPL3
@@ -20,4 +20,3 @@ pkgbase = gufw
 	b2sums = 33be802a5843c9cc166bd7de3fed32d66e72ec929e64c37c347ff7289030f9d19ce26655f0d079216590b77a071e4276effa28447894c983d7e49db8de1afb4c
 
 pkgname = gufw
-
