@@ -1,11 +1,13 @@
 pkgbase = nbtscan
 	pkgdesc = Scan networks searching for NetBIOS information
-	pkgver = 1.7.1
+	pkgver = 1.7.2
 	pkgrel = 1
 	url = https://github.com/resurrecting-open-source-projects/nbtscan
 	arch = x86_64
 	license = GPL2
-	source = nbtscan-1.7.1.tar.gz::https://github.com/resurrecting-open-source-projects/nbtscan/archive/1.7.1.tar.gz
-	b2sums = 09fafb52217f73c922cb4ae8610aa6745ef5b1a6992b8abe880e901b07658063a6b109e7a7de10601024178de6bcaa1526e11ea16b1906287d598fca9dd203c1
+	makedepends = git
+	depends = glibc
+	source = nbtscan::git+https://github.com/resurrecting-open-source-projects/nbtscan.git#commit=e339c81e996e4bda2c9eb5be62ececb9d65c3672
+	b2sums = SKIP
 
 pkgname = nbtscan
