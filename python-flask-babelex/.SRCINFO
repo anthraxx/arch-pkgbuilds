@@ -1,7 +1,7 @@
 pkgbase = python-flask-babelex
 	pkgdesc = Adds i18n/l10n support to Flask applications
 	pkgver = 0.9.4
-	pkgrel = 3
+	pkgrel = 5
 	url = https://github.com/mrjoes/flask-babelex
 	arch = any
 	license = BSD
@@ -17,4 +17,3 @@ pkgbase = python-flask-babelex
 	sha512sums = e5591bcb83ca7e7644b1d06e604834369973bfba5050bd6890ad57125731981cda1e893544eea61cf69dca536e5473e2e50b08b36b0c3daee15d66f3815bd986
 
 pkgname = python-flask-babelex
-
