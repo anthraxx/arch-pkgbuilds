@@ -1,7 +1,7 @@
 pkgbase = xortool
 	pkgdesc = Tool to analyze multi-byte XOR cipher
 	pkgver = 0.99
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/hellman/xortool
 	arch = any
 	license = MIT
@@ -14,4 +14,3 @@ pkgbase = xortool
 	b2sums = a183533c2c6e03dd4f74f6af69c1cfd01c327e0dd9244ac414022da270ae1659974a7462af42b8cd181266469da3e55aea8a2619d8172abb0a5b7756b5d0aac2
 
 pkgname = xortool
-
