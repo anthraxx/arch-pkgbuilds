@@ -1,7 +1,7 @@
 pkgbase = impacket
 	pkgdesc = Collection of classes for working with network protocols
 	pkgver = 0.9.23
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/CoreSecurity/impacket
 	arch = any
 	license = Apache
