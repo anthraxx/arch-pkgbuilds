@@ -1,7 +1,7 @@
 pkgbase = john
 	pkgdesc = John the Ripper password cracker
 	pkgver = 1.9.0.jumbo1
-	pkgrel = 5
+	pkgrel = 6
 	url = https://www.openwall.com/john
 	arch = x86_64
 	license = GPL2
@@ -20,16 +20,18 @@ pkgbase = john
 	optdepends = lua: lua based john scripts
 	optdepends = perl: perl based john scripts
 	optdepends = ruby: ruby based john scripts
-	optdepends = python2: python2 based john scripts
 	optdepends = python: python based john scripts
 	backup = etc/john/john.conf
 	source = https://www.openwall.com/john/k/john-1.9.0-jumbo-1.tar.xz
 	source = https://www.openwall.com/john/k/john-1.9.0-jumbo-1.tar.xz.sign
 	source = john-pdf2john-path-fix.patch::https://github.com/openwall/john/commit/66cf12d17e9fa453b34bcd9d0b8dc4f1954e8cff.patch
+	source = john-fix-gcc11-build.patch::https://github.com/openwall/john/commit/8152ac071bce1ebc98fac6bed962e90e9b92d8cf.patch
+	source = john-fix-opencl-topology.patch::https://raw.githubusercontent.com/hlein/gentoo/bfdb9a0c7b1a88f607a7f33137ff60f2bf8002c0/app-crypt/johntheripper-jumbo/files/johntheripper-jumbo-1.9.0-opencl-fix.patch
 	validpgpkeys = 297AD21CF86C948081520C1805C027FD4BDC136E
 	sha512sums = c5cb5dc739ee4c666f8479cdf10511fddc391b590c59f90c060d3ccd8449b794ac7b831a6d1f7553883892499e709a66578cfa4d62caef9b7e0a831eb827e808
 	sha512sums = SKIP
 	sha512sums = 8ab1eb9736aa9114fc2ac6713a186e9938caeeb642ace820a6403a7f76959bb6b2fa42587a5ce7ce9e8569892d92bbd1c26248a4a577ecacfb5ed141958bf281
+	sha512sums = 340e7effa0560665dc06c85bde464fad2b2e0aa051ba206e306c3286f43db83af089196cda79feb6fc0e512cb27b80808ee11436f07fd2d2956d7f10bb972cd8
+	sha512sums = 81f9dabc6d8ad54944be7eb9b3c7204ce426db842325c31662038e213775c0a86288c860712e6d3c24f7a9d0b7a0fd8962126a25242f45e5f242307691a97d38
 
 pkgname = john
-
