@@ -1,7 +1,7 @@
 pkgbase = rz-pipe
 	pkgdesc = Access rizin via pipe from any programming language
 	pkgver = 0.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rizinorg/rz-pipe
 	arch = any
 	license = MIT
@@ -15,4 +15,3 @@ pkgbase = rz-pipe
 pkgname = python-rzpipe
 	depends = python
 	depends = rizin
-
