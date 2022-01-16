@@ -1,7 +1,7 @@
 pkgbase = python-axolotl
 	pkgdesc = Python port of libaxolotl
 	pkgver = 0.2.3
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/tgalal/python-axolotl
 	arch = any
 	license = GPL3
@@ -15,4 +15,3 @@ pkgbase = python-axolotl
 	sha512sums = 1a10dc9df2f95d19b49909d4d136b5266aae19e24ac84f8b263ae7d4de18f77353c737616ac0648b600e05699a90d348f95c6c1659849986becefb4a0277fc80
 
 pkgname = python-axolotl
-
