@@ -1,7 +1,7 @@
 pkgbase = python-requests-aws4auth
 	pkgdesc = Amazon Web Services version 4 authentication for the Python Requests module
 	pkgver = 1.1.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/sam-washington/requests-aws4auth
 	arch = any
 	license = MIT
