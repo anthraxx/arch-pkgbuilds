@@ -1,7 +1,7 @@
 pkgbase = python-pysnmp
 	pkgdesc = Open source and free implementation of v1/v2c/v3 SNMP engine
 	pkgver = 4.4.12
-	pkgrel = 3
+	pkgrel = 5
 	url = https://github.com/etingof/pysnmp
 	arch = any
 	license = BSD
@@ -16,4 +16,3 @@ pkgbase = python-pysnmp
 	sha512sums = 48481e219098369b09cc2ffea6cd51974b64bed0131671cc7a2213ee5eb432c62e0ff5c3700b6be515bd3e90951927e41845c98ae7a339d551f0f4ec19c5e3b1
 
 pkgname = python-pysnmp
-
