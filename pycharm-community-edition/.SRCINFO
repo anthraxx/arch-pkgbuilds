@@ -1,6 +1,6 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2021.2.3
+	pkgver = 2021.3.1
 	pkgrel = 1
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
@@ -20,8 +20,7 @@ pkgbase = pycharm-community-edition
 	depends = fontconfig
 	depends = libdbusmenu-glib
 	optdepends = ipython: IPython integration for Python 3
-	optdepends = python2: Python 2 support
-	source = git+https://github.com/JetBrains/intellij-community.git#commit=034e37835281a6a5366de430fdbb3d1ca27f4679
+	source = git+https://github.com/JetBrains/intellij-community.git#commit=35df0442e731cbe170dd919d6e9ef46713bd1b86
 	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/212.5457.46
 	source = pycharm.desktop
 	source = pycharm.sh
