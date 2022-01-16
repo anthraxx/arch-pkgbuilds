@@ -1,7 +1,7 @@
 pkgbase = python-flask-htmlmin
 	pkgdesc = Flask html response minifier
 	pkgver = 2.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/hamidfzm/Flask-HTMLmin
 	arch = any
 	license = BSD
@@ -17,4 +17,3 @@ pkgbase = python-flask-htmlmin
 	sha512sums = 3d3ea40bc5d802f41b0d3a99fcca59407b3948d9b4fe2300bc597bbfbaa851435276a7dcee4b6cc08cc52b0674a53fd655b7bb1c6504bd53ea9963600626a59a
 
 pkgname = python-flask-htmlmin
-
