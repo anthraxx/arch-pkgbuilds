@@ -1,7 +1,7 @@
 pkgbase = routersploit
 	pkgdesc = Open-source exploitation framework dedicated to embedded devices
 	pkgver = 3.4.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/threat9/routersploit
 	arch = any
 	license = BSD
@@ -24,4 +24,3 @@ pkgbase = routersploit
 	sha512sums = 81e376e545acd1a1b00bc00f504d031b99709d4fa5076cca2d72866627b597290b2561a3729d88e92e389e2ef30df903bc53f9522cbfaeb9b6a303f020e0d2f4
 
 pkgname = routersploit
-
