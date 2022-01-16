@@ -1,7 +1,7 @@
 pkgbase = vimiv
 	pkgdesc = Image viewer with vim-like keybindings
 	pkgver = 0.9.1
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/karlch/vimiv
 	arch = x86_64
 	license = MIT
@@ -20,4 +20,3 @@ pkgbase = vimiv
 	sha512sums = b500e5b54450238b6471c1ea0c0831dc6b16238a99b9fcb531bc93bd0aa0b92fa192cbf2dd29f1679856f840dd6f6e4d27971403c85b71b6f333c525b77d9e69
 
 pkgname = vimiv
-
