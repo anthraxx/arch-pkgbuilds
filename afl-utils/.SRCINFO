@@ -1,7 +1,7 @@
 pkgbase = afl-utils
 	pkgdesc = Utilities for automated crash sample processing/analysis, easy afl-fuzz job management and corpus optimization
 	pkgver = 1.34a
-	pkgrel = 4
+	pkgrel = 5
 	url = https://gitlab.com/rc0r/afl-utils
 	arch = any
 	license = Apache
@@ -18,4 +18,3 @@ pkgbase = afl-utils
 	sha512sums = d65ecaf022641cffe8466c1d47d5b14455c41c42f5604c2ee50dbe35a044a80d07931bc8b99192b4ad5ef4464e9bb3e9f05dfff195943b37435142dc6abcd1af
 
 pkgname = afl-utils
-
