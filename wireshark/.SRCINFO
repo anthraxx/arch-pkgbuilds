@@ -1,7 +1,7 @@
 pkgbase = wireshark
 	pkgdesc = Network traffic and protocol analyzer/sniffer
-	pkgver = 3.4.9
-	pkgrel = 1
+	pkgver = 3.6.1
+	pkgrel = 3
 	url = https://www.wireshark.org/
 	arch = x86_64
 	license = GPL2
@@ -43,11 +43,11 @@ pkgbase = wireshark
 	makedepends = speexdsp
 	makedepends = opus
 	options = !emptydirs
-	source = https://www.wireshark.org/download/src/wireshark-3.4.9.tar.xz
+	source = https://www.wireshark.org/download/src/wireshark-3.6.1.tar.xz
 	source = wireshark.sysusers
-	sha512sums = 479abcf7b44504a269b73201da5aabac0d7770cd779a325df3214b6df5dc37e175f2889165a933c2902001a06c8141768f35cd8ca35cc55fc6cf30a482ea27eb
+	sha512sums = 8b036d623010a5c4ece22de869847b3d999dac1c1e874e957c091a65c18351d9a1cc400828a70caf3c9f9900f8971dc585a5fafb7b08d446cd5d1d68938b0e81
 	sha512sums = 3956c1226e64f0ce4df463f80b55b15eed06ecd9b8703b3e8309d4236a6e1ca84e43007336f3987bc862d8a5e7cfcaaf6653125d2a34999a0f1357c52e7c4990
-	b2sums = 95b3e6804225af7043fa1f4e5dc53785d939b56c81983a010a579c61b10eed989e695601c7ac67eb3aa00f9314236dd03e1e9ebb35c17ca81b832bad654523de
+	b2sums = 49a7385946001a3b4a9890751cfea678c8aefcf8180e1a3008085a453d34e458d60d071975eeb585b92c6d9a210b732cc9fdb4fd952f1a9d74decad79c145fe0
 	b2sums = 3cebcc993f51eaf0e09673c77e0436598593ef5eff306d880415ccc8eecb32fee93c9a6986f1a7bb0835ab7f9732369d7c5a07e6c053d6293e73a1ea84c58a5c
 
 pkgname = wireshark-cli
