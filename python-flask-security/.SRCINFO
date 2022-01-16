@@ -1,7 +1,7 @@
 pkgbase = python-flask-security
 	pkgdesc = Quick and simple security for Flask applications
 	pkgver = 3.0.0
-	pkgrel = 5
+	pkgrel = 6
 	url = https://github.com/mattupstate/flask-security
 	arch = any
 	license = MIT
