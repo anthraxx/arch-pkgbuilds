@@ -1,7 +1,7 @@
 pkgbase = python-ptrace
 	pkgdesc = Python binding of ptrace library to trace processes and syscalls
 	pkgver = 0.9.8
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/haypo/python-ptrace
 	arch = any
 	license = GPL2
@@ -14,4 +14,3 @@ pkgbase = python-ptrace
 	b2sums = 3d387beca9c92c0e3bbd5cf2c9d2af447c233b631e894ce1af2cdc697a1a48e24a299bbc998cd187ac9ad0f45bfc886f476afdb69329d761e8730a047731126b
 
 pkgname = python-ptrace
-
