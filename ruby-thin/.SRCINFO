@@ -1,7 +1,7 @@
 pkgbase = ruby-thin
 	pkgdesc = Thin and fast Ruby web server
 	pkgver = 1.8.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/macournoyer/thin
 	arch = x86_64
 	license = RUBY
@@ -16,4 +16,3 @@ pkgbase = ruby-thin
 	b2sums = d6e818d3d0c077ee54c8293e66f176e6c4d421af8fd906220371b84791bde8738aa252517582a52f898e0e6e8bc796deb1d31371ac1ebb0d56bfd40c31594175
 
 pkgname = ruby-thin
-
