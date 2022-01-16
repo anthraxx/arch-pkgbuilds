@@ -1,7 +1,7 @@
 pkgbase = python-sphinxcontrib-log-cabinet
 	pkgdesc = Organize changelog directives in Sphinx docs
 	pkgver = 1.0.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/davidism/sphinxcontrib-log-cabinet
 	arch = any
 	license = BSD
@@ -13,4 +13,3 @@ pkgbase = python-sphinxcontrib-log-cabinet
 	b2sums = 5df31c73590ebebd7c51cd0234e90f27d2034a0edd24cb4a3da875199e9357071b8adb63643c920cd185384e474fc0480b0943d4ac07b398d8ff4835571200a5
 
 pkgname = python-sphinxcontrib-log-cabinet
-
