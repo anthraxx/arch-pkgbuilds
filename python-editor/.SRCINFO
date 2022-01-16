@@ -1,7 +1,7 @@
 pkgbase = python-editor
 	pkgdesc = Programmatically open an editor, capture the result
 	pkgver = 1.0.4
-	pkgrel = 6
+	pkgrel = 8
 	url = https://github.com/fmoo/python-editor
 	arch = any
 	license = Apache
@@ -12,4 +12,3 @@ pkgbase = python-editor
 	sha512sums = 2a01ffa5967be31ec425ddb9cd2c57f327b61547f011e1510005a7b6cab30ba01fe81e18cb38e7c4f39796350701997d11a5059568b987355878671a5299eaf5
 
 pkgname = python-editor
-
