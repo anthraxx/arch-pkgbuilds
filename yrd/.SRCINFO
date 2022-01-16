@@ -1,7 +1,7 @@
 pkgbase = yrd
 	pkgdesc = cjdns swiss army knife
 	pkgver = 0.5.3
-	pkgrel = 5
+	pkgrel = 6
 	url = https://github.com/kpcyrd/yrd
 	arch = any
 	license = GPL3
@@ -15,4 +15,3 @@ pkgbase = yrd
 	sha512sums = 191fdf5687886357c01b72b2b9037045ca24d0ee888dc2bf6b2748a769eeb9a481eb01a9807f8f32b783d0970229f18d1264e937c2dd44b282ac764c49450cca
 
 pkgname = yrd
-
