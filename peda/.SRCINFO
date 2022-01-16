@@ -1,7 +1,7 @@
 pkgbase = peda
 	pkgdesc = Python Exploit Development Assistance for GDB
 	pkgver = 1.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/longld/peda
 	arch = any
 	license = custom:Creative Commons
