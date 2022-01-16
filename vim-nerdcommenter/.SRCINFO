@@ -1,16 +1,13 @@
 pkgbase = vim-nerdcommenter
 	pkgdesc = Plugin that allows for easy commenting of code for many filetypes
-	pkgver = 2.5.2
+	pkgver = 2.6.0
 	pkgrel = 2
-	url = https://github.com/scrooloose/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
 	arch = any
 	groups = vim-plugins
-	license = custom:vim
-	depends = vim
-	source = https://github.com/scrooloose/nerdcommenter/archive/2.5.2/vim-nerdcommenter-2.5.2.tar.gz.tar.gz
-	source = LICENSE
-	sha512sums = 63b43abdae35e2e5d9132a5cc1e3109a9ac7945bab58b7f2544bb0a6d390f2f503928fd17c2e82104e84454d9278f98fc581dcea8ccd08f5f1bedb2d5f112bf4
-	sha512sums = 1b4064171fa88f41d05e3d1d1c14ceb8a5cb4cca9e6f08f7e267d7740b7d65e4765cb56f0ccf3765ee9c85654559d2d7726d71516b890b0174b68e6cc62ef421
+	license = CCPL
+	depends = vim-plugin-runtime
+	source = vim-nerdcommenter-2.6.0.tar.gz::https://github.com/preservim/nerdcommenter/archive/refs/tags/2.6.0.tar.gz
+	sha512sums = e5b576812351955641011ceb1c8af0e85a2f4be3db8b8bd3e8da05aff6d3beba8e0dfcbd3c78cf6833a0f4aaf07fd87cb05151fdd5f341037b4393590134023b
 
 pkgname = vim-nerdcommenter
-
