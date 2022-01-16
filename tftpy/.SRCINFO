@@ -1,7 +1,7 @@
 pkgbase = tftpy
 	pkgdesc = Pure Python TFTP library
 	pkgver = 0.8.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/msoulier/tftpy
 	arch = any
 	license = MIT
@@ -13,4 +13,3 @@ pkgbase = tftpy
 
 pkgname = python-tftpy
 	depends = python
-
