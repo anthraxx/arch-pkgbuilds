@@ -1,6 +1,6 @@
 pkgbase = libressl
 	pkgdesc = Free version of the TLS/crypto stack forked from OpenSSL
-	pkgver = 3.4.1
+	pkgver = 3.4.2
 	pkgrel = 1
 	url = https://www.libressl.org/
 	arch = x86_64
@@ -9,10 +9,10 @@ pkgbase = libressl
 	depends = glibc
 	optdepends = ca-certificates
 	backup = etc/libressl/openssl.cnf
-	source = https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.4.1.tar.gz
-	source = https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.4.1.tar.gz.asc
+	source = https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.4.2.tar.gz
+	source = https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl-3.4.2.tar.gz.asc
 	validpgpkeys = A1EB079B8D3EB92B4EBD3139663AF51BD5E4D8D5
-	sha256sums = 107ceae6ca800e81cb563584c16afa36d6c7138fade94a2b3e9da65456f7c61c
+	sha256sums = cb82ca7d547336917352fbd23db2fc483c6c44d35157b32780214ec74197b3ce
 	sha256sums = SKIP
 
 pkgname = libressl
