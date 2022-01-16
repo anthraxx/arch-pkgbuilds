@@ -1,7 +1,7 @@
 pkgbase = python-flask-paranoid
 	pkgdesc = Simple user session protection for Flask applications
 	pkgver = 0.2
-	pkgrel = 6
+	pkgrel = 8
 	url = https://github.com/miguelgrinberg/flask-paranoid/
 	arch = any
 	license = MIT
@@ -11,8 +11,10 @@ pkgbase = python-flask-paranoid
 	depends = python
 	depends = python-flask
 	source = python-flask-paranoid-0.2.tar.gz::https://github.com/miguelgrinberg/flask-paranoid/archive/v0.2.tar.gz
+	source = no-hyphens-in-cookie-dates.patch
 	sha256sums = cda72c43fd17e6b782e079942b79ec9b19ac40c06337c871cc1dfedbe49297d3
+	sha256sums = 2a2f746a795b442b2894af1754fc7db18fb90594099df0af169d190aafb0f7b1
 	sha512sums = 0d642999fa4d5b795c3dcecc586fc1600cdfceec4adb38bb87ca8be9825d9ddafabb07d98df573a89e61a44a0abd27cbbd21524237b0e23b337a7d5e32ddfdae
+	sha512sums = 2cbabd825d962a79ce9f53694f4f9223156094d586754a64fd51216a8cf2486b1638f3668e85783ec46de184cf6cd9e2628fc860df3835295792d657bc2d2f19
 
 pkgname = python-flask-paranoid
-
