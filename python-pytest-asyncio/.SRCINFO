@@ -1,7 +1,7 @@
 pkgbase = python-pytest-asyncio
 	pkgdesc = Pytest support for asyncio.
 	pkgver = 0.16.0
-	pkgrel = 1
+	pkgrel = 4
 	url = https://github.com/pytest-dev/pytest-asyncio/
 	arch = any
 	license = Apache
