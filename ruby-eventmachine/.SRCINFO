@@ -1,7 +1,7 @@
 pkgbase = ruby-eventmachine
 	pkgdesc = EventMachine: fast, simple event-processing library
 	pkgver = 1.2.7
-	pkgrel = 4
+	pkgrel = 5
 	url = http://rubyeventmachine.com
 	arch = x86_64
 	license = Ruby
@@ -15,4 +15,3 @@ pkgbase = ruby-eventmachine
 	sha512sums = 768ec084903dce4c737cf564fce7886a3e7e5b7d4a89c2baea3e998130c53dc00488eaa2d8e9b0133d9e4d8fffbde80c3025403881486a7968c2d84425cc1f50
 
 pkgname = ruby-eventmachine
-
