@@ -1,10 +1,11 @@
 pkgbase = python-pytest-aiohttp
 	pkgdesc = pytest plugin for aiohttp support
 	pkgver = 0.3.0
-	pkgrel = 6
+	pkgrel = 8
 	url = https://github.com/aio-libs/pytest-aiohttp
 	arch = any
 	license = Apache
+	makedepends = python-setuptools
 	depends = python
 	depends = python-pytest
 	depends = python-aiohttp
@@ -14,4 +15,3 @@ pkgbase = python-pytest-aiohttp
 	sha512sums = 85d0eea72de85269ee64af99c26b195fd135d75ae809a97f120784600d7cbe15d2e32b0285602a68d4800e1099a17725b54b8f53657962847ec1cd5ef2ff4b69
 
 pkgname = python-pytest-aiohttp
-
