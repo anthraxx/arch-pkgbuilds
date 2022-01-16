@@ -1,7 +1,7 @@
 pkgbase = python-filebytes
 	pkgdesc = Library to read and edit executable binary files
 	pkgver = 0.10.2
-	pkgrel = 3
+	pkgrel = 5
 	url = https://github.com/sashs/filebytes
 	arch = any
 	license = BSD
@@ -12,4 +12,3 @@ pkgbase = python-filebytes
 	b2sums = 6b7fb865d01cc9ea0f14b32f6e0326da21fa2fa2a36549b99ca88e9bf015162d3b0f82e350be1cca805294fd56ef47e2db4394db5ffb3061773f146eda1ba666
 
 pkgname = python-filebytes
-
