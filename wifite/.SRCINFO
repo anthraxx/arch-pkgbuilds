@@ -1,7 +1,7 @@
 pkgbase = wifite
 	pkgdesc = Tool to attack multiple WEP and WPA encrypted networks at the same time
 	pkgver = 2.5.8
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 2
 	url = https://github.com/kimocoder/wifite2
 	arch = any
@@ -26,4 +26,3 @@ pkgbase = wifite
 	b2sums = cc6df4b0d65597aed811664f16cafbb53755573c0ce6c530865debfc20e0ae3843fd15a266dd90f98eb25a952d6221c5a74d7efa54527a87e41163e1b36bad4e
 
 pkgname = wifite
-
