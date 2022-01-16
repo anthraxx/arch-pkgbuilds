@@ -1,7 +1,7 @@
 pkgbase = ruby-network_interface
 	pkgdesc = Library to get network interface information
 	pkgver = 0.0.2
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/rapid7/network_interface
 	arch = x86_64
 	license = MIT
@@ -12,4 +12,3 @@ pkgbase = ruby-network_interface
 	sha512sums = 38174c4a1985ae82dc2459c21a7483a3cdbf6a0380814dc0b799a2bc250a3263fc8830d4127301041e7fc637dd6de45cd62214dd1a4d390b3acdb71cbae96d02
 
 pkgname = ruby-network_interface
-
