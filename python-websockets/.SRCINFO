@@ -1,17 +1,21 @@
 pkgbase = python-websockets
 	pkgdesc = Python implementation of the WebSocket Protocol (RFC 6455)
-	pkgver = 9.1
-	pkgrel = 1
+	pkgver = 10.1
+	pkgrel = 2
 	url = https://github.com/aaugustin/websockets
 	arch = x86_64
 	license = BSD
 	makedepends = python-setuptools
 	makedepends = python-sphinx
-	makedepends = python-sphinx-autodoc-typehints
+	makedepends = python-sphinx-copybutton
+	makedepends = python-sphinx-furo
+	makedepends = python-sphinx-inline-tabs
+	makedepends = python-sphinxcontrib-spelling
 	makedepends = python-sphinxcontrib-trio
+	makedepends = python-sphinxext-opengraph
 	depends = python
-	source = https://github.com/aaugustin/websockets/archive/9.1/python-websockets-9.1.tar.gz
-	sha512sums = ff2907a913ff0b8ced6dda72b6fc6512a2ece3ffded2e2dcb8ff6805de9ad504430cc1871c1f6e02ab8069e7b96b2e7609afaf3c9c25f9271b28e2daa72bd3ac
-	b2sums = cb3807f01e1a4c22a40bf5150d1e8b21ca786dc5bc4da8f3e6602971f3f7c79b57092f5ddfe3ee52ec00e7fd15f3a992fdbb94b5e26599f2621a7f51434ba6dd
+	source = https://github.com/aaugustin/websockets/archive/10.1/python-websockets-10.1.tar.gz
+	sha512sums = c284ec92bc133c7083a72d4f364d9ace13d3eb6d7355ae46084d8097c137cdec3933cae9d5ab72d8a517af38328cea6c39877f747f5386df54a7362271cc7e7b
+	b2sums = 425e7c8597f081874127ac75003aed11ebb2cf647ce9fed9e17c955e485a7a59c95d1112524d3f0d747b796b0cc41972258661c9fc9c7972f68aaebe3223b596
 
 pkgname = python-websockets
