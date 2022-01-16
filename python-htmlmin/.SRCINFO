@@ -1,7 +1,7 @@
 pkgbase = python-htmlmin
 	pkgdesc = Configurable HTML Minifier with safety features
 	pkgver = 0.1.12
-	pkgrel = 6
+	pkgrel = 8
 	url = https://htmlmin.readthedocs.io/en/latest/
 	arch = any
 	license = BSD
@@ -20,4 +20,3 @@ pkgname = htmlmin
 
 pkgname = python-htmlmin
 	depends = python
-
