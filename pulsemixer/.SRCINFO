@@ -1,7 +1,7 @@
 pkgbase = pulsemixer
 	pkgdesc = CLI and curses mixer for pulseaudio
 	pkgver = 1.5.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/GeorgeFilipkin/pulsemixer
 	arch = any
 	license = MIT
@@ -13,4 +13,3 @@ pkgbase = pulsemixer
 	b2sums = 4a20be7b6499501adc64f5ac33b30ad1ea9418190104fbf452e1ed2bd3585552033c042554948b78b41e6a48c22ac62a42f4117b0311300bda738f7556ef1dc3
 
 pkgname = pulsemixer
-
