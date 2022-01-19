@@ -1,7 +1,7 @@
 pkgbase = gradle
 	pkgdesc = Powerful build system for the JVM
 	pkgver = 7.3.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gradle.org/
 	arch = any
 	license = Apache
@@ -14,6 +14,10 @@ pkgbase = gradle
 	makedepends = java-environment=11
 	depends = java-environment
 	depends = bash
+	depends = which
+	depends = coreutils
+	depends = findutils
+	depends = sed
 	source = https://services.gradle.org/distributions/gradle-7.3.3-src.zip
 	source = gradle.sh
 	sha256sums = 0232a17d15999ed533b37b0b4cd5f0059ccf0943f4338cae2a21e4d595a83684
