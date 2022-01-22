@@ -1,7 +1,7 @@
 pkgbase = ruby-sqlite3
 	pkgdesc = Ruby bindings for the SQLite3 embedded database
 	pkgver = 1.4.2
-	pkgrel = 3
+	pkgrel = 5
 	url = https://github.com/luislavena/sqlite3-ruby
 	arch = x86_64
 	license = BSD
@@ -15,8 +15,10 @@ pkgbase = ruby-sqlite3
 	depends = sqlite
 	options = !emptydirs
 	source = https://github.com/sparklemotion/sqlite3-ruby/archive/v1.4.2/ruby-sqlite3-v1.4.2.tar.gz
+	source = ruby-sqlite3-fix-tests.patch::https://github.com/sparklemotion/sqlite3-ruby/commit/f687023b58e2bd7ab793ecf4dcf1452d439a944f.patch
 	sha256sums = 7e876104c0feb6e0e69befc3f6055fb7f20f37b13a667c8f9782d22272f37479
+	sha256sums = 3bcc0b1848189c7fafd5b2bcb5a2ea51a8eba4d1b06788d497b306585d17b49e
 	sha512sums = c30938f0ad835e23f9e857323ea654d111d1ef5d6f055471ca5f8f080bcdcbb56ac773be9aab34b6432cdb53d69a842c99dcebbd3ea9808967f04907863abc89
+	sha512sums = 57f3c3cbfb89fbe208dd2b85e7ddd68781cfb1094b8e43753a7cf8e907b6d31b597355ea268a529c30c985f7ff9d8367a1bb2090d33652f5abe2a2413ecb65f4
 
 pkgname = ruby-sqlite3
-
