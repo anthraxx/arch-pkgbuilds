@@ -1,7 +1,7 @@
 pkgbase = brotli
 	pkgdesc = Generic-purpose lossless compression algorithm
 	pkgver = 1.0.9
-	pkgrel = 2
+	pkgrel = 7
 	url = https://github.com/google/brotli
 	arch = x86_64
 	license = MIT
@@ -29,4 +29,3 @@ pkgname = python-brotli
 pkgname = brotli-testdata
 	pkgdesc = Generic-purpose lossless compression algorithm - test data
 	depends = 
-
