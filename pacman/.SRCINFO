@@ -1,7 +1,7 @@
 pkgbase = pacman
 	pkgdesc = A library-based package manager with dependency support
 	pkgver = 6.0.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://www.archlinux.org/pacman/
 	arch = x86_64
 	groups = base-devel
@@ -26,12 +26,14 @@ pkgbase = pacman
 	backup = etc/makepkg.conf
 	source = https://sources.archlinux.org/other/pacman/pacman-6.0.1.tar.xz
 	source = https://sources.archlinux.org/other/pacman/pacman-6.0.1.tar.xz.sig
+	source = add-flto-to-LDFLAGS-for-clang.patch
 	source = pacman.conf
 	source = makepkg.conf
 	validpgpkeys = 6645B0A8C7005E78DB1D7864F99FFE0FEAE999BD
 	validpgpkeys = B8151B117037781095514CA7BBDFFC92306B1121
 	sha256sums = 0db61456e56aa49e260e891c0b025be210319e62b15521f29d3e93b00d3bf731
 	sha256sums = SKIP
+	sha256sums = 82ff91b85f4c6ceba19f9330437e2a22aabc966c2b9e2a20a53857f98a42c223
 	sha256sums = 606e55f06c297d2b508bc4438890b229a1abaa68b0374a2d7f94c8e7be6792d7
 	sha256sums = 8bf61d04aa67979e58bada8538f62b4b37a58bab1aabe97d6b148da0f4c920d9
 
