@@ -1,7 +1,7 @@
 pkgbase = python-urwid
 	pkgdesc = Curses-based user interface library
 	pkgver = 2.1.2
-	pkgrel = 1
+	pkgrel = 3
 	url = http://urwid.org/
 	arch = x86_64
 	license = LGPL
@@ -14,4 +14,3 @@ pkgbase = python-urwid
 	sha512sums = f102bdde5f5d39d4bce455020bbe4f18290589da0750a3b15b1e2bc8acf8a405f02295d7efa3009877801a36bfbfade92ec963086122e9b133db137d816a1ea5
 
 pkgname = python-urwid
-
