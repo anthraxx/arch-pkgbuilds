@@ -1,7 +1,7 @@
 pkgbase = python-pyelftools
 	pkgdesc = Python library for analyzing ELF files and DWARF debugging information
 	pkgver = 0.27
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/eliben/pyelftools
 	arch = any
 	license = custom:Public Domain
@@ -14,4 +14,3 @@ pkgbase = python-pyelftools
 	b2sums = 74e6e17c68b197d0ecdddedba81a96601003c41a9c095bc72dff7630511705d36d1bc2732005a87ad1420c99497d729c5b771eca7bf5409c0da77d7b348d9c1b
 
 pkgname = python-pyelftools
-
