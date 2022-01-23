@@ -1,7 +1,7 @@
 pkgbase = avidemux
 	pkgdesc = Graphical tool to edit video (filter/re-encode/split)
-	pkgver = 2.7.8
-	pkgrel = 3
+	pkgver = 2.8.0
+	pkgrel = 1
 	url = http://fixounet.free.fr/avidemux/
 	arch = x86_64
 	license = GPL2
@@ -38,15 +38,12 @@ pkgbase = avidemux
 	makedepends = libfdk-aac
 	makedepends = libass
 	options = !emptydirs
-	source = https://downloads.sourceforge.net/avidemux/avidemux_2.7.8.tar.gz
+	source = https://downloads.sourceforge.net/avidemux/avidemux_2.8.0.tar.gz
 	source = log.diff
-	source = qt-5.15.diff
-	sha256sums = 628a404f521ff2812760700ae3e2aa78e5816b0ff3fb6fd05ac3e75248d97401
+	sha256sums = d1ec6f5277e51228ecf0ee1ca89fae24c591f520f87ce96fabec8818d04de33b
 	sha256sums = 8b751d137037f22fd4ae6750709014bcf61269a18f1c32e1a91f481285c807aa
-	sha256sums = 255a2446d493503dc237482f6fe26e2186f0ea0ef43ac9e17b8059fe232aad43
-	sha512sums = d936eb005a8418b8f3081fce599cd04bb1a256bb7cb4bf50bf2ed876658881ca76b8c6f3805da9f05614eea44eaf2d53da0f802b28ce76e754b738f2682df031
+	sha512sums = 39905f85dbb97c455a499525541afefe262f99ce24bbacdf55ec70277325d3076546fb8a521ea4bfd88ecdcf2d04c117680346ee899f0b3198aa4b464f1f7b80
 	sha512sums = bbae5b4a549113b12e728c4c0ac8c1c92a0b7500be8dcecc791c16c9a913406feaa9f7bc477985970a920d2df391cc9392457512d84b9c4b829981cc072f2b2e
-	sha512sums = ed78c2a3e4ede4fed1d3ea353c7dc350dc73050f76c8112cb24d97b3eda01f7c186d5db199f71f56953c5e5d8104de44dc0e84e1bfa01b6647c050c11fc375f2
 
 pkgname = avidemux-cli
 	depends = libxml2
@@ -75,7 +72,7 @@ pkgname = avidemux-cli
 
 pkgname = avidemux-qt
 	pkgdesc = Graphical tool to edit video (filter/re-encode/split) - Qt GUI
-	depends = avidemux-cli=2.7.8
+	depends = avidemux-cli=2.8.0
 	depends = qt5-base
 	depends = x264
 	depends = x265
