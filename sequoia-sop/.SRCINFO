@@ -1,6 +1,6 @@
 pkgbase = sequoia-sop
 	pkgdesc = Implementation of the Stateless OpenPGP Interface using Sequoia
-	pkgver = 0.24.0
+	pkgver = 0.25.0
 	pkgrel = 1
 	url = https://sequoia-pgp.org/
 	arch = x86_64
@@ -17,7 +17,7 @@ pkgbase = sequoia-sop
 	depends = libbz2.so
 	depends = gcc-libs
 	depends = gmp
-	source = sequoia-sop::git+https://gitlab.com/sequoia-pgp/sequoia-sop.git#tag=v0.24.0?signed
+	source = sequoia-sop::git+https://gitlab.com/sequoia-pgp/sequoia-sop.git#tag=v0.25.0?signed
 	validpgpkeys = D2F2C5D45BE9FDE6A4EE0AAF31855247603831FD
 	validpgpkeys = CBCD8F030588653EEDD7E2659B7DD433F254904A
 	sha512sums = SKIP
