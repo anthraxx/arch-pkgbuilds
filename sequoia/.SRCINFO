@@ -26,6 +26,7 @@ pkgbase = sequoia
 	makedepends = libhogweed.so
 	makedepends = libnettle.so
 	options = !makeflags
+	options = !lto
 	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=openpgp/v1.6.0?signed
 	validpgpkeys = D2F2C5D45BE9FDE6A4EE0AAF31855247603831FD
 	validpgpkeys = CBCD8F030588653EEDD7E2659B7DD433F254904A
