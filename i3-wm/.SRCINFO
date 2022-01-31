@@ -1,7 +1,7 @@
 pkgbase = i3-wm
 	pkgdesc = Improved dynamic tiling window manager
 	pkgver = 4.20.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://i3wm.org
 	arch = x86_64
 	groups = i3
@@ -27,6 +27,7 @@ pkgbase = i3-wm
 	optdepends = perl-json-xs: for i3-save-tree
 	replaces = i3
 	replaces = i3bar
+	options = debug
 	backup = etc/i3/config
 	source = https://i3wm.org/downloads/i3-4.20.1.tar.xz
 	source = https://i3wm.org/downloads/i3-4.20.1.tar.xz.asc
