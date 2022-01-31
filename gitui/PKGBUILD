@@ -4,7 +4,7 @@
 # Contributor: Wesley Moore <wes@wezm.net>
 
 pkgname=gitui
-pkgver=0.19.0
+pkgver=0.20.1
 pkgrel=1
 pkgdesc='Blazing fast terminal-ui for git written in Rust'
 url='https://github.com/extrawurst/gitui'
@@ -13,8 +13,8 @@ license=('MIT')
 depends=('gcc-libs' 'libgit2' 'libgit2.so' 'libxcb' 'zlib')
 makedepends=('cargo' 'python') # xcb crate needs python
 source=("${url}/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('bcbffb592a5ae49658c79ac7b0daefe4bac3d2b988fdbaf0e868b8c308962f0d')
-b2sums=('406dbe4b10b0fb3444d137d30a7054857924664a0f5c6c687c12dbf5d4d9875179e81fd404f568dc198477de723bed0fb872052346037c130b6f9b7d2ccfec75')
+sha256sums=('eccec120dfd4c5c33a74d331a53f3d0c6cb7200e26b0c4c7873278eb951bc379')
+b2sums=('5954a7eac325f6e15a94380618100b52fa5e121fa12da9a99c65b2693aaec2d7ceb2bbef67529775ac8e6e2dc8529df20990c762785262e0416c84b9b0c14868')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
@@ -23,6 +23,7 @@ prepare() {
 
 build() {
   cd "${pkgname}-${pkgver}"
+  CFLAGS+=' -ffat-lto-objects'
   cargo build --frozen --release
 }
 
