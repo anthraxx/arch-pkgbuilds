@@ -1,6 +1,6 @@
 pkgbase = python-tweepy
 	pkgdesc = Python library for accessing the entire Twitter API
-	pkgver = 4.4.0
+	pkgver = 4.5.0
 	pkgrel = 1
 	url = https://www.tweepy.org/
 	arch = any
@@ -16,8 +16,8 @@ pkgbase = python-tweepy
 	depends = python-requests-oauthlib
 	depends = python-six
 	depends = python-pysocks
-	source = https://github.com/tweepy/tweepy/archive/v4.4.0/tweepy-4.4.0.tar.gz
-	sha256sums = 37c83a259841aad98d0d1b6d14170da7032b0eb7590355767b8e7c54df3294db
-	sha512sums = 04a03161f19e90c417f35afad0cea17c798519f03f9d1fb5242e35fd8b672a98af89726edfe41c22b866606b35432c3faa9840251ca9f17430f36d20f6a0152c
+	source = https://github.com/tweepy/tweepy/archive/v4.5.0/tweepy-4.5.0.tar.gz
+	sha256sums = d17e2619017b704f13a3d8e3cd836533e61bdf7d943b67f135ac31cf621e1b4a
+	sha512sums = a246c7129b3c23ea14eaf439ce1595000961587a57bdc9dcc4852617b8531efcb764059b0448843fc06bc792f44d8cf24bd7a8e3bfaf5674078155d1f2059515
 
 pkgname = python-tweepy
