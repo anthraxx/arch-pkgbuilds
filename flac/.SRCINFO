@@ -1,28 +1,24 @@
 pkgbase = flac
 	pkgdesc = Free Lossless Audio Codec
-	pkgver = 1.3.3
-	pkgrel = 3
+	pkgver = 1.3.4
+	pkgrel = 2
 	url = https://xiph.org/flac/
 	arch = x86_64
 	license = BSD
 	license = GPL
 	makedepends = nasm
 	makedepends = doxygen
+	makedepends = cmake
+	makedepends = ninja
 	depends = gcc-libs
 	depends = libogg
-	source = https://downloads.xiph.org/releases/flac/flac-1.3.3.tar.xz
-	source = https://github.com/xiph/flac/commit/2e7931c.patch
-	source = https://github.com/xiph/flac/commit/ced7f68.patch
-	sha512sums = d6417e14fab0c41b2df369e5e39ce62a5f588e491af4d465b0162f74e171e5549b2f061867f344bfbf8aaccd246bf5f2acd697e532a2c7901c920c69429b1a28
-	sha512sums = 56182fb46cbefcd34137ec0e93ec540bc029e1e2cb4787444178ee941ae03cc73bd360c87ec3735a6ca524044d28f22253fe37a42fdb93aea7def65178ea663b
-	sha512sums = c5f17f6afa7358ba1dd610b7fe9d576f217ac7f71a8edf7833cfa2ed6a971a8d2c69468e96c35b97ffb6b019cb1be89dc23fe839ee19e445a6eef6cc74d2f435
+	source = https://downloads.xiph.org/releases/flac/flac-1.3.4.tar.xz
+	sha512sums = 4a626e8a1bd126e234c0e5061e3b46f3a27c2065fdfa228fd8cf00d3c7fa2c05fafb5cec36acce7bfce4914bfd7db0b2a27ee15decf2d8c4caad630f62d44ec9
 
 pkgname = flac
 	provides = libFLAC.so
 	provides = libFLAC++.so
-	options = !docs
 
 pkgname = flac-doc
 	pkgdesc = Free Lossless Audio Codec documentation
-	depends = flac
-
+	depends = 
