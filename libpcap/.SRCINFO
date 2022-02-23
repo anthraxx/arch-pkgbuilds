@@ -1,7 +1,7 @@
 pkgbase = libpcap
 	pkgdesc = A system-independent interface for user-level packet capture
 	pkgver = 1.10.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.tcpdump.org/
 	arch = x86_64
 	license = BSD
@@ -11,6 +11,7 @@ pkgbase = libpcap
 	depends = libnl
 	depends = sh
 	provides = libpcap.so
+	options = debug
 	source = https://www.tcpdump.org/release/libpcap-1.10.1.tar.gz
 	source = https://www.tcpdump.org/release/libpcap-1.10.1.tar.gz.sig
 	validpgpkeys = 1F166A5742ABB9E0249A8D30E089DEF1D9C15D0D
