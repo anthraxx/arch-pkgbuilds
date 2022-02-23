@@ -1,6 +1,6 @@
 pkgbase = reprotest
 	pkgdesc = Run a process twice and check the output for reproducibility
-	pkgver = 0.7.18
+	pkgver = 0.7.19
 	pkgrel = 2
 	url = https://salsa.debian.org/reproducible-builds/reprotest
 	arch = any
@@ -16,10 +16,11 @@ pkgbase = reprotest
 	depends = diffoscope
 	depends = fakeroot
 	depends = python-distro
+	depends = python-wheel
 	depends = libfaketime
 	optdepends = disorderfs: to enable the shuffle-dirents option
 	optdepends = python-progressbar: to show a progress bar during diffoscope
-	source = git+https://salsa.debian.org/reproducible-builds/reprotest.git?signed#tag=0.7.18
+	source = git+https://salsa.debian.org/reproducible-builds/reprotest.git?signed#tag=0.7.19
 	validpgpkeys = A405E58AB3725B396ED1B85C1318EFAC5FBBDBCE
 	validpgpkeys = 66AE2B4AFCCF3F52DA184D184B043FCDB9444540
 	validpgpkeys = 8B7868786C33E5C64C4D0A480816B9E18C762BAD
