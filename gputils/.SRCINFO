@@ -1,0 +1,12 @@
+pkgbase = gputils
+	pkgdesc = PIC Programming Utilities
+	pkgver = 1.5.2
+	pkgrel = 1
+	url = http://gputils.sourceforge.net/
+	arch = x86_64
+	license = GPL
+	depends = glibc
+	source = https://downloads.sourceforge.net/sourceforge/gputils/gputils-1.5.2.tar.gz
+	md5sums = 9495688c1cdcfd75bf4570ec50fad52d
+
+pkgname = gputils
