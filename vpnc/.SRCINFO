@@ -1,7 +1,7 @@
 pkgbase = vpnc
 	pkgdesc = VPN client for cisco3000 VPN Concentrators
-	pkgver = 0.5.3.r496.r153
-	pkgrel = 2
+	pkgver = 0.5.3.r501.r196
+	pkgrel = 1
 	epoch = 1
 	url = https://github.com/streambinder/vpnc
 	arch = x86_64
@@ -13,10 +13,12 @@ pkgbase = vpnc
 	depends = which
 	optdepends = openresolv: Let vpnc manage resolv.conf
 	backup = etc/vpnc/default.conf
-	source = vpnc::git+https://github.com/streambinder/vpnc#commit=43780cecd7a61668002f73b6f8b9f9ba61af74ad
-	source = vpnc-scripts::git+https://gitlab.com/openconnect/vpnc-scripts.git#commit=8fff06090ed193c4a7285e9a10b42e6679e8ecf3
+	source = vpnc::git+https://github.com/streambinder/vpnc#commit=249d8fcd0ac25b735638bbe31e86a591acd61348
+	source = vpnc-scripts::git+https://gitlab.com/openconnect/vpnc-scripts.git#commit=92fe06f6589dcc21725c51b8f86051482bf3b1bd
+	source = git+https://github.com/streambinder/vpnc.wiki.git
 	source = vpnc.conf
 	source = vpnc@.service
+	sha512sums = SKIP
 	sha512sums = SKIP
 	sha512sums = SKIP
 	sha512sums = ac70712192c01ff638a9badc5cff7105bee5c4fed5d3a3b728e9597661952d156041c82fe1e544e2bab602d193d4105d3689c79c46d964623f6ce38dd89f0ea7
