@@ -1,13 +1,13 @@
 pkgbase = pegtl
 	pkgdesc = Parsing Expression Grammar Template Library
-	pkgver = 3.2.2
+	pkgver = 3.2.5
 	pkgrel = 1
 	url = https://github.com/taocpp/PEGTL
 	arch = any
 	license = MIT
 	makedepends = git
 	makedepends = cmake
-	source = pegtl::git+https://github.com/taocpp/PEGTL#commit=1643777c2d8cfe01668e217aa7d4cbd6b9f173ba?signed
+	source = pegtl::git+https://github.com/taocpp/PEGTL#commit=eeba7fa1180655bd683be620cc31be35607442ca?signed
 	validpgpkeys = 3AC06334B62566C11A5912FB014C496DEC39EB21
 	sha512sums = SKIP
 
