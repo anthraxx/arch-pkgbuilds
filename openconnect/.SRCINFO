@@ -1,6 +1,6 @@
 pkgbase = openconnect
 	pkgdesc = Open client for Cisco AnyConnect VPN
-	pkgver = 8.10
+	pkgver = 8.20
 	pkgrel = 1
 	epoch = 1
 	url = https://www.infradead.org/openconnect/
@@ -20,11 +20,10 @@ pkgbase = openconnect
 	optdepends = python: tncc-wrapper
 	provides = libopenconnect.so
 	options = !emptydirs
-	source = ftp://ftp.infradead.org/pub/openconnect/openconnect-8.10.tar.gz
-	source = ftp://ftp.infradead.org/pub/openconnect/openconnect-8.10.tar.gz.asc
+	source = ftp://ftp.infradead.org/pub/openconnect/openconnect-8.20.tar.gz
+	source = ftp://ftp.infradead.org/pub/openconnect/openconnect-8.20.tar.gz.asc
 	validpgpkeys = BE07D9FD54809AB2C4B0FF5F63762CDA67E2F359
-	sha256sums = 30e64c6eca4be47bbf1d61f53dc003c6621213738d4ea7a35e5cf1ac2de9bab1
+	sha256sums = c1452384c6f796baee45d4e919ae1bfc281d6c88862e1f646a2cc513fc44e58b
 	sha256sums = SKIP
 
 pkgname = openconnect
-
