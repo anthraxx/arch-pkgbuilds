@@ -1,6 +1,6 @@
 pkgbase = mtr
 	pkgdesc = Combines the functionality of traceroute and ping into one tool
-	pkgver = 0.94
+	pkgver = 0.95
 	pkgrel = 1
 	url = https://www.bitwizard.nl/mtr/
 	install = mtr.install
@@ -9,14 +9,16 @@ pkgbase = mtr
 	makedepends = ncurses
 	makedepends = gtk2
 	makedepends = libcap
-	source = https://github.com/traviscross/mtr/archive/v0.94/mtr-0.94.tar.gz
-	sha512sums = 0e58bd79562ff80f9308135562ab22aa1f1eea686aefd3aef07bac05e661e34b60fde7c66c96bf4f0919f546376fbd6106ecd8fa92328c24f6f903097496bf11
-	b2sums = e9b4619a85a515d729f0987d5882fb91e4bfa3be82476efbfdb832d0b13ed334be1c1a1bcf8ab4ca820002e79ca4a24d0b50f2739d9284b7dec0b8852a1a91e0
+	makedepends = gdk-pixbuf2
+	source = https://github.com/traviscross/mtr/archive/v0.95/mtr-0.95.tar.gz
+	sha512sums = a7d69e0c551a10ae80a650a34588119e6c6b124a8c2c93d3de29e5daa6ef99f9217d875529d443c3760cd6fd7bd04d1e9abe33ef12635826c66a98bd776c1690
+	b2sums = 3c972675b97945b96562802c5d0f10de963160682c93c0ea2991b72eca33d136d18948c5e746ca3dfb280ebc9c3ab154e7774f8409ed4e5f7470a8feb128e71b
 
 pkgname = mtr
 	pkgdesc = Combines the functionality of traceroute and ping into one tool (CLI version)
 	depends = ncurses
 	depends = libcap
+	depends = libncursesw.so
 	optdepends = bash-completion: bash completion support
 
 pkgname = mtr-gtk
@@ -24,7 +26,12 @@ pkgname = mtr-gtk
 	depends = ncurses
 	depends = libcap
 	depends = gtk2
+	depends = gdk-pixbuf2
+	depends = libgtk-x11-2.0.so
+	depends = libgdk_pixbuf-2.0.so
+	depends = libgobject-2.0.so
+	depends = libglib-2.0.so
+	depends = libncursesw.so
 	optdepends = bash-completion: bash completion support
-	provides = mtr=0.94
+	provides = mtr=0.95
 	conflicts = mtr
-
