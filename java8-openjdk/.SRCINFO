@@ -1,5 +1,5 @@
 pkgbase = java8-openjdk
-	pkgver = 8.332.u02
+	pkgver = 8.332.u03
 	pkgrel = 1
 	url = https://openjdk.java.net/
 	arch = x86_64
@@ -9,15 +9,17 @@ pkgbase = java8-openjdk
 	makedepends = cpio
 	makedepends = unzip
 	makedepends = zip
+	makedepends = git
+	makedepends = bash
 	makedepends = libxrender
 	makedepends = libxtst
 	makedepends = fontconfig
 	makedepends = libcups
 	makedepends = alsa-lib
 	options = !lto
-	source = https://github.com/openjdk/jdk8u/archive/jdk8u332-b02.tar.gz
+	source = git+https://github.com/openjdk/jdk8u.git#tag=jdk8u332-b03
 	source = gcc11.patch
-	sha256sums = 1acb39a0250a1f94eb8ccf2e4357c5681d8e5208e8e870c16042c87077db9902
+	sha256sums = SKIP
 	sha256sums = e1e9452b2078c3e9b45aa73491f3f187e7a9abbc40b6a7fc9239d4e5e525569e
 
 pkgname = jre8-openjdk-headless
@@ -35,7 +37,7 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.332.u02-1
+	depends = jre8-openjdk-headless=8.332.u03-1
 	depends = xdg-utils
 	depends = hicolor-icon-theme
 	optdepends = icedtea-web: web browser plugin + Java Web Start
@@ -50,7 +52,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.332.u02-1
+	depends = jre8-openjdk=8.332.u03-1
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
