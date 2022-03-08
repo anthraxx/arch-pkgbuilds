@@ -1,17 +1,18 @@
 pkgbase = ncdu
 	pkgdesc = Disk usage analyzer with an ncurses interface
-	pkgver = 1.16
-	pkgrel = 2
+	pkgver = 2.1
+	pkgrel = 1
 	url = https://dev.yorhel.nl/ncdu
 	arch = x86_64
 	license = MIT
+	makedepends = zig
 	depends = ncurses
-	source = https://dev.yorhel.nl/download/ncdu-1.16.tar.gz
-	source = https://dev.yorhel.nl/download/ncdu-1.16.tar.gz.asc
+	source = https://dev.yorhel.nl/download/ncdu-2.1.tar.gz
+	source = https://dev.yorhel.nl/download/ncdu-2.1.tar.gz.asc
 	validpgpkeys = 74460D32B80810EBA9AFA2E962394C698C2739FA
-	sha256sums = 2b915752a183fae014b5e5b1f0a135b4b408de7488c716e325217c2513980fd4
+	sha256sums = 4ba8d20a64a55cc00af2d2c6138afcc9dc25e40a5ed6a8c544cb9e2285a195fe
 	sha256sums = SKIP
-	b2sums = 61d004581bdcf1885bec24d0a1de4fc890fe91bba511abbdbc507a48f31946caf5c7324979e8410e53cfca8ada1b20342b737dc4e8b1f034f2fca5aea84e4369
+	b2sums = 9dd90b63ad7edbd402b0cdab7f5aa5263c6df562afb15229b5c2b6143cf7efc7af94fabcd710593b2fd94fca02742e08b401fc0103b1154c6cd278f5709eeef8
 	b2sums = SKIP
 
 pkgname = ncdu
