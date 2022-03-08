@@ -1,7 +1,7 @@
 pkgbase = impacket
 	pkgdesc = Collection of classes for working with network protocols
-	pkgver = 0.9.23
-	pkgrel = 2
+	pkgver = 0.9.24
+	pkgrel = 1
 	url = https://github.com/CoreSecurity/impacket
 	arch = any
 	license = Apache
@@ -17,8 +17,8 @@ pkgbase = impacket
 	depends = python-six
 	depends = python-ldap3
 	depends = python-flask
-	source = https://github.com/CoreSecurity/impacket/archive/impacket_0_9_23.tar.gz
-	sha256sums = 398f006b0ecfe85aff01b77e1d6df51df482c614dfa2f24e6fc2bc5b349ffa11
-	sha512sums = 1a19621f03a4ad6a92001deeca1399582bf3a2e92ebccba214f17d563b65c4da22ea9651d2c84fcdc30ecc42103107a36ea1d14c9dd833788ab0b2c046132e45
+	source = https://github.com/CoreSecurity/impacket/archive/impacket_0_9_24.tar.gz
+	sha256sums = da3a6ff23122576d805d6841561f7de8a3edbd9e706a5acdb156d12982cae099
+	sha512sums = 4e5ca6554353c0e6d73ba9feaf93338961862cc17d176fdf7cf734306a385ecadf1febbd06cf1ddbd179de8941b52768678dbf3f86c106a27f0992aa002305c0
 
 pkgname = impacket
