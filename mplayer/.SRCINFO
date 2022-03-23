@@ -1,7 +1,7 @@
 pkgbase = mplayer
 	pkgdesc = Media player for Linux
-	pkgver = 38322
-	pkgrel = 3
+	pkgver = 38359
+	pkgrel = 1
 	url = http://www.mplayerhq.hu/
 	arch = x86_64
 	license = GPL
@@ -79,7 +79,7 @@ pkgbase = mplayer
 	makedepends = libmpeg2
 	options = !emptydirs
 	options = !lto
-	source = mplayer-38322::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38322
+	source = mplayer-38359::svn://svn.mplayerhq.hu/mplayer/trunk#revision=38359
 	source = mplayer.desktop
 	source = include-samba-4.0.patch
 	sha512sums = SKIP
