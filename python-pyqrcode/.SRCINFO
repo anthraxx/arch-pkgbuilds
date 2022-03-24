@@ -1,0 +1,19 @@
+pkgbase = python-pyqrcode
+	pkgdesc = QR code generator written purely in Python with SVG, EPS, PNG and terminal output
+	pkgver = 1.2.1
+	pkgrel = 5
+	url = https://github.com/mnooner256/pyqrcode
+	arch = any
+	license = BSD
+	checkdepends = python-nose
+	checkdepends = python-pypng
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python
+	optdepends = python-pypng: PNG generation support
+	source = python-pyqrcode-1.2.1.tar.gz::https://github.com/mnooner256/pyqrcode/archive/674a77b5eaf850d063f518bd90c243ee34ad6b5d.tar.gz
+	sha512sums = 87a307e57d470153b37cccd3e79c8e04fc8de63cc7ffce313a7cc7d7e7f53b2979125ac3680a4b261fe0eeffd476e7934fa189a679f9370d690113811cc750b8
+	b2sums = b192c55f3e6fb5c6d2c5f245d34fc909fbaaa582586a2a60526a98fb83079136358a0012d98e0772fb73eecb5133fecb643525fae05de8eede10b6f7a6662f08
+
+pkgname = python-pyqrcode
