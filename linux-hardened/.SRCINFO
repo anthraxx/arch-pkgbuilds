@@ -1,6 +1,6 @@
 pkgbase = linux-hardened
 	pkgdesc = Security-Hardened Linux
-	pkgver = 5.15.31.hardened1
+	pkgver = 5.16.17.hardened1
 	pkgrel = 1
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
@@ -19,19 +19,19 @@ pkgbase = linux-hardened
 	makedepends = graphviz
 	makedepends = imagemagick
 	options = !strip
-	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.15.31.tar.xz
-	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.15.31.tar.sign
-	source = https://github.com/anthraxx/linux-hardened/releases/download/5.15.31-hardened1/linux-hardened-5.15.31-hardened1.patch
-	source = https://github.com/anthraxx/linux-hardened/releases/download/5.15.31-hardened1/linux-hardened-5.15.31-hardened1.patch.sig
+	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.17.tar.xz
+	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.16.17.tar.sign
+	source = https://github.com/anthraxx/linux-hardened/releases/download/5.16.17-hardened1/linux-hardened-5.16.17-hardened1.patch
+	source = https://github.com/anthraxx/linux-hardened/releases/download/5.16.17-hardened1/linux-hardened-5.16.17-hardened1.patch.sig
 	source = config
 	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
-	sha256sums = f621384b47d5bed927910bf5211e7b4ccac925f28218e483bb1a9c484b246b88
+	sha256sums = ceee4d905b47f30140c6f9b815930da90bc09ac4a317e7623fe7e86cc637f1fc
 	sha256sums = SKIP
-	sha256sums = f4cd3c5660c0fd2ee0e07cc847b8484fd3f02205ca37fb743829c6bf83edc05d
+	sha256sums = f039e6df49abdd319ae1446bd09f606ba3edfff19fbe2ed2fd2ba4c8971f0695
 	sha256sums = SKIP
-	sha256sums = 47d5caba78c8604d579962cfda98afb16a6a322411e6049cfe3095b2b1db080d
+	sha256sums = 1b08176830db69ed46b0364687689b66c7158d13a18575a64a40ead0c8ac7fd2
 
 pkgname = linux-hardened
 	pkgdesc = The Security-Hardened Linux kernel and modules
@@ -46,6 +46,7 @@ pkgname = linux-hardened
 
 pkgname = linux-hardened-headers
 	pkgdesc = Headers and scripts for building modules for the Security-Hardened Linux kernel
+	depends = pahole
 
 pkgname = linux-hardened-docs
 	pkgdesc = Documentation for the Security-Hardened Linux kernel
