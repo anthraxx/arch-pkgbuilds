@@ -1,16 +1,21 @@
 pkgbase = python-flask-compress
 	pkgdesc = Compress responses in your Flask app
-	pkgver = 1.10.1
+	pkgver = 1.11
 	pkgrel = 1
 	url = http://pypi.python.org/pypi/Flask-Compress/
 	arch = any
 	license = BSD
+	checkdepends = python-pytest
 	makedepends = python-setuptools
+	makedepends = python-setuptools-scm
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
 	depends = python
 	depends = python-flask
 	depends = python-brotli
-	source = https://pypi.io/packages/source/F/Flask-Compress/Flask-Compress-1.10.1.tar.gz
-	sha256sums = 28352387efbbe772cfb307570019f81957a13ff718d994a9125fa705efb73680
-	sha512sums = fb94aef71f59e38a6058f5ef799c8973d258cf624b1d8bf0a991cac2e4eabb73e2836ce351faa73bc7640720396183212a6dc8d72428b53ceb3473f7b61f0d27
+	source = https://pypi.io/packages/source/F/Flask-Compress/Flask-Compress-1.11.tar.gz
+	sha256sums = f569f32c446d6b25ca8e347d5003a0531811ef732678005b0036fc1c9eb1c21c
+	sha512sums = dd2ceca37eee968527f2008e9356f0ab89f2df46e6d874eff38b93a2cf326c9d24433f0adc8dfe7a7b72599a33f8d173f330aefcd4eea8650923a0466959d7fb
 
 pkgname = python-flask-compress
