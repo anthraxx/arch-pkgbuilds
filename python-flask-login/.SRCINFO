@@ -1,0 +1,19 @@
+pkgbase = python-flask-login
+	pkgdesc = User session management for Flask.
+	pkgver = 0.5.0
+	pkgrel = 5
+	url = https://pythonhosted.org/Flask-Login/
+	arch = any
+	license = MIT
+	checkdepends = python-nose
+	checkdepends = python-mock
+	checkdepends = python-blinker
+	checkdepends = python-semantic-version
+	makedepends = python-setuptools
+	depends = python-flask
+	source = python-flask-login-0.5.0.tar.gz::https://github.com/maxcountryman/flask-login/archive/0.5.0.tar.gz
+	source = python-flask-login-python310.patch::https://github.com/maxcountryman/flask-login/commit/3d316b615f91.patch
+	sha512sums = 8ffecd2a512738f81ec3901ad30d356b1d63355268f7cf1b427e463d0a271a4623723255e139bbd0f88845d73fa4aab051418b5f68aef0b4576c30294f6207b3
+	sha512sums = 0739db32782fac6906d1c5fa871dabc4728a200489566a9e9c2f302a9af877d0a6e79e11f36e865c468aa4dbadf799e2022ea70d9e579164970730e795aca8dc
+
+pkgname = python-flask-login
