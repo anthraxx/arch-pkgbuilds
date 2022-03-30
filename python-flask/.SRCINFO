@@ -1,0 +1,21 @@
+pkgbase = python-flask
+	pkgdesc = Micro webdevelopment framework for Python
+	pkgver = 2.1.0
+	pkgrel = 2
+	url = http://flask.pocoo.org/
+	arch = any
+	license = custom:BSD
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = python-werkzeug
+	depends = python-jinja
+	depends = python-itsdangerous
+	depends = python-click
+	optdepends = python-asgiref: async functions and views
+	optdepends = python-dotenv: loading env vars from files
+	source = python-flask-2.1.0.tar.gz::https://github.com/pallets/flask/archive/2.1.0.tar.gz
+	sha512sums = aac87f68d9123ef8ea8dccbadecc91d6996dc4343fff65b01c8847d176911b4c21b14e4d62788ff734b62987fa35a983ba94d01a5dc8b375209f2875da83c430
+
+pkgname = python-flask
