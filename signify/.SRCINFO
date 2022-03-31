@@ -1,19 +1,18 @@
 pkgbase = signify
 	pkgdesc = OpenBSD tool to signs and verify signatures on files
-	pkgver = 30
+	pkgver = 31
 	pkgrel = 1
 	url = https://github.com/aperezdc/signify
 	arch = x86_64
 	license = BSD
 	depends = glibc
 	depends = libbsd>=0.8
-	source = https://github.com/aperezdc/signify/releases/download/v30/signify-30.tar.xz
-	source = https://github.com/aperezdc/signify/releases/download/v30/signify-30.tar.xz.asc
+	source = https://github.com/aperezdc/signify/releases/download/v31/signify-31.tar.xz
+	source = https://github.com/aperezdc/signify/releases/download/v31/signify-31.tar.xz.asc
 	source = LICENSE
 	validpgpkeys = 5AA3BC334FD7E3369E7C77B291C559DBE4C9123B
-	sha512sums = e760fd89de8a3fea76bd0aa52c683e1d331968620190f4ac487bbca30da00f8d6e2636bbe3c59b0e6fa925b1bbcf81516f50c0bc37707ae7e7465b61fee5c372
+	sha512sums = f39597ea278a7eb10b786909752fde59e16405f0bc76c9906f8014e9e7f6801b4733479eec765fb960b6062359954caf54a3460ff67258a9cff93fa978951962
 	sha512sums = SKIP
 	sha512sums = a587ef19d5481a81945475a2c1dde0fbf8022e0a28db06389c73df1b7118fb94399f5e4523b91df3d846707dcaffff482ae6e58902b6620bf7b2019a8e15efec
 
 pkgname = signify
-
