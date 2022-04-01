@@ -1,6 +1,6 @@
 pkgbase = ruby-pg
 	pkgdesc = Ruby interface to the PostgreSQL RDBMS
-	pkgver = 1.3.3
+	pkgver = 1.3.4
 	pkgrel = 1
 	url = https://github.com/ged/ruby-pg
 	arch = x86_64
@@ -12,7 +12,7 @@ pkgbase = ruby-pg
 	depends = ruby-rspec-core
 	depends = postgresql-libs
 	options = !emptydirs
-	source = ruby-pg::git+https://github.com/ged/ruby-pg.git#commit=0d88a890f8ec7ce8aef10b51acb66c49d21602ff
+	source = ruby-pg::git+https://github.com/ged/ruby-pg.git#commit=a2f34e371c5283c98dd77003623cf317bd93e0b7
 	b2sums = SKIP
 
 pkgname = ruby-pg
