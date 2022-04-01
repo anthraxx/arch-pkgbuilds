@@ -1,55 +1,58 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 # Maintainer: Andreas 'Segaja' Schleifer <segaja at archlinux dot org>
+# Contributor: Daurnimator <daurnimator@archlinux.org>
 # Contributor: Eli Schwartz <eschwartz@archlinux.org>
 # Contributor: lp76 <l.peduto@gmail.com>
 # Contributor: Daenyth <Daenyth+Arch AT gmail DOT com>
 # Contributor: Gaetan Bisson <bisson@archlinux.org>
 
-pkgname=ncdu
-pkgver=2.1
-pkgrel=2
+pkgname='ncdu'
+pkgver=2.1.1
+pkgrel=1
 pkgdesc='Disk usage analyzer with an ncurses interface'
 url='https://dev.yorhel.nl/ncdu'
 license=('MIT')
 depends=('ncurses')
 makedepends=('zig')
 arch=('x86_64')
-source=("https://dev.yorhel.nl/download/${pkgname}-${pkgver}.tar.gz"{,.asc}
-        "hardening.patch")
-sha256sums=('4ba8d20a64a55cc00af2d2c6138afcc9dc25e40a5ed6a8c544cb9e2285a195fe'
-            'SKIP'
-            '833142036e56cd7f8ee111f2e0855f12d305d2ec03925c2f3848a14f7305abbf')
-b2sums=('9dd90b63ad7edbd402b0cdab7f5aa5263c6df562afb15229b5c2b6143cf7efc7af94fabcd710593b2fd94fca02742e08b401fc0103b1154c6cd278f5709eeef8'
-        'SKIP'
-        'bf38e61d425d2d264320fcbf27ad8e3af769aaa2b3df5d51cdaf7176b8aeb84504abb157560d558094afaf1fac406a6b35cc93e769459fda2e34eacf803b210f')
+source=("https://dev.yorhel.nl/download/${pkgname}-${pkgver}.tar.gz"{,.asc})
+sha256sums=('d6c2374ca50d40b6211346972a2e89c9601172fd0704d885eda5b1e09a2a48ed'
+            'SKIP')
+b2sums=('27857c110b80d2b90313d628dd0412dd281948ccae924c9b2b3e870232786f02006658899668e1a342b7f845ef992358cfc0cc06899f3008cb34baddca34951e'
+        'SKIP')
 validpgpkeys=('74460D32B80810EBA9AFA2E962394C698C2739FA') # Yoran Heling <projects@yorhel.nl>
 
-prepare() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
-
-    patch --verbose --strip=1 --input=../hardening.patch
-}
-
 build() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
-    zig build -Drelease-safe -Dcpu=baseline
-
-    make doc
+    # since RELRO is not doable in the zig.build file (https://github.com/ziglang/zig/issues/6977)
+    # we are running zig build-exe directly
+    zig build-exe \
+        -target x86_64-linux.5.10-gnu.2.34 -mcpu baseline \
+        -L /usr/local/lib -L /usr/lib \
+        -isystem /usr/local/include -isystem /usr/include \
+        ./src/main.zig ./src/ncurses_refs.c \
+        -lc -lncursesw \
+        -OReleaseSafe \
+        --name ncdu \
+        -D _DEFAULT_SOURCE -D _XOPEN_SOURCE=600 \
+        -fPIE \
+        -z relro -z now \
+        -fno-each-lib-rpath
 }
 
 check() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
     zig build test
 }
 
 package() {
-    cd "${srcdir}/${pkgname}-${pkgver}"
+    cd "${pkgname}-${pkgver}"
 
-    install -D --mode=755 "./zig-out/bin/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+    install --verbose -D --mode=755 "./${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
 
     make install-doc PREFIX="${pkgdir}/usr"
 
-    install -D --mode=644 LICENSES/MIT.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    install --verbose -D --mode=644 LICENSES/MIT.txt "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
