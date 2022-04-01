@@ -1,7 +1,7 @@
 pkgbase = python-sqlalchemy
 	pkgdesc = Python SQL toolkit and Object Relational Mapper
-	pkgver = 1.4.15
-	pkgrel = 2
+	pkgver = 1.4.34
+	pkgrel = 1
 	url = https://www.sqlalchemy.org/
 	arch = x86_64
 	license = MIT
@@ -12,11 +12,10 @@ pkgbase = python-sqlalchemy
 	depends = python
 	depends = python-greenlet
 	optdepends = python-psycopg2: connect to PostgreSQL database
-	source = https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.4.15.tar.gz
-	source = https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.4.15.tar.gz.asc
+	source = https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.4.34.tar.gz
+	source = https://pypi.io/packages/source/S/SQLAlchemy/SQLAlchemy-1.4.34.tar.gz.asc
 	validpgpkeys = 83AF7ACE251C13E6BB7DEFBD330239C1C4DAFEE1
-	sha512sums = b9a640ccfb7caabb88c4891748699442073db2bea6d1e5a33eb508863616c94ddbf162b3ecd5e502daf20d798d20b8ef5b4b29ed679af9161e117a23862327c2
+	sha512sums = c3158dc2c52dd865d98b84ce4cf0adde38300504d5f5ff61f953927baf8f2264d53255f6e83e2ce2f720529f1e8b3e57e684d56a57fd6a0881bd4f1ba10b373f
 	sha512sums = SKIP
 
 pkgname = python-sqlalchemy
-
