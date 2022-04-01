@@ -1,6 +1,6 @@
 pkgbase = diffoscope
 	pkgdesc = Tool for in-depth comparison of files, archives, and directories
-	pkgver = 207
+	pkgver = 209
 	pkgrel = 1
 	url = https://diffoscope.org/
 	arch = x86_64
@@ -108,12 +108,12 @@ pkgbase = diffoscope
 	optdepends = xxd: xxd utilities support
 	optdepends = xz: XZ and LZMA utilities support
 	optdepends = zstd: zst compression
-	source = https://diffoscope.org/archive/diffoscope-207.tar.bz2
-	source = https://diffoscope.org/archive/diffoscope-207.tar.bz2.asc
+	source = https://diffoscope.org/archive/diffoscope-209.tar.bz2
+	source = https://diffoscope.org/archive/diffoscope-209.tar.bz2.asc
 	validpgpkeys = C2FE4BD271C139B86C533E461E953E27D4311E58
-	sha512sums = 8337c7c20454df7fe81b7901b2e017d11d71982b5b952ca3cd46c9cc2226533ab6822ee44b420aefb673ec5a5663a9b1768194bd2864bcaf807184e8aaed5104
+	sha512sums = 27b0eeb9015d6cd36326d920ebb50c228a75e16dd05e14287124f773ddac41cc71dd4a31774b0d6e59253194a308e0d3b518db3b70fc89f2e790a240baf21077
 	sha512sums = SKIP
-	b2sums = ab44ad2574702a404ab6f38180b5a407f277340ba9254b8162bc15027e6fbf3aacb40e7ee77b4b6b3e66e82e9a137d5a80fd4416da76bcd552f3615d972339ba
+	b2sums = b40fe9ff0a19af897214041f4e5ef97d31e6c8a2b9a1b55c2b3531d35d0f6b7deb57ab8e2c4c598936158852243ef9c5c8c95130be67be4bac547c937d4a80d7
 	b2sums = SKIP
 
 pkgname = diffoscope
