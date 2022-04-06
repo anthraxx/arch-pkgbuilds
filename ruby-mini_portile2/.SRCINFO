@@ -1,6 +1,6 @@
 pkgbase = ruby-mini_portile2
 	pkgdesc = Simple autoconf builder for developers
-	pkgver = 2.7.1
+	pkgver = 2.8.0
 	pkgrel = 1
 	url = https://github.com/flavorjones/mini_portile
 	arch = any
@@ -8,8 +8,8 @@ pkgbase = ruby-mini_portile2
 	makedepends = ruby-rdoc
 	depends = ruby
 	options = !emptydirs
-	source = ruby-mini_portile2-2.7.1.tar.gz::https://github.com/flavorjones/mini_portile/archive/v2.7.1.tar.gz
-	sha256sums = fe57c789e11aa385412a73734ad245db38acb81cc10f693e34a3ca10446263ec
-	sha512sums = 60aba1bb4e54210ffe913e004036f30327e0c8773d96a52fde39493bb1d81a389d2640f7b5e0ef81ed0be4c147bc7700170aa5a2f60554dd465b8e8e2e7b0aff
+	source = https://github.com/flavorjones/mini_portile/archive/v2.8.0/ruby-mini_portile2-2.8.0.tar.gz
+	sha256sums = 33285113315568cbd67659a09b0c596f061517a20bd5c33676810ed02836c2cd
+	sha512sums = c30d9387ee206dc1ef52b779a1e66e3c8a4247bea94009741911246371a74aebbe27c6f92cacc4a74c064fdaac3cec8e926232467377ad5c0fe501629e623b10
 
 pkgname = ruby-mini_portile2
