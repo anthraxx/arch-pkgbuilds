@@ -1,7 +1,7 @@
 pkgbase = iaito
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
 	pkgver = 5.5beta0.r16.g24a2eba2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/radareorg/iaito
 	arch = x86_64
 	license = GPL3
@@ -17,7 +17,6 @@ pkgbase = iaito
 	depends = qt5-webengine
 	depends = icu
 	depends = python
-	depends = jupyter
 	depends = pyside2
 	depends = python-shiboken2
 	depends = graphviz
