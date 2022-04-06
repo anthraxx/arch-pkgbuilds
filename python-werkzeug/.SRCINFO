@@ -1,7 +1,7 @@
 pkgbase = python-werkzeug
 	pkgdesc = Swiss Army knife of Python web development
-	pkgver = 2.1.0
-	pkgrel = 2
+	pkgver = 2.1.1
+	pkgrel = 1
 	url = https://werkzeug.palletsprojects.com/
 	arch = any
 	license = custom:BSD
@@ -18,7 +18,7 @@ pkgbase = python-werkzeug
 	makedepends = python-installer
 	makedepends = python-wheel
 	depends = python
-	source = https://github.com/pallets/werkzeug/archive/2.1.0/python-werkzeug-2.1.0.tar.gz
-	sha512sums = acda1e4037e1d525cbd82ed2310ddf55968d14df6656018b910d7200b51569e88cf58957f94f377deb7fe100db03d30016e9dc91e033a298ad54cb34922be30e
+	source = https://github.com/pallets/werkzeug/archive/2.1.1/python-werkzeug-2.1.1.tar.gz
+	sha512sums = 992b5b0a95db5266d025e06683b04f932def72c3967b2c9903f718c5f2672cf0abadb247cf77029d99b567c9588f5ae03b6b07d566bfd764c738ede53501ba1b
 
 pkgname = python-werkzeug
