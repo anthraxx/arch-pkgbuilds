@@ -2,13 +2,13 @@
 # Contributor: Andreas 'Segaja' Schleifer <archlinux at segaja dot de>
 
 pkgname=aliyun-cli
-_gitcommit=d6b8dfc440dfbec70d5d69402452a95d88e60789
-pkgver=3.0.113
+_gitcommit=40a9f965757462073991abbd99d62534f1c30fb6
+pkgver=3.0.117
 pkgrel=1
 pkgdesc='Alibaba Cloud CLI'
 arch=('x86_64')
 url='https://github.com/aliyun/aliyun-cli'
-license=('APACHE')
+license=('Apache')
 depends=('glibc')
 makedepends=('git' 'go')
 source=("git+${url}#commit=${_gitcommit}"
