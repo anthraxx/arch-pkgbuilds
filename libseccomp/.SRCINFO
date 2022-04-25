@@ -1,7 +1,7 @@
 pkgbase = libseccomp
 	pkgdesc = Enhanced seccomp library
-	pkgver = 2.5.3
-	pkgrel = 3
+	pkgver = 2.5.4
+	pkgrel = 1
 	url = https://github.com/seccomp/libseccomp
 	arch = x86_64
 	license = LGPL2.1
@@ -10,13 +10,13 @@ pkgbase = libseccomp
 	makedepends = cython
 	makedepends = python-setuptools
 	depends = glibc
-	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.3/libseccomp-2.5.3.tar.gz
-	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.3/libseccomp-2.5.3.tar.gz.asc
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.4/libseccomp-2.5.4.tar.gz
+	source = https://github.com/seccomp/libseccomp/releases/download/v2.5.4/libseccomp-2.5.4.tar.gz.asc
 	validpgpkeys = 7100AADFAE6E6E940D2E0AD655E45A5AE8CA7C8A
 	validpgpkeys = 47A68FCE37C7D7024FD65E11356CE62C2B524099
-	sha256sums = 59065c8733364725e9721ba48c3a99bbc52af921daf48df4b1e012fbc7b10a76
+	sha256sums = d82902400405cf0068574ef3dc1fe5f5926207543ba1ae6f8e7a1576351dcbdb
 	sha256sums = SKIP
-	b2sums = cedf04b3a926f9fe5202e6169ddac6b983e755009c14fc1d645157b9c0bcdf65d4085f8ea7abad90f3a0c13ae4d66b5d8306e725168490863aad15976de1eae7
+	b2sums = 38b134cb578f9355667546f92950ebcf8c53ccaf98db568db9aadfa9629c054136849e03d4bf9f09f73998fe66a5e8a9038573d19740b2bddf5518a8a0119229
 	b2sums = SKIP
 
 pkgname = libseccomp
