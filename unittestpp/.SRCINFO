@@ -1,7 +1,7 @@
 pkgbase = unittestpp
 	pkgdesc = Lightweight unit testing framework for C++
 	pkgver = 2.0.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/unittest-cpp/unittest-cpp/
 	arch = x86_64
 	license = MIT
@@ -13,4 +13,3 @@ pkgbase = unittestpp
 	sha512sums = 39318f4ed31534c116679a3257bf1438a6c4b3bef1894dfd40aea934950c6c8197af6a7f61539b8e9ddc67327c9388d7e8a6f8a3e0e966ad26c07554e2429cab
 
 pkgname = unittestpp
-
