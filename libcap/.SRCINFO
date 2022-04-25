@@ -1,7 +1,7 @@
 pkgbase = libcap
 	pkgdesc = POSIX 1003.1e capabilities
-	pkgver = 2.63
-	pkgrel = 2
+	pkgver = 2.64
+	pkgrel = 1
 	url = https://sites.google.com/site/fullycapable/
 	arch = x86_64
 	license = GPL2
@@ -11,12 +11,12 @@ pkgbase = libcap
 	provides = libcap.so
 	provides = libpsx.so
 	options = debug
-	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.63.tar.xz
-	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.63.tar.sign
+	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.64.tar.xz
+	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.64.tar.sign
 	validpgpkeys = 38A644698C69787344E954CE29EE848AE2CCF3F4
-	sha512sums = 832842b71ca32db8f53ca5f1a3010f14e7f42693f62f29632e9948c860f990899bb094165c37307ce8b9e5bc5eb1c833e780ebca98442df3e6d900e4b238834b
+	sha512sums = 3c5cf478cef249585ee1a0dfd75c6b41b0daf4e1ecb59dce894eac5523841aa79ca499be4161f73193dd8e7363edcd51063f3e281930cee939ebd50983eecbaf
 	sha512sums = SKIP
-	b2sums = a49a628f5b9ddf5a3d077428544a53b9cdedf62053ff296a0aa7d61e12ca05f9ba7597f20ee16a3843736bee2417a3d1585ad6b336651fcb3e4ee29b108cfa0f
+	b2sums = 078ce2505a79c1bd4ca0a8eaf3444178bc19a566f0505d28c6959f86fbbac2fe2fc88c06fd0d988087a6e20e8ec66a2633146cea957f0f3fd92eaff4f81d7c66
 	b2sums = SKIP
 
 pkgname = libcap
