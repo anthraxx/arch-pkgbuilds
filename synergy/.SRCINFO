@@ -1,7 +1,7 @@
 pkgbase = synergy
 	pkgdesc = Share a single mouse and keyboard between multiple computers
 	pkgver = 1.10.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://symless.com/synergy/
 	arch = x86_64
 	license = GPL2
@@ -35,4 +35,3 @@ pkgbase = synergy
 	sha512sums = 9663a11b915e10e60317e732a4d1191e8f8ff19176994c27dd20aa445daab7565bd624e5575c9c639d144293879fbe8376834a076723f778fd322ebd1c9f2029
 
 pkgname = synergy
-
