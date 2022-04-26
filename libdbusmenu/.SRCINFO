@@ -1,7 +1,7 @@
 pkgbase = libdbusmenu
 	pkgdesc = Library for passing menus over DBus
 	pkgver = 16.04.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://launchpad.net/libdbusmenu
 	arch = x86_64
 	license = GPL3
@@ -33,4 +33,3 @@ pkgname = libdbusmenu-gtk3
 	pkgdesc = Library for passing menus over DBus (GTK+ 3 library)
 	depends = libdbusmenu-glib
 	depends = gtk3
-
