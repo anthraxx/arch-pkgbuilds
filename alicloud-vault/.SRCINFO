@@ -1,7 +1,7 @@
 pkgbase = alicloud-vault
 	pkgdesc = Vault for securely storing and accessing Alibaba Cloud credentials in development environments
 	pkgver = 1.3.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/arafato/alicloud-vault
 	arch = x86_64
 	license = MIT
@@ -12,4 +12,3 @@ pkgbase = alicloud-vault
 	b2sums = 04bebc0507565494832e507c02a7d04af0052d23997dae94f2dee636841b4bdd414726b7799e7ebc125e74857bb84fd24a68b087e539999a4aaebe32f13a51e3
 
 pkgname = alicloud-vault
-
