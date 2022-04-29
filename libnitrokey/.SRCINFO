@@ -1,6 +1,6 @@
 pkgbase = libnitrokey
 	pkgdesc = Communicate with Nitrokey stick devices in a clean and easy manner
-	pkgver = 3.6
+	pkgver = 3.7
 	pkgrel = 1
 	url = https://www.nitrokey.com
 	arch = x86_64
@@ -13,11 +13,13 @@ pkgbase = libnitrokey
 	depends = hidapi
 	depends = libusb
 	provides = libnitrokey.so
-	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.6/libnitrokey-v3.6.tar.gz
-	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.6/libnitrokey-v3.6.tar.gz.sig
+	options = debug
+	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.7/libnitrokey-v3.7.tar.gz
+	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.7/libnitrokey-v3.7.tar.gz.sig
 	validpgpkeys = 868184069239FF65DE0BCD7DD9BAE35991DE5B22
-	sha512sums = 4ffc465f9c6b7ee672d0d2aa8bfaa891f939816513f5d400e8156316e6708306c62ce9abb9ca55d3467bcc53e8c1203c57b2f5f16e046dd322c89cdec1740b3c
+	sha512sums = 1f9c689a64b99aef8b683c0bca0e0c8b07b51008c18a884571f0c38d1b73deac0d1067f6b93fc7181226655005828299662e75ec0885eaeeca1a5023de2348eb
 	sha512sums = SKIP
+	b2sums = 42afdd903491d24fad80bbaf60efff8b22177aadf1b1b3d9c1c65ba981fe3313c9f5a3140bb4fef59629681537860c899a6bbfca330304afaaf16961f93ba619
+	b2sums = SKIP
 
 pkgname = libnitrokey
-
