@@ -1,5 +1,5 @@
 pkgbase = java-openjfx
-	pkgdesc = Java OpenJFX 17 client application platform (open-source implementation of JavaFX)
+	pkgdesc = Java OpenJFX client application platform (open-source implementation of JavaFX) - latest version
 	pkgver = 18.0.1.u2
 	pkgrel = 1
 	url = https://wiki.openjdk.java.net/display/OpenJFX/Main
