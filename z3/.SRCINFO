@@ -1,6 +1,6 @@
 pkgbase = z3
 	pkgdesc = High-performance theorem prover
-	pkgver = 4.8.15
+	pkgver = 4.8.16
 	pkgrel = 1
 	url = https://github.com/Z3Prover/z3
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = z3
 	makedepends = python
 	makedepends = python-setuptools
 	makedepends = gcc-libs
-	source = https://github.com/Z3Prover/z3/archive/z3-4.8.15.tar.gz
-	sha512sums = 7b08dec5b035a38edc90c4c491f508fd9ed227357de94400169db53d4c59382bd6a81ae6615771023a06534a3aa92668844f0ebfcc2a3b5ef4bba957426a0c6c
+	source = https://github.com/Z3Prover/z3/archive/z3-4.8.16.tar.gz
+	sha512sums = 385f6e1ee075b9eadb5aad338657a81f518eef382b99ce623448a630b79f5d414ebccfd1bb5e959626f0b82ef54a5f20326814ae988b5688d51578de6fb69615
 
 pkgname = z3
 	depends = gcc-libs
