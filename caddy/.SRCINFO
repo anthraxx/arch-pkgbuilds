@@ -1,6 +1,6 @@
 pkgbase = caddy
 	pkgdesc = Fast web server with automatic HTTPS
-	pkgver = 2.4.6
+	pkgver = 2.5.1
 	pkgrel = 1
 	url = https://caddyserver.com
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = caddy
 	makedepends = git
 	depends = glibc
 	backup = etc/caddy/Caddyfile
-	source = git+https://github.com/caddyserver/caddy#tag=v2.4.6?signed
+	source = git+https://github.com/caddyserver/caddy#tag=v2.5.1?signed
 	source = caddy-dist::git+https://github.com/caddyserver/dist#commit=093d76bdd6ecacd8aeb21de3aa0c35b82a0eb064
 	source = caddy.service
 	source = caddy-api.service
