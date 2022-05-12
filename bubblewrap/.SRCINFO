@@ -1,6 +1,6 @@
 pkgbase = bubblewrap
 	pkgdesc = Unprivileged sandboxing tool
-	pkgver = 0.6.1
+	pkgver = 0.6.2
 	pkgrel = 1
 	url = https://github.com/projectatomic/bubblewrap
 	arch = x86_64
@@ -12,12 +12,13 @@ pkgbase = bubblewrap
 	makedepends = bash-completion
 	depends = glibc
 	depends = libcap
-	source = git+https://github.com/projectatomic/bubblewrap#commit=a362d3c0ee79097ce2e3fca4ad003f1e96dad472
+	options = debug
+	source = git+https://github.com/projectatomic/bubblewrap#commit=c54bbc6d7b78e7a45016efe0c4ac8af9d209aa20
 	sha256sums = SKIP
 
 pkgname = bubblewrap
 
 pkgname = bubblewrap-suid
 	pkgdesc = Unprivileged sandboxing tool (setuid variant)
-	provides = bubblewrap=0.6.1-1
+	provides = bubblewrap=0.6.2-1
 	conflicts = bubblewrap
