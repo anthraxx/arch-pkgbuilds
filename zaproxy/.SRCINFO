@@ -1,15 +1,17 @@
 pkgbase = zaproxy
 	pkgdesc = Integrated penetration testing tool for finding vulnerabilities in web applications
 	pkgver = 2.11.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.owasp.org/index.php/ZAP
 	arch = any
 	license = Apache
+	makedepends = gradle
+	makedepends = java-environment=8
 	depends = bash
 	depends = java-runtime
 	depends = ttf-font
-	source = https://github.com/zaproxy/zaproxy/releases/download/v2.11.1/ZAP_2.11.1_Linux.tar.gz
-	sha512sums = e31c0e48b05f6e6baef751ac760f7dbde17431f69f9a14c7280ed68a473b4c1eb5558889b5e45b3e7b09cb9b76208fb86871e67e7a5eee904b21dfa0ba582f11
-	b2sums = e9aa24a4db5c2950eeb1234629a047c677fca8a3b17e657826cc065744aa9d630db4d6394f98e9b6b3cb3a6e7bf09a519c7b1fb24189e2433ee2ae6bbb086e62
+	source = zaproxy-2.11.1.tar.gz::https://github.com/zaproxy/zaproxy/archive/v2.11.1.tar.gz
+	sha512sums = 7018e6a71a4e75c5061f01a36dbdc89b3b8109aa86e81783351e2a2abdbbde2646c6c7cbdc3dd97f628e58506d0feb4467d5f040843c6d09fbd2a341cb9052fa
+	b2sums = 402417e705715c0648d03928078965a1d8958019fe3961c6015bff24da1c6a60f384cb16595c0e339f0c175a1f7a54ec9abd3676b5754d7834314e4183337e59
 
 pkgname = zaproxy
