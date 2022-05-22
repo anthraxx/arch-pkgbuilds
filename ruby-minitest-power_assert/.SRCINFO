@@ -1,0 +1,19 @@
+pkgbase = ruby-minitest-power_assert
+	pkgdesc = Power Assert for Minitest
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/hsbt/minitest-power_assert
+	arch = any
+	license = custom:BSDL
+	makedepends = ruby-rdoc
+	makedepends = ruby-rake
+	makedepends = ruby-bundler
+	depends = ruby
+	depends = ruby-minitest
+	depends = ruby-power_assert
+	options = !emptydirs
+	source = https://github.com/hsbt/minitest-power_assert/archive/v0.3.1/ruby-minitest-power_assert-v0.3.1.tar.gz
+	sha512sums = 96b3d8c1899960a6d035b1de5fde5aba1235b89b7d11e416938269144532eb37afda0fa5896825b3bd74685cebb39fe43b39b9e4714212a7fdb28c396b886666
+	b2sums = 7c2e687f572fb5d25203cdd1448052c6f380ba5f112c87fbb768416039f743869a23518c6d31d530eabfb1599e1c82f70b022a9f6c88bc16cf4ac8e1ea093176
+
+pkgname = ruby-minitest-power_assert
