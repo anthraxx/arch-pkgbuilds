@@ -1,23 +1,25 @@
 pkgbase = nim
 	pkgdesc = Imperative, multi-paradigm, compiled programming language
-	pkgver = 1.4.8
+	pkgver = 1.6.6
 	pkgrel = 1
 	url = https://nim-lang.org/
 	arch = x86_64
 	license = MIT
 	makedepends = git
 	depends = bash
-	optdepends = nimble: Nim package manager
+	provides = nimble
+	conflicts = nimble
+	replaces = nimble
 	options = !emptydirs
 	backup = etc/nim/nim.cfg
 	backup = etc/nim/nimdoc.cfg
 	backup = etc/nim/nimdoc.tex.cfg
 	backup = etc/nim/rename.rules.cfg
-	source = https://github.com/nim-lang/Nim/archive/v1.4.8/nim-1.4.8.tar.gz
-	source = https://github.com/nim-lang/csources/archive/v0.20.0/csources-0.20.0.tar.gz
-	sha256sums = 8a687beb30670dc4eadcfefd1198d4238af283dc716438ac2342a7d65e07d9e9
-	sha256sums = 5e6fd15d90df1a8cb7614c4ffc70aa8c4198cd854d7742016202b96dd0228d3c
-	b2sums = 7059d73cb7e2333911ed0ae1e55398255cfc32fd8732af80657343da9ba977fbdd6753737c7509aac4e7f9160cb9e3e4415f45770ee1cac15aeb780315346010
-	b2sums = a1c026aa4ecd676d938d00f13f749b7c21094f87de98055ef0002bc96cafb81a780b7d82adfa3927bb32b0eb52c8047ac2b2c98d0ab3b9af0dd8c8ebeffad50b
+	source = https://github.com/nim-lang/Nim/archive/v1.6.6/nim-1.6.6.tar.gz
+	source = git+https://github.com/nim-lang/csources_v1.git#commit=561b417c65791cd8356b5f73620914ceff845d10
+	sha256sums = 59836a85c1291b59af699a121b0b765703d6a0e44ed9f3ede363ff2b3e09d527
+	sha256sums = SKIP
+	b2sums = 5e7a986ee17e731815fb58a52747e56900e7d2cdc37c6aafa31378f27b4431b3bab8851c1aa67fd3ddeb235584db3ef8261fa276ce7221a591da780fe6487acd
+	b2sums = SKIP
 
 pkgname = nim
