@@ -1,7 +1,7 @@
 pkgbase = uutils-coreutils
 	pkgdesc = Cross-platform Rust rewrite of the GNU coreutils
-	pkgver = 0.0.13
-	pkgrel = 2
+	pkgver = 0.0.14
+	pkgrel = 1
 	url = https://github.com/uutils/coreutils
 	arch = x86_64
 	license = MIT
@@ -11,9 +11,9 @@ pkgbase = uutils-coreutils
 	depends = glibc
 	depends = gcc-libs
 	options = !lto
-	source = uutils-coreutils-0.0.13.tar.gz::https://github.com/uutils/coreutils/archive/0.0.13.tar.gz
+	source = uutils-coreutils-0.0.14.tar.gz::https://github.com/uutils/coreutils/archive/0.0.14.tar.gz
 	source = tests.patch
-	sha512sums = 80b76c13258945aa85925728141ee0b78de5ca385bd0a6f9d43f5b4008b30ac2ee52fca7f45df094e31f9231b45f2036a97143f9cefb46e8891268fc7e8e0c9b
+	sha512sums = 99a023d192505bafc2cbd25bd1df63d35bb89ef6aca2d5a71404aef95f13d7cc42ceec5ad0cba8b2a63a6e5abefbb5be3e8c2375144b55e0cb47e1e2361d1577
 	sha512sums = 1a84aefb95cf6d4ae7582948c5ab3c357269dcd5b2261006b006f7a1b37d3d2a336c47479ab98a390661ee376b9813408af849a91ba0f2bd2493c6a680e07f2a
 
 pkgname = uutils-coreutils
