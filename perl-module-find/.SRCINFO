@@ -1,7 +1,7 @@
 pkgbase = perl-module-find
 	pkgdesc = Find and use installed perl modules in a (sub)category
 	pkgver = 0.13
-	pkgrel = 7
+	pkgrel = 8
 	url = https://search.cpan.org/dist/Module-Find
 	arch = any
 	license = PerlArtistic
