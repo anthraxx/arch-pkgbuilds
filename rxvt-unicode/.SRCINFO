@@ -1,6 +1,6 @@
 pkgbase = rxvt-unicode
 	pkgver = 9.26
-	pkgrel = 2
+	pkgrel = 3
 	url = http://software.schmorp.de/pkg/rxvt-unicode.html
 	arch = x86_64
 	license = GPL
