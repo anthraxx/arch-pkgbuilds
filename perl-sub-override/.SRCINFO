@@ -1,7 +1,7 @@
 pkgbase = perl-sub-override
 	pkgdesc = Perl extension for easily overriding subroutines
 	pkgver = 0.09
-	pkgrel = 3
+	pkgrel = 4
 	url = https://search.cpan.org/dist/Term-ExtendedColor
 	arch = any
 	license = PerlArtistic
