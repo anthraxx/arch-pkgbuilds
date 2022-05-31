@@ -1,6 +1,6 @@
 pkgbase = asciidoc
 	pkgdesc = Text document format for short documents, articles, books and UNIX man pages
-	pkgver = 10.1.4
+	pkgver = 10.2.0
 	pkgrel = 1
 	url = https://asciidoc.org/
 	arch = any
@@ -23,8 +23,8 @@ pkgbase = asciidoc
 	optdepends = fop: alternative pdf generation
 	optdepends = w3m: text generation
 	optdepends = lynx: alternative text generation
-	source = https://github.com/asciidoc-py/asciidoc-py/releases/download/10.1.4/asciidoc-10.1.4.tar.gz
-	sha256sums = e4da7cc2af7fa12029156c0788fde2a53db1352d7dcb3e674a9d546b3bdba93f
-	b2sums = 86715b0d03fe112483e9e774af1b1bed8f9f88972c5de2b147e86f6501e7639e6683a96c93248efb71cf38f89b15a2ecf0b2d098c4e57af8768e8bedc2ef7e70
+	source = https://github.com/asciidoc-py/asciidoc-py/releases/download/10.2.0/asciidoc-10.2.0.tar.gz
+	sha256sums = 237b2ba5c35c0ae7ccd4cd44ebf1d87c20b2695dae01798954416d492ef7fa0e
+	b2sums = ed5db8fd1432b255e9c03e17805c26c76a42392c2ebeaf839b8c0aaaf38cd1a36d79b645ca4474503181200924df91218eb0997dd82335a30d6a0a1b35eb5730
 
 pkgname = asciidoc
