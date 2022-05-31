@@ -1,7 +1,7 @@
 pkgbase = vim
 	pkgdesc = Vi Improved, a highly configurable, improved version of the vi text editor
-	pkgver = 8.2.4981
-	pkgrel = 1
+	pkgver = 8.2.5037
+	pkgrel = 2
 	url = https://www.vim.org
 	arch = x86_64
 	license = custom:vim
@@ -19,21 +19,21 @@ pkgbase = vim
 	makedepends = zlib
 	makedepends = libcanberra
 	options = debug
-	source = https://github.com/vim/vim/archive/v8.2.4981/vim-8.2.4981.tar.gz
+	source = https://github.com/vim/vim/archive/v8.2.5037/vim-8.2.5037.tar.gz
 	source = vimrc
 	source = archlinux.vim
 	source = vimdoc.hook
-	sha256sums = d1e72c149ba67c71a26b7a8139f8f53988b232a37c6a35a8473feac3ce6b90b8
+	sha256sums = 6bfa733dc38ab5e4c41e05bb370845ca82e582c87ec47a2e9ad1b5ca7ad37cce
 	sha256sums = b16e85e457397ab2043a7ee0a3c84307c6b4eac157fd0b721694761f25b3ed5b
 	sha256sums = cc3d931129854c298eb22e993ec14c2ad86cc1e70a08a64496f5e06559289972
 	sha256sums = 8e9656934d9d7793063230d15a689e10455e6db9b9fe73afa0f294792795d8ae
-	sha512sums = 303353e2098293d0e411feb95754aee6af5d09273698c22b102eca78335865c5bbbd4537d3b76dc39d81bacdbadc1eaffbf15e38c39d5043db2af189d6138981
+	sha512sums = e58354c8bbaddb8fb9654d796471c830ac6172cec8015082a9a06b78b8034d028e4fdf3b24de9954412c08f0631747f997eadc4b0fc9aa178e65ebcd5c68a4c9
 	sha512sums = 4b5bed0813f22af9e158ea9aa56a4a9862dd786ba2d201f20159ccf652da6190164aaed0b6b7217d578f7b25c33a8adcc307bfcf3caa8d173a7ff29e2a00fee7
 	sha512sums = fe091d289d876f45319c898f6021ef86d6a238b540c225a279c46efc5c36fa7d868cd0cee73a111811c4be90df160f85340bb251be3a437727dbe5c699950363
 	sha512sums = a02ad0d66f300160911aeb81d8886c6c558436ac4ee3fcd161dd65c6b1e5d1f41b9005a7f5bb5ba68d57027fc1c8e43daabf055bd6207fb5a216a67f758df8d1
 
 pkgname = vim
-	depends = vim-runtime=8.2.4981-1
+	depends = vim-runtime=8.2.5037-2
 	depends = gpm
 	depends = acl
 	depends = glibc
@@ -54,7 +54,7 @@ pkgname = vim
 
 pkgname = gvim
 	pkgdesc = Vi Improved, a highly configurable, improved version of the vi text editor (with advanced features, such as a GUI)
-	depends = vim-runtime=8.2.4981-1
+	depends = vim-runtime=8.2.5037-2
 	depends = gpm
 	depends = libxt
 	depends = gtk3
@@ -68,7 +68,7 @@ pkgname = gvim
 	optdepends = lua: Lua language support
 	optdepends = perl: Perl language support
 	optdepends = tcl: Tcl language support
-	provides = vim=8.2.4981-1
+	provides = vim=8.2.5037-2
 	provides = xxd
 	provides = vim-plugin-runtime
 	conflicts = vim-minimal
