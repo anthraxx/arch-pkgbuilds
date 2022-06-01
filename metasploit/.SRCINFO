@@ -1,11 +1,12 @@
 pkgbase = metasploit
 	pkgdesc = Advanced open-source platform for developing, testing, and using exploit code
 	pkgver = 6.2.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.metasploit.com/
 	arch = x86_64
 	license = BSD
-	depends = ruby2.7
+	depends = ruby
+	depends = ruby-bundler
 	depends = libpcap
 	depends = postgresql-libs
 	depends = sqlite
