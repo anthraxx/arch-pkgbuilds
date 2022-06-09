@@ -1,14 +1,18 @@
 pkgbase = python-pefile
 	pkgdesc = Python PE parsing module
-	pkgver = 2021.9.3
-	pkgrel = 3
+	pkgver = 2022.5.30
+	pkgrel = 1
 	url = https://github.com/erocarrera/pefile
 	arch = any
 	license = MIT
+	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
 	depends = python
 	depends = python-future
-	source = https://github.com/erocarrera/pefile/archive/v2021.9.3/python-pefile-2021.9.3.tar.gz
-	sha512sums = 57a1e0b8923443c121756ce9303a834d93d7b823cdd6e11be1ea2dd14645f9e473695561787d28c1ab7daef7d5a592cfd530e0246db9c810b8951fd849b0e5e5
-	b2sums = 4701addbe590a4fe7757747f6a2e38953ccda68f9323c460e5a59abf168310c605ffbcd2b163cc344f472ee6f97f19b64e5397cfb9397c507a43ed389815d17f
+	source = https://github.com/erocarrera/pefile/archive/v2022.5.30/python-pefile-2022.5.30.tar.gz
+	sha512sums = 6f3ade22b5a6697947daa000e9436379874bcd0520344580940a64bbb272e22569e648340bdfc37de9aca948864c6375941e785494dc6c6006e3f878fbda1984
+	b2sums = 6b3191ffeb623fad78f9f8be7b5ad4cee7a44d2569cdf2cb72457746e2464a248d8760e47714ee0e1d5d7f7d1bef961616be432f38949cd87eb97d8bf9346dfb
 
 pkgname = python-pefile
