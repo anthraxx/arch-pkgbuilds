@@ -1,7 +1,7 @@
 pkgbase = gtest
 	pkgdesc = Google Test - C++ testing utility
 	pkgver = 1.11.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/google/googletest
 	arch = x86_64
 	license = BSD
@@ -16,8 +16,10 @@ pkgbase = gtest
 	conflicts = gmock
 	replaces = gmock
 	source = googletest-release-1.11.0.tar.gz::https://github.com/google/googletest/archive/release-1.11.0.tar.gz
+	source = gtest-gcc11-fix.patch::https://github.com/google/googletest/commit/d5ad28dbe14fca51038fb8c7610f11602b98f682.patch
 	source = gtest-version.patch
 	sha512sums = 6fcc7827e4c4d95e3ae643dd65e6c4fc0e3d04e1778b84f6e06e390410fe3d18026c131d828d949d2f20dde6327d30ecee24dcd3ef919e21c91e010d149f3a28
+	sha512sums = d566b3e0a72a4bb8ee0290342006829802502e246267b543ff4e4a63506366e9b5251b78a5951a3abf81a91889856ef2188394fa4a9d51c057f7478395fc12f7
 	sha512sums = e3e6476d938f65e74a0aa5bbfe58136db937205c8a0536399f46d0096ee728566247b85c82e0067300e465fcbc455a9e0d99611410dece70180aa92170357fbf
 
 pkgname = gtest
