@@ -1,0 +1,17 @@
+pkgbase = qhexedit2
+	pkgdesc = Hex editor widget written in C++ for the Qt framework
+	pkgver = 0.8.9
+	pkgrel = 1
+	url = https://github.com/Simsys/qhexedit2
+	arch = x86_64
+	license = LGPL
+	makedepends = cmake
+	makedepends = qt5-tools
+	depends = qt5-base
+	provides = libqhexedit.so
+	options = debug
+	source = https://github.com/Simsys/qhexedit2/archive/v0.8.9/qhexedit2-0.8.9.tar.gz
+	sha256sums = 2c32d0fde1685e9af7978ba60002a7d9fad4f2f3d0d1c4b19bdc18ab74b69e41
+	b2sums = 901cda2d28074bb535426102e40e0d5b6e68d3659b16ab4755b124de1f8a0ca878494e537f2c44b19dfc7bd9b9db499e74f66bd42301a73d12830486b7883d02
+
+pkgname = qhexedit2
