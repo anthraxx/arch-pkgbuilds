@@ -1,7 +1,7 @@
 pkgbase = linux-hardened
 	pkgdesc = Security-Hardened Linux
 	pkgver = 5.18.5.hardened1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
 	license = GPL2
@@ -24,6 +24,7 @@ pkgbase = linux-hardened
 	source = https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.18.5.tar.sign
 	source = https://github.com/anthraxx/linux-hardened/releases/download/5.18.5-hardened1/linux-hardened-5.18.5-hardened1.patch
 	source = https://github.com/anthraxx/linux-hardened/releases/download/5.18.5-hardened1/linux-hardened-5.18.5-hardened1.patch.sig
+	source = ALSA-memalloc-Drop-x86-specific-hack-for-WC-allocations.patch::https://lore.kernel.org/all/87bkur1nil.wl-tiwai@suse.de/raw
 	source = config
 	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
@@ -32,6 +33,7 @@ pkgbase = linux-hardened
 	sha256sums = SKIP
 	sha256sums = 9ae27643645ebd14a27ed9990ba0accf0251432394ce584c673fa77bb4dffb78
 	sha256sums = SKIP
+	sha256sums = 5e59f0f2fa7afaacbade24804eb5e0d9ed8fdb6015450023a11e5d1ce6e7df3c
 	sha256sums = 095dd8157c9597ec8c3d1f7c4b62225404280af33a8f48ae41c80627632203d7
 
 pkgname = linux-hardened
