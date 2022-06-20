@@ -1,0 +1,25 @@
+pkgbase = namcap
+	pkgdesc = A Pacman package analyzer
+	pkgver = 3.2.10
+	pkgrel = 5
+	url = https://gitlab.archlinux.org/pacman/namcap
+	arch = any
+	license = GPL
+	checkdepends = systemd
+	makedepends = python-setuptools
+	depends = python
+	depends = pyalpm
+	depends = licenses
+	depends = binutils
+	depends = elfutils
+	depends = python-pyelftools
+	source = https://sources.archlinux.org/other/namcap/namcap-3.2.10.tar.gz
+	source = namcap-ignore-so-no-pie.patch
+	source = missing-desktop-file-utils.patch
+	source = py3.10.patch
+	sha512sums = bdcca39cff873cc1ac7138bc2f218e808019424c1ff414b98f183400c08879a94fe7318049b1912dd094c1fced14b095a467465b04cd78cb9d1725cdbe2be821
+	sha512sums = df8a8c389aa9d619650d6e472409e4480095e09d5ea60b232a865e1a654dd9440e2228f1f098302b529d6db89f9cd0d8d066881da2bc3ca9ec07b17368efd2cf
+	sha512sums = 74efb1939053f41129cd811cf84abef8ff84ca4673cb62c3115b9d56830a57a48fed021b9807a74299c4c4cf3ec1880733f91dd5d06f4b9ac294fc78a9b5498e
+	sha512sums = 4fe74e35298313d7648fc0e9f74c2ddd4b2edd6a3a0a8c8c7ba9f6af9d2b32f555558e122c3f5bf5a98a65b8430f50593dfac689af7fbf34425032c6d925b0a4
+
+pkgname = namcap
