@@ -1,13 +1,13 @@
 pkgbase = filezilla
 	pkgdesc = Fast and reliable FTP, FTPS and SFTP client
 	pkgver = 3.60.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://filezilla-project.org/
 	arch = x86_64
 	license = GPL
 	depends = dbus
 	depends = xdg-utils
-	depends = wxgtk3
+	depends = wxwidgets-gtk3
 	depends = libidn
 	depends = hicolor-icon-theme
 	depends = sqlite
@@ -19,7 +19,10 @@ pkgbase = filezilla
 	depends = libgdk-3.so
 	depends = libnettle.so
 	source = https://download.filezilla-project.org/client/FileZilla_3.60.1_src.tar.bz2
+	source = wxwidgets-3.2.patch
 	sha256sums = 81f96c63638caf1838e0c63e5874f60192120965d825294a894a22b7d42066af
+	sha256sums = e77564b7c21a443f52dd7cb4fa4b8d1519396b241414fe6ee95feca6e143d748
 	sha512sums = 417b97afd8e9434c625392c4025ab7d977d58fad2dfe17c8ff856233c70b5d77df22c4e1b76120d9d5dba3bce1c61453808deb26314dbde7ec425d643c4f83d9
+	sha512sums = d31eb0da71cbc740e6210435f97920caac6c26be98717b656c785df6be248fa27925495fa90b118dcbc582ac32af957472cbbe16fdb4fef0bbc6257d15d06931
 
 pkgname = filezilla
