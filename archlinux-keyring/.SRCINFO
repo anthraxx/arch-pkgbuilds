@@ -1,6 +1,6 @@
 pkgbase = archlinux-keyring
 	pkgdesc = Arch Linux PGP keyring
-	pkgver = 20220424
+	pkgver = 20220713
 	pkgrel = 1
 	url = https://gitlab.archlinux.org/archlinux/archlinux-keyring/
 	install = archlinux-keyring.install
@@ -11,7 +11,7 @@ pkgbase = archlinux-keyring
 	makedepends = git
 	makedepends = python
 	makedepends = sequoia-sq
-	source = archlinux-keyring::git+https://gitlab.archlinux.org/archlinux/archlinux-keyring.git#tag=ce05aea5defae837dce115db626d0336eef4c563?signed
+	source = archlinux-keyring::git+https://gitlab.archlinux.org/archlinux/archlinux-keyring.git#tag=ff4e031beb113fba80d2a08da1c21624bbb7ba84?signed
 	validpgpkeys = 02FD1C7A934E614545849F19A6234074498E9CEE
 	validpgpkeys = C7E7849466FE2358343588377258734B41C31549
 	validpgpkeys = 4AA4767BBC9C4B1D18AE28B77F2D434B9741E8AC
