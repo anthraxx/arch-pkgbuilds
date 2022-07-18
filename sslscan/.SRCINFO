@@ -1,13 +1,13 @@
 pkgbase = sslscan
 	pkgdesc = A fast tool to scan SSL services such as HTTPS to determine supported ciphers
-	pkgver = 2.0.13
+	pkgver = 2.0.15
 	pkgrel = 1
 	url = https://github.com/rbsec/sslscan
 	arch = x86_64
 	license = GPL3
 	depends = openssl
-	source = sslscan-2.0.13.tar.gz::https://github.com/rbsec/sslscan/archive/2.0.13.tar.gz
-	sha512sums = 50455a4f4a999e63107e705a4bc703b94b30d4fa71b5126cdc08788eedeb02f4c7a204a385fa485f0c9d0fa368c7a48f96c492b91631fe8833b68f20d45b0fca
-	b2sums = 049791183ebf1e00d11868c0dd7b79eddcd27cbb1f915812938f46837c4b300844c26e0a0bee0a4bee4886f24f7b10e5bc77ddedc86893ae228658ab71d11bea
+	source = sslscan-2.0.15.tar.gz::https://github.com/rbsec/sslscan/archive/2.0.15.tar.gz
+	sha512sums = 1076914ea86d45fc70bbb60861793acd5e1d64714a5cadca0297a5ad1ab7948a838de7b2d101c199088ee315b802b4342508d37bda94e6b1da47c2bf2289b353
+	b2sums = fc24c00ba3b6aab3c5a05e2ce7fc61c31df76682ef85ae29ad029358b1a51dd4a2c861546eb2eef38eb1d3f5dfad1d77c03fe02ccff8e9f74aa0e09b39a84b72
 
 pkgname = sslscan
