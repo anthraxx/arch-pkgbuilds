@@ -1,7 +1,7 @@
 pkgbase = lib32-libindicator
 	pkgdesc = Set of symbols and convenience functions for Ayatana indicators (32-bit)
 	pkgver = 12.10.1
-	pkgrel = 8
+	pkgrel = 9
 	url = https://launchpad.net/libindicator
 	arch = x86_64
 	license = GPL3
@@ -23,4 +23,3 @@ pkgname = lib32-libindicator-gtk3
 	pkgdesc = Set of symbols and convenience functions for Ayatana indicators (32-bit) (GTK+ 3 library)
 	depends = libindicator-gtk3
 	depends = lib32-gtk3
-
