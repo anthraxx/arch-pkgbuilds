@@ -1,6 +1,6 @@
 pkgbase = ruby-mustermann
 	pkgdesc = Your personal string matching expert
-	pkgver = 1.1.1
+	pkgver = 3.0.0
 	pkgrel = 1
 	url = https://github.com/sinatra/mustermann
 	arch = any
@@ -8,8 +8,7 @@ pkgbase = ruby-mustermann
 	depends = ruby
 	depends = ruby-ruby2_keywords
 	options = !emptydirs
-	source = ruby-mustermann-1.1.1.tar.gz::https://github.com/sinatra/mustermann/archive/v1.1.1.tar.gz
-	md5sums = f74bfaf56c19fff382431b8e330b912a
+	source = ruby-mustermann-3.0.0.tar.gz::https://github.com/sinatra/mustermann/archive/v3.0.0.tar.gz
+	md5sums = 6c219b73546b2c74b2bd0f2249d760f5
 
 pkgname = ruby-mustermann
-
