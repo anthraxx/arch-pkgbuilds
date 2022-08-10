@@ -1,6 +1,6 @@
 pkgbase = ruby-minitest
 	pkgdesc = Complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking
-	pkgver = 5.15.0
+	pkgver = 5.16.2
 	pkgrel = 1
 	url = https://github.com/seattlerb/minitest
 	arch = any
@@ -12,7 +12,7 @@ pkgbase = ruby-minitest
 	makedepends = ruby-hoe
 	depends = ruby
 	options = !emptydirs
-	source = git+https://github.com/seattlerb/minitest#commit=fe3992e85b40792cf7bff2a876887d8d9e392068
+	source = git+https://github.com/seattlerb/minitest#commit=9c5f10084663fbee0ed57b9da11396b3643b609e
 	sha512sums = SKIP
 
 pkgname = ruby-minitest
