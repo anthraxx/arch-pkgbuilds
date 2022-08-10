@@ -2,8 +2,8 @@
 
 _gemname=async-io
 pkgname=ruby-${_gemname}
-pkgver=1.27.0
-pkgrel=3
+pkgver=1.33.0
+pkgrel=1
 pkgdesc='Provides support for asynchonous TCP, UDP, UNIX and SSL sockets'
 url='https://github.com/socketry/async-io'
 arch=('any')
@@ -12,8 +12,8 @@ depends=('ruby' 'ruby-async')
 makedepends=('ruby-rdoc')
 options=('!emptydirs')
 source=(https://github.com/socketry/async-io/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
-sha256sums=('e085a1d39f7c6c7c5a89ac97b5f83aeee328cca4d809c9ea9d467e44ccb8866a')
-sha512sums=('8b5e4b182e4ee31ddbeef1a882cde8e70c820947e45226bea1a5ce35a35ed441629463d7da027057fca339c0e8fcb063406e797387bb29965b451998ceb67d51')
+sha256sums=('33ad6264f0070fb1568cd02fd5c89b4705b86b878f7f5a7b2441af6d7ff03c90')
+sha512sums=('5c70179df163952754bcdd506e13d83f1b039d434e7c6c692ead80f0efebc1ffd17e47c9cf53fe6d29bfd452551098bf31d8a463ed212d54a4910eef93fac6b7')
 
 prepare() {
   cd ${_gemname}-${pkgver}
