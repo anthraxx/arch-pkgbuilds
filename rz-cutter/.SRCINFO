@@ -1,7 +1,7 @@
 pkgbase = rz-cutter
 	pkgdesc = Qt and C++ GUI for rizin reverse engineering framework
 	pkgver = 2.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rizinorg/cutter
 	arch = x86_64
 	license = GPL3
