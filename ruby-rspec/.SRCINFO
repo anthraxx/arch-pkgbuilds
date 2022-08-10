@@ -1,6 +1,6 @@
 pkgbase = ruby-rspec
 	pkgdesc = RSpec meta-gem that depends on the other components
-	pkgver = 3.10.0
+	pkgver = 3.11.0
 	pkgrel = 1
 	url = https://github.com/rspec/rspec
 	arch = any
@@ -8,10 +8,9 @@ pkgbase = ruby-rspec
 	depends = ruby-rspec-core
 	depends = ruby-rspec-expectations
 	depends = ruby-rspec-mocks
-	noextract = rspec-3.10.0.gem
+	noextract = rspec-3.11.0.gem
 	options = !emptydirs
-	source = https://rubygems.org/downloads/rspec-3.10.0.gem
-	sha512sums = dd1a3a1c7c73ae9c053e071d7851780d8cf61e92ddba24072b9f2c00a342ed08c81090332ba2eaf7ab96adac3fc723685996195e5cc584e15de57ff02a4455ec
+	source = https://rubygems.org/downloads/rspec-3.11.0.gem
+	sha512sums = 233f80500446066a61a50d8e3f8a602316071beaa82e95776390684f7d58fa0acf8807386bee7d08b21f5481933e031b968fd752cf97efa74ba6cd411a8d1395
 
 pkgname = ruby-rspec
-
