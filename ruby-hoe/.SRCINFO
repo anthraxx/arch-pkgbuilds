@@ -1,7 +1,7 @@
 pkgbase = ruby-hoe
 	pkgdesc = Hoe is a rake/rubygems helper for project Rakefiles
-	pkgver = 3.22.3
-	pkgrel = 3
+	pkgver = 3.24.0
+	pkgrel = 1
 	url = https://www.zenspider.com/projects/hoe.html
 	arch = any
 	license = MIT
@@ -11,8 +11,7 @@ pkgbase = ruby-hoe
 	makedepends = ruby-rake
 	depends = ruby
 	options = !emptydirs
-	source = git+https://github.com/seattlerb/hoe#commit=c50be1641440a5fd821c5438219a9a88e189461c
+	source = git+https://github.com/seattlerb/hoe#commit=bdd1bd65e297c844e6744a743039664878e255bb
 	sha512sums = SKIP
 
 pkgname = ruby-hoe
-
