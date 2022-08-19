@@ -1,6 +1,6 @@
 pkgbase = z3
 	pkgdesc = High-performance theorem prover
-	pkgver = 4.10.1
+	pkgver = 4.11.0
 	pkgrel = 1
 	url = https://github.com/Z3Prover/z3
 	arch = x86_64
@@ -11,9 +11,12 @@ pkgbase = z3
 	makedepends = python
 	makedepends = python-setuptools
 	makedepends = gcc-libs
-	source = https://github.com/Z3Prover/z3/archive/z3-4.10.1.tar.gz
-	sha512sums = 6c8e9f074d4b87f9388384d10dcde51fbdf0e1ee58cf2a5d321e3779ac5054a0ec7bfed3df4f8d3563c457ca7f5189ca310909656e500b6a8803f0df2c693baf
-	b2sums = 2b857b7a1b3b71e0b7d2c55b8971fb27115f65b6995e0330786d24badfae563e4a63140790c197255ec566b78ff699c5f0aac99ffeb5eb45c05b2175f3395c20
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	source = https://github.com/Z3Prover/z3/archive/z3-4.11.0.tar.gz
+	sha512sums = a3fd7e013948de6683b16aca03641bb845d02187152bebdee8c62c2a3f80a7710a1d3b9aef9c1490c2340571bb225f457928ac57a2ed28c0084ced34bcf3e905
+	b2sums = 5b59efdf74d5d358daf23f877a090b240909eab14bebb9f23c68c7eb7fb7f2258afc049665061f61d10c1e092382f707f094f12c20f33c7e06c7939275b231d0
 
 pkgname = z3
 	depends = glibc
@@ -21,6 +24,9 @@ pkgname = z3
 	provides = libz3
 	provides = libz3.so
 
-pkgname = python-z3
+pkgname = python-z3-solver
 	depends = python
+	depends = python-setuptools
 	depends = z3
+	conflicts = python-z3
+	replaces = python-z3
