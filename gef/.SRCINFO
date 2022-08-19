@@ -1,6 +1,6 @@
 pkgbase = gef
 	pkgdesc = Multi-Architecture GDB Enhanced Features for Exploiters & Reverse-Engineers
-	pkgver = 2018.04
+	pkgver = 2022.06
 	pkgrel = 1
 	url = https://github.com/hugsy/gef
 	arch = any
@@ -11,8 +11,8 @@ pkgbase = gef
 	optdepends = python-keystone: assembler support
 	optdepends = python-unicorn: emulation support
 	optdepends = ropgadget: ROP gadget support
-	source = gef-2018.04.tar.gz::https://github.com/hugsy/gef/archive/2018.04.tar.gz
-	sha512sums = c5f53e63c916213873c705d2a4aabee2ab7afca36721eaad53eac1c312acb4b9b59e78b98a736eaea2929b2df4e08835c09d929c8b3938b63ebd494c99b08f1d
+	source = https://github.com/hugsy/gef/archive/2022.06/gef-2022.06.tar.gz.tar.gz
+	sha512sums = 585bad8655a5208d060b1ccf455ab87527e47949fce1df188a5ac970ccd1bbfbdd87151f7a940edcfb879dd0ea846b5c4a8650fed856cd5dcaec0ddd3581f100
+	b2sums = b7038e0519f216669c38bdda7e12375fb1c9e5278c8b617df73932a750ee6552531929eebcac22321607f51592834ece70c850ce0ba4629bc383731bc8803bb3
 
 pkgname = gef
-
