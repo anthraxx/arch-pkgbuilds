@@ -1,0 +1,21 @@
+pkgbase = one_gadget
+	pkgdesc = The best tool for finding one gadget RCE in libc.so.6
+	pkgver = 1.8.1
+	pkgrel = 2
+	url = https://github.com/david942j/one_gadget
+	arch = any
+	license = MIT
+	makedepends = ruby-rake
+	makedepends = ruby-rdoc
+	makedepends = ruby-bundler
+	makedepends = ruby-yard
+	makedepends = ruby-rspec
+	depends = ruby
+	depends = ruby-elftools
+	provides = ruby-one_gadget
+	options = !emptydirs
+	source = https://github.com/david942j/one_gadget/archive/v1.8.1/one_gadget-v1.8.1.tar.gz
+	sha512sums = adfc08ea9079a13327b04fee5c37b1da4ab7b0f99c2012e566096916ca46371dbaf0c618a6be6b7d371a0b6131f010774e3a759092bab54a48702329958cb09e
+	b2sums = f76cda4ac148eb71dca7ac5513818c2d3257c23231b42e6a415921e75a839b4d5145d2f3b9eb7293638de405183fdd9659b7750ff6f3eace6ca4c44c54a775b8
+
+pkgname = one_gadget
