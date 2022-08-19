@@ -1,0 +1,18 @@
+pkgbase = python-bintrees
+	pkgdesc = Package provides Binary-, RedBlack- and AVL-Trees
+	pkgver = 2.2.0
+	pkgrel = 1
+	url = https://github.com/mozman/bintrees
+	arch = x86_64
+	license = custom
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	makedepends = cython
+	depends = python
+	source = https://github.com/mozman/bintrees/archive/v2.2.0/python-bintrees-2.2.0.tar.gz
+	sha512sums = 640b9979ff9ef25fedbc59c9203363039e732b1ecbeda6475126c7c872207e9b790b7c6c8e67457c029f0d5397c28e6767c1c49061693135206eece98bb203bf
+	b2sums = 4a4dce2529a0eb3ac2c9d34e2170e58517f87d82590cf910903e25dbb0c97e2d8b67c4fe46ac3ab664d46769e222095d2baf26fcf04925796384d71681fe80f5
+
+pkgname = python-bintrees
