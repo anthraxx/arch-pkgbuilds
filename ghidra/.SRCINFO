@@ -1,7 +1,7 @@
 pkgbase = ghidra
 	pkgdesc = Software reverse engineering framework
 	pkgver = 10.1.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ghidra-sre.org/
 	arch = x86_64
 	license = Apache
@@ -11,7 +11,6 @@ pkgbase = ghidra
 	makedepends = java-environment=11
 	depends = java-environment>=11
 	depends = bash
-	optdepends = python2: Python feature
 	optdepends = pam: GhidraServer support
 	noextract = AXMLPrinter2.jar
 	noextract = yajsw-beta-13.01.zip
