@@ -1,0 +1,18 @@
+pkgbase = ruby-bindata
+	pkgdesc = BinData - Parsing Binary Data in Ruby
+	pkgver = 2.4.10
+	pkgrel = 2
+	url = https://github.com/dmendel/bindata
+	arch = any
+	license = custom:BSDL
+	checkdepends = ruby-minitest
+	makedepends = ruby-rake
+	makedepends = ruby-rdoc
+	makedepends = ruby-bundler
+	depends = ruby
+	options = !emptydirs
+	source = https://github.com/dmendel/bindata/archive/v2.4.10/ruby-bindata-v2.4.10.tar.gz
+	sha512sums = 1f8c78a7abfc69c8f8a3c05c5d1ee6b312e60ffd4bc13cab5d8af75afb95e262733a4e3df747f8820938de7d2fea2b99510ca6df46cd718ea2ad487e3533c1ee
+	b2sums = 5e1f35ee82f4c3909903ae1cfdd2ab0e9eff48485afdc227bd479c7e5c2c3ce591df4047dd3c3584777aefc808c82ea0ebb834ac75404af2dbbd18e75d7ce705
+
+pkgname = ruby-bindata
