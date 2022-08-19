@@ -1,0 +1,17 @@
+pkgbase = python-dpkt
+	pkgdesc = Fast, simple packet creation / parsing, with definitions for the basic TCP/IP protocols
+	pkgver = 1.9.8
+	pkgrel = 1
+	url = https://github.com/kbandla/dpkt
+	arch = any
+	license = custom
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/kbandla/dpkt/archive/v1.9.8/python-dpkt-1.9.8.tar.gz
+	sha512sums = fd0edcca00f3b4ec4da2345ce1efc6da5ac372f39e8d0dd5fa25c2482ab3a9e37f8954dccf5230920c038272decd854abb4fcc8ddbdbbea721c49ce88ffe69d3
+	b2sums = c9ab5503339f6465e799250b7bd482c5bc06a022c19436b9ec334306a7bceb8232274d0ca397614717e19ffd5fdece3760ea7c3cc49703a1a47d55050546da75
+
+pkgname = python-dpkt
