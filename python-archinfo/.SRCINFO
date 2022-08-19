@@ -1,0 +1,21 @@
+pkgbase = python-archinfo
+	pkgdesc = Classes with architecture-specific information useful to other projects
+	pkgver = 9.2.14
+	pkgrel = 1
+	url = https://github.com/angr/archinfo
+	arch = any
+	license = custom:BSD2
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	optdepends = python-capstone
+	optdepends = python-unicorn
+	optdepends = python-keystone
+	optdepends = python-pyvex
+	source = https://github.com/angr/archinfo/archive/v9.2.14/python-archinfo-9.2.14.tar.gz
+	sha512sums = c7c0e1fb310cda5dea271b414b964f32da3d8799f45c0314d1f6f92a966548ec503b07045e59265220ea0a1a0afbd0e25ade646dc17471b0bedb040280a12428
+	b2sums = 2f92cea08dce498777f561e410b3e1619e83dcf3fb4a127ae6cff742d5740bd4477da244813a866fb52b42e2a21cbcd198b1516f0c0f785bcbc076627e40ca6d
+
+pkgname = python-archinfo
