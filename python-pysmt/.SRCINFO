@@ -1,0 +1,19 @@
+pkgbase = python-pysmt
+	pkgdesc = Solver-agnostic library for SMT Formulae manipulation and solving
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://github.com/pysmt/pysmt
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-z3-solver
+	source = https://github.com/pysmt/pysmt/archive/v0.9.5/python-pysmt-0.9.5.tar.gz
+	sha512sums = d1e3b4f9f7bc90c15ddcfbcf87e4d487acff9613ae48d56a91bd83ab1c929af8c15ced29f6b097a599f91b41bbfadcf89e4601edba2bdff36c80c41b7c5165bb
+	b2sums = 0716c6b5e66a50072947f2e959ab5dfd92494b4d9bb92a11cf6250e9b8a9940591a64af0382e173230da31fd7d7178904da9bd4d424ab53ee217ccc49186234a
+
+pkgname = python-pysmt
