@@ -1,0 +1,18 @@
+pkgbase = python-arpy
+	pkgdesc = Library for accessing ar files
+	pkgver = 2.3.0
+	pkgrel = 2
+	url = https://github.com/viraptor/arpy
+	arch = any
+	license = custom:BSD
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/viraptor/arpy/archive/2.3.0/python-arpy-2.3.0.tar.gz
+	sha512sums = 7479d713df8da3d18fe477c7ae585f476bd1b278ac7a2bb11f9834071148178f17f8a18db3189f6f946f2f3f8f444bf5239c2c01d631d1a575e86b7556d3e835
+	b2sums = 0c22127a8221e02df4814ff23ad13e43968553e4b8a8544a9ed826b57261f1b20bd35212202d02454f3cbfcb3d3ceaac092abb0c0a1b67481f0930d191a5e202
+
+pkgname = python-arpy
