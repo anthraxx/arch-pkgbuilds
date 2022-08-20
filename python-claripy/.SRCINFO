@@ -1,0 +1,23 @@
+pkgbase = python-claripy
+	pkgdesc = Abstraction layer for constraint solvers
+	pkgver = 9.2.14
+	pkgrel = 1
+	url = https://github.com/angr/claripy
+	arch = any
+	license = custom:BSD2
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-z3-solver
+	depends = python-cachetools
+	depends = python-decorator
+	depends = python-pysmt
+	depends = python-six
+	source = https://github.com/angr/claripy/archive/v9.2.14/python-claripy-9.2.14.tar.gz
+	sha512sums = 0ff7f750b8f32e40e581c0975991276fbd6322dc3b32dc0002f21b90e5615e3ebc3f6a2f028c32b422494aae84b6cd12a455056c0f1014f8c48951059d774de6
+	b2sums = 06a19f894ccbc414d1ade5d9fdca7b3c2e19aa15dd2110e7eec7fb9cae629d085f1b6c5a7c6edbda827171ef08a0a6a2de6b5abefc599a5ac5d226d85ee37e3b
+
+pkgname = python-claripy
