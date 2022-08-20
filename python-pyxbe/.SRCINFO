@@ -1,0 +1,18 @@
+pkgbase = python-pyxbe
+	pkgdesc = Library to work with XBE files, the executable file format for the original Xbox game console
+	pkgver = 0.0.4
+	pkgrel = 2
+	url = https://github.com/mborgerson/pyxbe
+	arch = any
+	license = custom:MIT
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/mborgerson/pyxbe/archive/v0.0.4/python-pyxbe-0.0.4.tar.gz
+	sha512sums = 7af85db80b6e52a6d746ae5e9d9ef15dfff073492cd13da2ae86991469ba364663a0cbe5f53417897012fc44f1401eb905066b14132406961333bdaf0c03e102
+	b2sums = 1854cb2f12beddff4976781ebfd163458c92562b5720dd13676af0e3b78533177a678eb525a9f6076c9088ba13643dfbb07079a89b5ad43fa5fae51831fe8c1e
+
+pkgname = python-pyxbe
