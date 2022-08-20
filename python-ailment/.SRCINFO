@@ -1,0 +1,22 @@
+pkgbase = python-ailment
+	pkgdesc = The angr intermediate language
+	pkgver = 9.2.14
+	pkgrel = 1
+	url = https://github.com/angr/ailment
+	arch = any
+	license = custom:BSD2
+	checkdepends = python-pytest
+	checkdepends = python-archinfo
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-claripy
+	depends = python-pyvex
+	depends = python-pypcode
+	source = https://github.com/angr/ailment/archive/v9.2.14/python-ailment-9.2.14.tar.gz
+	sha512sums = b9483a5407aaa3f24f89b421621e761667697d90d25b5a7a9a7f542adaa2c0f9b355271061741c3eee334bdf4b3d71e3e91c1a34119239ff182b2a63d687bb73
+	b2sums = f6f0f6bcd821f63cb3d7a94c3b67de0d906172cca6e76e994418f7c5475b70fddd95644ade941bdfa62bec4b5a98570bd52905370aaf3643e22d5f780dfd60c8
+
+pkgname = python-ailment
