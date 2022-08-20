@@ -1,0 +1,22 @@
+pkgbase = python-pyaxmlparser
+	pkgdesc = Parser for Android XML file and get Application Name without using Androguard
+	pkgver = 0.3.27
+	pkgrel = 1
+	url = https://github.com/appknox/pyaxmlparser
+	arch = any
+	license = Apache
+	checkdepends = python-pytest
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-lxml
+	depends = python-click
+	depends = python-asn1crypto
+	depends = python-magic
+	source = https://github.com/appknox/pyaxmlparser/archive/v0.3.27/python-pyaxmlparser-0.3.27.tar.gz
+	sha512sums = 816caa495da50d19bc091477ad8d1b914594b679a2bad284317762a47d68813e7b68c7f22a5515c71eb67b98c26b79c923393451dd97ec5c56b310e49da3edda
+	b2sums = cc8308bd5ca42994858a850960fb025a12bb0dd7d3051c3fd433363be3f39a46abf46d0e0af58183389da6145a4777a39008e20e9ec717a6b2c6c64d2f7f58dc
+
+pkgname = python-pyaxmlparser
