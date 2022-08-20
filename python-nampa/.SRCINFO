@@ -1,0 +1,20 @@
+pkgbase = python-nampa
+	pkgdesc = FLIRT signatures for python
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/thebabush/nampa
+	arch = any
+	license = LGPL3
+	checkdepends = python-pytest
+	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	depends = python-future
+	source = https://github.com/thebabush/nampa/archive/1.0/python-nampa-1.0.tar.gz
+	sha512sums = 899ee2786b0d1739f5d9836310e13c7fdc46df14259491acc480db69f291d6c9934d059064a54798fecab84a9e4a731ada71105dee67b967e93d3cb4435a3387
+	b2sums = 73122bb669f825fd1b50f6fba1b58f0c1232c404590b7ada652e3142bd4bf74aae21dcb3362c6c9ec7bd1904e13bf1654c2eb3e8ec68332f1a92660bee2ac249
+
+pkgname = python-nampa
