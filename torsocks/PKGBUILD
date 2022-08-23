@@ -4,8 +4,8 @@
 # Contributor: Rorschach <r0rschach@lavabit.com>
 
 pkgname=torsocks
-pkgver=2.3.0
-pkgrel=2
+pkgver=2.4.0
+pkgrel=1
 pkgdesc='Wrapper to safely torify applications'
 url='https://gitweb.torproject.org/torsocks.git/'
 arch=('x86_64')
