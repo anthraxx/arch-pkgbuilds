@@ -5,7 +5,7 @@
 
 pkgname=zstd
 pkgver=1.5.2
-pkgrel=7
+pkgrel=8
 pkgdesc='Zstandard - Fast real-time compression algorithm'
 url='https://facebook.github.io/zstd/'
 arch=(x86_64)
@@ -14,11 +14,14 @@ depends=(glibc gcc-libs zlib xz lz4)
 makedepends=(cmake gtest ninja)
 provides=(libzstd.so)
 options=(debug)
-source=(https://github.com/facebook/zstd/releases/download/v${pkgver}/zstd-${pkgver}.tar.zst{,.sig})
+source=(https://github.com/facebook/zstd/releases/download/v${pkgver}/zstd-${pkgver}.tar.zst{,.sig}
+        zstd-1.5.2-removed-explicit-compilation-standard.patch::https://github.com/facebook/zstd/commit/eceecc5b2cade40e2ffe7e4ff4c7d2e16883961a.patch)
 sha256sums=('3ea06164971edec7caa2045a1932d757c1815858e4c2b68c7ef812647535c23f'
-            'SKIP')
+            'SKIP'
+            '07db9fe01b7164fc7180a52c43d79c1ae4d15abb5669cbf91a5c9c7f357d5f7e')
 b2sums=('513e4526a92bcb59416b3457d186a30e554f9e0cf21d7114eb3e9fbcbd9d662c8d95cf0b06237f6fe3f756862c63de0aa146d6a23cb4111c16e6459608d115f1'
-        'SKIP')
+        'SKIP'
+        '26e25d98485bacc8295a0add027b86ae8e386a9164c13ffd5497796c8e8da5122f0e9724c0e727e59712ab142ac62cf6fcbb4ae08e35c696874b863eead05ed4')
 validpgpkeys=(4EF4AC63455FC9F4545D9B7DEF8FE99528B52FFD)
 
 prepare() {
@@ -26,6 +29,7 @@ prepare() {
   # avoid error on tests without static libs, we use LD_LIBRARY_PATH
   sed '/build static library to build tests/d' -i build/cmake/CMakeLists.txt
   sed 's/libzstd_static/libzstd_shared/g' -i build/cmake/tests/CMakeLists.txt
+  patch -Np1 < ../zstd-1.5.2-removed-explicit-compilation-standard.patch
 }
 
 build() {
