@@ -1,7 +1,7 @@
 pkgbase = sequoia
 	pkgdesc = Cool new OpenPGP implementation
-	pkgver = 1.6.0
-	pkgrel = 2
+	pkgver = 1.10.0
+	pkgrel = 1
 	url = https://sequoia-pgp.org/
 	arch = x86_64
 	groups = sequoia
@@ -27,7 +27,7 @@ pkgbase = sequoia
 	makedepends = libnettle.so
 	options = !makeflags
 	options = !lto
-	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=openpgp/v1.6.0?signed
+	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=openpgp/v1.10.0?signed
 	validpgpkeys = D2F2C5D45BE9FDE6A4EE0AAF31855247603831FD
 	validpgpkeys = CBCD8F030588653EEDD7E2659B7DD433F254904A
 	sha512sums = SKIP

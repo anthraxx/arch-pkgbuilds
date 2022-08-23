@@ -3,8 +3,8 @@
 
 pkgbase=sequoia
 pkgname=(sequoia-ffi python-sequoia)
-pkgver=1.6.0
-pkgrel=2
+pkgver=1.10.0
+pkgrel=1
 pkgdesc='Cool new OpenPGP implementation'
 url='https://sequoia-pgp.org/'
 arch=('x86_64')
@@ -24,7 +24,7 @@ validpgpkeys=(
 
 prepare() {
   cd ${pkgbase}
-  sed 's/debug/release/g' -i -- */Makefile */*/Makefile */*/*/Makefile
+  sed 's/debug/release/g' -i -- */Makefile
   sed "s/-L/${LDFLAGS},-L/g" -i ffi/lang/python/Makefile
   ln -s .Makefile Makefile
 }
