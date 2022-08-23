@@ -3,7 +3,7 @@
 # Contributor: ovi chis <ovi@ovios.org>
 
 pkgname=libqb
-pkgver=2.0.3
+pkgver=2.0.6
 pkgrel=1
 pkgdesc='Library for providing high performance, reusable features for client-server architecture'
 url='https://github.com/ClusterLabs/libqb'
@@ -14,8 +14,10 @@ makedepends=('doxygen' 'splint')
 checkdepends=('check')
 provides=('libqb.so')
 source=(https://github.com/ClusterLabs/${pkgname}/releases/download/v${pkgver}/${pkgname}-${pkgver}.tar.gz{,.asc})
-sha512sums=('85ff46228dbba53e08d6f8426087fd86f1e05591f3c0d822c33c3dd89e7b16d3e91de2fba15cd673c8ff04e66d5cb5243775889fe8df9fdcab8e1e47b6fdd1fc'
+sha512sums=('f1711b83bcc85220b4f435ef38643a8c183cc19705921cea15bcad9983948179bd7e31a800b8d880b802455b018d0bb8c7d800ebbc88b27721a59d9b1ffa33f3'
             'SKIP')
+b2sums=('d218b09696318d6c1a26d567dec527fd246b4cc943302debc8a1f7c42ed5f273f577c7d81ea623b564456ab104fdc4c5b4c293c79d943333bda416bc25cc8b62'
+        'SKIP')
 validpgpkeys=('C5E29348A2B634E9F71B2014791890532CB5CDDE') # libqb Release Signing Key <users@clusterlabs.org>
 
 prepare() {
