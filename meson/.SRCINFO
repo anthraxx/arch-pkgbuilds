@@ -44,7 +44,6 @@ pkgbase = meson
 	checkdepends = gnustep-base
 	checkdepends = libelf
 	checkdepends = python-pytest-xdist
-	checkdepends = python2-setuptools
 	checkdepends = ldc
 	checkdepends = rust-bindgen
 	checkdepends = cuda
