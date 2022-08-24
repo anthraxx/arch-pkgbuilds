@@ -1,0 +1,17 @@
+pkgbase = python-mulpyplexer
+	pkgdesc = Module that multiplexes interactions with lists of python objects
+	pkgver = 0.9
+	pkgrel = 1
+	url = https://github.com/zardus/mulpyplexer
+	arch = any
+	license = custom:BSD
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
+	depends = python
+	source = https://github.com/zardus/mulpyplexer/archive/v0.9/python-mulpyplexer-0.9.tar.gz
+	sha512sums = d7df91b3ed606a0865cd7df815de8971354b372d2bbca20529cf7ac6492dc4607fc20a3587431c86c4d1d3eb1a59cde4796bc7a0b4421443086f24b42b86cd2b
+	b2sums = 3918dee824f0aee8c95562fa29c1e3ed64c7d37844f81078e7e2883f1e4d994f9a996c798e4f5f5a12afa5cd40ec09a0b942b89fe5c52183898c20038b8fbe4b
+
+pkgname = python-mulpyplexer
