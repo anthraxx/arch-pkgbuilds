@@ -1,6 +1,6 @@
 pkgbase = python-frozenlist
 	pkgdesc = FrozenList is a list-like structure which can be made immutable
-	pkgver = 1.3.0
+	pkgver = 1.3.1
 	pkgrel = 1
 	url = https://github.com/aio-libs/frozenlist
 	arch = x86_64
@@ -8,11 +8,14 @@ pkgbase = python-frozenlist
 	checkdepends = python-pytest
 	checkdepends = python-pytest-cov
 	checkdepends = python-pytest-runner
-	makedepends = python-setuptools
 	makedepends = cython
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	makedepends = python-setuptools
 	depends = python
-	source = https://github.com/aio-libs/frozenlist/archive/v1.3.0/python-frozenlist-1.3.0.tar.gz
-	sha512sums = 780f0ec0e1a701b009e5afcd7f62b2950eda5365140ad5842c09db85b0a3cf282ab70ff9ba752ea6dc7a97542fc7399023aaaca8fdd8ecbd5c26bf64f305f5f4
-	b2sums = d09e18455893f7ede59c37a080e79ea5e085cc3362e53bc7016db64338b2cf26baf44e95ec0c691535527b0eef4a40ec1fbe814e5d4ae238300125438d21b467
+	source = https://github.com/aio-libs/frozenlist/archive/v1.3.1/python-frozenlist-1.3.1.tar.gz
+	sha512sums = 4986f3635ebd2d3ca9623299a66375b03938a7be72f7a1d3437b1bf8c0739513942e6babf00476b61055c9ebee3638ec807dad521c52990104d4d57017efdfb2
+	b2sums = 7428d936926978acb90a857e0f76b303dddea684c3e815b3fd583e888102e114cc629fcd8e862a4e72775f8525193becfd4b9cd844a36f5b2c7964605008bb84
 
 pkgname = python-frozenlist
