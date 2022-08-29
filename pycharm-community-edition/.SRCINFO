@@ -1,13 +1,12 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
 	pkgver = 2022.1.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
 	license = APACHE
 	makedepends = git
 	makedepends = java-environment=11
-	makedepends = python2-setuptools
 	makedepends = python-setuptools
 	depends = giflib
 	depends = glib2
