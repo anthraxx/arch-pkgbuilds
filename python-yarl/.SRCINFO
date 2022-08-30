@@ -1,6 +1,6 @@
 pkgbase = python-yarl
 	pkgdesc = Yet another URL library
-	pkgver = 1.8.0
+	pkgver = 1.8.1
 	pkgrel = 1
 	url = https://github.com/aio-libs/yarl/
 	arch = x86_64
@@ -10,13 +10,16 @@ pkgbase = python-yarl
 	checkdepends = python-pytest-cov
 	makedepends = cython
 	makedepends = python-setuptools
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
 	depends = glibc
 	depends = python
 	depends = python-multidict
 	depends = python-idna
 	depends = python-typing_extensions
-	source = https://github.com/aio-libs/yarl/archive/v1.8.0/python-yarl-1.8.0.tar.gz
-	sha512sums = da10de61afded586947a17dd0a205bc5265c133a5259c06d56c631c7685ed78966d2c40ae6c7ce59f56dadaff753aa0c4c9273f6df6904c9f68f8c9bdb075723
-	b2sums = 3a6516105f7cb96d266773e26581bae3625866e0b98a530502863af79efe3631677ef4bd383e081bb7ebeeb770fcc54d6a7aa34b7f9c540b73ec306583bb1a1b
+	source = https://github.com/aio-libs/yarl/archive/v1.8.1/python-yarl-1.8.1.tar.gz
+	sha512sums = 267523216832c2bc83d92a42e621ff519d427e20c1ee84ac657e13f696a2df2259c837486f192d87944f5ebb834beea60ace791eb4c9c632fd7e552eb5dadf1b
+	b2sums = c7390b78abb5074dd29e96848a77fdb31f6224e99d2bcfd5a28a8bd08881f5ff82cf55b2f54c97324d005a0fb3823732a9ed6bd3f1d837e4ac2341b89e2adb30
 
 pkgname = python-yarl
