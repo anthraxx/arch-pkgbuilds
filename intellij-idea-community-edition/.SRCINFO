@@ -1,6 +1,6 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
-	pkgver = 2022.1.4
+	pkgver = 2022.2.3
 	pkgrel = 1
 	epoch = 4
 	url = https://www.jetbrains.com/idea/
@@ -8,9 +8,9 @@ pkgbase = intellij-idea-community-edition
 	license = Apache
 	makedepends = ant
 	makedepends = git
-	makedepends = java-environment=11
+	makedepends = java-environment-openjdk=17
 	depends = giflib
-	depends = java-environment=11
+	depends = java-runtime=17
 	depends = python
 	depends = sh
 	depends = ttf-font
@@ -19,17 +19,15 @@ pkgbase = intellij-idea-community-edition
 	depends = hicolor-icon-theme
 	optdepends = lldb: lldb frontend integration
 	backup = usr/share/idea/bin/idea64.vmoptions
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/221.6008.13
-	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/221.6008.13
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/222.4345.14
+	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/222.4345.14
 	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#commit=17e9c8b666cac0b974b1efc5e1e4c33404f72904
 	source = idea.desktop
 	source = idea.sh
-	source = skip_jps_build.patch
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = 049c4326b6b784da0c698cf62262b591b20abb52e0dcf869f869c0c655f3ce93
-	sha256sums = 115f1091edb138a7a7b15980e8538b4dfd28054cfab38b844df6d918b1b881c5
-	sha256sums = b023d7621674f335c32790e25bddadcec483342835af24ab9a3b80d0afc16a0e
+	sha256sums = d7e4a325fccd48b8c8b0a6234df337b58364e648bb9b849e85ca38a059468e71
 
 pkgname = intellij-idea-community-edition
