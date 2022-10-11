@@ -1,6 +1,6 @@
 pkgbase = python-flask
 	pkgdesc = Micro webdevelopment framework for Python
-	pkgver = 2.1.3
+	pkgver = 2.2.2
 	pkgrel = 1
 	url = http://flask.pocoo.org/
 	arch = any
@@ -16,7 +16,7 @@ pkgbase = python-flask
 	depends = python-click
 	optdepends = python-asgiref: async functions and views
 	optdepends = python-dotenv: loading env vars from files
-	source = python-flask-2.1.3.tar.gz::https://github.com/pallets/flask/archive/2.1.3.tar.gz
-	sha512sums = ae2af6afdc8cba5bc1029c0cd74b2d3418a3dfcdc0346238d784482168445b834f52a08fd8450925e459396344a0ac1d8cdb8f19e39cd825a03633cf17668623
+	source = python-flask-2.2.2.tar.gz::https://github.com/pallets/flask/archive/2.2.2.tar.gz
+	sha512sums = ab069d27fdfc056a3cdde2fa7f89486781fbf4fa396c0dde20e99458b76790f83cda4e4acba23f598bc0a86c68a80d7b2c58657ad0b2c67b5ad1bb997185db2a
 
 pkgname = python-flask
