@@ -1,13 +1,13 @@
 pkgbase = beep
 	pkgdesc = Advanced PC speaker beeping program
-	pkgver = 1.4.10
+	pkgver = 1.4.12
 	pkgrel = 1
 	url = https://github.com/spkr-beep/beep
 	arch = x86_64
 	license = GPL2
 	depends = glibc
-	source = https://github.com/spkr-beep/beep/archive/v1.4.10/beep-1.4.10.tar.gz
-	sha512sums = b2e8325c1560b066073dbb9965c4566f7040f42eb8345e332218b5da73889cd6fd72ede8b91f171500e26766ff00de19b3ff82bc57d555dfb18365a0efbc76d8
-	b2sums = fa8ad85bda69299bac2d82c06aaa0df9a4750e9600b414d1ee591f9a8454cbe41ddd1f8dfae805ec3f589137de9339399b6ab2e4dd811bc7644d7ecc14e0e76a
+	source = https://github.com/spkr-beep/beep/archive/v1.4.12/beep-1.4.12.tar.gz
+	sha512sums = 18fed77bc4820ecc84ac12e903d516d5228fa2038df1788cc68db76e40b3c47a271911cc45bc48ce94e3f215803c5c05cb6c08ebb47ae6d7fcf1e0bc1ac169cd
+	b2sums = 06f21cf3c40389acca50e6e420af4e738b7484e096bb689345fedb37684b15733dbb38e8a5d0d360f23e020cebe9ba321984ee43f41b0ad980648414ddbb9375
 
 pkgname = beep
