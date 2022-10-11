@@ -1,7 +1,7 @@
 pkgbase = xmonad-contrib
-	pkgdesc = Community-maintained extensions extensions for xmonad
-	pkgver = 0.17.0
-	pkgrel = 39
+	pkgdesc = Community-maintained extensions for xmonad
+	pkgver = 0.17.1
+	pkgrel = 32
 	url = https://xmonad.org/
 	arch = x86_64
 	license = BSD
@@ -14,7 +14,7 @@ pkgbase = xmonad-contrib
 	depends = haskell-x11-xft
 	depends = haskell-utf8-string
 	depends = haskell-random
-	source = xmonad-contrib-0.17.0.tar.gz::https://github.com/xmonad/xmonad-contrib/archive/v0.17.0.tar.gz
-	sha512sums = 1676d96acb6a7474457c44ee52bb792b23a233c897757ffdb0448a3bed16f71851e4d7f0c3d7bfd6ae48a4cc617fee5ceecea33260f454caf9189a0b785cca57
+	source = xmonad-contrib-0.17.1.tar.gz::https://github.com/xmonad/xmonad-contrib/archive/v0.17.1.tar.gz
+	sha512sums = a1e5fc989ed04b79be32780a8246b8b0eda313bf910a2b8b0cf437d8843a8fcbf61526789ee32c3359ca2d48a858fe571356a0d666d8d992f01427f06e16e6b5
 
 pkgname = xmonad-contrib
