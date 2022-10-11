@@ -1,5 +1,5 @@
 pkgbase = signify
-	pkgdesc = OpenBSD tool to signs and verify signatures on files
+	pkgdesc = OpenBSD tool to cryptographically sign and verify files
 	pkgver = 31
 	pkgrel = 1
 	url = https://github.com/aperezdc/signify
