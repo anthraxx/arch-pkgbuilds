@@ -1,17 +1,17 @@
 pkgbase = libxml2
-	pkgdesc = XML C parser and toolkit (32-bit)
+	pkgdesc = XML C parser and toolkit
 	pkgver = 2.10.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home
 	arch = x86_64
 	license = custom:MIT
-	makedepends = python
 	makedepends = git
-	depends = zlib
-	depends = xz
+	makedepends = python
 	depends = icu
-	depends = readline
 	depends = ncurses
+	depends = readline
+	depends = xz
+	depends = zlib
 	options = debug
 	source = git+https://gitlab.gnome.org/GNOME/libxml2.git#commit=21b24b51608d471bb9f7c4225e23d0db2acecc52
 	source = libxml2-2.9.8-python3-unicode-errors.patch
@@ -27,5 +27,5 @@ pkgname = libxml2
 	provides = libxml2.so
 
 pkgname = libxml2-docs
-	pkgdesc = XML C parser and toolkit (32-bit) (documentation)
+	pkgdesc = XML C parser and toolkit (documentation)
 	depends = 
