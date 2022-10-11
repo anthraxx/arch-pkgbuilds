@@ -3,8 +3,8 @@
 # Contributor: Anatol Pomozov <anatol dot pomozov at gmail>
 
 pkgname=meson
-pkgver=0.63.1
-pkgrel=2
+pkgver=0.63.3
+pkgrel=1
 pkgdesc='High productivity build system'
 url='https://mesonbuild.com/'
 arch=('any')
@@ -18,22 +18,16 @@ checkdepends=('gcc-objc' 'vala' 'rust' 'gcc-fortran' 'mono' 'boost' 'qt5-base' '
               'python-pytest-xdist' 'ldc' 'rust-bindgen' 'cuda' 'hotdoc')
 source=(https://github.com/mesonbuild/meson/releases/download/${pkgver}/meson-${pkgver}.tar.gz{,.asc}
         0001-Skip-broken-tests.patch
-        0002-compilers-Add-optimization-plain-option.patch
         arch-meson)
-sha512sums=('25f96e18bcdbb6346c44d9f8e63035d6cb3d8f781cf43ac5530ddd6f8090f4d16d192f8d331240154602e92b498b410fabb1381dc5f39db1dfb9da05a964d44e'
+sha512sums=('6855b2bfe05d592419bfeaf4346c3d1079319f14de995109c09a7e5e9770cef829f66d659553337b3e54ca0dd6c497bccd4abef720f299173077b664d905864b'
             'SKIP'
-            'b59d90b5466fcf877969a49982308b1c89f0f4521e4d3774a4531bb2c0093f46b5ea2ef569e32984632e6f9c7e91328bc3511978427b553ed8c97a64a52b79ff'
-            '9335dd98626ebddb1bbc6247c4ec8b1cd28c8b97e520d0e0d657671093b6bc6ca4399d2e06311ca9084b4920660aa48b29402fb2aae946c7e5e44d90cd970e8c'
+            'fea6b37d7c07e7f591978d2f495e759d2f6b82126eff7835f823c24848d5a7c32356fe175eefeb2bcba0edb68109d8080de5e128a5317808128dc1ba5c15e92d'
             'f451f8a7ef9cf1dd724c2ce20bb85a3f1611b87b2e7a17ef0fdbe8ab82a67389f818ea30a5adfe8413143e4eac77ea2e0b8234b5b2466b41a892e2bd0435376c')
 validpgpkeys=('19E2D6D9B46D8DAA6288F877C24E631BABB1FE70') # Jussi Pakkanen <jpakkane@gmail.com>
 
 prepare() {
   cd ${pkgname}-${pkgver}
   patch -Np1 -i ../0001-Skip-broken-tests.patch
-
-  # Fix buildtype plain to not add -O0
-  # https://github.com/mesonbuild/meson/pull/10593
-  patch -Np1 -i ../0002-compilers-Add-optimization-plain-option.patch
 }
 
 build() {
@@ -44,7 +38,7 @@ build() {
 check() (
   cd ${pkgname}-${pkgver}
   export LC_CTYPE=en_US.UTF-8 CPPFLAGS= CFLAGS= CXXFLAGS= LDFLAGS=
-  ./run_tests.py
+  ./run_tests.py --failfast
 )
 
 package() {
