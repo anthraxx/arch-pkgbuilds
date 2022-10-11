@@ -1,0 +1,27 @@
+pkgbase = libxslt
+	pkgdesc = XML stylesheet transformation library
+	pkgver = 1.1.37
+	pkgrel = 2
+	url = https://gitlab.gnome.org/GNOME/libxslt/-/wikis/home
+	arch = x86_64
+	license = custom:MIT
+	checkdepends = docbook-xml
+	makedepends = git
+	makedepends = python
+	depends = libgcrypt
+	depends = libxml2
+	depends = xz
+	options = debug
+	source = git+https://gitlab.gnome.org/GNOME/libxslt.git#commit=5eca7fb65b7337409a02f9f94fde608edf7d1b0a
+	source = 0001-Make-generate-id-deterministic.patch
+	sha256sums = SKIP
+	sha256sums = 605e0a0b2ca385a90226bc5b141d3f6bfeade13e43ab39f8dea863505d7cbf18
+
+pkgname = libxslt
+	optdepends = python: Python bindings
+	provides = libxslt.so
+	provides = libexslt.so
+
+pkgname = libxslt-docs
+	pkgdesc = XML stylesheet transformation library (documentation)
+	depends = 
