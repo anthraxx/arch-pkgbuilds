@@ -5,19 +5,19 @@
 # Contributor: Richard Murri
 
 pkgname=python-werkzeug
-pkgver=2.1.2
+pkgver=2.2.2
 pkgrel=1
 pkgdesc='Swiss Army knife of Python web development'
 url='https://werkzeug.palletsprojects.com/'
 arch=('any')
 license=('custom:BSD')
-depends=('python')
+depends=('python-markupsafe')
 makedepends=('python-setuptools' 'python-build' 'python-installer' 'python-wheel')
 checkdepends=('python-pytest' 'python-pytest-timeout' 'python-pytest-xprocess' 'python-requests'
               'python-ephemeral-port-reserve' 'python-greenlet' 'python-watchdog'
               'python-cryptography')
 source=("https://github.com/pallets/werkzeug/archive/${pkgver}/$pkgname-$pkgver.tar.gz")
-sha512sums=('28c4a794a3dbc8423e59244fbcf192b60b53f378444aaaf60330bdd62cec38a4625033b5d72b55613c8b26053a60153ddcb816331ff28ad3ee03bede74d8b1b3')
+sha512sums=('cded6c7e0b00871366b70a41de45e31323c0fc09300413d0efca98f5a2f8207026fd77c7e5670fde727da377fd02b9b636f390a2524d2b5778e9e3bdbdfe3e3a')
 
 build() {
   cd "werkzeug-$pkgver"
