@@ -1,30 +1,29 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2022.1.4
+	pkgver = 2022.2.2
 	pkgrel = 2
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
 	license = APACHE
 	makedepends = git
-	makedepends = java-environment=11
+	makedepends = jdk17-openjdk
 	makedepends = python-setuptools
 	depends = giflib
 	depends = glib2
-	depends = java-environment=11
-	depends = java11-openjfx
+	depends = jre17-openjdk
 	depends = python
 	depends = sh
 	depends = ttf-font
 	depends = fontconfig
 	depends = libdbusmenu-glib
 	optdepends = ipython: IPython integration for Python 3
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=pycharm/221.6008.17
-	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=pycharm/221.6008.17
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=pycharm/222.4167.33
+	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=pycharm/222.4167.33
 	source = pycharm.desktop
 	source = pycharm.sh
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = f727119ec7c8b96820e80712b1ee342de6a94ff72402e8f2d390cbff702f9b21
-	sha256sums = 7b5360b4977e934931acab775d04915417a5da9f3ea1dd44355525b0016cf65d
+	sha256sums = f4c4f1dfac7fa89ac1ea407904b19d0513d481b2f6f562672d02bfa4ce32c1ff
 
 pkgname = pycharm-community-edition

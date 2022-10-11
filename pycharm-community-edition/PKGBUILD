@@ -5,8 +5,10 @@
 # Contributor: David Keogh <davekeogh@archlinux.us>
 
 pkgname=pycharm-community-edition
-pkgver=2022.1.4
-_build=221.6008.17
+pkgver=2022.2.2
+_build=222.4167.33
+_jrever=17
+_jdkver=17
 pkgrel=2
 pkgdesc='Python IDE for Professional Developers'
 arch=(x86_64)
@@ -15,8 +17,7 @@ license=(APACHE)
 depends=(
   giflib
   glib2
-  java-environment=11
-  java11-openjfx
+  "jre${_jrever}-openjdk"
   python
   sh
   ttf-font
@@ -28,7 +29,7 @@ optdepends=(
 )
 makedepends=(
   git
-  java-environment=11
+  "jdk${_jdkver}-openjdk"
   python-setuptools
 )
 source=(
@@ -40,7 +41,7 @@ source=(
 sha256sums=('SKIP'
             'SKIP'
             'f727119ec7c8b96820e80712b1ee342de6a94ff72402e8f2d390cbff702f9b21'
-            '7b5360b4977e934931acab775d04915417a5da9f3ea1dd44355525b0016cf65d')
+            'f4c4f1dfac7fa89ac1ea407904b19d0513d481b2f6f562672d02bfa4ce32c1ff')
 
 prepare() {
   cd intellij-community
@@ -48,8 +49,11 @@ prepare() {
   echo ${_build} > build.txt
   mv "${srcdir}"/idea-android android
 
-  sed '/String targetOS/c   String targetOS = OS_LINUX' -i platform/build-scripts/groovy/org/jetbrains/intellij/build/BuildOptions.groovy
-  sed 's|../build/plugins-autoupload.txt|plugins-autoupload.txt|' -i platform/build-scripts/groovy/org/jetbrains/intellij/build/impl/DistributionJARsBuilder.groovy
+  sed -e 's/var targetOs: String/var targetOs: String = OS_LINUX/' \
+      -e 's/System.getProperty(TARGET_OS_PROPERTY, OS_ALL)/OS_LINUX/' \
+      -i "platform/build-scripts/groovy/org/jetbrains/intellij/build/BuildOptions.kt"
+  sed 's|../build/plugins-autoupload.txt|plugins-autoupload.txt|' \
+      -i "platform/build-scripts/groovy/org/jetbrains/intellij/build/impl/DistributionJARsBuilder.kt"
   touch plugins-autoupload.txt
   # Fix pycharm python/installer.cmd & python/plugin.cmd
   sed 's|intellij.pycharm.community.build|"$(cd "$(dirname "$0")"; pwd)/../" intellij.pycharm.community.build|' -i python/installers.cmd
@@ -59,13 +63,11 @@ prepare() {
 build() {
   cd intellij-community
 
-  unset _JAVA_OPTIONS
-  export JAVA_HOME=/usr/lib/jvm/java-11-openjdk
-  export PATH="${JAVA_HOME}/bin:${PATH}"
-  export JDK_16_x64=/usr/lib/jvm/java-11-openjdk
-  export JDK_18_x64=/usr/lib/jvm/java-11-openjdk
+  export JAVA_HOME="/usr/lib/jvm/java-${_jdkver}-openjdk"
+  export PATH="/usr/lib/jvm/java-${_jdkver}-openjdk/bin:$PATH"
+  export MAVEN_REPOSITORY=/build/.m2/repository
 
-  ./python/installers.cmd -Dintellij.build.target.os=linux
+  ./python/installers.cmd -Dintellij.build.use.compiled.classes=false -Dintellij.build.target.os=linux
   #./python/plugin.cmd -Dintellij.build.target.os=linux
 
   tar -xf out/pycharm-ce/artifacts/pycharmPC-${_build}-no-jbr.tar.gz -C "${srcdir}"
