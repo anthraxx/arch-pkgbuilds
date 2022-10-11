@@ -1,7 +1,7 @@
 # Maintainer: Levente Polyak <anthraxx[at]archlinux[dot]org>
 
 pkgname=diffoscope
-pkgver=221
+pkgver=224
 pkgrel=1
 pkgdesc='Tool for in-depth comparison of files, archives, and directories'
 url='https://diffoscope.org/'
@@ -67,12 +67,11 @@ checkdepends=(
   'libxmlb' 'lz4' 'unzip' 'gzip' 'tar' 'tcpdump' 'vim' 'xz' 'llvm' 'colord' 'fpc' 'openssh' 'openssl' 'odt2txt' 'docx2txt' 'r' 'dtc'
   'giflib' 'gnumeric' 'python-progressbar' 'binwalk' 'python-argcomplete' 'zstd' 'uboot-tools')
 source=(https://diffoscope.org/archive/diffoscope-${pkgver}.tar.bz2{,.asc})
-sha512sums=('e1f3c726c37f1c5e4c8b6379ac0d06ec950403c97e64d7457169963d073d02d29b4257b9ed6a3159d01c9fee3ced2d94248da6537fdf82d56e1d373ba7f7271e'
+sha512sums=('e8224a77de33fe8d03e7cb6e117e97bccb8cf44bd0d86d32d4c3673bc5f0bc64e82d0ebe09eb78fe3b74bbfb3889a7805ee8fb3e57f4860eb7aabe09b12a479d'
             'SKIP')
-b2sums=('31f2dcdf98d38356670dbf2fd833247cd3f6e1f057746cdd014097fca8d99ab851b9f625a5e40daec0e6835abea8be559038173b2dc3215ab906b26ce77cad5d'
+b2sums=('6739599b5c899e4ef7986ab66f18b56186520a62334fa60ae0c05e131599b3e59f1580811a469632c19bbcf1a1cd098303ca0211ca47c3376d93b0b95fb55f37'
         'SKIP')
 validpgpkeys=("C2FE4BD271C139B86C533E461E953E27D4311E58") # "Chris Lamb <chris@chris-lamb.co.uk>"
-
 
 build() {
   cd ${pkgname}-${pkgver}
