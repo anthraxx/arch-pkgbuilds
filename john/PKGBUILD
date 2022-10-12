@@ -119,6 +119,7 @@ package() {
 
   # scripts
   install -d "${pkgdir}/usr/bin" "${pkgdir}/usr/lib/john"
+  sed '1s/python/python2/' "${pkgdir}/usr/bin/ssh2john.py" >"${pkgdir}/usr/lib/john/ssh2john.py"
   install -Dm 755 run/{*.py,*.pl,*.rb,*.lua,*.js,mailer,benchmark-unify} -t "${pkgdir}/usr/lib/john"
   for ext in lua pl rb py; do
     for script in run/*."${ext}"; do
