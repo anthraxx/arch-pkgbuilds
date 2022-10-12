@@ -1,0 +1,23 @@
+pkgbase = zlib
+	pkgver = 1.2.12
+	pkgrel = 2
+	epoch = 1
+	url = https://www.zlib.net/
+	arch = x86_64
+	license = custom
+	depends = glibc
+	options = staticlibs
+	source = https://zlib.net/zlib-1.2.12.tar.gz
+	source = https://zlib.net/zlib-1.2.12.tar.gz.asc
+	source = zlib-handle-incorrect-crc-inputs.patch::https://github.com/madler/zlib/commit/ec3df00224d4.patch
+	validpgpkeys = 5ED46A6721D365587791E2AA783FCD8E58BCAFBA
+	sha256sums = 91844808532e5ce316b3c010929493c0244f3d37593afd6de04f71821d5136d9
+	sha256sums = SKIP
+	sha256sums = 00e023c3ccb7b895ebb3421970b1b77f8a527b40190f35050b79fd0e817a7b0c
+
+pkgname = zlib
+	pkgdesc = Compression library implementing the deflate compression method found in gzip and PKZIP
+
+pkgname = minizip
+	pkgdesc = Mini zip and unzip based on zlib
+	depends = zlib
