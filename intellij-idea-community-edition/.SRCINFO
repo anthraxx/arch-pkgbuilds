@@ -1,7 +1,7 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
 	pkgver = 2022.2.3
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 4
 	url = https://www.jetbrains.com/idea/
 	arch = x86_64
@@ -9,6 +9,7 @@ pkgbase = intellij-idea-community-edition
 	makedepends = ant
 	makedepends = git
 	makedepends = java-environment-openjdk=17
+	makedepends = maven
 	depends = giflib
 	depends = java-runtime=17
 	depends = python
@@ -18,16 +19,19 @@ pkgbase = intellij-idea-community-edition
 	depends = fontconfig
 	depends = hicolor-icon-theme
 	optdepends = lldb: lldb frontend integration
+	noextract = junit-3.8.1.jar
 	backup = usr/share/idea/bin/idea64.vmoptions
 	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/222.4345.14
 	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/222.4345.14
 	source = idea-adt-tools-base::git://git.jetbrains.org/idea/adt-tools-base.git#commit=17e9c8b666cac0b974b1efc5e1e4c33404f72904
 	source = idea.desktop
 	source = idea.sh
+	source = https://repo1.maven.org/maven2/junit/junit/3.8.1/junit-3.8.1.jar
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = SKIP
 	sha256sums = 049c4326b6b784da0c698cf62262b591b20abb52e0dcf869f869c0c655f3ce93
 	sha256sums = d7e4a325fccd48b8c8b0a6234df337b58364e648bb9b849e85ca38a059468e71
+	sha256sums = b58e459509e190bed737f3592bc1950485322846cf10e78ded1d065153012d70
 
 pkgname = intellij-idea-community-edition
