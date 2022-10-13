@@ -1,7 +1,7 @@
 pkgbase = testssl.sh
 	pkgdesc = Testing TLS/SSL encryption
 	pkgver = 3.0.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/drwetter/testssl.sh
 	arch = any
 	license = GPL2
@@ -13,7 +13,6 @@ pkgbase = testssl.sh
 	depends = coreutils
 	depends = util-linux
 	depends = openssl
-	depends = inetutils
 	depends = bind-tools
 	depends = procps-ng
 	source = https://github.com/drwetter/testssl.sh/archive/v3.0.8/testssl.sh-3.0.8.tar.gz
