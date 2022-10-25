@@ -1,12 +1,13 @@
 pkgbase = ruby-async
 	pkgdesc = Composable asynchronous I/O
 	pkgver = 1.30.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/socketry/async
 	arch = any
 	license = MIT
 	makedepends = ruby-rdoc
 	depends = ruby
+	depends = ruby-console
 	depends = ruby-nio4r
 	depends = ruby-timers
 	options = !emptydirs
