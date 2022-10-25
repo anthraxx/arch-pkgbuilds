@@ -1,7 +1,7 @@
 pkgbase = sqlitebrowser
 	pkgdesc = SQLite Database browser is a light GUI editor for SQLite databases, built on top of Qt
 	pkgver = 3.12.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://sqlitebrowser.org/
 	arch = x86_64
 	license = GPL3
