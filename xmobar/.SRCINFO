@@ -1,12 +1,11 @@
 pkgbase = xmobar
 	pkgdesc = Minimalistic Text Based Status Bar
-	pkgver = 0.44
-	pkgrel = 4
-	url = https://hackage.haskell.org/package/xmobar
+	pkgver = 0.44.1
+	pkgrel = 3
+	url = https://codeberg.org/xmobar/xmobar
 	arch = x86_64
 	license = BSD
 	makedepends = ghc
-	makedepends = uusi
 	makedepends = haskell-hspec
 	makedepends = haskell-temporary
 	depends = libxft
@@ -38,7 +37,7 @@ pkgbase = xmobar
 	depends = haskell-http-client-tls
 	depends = haskell-alsa-core
 	depends = haskell-alsa-mixer
-	source = https://github.com/jaor/xmobar/archive/0.44/xmobar-0.44.tar.gz
-	sha512sums = 0aba48b178641bf13e5fef83abec2c528817149549756c821d84d0f012143f81b8a056e065334904ad5ccaaf2a609e3fa93a0507714d8810dde4b4cdd43bb034
+	source = xmobar-0.44.1.tar.gz::https://codeberg.org/xmobar/xmobar/archive/0.44.1.tar.gz
+	sha512sums = a4fe99a57286068d1ea220c14a8b3f4967f366f8b26edae864658d669d27ff7991b6c9a132a41f685fb121aaea57206948332c65fe31e8b6c2da10c138a0081f
 
 pkgname = xmobar
