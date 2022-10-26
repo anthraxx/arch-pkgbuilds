@@ -1,6 +1,6 @@
 pkgbase = git-smash
 	pkgdesc = Smash staged changes into previous commits to support your Git workflow
-	pkgver = 0.0.2
+	pkgver = 0.1.0
 	pkgrel = 1
 	url = https://github.com/anthraxx/git-smash
 	arch = x86_64
@@ -9,14 +9,16 @@ pkgbase = git-smash
 	makedepends = scdoc
 	depends = glibc
 	depends = gcc-libs
+	depends = git
+	optdepends = skim: selection menu alternative
+	optdepends = fzf: selection menu alternative
 	options = !makeflags
-	source = https://github.com/anthraxx/git-smash/archive/0.0.2/git-smash-0.0.2.tar.gz
-	source = https://github.com/anthraxx/git-smash/releases/download/0.0.2/git-smash-0.0.2.tar.gz.sig
+	source = https://github.com/anthraxx/git-smash/archive/0.1.0/git-smash-0.1.0.tar.gz
+	source = https://github.com/anthraxx/git-smash/releases/download/0.1.0/git-smash-0.1.0.tar.gz.sig
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
-	sha512sums = 60d9d408b97c14f624eb3b82f5d79005e2b23eb6a16f8801b495fd390dfceeb1093c8c6b529f791ae88ec2062b2b8893536637895cd0f26906a3b6527ce12f44
+	sha512sums = 64a8b6e2afa7007966245a4888e51251e8c35f0b82421f3cee634a3e7b82256a24459cba2941800a6e50a047766a0f8de20b435904d17df3fd456b6c09ac4c5f
 	sha512sums = SKIP
-	b2sums = 015dc68f525cf0709496af439c5e0d3d6cec661f92bf5b6969e7f0d95240ef887ac0e94b085ad320e6cd9a0787e117cf7f9418858301c29f60d0017be5c0f863
+	b2sums = acc46b7a87135380fe36c378e9055b8b7c9b88a818c955f04677161f50d5ccd5699ac05f0a858dd11ca7b42b3505c0ac037f50efcd690f9e5a76be395d5d6590
 	b2sums = SKIP
 
 pkgname = git-smash
-
