@@ -1,13 +1,26 @@
 pkgbase = memtest86+
 	pkgdesc = Advanced memory diagnostic tool
-	pkgver = 5.31b
-	pkgrel = 1
+	pkgver = 6.00
+	pkgrel = 2
 	url = https://www.memtest.org
 	arch = any
 	license = GPL2
-	source = https://www.memtest.org/download/5.31b/memtest86+-5.31b.bin.gz
+	makedepends = git
+	makedepends = xorriso
+	makedepends = dosfstools
+	makedepends = mtools
+	source = git+https://github.com/memtest86plus/memtest86plus.git#tag=d3bc8fa7c2a2400d9c4d58cee00168d39fa9d716
 	source = 60_memtest86+
-	b2sums = d171e2c8ee53fef79d37f9f014ab0bb4c796c26c1eb4ae3c0a5ac2635277480890c147988937646e2d32cdbd1dcc4c38551eb140f69f574ed4ec04b638f9ab59
-	b2sums = ca607b4483b592f7f0c64893f72b0b57b1dd91ebf2c107e65f0a1979a7234d09221dd2149c73d1c6a41ffea331c3cb633babed4400316fc953528272016b15d8
+	source = 60_memtest86+-efi
+	sha512sums = SKIP
+	sha512sums = 9067f58ab7ad6d7080a7f5e428fb2ef68a44cb6d83e531badf385df134d1e764e0f77e9b2d1c3e8fca36cd5e25dcde672f71a4a8f883783ec600a70f0ee1c22c
+	sha512sums = 926f5a7ef54e706c977bc03ca66a9e5ec3aa5ca119359c6e6bfdf83834ff5097689b312032cdf7661afab6baa04867e25792f27dd665fc89a061f2a9e39cf97e
 
 pkgname = memtest86+
+	pkgdesc = Advanced memory diagnostic tool legacy BIOS version
+
+pkgname = memtest86+-efi
+	pkgdesc = Advanced memory diagnostic tool EFI version
+
+pkgname = memtest86+-iso
+	pkgdesc = Advanced memory diagnostic tool ISO image
