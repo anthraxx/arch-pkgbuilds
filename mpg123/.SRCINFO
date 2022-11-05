@@ -1,6 +1,6 @@
 pkgbase = mpg123
 	pkgdesc = Console based real time MPEG Audio Player for Layer 1, 2 and 3
-	pkgver = 1.30.2
+	pkgver = 1.31.1
 	pkgrel = 1
 	url = https://sourceforge.net/projects/mpg123
 	arch = x86_64
@@ -16,10 +16,10 @@ pkgbase = mpg123
 	optdepends = perl: for conplay
 	provides = libmpg123.so
 	provides = libout123.so
-	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.30.2.tar.bz2
-	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.30.2.tar.bz2.sig
+	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.31.1.tar.bz2
+	source = https://downloads.sourceforge.net/sourceforge/mpg123/mpg123-1.31.1.tar.bz2.sig
 	validpgpkeys = D021FF8ECF4BE09719D61A27231C4CBC60D5CAFE
-	sha512sums = e2e9279799f3917c9ecbcb2ccdc2c246bda50317dbfdd7ba3d56281b7b4f5b1928442fc8e712fbf90543159afc703d1ab8ceb7e3c1c038e1547b82d1616bdc82
+	sha512sums = d007ea94a99fde60919a173320e124c9f0079a28452533eeceb9c7bfed43810b46384ae45459ef6ac185e27ec06e153723bb588aaa4955ee2ad1c51dc58eb132
 	sha512sums = SKIP
 
 pkgname = mpg123
