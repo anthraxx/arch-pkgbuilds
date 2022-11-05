@@ -1,7 +1,7 @@
 pkgbase = rizin
 	pkgdesc = Open-source tools to disasm, debug, analyze and manipulate binary files
 	pkgver = 0.4.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://rizin.re
 	arch = x86_64
 	license = GPL3
