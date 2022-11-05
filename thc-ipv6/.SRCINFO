@@ -1,7 +1,7 @@
 pkgbase = thc-ipv6
 	pkgdesc = Complete tool set to attack the inherent protocol weaknesses of IPv6 and ICMP6
 	pkgver = 3.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/vanhauser-thc/thc-ipv6
 	arch = x86_64
 	license = AGPL3
@@ -17,4 +17,3 @@ pkgbase = thc-ipv6
 	b2sums = a2b57e13a47aacf1205b87c6f30cbea2468f47aad7232b92190995bf7ffbb64904d4d0cd187657c12584cd41e66cb0e4db3b6d826d41287aa020398de8ca7f91
 
 pkgname = thc-ipv6
-
