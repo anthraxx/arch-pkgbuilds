@@ -1,7 +1,7 @@
 pkgbase = hydra
 	pkgdesc = Very fast network logon cracker which support many different services
 	pkgver = 9.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/vanhauser-thc/thc-hydra
 	arch = x86_64
 	license = GPL3
