@@ -1,6 +1,6 @@
 pkgbase = readline
 	pkgdesc = GNU readline library
-	pkgver = 8.2.0
+	pkgver = 8.2.001
 	pkgrel = 1
 	url = https://tiswww.case.edu/php/chet/readline/rltop.html
 	arch = x86_64
@@ -16,9 +16,13 @@ pkgbase = readline
 	source = https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz
 	source = https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz.sig
 	source = inputrc
+	source = https://ftp.gnu.org/gnu/readline/readline-8.2-patches/readline82-001
+	source = https://ftp.gnu.org/gnu/readline/readline-8.2-patches/readline82-001.sig
 	validpgpkeys = 7C0135FB088AAF6C66C650B9BB5869F064EA74AB
 	md5sums = 4aa1b31be779e6b84f9a96cb66bc50f6
 	md5sums = SKIP
 	md5sums = 58d54966c1191db45973cb3191ac621a
+	md5sums = b800ce35690436a995a4fadf939e53cc
+	md5sums = SKIP
 
 pkgname = readline
