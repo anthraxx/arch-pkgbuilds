@@ -1,12 +1,12 @@
 pkgbase = ncrack
 	pkgdesc = High-speed network authentication cracking tool
 	pkgver = 0.7
-	pkgrel = 2
+	pkgrel = 3
 	url = https://nmap.org/ncrack/
 	arch = x86_64
 	license = GPL2
 	depends = openssl
-	source = https://github.com/nmap/ncrack/archive/0.7/ncrack-0.7.tar.gz
+	source = https://github.com/nmap/ncrack/archive/refs/tags/0.7/ncrack-0.7.tar.gz
 	source = ncrack-nullcheck.patch
 	sha256sums = f3f971cd677c4a0c0668cb369002c581d305050b3b0411e18dd3cb9cc270d14a
 	sha256sums = db38a84172ce548614c7e6f2f9f751b31e68716fe3ff68761c21f7e11d6143fc
@@ -14,4 +14,3 @@ pkgbase = ncrack
 	sha512sums = c5648363def2dd8c8f01e5b039824357383b465373f59912abcfcb150873e6702a848c15ce1eea802c64d8e0fd0d3e88ddac190a1b659cd1b23da020f36b1b0b
 
 pkgname = ncrack
-
