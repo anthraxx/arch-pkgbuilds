@@ -1,7 +1,7 @@
 pkgbase = live-media
 	pkgdesc = Set of C++ libraries for multimedia streaming
 	pkgver = 2022.04.26
-	pkgrel = 1
+	pkgrel = 2
 	url = http://live555.com/liveMedia
 	arch = x86_64
 	license = LGPL
