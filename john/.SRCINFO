@@ -1,7 +1,7 @@
 pkgbase = john
 	pkgdesc = John the Ripper password cracker
 	pkgver = 1.9.0.jumbo1
-	pkgrel = 7
+	pkgrel = 8
 	url = https://www.openwall.com/john
 	arch = x86_64
 	license = GPL2
