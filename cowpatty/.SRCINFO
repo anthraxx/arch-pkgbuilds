@@ -1,7 +1,7 @@
 pkgbase = cowpatty
 	pkgdesc = Wireless WPA/WPA2 PSK handshake cracking utility
 	pkgver = 4.8
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/joswr1ght/cowpatty
 	arch = x86_64
 	license = GPL
@@ -12,4 +12,3 @@ pkgbase = cowpatty
 	sha512sums = a0a6ef859e0d1a5d753377b8eac50ef46ded7c1ddae50795bdc1170a5c8b572a3ae397ac9bcb9341863a69f0d2dc3e24d9727873baa10c3ee730d8dc6a8d0683
 
 pkgname = cowpatty
-
