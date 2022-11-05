@@ -1,7 +1,7 @@
 pkgbase = ettercap
 	pkgdesc = Network sniffer/interceptor/logger for ethernet LANs
 	pkgver = 0.8.3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ettercap.github.com/ettercap/
 	arch = x86_64
 	license = GPL
@@ -66,4 +66,3 @@ pkgname = ettercap-gtk
 	provides = ettercap
 	provides = libettercap.so
 	conflicts = ettercap
-
