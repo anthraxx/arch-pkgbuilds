@@ -1,7 +1,7 @@
 pkgbase = slowhttptest
 	pkgdesc = Highly configurable tool that simulates some Application Layer Denial of Service (DoS) attacks
 	pkgver = 1.8.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/shekyan/slowhttptest
 	arch = x86_64
 	license = Apache
@@ -13,4 +13,3 @@ pkgbase = slowhttptest
 	b2sums = eab6cb49ded764db6c322eba44016d19906cfd4149c10740b89dd15e69d13329f1c0987b5f5875a9b21651ea00f084729dcbc1661d226a56761b180511489977
 
 pkgname = slowhttptest
-
