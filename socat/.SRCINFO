@@ -1,7 +1,7 @@
 pkgbase = socat
 	pkgdesc = Multipurpose relay
 	pkgver = 1.7.4.3
-	pkgrel = 1
+	pkgrel = 2
 	url = http://www.dest-unreach.org/socat/
 	arch = x86_64
 	license = GPL2
