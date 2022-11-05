@@ -1,7 +1,7 @@
 pkgbase = hcxkeys
 	pkgdesc = Set of tools to generate plainmasterkeys (rainbowtables) and hashes for hashcat and John the Ripper
 	pkgver = 6.2.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ZerBea/hcxkeys
 	arch = x86_64
 	license = MIT
