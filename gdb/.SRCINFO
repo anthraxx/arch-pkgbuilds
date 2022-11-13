@@ -1,7 +1,7 @@
 pkgbase = gdb
 	pkgdesc = The GNU Debugger
 	pkgver = 12.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.gnu.org/software/gdb/
 	arch = x86_64
 	license = GPL3
@@ -15,14 +15,18 @@ pkgbase = gdb
 	makedepends = xz
 	makedepends = mpfr
 	makedepends = source-highlight
+	makedepends = boost
 	makedepends = readline
 	source = https://ftp.gnu.org/gnu/gdb/gdb-12.1.tar.xz
 	source = https://ftp.gnu.org/gnu/gdb/gdb-12.1.tar.xz.sig
+	source = readline8.patch
 	validpgpkeys = F40ADB902B24264AA42E50BF92EDB04BFF325CF3
 	sha1sums = 2edabd9f5766b84889b07b366b4438e93e994005
 	sha1sums = SKIP
+	sha1sums = 9a57ab62b2f1fdbb73fff3f502827101ea945d59
 	b2sums = 7f6f853d1640908cf2c79932cdc1ba02549a07721c005d9c7ce2946a715761719cc164a4e68235a18664ec8a029afe3a2a0cfb57e1635f280076d6bed91317fd
 	b2sums = SKIP
+	b2sums = e2deed0d704caf3ae3e99242006f2b8a9abe5e81c75beb664b90f1ca1d79d3e2ecdf40edaca946bc4af1d2958efaf42d4a49afdde8e85fa98108522a0a82ebf4
 
 pkgname = gdb
 	depends = glibc
