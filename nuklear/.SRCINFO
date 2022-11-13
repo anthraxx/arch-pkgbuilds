@@ -1,0 +1,12 @@
+pkgbase = nuklear
+	pkgdesc = Single-header ANSI C immediate mode cross-platform GUI library
+	pkgver = 4.10.1
+	pkgrel = 1
+	url = https://github.com/Immediate-Mode-UI/Nuklear
+	arch = any
+	license = MIT
+	source = https://github.com/Immediate-Mode-UI/Nuklear/archive/refs/tags/4.10.1/nuklear-4.10.1.tar.gz
+	sha512sums = 5707e3438e655d1d68151a0f0886a924ebea06712814399f30eddfbb97e203c3a6afb999aab0b582e5bfc1e8f045c963c2ae9575dafeeeb7abfb4d27370a88d3
+	b2sums = 6ebaca7a739b703e539918dc27b20f01bae7dcba361b614f384105e0bb861a8aae67f5176cb413c1ae7ecba8c84d5f70a2c01c3b547f79482e1cfea9c1dc5411
+
+pkgname = nuklear
