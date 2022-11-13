@@ -1,14 +1,13 @@
 pkgbase = python-flask-mail
 	pkgdesc = Flask extension providing simple email sending capabilities
 	pkgver = 0.9.1
-	pkgrel = 8
+	pkgrel = 9
 	url = https://pythonhosted.org/Flask-Mail/
 	arch = any
 	license = BSD
 	checkdepends = python-nose
 	checkdepends = python-blinker
 	checkdepends = python-speaklater
-	checkdepends = python-mock
 	makedepends = python-sphinx
 	makedepends = python-setuptools
 	depends = python
@@ -16,7 +15,9 @@ pkgbase = python-flask-mail
 	depends = python-blinker
 	source = python-flask-mail-0.9.1.tar.gz::https://github.com/mattupstate/flask-mail/archive/0.9.1.tar.gz
 	source = python-flask-mail-fix-headers-for-attachments.patch::https://github.com/mattupstate/flask-mail/commit/e195fca6de1077cabb711426e6378f51dc39d598.patch
+	source = unittest-mock.patch
 	sha512sums = 1cf45ee734b35bf05862a4e88070a743a7d3cc877e4dcdc55f5e0a9642631752c4bf1e23065212157e71e42c5fdb010de8a68b4ab9f8444f9fa096d62a7aad3d
 	sha512sums = 7e85212c213307ede608f57e00f3a7109408216d999ed6823caad758231aaac5493dbab9a625d46f4a42278641f8d56aa3733fc9f87bb4b912b87a62b16e6814
+	sha512sums = 6829afa8b22b80918a0a633e86accdfb10fe37ea5087de369bf0ae89bed65e6907ee9c8e22ab18497cff4cba4d60a25892d2fa0c3c8b3ab33cf8fd325620ff3a
 
 pkgname = python-flask-mail
