@@ -1,11 +1,10 @@
 pkgbase = python-engineio
 	pkgdesc = Python implementation of the Engine.IO realtime server
 	pkgver = 4.3.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/miguelgrinberg/python-engineio
 	arch = any
 	license = MIT
-	checkdepends = python-mock
 	checkdepends = python-pytest
 	checkdepends = python-pytest-runner
 	makedepends = python-setuptools
