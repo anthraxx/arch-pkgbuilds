@@ -1,7 +1,7 @@
 pkgbase = conky
 	pkgdesc = Lightweight system monitor for X
-	pkgver = 1.12.2
-	pkgrel = 2
+	pkgver = 1.15.0
+	pkgrel = 1
 	url = https://github.com/brndnmtthws/conky
 	arch = x86_64
 	license = BSD
@@ -12,6 +12,9 @@ pkgbase = conky
 	makedepends = man-db
 	makedepends = git
 	makedepends = catch2
+	makedepends = pandoc
+	makedepends = python-yaml
+	makedepends = python-jinja
 	depends = glibc
 	depends = glib2
 	depends = lua
@@ -31,7 +34,7 @@ pkgbase = conky
 	depends = libsystemd.so
 	depends = libpulse.so
 	depends = libcurl.so
-	source = git+https://github.com/brndnmtthws/conky.git#tag=52e5aa53b4c76973519a770949dc8bdca0145325?signed
+	source = git+https://github.com/brndnmtthws/conky.git#commit=70d7d5c796e3e84e674705ffc6aaf7a0d6c5b109?signed
 	validpgpkeys = EB2E847572A71BE20F59AFBEB49ABB7270D9D4FD
 	sha512sums = SKIP
 	b2sums = SKIP
