@@ -1,12 +1,11 @@
 pkgbase = python-stem
 	pkgdesc = Python controller library for Tor
 	pkgver = 1.8.0
-	pkgrel = 5
+	pkgrel = 6
 	url = https://stem.torproject.org/
 	arch = any
 	license = LGPL3
 	checkdepends = tor
-	checkdepends = python-mock
 	depends = python
 	depends = python-cryptography
 	depends = python-pynacl
