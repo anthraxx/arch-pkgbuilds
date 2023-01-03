@@ -1,7 +1,7 @@
 pkgbase = dsniff
 	pkgdesc = Collection of tools for network auditing and penetration testing
 	pkgver = 2.4b1
-	pkgrel = 31
+	pkgrel = 32
 	url = https://www.monkey.org/~dugsong/dsniff/
 	arch = x86_64
 	license = BSD
