@@ -1,7 +1,7 @@
 pkgbase = libedit
 	pkgdesc = Command line editor library providing generic line editing, history, and tokenization functions
 	pkgver = 20210910_3.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://thrysoee.dk/editline/
 	arch = x86_64
 	license = BSD
@@ -9,6 +9,7 @@ pkgbase = libedit
 	depends = ncurses
 	depends = libncursesw.so
 	provides = libedit.so
+	options = debug
 	source = https://thrysoee.dk/editline//libedit-20210910-3.1.tar.gz
 	sha256sums = 6792a6a992050762edcca28ff3318cdb7de37dccf7bc30db59fcd7017eed13c5
 	b2sums = 325dc756fc6c6244e336cd6faeed2ab37817bdab8c0684586c44d551074fd2ec84bfcd3f4d5897db3196e783653a042699e5b9a8a3351d653992bb256956b652
