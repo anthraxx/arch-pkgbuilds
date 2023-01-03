@@ -1,12 +1,11 @@
 pkgbase = python-sqlalchemy-utils
 	pkgdesc = Various utility functions, new data types and helpers for SQLAlchemy
 	pkgver = 0.38.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/kvesteri/sqlalchemy-utils
 	arch = any
 	license = BSD
 	checkdepends = python-pytest
-	checkdepends = python-mock
 	checkdepends = python-flexmock
 	checkdepends = python-jinja
 	makedepends = python
