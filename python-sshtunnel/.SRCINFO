@@ -1,7 +1,7 @@
 pkgbase = python-sshtunnel
 	pkgdesc = Pure python SSH tunnels
 	pkgver = 0.4.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://github.com/pahaz/sshtunnel
 	arch = any
 	license = MIT
@@ -9,9 +9,12 @@ pkgbase = python-sshtunnel
 	checkdepends = python-mock
 	checkdepends = openssh
 	makedepends = git
+	makedepends = python-build
+	makedepends = python-installer
 	makedepends = python-paramiko
-	makedepends = python-sphinx
 	makedepends = python-setuptools
+	makedepends = python-sphinx
+	makedepends = python-wheel
 	source = python-sshtunnel::git+https://github.com/pahaz/sshtunnel#commit=58a46ef8b66be5eded29cd9bda4dccedb46ec586
 	sha512sums = SKIP
 
@@ -19,7 +22,6 @@ pkgname = sshtunnel
 	pkgdesc = Pure python SSH tunnels (CLI)
 	depends = python
 	depends = python-sshtunnel
-	depends = python-setuptools
 
 pkgname = python-sshtunnel
 	depends = python
