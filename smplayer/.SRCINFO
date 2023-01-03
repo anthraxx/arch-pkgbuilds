@@ -1,7 +1,7 @@
 pkgbase = smplayer
 	pkgdesc = Media player with built-in codecs that can play virtually all video and audio formats
 	pkgver = 22.7.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.smplayer.info/
 	arch = x86_64
 	license = GPL
@@ -15,7 +15,6 @@ pkgbase = smplayer
 	depends = hicolor-icon-theme
 	optdepends = smplayer-themes: icon themes collection
 	optdepends = smplayer-skins: skin themes collection
-	optdepends = smtube: browse and play youtube videos
 	optdepends = youtube-dl: youtube videos and streaming
 	optdepends = yt-dlp: youtube videos and streaming
 	optdepends = mplayer: alternative multimedia engine
