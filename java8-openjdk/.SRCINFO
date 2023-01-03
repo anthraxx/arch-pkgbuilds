@@ -1,21 +1,22 @@
 pkgbase = java8-openjdk
 	pkgver = 8.352.u08
-	pkgrel = 1
+	pkgrel = 2
 	url = https://openjdk.java.net/
 	arch = x86_64
 	license = custom
-	makedepends = java-environment=8
+	makedepends = alsa-lib
+	makedepends = bash
 	makedepends = ccache
 	makedepends = cpio
-	makedepends = unzip
-	makedepends = zip
+	makedepends = fontconfig
+	makedepends = giflib
 	makedepends = git
-	makedepends = bash
+	makedepends = java-environment=8
+	makedepends = libcups
 	makedepends = libxrender
 	makedepends = libxtst
-	makedepends = fontconfig
-	makedepends = libcups
-	makedepends = alsa-lib
+	makedepends = unzip
+	makedepends = zip
 	options = !lto
 	source = https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u352-b08.tar.gz
 	source = gcc11.patch
@@ -37,9 +38,10 @@ pkgname = jre8-openjdk-headless
 pkgname = jre8-openjdk
 	pkgdesc = OpenJDK Java 8 full runtime environment
 	install = install_jre8-openjdk.sh
-	depends = jre8-openjdk-headless=8.352.u08-1
+	depends = jre8-openjdk-headless=8.352.u08-2
 	depends = xdg-utils
 	depends = hicolor-icon-theme
+	depends = giflib
 	optdepends = icedtea-web: web browser plugin + Java Web Start
 	optdepends = alsa-lib: for basic sound support
 	optdepends = gtk2: for the Gtk+ look and feel - desktop usage
@@ -52,7 +54,7 @@ pkgname = jdk8-openjdk
 	pkgdesc = OpenJDK Java 8 development kit
 	install = install_jdk8-openjdk.sh
 	depends = java-environment-common
-	depends = jre8-openjdk=8.352.u08-1
+	depends = jre8-openjdk=8.352.u08-2
 	provides = java-environment=8
 	provides = java-environment-openjdk=8
 	replaces = jdk8-openjdk-wm
