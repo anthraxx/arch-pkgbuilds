@@ -1,7 +1,7 @@
 pkgbase = zmap
 	pkgdesc = Fast network scanner designed for Internet-wide network surveys
 	pkgver = 2.1.1
-	pkgrel = 8
+	pkgrel = 9
 	url = https://zmap.io/
 	arch = x86_64
 	license = Apache
@@ -20,4 +20,3 @@ pkgbase = zmap
 	sha512sums = 9d62dceff77fa20ff5945516b0766340366175947130bb844f19c11dac7676e658bcdedd6be29ffc945706aa3cdc0e4ac207bd127b618592769a4d3e75892857
 
 pkgname = zmap
-
