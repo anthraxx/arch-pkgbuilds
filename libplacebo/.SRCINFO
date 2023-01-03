@@ -1,7 +1,7 @@
 pkgbase = libplacebo
 	pkgdesc = Reusable library for GPU-accelerated video/image rendering primitives
 	pkgver = 5.229.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/haasn/libplacebo
 	arch = x86_64
 	license = LGPL2.1
@@ -11,6 +11,7 @@ pkgbase = libplacebo
 	makedepends = glad
 	makedepends = nuklear
 	makedepends = python
+	makedepends = python-setuptools
 	makedepends = python-mako
 	makedepends = python-markupsafe
 	makedepends = python-jinja
