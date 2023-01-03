@@ -1,12 +1,13 @@
 pkgbase = zlib
 	pkgver = 1.2.13
-	pkgrel = 1
+	pkgrel = 2
 	epoch = 1
 	url = https://www.zlib.net/
 	arch = x86_64
 	license = custom
 	depends = glibc
 	options = staticlibs
+	options = debug
 	source = https://zlib.net/zlib-1.2.13.tar.gz
 	source = https://zlib.net/zlib-1.2.13.tar.gz.asc
 	validpgpkeys = 5ED46A6721D365587791E2AA783FCD8E58BCAFBA
