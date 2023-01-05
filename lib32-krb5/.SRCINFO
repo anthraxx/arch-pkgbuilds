@@ -1,7 +1,7 @@
 pkgbase = lib32-krb5
 	pkgdesc = The Kerberos network authentication system (32-bit)
-	pkgver = 1.20
-	pkgrel = 3
+	pkgver = 1.20.1
+	pkgrel = 1
 	url = https://web.mit.edu/kerberos/
 	arch = x86_64
 	license = custom
@@ -24,12 +24,12 @@ pkgbase = lib32-krb5
 	provides = libkrb5support.so
 	provides = libverto.so
 	options = !emptydirs
-	source = https://web.mit.edu/kerberos/dist/krb5/1.20/krb5-1.20.tar.gz
-	source = https://web.mit.edu/kerberos/dist/krb5/1.20/krb5-1.20.tar.gz.asc
+	source = https://web.mit.edu/kerberos/dist/krb5/1.20/krb5-1.20.1.tar.gz
+	source = https://web.mit.edu/kerberos/dist/krb5/1.20/krb5-1.20.1.tar.gz.asc
 	source = krb5-config_LDFLAGS.patch
 	validpgpkeys = 2C732B1C0DBEF678AB3AF606A32F17FD0055C305
 	validpgpkeys = C4493CB739F4A89F9852CBC20CBA08575F8372DF
-	sha512sums = 9aed84a971a4d74188468870260087ec7c3a614cceb5fe32ad7da1cb8db3d66e00df801c9f900f0131ac56eb828674b8be93df474c2d13b892b70c7977388604
+	sha512sums = 6f57479f13f107cd84f30de5c758eb6b9fc59171329c13e5da6073b806755f8d163eb7bd84767ea861ad6458ea0c9eeb00ee044d3bcad01ef136e9888564b6a2
 	sha512sums = SKIP
 	sha512sums = 5a3782ff17b383f8cd0415fd13538ab56afd788130d6ad640e9f2682b7deaae7f25713ce358058ed771091040dccf62a3bc87e6fd473d505ec189a95debcc801
 
