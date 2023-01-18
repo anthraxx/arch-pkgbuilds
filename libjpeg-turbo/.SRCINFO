@@ -14,7 +14,6 @@ pkgbase = libjpeg-turbo
 	provides = libjpeg
 	provides = libjpeg.so
 	provides = libturbojpeg.so
-	options = debug
 	source = https://sourceforge.net/projects/libjpeg-turbo/files/2.1.4/libjpeg-turbo-2.1.4.tar.gz
 	source = https://sourceforge.net/projects/libjpeg-turbo/files/2.1.4/libjpeg-turbo-2.1.4.tar.gz.sig
 	validpgpkeys = 0338C8D8D9FDA62CF9C421BD7EC2DBB6F4DBF434
