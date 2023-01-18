@@ -15,7 +15,6 @@ pkgbase = ncurses
 	provides = libpanelw.so
 	provides = libncursesw.so
 	replaces = alacritty-terminfo
-	options = debug
 	source = https://invisible-mirror.net/archives/ncurses/ncurses-6.4.tar.gz
 	source = https://invisible-mirror.net/archives/ncurses/ncurses-6.4.tar.gz.asc
 	source = ncurses-6.3-libs.patch
