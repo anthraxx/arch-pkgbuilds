@@ -29,7 +29,6 @@ pkgbase = i3-wm
 	replaces = i3
 	replaces = i3bar
 	replaces = i3-gaps
-	options = debug
 	backup = etc/i3/config
 	source = https://i3wm.org/downloads/i3-4.22.tar.xz
 	source = https://i3wm.org/downloads/i3-4.22.tar.xz.asc
