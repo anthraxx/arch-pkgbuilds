@@ -1,7 +1,7 @@
 pkgbase = memtest86+
 	pkgdesc = Advanced memory diagnostic tool
-	pkgver = 6.00
-	pkgrel = 2
+	pkgver = 6.01
+	pkgrel = 1
 	url = https://www.memtest.org
 	arch = any
 	license = GPL2
@@ -9,7 +9,7 @@ pkgbase = memtest86+
 	makedepends = xorriso
 	makedepends = dosfstools
 	makedepends = mtools
-	source = git+https://github.com/memtest86plus/memtest86plus.git#tag=d3bc8fa7c2a2400d9c4d58cee00168d39fa9d716
+	source = git+https://github.com/memtest86plus/memtest86plus.git#tag=036922ab26a39f5548b7e8707dd7bfd37b9a0a1e
 	source = 60_memtest86+
 	source = 60_memtest86+-efi
 	sha512sums = SKIP
