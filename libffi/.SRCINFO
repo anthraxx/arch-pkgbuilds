@@ -8,7 +8,6 @@ pkgbase = libffi
 	checkdepends = dejagnu
 	depends = glibc
 	provides = libffi.so
-	options = debug
 	source = https://github.com/libffi/libffi/releases/download/v3.4.4/libffi-3.4.4.tar.gz
 	sha256sums = d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676
 	b2sums = 189fe1ffe9507f204581b0ab09995dc7e7b761bb4eac7e338e9f5ff81431aebcef6c182c1839c9f9acb2706697a260c67e6d1351cf7e2aed7c4eb5d694f6f8fd
