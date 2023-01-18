@@ -18,7 +18,6 @@ pkgbase = libtiff
 	optdepends = freeglut: for using tiffgt
 	provides = libtiff.so
 	provides = libtiffxx.so
-	options = debug
 	source = https://download.osgeo.org/libtiff/tiff-4.5.0.tar.gz
 	source = https://download.osgeo.org/libtiff/tiff-4.5.0.tar.gz.sig
 	validpgpkeys = EBDFDB21B020EE8FD151A88DE301047DE1198975
