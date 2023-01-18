@@ -17,7 +17,6 @@ pkgbase = sqlitebrowser
 	depends = qscintilla-qt5
 	depends = libqcustomplot.so
 	depends = libqhexedit.so
-	options = debug
 	source = git+https://github.com/sqlitebrowser/sqlitebrowser#tag=v3.12.2?signed
 	validpgpkeys = 05E463FDB5802C3D00257F9C79EAD0AB3BD7DD2C
 	sha256sums = SKIP
