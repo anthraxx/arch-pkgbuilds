@@ -12,7 +12,6 @@ pkgbase = libxml2
 	depends = readline
 	depends = xz
 	depends = zlib
-	options = debug
 	source = git+https://gitlab.gnome.org/GNOME/libxml2.git#commit=f507d167f1755b7eaea09fb1a44d29aab828b6d1
 	source = libxml2-2.9.8-python3-unicode-errors.patch
 	source = no-fuzz.diff
