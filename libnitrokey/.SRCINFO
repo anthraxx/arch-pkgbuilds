@@ -13,7 +13,6 @@ pkgbase = libnitrokey
 	depends = glibc
 	depends = gcc-libs
 	provides = libnitrokey.so
-	options = debug
 	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.8/libnitrokey-v3.8.tar.gz
 	source = https://github.com/Nitrokey/libnitrokey/releases/download/v3.8/libnitrokey-v3.8.tar.gz.sig
 	validpgpkeys = 868184069239FF65DE0BCD7DD9BAE35991DE5B22
