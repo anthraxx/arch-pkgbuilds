@@ -25,7 +25,6 @@ pkgbase = pacman
 	optdepends = perl-locale-gettext: translation support in makepkg-template
 	provides = libalpm.so
 	options = strip
-	options = debug
 	backup = etc/pacman.conf
 	backup = etc/makepkg.conf
 	source = https://sources.archlinux.org/other/pacman/pacman-6.0.2.tar.xz
