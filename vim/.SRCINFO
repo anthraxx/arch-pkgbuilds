@@ -18,7 +18,6 @@ pkgbase = vim
 	makedepends = tcl
 	makedepends = zlib
 	makedepends = libcanberra
-	options = debug
 	source = https://github.com/vim/vim/archive/v9.0.1182/vim-9.0.1182.tar.gz
 	source = vimrc
 	source = archlinux.vim
