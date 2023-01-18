@@ -165,7 +165,6 @@ pkgbase = vlc
 	optdepends = live-media: streaming over RTSP
 	conflicts = vlc-plugin
 	replaces = vlc-plugin
-	options = debug
 	options = !emptydirs
 	source = https://download.videolan.org/vlc/3.0.18/vlc-3.0.18.tar.xz
 	source = https://download.videolan.org/vlc/3.0.18/vlc-3.0.18.tar.xz.asc
