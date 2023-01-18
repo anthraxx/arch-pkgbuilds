@@ -22,7 +22,6 @@ pkgbase = openssh
 	optdepends = libfido2: FIDO/U2F support
 	optdepends = x11-ssh-askpass: input passphrase in X
 	optdepends = xorg-xauth: X11 forwarding
-	options = debug
 	backup = etc/pam.d/sshd
 	backup = etc/ssh/ssh_config
 	backup = etc/ssh/sshd_config
