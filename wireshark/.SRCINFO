@@ -43,7 +43,6 @@ pkgbase = wireshark
 	makedepends = speexdsp
 	makedepends = opus
 	options = !emptydirs
-	options = debug
 	source = https://www.wireshark.org/download/src/wireshark-4.0.2.tar.xz
 	source = wireshark.sysusers
 	sha512sums = 0f401f639add6483799131dd853a4f4bcf8977fd987915074d0301f553fca9f6cd6e0b7cc47358699c1f4e65872760135dea9889fb34dbb70b917768b6f37ff5
