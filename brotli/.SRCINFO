@@ -10,7 +10,6 @@ pkgbase = brotli
 	makedepends = gcc-libs
 	makedepends = cmake
 	makedepends = python-setuptools
-	options = debug
 	source = brotli::git+https://github.com/google/brotli#commit=e61745a6b7add50d380cfd7d3883dd6c62fc2c71
 	sha512sums = SKIP
 
