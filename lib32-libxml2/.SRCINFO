@@ -10,7 +10,6 @@ pkgbase = lib32-libxml2
 	depends = lib32-xz
 	depends = lib32-zlib
 	depends = libxml2
-	options = debug
 	source = git+https://gitlab.gnome.org/GNOME/libxml2.git#commit=f507d167f1755b7eaea09fb1a44d29aab828b6d1
 	sha256sums = SKIP
 
