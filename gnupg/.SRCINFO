@@ -36,7 +36,6 @@ pkgbase = gnupg
 	optdepends = libldap: gpg2keys_ldap
 	optdepends = libusb-compat: scdaemon
 	optdepends = pcsclite: scdaemon
-	options = debug
 	source = https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.40.tar.bz2
 	source = https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.2.40.tar.bz2.sig
 	source = drop-import-clean.patch
