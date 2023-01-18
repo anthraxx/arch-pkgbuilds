@@ -20,7 +20,6 @@ pkgbase = postgresql
 	makedepends = clang
 	makedepends = libxslt
 	makedepends = util-linux
-	options = debug
 	source = https://ftp.postgresql.org/pub/source/v14.6/postgresql-14.6.tar.bz2
 	source = postgresql-run-socket.patch
 	source = postgresql-perl-rpath.patch
@@ -74,7 +73,6 @@ pkgname = postgresql-libs
 
 pkgname = postgresql-docs
 	pkgdesc = HTML documentation for PostgreSQL
-	options = debug
 	options = docs
 
 pkgname = postgresql
@@ -96,7 +94,6 @@ pkgname = postgresql
 	optdepends = tcl: for PL/Tcl support
 	optdepends = postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
 	optdepends = logrotate: rotates system logs automatically
-	options = debug
 	options = staticlibs
 	backup = etc/pam.d/postgresql
 	backup = etc/logrotate.d/postgresql
