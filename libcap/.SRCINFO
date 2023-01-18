@@ -10,7 +10,6 @@ pkgbase = libcap
 	depends = pam
 	provides = libcap.so
 	provides = libpsx.so
-	options = debug
 	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.66.tar.xz
 	source = https://kernel.org/pub/linux/libs/security/linux-privs/libcap2/libcap-2.66.tar.sign
 	validpgpkeys = 38A644698C69787344E954CE29EE848AE2CCF3F4
