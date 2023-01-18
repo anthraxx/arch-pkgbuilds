@@ -10,7 +10,6 @@ pkgbase = tcpdump
 	makedepends = libcap-ng
 	makedepends = openssl
 	depends = glibc
-	options = debug
 	source = https://www.tcpdump.org/release/tcpdump-4.99.3.tar.gz
 	source = https://www.tcpdump.org/release/tcpdump-4.99.3.tar.gz.sig
 	validpgpkeys = 1F166A5742ABB9E0249A8D30E089DEF1D9C15D0D
