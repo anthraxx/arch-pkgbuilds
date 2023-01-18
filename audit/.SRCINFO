@@ -13,7 +13,6 @@ pkgbase = audit
 	makedepends = linux-api-headers
 	makedepends = python
 	makedepends = swig
-	options = debug
 	options = emptydirs
 	source = audit-userspace-3.0.9.tar.gz::https://github.com/linux-audit/audit-userspace/archive/refs/tags/v3.0.9.tar.gz
 	source = audit-3.0.8-config_paths.patch
