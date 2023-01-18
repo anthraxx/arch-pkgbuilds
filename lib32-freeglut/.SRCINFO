@@ -18,7 +18,6 @@ pkgbase = lib32-freeglut
 	provides = lib32-glut
 	conflicts = lib32-glut
 	replaces = lib32-glut
-	options = debug
 	source = git+https://github.com/FreeGLUTProject/freeglut#commit=63c0e78d84ecbfcf8accd8bac04404427899053b
 	b2sums = SKIP
 
