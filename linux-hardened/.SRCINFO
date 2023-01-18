@@ -1,7 +1,7 @@
 pkgbase = linux-hardened
 	pkgdesc = Security-Hardened Linux
 	pkgver = 6.1.6.hardened2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
 	license = GPL2
@@ -25,6 +25,7 @@ pkgbase = linux-hardened
 	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.6-hardened2/linux-hardened-6.1.6-hardened2.patch
 	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.6-hardened2/linux-hardened-6.1.6-hardened2.patch.sig
 	source = config
+	source = fix-docgen.patch::https://github.com/archlinux/linux/commit/a3b216b0a5c2628624de605599aa6c16675578de.patch
 	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
@@ -33,6 +34,7 @@ pkgbase = linux-hardened
 	sha256sums = a6be8c952c38734e0c5bb17ac1ea4a482be4fbf62f586be41c18be0b9e87333c
 	sha256sums = SKIP
 	sha256sums = 51eb56858ff53d03c8f664bb6c68fe216316871d39f6c1872ee7f1df697b84fa
+	sha256sums = 51fd12d921a296e2ccc1fc5cefcb4f0c16ee62245b9f40f6973d5f7abfe58be9
 
 pkgname = linux-hardened
 	pkgdesc = The Security-Hardened Linux kernel and modules
