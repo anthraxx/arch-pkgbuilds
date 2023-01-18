@@ -12,7 +12,6 @@ pkgbase = bubblewrap
 	makedepends = bash-completion
 	depends = glibc
 	depends = libcap
-	options = debug
 	source = git+https://github.com/projectatomic/bubblewrap#commit=aa0fb696ab4b7482fa54a0422b8a19c87407350e
 	sha256sums = SKIP
 
