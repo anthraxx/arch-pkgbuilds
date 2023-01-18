@@ -36,7 +36,6 @@ pkgbase = openconnect
 	optdepends = python: tncc-wrapper
 	provides = libopenconnect.so
 	options = !emptydirs
-	options = debug
 	source = https://www.infradead.org/openconnect/download/openconnect-9.01.tar.gz
 	source = https://www.infradead.org/openconnect/download/openconnect-9.01.tar.gz.asc
 	validpgpkeys = BE07D9FD54809AB2C4B0FF5F63762CDA67E2F359
