@@ -11,7 +11,6 @@ pkgbase = readline
 	provides = libhistory.so
 	provides = libreadline.so
 	options = !emptydirs
-	options = debug
 	backup = etc/inputrc
 	source = https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz
 	source = https://ftp.gnu.org/gnu/readline/readline-8.2.tar.gz.sig
