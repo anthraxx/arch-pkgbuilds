@@ -14,7 +14,6 @@ pkgbase = iwd
 	depends = readline
 	depends = libreadline.so
 	depends = ell
-	options = debug
 	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.1.tar.xz
 	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.1.tar.sign
 	validpgpkeys = E932D120BC2AEC444E558F0106CA9F5D1DCF2659
