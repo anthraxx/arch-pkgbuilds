@@ -15,7 +15,6 @@ pkgbase = zstd
 	depends = xz
 	depends = lz4
 	provides = libzstd.so
-	options = debug
 	source = https://github.com/facebook/zstd/releases/download/v1.5.2/zstd-1.5.2.tar.zst
 	source = https://github.com/facebook/zstd/releases/download/v1.5.2/zstd-1.5.2.tar.zst.sig
 	source = zstd-1.5.2-removed-explicit-compilation-standard.patch::https://github.com/facebook/zstd/commit/eceecc5b2cade40e2ffe7e4ff4c7d2e16883961a.patch
