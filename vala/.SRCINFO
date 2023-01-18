@@ -24,7 +24,6 @@ pkgbase = vala
 	provides = libvaladoc-0.56.so
 	conflicts = valadoc
 	replaces = valadoc
-	options = debug
 	source = git+https://gitlab.gnome.org/GNOME/vala.git#commit=051552f34cfa1f4c08220043683289952f9ffd62
 	sha256sums = SKIP
 
