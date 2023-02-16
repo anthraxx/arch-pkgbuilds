@@ -1,7 +1,7 @@
 pkgbase = xmobar
 	pkgdesc = Minimalistic Text Based Status Bar
 	pkgver = 0.44.1
-	pkgrel = 22
+	pkgrel = 27
 	url = https://codeberg.org/xmobar/xmobar
 	arch = x86_64
 	license = BSD
