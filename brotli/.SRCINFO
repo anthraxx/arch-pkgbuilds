@@ -1,20 +1,17 @@
 pkgbase = brotli
 	pkgdesc = Generic-purpose lossless compression algorithm
 	pkgver = 1.0.9
-	pkgrel = 9
+	pkgrel = 10
 	url = https://github.com/google/brotli
 	arch = x86_64
 	license = MIT
 	makedepends = git
-	makedepends = glibc
-	makedepends = gcc-libs
 	makedepends = cmake
 	makedepends = python-setuptools
 	source = brotli::git+https://github.com/google/brotli#commit=e61745a6b7add50d380cfd7d3883dd6c62fc2c71
 	sha512sums = SKIP
 
 pkgname = brotli
-	depends = gcc-libs
 	depends = glibc
 	provides = libbrotlicommon.so
 	provides = libbrotlidec.so
@@ -23,8 +20,6 @@ pkgname = brotli
 pkgname = python-brotli
 	pkgdesc = Generic-purpose lossless compression algorithm - python library
 	depends = python
-	depends = glibc
-	depends = gcc-libs
 
 pkgname = brotli-testdata
 	pkgdesc = Generic-purpose lossless compression algorithm - test data
