@@ -1,10 +1,11 @@
 pkgbase = z3
 	pkgdesc = High-performance theorem prover
-	pkgver = 4.11.2
+	pkgver = 4.12.0
 	pkgrel = 1
 	url = https://github.com/Z3Prover/z3
 	arch = x86_64
 	license = MIT
+	makedepends = git
 	makedepends = glibc
 	makedepends = cmake
 	makedepends = ninja
@@ -14,9 +15,9 @@ pkgbase = z3
 	makedepends = python-build
 	makedepends = python-installer
 	makedepends = python-wheel
-	source = https://github.com/Z3Prover/z3/archive/z3-4.11.2.tar.gz
-	sha512sums = be2573d38c0e50b46fcb025d50335e016769fdeab3c26f5dc2a13102fae889d23039258ea8d38de3f53daa4cf073704d8639ac291e781a74633194adedaae21a
-	b2sums = 85fe5b94c5bfaeaca5b1dfe42fe9763a278c414955a9aed45abbb3e60c366a86bcdcd7c3bdcf27cc67bc10c76700069d548cb1e27ccf3286c8c6eccfa9d492d1
+	source = git+https://github.com/Z3Prover/z3.git#commit=feda706d0dda2539176246dd221328122c66f77d
+	sha512sums = SKIP
+	b2sums = SKIP
 
 pkgname = z3
 	depends = glibc
