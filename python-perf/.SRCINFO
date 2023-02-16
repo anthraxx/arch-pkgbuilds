@@ -1,7 +1,7 @@
 pkgbase = python-perf
 	pkgdesc = Toolkit to run Python benchmarks
 	pkgver = 2.3.1
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/haypo/perf
 	arch = any
 	license = MIT
