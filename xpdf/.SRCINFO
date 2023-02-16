@@ -1,7 +1,7 @@
 pkgbase = xpdf
 	pkgdesc = Viewer for Portable Document Format (PDF) files
 	pkgver = 4.04
-	pkgrel = 1
+	pkgrel = 2
 	url = https://www.xpdfreader.com/
 	arch = x86_64
 	license = GPL3
