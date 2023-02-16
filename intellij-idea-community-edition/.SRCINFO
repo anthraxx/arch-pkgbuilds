@@ -1,6 +1,6 @@
 pkgbase = intellij-idea-community-edition
 	pkgdesc = IDE for Java, Groovy and other programming languages with advanced refactoring features
-	pkgver = 2022.3.1
+	pkgver = 2022.3.2
 	pkgrel = 1
 	epoch = 4
 	url = https://www.jetbrains.com/idea/
@@ -21,8 +21,8 @@ pkgbase = intellij-idea-community-edition
 	optdepends = lldb: lldb frontend integration
 	noextract = junit-3.8.1.jar
 	backup = usr/share/idea/bin/idea64.vmoptions
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/223.8214.52
-	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/223.8214.52
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=idea/223.8617.56
+	source = idea-android::git://git.jetbrains.org/idea/android.git#tag=idea/223.8617.56
 	source = idea.desktop
 	source = idea.sh
 	source = enable-no-jdr.patch
