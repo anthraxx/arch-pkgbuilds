@@ -1,7 +1,7 @@
 pkgbase = haskell-libmpd
 	pkgdesc = Client library for MPD, the Music Player Daemon
 	pkgver = 0.10.0.0
-	pkgrel = 123
+	pkgrel = 124
 	url = https://hackage.haskell.org/package/libmpd
 	arch = x86_64
 	license = MIT
