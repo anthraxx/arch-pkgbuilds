@@ -1,6 +1,6 @@
 pkgbase = iwd
 	pkgdesc = Internet Wireless Daemon
-	pkgver = 2.1
+	pkgver = 2.3
 	pkgrel = 1
 	url = https://git.kernel.org/cgit/network/wireless/iwd.git/
 	install = iwd.install
@@ -14,10 +14,10 @@ pkgbase = iwd
 	depends = readline
 	depends = libreadline.so
 	depends = ell
-	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.1.tar.xz
-	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.1.tar.sign
+	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.3.tar.xz
+	source = https://www.kernel.org/pub/linux/network/wireless/iwd-2.3.tar.sign
 	validpgpkeys = E932D120BC2AEC444E558F0106CA9F5D1DCF2659
-	sha256sums = 60fc17a6e765545e36ce75abe28d896f822eaf81ac1f61498ca631585cbde227
+	sha256sums = b0506d797a8bfb88f3c3eeea5e49dcf4ee8e6cef118f57c118e587eeb377ac64
 	sha256sums = SKIP
 
 pkgname = iwd
