@@ -1,6 +1,6 @@
 pkgbase = kconfig-hardened-check
 	pkgdesc = Tool for checking the security hardening options of the Linux kernel
-	pkgver = 0.5.17
+	pkgver = 0.6.1
 	pkgrel = 1
 	url = https://github.com/a13xp0p0v/kconfig-hardened-check
 	arch = any
@@ -10,8 +10,8 @@ pkgbase = kconfig-hardened-check
 	makedepends = python-installer
 	makedepends = python-wheel
 	depends = python
-	source = https://github.com/a13xp0p0v/kconfig-hardened-check/archive/v0.5.17/kconfig-hardened-check-0.5.17.tar.gz
-	sha256sums = 1bd47dc7a3ab38ac87496d7af31d7cbd301b44e455c3c55df1333e4c3e2e2abd
-	b2sums = 4cc1212fa98742cd195e6ea2e0d1804f7b5ac98357723db88956d9c48813e2c2c3a8215c284e9a9cd5a44f6555f68532d06f047345f106ab0f99e7cd7109d770
+	source = https://github.com/a13xp0p0v/kconfig-hardened-check/archive/v0.6.1/kconfig-hardened-check-0.6.1.tar.gz
+	sha256sums = dd5409b865d062a19e225a60c40df03c02a3dee75220e954029e3ba601406f65
+	b2sums = 6d464cdfb604cb8f00399c3d2a1285f2c149832e4f51e4be2b8c2e567137dce6848831adebbf8d1593013fabdcf3fd3bc060024c2c7210f620639cd84fd5816e
 
 pkgname = kconfig-hardened-check
