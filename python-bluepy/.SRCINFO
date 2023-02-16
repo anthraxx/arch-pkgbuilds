@@ -1,7 +1,7 @@
 pkgbase = python-bluepy
 	pkgdesc = Python module for interfacing with Bluetooth LE devices through Bluez
 	pkgver = 1.3.0
-	pkgrel = 6
+	pkgrel = 7
 	url = https://github.com/IanHarvey/bluepy
 	arch = x86_64
 	license = GPL2
