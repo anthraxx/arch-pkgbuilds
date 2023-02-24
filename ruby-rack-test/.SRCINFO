@@ -1,0 +1,20 @@
+pkgbase = ruby-rack-test
+	pkgdesc = Small, simple testing API for Rack apps
+	pkgver = 2.0.2
+	pkgrel = 1
+	url = https://github.com/rack-test/rack-test
+	arch = any
+	license = MIT
+	checkdepends = ruby-rake
+	checkdepends = ruby-rspec
+	checkdepends = ruby-minitest
+	checkdepends = ruby-minitest-global_expectations
+	makedepends = ruby-rdoc
+	depends = ruby
+	depends = ruby-rack
+	options = !emptydirs
+	source = https://github.com/rack-test/rack-test/archive/v2.0.2/ruby-rack-test-v2.0.2.tar.gz
+	sha256sums = 619bd3f633232abbc5fc03952463ce520fcf6281f092fdcf34151341fcb2c939
+	sha512sums = de91787563546a3f12da15f665975bf3d68f7633e277c86a529a728cb8ba9d78bac5c30c2ec1ece9aab5341571ceb23d8089d0da542409bdba23ebe93d75e2a5
+
+pkgname = ruby-rack-test
