@@ -1,6 +1,6 @@
 pkgbase = ctags
 	pkgdesc = Generates an index file of language objects found in source files
-	pkgver = 6.0.20221218.0
+	pkgver = 6.0.0
 	pkgrel = 1
 	epoch = 1
 	url = https://ctags.io/
