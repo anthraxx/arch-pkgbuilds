@@ -1,7 +1,7 @@
 pkgbase = emptyepsilon
 	pkgdesc = Open source spaceship bridge simulator
-	pkgver = 2022.03.16
-	pkgrel = 2
+	pkgver = 2022.10.28
+	pkgrel = 1
 	url = https://github.com/daid/EmptyEpsilon
 	arch = x86_64
 	license = GPL2
@@ -15,8 +15,8 @@ pkgbase = emptyepsilon
 	depends = glibc
 	depends = gcc-libs
 	depends = sdl2
-	source = git+https://github.com/daid/EmptyEpsilon.git#tag=EE-2022.03.16
-	source = git+https://github.com/daid/SeriousProton.git#tag=EE-2022.03.16
+	source = git+https://github.com/daid/EmptyEpsilon.git#tag=EE-2022.10.28
+	source = git+https://github.com/daid/SeriousProton.git#tag=EE-2022.10.28
 	source = gcc12.patch
 	sha512sums = SKIP
 	sha512sums = SKIP
