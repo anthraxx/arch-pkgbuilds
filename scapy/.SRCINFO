@@ -1,7 +1,7 @@
 pkgbase = scapy
 	pkgdesc = Powerful interactive packet manipulation program written in Python
-	pkgver = 2.4.5
-	pkgrel = 4
+	pkgver = 2.5.0
+	pkgrel = 1
 	url = http://www.secdev.org/projects/scapy/
 	arch = any
 	license = GPL2
@@ -11,10 +11,14 @@ pkgbase = scapy
 	checkdepends = graphviz
 	checkdepends = sox
 	makedepends = tcpdump
+	makedepends = python-build
+	makedepends = python-installer
 	makedepends = python-setuptools
-	source = https://github.com/secdev/scapy/archive/v2.4.5/scapy-2.4.5.tar.gz
-	sha256sums = cd2aadf020f60102c0fc1c54a2542985adc9371572d3088376c613e1b71f8c53
-	sha512sums = b5ccd689f7bd4fbbb86921a35360b94ec7a738b494f16e4764828689835296016bc476825add798406e4d32761d8df90b41ce7e38049afdabf98397b1bf5982a
+	makedepends = python-wheel
+	makedepends = python-sphinx
+	source = https://github.com/secdev/scapy/archive/v2.5.0/scapy-2.5.0.tar.gz
+	sha256sums = 97c3f6c9258eeaa609e3ccab62531670b425713dd17c0415f512201c2b8cc82e
+	sha512sums = 4e5cacff0bbf6fd991ea24f4680049d042082fae4b349c8082078e6f01b38c09bb5c8276bfba15d4a88a1eb5af92c505848ec98556b10eecbd803f134a5b244a
 
 pkgname = scapy
 	pkgdesc = Powerful interactive packet manipulation program written in Python (tools)
