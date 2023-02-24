@@ -1,6 +1,6 @@
 pkgbase = ctags
 	pkgdesc = Generates an index file of language objects found in source files
-	pkgver = 5.9.20220828.0
+	pkgver = 6.0.20221218.0
 	pkgrel = 1
 	epoch = 1
 	url = https://ctags.io/
@@ -16,7 +16,7 @@ pkgbase = ctags
 	depends = libseccomp.so
 	depends = pcre2
 	provides = universal-ctags
-	source = git+https://github.com/universal-ctags/ctags.git#commit=dfffd3d8e18183e0e9131f2c301e18f78866ceb5
+	source = git+https://github.com/universal-ctags/ctags.git#commit=3af413544a0ed0a4c52200894cfd6391f06d2e94
 	sha512sums = SKIP
 
 pkgname = ctags
