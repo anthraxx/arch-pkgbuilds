@@ -1,7 +1,7 @@
 pkgbase = python-stem
 	pkgdesc = Python controller library for Tor
-	pkgver = 1.8.0
-	pkgrel = 6
+	pkgver = 1.8.1
+	pkgrel = 1
 	url = https://stem.torproject.org/
 	arch = any
 	license = LGPL3
@@ -13,10 +13,10 @@ pkgbase = python-stem
 	optdepends = tor: tor-server to talk to
 	provides = stem
 	replaces = stem
-	source = https://files.pythonhosted.org/packages/source/s/stem/stem-1.8.0.tar.gz
-	source = https://files.pythonhosted.org/packages/source/s/stem/stem-1.8.0.tar.gz.asc
+	source = https://files.pythonhosted.org/packages/source/s/stem/stem-1.8.1.tar.gz
+	source = https://files.pythonhosted.org/packages/source/s/stem/stem-1.8.1.tar.gz.asc
 	validpgpkeys = 68278CC5DD2D1E85C4E45AD90445B7AB9ABBEEC6
-	sha256sums = a0b48ea6224e95f22aa34c0bc3415f0eb4667ddeae3dfb5e32a6920c185568c2
+	sha256sums = 81d43a7c668ba9d7bc1103b2e7a911e9d148294b373d27a59ae8da79ef7a3e2f
 	sha256sums = SKIP
 
 pkgname = python-stem
