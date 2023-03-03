@@ -1,0 +1,19 @@
+pkgbase = xss-lock
+	pkgdesc = Use external locker as X screen saver
+	pkgver = 0.3.0.g1e158fb20108
+	pkgrel = 4
+	url = https://bitbucket.org/raymonad/xss-lock
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = python-docutils
+	depends = glib2
+	depends = xcb-util
+	optdepends = bash-completion: for bash completion
+	source = xss-lock-0.3.0.g1e158fb20108.tar.gz::https://bitbucket.org/raymonad/xss-lock/get/1e158fb20108058dbd62bd51d8e8c003c0a48717.tar.gz
+	source = 0016-Do-not-core-dump-when-exiting-due-to-loss-of-X-conne.patch
+	b2sums = 40ffe8911f37752b13b5d6b0e9eea742f6498b66f9c961635eaa9573f73a75f1b45fe82a956486e93c0f2171288bbcda7c86889661a34ea99303c32a95bd0742
+	b2sums = d9bc1e8c8a55bb540106f01620aca318a08e1b662f10b294cb4e6c89dca09e73c389a07402d83bfb1369881cfd78a0bcdb45a0d27785f94ed8428710acb012cb
+
+pkgname = xss-lock
