@@ -1,6 +1,6 @@
 pkgbase = linux-hardened
 	pkgdesc = Security-Hardened Linux
-	pkgver = 6.1.24.hardened1
+	pkgver = 6.1.24.hardened2
 	pkgrel = 1
 	url = https://github.com/anthraxx/linux-hardened
 	arch = x86_64
@@ -22,15 +22,15 @@ pkgbase = linux-hardened
 	options = !strip
 	source = https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.1.24.tar.xz
 	source = https://www.kernel.org/pub/linux/kernel/v6.x/linux-6.1.24.tar.sign
-	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.24-hardened1/linux-hardened-6.1.24-hardened1.patch
-	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.24-hardened1/linux-hardened-6.1.24-hardened1.patch.sig
+	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.24-hardened2/linux-hardened-6.1.24-hardened2.patch
+	source = https://github.com/anthraxx/linux-hardened/releases/download/6.1.24-hardened2/linux-hardened-6.1.24-hardened2.patch.sig
 	source = config
 	validpgpkeys = ABAF11C65A2970B130ABE3C479BE3E4300411886
 	validpgpkeys = 647F28654894E3BD457199BE38DBBDC86092693E
 	validpgpkeys = E240B57E2C4630BA768E2F26FC1B547C8D8172C8
 	sha256sums = aae6a7e38e33589011f5a5c0d7e087c8a26e3daf8d434432ee975ead90546504
 	sha256sums = SKIP
-	sha256sums = 8ade5aae62e95550ffb78eff31b7fea5dd29fa2aef83cac716210a894171efbb
+	sha256sums = 38c1e8ecdc640ac280de760e41f10d27ba818d0a129f847db6136efc00964cae
 	sha256sums = SKIP
 	sha256sums = 9ce2639b0ff8f007bb2b2d34702170a08bda95a84a43bce968e720dfc54cc8a1
 
