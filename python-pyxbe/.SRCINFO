@@ -1,7 +1,7 @@
 pkgbase = python-pyxbe
 	pkgdesc = Library to work with XBE files, the executable file format for the original Xbox game console
 	pkgver = 1.0.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/mborgerson/pyxbe
 	arch = any
 	license = custom:MIT
