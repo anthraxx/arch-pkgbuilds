@@ -1,7 +1,7 @@
 pkgbase = python-flask-talisman
 	pkgdesc = HTTP security headers for Flask
 	pkgver = 0.7.0
-	pkgrel = 4
+	pkgrel = 5
 	url = https://github.com/GoogleCloudPlatform/flask-talisman
 	arch = any
 	license = APACHE
