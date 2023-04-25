@@ -1,7 +1,7 @@
 pkgbase = python-ujson
 	pkgdesc = Ultra fast JSON encoder and decoder for Python
 	pkgver = 5.7.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/ultrajson/ultrajson
 	arch = x86_64
 	license = BSD
