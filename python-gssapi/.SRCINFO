@@ -1,7 +1,7 @@
 pkgbase = python-gssapi
 	pkgdesc = Provides both low-level and high level wrappers around the GSSAPI C libraries
 	pkgver = 1.8.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/pythongssapi/python-gssapi
 	arch = x86_64
 	license = ISC
