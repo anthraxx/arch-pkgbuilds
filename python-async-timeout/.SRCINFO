@@ -1,7 +1,7 @@
 pkgbase = python-async-timeout
 	pkgdesc = Asyncio-compatible timeout class
 	pkgver = 4.0.2
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/aio-libs/async-timeout
 	arch = any
 	license = Apache
