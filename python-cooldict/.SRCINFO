@@ -1,7 +1,7 @@
 pkgbase = python-cooldict
 	pkgdesc = Some useful dict-like structures
 	pkgver = 1.04
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/zardus/cooldict
 	arch = any
 	license = custom:BSD2
