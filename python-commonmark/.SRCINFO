@@ -1,11 +1,14 @@
 pkgbase = python-commonmark
 	pkgdesc = Python parser for the CommonMark Markdown spec
 	pkgver = 0.9.1
-	pkgrel = 6
+	pkgrel = 9
 	url = https://pypi.org/project/commonmark/
 	arch = any
 	license = BSD
 	checkdepends = python-hypothesis
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
 	makedepends = python-setuptools
 	makedepends = python-sphinx
 	makedepends = python-sphinx_rtd_theme
