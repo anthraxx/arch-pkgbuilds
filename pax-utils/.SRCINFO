@@ -1,6 +1,6 @@
 pkgbase = pax-utils
 	pkgdesc = ELF utils that can check files for security relevant properties
-	pkgver = 1.3.6
+	pkgver = 1.3.7
 	pkgrel = 1
 	url = https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities
 	arch = x86_64
@@ -17,7 +17,7 @@ pkgbase = pax-utils
 	depends = libseccomp
 	depends = python
 	depends = python-pyelftools
-	source = git+https://anongit.gentoo.org/git/proj/pax-utils.git?signed#tag=v1.3.6
+	source = git+https://anongit.gentoo.org/git/proj/pax-utils.git?signed#tag=v1.3.7
 	validpgpkeys = 5EF3A41171BB77E6110ED2D01F3D03348DB1A3E2
 	sha512sums = SKIP
 
