@@ -1,7 +1,7 @@
 pkgbase = python-sqlalchemy-utils
 	pkgdesc = Various utility functions, new data types and helpers for SQLAlchemy
 	pkgver = 0.38.3
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/kvesteri/sqlalchemy-utils
 	arch = any
 	license = BSD
