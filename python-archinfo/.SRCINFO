@@ -1,7 +1,7 @@
 pkgbase = python-archinfo
 	pkgdesc = Classes with architecture-specific information useful to other projects
 	pkgver = 9.2.27
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/angr/archinfo
 	arch = any
 	license = custom:BSD2
