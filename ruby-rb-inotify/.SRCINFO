@@ -1,7 +1,7 @@
 pkgbase = ruby-rb-inotify
 	pkgdesc = Thorough inotify wrapper for Ruby using FFI
 	pkgver = 0.10.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/guard/rb-inotify
 	arch = any
 	license = MIT
@@ -14,4 +14,3 @@ pkgbase = ruby-rb-inotify
 	sha512sums = fb8484b3c019ff471dbea57ad305c32a9d03377f8bbcb4d1631ef498b3207bc83da08889f7d43fe3a9ba54df2d9164e3a83d001797f8113ddc2e3a7f2ad9a83b
 
 pkgname = ruby-rb-inotify
-
