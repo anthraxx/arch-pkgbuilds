@@ -1,7 +1,7 @@
 pkgbase = python-ana
 	pkgdesc = Python module to provide easy distributed data storage
 	pkgver = 0.06
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/zardus/ana
 	arch = any
 	license = custom:BSD2
