@@ -1,7 +1,7 @@
 pkgbase = vit
 	pkgdesc = Terminal interface for Taskwarrior with Vim key bindings and colorization
 	pkgver = 2.2.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/vit-project/vit
 	arch = any
 	license = MIT
