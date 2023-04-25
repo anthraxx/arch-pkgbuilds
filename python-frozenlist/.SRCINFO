@@ -1,7 +1,7 @@
 pkgbase = python-frozenlist
 	pkgdesc = FrozenList is a list-like structure which can be made immutable
 	pkgver = 1.3.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/aio-libs/frozenlist
 	arch = x86_64
 	license = Apache
