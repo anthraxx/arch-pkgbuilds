@@ -1,7 +1,7 @@
 pkgbase = python-flask-paranoid
 	pkgdesc = Simple user session protection for Flask applications
 	pkgver = 0.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/miguelgrinberg/flask-paranoid/
 	arch = any
 	license = MIT
