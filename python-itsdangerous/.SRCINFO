@@ -1,7 +1,7 @@
 pkgbase = python-itsdangerous
 	pkgdesc = Various helpers to pass trusted data to untrusted environments
 	pkgver = 2.1.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://palletsprojects.com/p/itsdangerous/
 	arch = any
 	license = BSD
