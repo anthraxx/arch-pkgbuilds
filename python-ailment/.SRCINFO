@@ -1,7 +1,7 @@
 pkgbase = python-ailment
 	pkgdesc = The angr intermediate language
 	pkgver = 9.2.27
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/angr/ailment
 	arch = any
 	license = custom:BSD2
