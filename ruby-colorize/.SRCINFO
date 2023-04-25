@@ -1,7 +1,7 @@
 pkgbase = ruby-colorize
 	pkgdesc = Ruby string class extension to set color, background and text effect using ANSI escape sequences
 	pkgver = 0.8.1
-	pkgrel = 8
+	pkgrel = 9
 	url = https://github.com/fazibear/colorize
 	arch = any
 	license = GPL2
@@ -13,4 +13,3 @@ pkgbase = ruby-colorize
 	sha512sums = 3b116a65913a242b2c8eb987b6e96d86f32ab08e776943288a09a8cd389f47a66a5fab10201e8dd98f4db0f05231d64a78ae10d9523c80545ef9e96ce8ce30f7
 
 pkgname = ruby-colorize
-
