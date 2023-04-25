@@ -1,7 +1,7 @@
 pkgbase = python-requests
 	pkgdesc = Python HTTP for Humans
 	pkgver = 2.28.2
-	pkgrel = 1
+	pkgrel = 4
 	url = https://requests.readthedocs.io/
 	arch = any
 	license = Apache
