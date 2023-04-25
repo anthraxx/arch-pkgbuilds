@@ -1,7 +1,7 @@
 pkgbase = python-mulpyplexer
 	pkgdesc = Module that multiplexes interactions with lists of python objects
 	pkgver = 0.9
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/zardus/mulpyplexer
 	arch = any
 	license = custom:BSD
