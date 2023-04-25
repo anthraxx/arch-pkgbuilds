@@ -1,7 +1,7 @@
 pkgbase = python-arpy
 	pkgdesc = Library for accessing ar files
 	pkgver = 2.3.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/viraptor/arpy
 	arch = any
 	license = custom:BSD
