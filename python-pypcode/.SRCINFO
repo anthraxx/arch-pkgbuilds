@@ -1,7 +1,7 @@
 pkgbase = python-pypcode
 	pkgdesc = Python bindings to Ghidra's SLEIGH library for disassembly and lifting to p-code IR
 	pkgver = 1.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/angr/pypcode
 	arch = x86_64
 	license = custom
