@@ -1,7 +1,7 @@
 pkgbase = python-hexdump
 	pkgdesc = Library and tool to work with hex and binary data
 	pkgver = 3.3
-	pkgrel = 6
+	pkgrel = 7
 	url = https://pypi.org/project/hexdump/
 	arch = any
 	license = Public Domain
