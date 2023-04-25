@@ -1,7 +1,7 @@
 pkgbase = ruby-net-dns
 	pkgdesc = Pure Ruby DNS library, with a clean OO interface and an extensible API
 	pkgver = 0.9.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/bluemonk/net-dns
 	arch = any
 	license = BSDL
@@ -12,4 +12,3 @@ pkgbase = ruby-net-dns
 	sha512sums = bda49fd5d93aa387bcf700e1b9ace72aff0c44f5ee6347e4d0e2d25aef0401c8aacabea89f5757608263736211c53d7f439e9b7a34379b125114a81806a47e94
 
 pkgname = ruby-net-dns
-
