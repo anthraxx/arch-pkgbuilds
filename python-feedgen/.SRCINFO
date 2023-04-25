@@ -1,10 +1,11 @@
 pkgbase = python-feedgen
 	pkgdesc = Python module to generate ATOM feeds, RSS feeds and Podcasts
 	pkgver = 0.9.0
-	pkgrel = 3
+	pkgrel = 4
 	url = https://lkiesow.github.io/python-feedgen
 	arch = any
 	license = BSD
+	makedepends = python-setuptools
 	makedepends = python-sphinx
 	depends = python
 	depends = python-dateutil
