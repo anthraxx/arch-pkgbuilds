@@ -1,7 +1,7 @@
 pkgbase = sequoia-sq
 	pkgdesc = Command-line frontends for Sequoia
-	pkgver = 0.27.0
-	pkgrel = 2
+	pkgver = 0.29.0
+	pkgrel = 1
 	url = https://sequoia-pgp.org/
 	arch = x86_64
 	groups = sequoia
@@ -9,20 +9,21 @@ pkgbase = sequoia-sq
 	makedepends = git
 	makedepends = cargo
 	makedepends = clang
-	depends = glibc
-	depends = nettle
-	depends = libnettle.so
-	depends = libhogweed.so
 	depends = bzip2
 	depends = libbz2.so
 	depends = gcc-libs
+	depends = glibc
 	depends = gmp
+	depends = nettle
+	depends = libnettle.so
+	depends = libhogweed.so
 	depends = openssl
 	replaces = sequoia
 	options = !lto
-	source = sequoia::git+https://gitlab.com/sequoia-pgp/sequoia.git#tag=sq/v0.27.0?signed
+	source = git+https://gitlab.com/sequoia-pgp/sequoia-sq.git#tag=bc9bc72fd670eda6bba973352b8053d67b1a180a?signed
 	validpgpkeys = D2F2C5D45BE9FDE6A4EE0AAF31855247603831FD
 	validpgpkeys = CBCD8F030588653EEDD7E2659B7DD433F254904A
+	validpgpkeys = 8F17777118A33DDA9BA48E62AACB3243630052D9
 	sha512sums = SKIP
 
 pkgname = sequoia-sq
