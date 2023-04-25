@@ -4,7 +4,7 @@
 
 pkgname=libfilezilla
 epoch=1
-pkgver=0.41.1
+pkgver=0.42.1
 pkgrel=1
 pkgdesc='Small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs'
 url='https://lib.filezilla-project.org/'
@@ -14,9 +14,9 @@ depends=('glibc' 'gcc-libs' 'nettle' 'gnutls' 'libnettle.so' 'libhogweed.so')
 makedepends=(clang)
 checkdepends=('cppunit')
 provides=('libfilezilla.so')
-source=(https://download.filezilla-project.org/libfilezilla/libfilezilla-${pkgver}.tar.bz2)
-sha512sums=('ae66fe9e0d537942f306e44f107553e870839031b1c6997f4638da3c5f015d94669eb869723d95d95632ebd30e17afc8303008501892caf76538a6898cf6210b')
-b2sums=('8838753f504ef3891c3602b473586c1b5eaeea5e2930e1d8386b28a1a620d73ebf7f2b48b3acdd8085eba7f904e4fdd99789e73dfdab5036de5fe32b6aa8534b')
+source=(https://download.filezilla-project.org/libfilezilla/libfilezilla-${pkgver}.tar.xz)
+sha512sums=('b1db5404acb6a05edda7762da16a93b66059b178cf8a7cdc9c37b0ec17745d6ab5ef747a556d4293b146d728bbff57a3776b21ea2b933e86025bd610914b6373')
+b2sums=('820c2ce90c74d1948ae63b7d48c8b992835877d7ad9c8706e57d0d5598dfc6bbd3f405188c4208b79fa6d222ef07dcfa6fcd7ad198ee46a7799c764d8267dbfb')
 
 build() {
   cd ${pkgname}-${pkgver}
