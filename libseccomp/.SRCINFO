@@ -1,7 +1,7 @@
 pkgbase = libseccomp
 	pkgdesc = Enhanced seccomp library
 	pkgver = 2.5.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/seccomp/libseccomp
 	arch = x86_64
 	license = LGPL2.1
