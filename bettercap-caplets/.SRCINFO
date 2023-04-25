@@ -1,7 +1,7 @@
 pkgbase = bettercap-caplets
 	pkgdesc = Bettercap scripts (caplets) and proxy modules
 	pkgver = v20210412.r372.2d58298
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/bettercap/caplets
 	arch = any
 	license = GPL3
