@@ -1,7 +1,7 @@
 pkgbase = python-cle
 	pkgdesc = Loads binaries and their libraries, resolves imports and provides an abstraction of process memory
 	pkgver = 9.2.27
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/angr/cle
 	arch = any
 	license = custom:BSD
