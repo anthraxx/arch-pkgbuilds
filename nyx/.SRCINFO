@@ -1,10 +1,10 @@
 pkgbase = nyx
 	pkgdesc = Command-line status monitor for tor
 	pkgver = 2.1.0
-	pkgrel = 5
+	pkgrel = 6
 	url = https://nyx.torproject.org/
 	arch = any
-	license = GPL3
+	license = GPL-3.0-or-later
 	makedepends = python-setuptools
 	depends = python
 	depends = python-stem
