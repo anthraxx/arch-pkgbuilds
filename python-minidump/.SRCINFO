@@ -1,7 +1,7 @@
 pkgbase = python-minidump
 	pkgdesc = Python library to parse and read Microsoft minidump file format
 	pkgver = 0.0.21
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/skelsec/minidump
 	arch = any
 	license = MIT
