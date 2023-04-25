@@ -1,7 +1,7 @@
 pkgbase = python-itanium-demangler
 	pkgdesc = Pure Python Itanium C++ ABI demangler
 	pkgver = 1.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/whitequark/python-itanium_demangler
 	arch = any
 	license = custom:0BSD
