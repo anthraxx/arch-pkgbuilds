@@ -1,7 +1,7 @@
 pkgbase = scanmem
 	pkgdesc = Memory scanner designed to isolate the address of an arbitrary variable in an executing process
 	pkgver = 0.17
-	pkgrel = 6
+	pkgrel = 7
 	url = https://github.com/scanmem/scanmem
 	arch = x86_64
 	license = GPL3
