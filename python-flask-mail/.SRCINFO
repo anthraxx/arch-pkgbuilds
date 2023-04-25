@@ -1,7 +1,7 @@
 pkgbase = python-flask-mail
 	pkgdesc = Flask extension providing simple email sending capabilities
 	pkgver = 0.9.1
-	pkgrel = 9
+	pkgrel = 10
 	url = https://pythonhosted.org/Flask-Mail/
 	arch = any
 	license = BSD
