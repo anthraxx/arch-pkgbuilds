@@ -1,12 +1,13 @@
 pkgbase = python-netaddr
 	pkgdesc = Pure Python network address representation and manipulation library
 	pkgver = 0.8.0
-	pkgrel = 5
+	pkgrel = 7
 	url = https://github.com/drkjam/netaddr
 	arch = any
 	license = BSD
 	checkdepends = python-pytest
 	checkdepends = python-pytest-cov
+	makedepends = python-setuptools
 	makedepends = python-sphinx
 	depends = python
 	optdepends = ipython: netaddr interractive command support
