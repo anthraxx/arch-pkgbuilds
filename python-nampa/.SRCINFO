@@ -1,7 +1,7 @@
 pkgbase = python-nampa
 	pkgdesc = FLIRT signatures for python
 	pkgver = 1.0
-	pkgrel = 2
+	pkgrel = 3
 	url = https://github.com/thebabush/nampa
 	arch = any
 	license = LGPL3
