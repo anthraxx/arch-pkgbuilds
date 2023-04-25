@@ -1,7 +1,7 @@
 pkgbase = python-flask-login
 	pkgdesc = User session management for Flask
 	pkgver = 0.6.2
-	pkgrel = 2
+	pkgrel = 3
 	url = https://pythonhosted.org/Flask-Login/
 	arch = any
 	license = MIT
