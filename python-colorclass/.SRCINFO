@@ -1,7 +1,7 @@
 pkgbase = python-colorclass
 	pkgdesc = Yet another ANSI color text library for colorful worry-free console applications
 	pkgver = 2.2.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/matthewdeanmartin/colorclass
 	arch = any
 	license = MIT
