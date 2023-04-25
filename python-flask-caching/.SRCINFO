@@ -1,6 +1,6 @@
 pkgbase = python-flask-caching
 	pkgdesc = Adds caching support to your Flask application
-	pkgver = 2.0.1
+	pkgver = 2.0.2
 	pkgrel = 2
 	url = https://github.com/sh4nks/flask-caching
 	arch = any
@@ -15,7 +15,7 @@ pkgbase = python-flask-caching
 	makedepends = python-setuptools
 	depends = python-flask
 	depends = python-cachelib
-	source = python-flask-caching-2.0.1.tar.gz::https://github.com/sh4nks/flask-caching/archive/v2.0.1.tar.gz
-	sha512sums = 79688f8273e11adbd18693d36aeb9696e098cfe72b75f4b64fb311a8078d56057a3281849b966ae359cb4779585b16e7b154abbcc5c6f67b1d987f7008a7d5c8
+	source = python-flask-caching-2.0.2.tar.gz::https://github.com/sh4nks/flask-caching/archive/v2.0.2.tar.gz
+	sha512sums = b019c3e74ebb65bb34eb08cdc886a70694ea218116c84ff3e57e3167da23bef1d50baa94c747557784e440eee5166084a4cdaa9082afe3b914ed012ff143a4c4
 
 pkgname = python-flask-caching
