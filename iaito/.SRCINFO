@@ -1,6 +1,6 @@
 pkgbase = iaito
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
-	pkgver = 5.8.2
+	pkgver = 5.8.4
 	pkgrel = 1
 	url = https://github.com/radareorg/iaito
 	arch = x86_64
@@ -12,17 +12,14 @@ pkgbase = iaito
 	depends = capstone
 	depends = qt5-base
 	depends = qt5-svg
-	depends = qt5-webengine
-	depends = icu
 	depends = python
 	depends = pyside2
 	depends = python-shiboken2
 	depends = graphviz
 	depends = gcc-libs
-	depends = syntax-highlighting
 	optdepends = r2ghidra: ghidra decompiler plugin
 	replaces = r2cutter
-	source = git+https://github.com/radareorg/iaito#commit=e821ddc1c8ef20a391791fdb1f81ad6f67e8c869
+	source = git+https://github.com/radareorg/iaito#commit=805db97abdd453592021b0b4e812d6a806914fd5
 	source = git+https://github.com/radareorg/iaito-translations#commit=e66b3a962a7fc7dfd730764180011ecffbb206bf
 	source = no-rpath.patch
 	sha512sums = SKIP
