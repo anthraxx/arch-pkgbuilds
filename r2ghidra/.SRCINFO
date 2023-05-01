@@ -1,7 +1,7 @@
 pkgbase = r2ghidra
 	pkgdesc = Deep ghidra decompiler integration for radare2 and iaito
 	pkgver = 5.8.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/radareorg/r2ghidra
 	arch = x86_64
 	license = LGPL3
