@@ -1,6 +1,6 @@
 pkgbase = python-urwid
 	pkgdesc = Curses-based user interface library
-	pkgver = 2.1.2.r41.g0c0ea37
+	pkgver = 2.1.2.r55.gbac20db
 	pkgrel = 1
 	url = https://urwid.org/
 	arch = x86_64
@@ -10,9 +10,10 @@ pkgbase = python-urwid
 	makedepends = python-installer
 	makedepends = python-setuptools
 	makedepends = python-wheel
-	depends = python
 	depends = glibc
-	source = git+https://github.com/urwid/urwid.git#commit=0c0ea377ab9b418cbb5233fa6e178dd05f1f4e5a
+	depends = python
+	depends = python-typing-extensions
+	source = git+https://github.com/urwid/urwid.git#commit=bac20db87eaeb0b7a0026807d7e6dbe391b08580
 	sha256sums = SKIP
 	sha512sums = SKIP
 
