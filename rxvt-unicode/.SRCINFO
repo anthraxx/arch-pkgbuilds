@@ -1,12 +1,13 @@
 pkgbase = rxvt-unicode
 	pkgver = 9.31
-	pkgrel = 1
+	pkgrel = 2
 	url = http://software.schmorp.de/pkg/rxvt-unicode.html
 	arch = x86_64
 	license = GPL
 	makedepends = libxft
 	makedepends = libxt
 	makedepends = libxext
+	makedepends = libxmu
 	makedepends = perl
 	makedepends = startup-notification
 	makedepends = libnsl
@@ -40,7 +41,8 @@ pkgname = rxvt-unicode
 	depends = libnsl
 	depends = libptytty
 	depends = libxext
-	optdepends = gtk2-perl: to use the urxvt-tabbed
+	depends = libxmu
+	optdepends = gtk2-perl: to use urxvt-tabbed
 
 pkgname = rxvt-unicode-terminfo
 	pkgdesc = Terminfo files for urxvt
