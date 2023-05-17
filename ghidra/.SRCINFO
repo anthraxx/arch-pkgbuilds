@@ -1,6 +1,6 @@
 pkgbase = ghidra
 	pkgdesc = Software reverse engineering framework
-	pkgver = 10.2.3
+	pkgver = 10.3
 	pkgrel = 1
 	url = https://ghidra-sre.org/
 	arch = x86_64
@@ -13,17 +13,17 @@ pkgbase = ghidra
 	depends = bash
 	optdepends = pam: GhidraServer support
 	noextract = AXMLPrinter2.jar
-	noextract = yajsw-beta-13.05.zip
+	noextract = yajsw-beta-13.09.zip
 	options = !strip
-	source = https://github.com/NationalSecurityAgency/ghidra/archive/Ghidra_10.2.3_build.tar.gz
-	source = git+https://github.com/NationalSecurityAgency/ghidra-data#tag=Ghidra_10.2.3
-	source = https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip
+	source = https://github.com/NationalSecurityAgency/ghidra/archive/Ghidra_10.3_build.tar.gz
+	source = git+https://github.com/NationalSecurityAgency/ghidra-data#tag=Ghidra_10.3
+	source = https://github.com/pxb1988/dex2jar/releases/download/v2.1/dex2jar-2.1.zip
 	source = https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/android4me/AXMLPrinter2.jar
-	source = https://sourceforge.net/projects/yajsw/files/yajsw/yajsw-stable-13.05/yajsw-stable-13.05.zip
-	sha512sums = f5dbc828e43acabe8e30f293726b7afa7f96aa29eb2d0ea1ccd4688012e9fdf2950fab2cfa7b8a2b94feaa8ec5ffba5d39017c8ec152e592818d6e3b67df3fc7
+	source = https://sourceforge.net/projects/yajsw/files/yajsw/yajsw-stable-13.09/yajsw-stable-13.09.zip
+	sha512sums = 79e9130df1274850fc81c9ccbc87f03103dabe992c2a5cde014c24ba9bffe6cc55a09687da91189781ebc81790bdf35828db92b9020cdb6b793462efb345666c
 	sha512sums = SKIP
-	sha512sums = c4a6c72ea09b58a44fcb8918cfada600467f10f99a02b53d2436ac68295e73c8daf9ba0a8bc7160ba1e28e87f032ee034435ebe40af35b6e2fe9fa4607581358
+	sha512sums = 44b4a51043ef608158e16f70d9a448ae0a37896da19bd9837e1124e197b7b41a7c37f074386b0cc03edd4f385066bf5ef04c553f6dec0b0cc2a11ecbf299b16f
 	sha512sums = c1168ec913f1fbb0675915d4fd865ec9a8e8573f6c8aedcb6e68166f61f11aeaececc7548d54d78134843c0102c57d6350973f6d3027d0ffdae52a5c57a7f601
-	sha512sums = ba6421fcc9d5fd5edf0b5f299914a54a8e3d8cbe79b83cf9b1a4a1828eb26f32f8d04299235233581a848e274665c6d2da9b8394be1d7a824e443efd2508413c
+	sha512sums = d8682b57ce7577374a17113e1ace77393397e405e6450e3f7637ed1f0f42bc7170b378f775a4ba3c458b202ef35f95b35317cce45659b8a3b25aaa59e8393aa4
 
 pkgname = ghidra
