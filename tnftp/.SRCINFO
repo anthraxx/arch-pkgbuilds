@@ -1,6 +1,6 @@
 pkgbase = tnftp
 	pkgdesc = NetBSD FTP client with several advanced features
-	pkgver = 20230409
+	pkgver = 20230507
 	pkgrel = 1
 	url = https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/
 	arch = x86_64
@@ -10,12 +10,12 @@ pkgbase = tnftp
 	depends = libncursesw.so
 	depends = dante
 	depends = openssl
-	source = https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20230409.tar.gz
-	source = https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20230409.tar.gz.asc
+	source = https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20230507.tar.gz
+	source = https://ftp.netbsd.org/pub/NetBSD/misc/tnftp/tnftp-20230507.tar.gz.asc
 	validpgpkeys = 2A8E22EDB07B5414548D8507A4186D9A7F332472
-	sha256sums = c6c631eb43cdeb5be47f8d37fa12b8d991894408b323d39ae753051f4271de2c
+	sha256sums = be0134394bd7d418a3b34892b0709eeb848557e86474e1786f0d1a887d3a6580
 	sha256sums = SKIP
-	b2sums = 54e21382168df653fcb930981909bdf0ef4eecccc6eb6e22d87104cee0c52e56f349b4e5bbd655e64eb5553cd17dd8d031df0baaa7d68c699488e8decf2c1ceb
+	b2sums = 780497f7bad44d3dcc8c22f6075d3d6ea556c641db5a740b63b0e226773a4fa4ba3b9081fbe9d57918f52d1e0d21b96181e6344c35e7ef4bae8d1178264fecb9
 	b2sums = SKIP
 
 pkgname = tnftp
