@@ -1,7 +1,7 @@
 pkgbase = python-aiohttp
 	pkgdesc = HTTP client/server for asyncio
-	pkgver = 3.8.3
-	pkgrel = 6
+	pkgver = 3.8.4
+	pkgrel = 1
 	url = https://aiohttp.readthedocs.io
 	arch = x86_64
 	license = Apache
@@ -39,7 +39,7 @@ pkgbase = python-aiohttp
 	optdepends = python-aiodns: for fast DNS resolving
 	optdepends = python-cchardet: for faster encoding detection
 	optdepends = python-brotli: for Brotli transfer-encodings support
-	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=30b7a4e99677b4014dda2372504343bb05fc983e
+	source = python-aiohttp::git+https://github.com/aio-libs/aiohttp#commit=33953f110e97eecc707e1402daa8d543f38a189b
 	source = git+https://github.com/nodejs/llhttp.git
 	sha512sums = SKIP
 	sha512sums = SKIP
