@@ -1,7 +1,7 @@
 pkgbase = sequoia-sq
 	pkgdesc = Command-line frontends for Sequoia
-	pkgver = 0.29.0
-	pkgrel = 1
+	pkgver = 0.30.0
+	pkgrel = 2
 	url = https://sequoia-pgp.org/
 	arch = x86_64
 	groups = sequoia
@@ -18,9 +18,10 @@ pkgbase = sequoia-sq
 	depends = libnettle.so
 	depends = libhogweed.so
 	depends = openssl
+	depends = sqlite
 	replaces = sequoia
 	options = !lto
-	source = git+https://gitlab.com/sequoia-pgp/sequoia-sq.git#tag=bc9bc72fd670eda6bba973352b8053d67b1a180a?signed
+	source = git+https://gitlab.com/sequoia-pgp/sequoia-sq.git#tag=2f3f75e8c2117ae2ff118219dc7a118eb8f52b0b?signed
 	validpgpkeys = D2F2C5D45BE9FDE6A4EE0AAF31855247603831FD
 	validpgpkeys = CBCD8F030588653EEDD7E2659B7DD433F254904A
 	validpgpkeys = 8F17777118A33DDA9BA48E62AACB3243630052D9
