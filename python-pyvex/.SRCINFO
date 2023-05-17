@@ -1,7 +1,7 @@
 pkgbase = python-pyvex
 	pkgdesc = Python bindings for Valgrind's VEX IR
-	pkgver = 9.2.26
-	pkgrel = 2
+	pkgver = 9.2.49
+	pkgrel = 1
 	url = https://github.com/angr/pyvex
 	arch = x86_64
 	license = BSD
@@ -15,7 +15,7 @@ pkgbase = python-pyvex
 	depends = python-bitstring
 	depends = python-cffi
 	depends = python-setuptools
-	source = git+https://github.com/angr/pyvex.git#commit=v9.2.26
+	source = git+https://github.com/angr/pyvex.git#commit=v9.2.49
 	source = git+https://github.com/angr/vex.git
 	sha512sums = SKIP
 	sha512sums = SKIP
