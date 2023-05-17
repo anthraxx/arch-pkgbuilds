@@ -1,7 +1,7 @@
 pkgbase = glslang
 	pkgdesc = OpenGL and OpenGL ES shader front end and validator
 	pkgver = 12.1.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/KhronosGroup/glslang
 	arch = x86_64
 	license = BSD
