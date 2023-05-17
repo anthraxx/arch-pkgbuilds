@@ -1,7 +1,7 @@
 pkgbase = iaito
 	pkgdesc = Qt and C++ GUI for radare2 reverse engineering framework
 	pkgver = 5.8.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/radareorg/iaito
 	arch = x86_64
 	license = GPL3
