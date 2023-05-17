@@ -1,10 +1,10 @@
 pkgbase = pycharm-community-edition
 	pkgdesc = Python IDE for Professional Developers
-	pkgver = 2023.1
-	pkgrel = 2
+	pkgver = 2023.1.1
+	pkgrel = 1
 	url = https://www.jetbrains.com/pycharm/
 	arch = x86_64
-	license = APACHE
+	license = Apache
 	makedepends = git
 	makedepends = java-environment-openjdk=17
 	makedepends = python-setuptools
@@ -18,17 +18,15 @@ pkgbase = pycharm-community-edition
 	depends = libdbusmenu-glib
 	optdepends = ipython: IPython integration for Python 3
 	options = !debug
-	source = git+https://github.com/JetBrains/intellij-community.git#tag=pycharm/231.8109.197
-	source = idea-android::git+https://github.com/JetBrains/android.git#tag=pycharm/231.8109.197
+	source = git+https://github.com/JetBrains/intellij-community.git#tag=pycharm/231.8770.66
+	source = idea-android::git+https://github.com/JetBrains/android.git#tag=pycharm/231.8770.66
 	source = pycharm.desktop
 	source = pycharm.sh
 	source = enable-no-jdr.patch
-	source = fix-compile-cython-extensions-error.patch
 	sha256sums = SKIP
 	sha256sums = SKIP
-	sha256sums = f727119ec7c8b96820e80712b1ee342de6a94ff72402e8f2d390cbff702f9b21
+	sha256sums = 70ae8df10243db2dbc454c0d8e273235707ecb1821a9e8a2e70669a1739fc1af
 	sha256sums = f4c4f1dfac7fa89ac1ea407904b19d0513d481b2f6f562672d02bfa4ce32c1ff
 	sha256sums = af736aad3e3df7e6196944860521dfbdad1e9f7ecc04ac4f38a067f1b63963e5
-	sha256sums = cf7258f6fb2eb7dfe45c18719e36a8ab167a0c6e66cc7fcd9c0381a17da32c7e
 
 pkgname = pycharm-community-edition
