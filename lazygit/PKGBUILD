@@ -4,7 +4,7 @@
 # Contributor: fuero <fuerob@gmail.com>
 
 pkgname=lazygit
-pkgver=0.37.0
+pkgver=0.38.2
 pkgrel=1
 pkgdesc='Simple terminal UI for git commands'
 url='https://github.com/jesseduffield/lazygit'
@@ -13,8 +13,8 @@ license=('MIT')
 depends=('git' 'glibc')
 makedepends=('go')
 source=("${url}/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz")
-sha256sums=('8545f3cffe110de80c88859cd11b42eaccb71f4c239c5bc2bff841f623438296')
-b2sums=('8fb82b70ea2c5188b0d9fd4e015f5e525fd64f82c3e1af33e268cca500eb3c0dd9687dceacfba40439f65e31b95097d4550d892de0c942dbdc3e4695573264cf')
+sha256sums=('2e727db952022c0518443d18c9b8a97a882970b93c5ab198ff33bb8ed2166c2f')
+b2sums=('c3dcc40f0accecceda1b663503e522076ba98fb09268f65f95af0c79e51ac6f9706a0cd18ca8b13f3b3b855ca0ebd665a9fd083d1f5257c652b1e68b3677d00e')
 
 build() {
   cd ${pkgname}-${pkgver}
